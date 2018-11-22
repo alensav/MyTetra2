@@ -18,6 +18,12 @@
     <node crypt="" id="15428291222j4did7fjo" name="INTERNET">
      <recordtable>
       <record id="15428292447usn0cju03" name="Диск 3" author="alensav" url="https://yandex.ru/blog/disk/novoe-prilozhenie-disk-3-0-dlya-kompyutera" tags="yandex disk, disk, cloud" ctime="20181121224044" dir="1542829244h17ukk2f46" file="text.html"/>
+      <record id="15429037895di1ct8d98" name="ОС Альт 8" author="alensav" url="https://www.altlinux.org/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F/8" tags="операционная, система" ctime="20181122192309" dir="1542903789qqx8gmoz2k" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1542902714110zpfnt2z" name="Time Capsule">
+     <recordtable>
+      <record id="1542902890hx7qb16whi" name="Time_Capsule_RUN" author="alensav" url="" tags="Time, Capsule, настройка" ctime="20181122190810" dir="1542902890gf3wusbh1d" file="text.html"/>
      </recordtable>
     </node>
    </node>
