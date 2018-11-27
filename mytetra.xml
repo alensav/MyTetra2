@@ -1,42 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mytetradoc>
 <root>
-<<<<<<< HEAD
- <format version="1" subversion="1"/>
+ <format version="1" subversion="1" />
  <content>
-  <node id="1" name="My_Tetra">
+  <node id="1" name="Rename me" >
    <recordtable>
-    <record dir="0000000001" url="" tags="MyTetra, Qt" author="" id="1" ctime="20081210124656" name="Welcome to MyTetra!" file="text.html"/>
+    <record dir="0000000001" url="" tags="MyTetra, Qt" author="" ctime="20081210124656" id="1" name="Welcome to MyTetra!" file="text.html" />
    </recordtable>
-=======
- <format version="1" subversion="2"/>
- <content>
-  <node crypt="" id="1300000000aaaaaaaaa1" name="Rename me">
-   <recordtable>
-    <record id="1300000000aaaaaaaaa3" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1300000000aaaaaaaaa2" file="text.html"/>
-   </recordtable>
-   <node crypt="" id="1542782680mc12djozri" name="SAV_MYtetra_2018">
-    <recordtable>
-     <record id="1542782827i69ks8muc4" name="MyTetra" author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/105" tags="MyTetra" ctime="20181121094707" dir="15427828274e05gu4k9v" file="text.html"/>
-     <record id="1542881860ocb22564q8" name="MyTetra_sync" author="alensav" url="" tags="https://webhamster.ru/site/page/index/articles/projectcode/170" ctime="20181122131740" dir="1542881860e7qhptg3hv" file="text.html"/>
-     <record id="1542883627oizah2x48w" name="GIT" author="alensav" url="" tags="git&lt; настройки" ctime="20181122134707" dir="1542883627lcxwufigk8" file="text.html"/>
-     <record id="1542885665sn47w0u0ob" name="GitHub и Git - создание и работа с репозиторием" author="alensav" url="http://gearmobile.github.io/git/github-and-git/" tags="git, настройка" ctime="20181122142105" dir="1542885665wa7oin1f8w" file="text.html"/>
-     <record id="154288800246zush6cyi" name="Настройка Git - Конфигурирование Git" author="alensav" url="https://git-scm.com/book/ru/v1/%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Git-%D0%9A%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-Git" tags="git, настройки" ctime="20181122150002" dir="1542888002rxiytj9an0" file="text.html"/>
-     <record id="1542959146ihpaq7yyw8" name="MyTetra1_рипозиторий" author="" url="" tags="рипозиторий, база данных" ctime="20181123104546" dir="1542959146v9e83ddym3" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="15428291222j4did7fjo" name="INTERNET">
-     <recordtable>
-      <record id="15428292447usn0cju03" name="Диск 3" author="alensav" url="https://yandex.ru/blog/disk/novoe-prilozhenie-disk-3-0-dlya-kompyutera" tags="yandex disk, disk, cloud" ctime="20181121224044" dir="1542829244h17ukk2f46" file="text.html"/>
-      <record id="15429037895di1ct8d98" name="ОС Альт 8" author="alensav" url="https://www.altlinux.org/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F/8" tags="операционная, система" ctime="20181122192309" dir="1542903789qqx8gmoz2k" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1542902714110zpfnt2z" name="Time Capsule">
-     <recordtable>
-      <record id="1542902890hx7qb16whi" name="Time_Capsule_RUN" author="alensav" url="" tags="Time, Capsule, настройка" ctime="20181122190810" dir="1542902890gf3wusbh1d" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
->>>>>>> d8d2b12bf9132ce12a31a4b550efec419c85f127
   </node>
  </content>
 </root>
