@@ -6,6 +6,7 @@
   <node id="1" name="MyTetra">
    <recordtable>
     <record dir="0000000001" url="" tags="MyTetra, Qt" author="" id="1" ctime="20081210124656" name="Welcome to MyTetra!" file="text.html"/>
+    <record dir="1543433630hm3u3j0ank" crypt="0" url="https://getpocket.com/a/read/1980660264" tags="mytetra" author="alensav" id="1543433630x7zyfv63aq" ctime="20181128223350" name="Состояния файлов в гите / Системы контроля версий (GIT)" file="text.html"/>
    </recordtable>
   </node>
  </content>
