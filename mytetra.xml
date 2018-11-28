@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mytetradoc>
 <root>
- <format version="1" subversion="1" />
+ <format version="1" subversion="1"/>
  <content>
-  <node id="1" name="Rename me" >
+  <node id="1" name="MyTetra">
    <recordtable>
-    <record dir="0000000001" url="" tags="MyTetra, Qt" author="" ctime="20081210124656" id="1" name="Welcome to MyTetra!" file="text.html" />
+    <record dir="0000000001" url="" tags="MyTetra, Qt" author="" id="1" ctime="20081210124656" name="Welcome to MyTetra!" file="text.html"/>
    </recordtable>
   </node>
  </content>
