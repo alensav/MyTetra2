@@ -1,30 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mytetradoc>
 <root>
-	<format version="1" subversion="2"/>
-	<content>
-		<node crypt="" id="1" name="MyTetra">
-			<recordtable>
-				<record id="1" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="0000000001" file="text.html"/>
-			</recordtable>
-			<node crypt="" id="1545287782d81liitbly" name="ИНСРУКЦИИ">
-				<recordtable>
-					<record id="15452877824a8dyhlabo" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="154528778272m0yt2pcm" file="text.html"/>
-					<record id="1545288639omw4i1upbs" name="Ветвление в Git - Удалённые ветки" author="alensav" url="https://git-scm.com/book/ru/v1/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B2%D0%B5%D1%82%D0%BA%D0%B8" tags="git, mytetra, настройки" ctime="20181220095039" dir="1545288639o0ycklrozi" file="text.html"/>
-					<record id="15452905100ja8e4mw3b" name="Список локальных веток" author="" url="https://pingvinus.ru/git/1572" tags="" ctime="20181220102150" dir="1545290510vw30h6pggw" file="text.html"/><record id="1545291363bde8chmghf" name="Как посмотреть удаленные репозитории в Git" author="" url="https://pingvinus.ru/git/1644" tags="" ctime="20181220103603" dir="1545291363yl685ot2a8" file="text.html"/></recordtable>
-				<node crypt="" id="1545287782bd049s02ti" name="Rename me">
-					<recordtable>
-						<record id="1545287782vsf7dz1lgr" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1545287782456kkfhr8j" file="text.html"/>
-					</recordtable>
-					<node crypt="" id="1545287782zjejv7485w" name="Rename me">
-						<recordtable>
-							<record id="15452877823uqbs5kfls" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="15452877829grb7y47w6" file="text.html"/>
-						</recordtable>
-						<node id="15452877829v2s0tg6c7" name="Rename me">
-							<recordtable>
-								<record id="15452877824ab8346pq2" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1545287782ipm2a5xpsv" file="text.html"/>
-							</recordtable>
-						</node>
-					</node>
-				</node>
-			</node>
-		</node>
-	</content></root>
+ <format version="1" subversion="2"/>
+ <content>
+  <node crypt="" id="1" name="MyTetra">
+   <recordtable>
+    <record id="1" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="0000000001" file="text.html"/>
+   </recordtable>
+   <node crypt="" id="1545287782d81liitbly" name="ИНСРУКЦИИ">
+    <recordtable>
+     <record id="15452877824a8dyhlabo" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="154528778272m0yt2pcm" file="text.html"/>
+     <record id="1545288639omw4i1upbs" name="Ветвление в Git - Удалённые ветки" author="alensav" url="https://git-scm.com/book/ru/v1/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B2%D0%B5%D1%82%D0%BA%D0%B8" tags="git, mytetra, настройки" ctime="20181220095039" dir="1545288639o0ycklrozi" file="text.html"/>
+     <record id="15452905100ja8e4mw3b" name="Список локальных веток" author="" url="https://pingvinus.ru/git/1572" tags="" ctime="20181220102150" dir="1545290510vw30h6pggw" file="text.html"/>
+     <record id="1545291363bde8chmghf" name="Как посмотреть удаленные репозитории в Git" author="" url="https://pingvinus.ru/git/1644" tags="" ctime="20181220103603" dir="1545291363yl685ot2a8" file="text.html"/>
+     <record id="1545312229mljrwg916q" name="Мой набор команд при работе с git" author="alensav" url="https://webdevkin.ru/posts/raznoe/moj-nabor-komand-pri-rabote-s-git" tags="git, command, команды" ctime="20181220162349" dir="154531222900frgdx971" file="text.html"/>
+    </recordtable>
+    <node crypt="" id="1545287782bd049s02ti" name="Rename me">
+     <recordtable>
+      <record id="1545287782vsf7dz1lgr" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1545287782456kkfhr8j" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="1545287782zjejv7485w" name="Rename me">
+      <recordtable>
+       <record id="15452877823uqbs5kfls" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="15452877829grb7y47w6" file="text.html"/>
+      </recordtable>
+      <node id="15452877829v2s0tg6c7" name="Rename me">
+       <recordtable>
+        <record id="15452877824ab8346pq2" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1545287782ipm2a5xpsv" file="text.html"/>
+       </recordtable>
+      </node>
+     </node>
+    </node>
+   </node>
+  </node>
+ </content>
+</root>
