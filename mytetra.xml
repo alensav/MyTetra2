@@ -3,26 +3,11 @@
 <root>
  <format version="1" subversion="2"/>
  <content>
-  <node crypt="" id="1" name="Rename me">
+  <node crypt="" id="1" name="MyTetra">
    <recordtable>
     <record id="1" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="0000000001" file="text.html"/>
    </recordtable>
-   <node crypt="" id="15452356466w2neg1k55" name="Rename me">
-    <recordtable>
-     <record id="1545235646of5hp5ue3j" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="15452356469lchbtgmre" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="1545279308fgrf9dagw2" name="Rename me">
-     <recordtable>
-      <record id="1545279308ivh8zys1kd" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1545279308h87weatx6x" file="text.html"/>
-     </recordtable>
-     <node id="1545279308xzka6ghbe0" name="Rename me">
-      <recordtable>
-       <record id="1545279308oxlr6nuqwb" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1545279308gqs3odowe1" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-   </node>
-   <node crypt="" id="1545287782d81liitbly" name="Rename me">
+   <node crypt="" id="1545287782d81liitbly" name="ИНСРУКЦИИ">
     <recordtable>
      <record id="15452877824a8dyhlabo" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="154528778272m0yt2pcm" file="text.html"/>
     </recordtable>
