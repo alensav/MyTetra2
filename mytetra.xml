@@ -1,34 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mytetradoc>
 <root>
-	<format version="1" subversion="2"/>
-	<content>
-		<node crypt="" id="1" name="MyTetra">
-			<recordtable>
-				<record id="1" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="0000000001" file="text.html"/>
-			</recordtable>
-			<node crypt="" id="1545287782d81liitbly" name="ИНСРУКЦИИ">
-				<recordtable>
-					<record id="15452877824a8dyhlabo" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="154528778272m0yt2pcm" file="text.html"/>
-					<record id="1545288639omw4i1upbs" name="Ветвление в Git - Удалённые ветки" author="alensav" url="https://git-scm.com/book/ru/v1/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B2%D0%B5%D1%82%D0%BA%D0%B8" tags="git, mytetra, настройки" ctime="20181220095039" dir="1545288639o0ycklrozi" file="text.html"/>
-					<record id="15452905100ja8e4mw3b" name="Список локальных веток" author="" url="https://pingvinus.ru/git/1572" tags="" ctime="20181220102150" dir="1545290510vw30h6pggw" file="text.html"/>
-					<record id="1545291363bde8chmghf" name="Как посмотреть удаленные репозитории в Git" author="" url="https://pingvinus.ru/git/1644" tags="" ctime="20181220103603" dir="1545291363yl685ot2a8" file="text.html"/>
-					<record id="1545312229mljrwg916q" name="Мой набор команд при работе с git" author="alensav" url="https://webdevkin.ru/posts/raznoe/moj-nabor-komand-pri-rabote-s-git" tags="git, command, команды" ctime="20181220162349" dir="154531222900frgdx971" file="text.html"/>
-					<record id="1545322107i3zuud8fb5" name="Сокращенный набор команд" author="alensav" url="" tags="git, command, команды, настройки" ctime="20181220190827" dir="1545322107lor1qg7b80" file="text.html"/>
-					<record id="1545362667re3eiulajg" name="gitk и git-gui " author="" url="https://git-scm.com/book/ru/v2/Appendix-A%3A-Git-%D0%B2-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85-%D0%BE%D0%BA%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B" tags="" ctime="20181221062427" dir="1545362667kviv227fwk" file="text.html"/></recordtable>
-				<node crypt="" id="1545287782bd049s02ti" name="Rename me">
-					<recordtable>
-						<record id="1545287782vsf7dz1lgr" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1545287782456kkfhr8j" file="text.html"/>
-					</recordtable>
-					<node crypt="" id="1545287782zjejv7485w" name="Rename me">
-						<recordtable>
-							<record id="15452877823uqbs5kfls" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="15452877829grb7y47w6" file="text.html"/>
-						</recordtable>
-						<node id="15452877829v2s0tg6c7" name="Rename me">
-							<recordtable>
-								<record id="15452877824ab8346pq2" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1545287782ipm2a5xpsv" file="text.html"/>
-							</recordtable>
-						</node>
-					</node>
-				</node>
-			</node>
-		</node>
-	</content></root>
+ <format version="1" subversion="2"/>
+ <content>
+  <node crypt="" id="1" name="MyTetra">
+   <recordtable>
+    <record id="1" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="0000000001" file="text.html"/>
+    <record id="1545364620ubmhusyfmx" name="Кросс-платформенный персональный менеджер." author="" url="https://континентсвободы.рф/%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B/mytetra-%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8.html" tags="mytetra" ctime="20181221065700" dir="1545364620qrppilpvr3" file="text.html"/>
+   </recordtable>
+   <node crypt="" id="1545287782d81liitbly" name="ИНСРУКЦИИ">
+    <recordtable>
+     <record id="15452877824a8dyhlabo" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="154528778272m0yt2pcm" file="text.html"/>
+     <record id="1545288639omw4i1upbs" name="Ветвление в Git - Удалённые ветки" author="alensav" url="https://git-scm.com/book/ru/v1/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%A3%D0%B4%D0%B0%D0%BB%D1%91%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B2%D0%B5%D1%82%D0%BA%D0%B8" tags="git, mytetra, настройки" ctime="20181220095039" dir="1545288639o0ycklrozi" file="text.html"/>
+     <record id="15452905100ja8e4mw3b" name="Список локальных веток" author="" url="https://pingvinus.ru/git/1572" tags="" ctime="20181220102150" dir="1545290510vw30h6pggw" file="text.html"/>
+     <record id="1545291363bde8chmghf" name="Как посмотреть удаленные репозитории в Git" author="" url="https://pingvinus.ru/git/1644" tags="" ctime="20181220103603" dir="1545291363yl685ot2a8" file="text.html"/>
+     <record id="1545312229mljrwg916q" name="Мой набор команд при работе с git" author="alensav" url="https://webdevkin.ru/posts/raznoe/moj-nabor-komand-pri-rabote-s-git" tags="git, command, команды" ctime="20181220162349" dir="154531222900frgdx971" file="text.html"/>
+     <record id="1545322107i3zuud8fb5" name="Сокращенный набор команд" author="alensav" url="" tags="git, command, команды, настройки" ctime="20181220190827" dir="1545322107lor1qg7b80" file="text.html"/>
+     <record id="1545362667re3eiulajg" name="gitk и git-gui " author="" url="https://git-scm.com/book/ru/v2/Appendix-A%3A-Git-%D0%B2-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85-%D0%BE%D0%BA%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B" tags="" ctime="20181221062427" dir="1545362667kviv227fwk" file="text.html"/>
+    </recordtable>
+    <node crypt="" id="1300000000aaaaaaaaa1" name="MyTetra">
+     <recordtable>
+      <record id="1300000000aaaaaaaaa3" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1300000000aaaaaaaaa2" file="text.html"/>
+      <record id="154395238261cdn75c38" name="Git_Lab_documents" author="alensav" url="" tags="git, настройки" ctime="20181204223942" dir="1543952382jqvw57nud4" file="text.html"/>
+      <record id="1543956914oeuuyvc44o" name="Графический_интерфейс_GIT GUI" author="alensav" url="https://git-scm.com/book/ru/v2/Appendix-A%3A-Git-%D0%B2-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85-%D0%BE%D0%BA%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B" tags="mytetra, настройкиб графический" ctime="20181204235514" dir="15439569142zp4n9a2sq" file="text.html"/>
+      <record id="1544080871l5vctfb4u8" name="Синхронизация MyTetra" author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/170" tags="sync, синхронизация, mytetra" ctime="20181206102111" dir="1544080871jfy9lkki92" file="text.html"/>
+      <record id="1544083649hz73m9h5w3" name="Синхронизация данных MyTetra с другими компьютерами" author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/170" tags="sync, синхронизация" ctime="20181206110729" dir="1544083649wpm8hfn9zy" file="text.html"/>
+      <record id="154419695825ztvwh9yi" name="Управление окном MyTetra " author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/499" tags="mytetra, окна" ctime="20181207183558" dir="15441969589wjijyjhlx" file="text.html"/>
+      <record id="1544456078921jn2qjde" name="Tig – консольный браузер для репозиториев Git" author="alensav" url="https://getpocket.com/a/read/2405847951" tags="git, рипозиторий, tig" ctime="20181210183438" dir="15444560788uk01f27os" file="text.html"/>
+      <record id="15445457845gjbf5dnl3" name="ОПЕРАТИВНЫЕ КОМАНДЫ" author="alensav" url="" tags="команды,git, " ctime="20181211192944" dir="1544545784e7qkkr9mfm" file="text.html"/>
+      <record id="1544956908mzt6vb58we" name="ОГЛАВЛЕНИЕ_UBUNTU" author="alensav" url="" tags="настройки. данные, команды" ctime="20181216134148" dir="15449569089z81cju46e" file="text.html"/>
+      <record id="1545139696z548o3rchc" name="ВЕТВИ" author="alensav" url="https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F" tags="git, ветви" ctime="20181218162816" dir="1545139696fnlyxn21q5" file="text.html"/>
+      <record id="15453034211cbbpr0qvv" name="Сведения о remote файлах" author="alensav" url="" tags="git, настройки" ctime="20181220135701" dir="1545303421u241d0pv9b" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
+      <recordtable>
+       <record id="1543732416pofscthyn3" name="SSH_пересылка файлов" author="alensav" url="" tags="ssh_, ubuntu" ctime="20181202093336" dir="1543732416t8o93qjbis" file="text.html"/>
+       <record id="1543739752llscxwqfwp" name="XEOMA" author="alensav" url="" tags="" ctime="20181202113552" dir="1543739752xn467tdg96" file="text.html"/>
+       <record id="1543742325vnds07cd1i" name="XEOMA_РУКОВОДСТВО" author="" url="" tags="" ctime="20181202121845" dir="1543742325si41cnd6b2" file="text.html"/>
+       <record id="15439373093rjt28u1ry" name="Android_на_Virtualbox" author="alensav" url="http://lumpics.ru/installation-android-on-virtualbox/" tags="android, virtual" ctime="20181204182829" dir="1543937309o0xzl428sb" file="text.html"/>
+       <record id="15439450349pxfcb9q1b" name="Flash player" author="alensav" url="https://support.mozilla.org/ru/kb/upravlenie-plaginom-flash" tags="ubuntu, настройки" ctime="20181204203714" dir="15439450343as5j2ma0o" file="text.html"/>
+       <record id="15439924086nqp263ahw" name="dd_Commands" author="alensav" url="https://losst.ru/kak-sdelat-zagruzochnuyu-fleshku-ubuntu" tags="dd, command, командыб загрузочная" ctime="20181205094648" dir="1543992408g897o5ntba" file="text.html"/>
+       <record id="15440216859px9ixnjh6" name="rsync _СИНХРОНИЗАЦИЯ" author="alensav" url="https://webhamster.ru/webmytetra#" tags="sync, синхронизация, резервирование" ctime="20181205175445" dir="1544021685b4gtc9nllb" file="text.html"/>
+       <record id="1544022215rlqi4w808x" name="Обзор систем бекапа в ubuntu" author="alensav" url="https://webhamster.ru/webmytetra#" tags="" ctime="20181205180335" dir="154402221590u2rln80a" file="text.html"/>
+       <record id="15440227495kk4agnh16" name="rsnapshot " author="alensav" url="https://habr.com/post/45912/" tags="резервное, копир, sync" ctime="20181205181229" dir="1544022749p2k0eqzc0m" file="text.html"/>
+       <record id="1544029759unlhycpo4t" name="Postfix" author="alensav" url="https://1cloud.ru/help/linux/postfix-dovecot-na-ubuntu" tags="mail, почта" ctime="20181205200919" dir="1544029759vgb6xe3elv" file="text.html"/>
+       <record id="1544086048v5wiwuga48" name="Запуск команд по времени" author="alensav" url="https://www.opennet.ru/docs/RUS/linux_base/node40.html" tags="command, time, команда, время" ctime="20181206114728" dir="1544086048ebq1esace6" file="text.html"/>
+       <record id="154409549373h0ip5hpq" name=" watch" author="alensav" url="https://www.nixp.ru/recipes/33.html" tags="timr, время" ctime="20181206142453" dir="1544095493cp5on2ijc2" file="text.html"/>
+       <record id="1544097005zde4u9p9ag" name="CP_remote_local" author="alensav" url="https://www.shellhacks.com/ru/copy-files-ssh-10-examples/" tags="cp, copir, копир" ctime="20181206145005" dir="1544097005ro4oo2ttji" file="text.html">
+        <files>
+         <file id="1544612815znr6xgpuum" fileName="Выделение_001.png" link="/home/alensav/Изображения/Выделение_001.png" type="link"/>
+        </files>
+       </record>
+       <record id="1544279361eejsoymjox" name="как закрыть зависшее приложение на ubuntu" author="alensav" url="https://www.google.com/search?client=ubuntu&amp;channel=fs&amp;q=%D0%BA%D0%B0%D0%BA+%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C+%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D1%88%D0%B5%D0%B5+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BD%D0%B0+ubuntu&amp;ie=utf-8&amp;oe=utf-8" tags="kill" ctime="20181208172921" dir="1544279361xkvhqsh0hj" file="text.html"/>
+       <record id="1544432595a3c12faafz" name="Время" author="alensav" url="https://geeksmagazine.org/post/186/kak-pokazat-vremya-v-linuks-terminale" tags="время, time, настройка" ctime="20181210120315" dir="1544432595ywoq1z2od5" file="text.html"/>
+       <record id="1544433153jnvjn8im9b" name="ИНДИКАТОРЫ" author="alensav" url="https://geeksmagazine.org/post/242/top-10-poleznyh-appletov-i-indikatorov-dlya-ubuntu-1404-lts" tags="индикаторы, настройки" ctime="20181210121233" dir="1544433153gg9h3117dk" file="text.html"/>
+       <record id="1544618576bzona7su8e" name="Экпериментальное изучение" author="alensav" url="" tags="настройки, команды" ctime="20181212154256" dir="1544618576fe960n2phx" file="text.html"/>
+       <record id="1544619803dm32slycl6" name="ССЫЛКИ" author="alensav" url="" tags="ссылки, настройки, база, данных" ctime="20181212160323" dir="1544619803xcwp7vpdwz" file="text.html"/>
+       <record id="15446423376xl1hf7xe7" name="Путеводитель_LINUX" author="alenasav" url="http://linsoft.info/" tags="linux, ос, настройки, приложения" ctime="20181212221857" dir="15446423377otvxhagin" file="text.html"/>
+       <record id="154471488731mlgjil13" name="ПОРТЫ (PORT)" author="alensav" url="http://blog.sedicomm.com/2018/04/08/kak-proverit-dostupnost-otkrytost-porta-portov-ispolzuya-komandu-nc/" tags="порт, port, проброска, связь" ctime="20181213182807" dir="1544714887k1mm5me7tu" file="text.html"/>
+       <record id="1544778372aptap7ozij" name="Программы для ubuntu" author="alensav" url="" tags="приложения, программы, поиск" ctime="20181214120612" dir="15447783722ig8xnt2i8" file="text.html"/>
+       <record id="1544786642dojfkp8tup" name="NETWORK" author="alensav" url="" tags="сеть, настройка, локальная" ctime="20181214142402" dir="1544786642w71fg5n9xm" file="text.html"/>
+       <record id="1544858699zl2vuz6k8n" name="Ярлыки программ" author="alensav" url="" tags="ярлык, приложение, программа" ctime="20181215102459" dir="1544858699cjanx9x7dw" file="text.html"/>
+       <record id="15451183299klk4bpwdm" name="Распознавание текста" author="alensav" url="https://help.ubuntu.ru/fullcircle/36/top5_36" tags="текст, ocr, распознавание" ctime="20181218103209" dir="154511832945bq0uszp4" file="text.html"/>
+      </recordtable>
+      <node crypt="" id="154382674372he9wscu4" name="GitLab">
+       <recordtable>
+        <record id="1543826838fphszo46kq" name="Git_Lab-command" author="alensav" url="" tags="GitLab, site" ctime="20181203114718" dir="1543826838j8j028wuk7" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="154443071820y1k0o07v" name="ОБОРУДОВАНИЕ">
+       <recordtable>
+        <record id="1544430870bvxhcpvvme" name="Чтение температуры процессора" author="alensav" url="https://geeksmagazine.org/post/409/kak-proverit-temperaturu-protsessora-v-ubuntu" tags="температура" ctime="20181210113430" dir="1544430870av2abqbylf" file="text.html"/>
+       </recordtable>
+      </node>
+      <node crypt="" id="1545040023lz8ct8rx30" name="Отечественное ПО">
+       <recordtable>
+        <record id="1545041636ic6pq5m2pw" name="Отечественное ПО" author="alensav" url="" tags="ос, операционная, система" ctime="20181217131356" dir="1545041636hjsqble2yi" file="text.html"/>
+       </recordtable>
+      </node>
+     </node>
+     <node crypt="" id="1544111400vnc868hc3v" name="GRUB">
+      <recordtable>
+       <record id="1544111478ublyns1g8z" name="GRUB" author="alensav" url="https://losst.ru/nastrojka-zagruzchika-grub" tags="grub, загрузка" ctime="20181206185118" dir="1544111478newz228zvr" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1544800856rl0gmtktm0" name="INTERNET">
+      <recordtable>
+       <record id="1544800918skmgdunurm" name="TEST SPEED" author="alensav" url="https://www.shellhacks.com/ru/test-internet-speed-linux-command-line/" tags="скорость, тест, замер" ctime="20181214182158" dir="1544800918ibwyrysssu" file="text.html"/>
+       <record id="15449592467bcky3sisi" name="Облачные операционные системы. ТОП-6 лучших Cloud PC" author="alensav" url="http://la.by/news/oblachnye-operacionnye-sistemy-top-6-luchshih-cloud-pc" tags="облачный, виртуальный, интернет" ctime="20181216142046" dir="1544959246tey4e12pno" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="15451483932alkp4upu2" name="РЕЦЕПТЫ">
+      <recordtable>
+       <record id="1545148485tbnadyjzg6" name="Рецепты_2018-2019" author="alensav" url="" tags="" ctime="20181218185445" dir="1545148485jxkkhpobuy" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
+   </node>
+  </node>
+ </content>
+</root>
