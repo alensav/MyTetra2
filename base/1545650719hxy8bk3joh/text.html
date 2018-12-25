@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:x-large; font-weight:600;">Как установить и настроить Rsync</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://ru.wikipedia.org/wiki/Rsync"><span style=" text-decoration: underline; color:#0000ff;">Wiki</span></a> : <span style=" font-weight:600;">Rsync</span> (англ. Remote Synchronization) — программа для UNIX-подобных систем, которая выполняет синхронизацию файлов и каталогов в двух местах с минимизированием трафика, используя кодирование данных при необходимости. Важным отличием rsync от многих других программ/протоколов является то, что зеркалирование осуществляется одним потоком в каждом направлении (а не по одному или несколько потоков на каждый файл). rsync может копировать или отображать содержимое каталога и копировать файлы, опционально используя сжатие и рекурсию. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Rsync является общепризнанным программным обеспечением, которое работает надежно и быстро. Бэкапленд использует его для оптимального механизма создания резервных копий, а так же по причине его массовой распространенности на серверах, что означает, что вы сможете работать с нашей системой без каких-либо настроек на вашей стороне. Но из каждого правила существуют исключения, поэтому ниже мы предлагаем подробную инструкцию как установить и настроить Rsync на серверах с операционными системами Debian, Ubuntu, Centos и FreeBSD. </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://go.backupland.com/faq/install_rsync/install_rsync.html#rsync1"><span style=" text-decoration: underline; color:#0000ff;">Как проверить установлен ли rsync</span></a> <a href="https://go.backupland.com/faq/install_rsync/install_rsync.html#rsync2"><span style=" text-decoration: underline; color:#0000ff;">Как установить rsync</span></a> <a href="https://go.backupland.com/faq/install_rsync/install_rsync.html#rsync3"><span style=" text-decoration: underline; color:#0000ff;">Для чего нужно настраивать rsync</span></a> <a href="https://go.backupland.com/faq/install_rsync/install_rsync.html#rsync4"><span style=" text-decoration: underline; color:#0000ff;">Как настроить rsync для FreeBSD</span></a> <a href="https://go.backupland.com/faq/install_rsync/install_rsync.html#rsync5"><span style=" text-decoration: underline; color:#0000ff;">Как настроить rsync для Linux Debian и Ubuntu</span></a> <a href="https://go.backupland.com/faq/install_rsync/install_rsync.html#rsync6"><span style=" text-decoration: underline; color:#0000ff;">Как настроить rsync для Centos 6</span></a> <a href="https://go.backupland.com/faq/install_rsync/install_rsync.html#rsync7"><span style=" text-decoration: underline; color:#0000ff;">Как настроить rsync для Centos 7</span></a> <a href="https://go.backupland.com/faq/install_rsync/install_rsync.html#rsync8"><span style=" text-decoration: underline; color:#0000ff;">Описание полей файла конфигурации rsyncd.conf</span></a> </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="rsync1"></a><span style=" font-size:large; font-weight:600;">П</span><span style=" font-size:large; font-weight:600;">роверка:</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Проверьте установлен ли rsync: </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">выполните команду в ssh: whereis rsync если ответом будет /usr/local/bin/rsync или /usr/bin/rsync то rsync у вас есть, вам его устанавливать не нужно. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Так же можете проверить, просто запустив команду в ssh: rsync или /usr/local/bin/rsync или /usr/bin/rsync если будет ответ, а не ошибка, тогда вам его устанавливать не нужно. </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="rsync2"></a><span style=" font-size:large; font-weight:600;">У</span><span style=" font-size:large; font-weight:600;">становка:</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Описанные далее установка и настройка rsync возможны, только если у Вас есть права <span style=" font-weight:600;">root</span>. Если таких прав нет, напишите Вашему системному администратору или в техническую поддержку хостинга с просьбой установить rsync. <br /></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Для FreeBSD:</span>cd /usr/ports/net/rsync<br />make install </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Для Linux Debian и Ubuntu:</span>apt-get install rsync </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Для Centos:</span>yum install -y rsync </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="rsync3"></a><span style=" font-size:large; font-weight:600;">Н</span><span style=" font-size:large; font-weight:600;">астройка:</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Настраивать rsync нужно только в одном случае, если Вы хотите, чтобы наша система создавала резервные копии не через SSH, а через демон rsyncd. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Через файл конфигурации настройки rsyncd вы можете: </p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Задать своего пользователя и пароль </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Разрешить вход к вам только с определенного IP/хоста (наш хост при заказе мы вам высылаем) </li>
+<li style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Разрешить доступ к конкретным директориям и файлам на вашей системе </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="rsync4"></a><span style=" font-weight:600;">Н</span><span style=" font-weight:600;">астройка rsync для FreeBSD:</span>cd /usr/local/etc/ </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">cоздаем файл приветствия <span style=" font-style:italic;">(не обязательно)</span>echo &quot;Hello from rsync server&quot; &gt; rsyncd.motd<br />echo &quot;Server Adress: My SuperHost 1.1.1.1&quot; &gt;&gt; rsyncd.motd </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">создаем файл c именем пользователя и паролемecho &quot;backup:<span style=" font-weight:600;">ПАРОЛЬ</span>&quot; &gt; rsyncd.scrt<br />chmod 0600 /usr/local/etc/rsyncd.scrt </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">где <span style=" font-weight:600;">ПАРОЛЬ</span> тот, что мы выдаем вам при создании в панели управления задания на резервное копирование. В дальнейшем вы можете изменить пароль на свой в файле rsyncd.scrt и на сервере хранения резервных копий в файле /var/www/rc-******/data/rsyncd.pass, где rc-****** ваш логин на сервер с бэкапами. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Внимание! Если пароли на вашем сервере и сервере с бэкапами не совпадут, резервные копии создаваться не будут. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Далее создаем основной конфиг rsyncd.conf </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">1) cd /usr/local/etc/ </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2) mv rsyncd.conf rsync.original </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3)<br />cat &lt;&lt; EOF &gt;&gt; /usr/local/etc/rsyncd.conf<br />pid file = /var/run/rsyncd.pid<br />motd file = /usr/local/etc/rsyncd.motd<br /><br />uid = root<br />gid = wheel<br />max connection = 4<br /><br />auth users = backup<br />secrets file = /usr/local/etc/rsyncd.scrt<br /><br />[root]<br />path = /<br />read only = yes<br />host allow = ssh.bkp177.backupland.com<br />EOF </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">4) /usr/local/etc/rc.d/rsyncd restart </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Теперь настраиваем так, чтобы после перезагрузки сервера у вас запускался демон rsyncd </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Делаем отступ с переносом на следующую строку echo &quot;&quot; &gt;&gt; /etc/rc.conf </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Добавлем разрешение запускать при старте echo 'rsyncd_enable=&quot;YES&quot;' &gt;&gt; /etc/rc.conf </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="rsync5"></a><span style=" font-weight:600;">Н</span><span style=" font-weight:600;">астройка rsync для Linux Debian и Ubuntu:</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Находите файл /etc/default/rsync<br />В нем находите строку: <br />RSYNC_ENABLE=false<br />и меняете на: <br />RSYNC_ENABLE=true </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Таким образом мы разрешаем при загрузке сервера запустить демон rsyncd </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Далее создадим папку для наших файлов:mkdir /etc/rsync/<br />cd /etc/rsync/ </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">создаем файл приветствия <span style=" font-style:italic;">(не обязательно)</span>echo &quot;Hello from rsync server&quot; &gt; rsyncd.motd<br />echo &quot;Server Adress: My SuperHost 1.1.1.1&quot; &gt;&gt; rsyncd.motd </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">создаем файл c именем пользователя и паролемecho &quot;backup:<span style=" font-weight:600;">ПАРОЛЬ</span>&quot; &gt; rsyncd.scrt<br />chmod 0600 /etc/rsync/rsyncd.scrt </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">где <span style=" font-weight:600;">ПАРОЛЬ</span> тот, что мы выдаем вам при создании в панели управления задания на резервное копирование. В дальнейшем вы можете изменить пароль на свой в файле rsyncd.scrt и на сервере хранения резервных копий в файле /var/www/rc-******/data/rsyncd.pass, где rc-****** ваш логин на сервер с бэкапами. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Внимание! Если пароли на вашем сервере и сервере с бэкапами не совпадут, резервные копии создаваться не будут. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Далее создаем основной конфиг rsyncd.conf cd /etc/ Обратите внимание на то, что файл rsyncd.conf должен быть расположен в папке /etc/ </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">mv rsyncd.conf rsyncd.old делаем так на всякий случай, вдруг файл такой уже есть </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">cat &lt;&lt; EOF &gt;&gt; /etc/rsyncd.conf<br />pid file = /var/run/rsyncd.pid<br /><br />motd file = /etc/rsync/rsyncd.motd<br /><br />uid = root<br />gid = root<br />max connection = 4<br /><br />auth users = backup<br />secrets file = /etc/rsync/rsyncd.scrt<br /><br />[root]<br />path = /<br />read only = yes<br />host allow = ssh.bkp177.backupland.com<br />EOF </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">/etc/init.d/rsyncd restart </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="rsync6"></a><span style=" font-weight:600;">Н</span><span style=" font-weight:600;">астройка rsync для Centos 6:</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Устанавливаем xinetd (нужен для пуска rsync сервера): yum install -y xinetd </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Находите файл /etc/xinetd.d/rsync, в нем находите строку:<br />disable = yes<br />и меняете на:<br />disable = no </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Перезагружаем сервис xinetd:/etc/init.d/xinetd restart </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Добавляем xinetd в автозапуск:chkconfig xinetd on </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Конфиг создаем такой же как и для Centos 7 (смотри ниже). </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="rsync7"></a><span style=" font-weight:600;">Н</span><span style=" font-weight:600;">астройка rsync для Centos 7:</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Включаем в автозагрузкуsystemctl enable rsyncd.service </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запускаем rsyncd демонsystemctl start rsyncd.service </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Далее создадим папку для наших файлов:mkdir /etc/rsync/<br />cd /etc/rsync/ </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">создаем файл приветствия <span style=" font-style:italic;">(не обязательно)</span>echo &quot;Hello from rsync server&quot; &gt; rsyncd.motd<br />echo &quot;Server Adress: My SuperHost 1.1.1.1&quot; &gt;&gt; rsyncd.motd </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">создаем файл c именем пользователя и паролемecho &quot;backup:<span style=" font-weight:600;">ПАРОЛЬ</span>&quot; &gt; rsyncd.scrt<br />chmod 0600 /etc/rsync/rsyncd.scrt </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">где <span style=" font-weight:600;">ПАРОЛЬ</span> тот, что мы выдаем вам при создании в панели управления задания на резервное копирование. В дальнейшем вы можете изменить пароль на свой в файле rsyncd.scrt и на сервере хранения резервных копий в файле /var/www/rc-******/data/rsyncd.pass, где rc-****** ваш логин на сервер с бэкапами. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Внимание! Если пароли на вашем сервере и сервере с бэкапами не совпадут, резервные копии создаваться не будут. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Далее создаем основной конфиг rsyncd.conf </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">cd /etc/Обратите внимание на то, что файл rsyncd.conf должен быть расположен в папке /etc/ </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">mv rsyncd.conf rsyncd.oldделаем так на всякий случай, вдруг файл такой уже есть. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">cat &lt;&lt; EOF &gt;&gt; /etc/rsyncd.conf<br />pid file = /var/run/rsyncd.pid<br /><br />motd file = /etc/rsync/rsyncd.motd<br /><br />uid = root<br />gid = root<br />max connection = 4<br /><br />auth users = backup<br />secrets file = /etc/rsync/rsyncd.scrt<br /><br />[bkpl]<br />path = /<br />read only = yes<br />host allow = ssh.bkp177.backupland.com<br />EOF </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Применяем настройки<br /><span style=" font-weight:600;">для Centos 7</span>systemctl restart rsyncd.service<span style=" font-weight:600;">для Centos 6</span>service xinetd restart </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если у вас на сервере установлен Firewall вам нужно разрешить входящие соединение на порт 873 </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="rsync8"></a><span style=" font-size:large; font-weight:600;">О</span><span style=" font-size:large; font-weight:600;">писание полей файла конфигурации rsyncd.conf</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Текст конфигурации: </p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">pid file = /var/run/rsyncd.pid</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#pid файл хранящий ID процесса</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">motd file = /usr/local/etc/rsyncd.motd</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#файл приветствия</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">uid = root</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#работа под правами этого пользователя*</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">gid = wheel</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#работа с правами этой группы*</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">max connection = 4</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#кол-во коннектов со стороны сервиса</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">auth users = backup</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#логин пользователя для доступа извне</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">secrets file = <span style=" text-decoration: underline;">/usr/local/etc/</span>rsyncd.scrt</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#файл с логином и паролем для доступа извне</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">[bkpl]</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#секция, в которой описано что можно делать</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">path = /</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#Какую папку можно бэкапить</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">read only = yes</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#Разрешено только бэкапить, восстановить нельзя будет</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">host allow = ssh.bkp177.backupland.com</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">#сервер, где будут храниться резервные копии</p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Внимание! Вместо ssh.bkp177.backupland.com необходимо указать тот хост, который Вы получили при регистрации. Аналогично, путь <span style=" text-decoration: underline;">/usr/local/etc/</span> зависит от того, какая установлена операционная система. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">* Если вы не собираетесь резервировать весь сервер, тогда права root вы можете заменить на права пользователя, файлы которого вы будете бэкапить. </p></body></html>
