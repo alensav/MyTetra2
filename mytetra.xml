@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mytetradoc>
 <root>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< 
->>>>>>> 4d51e5ee5abd731d0e4d17dcd21ef6f64b7d5ed2
- <format version="1" subversion="1" />
- <content>
-  <node id="1300000000aaaaaaaaa1" name="Rename me" >
-   <recordtable>
-    <record dir="1300000000aaaaaaaaa2" url="" tags="MyTetra, Qt" author="" ctime="20081210124656" id="1300000000aaaaaaaaa3" name="Welcome to MyTetra!" file="text.html" />
-=======
->>>>>>> 680fc549f70bfc661893a2571c0da528ead10c75
  <format version="1" subversion="2"/>
  <content>
   <node crypt="" id="1300000000aaaaaaaaa1" name="MyTetra">
    <recordtable>
     <record id="1300000000aaaaaaaaa3" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1300000000aaaaaaaaa2" file="text.html"/>
-<<<<<<< HEAD
-    <record id="1546024947nrnd63skrp" name="sav" author="" url="" tags="" ctime="20181228222227" dir="15460249478ar0yjgn7y" file="text.html"/>
-=======
     <record id="154395238261cdn75c38" name="Git_Lab_documents" author="alensav" url="" tags="git, настройки" ctime="20181204223942" dir="1543952382jqvw57nud4" file="text.html"/>
     <record id="1543956914oeuuyvc44o" name="Графический_интерфейс_GIT GUI" author="alensav" url="https://git-scm.com/book/ru/v2/Appendix-A%3A-Git-%D0%B2-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85-%D0%BE%D0%BA%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B" tags="mytetra, настройкиб графический" ctime="20181204235514" dir="15439569142zp4n9a2sq" file="text.html"/>
     <record id="1544080871l5vctfb4u8" name="Синхронизация MyTetra" author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/170" tags="sync, синхронизация, mytetra" ctime="20181206102111" dir="1544080871jfy9lkki92" file="text.html"/>
@@ -79,17 +62,10 @@
      <record id="1545672020tji762x5xr" name="Командная строка" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0" tags="ubuntu, command, команды" ctime="20181224202020" dir="1545672020mrsy289h40" file="text.html"/>
      <record id="1545672663um4vr7nv7o" name="Планирование заданий" author="alensav" url="https://habr.com/company/ruvds/blog/336060/" tags="" ctime="20181224203103" dir="1545672663r239aqrnvo" file="text.html"/>
      <record id="1545679271amiiedsi8t" name="Автозапуск_UBUNTU" author="alensav" url="https://programjutsu.wordpress.com/2010/06/23/%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4-%D0%BF%D1%80%D0%B8-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B5-ubuntu/" tags="авто, запуск" ctime="20181224222111" dir="1545679271c72w2t454b" file="text.html"/>
-<<<<<<< HEAD
      <record id="1545822379v8hoq3igkp" name="CRON" author="alensav" url="https://help.ubuntu.ru/wiki/cron" tags="cron, ubuntu" ctime="20181226140619" dir="1545822379hn9qzxuqm8" file="text.html"/>
      <record id="1545839011i3ouh81adg" name="Command at" author="alensav" url="http://blog.sedicomm.com/2017/11/21/kak-ispolzovat-komandu-at-dlya-planirovaniya-zadachi-v-linux/" tags="" ctime="20181226184331" dir="15458390113hm1qzepll" file="text.html"/>
      <record id="15458398636r3xjjqzml" name="Ошибки CRON" author="alensav" url="https://system-admins.ru/ubuntu-linux-proverka-oshibok-cron/" tags="" ctime="20181226185743" dir="1545839863luafbjw2wd" file="text.html"/>
      <record id="1545841662ktq52q5316" name="15 лучших КОМАНД CRON" author="alen" url="http://devacademy.ru/posts/15-otlichnykh-primierov-dlia-sozdaniia-cron-zadach-v-linux/" tags="cron, command, настройки" ctime="20181226192742" dir="1545841662vyx49x78tp" file="text.html"/>
-     <record id="1545854692ojcmcbu0z0" name="FESTIVAL_примеры" author="alensav" url="" tags="звук" ctime="20181226230452" dir="1545854692uexmwk60h0" file="text.html"/>
-=======
-     <record id="1545736714rapzkezavu" name="Ключи запуска rsync" author="alensav" url="https://wiki.dieg.info/rsync" tags="sync, настройки" ctime="20181225141834" dir="1545736714dwj6t7hn5d" file="text.html"/>
-     <record id="1545742235ze0w8giiri" name="10 приёмов работы в терминале Linux" author="alensav" url="https://getpocket.com/a/read/2170099947" tags="команды, терминал, ubuntu" ctime="20181225155035" dir="1545742235cnx3x2kf6n" file="text.html"/>
-     <record id="1545742345648qygb68j" name="20 приёмов работы в командной строке Linux" author="alensav" url="https://getpocket.com/a/read/2179668710" tags="команды, ubuntu, терминал" ctime="20181225155225" dir="1545742345l4xj3pubt2" file="text.html"/>
->>>>>>> 73a9da114dcfb573d46d6b650021ff39c5f3de08
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -124,7 +100,6 @@
      <record id="1545148485tbnadyjzg6" name="Рецепты_2018-2019" author="alensav" url="" tags="" ctime="20181218185445" dir="1545148485jxkkhpobuy" file="text.html"/>
     </recordtable>
    </node>
-<<<<<<< HEAD
    <node crypt="" id="1545764529mkdpkw089z" name="GIT_ИНСТР">
     <recordtable>
      <record id="1545764685vi9q32taod" name="СЛИЯНИЕ РИПОЗИТОРИЕВ" author="alensav" url="https://ru.stackoverflow.com/questions/427790/%D0%A1%D0%BB%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B0-%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D1%85-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F-git" tags="ветви, слияние" ctime="20181225220445" dir="1545764685tps5p0f42k" file="text.html"/>
@@ -133,24 +108,12 @@
    <node crypt="" id="1545823315faxpgcma2o" name="CRON_COMMAND">
     <recordtable>
      <record id="1545823453keaxuszt9e" name="COMMAND" author="alensav" url="" tags="command" ctime="20181226142413" dir="15458234534o91tptwgw" file="text.html"/>
-=======
-   <node crypt="" id="1545742781gchxfc6ooz" name="МЕДИЦИНА">
-    <recordtable>
-     <record id="1545742840fdknkssbyb" name="Эта мощная трава избавит от артрита, подагры, грибка ногтейв закладки 11" author="" url="https://getpocket.com/a/read/2421253848" tags="медицина, ноги" ctime="20181225160040" dir="1545742840muxrvn0tyn" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1545753848u1iym0mtay" name="APPLE">
-    <recordtable>
-     <record id="154575390207vd1ic32y" name="[App Store] BossNote HD – органайзер" author="alensav" url="https://getpocket.com/a/read/458201402" tags="appl, приложения" ctime="20181225190502" dir="15457539026dmpsz32mw" file="text.html"/>
->>>>>>> 73a9da114dcfb573d46d6b650021ff39c5f3de08
     </recordtable>
    </node>
   </node>
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
    <recordtable>
     <record id="15457300561cbn5g2p45" name="Учет ламп" author="alennsav" url="" tags="лампы, светодиодные" ctime="20181225122736" dir="1545730056s9nbfgqwdo" file="text.html"/>
->>>>>>> 394e9bac445f0a16f056d359209168a06ea20f61
->>>>>>> 680fc549f70bfc661893a2571c0da528ead10c75
    </recordtable>
   </node>
  </content>
