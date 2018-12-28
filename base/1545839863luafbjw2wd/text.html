@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:xx-large; font-weight:600;">Ubuntu Linux проверка ошибок cron</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">Где хранится информация о запуске заданий по расписанию? Для проверки используем Ubuntu Linux 12.04/14.04 LTS сервер. Как проверит, запущен ли cron и правильно ли он работает?</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">Как проверить запущен ли cron (планировщик заданий)? Используйте команду pgrep  или ps</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a2934210c112926664"></a><span style=" font-family:'Ubuntu'; font-size:12px;">p</span><span style=" font-family:'Ubuntu'; font-size:12px;">grep cron ps aux | grep cron sudo service cron status sudo status cron</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-family:'Ubuntu'; font-size:12px;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">2</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">3</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">4</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a2934210c112926664-1"></a><span style=" font-family:'Ubuntu'; font-size:12px;">      </span><a name="crayon-5c23a2934210c112926664-1"></a><span style=" font-family:'Ubuntu'; font-size:12pt; font-weight:600;">p</span><span style=" font-family:'Ubuntu'; font-size:12pt; font-weight:600;">grep cron</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a2934210c112926664-2"></a><span style=" font-family:'Ubuntu'; font-size:12pt; font-weight:600;">       p</span><span style=" font-family:'Ubuntu'; font-size:12pt; font-weight:600;">s aux | grep cron</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a2934210c112926664-3"></a><span style=" font-family:'Ubuntu'; font-size:12pt; font-weight:600;">      s</span><span style=" font-family:'Ubuntu'; font-size:12pt; font-weight:600;">udo service cron status</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a2934210c112926664-4"></a><span style=" font-family:'Ubuntu'; font-size:12pt; font-weight:600;">        s</span><span style=" font-family:'Ubuntu'; font-size:12pt; font-weight:600;">udo status cron</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">Результат</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="image1613197736.png" /></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">Так же вы можете проверить файл /var/log/syslog используя команду grep что бы получить информации о работе планировщика cron</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a29342114489596436"></a><span style=" font-family:'Ubuntu'; font-size:14pt; font-weight:600;">$</span><span style=" font-family:'Ubuntu'; font-size:14pt; font-weight:600;"> sudo grep --color -i cron /var/log/syslog	</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:14pt; font-weight:600;"> </span></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-family:'Ubuntu'; font-size:14pt; font-weight:600;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a29342114489596436-1"></a><span style=" font-family:'Ubuntu'; font-size:14pt; font-weight:600;">     $</span><span style=" font-family:'Ubuntu'; font-size:14pt; font-weight:600;"> sudo grep --color -i cron /var/log/syslog</span></p></td></tr></table>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">Результат:</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a29342118002861369"></a><span style=" font-family:'Ubuntu'; font-size:12px;">J</span><span style=" font-family:'Ubuntu'; font-size:12px;">an 17 17:43:21 planetvenus cron[229]: (CRON) INFO (pidfile fd = 3) Jan 17 17:43:21 planetvenus cron[240]: (CRON) STARTUP (fork ok) Jan 17 17:43:21 planetvenus cron[240]: (CRON) INFO (Running @reboot jobs) Jan 17 18:01:01 planetvenus cron[240]: (*system*cache) NOT A REGULAR FILE (/etc/cron.d/cache) Jan 17 18:01:01 planetvenus cron[240]: (*system*output) NOT A REGULAR FILE (/etc/cron.d/output)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-family:'Ubuntu'; font-size:12px;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">2</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">3</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">4</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">5</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a29342118002861369-1"></a><span style=" font-family:'Ubuntu'; font-size:12px;">J</span><span style=" font-family:'Ubuntu'; font-size:12px;">an 17 17:43:21 planetvenus cron[229]: (CRON) INFO (pidfile fd = 3)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a29342118002861369-2"></a><span style=" font-family:'Ubuntu'; font-size:12px;">J</span><span style=" font-family:'Ubuntu'; font-size:12px;">an 17 17:43:21 planetvenus cron[240]: (CRON) STARTUP (fork ok)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a29342118002861369-3"></a><span style=" font-family:'Ubuntu'; font-size:12px;">J</span><span style=" font-family:'Ubuntu'; font-size:12px;">an 17 17:43:21 planetvenus cron[240]: (CRON) INFO (Running @reboot jobs)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a29342118002861369-4"></a><span style=" font-family:'Ubuntu'; font-size:12px;">J</span><span style=" font-family:'Ubuntu'; font-size:12px;">an 17 18:01:01 planetvenus cron[240]: (*system*cache) NOT A REGULAR FILE (/etc/cron.d/cache)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a29342118002861369-5"></a><span style=" font-family:'Ubuntu'; font-size:12px;">J</span><span style=" font-family:'Ubuntu'; font-size:12px;">an 17 18:01:01 planetvenus cron[240]: (*system*output) NOT A REGULAR FILE (/etc/cron.d/output)</span></p></td></tr></table>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:x-large; font-weight:600;">Где хранятся журналы работы cron на Ubuntu Linux?</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">Журналы хранятся в файле </span><span style=" font-family:'Courier New,courier'; font-weight:600;">/var/log/cron.log.</span><span style=" font-family:'Ubuntu';"> Вы можете настроить его следующим образом. Редактировать /etc/rsyslog.d/50-default.conf файл с помощью текстового редактора, например, vi или nano:</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a2934211c676188152"></a><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;">$</span><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;"> sudo vi /etc/rsyslog.d/50-default.conf</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:16pt; font-weight:600;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a2934211c676188152-1"></a><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;">    $</span><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;"> sudo vi /etc/rsyslog.d/50-default.conf</span></p></td></tr></table>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">или</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a29342120895386740"></a><span style=" font-family:'Ubuntu'; font-size:12px;">$</span><span style=" font-family:'Ubuntu'; font-size:12px;"> sudo nano /etc/rsyslog.d/50-default.conf</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-family:'Ubuntu'; font-size:12px;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a29342120895386740-1"></a><span style=" font-family:'Ubuntu'; font-size:12px;">$</span><span style=" font-family:'Ubuntu'; font-size:12px;"> sudo nano /etc/rsyslog.d/50-default.conf</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">Найдите строку</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a29342123410322594"></a><span style=" font-family:'Ubuntu'; font-size:12px;">#</span><span style=" font-family:'Ubuntu'; font-size:12px;">cron.* /var/log/cron.log</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-family:'Ubuntu'; font-size:12px;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a29342123410322594-1"></a><span style=" font-family:'Ubuntu'; font-size:12px;">#</span><span style=" font-family:'Ubuntu'; font-size:12px;">cron.*                          /var/log/cron.log</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">Необходимо её раскомментировать, и перезапустить оба сервиса:</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a29342127641842813"></a><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;">     $</span><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;"> sudo service rsyslog restart </span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;">     $ sudo service cron restart</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;">  </span></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;">2</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a29342127641842813-1"></a><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;">       $</span><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;"> sudo service rsyslog restart</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a29342127641842813-2"></a><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;">       $</span><span style=" font-family:'Ubuntu'; font-size:16pt; font-weight:600;"> sudo service cron restart</span></p></td></tr></table>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">Теперь все сообщения об ошибках в работе планировщика можно будет просматривать в файле</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a2934212b521842939"></a><span style=" font-family:'Ubuntu'; font-size:12px;">/</span><span style=" font-family:'Ubuntu'; font-size:12px;">var/log/cron.log</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-family:'Ubuntu'; font-size:12px;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a2934212b521842939-1"></a><span style=" font-family:'Ubuntu'; font-size:12px;">/</span><span style=" font-family:'Ubuntu'; font-size:12px;">var/log/cron.log</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu';">Воспользуйтесь различными командами для поиска нужной информации в логе</span></p>
+<p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a2934212e214126784"></a><span style=" font-family:'Ubuntu'; font-size:12px;">$</span><span style=" font-family:'Ubuntu'; font-size:12px;"> sudo grep что_нибудь/var/log/cron.log $ sudo more /var/log/cron.log $ sudo tail -f /var/log/cron.log $ sudo egrep -i 'error|log' /var/log/cron.log $ sudo tail -F /var/log/cron.log</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu'; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-family:'Ubuntu'; font-size:12px;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">2</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">3</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">4</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Ubuntu'; font-size:12px;">5</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5c23a2934212e214126784-1"></a><span style=" font-family:'Ubuntu'; font-size:12px;">$</span><span style=" font-family:'Ubuntu'; font-size:12px;"> sudo grep что_нибудь/var/log/cron.log</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a2934212e214126784-2"></a><span style=" font-family:'Ubuntu'; font-size:12px;">$</span><span style=" font-family:'Ubuntu'; font-size:12px;"> sudo more /var/log/cron.log</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a2934212e214126784-3"></a><span style=" font-family:'Ubuntu'; font-size:12px;">$</span><span style=" font-family:'Ubuntu'; font-size:12px;"> sudo tail -f /var/log/cron.log</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a2934212e214126784-4"></a><span style=" font-family:'Ubuntu'; font-size:12px;">$</span><span style=" font-family:'Ubuntu'; font-size:12px;"> sudo egrep -i 'error|log' /var/log/cron.log</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5c23a2934212e214126784-5"></a><span style=" font-family:'Ubuntu'; font-size:12px;">$</span><span style=" font-family:'Ubuntu'; font-size:12px;"> sudo tail -F /var/log/cron.log</span></p></td></tr></table>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Ubuntu';"><br /></p></body></html>
