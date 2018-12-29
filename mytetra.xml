@@ -110,6 +110,11 @@
      <record id="1545823453keaxuszt9e" name="COMMAND" author="alensav" url="" tags="command" ctime="20181226142413" dir="15458234534o91tptwgw" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1546071604wwbokhp78i" name="RSYNC_COMMAND">
+    <recordtable>
+     <record id="15460718493nn830i6ih" name="RSYNC_COMMAND" author="alensav" url="" tags="sync" ctime="20181229112409" dir="1546071849jbzvfzs5m0" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
    <recordtable>
