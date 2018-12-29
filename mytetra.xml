@@ -71,6 +71,12 @@
      <recordtable>
       <record id="1543826838fphszo46kq" name="Git_Lab-command" author="alensav" url="" tags="GitLab, site" ctime="20181203114718" dir="1543826838j8j028wuk7" file="text.html"/>
      </recordtable>
+     <node crypt="" id="1546074361u4zy0prf6x" name="SCRIPT_ALL">
+      <recordtable>
+       <record id="1546074450ayru8gy4zc" name="SCRIPT_FINISH" author="alensav" url="https://ubuntugeeks.com/questions/3546/execute-a-script-upon-logout-reboot-shutdown-in-ubuntu" tags="script" ctime="20181229120730" dir="1546074450bruq6ugdpm" file="text.html"/>
+       <record id="1546074745n7bqgyo3wy" name="SCRIPT_START_FINISH" author="alensav" url="http://tuksik.ru/auto-start-and-shutdown/" tags="script" ctime="20181229121225" dir="1546074745pyxlwhkoi3" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
     <node crypt="" id="154443071820y1k0o07v" name="ОБОРУДОВАНИЕ">
      <recordtable>
@@ -119,6 +125,11 @@
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
    <recordtable>
     <record id="15457300561cbn5g2p45" name="Учет ламп" author="alennsav" url="" tags="лампы, светодиодные" ctime="20181225122736" dir="1545730056s9nbfgqwdo" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1546065447cs5d3gvx7y" name="УДАЛЕННЫЙ_СЕРВИС">
+   <recordtable>
+    <record id="15460655155bxd20y0gt" name="УДАЛЕННЫЙ_КОМПЬЮТ_СЕРВИС" author="alensav" url="" tags="" ctime="20181229093835" dir="15460655158xn9qglms9" file="text.html"/>
    </recordtable>
   </node>
  </content>
