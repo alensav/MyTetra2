@@ -127,5 +127,10 @@
     <record id="15457300561cbn5g2p45" name="Учет ламп" author="alennsav" url="" tags="лампы, светодиодные" ctime="20181225122736" dir="1545730056s9nbfgqwdo" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1546065447cs5d3gvx7y" name="УДАЛЕННЫЙ_СЕРВИС">
+   <recordtable>
+    <record id="15460655155bxd20y0gt" name="УДАЛЕННЫЙ_КОМПЬЮТ_СЕРВИС" author="alensav" url="" tags="" ctime="20181229093835" dir="15460655158xn9qglms9" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
