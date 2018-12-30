@@ -104,6 +104,11 @@
      <recordtable>
       <record id="1546165876fy9pd9h1ce" name="FESTIVAL" author="alensav" url="https://wiki.archlinux.org/index.php/Festival_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="звук, zvuk" ctime="20181230133116" dir="1546165876v61prg8d47" file="text.html"/>
      </recordtable>
+     <node crypt="" id="15461965002nt4p4puf3" name="SCRIPTI">
+      <recordtable>
+       <record id="1546199206md6cce4a8k" name="БАНК_СКРИПТОВ" author="alensav" url="" tags="script" ctime="20181230224646" dir="1546199206itnsxcc36s" file="text.html"/>
+      </recordtable>
+     </node>
     </node>
    </node>
    <node crypt="" id="15451483932alkp4upu2" name="РЕЦЕПТЫ">
