@@ -88,6 +88,12 @@
       <record id="1545041636ic6pq5m2pw" name="Отечественное ПО" author="alensav" url="" tags="ос, операционная, система" ctime="20181217131356" dir="1545041636hjsqble2yi" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1546337911372dkrkxis" name="COMMAND_UBUNTU">
+     <recordtable>
+      <record id="1546338004txygzd444s" name="GREP_INSTR" author="" url="" tags="" ctime="20190101132004" dir="1546338004sn3b04i11g" file="text.html"/>
+      <record id="1546338537k5aa5u99jx" name="Grep_Руководство" author="alensav" url="https://andreyex.ru/operacionnaya-sistema-linux/polnoe-rukovodstvo-komanda-grep-v-linux/" tags="grep" ctime="20190101132857" dir="1546338537lrgolawcl4" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1544111400vnc868hc3v" name="GRUB">
     <recordtable>
@@ -108,6 +114,11 @@
      <node crypt="" id="15461965002nt4p4puf3" name="SCRIPTI">
       <recordtable>
        <record id="1546199206md6cce4a8k" name="БАНК_СКРИПТОВ" author="alensav" url="" tags="script" ctime="20181230224646" dir="1546199206itnsxcc36s" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1546337131abl8ijmk6t" name="Alarm_festival">
+      <recordtable>
+       <record id="15463372564zqw13c0ai" name="Alarm" author="alensav" url="" tags="alarm" ctime="20190101130736" dir="1546337256c09do7wbrj" file="text.html"/>
       </recordtable>
      </node>
     </node>
