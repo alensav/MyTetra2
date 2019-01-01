@@ -143,6 +143,11 @@
      <record id="15460718493nn830i6ih" name="RSYNC_COMMAND" author="alensav" url="" tags="sync" ctime="20181229112409" dir="1546071849jbzvfzs5m0" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1546350738abjfg5ofdo" name="FSTAB_SAV">
+    <recordtable>
+     <record id="1546350787larmrscc8i" name="FSTAB_SAV" author="alensav" url="" tags="fstab" ctime="20190101165307" dir="1546350787fxfysbkhqx" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
    <recordtable>
