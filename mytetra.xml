@@ -148,6 +148,11 @@
      <record id="1546350787larmrscc8i" name="FSTAB_SAV" author="alensav" url="" tags="fstab" ctime="20190101165307" dir="1546350787fxfysbkhqx" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1546352094c1v07zjloo" name="savscripts">
+    <recordtable>
+     <record id="1546352151i9d10xmvkd" name="SAV_SCRIPTS" author="alensav" url="" tags="автозапуск" ctime="20190101171551" dir="15463521514eczujeel3" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
    <recordtable>
