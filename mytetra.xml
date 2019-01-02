@@ -148,9 +148,11 @@
      <record id="1546350787larmrscc8i" name="FSTAB_SAV" author="alensav" url="" tags="fstab" ctime="20190101165307" dir="1546350787fxfysbkhqx" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="" id="1546352094c1v07zjloo" name="savscripts">
+   <node crypt="" id="1546352094c1v07zjloo" name="SAVSCRIPTS">
     <recordtable>
      <record id="1546352151i9d10xmvkd" name="SAV_SCRIPTS" author="alensav" url="" tags="автозапуск" ctime="20190101171551" dir="15463521514eczujeel3" file="text.html"/>
+     <record id="15464043667a6716tdvs" name="Полезные_SCRIPTS" author="alensav" url="https://losst.ru/bash-skripty-linux" tags="scripts" ctime="20190102074606" dir="1546404366szo3dt3nfu" file="text.html"/>
+     <record id="1546406372hqcsf37jon" name="Полезные_scripts2" author="alensav" url="http://rosinka.rosix.ru/index.php?topic=1073.0" tags="scripts" ctime="20190102081932" dir="1546406372lg162sshde" file="text.html"/>
     </recordtable>
    </node>
   </node>
