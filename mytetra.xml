@@ -88,6 +88,12 @@
       <record id="1545041636ic6pq5m2pw" name="Отечественное ПО" author="alensav" url="" tags="ос, операционная, система" ctime="20181217131356" dir="1545041636hjsqble2yi" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1546337911372dkrkxis" name="COMMAND_UBUNTU">
+     <recordtable>
+      <record id="1546338004txygzd444s" name="GREP_INSTR" author="" url="" tags="" ctime="20190101132004" dir="1546338004sn3b04i11g" file="text.html"/>
+      <record id="1546338537k5aa5u99jx" name="Grep_Руководство" author="alensav" url="https://andreyex.ru/operacionnaya-sistema-linux/polnoe-rukovodstvo-komanda-grep-v-linux/" tags="grep" ctime="20190101132857" dir="1546338537lrgolawcl4" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1544111400vnc868hc3v" name="GRUB">
     <recordtable>
@@ -100,6 +106,22 @@
      <record id="15449592467bcky3sisi" name="Облачные операционные системы. ТОП-6 лучших Cloud PC" author="alensav" url="http://la.by/news/oblachnye-operacionnye-sistemy-top-6-luchshih-cloud-pc" tags="облачный, виртуальный, интернет" ctime="20181216142046" dir="1544959246tey4e12pno" file="text.html"/>
      <record id="1545486605g5thytu5t8" name="HTTM" author="alensav" url="https://ppt-online.org/306191" tags="httm, интернет, web" ctime="20181222165005" dir="1545486605hs6jmscm6a" file="text.html"/>
     </recordtable>
+    <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
+     <recordtable>
+      <record id="1546165876fy9pd9h1ce" name="FESTIVAL" author="alensav" url="https://wiki.archlinux.org/index.php/Festival_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="звук, zvuk" ctime="20181230133116" dir="1546165876v61prg8d47" file="text.html"/>
+      <record id="1546255653q8x7ji3s6t" name="Asterisk + Festival" author="alensav" url="https://asterisk-pbx.ru/wiki/artikle/festival" tags="zvuk, звук" ctime="20181231142733" dir="1546255653hqxhhyk109" file="text.html"/>
+     </recordtable>
+     <node crypt="" id="15461965002nt4p4puf3" name="SCRIPTI">
+      <recordtable>
+       <record id="1546199206md6cce4a8k" name="БАНК_СКРИПТОВ" author="alensav" url="" tags="script" ctime="20181230224646" dir="1546199206itnsxcc36s" file="text.html"/>
+      </recordtable>
+     </node>
+     <node crypt="" id="1546337131abl8ijmk6t" name="Alarm_festival">
+      <recordtable>
+       <record id="15463372564zqw13c0ai" name="Alarm" author="alensav" url="" tags="alarm" ctime="20190101130736" dir="1546337256c09do7wbrj" file="text.html"/>
+      </recordtable>
+     </node>
+    </node>
    </node>
    <node crypt="" id="15451483932alkp4upu2" name="РЕЦЕПТЫ">
     <recordtable>
@@ -119,6 +141,19 @@
    <node crypt="" id="1546071604wwbokhp78i" name="RSYNC_COMMAND">
     <recordtable>
      <record id="15460718493nn830i6ih" name="RSYNC_COMMAND" author="alensav" url="" tags="sync" ctime="20181229112409" dir="1546071849jbzvfzs5m0" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1546350738abjfg5ofdo" name="FSTAB_SAV">
+    <recordtable>
+     <record id="1546350787larmrscc8i" name="FSTAB_SAV" author="alensav" url="" tags="fstab" ctime="20190101165307" dir="1546350787fxfysbkhqx" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1546352094c1v07zjloo" name="SAVSCRIPTS">
+    <recordtable>
+     <record id="1546352151i9d10xmvkd" name="SAV_SCRIPTS" author="alensav" url="" tags="автозапуск" ctime="20190101171551" dir="15463521514eczujeel3" file="text.html"/>
+     <record id="15464043667a6716tdvs" name="Полезные_SCRIPTS" author="alensav" url="https://losst.ru/bash-skripty-linux" tags="scripts" ctime="20190102074606" dir="1546404366szo3dt3nfu" file="text.html"/>
+     <record id="1546406372hqcsf37jon" name="Полезные_scripts2" author="alensav" url="http://rosinka.rosix.ru/index.php?topic=1073.0" tags="scripts" ctime="20190102081932" dir="1546406372lg162sshde" file="text.html"/>
+     <record id="1546422026mjdaqiq8xc" name="ПОЛЕЗНЫЕ_scripts3" author="alensav" url="https://unixforum.org/viewtopic.php?t=68069" tags="scripts" ctime="20190102124026" dir="1546422026oznhb0tlud" file="text.html"/>
     </recordtable>
    </node>
   </node>
