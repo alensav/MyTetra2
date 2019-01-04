@@ -68,6 +68,9 @@
      <record id="15458398636r3xjjqzml" name="Ошибки CRON" author="alensav" url="https://system-admins.ru/ubuntu-linux-proverka-oshibok-cron/" tags="" ctime="20181226185743" dir="1545839863luafbjw2wd" file="text.html"/>
      <record id="1545841662ktq52q5316" name="15 лучших КОМАНД CRON" author="alen" url="http://devacademy.ru/posts/15-otlichnykh-primierov-dlia-sozdaniia-cron-zadach-v-linux/" tags="cron, command, настройки" ctime="20181226192742" dir="1545841662vyx49x78tp" file="text.html"/>
      <record id="1546532507und4rzzkj2" name="Автосборка" author="alensav" url="https://help.ubuntu.ru/wiki/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC" tags="автосборка" ctime="20190103192147" dir="1546532507vxs3o1dpmt" file="text.html"/>
+     <record id="15465962066op8hm14or" name="авто_команды_перед_откл" author="alensav" url="" tags="авто, отключение" ctime="20190104130326" dir="15465962069g5fc411lj" file="text.html"/>
+     <record id="15466231031wd2v304s7" name="CRON_ОБРАЗЦЫ" author="alensav" url="https://help.ubuntu.ru/wiki/cron" tags="cron, образцы" ctime="20190104203143" dir="15466231031um8n8mfk5" file="text.html"/>
+     <record id="1546624058v6468qk5dn" name="GREP ПОИСК" author="alensav" url="http://softhelp.org.ua/?p=4943" tags="grep, поиск" ctime="20190104204738" dir="15466240585pnd5qzrbr" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
