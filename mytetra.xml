@@ -71,6 +71,7 @@
      <record id="15465962066op8hm14or" name="авто_команды_перед_откл" author="alensav" url="" tags="авто, отключение" ctime="20190104130326" dir="15465962069g5fc411lj" file="text.html"/>
      <record id="15466231031wd2v304s7" name="CRON_ОБРАЗЦЫ" author="alensav" url="https://help.ubuntu.ru/wiki/cron" tags="cron, образцы" ctime="20190104203143" dir="15466231031um8n8mfk5" file="text.html"/>
      <record id="1546624058v6468qk5dn" name="GREP ПОИСК" author="alensav" url="http://softhelp.org.ua/?p=4943" tags="grep, поиск" ctime="20190104204738" dir="15466240585pnd5qzrbr" file="text.html"/>
+     <record id="15467231795852c5sl27" name="COmmands_UBUNTU" author="alensav" url="http://www.linuxguide.it/command_line/linux_commands_ru.html" tags="commands, ubuntu" ctime="20190106001939" dir="15467231797kq9n2cb8q" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
