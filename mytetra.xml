@@ -73,6 +73,7 @@
      <record id="1546624058v6468qk5dn" name="GREP ПОИСК" author="alensav" url="http://softhelp.org.ua/?p=4943" tags="grep, поиск" ctime="20190104204738" dir="15466240585pnd5qzrbr" file="text.html"/>
      <record id="15467231795852c5sl27" name="COmmands_UBUNTU" author="alensav" url="http://www.linuxguide.it/command_line/linux_commands_ru.html" tags="commands, ubuntu" ctime="20190106001939" dir="15467231797kq9n2cb8q" file="text.html"/>
      <record id="1546770526anjypu995l" name="Команды_Ubuntu_Алфафит" author="alensav" url="https://losst.ru/komandy-terminala-linux" tags="command, командыБ ubuntu" ctime="20190106132846" dir="15467705267fb82x6mz3" file="text.html"/>
+     <record id="1546879070dhkw5ciqjm" name="webmin" author="alensav" url="https://losst.ru/ustanovka-webmin-na-ubuntu-server-16-04" tags="" ctime="20190107193750" dir="154687907066neycrmop" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
