@@ -74,6 +74,9 @@
      <record id="15467231795852c5sl27" name="COmmands_UBUNTU" author="alensav" url="http://www.linuxguide.it/command_line/linux_commands_ru.html" tags="commands, ubuntu" ctime="20190106001939" dir="15467231797kq9n2cb8q" file="text.html"/>
      <record id="1546770526anjypu995l" name="Команды_Ubuntu_Алфавит" author="alensav" url="https://losst.ru/komandy-terminala-linux" tags="command, командыБ ubuntu" ctime="20190106132846" dir="15467705267fb82x6mz3" file="text.html"/>
      <record id="1546879070dhkw5ciqjm" name="webmin" author="alensav" url="https://losst.ru/ustanovka-webmin-na-ubuntu-server-16-04" tags="" ctime="20190107193750" dir="154687907066neycrmop" file="text.html"/>
+     <record id="1547049636f77f0ohggw" name="Резервное копирование Ununtu" author="alensav" url="https://losst.ru/rezervnoe-kopirovanie-ubuntu" tags="cp, copir, копир, архивация" ctime="20190109190036" dir="15470496363nsf66ozeb" file="text.html"/>
+     <record id="1547104064nnp7x35hen" name="Откат системы Ubuntu " author="alensav" url="https://losst.ru/otkat-sistemy-ubuntu" tags="откат, система, ubuntu," ctime="20190110100744" dir="1547104064wnjj5s47c3" file="text.html"/>
+     <record id="1547105717gxe0irn5ac" name="Журнал активности_USERUBUNTU" author="alensav" url="https://itshaman.ru/it-programmy-dlya-linux/263/zhurnal-aktivnosti-polzovatelya-v-gnome-ili-zeitgeist-v-deistvii" tags="log, user, журнал, лог, пользователь" ctime="20190110103517" dir="1547105717g4wn91x1sw" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -119,6 +122,7 @@
      <recordtable>
       <record id="1546165876fy9pd9h1ce" name="FESTIVAL" author="alensav" url="https://wiki.archlinux.org/index.php/Festival_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="звук, zvuk" ctime="20181230133116" dir="1546165876v61prg8d47" file="text.html"/>
       <record id="1546255653q8x7ji3s6t" name="Asterisk + Festival" author="alensav" url="https://asterisk-pbx.ru/wiki/artikle/festival" tags="zvuk, звук" ctime="20181231142733" dir="1546255653hqxhhyk109" file="text.html"/>
+      <record id="1547044039a6q7fuzbnr" name="MPG_Consol" author="alensav" url="http://osmaster.org.ua/kak-proigryvat-mp3-fajly-s-komandnoj-stroki-linux/" tags="zvuk, звук, play, vlc, mp3" ctime="20190109172719" dir="1547044039sspehi1hid" file="text.html"/>
      </recordtable>
      <node crypt="" id="15461965002nt4p4puf3" name="SCRIPTI">
       <recordtable>
@@ -150,7 +154,7 @@
    </node>
    <node crypt="" id="1546071604wwbokhp78i" name="RSYNC_COMMAND">
     <recordtable>
-     <record id="15460718493nn830i6ih" name="RSYNC_COMMAND" author="alensav" url="" tags="sync" ctime="20181229112409" dir="1546071849jbzvfzs5m0" file="text.html"/>
+     <record id="15460718493nn830i6ih" name="RSYNC_COMMAND" author="alensav" url="" tags="sync, архивирование, ubuntu" ctime="20181229112409" dir="1546071849jbzvfzs5m0" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1546350738abjfg5ofdo" name="FSTAB_SAV">
@@ -164,6 +168,8 @@
      <record id="15464043667a6716tdvs" name="Полезные_SCRIPTS" author="alensav" url="https://losst.ru/bash-skripty-linux" tags="scripts" ctime="20190102074606" dir="1546404366szo3dt3nfu" file="text.html"/>
      <record id="1546406372hqcsf37jon" name="Полезные_scripts2" author="alensav" url="http://rosinka.rosix.ru/index.php?topic=1073.0" tags="scripts" ctime="20190102081932" dir="1546406372lg162sshde" file="text.html"/>
      <record id="1546422026mjdaqiq8xc" name="ПОЛЕЗНЫЕ_scripts3" author="alensav" url="https://unixforum.org/viewtopic.php?t=68069" tags="scripts" ctime="20190102124026" dir="1546422026oznhb0tlud" file="text.html"/>
+     <record id="1547039058g1lf6fb5w1" name="Полезные_Скрипты_4" author="alensav" url="https://tuxrider.ru/programmy/interesnye-bash-skripty-linux/" tags="scripts, скрипт" ctime="20190109160418" dir="15470390584fxyfd5m8d" file="text.html"/>
+     <record id="1547041220mar3rdohwa" name="Полезные_скрипты 5" author="alensav" url="https://unixforum.org/viewtopic.php?t=68069" tags="scripts, скрипт" ctime="20190109164020" dir="1547041220x2wfg552jq" file="text.html"/>
     </recordtable>
    </node>
   </node>
