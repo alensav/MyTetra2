@@ -79,6 +79,7 @@
      <record id="1547105717gxe0irn5ac" name="Журнал активности_USERUBUNTU" author="alensav" url="https://itshaman.ru/it-programmy-dlya-linux/263/zhurnal-aktivnosti-polzovatelya-v-gnome-ili-zeitgeist-v-deistvii" tags="log, user, журнал, лог, пользователь" ctime="20190110103517" dir="1547105717g4wn91x1sw" file="text.html"/>
      <record id="15471408492e27n8z76g" name="Neofetch - информация о системе linux" author="alensav" url="https://losst.ru/neofetch-informatsiya-o-sisteme-linux-i-logotip-v-terminale" tags="system, сиситема. настройки" ctime="20190110202049" dir="1547140849s0i9gs9nbt" file="text.html"/>
      <record id="1547142634i16ctp0o5n" name="Установка редактора Emacs" author="alensav" url="https://linuxsoid.club/how-to-install-emacs-editor-for-ubuntu" tags="редактор, текст, emaks" ctime="20190110205034" dir="1547142634l0zge9pup2" file="text.html"/>
+     <record id="15471931143whdacpgf6" name="Редакторы Brackets," author="alensav" url="https://linuxsoid.club/browse-best-code-editors-linux" tags="редактор, HTTM" ctime="20190111105154" dir="15471931141k0gr6rm88" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -119,6 +120,8 @@
      <record id="15449592467bcky3sisi" name="Облачные операционные системы. ТОП-6 лучших Cloud PC" author="alensav" url="http://la.by/news/oblachnye-operacionnye-sistemy-top-6-luchshih-cloud-pc" tags="облачный, виртуальный, интернет" ctime="20181216142046" dir="1544959246tey4e12pno" file="text.html"/>
      <record id="1545486605g5thytu5t8" name="HTTM" author="alensav" url="https://ppt-online.org/306191" tags="httm, интернет, web" ctime="20181222165005" dir="1545486605hs6jmscm6a" file="text.html"/>
      <record id="15469641718kr41lvycw" name="TURBO-TETRA" author="alensav" url="https://skladchik.com" tags="turbotetra, mytetra, заметки, блокнот" ctime="20190108191611" dir="1546964171yvjj4qov4y" file="text.html"/>
+     <record id="15471971355eohxtrfph" name="WAVEBOX" author="alensav" url="https://translate.google.com/translate?hl=ru&amp;sl=en&amp;u=https://snapcraft.io/wavebox&amp;prev=search" tags="ubuntu, настройки, умный дом" ctime="20190111115855" dir="1547197135s0eefknflp" file="text.html"/>
+     <record id="1547201555rd702vsuzm" name="Ускоряем Ubuntu Linux" author="alensav" url="https://linuxsoid.club/acceleration-ubuntu" tags="ubuntu, настройки" ctime="20190111131235" dir="1547201555ifz80j4t2d" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
      <recordtable>
