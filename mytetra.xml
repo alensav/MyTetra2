@@ -22,6 +22,7 @@
     <record id="1545724717x3o9xcu9xp" name="RSYNC_настройки2" author="alensav" url="https://k0n0n3nk0.wordpress.com/2011/05/11/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%B0%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC-rsync-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82/" tags="sync, синхронизация" ctime="20181225105837" dir="15457247176q32m40xvs" file="text.html"/>
     <record id="154572569378qhy5ecko" name="RSYNC_примеры использования" author="alensav" url="https://greendail.ru/node/rsync-primery-ispolzovaniya" tags="sync, синхронизация" ctime="20181225111453" dir="1545725693zlkiufjjlt" file="text.html"/>
     <record id="1546510463ja8rtul5g5" name="ПЛАН" author="alensav" url="" tags="план" ctime="20190103131423" dir="1546510463jxii42gvyu" file="text.html"/>
+    <record id="1547279150zx1ur0cdop" name="Слушаем музыку  cmus " author="alensav" url="https://eax.me/cmus/" tags="musik, музыка, консоль, cmus" ctime="20190112104550" dir="154727915040k9dkkqmz" file="text.html"/>
    </recordtable>
    <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
     <recordtable>
@@ -129,6 +130,11 @@
       <record id="1546165876fy9pd9h1ce" name="FESTIVAL" author="alensav" url="https://wiki.archlinux.org/index.php/Festival_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="звук, zvuk" ctime="20181230133116" dir="1546165876v61prg8d47" file="text.html"/>
       <record id="1546255653q8x7ji3s6t" name="Asterisk + Festival" author="alensav" url="https://asterisk-pbx.ru/wiki/artikle/festival" tags="zvuk, звук" ctime="20181231142733" dir="1546255653hqxhhyk109" file="text.html"/>
       <record id="1547044039a6q7fuzbnr" name="MPG_Consol" author="alensav" url="http://osmaster.org.ua/kak-proigryvat-mp3-fajly-s-komandnoj-stroki-linux/" tags="zvuk, звук, play, vlc, mp3" ctime="20190109172719" dir="1547044039sspehi1hid" file="text.html"/>
+      <record id="15472776358dcr6rnp13" name="MUSIK" author="alensav" url="https://help.ubuntu.ru/fullcircle/26/%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B2" tags="musik, музыка, консоль,mpg" ctime="20190112102035" dir="15472776358r64c3rtfd" file="text.html"/>
+      <record id="1547286304kxykhjm8gh" name="Аудио конвертер в mp3" author="alensav" url="http://audiogeek.ru/soundconverter-linux/" tags="аудио, конвертер, mp3, звук" ctime="20190112124504" dir="1547286304j7zwvvkd0y" file="text.html"/>
+      <record id="15472872998l4q9oq224" name="Как записать звук в Linux?" author="alensav" url="https://prostolinux.ru/kak-zapisat-zvuk-v-linux/" tags="записать, звук, mp3" ctime="20190112130139" dir="15472872992kuzkg70ep" file="text.html"/>
+      <record id="1547289316gjqvf0a8i6" name="Звук из консоли" author="alensav" url="" tags="звук, запись, консоль" ctime="20190112133516" dir="1547289316ku0hu34mww" file="text.html"/>
+      <record id="1547305080vhqkl14l73" name="создать плейлист" author="alensav" url="https://askubuntu.com/questions/686702/how-to-make-a-playlist-from-a-directory-of-mp3-files" tags="mp3, playlist, плейлист" ctime="20190112175800" dir="1547305080hnynydopmm" file="text.html"/>
      </recordtable>
      <node crypt="" id="15461965002nt4p4puf3" name="SCRIPTI">
       <recordtable>
