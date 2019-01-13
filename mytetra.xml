@@ -23,6 +23,7 @@
     <record id="154572569378qhy5ecko" name="RSYNC_примеры использования" author="alensav" url="https://greendail.ru/node/rsync-primery-ispolzovaniya" tags="sync, синхронизация" ctime="20181225111453" dir="1545725693zlkiufjjlt" file="text.html"/>
     <record id="1546510463ja8rtul5g5" name="ПЛАН" author="alensav" url="" tags="план" ctime="20190103131423" dir="1546510463jxii42gvyu" file="text.html"/>
     <record id="1547279150zx1ur0cdop" name="Слушаем музыку  cmus " author="alensav" url="https://eax.me/cmus/" tags="musik, музыка, консоль, cmus" ctime="20190112104550" dir="154727915040k9dkkqmz" file="text.html"/>
+    <record id="1547385990gpzqw7pmt8" name="шпаргалка по работе с Git" author="alensav" url="https://eax.me/git-commands/" tags="шпаргалка, Git" ctime="20190113162630" dir="1547385990vntsg3sw86" file="text.html"/>
    </recordtable>
    <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
     <recordtable>
@@ -83,6 +84,9 @@
      <record id="15471931143whdacpgf6" name="Редакторы Brackets," author="alensav" url="https://linuxsoid.club/browse-best-code-editors-linux" tags="редактор, HTTM" ctime="20190111105154" dir="15471931141k0gr6rm88" file="text.html"/>
      <record id="1547221392toa5usib9n" name="Сервер nginx на Ubuntu" author="alensav" url="https://neoblogs.net/2013/06/19/ustanovka-veb-servera-nginx-na-ubuntu-linux/" tags="server, nginx" ctime="20190111184312" dir="1547221392xx8smxtizw" file="text.html"/>
      <record id="1547384449yguibixtwi" name="Частые команды" author="alensav" url="https://losst.ru/bash-skripty-linux" tags="Частые, команды" ctime="20190113160049" dir="1547384449nwkcy8qpgn" file="text.html"/>
+     <record id="1547384902n965gde9q9" name="Записать видео с экрана в терминале linux:" author="alensav" url="" tags="Записать, видео, экран, терминал" ctime="20190113160822" dir="1547384902eq6e92yk41" file="text.html"/>
+     <record id="15473876276iyfwkduph" name="Начало работы с Vagrant" author="alensav" url="https://eax.me/vagrant/" tags="vagrant, утилита, виртуалка" ctime="20190113165347" dir="1547387627a2z9po7xts" file="text.html"/>
+     <record id="1547407704s1q0yiysvw" name="Сокращаем команды терминала через alias" author="alensav" url="http://tuksik.ru/alias/" tags="Сокращения, команды, терминал, alias" ctime="20190113222824" dir="1547407704rbr2c96li8" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -125,6 +129,8 @@
      <record id="15469641718kr41lvycw" name="TURBO-TETRA" author="alensav" url="https://skladchik.com" tags="turbotetra, mytetra, заметки, блокнот" ctime="20190108191611" dir="1546964171yvjj4qov4y" file="text.html"/>
      <record id="15471971355eohxtrfph" name="WAVEBOX" author="alensav" url="https://translate.google.com/translate?hl=ru&amp;sl=en&amp;u=https://snapcraft.io/wavebox&amp;prev=search" tags="ubuntu, настройки, умный дом" ctime="20190111115855" dir="1547197135s0eefknflp" file="text.html"/>
      <record id="1547201555rd702vsuzm" name="Ускоряем Ubuntu Linux" author="alensav" url="https://linuxsoid.club/acceleration-ubuntu" tags="ubuntu, настройки" ctime="20190111131235" dir="1547201555ifz80j4t2d" file="text.html"/>
+     <record id="1547386241jkeuzzxt72" name="настройка OpenVPN в Ubuntu" author="alensav" url="https://eax.me/openvpn/" tags="настройка, OpenVPN, Ubuntu" ctime="20190113163041" dir="1547386241mfam5n9api" file="text.html"/>
+     <record id="15473872342gjm9xsol9" name="Docker и практика работы с ним" author="alensav" url="https://eax.me/docker/" tags="Docker, практика, виртуал" ctime="20190113164714" dir="15473872348pfa7y0deq" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
      <recordtable>
