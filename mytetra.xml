@@ -87,6 +87,8 @@
      <record id="1547384902n965gde9q9" name="Записать видео с экрана в терминале linux:" author="alensav" url="" tags="Записать, видео, экран, терминал" ctime="20190113160822" dir="1547384902eq6e92yk41" file="text.html"/>
      <record id="15473876276iyfwkduph" name="Начало работы с Vagrant" author="alensav" url="https://eax.me/vagrant/" tags="vagrant, утилита, виртуалка" ctime="20190113165347" dir="1547387627a2z9po7xts" file="text.html"/>
      <record id="1547407704s1q0yiysvw" name="Сокращаем команды терминала через alias" author="alensav" url="http://tuksik.ru/alias/" tags="Сокращения, команды, терминал, alias" ctime="20190113222824" dir="1547407704rbr2c96li8" file="text.html"/>
+     <record id="1547466925dlvqaymggd" name="XED" author="alensav" url="https://www.linuxhelp.com/how-to-install-xed-editor-on-ubuntu-16-04" tags="редактор, xed" ctime="20190114145525" dir="1547466925c71nh09dc0" file="text.html"/>
+     <record id="1547493934irfxvj4ntz" name="CodeLobster IDE" author="alensav" url="https://linuxthebest.net/codelobster-ide-novaya-ide-dlya-linux-sistem/#more-9297" tags="PHP/HTML/CSS/JavaScript редактором и средой для WEB" ctime="20190114222534" dir="1547493934yczs9jocf4" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -131,6 +133,7 @@
      <record id="1547201555rd702vsuzm" name="Ускоряем Ubuntu Linux" author="alensav" url="https://linuxsoid.club/acceleration-ubuntu" tags="ubuntu, настройки" ctime="20190111131235" dir="1547201555ifz80j4t2d" file="text.html"/>
      <record id="1547386241jkeuzzxt72" name="настройка OpenVPN в Ubuntu" author="alensav" url="https://eax.me/openvpn/" tags="настройка, OpenVPN, Ubuntu" ctime="20190113163041" dir="1547386241mfam5n9api" file="text.html"/>
      <record id="15473872342gjm9xsol9" name="Docker и практика работы с ним" author="alensav" url="https://eax.me/docker/" tags="Docker, практика, виртуал" ctime="20190113164714" dir="15473872348pfa7y0deq" file="text.html"/>
+     <record id="1547453295nke69kktfr" name="TAILS" author="alensav" url="https://xakep.ru/2016/11/01/tails-live-flash/" tags="Tails, операционная, система,  Linux" ctime="20190114110815" dir="1547453295nw0nkh0yec" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
      <recordtable>
