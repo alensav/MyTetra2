@@ -24,6 +24,7 @@
     <record id="1546510463ja8rtul5g5" name="ПЛАН" author="alensav" url="" tags="план" ctime="20190103131423" dir="1546510463jxii42gvyu" file="text.html"/>
     <record id="1547279150zx1ur0cdop" name="Слушаем музыку  cmus " author="alensav" url="https://eax.me/cmus/" tags="musik, музыка, консоль, cmus" ctime="20190112104550" dir="154727915040k9dkkqmz" file="text.html"/>
     <record id="1547385990gpzqw7pmt8" name="шпаргалка по работе с Git" author="alensav" url="https://eax.me/git-commands/" tags="шпаргалка, Git" ctime="20190113162630" dir="1547385990vntsg3sw86" file="text.html"/>
+    <record id="1547544575wl5ppt8pvx" name="Завершить процесс в Linux" author="alensav" url="https://www.gotoadm.ru/kill-process-in-linux-command-ps-kill-killall/" tags="завершить, процесс, kill" ctime="20190115122935" dir="1547544575vryb3fzp80" file="text.html"/>
    </recordtable>
    <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
     <recordtable>
@@ -89,6 +90,7 @@
      <record id="1547407704s1q0yiysvw" name="Сокращаем команды терминала через alias" author="alensav" url="http://tuksik.ru/alias/" tags="Сокращения, команды, терминал, alias" ctime="20190113222824" dir="1547407704rbr2c96li8" file="text.html"/>
      <record id="1547466925dlvqaymggd" name="XED" author="alensav" url="https://www.linuxhelp.com/how-to-install-xed-editor-on-ubuntu-16-04" tags="редактор, xed" ctime="20190114145525" dir="1547466925c71nh09dc0" file="text.html"/>
      <record id="1547493934irfxvj4ntz" name="CodeLobster IDE" author="alensav" url="https://linuxthebest.net/codelobster-ide-novaya-ide-dlya-linux-sistem/#more-9297" tags="PHP/HTML/CSS/JavaScript редактором и средой для WEB" ctime="20190114222534" dir="1547493934yczs9jocf4" file="text.html"/>
+     <record id="1547545059ot86h631dq" name="Установка необходимых программ " author="alensav" url="http://ubuntovod.ru/" tags="Установка, необходимых, программ, ubuntu " ctime="20190115123739" dir="1547545059s0vclr2zv1" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
