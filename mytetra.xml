@@ -24,7 +24,6 @@
     <record id="1546510463ja8rtul5g5" name="ПЛАН" author="alensav" url="" tags="план" ctime="20190103131423" dir="1546510463jxii42gvyu" file="text.html"/>
     <record id="1547279150zx1ur0cdop" name="Слушаем музыку  cmus " author="alensav" url="https://eax.me/cmus/" tags="musik, музыка, консоль, cmus" ctime="20190112104550" dir="154727915040k9dkkqmz" file="text.html"/>
     <record id="1547385990gpzqw7pmt8" name="шпаргалка по работе с Git" author="alensav" url="https://eax.me/git-commands/" tags="шпаргалка, Git" ctime="20190113162630" dir="1547385990vntsg3sw86" file="text.html"/>
-    <record id="1547544575wl5ppt8pvx" name="Завершить процесс в Linux" author="alensav" url="https://www.gotoadm.ru/kill-process-in-linux-command-ps-kill-killall/" tags="завершить, процесс, kill" ctime="20190115122935" dir="1547544575vryb3fzp80" file="text.html"/>
    </recordtable>
    <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
     <recordtable>
@@ -91,6 +90,8 @@
      <record id="1547466925dlvqaymggd" name="XED" author="alensav" url="https://www.linuxhelp.com/how-to-install-xed-editor-on-ubuntu-16-04" tags="редактор, xed" ctime="20190114145525" dir="1547466925c71nh09dc0" file="text.html"/>
      <record id="1547493934irfxvj4ntz" name="CodeLobster IDE" author="alensav" url="https://linuxthebest.net/codelobster-ide-novaya-ide-dlya-linux-sistem/#more-9297" tags="PHP/HTML/CSS/JavaScript редактором и средой для WEB" ctime="20190114222534" dir="1547493934yczs9jocf4" file="text.html"/>
      <record id="1547545059ot86h631dq" name="Установка необходимых программ " author="alensav" url="http://ubuntovod.ru/" tags="Установка, необходимых, программ, ubuntu " ctime="20190115123739" dir="1547545059s0vclr2zv1" file="text.html"/>
+     <record id="1547544575wl5ppt8pvx" name="Завершить процесс в Linux" author="alensav" url="https://www.gotoadm.ru/kill-process-in-linux-command-ps-kill-killall/" tags="завершить, процесс, kill" ctime="20190115132352" dir="1547544575vryb3fzp80" file="text.html"/>
+     <record id="15475480487ai1o520mf" name="disk" author="alensav" url="https://help.ubuntu.ru/fullcircle/30/%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B_%D1%87_6" tags="disk, место. освободить" ctime="20190115132728" dir="1547548048215uflq26d" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -136,6 +137,8 @@
      <record id="1547386241jkeuzzxt72" name="настройка OpenVPN в Ubuntu" author="alensav" url="https://eax.me/openvpn/" tags="настройка, OpenVPN, Ubuntu" ctime="20190113163041" dir="1547386241mfam5n9api" file="text.html"/>
      <record id="15473872342gjm9xsol9" name="Docker и практика работы с ним" author="alensav" url="https://eax.me/docker/" tags="Docker, практика, виртуал" ctime="20190113164714" dir="15473872348pfa7y0deq" file="text.html"/>
      <record id="1547453295nke69kktfr" name="TAILS" author="alensav" url="https://xakep.ru/2016/11/01/tails-live-flash/" tags="Tails, операционная, система,  Linux" ctime="20190114110815" dir="1547453295nw0nkh0yec" file="text.html"/>
+     <record id="154755657825a7ealhni" name=" сайт с нуля — пошаговая инструкция " author="alensav" url="https://zarabotat-na-sajte.ru/uroki-html/kak-sozdata-sayt-s-nulya-poshagovaya-instrukciya.html" tags=" сайт, с нуля, пошаговая, инструкция , httm" ctime="20190115154938" dir="1547556578jmu6dcefgh" file="text.html"/>
+     <record id="154758232307il4dhwjp" name="как соединить страницы сайта? " author="alensav" url="https://searchengines.guru/showthread.php?t=193971&amp;page=2" tags="соединить, страницы, сайт, httm " ctime="20190115225843" dir="1547582323o97yglo2ic" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
      <recordtable>
