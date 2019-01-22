@@ -95,6 +95,8 @@
      <record id="15475480487ai1o520mf" name="disk" author="alensav" url="https://help.ubuntu.ru/fullcircle/30/%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B_%D1%87_6" tags="disk, место. освободить" ctime="20190115132728" dir="1547548048215uflq26d" file="text.html"/>
      <record id="15480839612q8ovakdnt" name="Как скачать файл с сети в консоли?" author="alensav" url="http://pro-spo.ru/linux-for-beginner/2864-2011-12-06-11-37-05" tags="скачать,  файл,  сети, сеть,  консолиь" ctime="20190121181921" dir="1548083961e8vi0xq0yj" file="text.html"/>
      <record id="1548145751sgraor4ddt" name="Анализ нагрузки на веб-сервер Linux" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=web-load-analis" tags="Анализ, нагрузки,  веб-сервер, Linux,  nginx, Apache, PHP-FPM" ctime="20190122112911" dir="154814575144imqniqxe" file="text.html"/>
+     <record id="1548176161586hiatc5d" name="Ubuntu SERVER" author="alensav" url="" tags="tasksel, ubuntu, server" ctime="20190122195601" dir="1548176161bb5kmsn6se" file="text.html"/>
+     <record id="15481833311a6mjs9012" name="MYSQL" author="alensav" url="https://community.vscale.io/hc/ru/community/posts/209370225-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-MySQL-%D0%BD%D0%B0-Ubuntu-16-04" tags="MYSQL, база, данных" ctime="20190122215531" dir="1548183331j65ohwpb7k" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -152,6 +154,7 @@
      <record id="15481505151scfro2lzs" name="Проверка ответа сервера" author="alensav" url="https://webmaster.yandex.ru/site/http:www.arhiv-proekt.ru:80/tools/server-response/?url=www.arhiv-proekt.ru&amp;user-agent=robot&amp;if-modified-since=" tags="Проверка, ответ, сервера" ctime="20190122124835" dir="1548150515dh3k8srsl5" file="text.html"/>
      <record id="1548154862gr33def7xz" name="БЛОГ О SEО" author="alensav" url="https://blog.reaspekt.ru/all_about_promotion/%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC-%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D1%8B%D0%B9-robots-txt-%D1%81%D0%B2%D0%BE%D0%B8%D0%BC%D0%B8-%D1%80%D1%83%D0%BA%D0%B0%D0%BC/" tags="seo, продвижение, сайт" ctime="20190122140102" dir="1548154862banyttya8w" file="text.html"/>
      <record id="15481642618vgtlyeqzy" name="WSP" author="alensav" url="https://i.w.tools/wizard/choose-tariff" tags="сайт, раскрутка" ctime="20190122163741" dir="15481642614vc7e519cf" file="text.html"/>
+     <record id="1548171617wttum3kkbz" name="Мой САЙТ" author="alensav" url="" tags="сайт, arhiv, proekt,ru" ctime="20190122184017" dir="1548171617b8hlp7xxwh" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
      <recordtable>
