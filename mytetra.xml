@@ -97,6 +97,7 @@
      <record id="1548145751sgraor4ddt" name="Анализ нагрузки на веб-сервер Linux" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=web-load-analis" tags="Анализ, нагрузки,  веб-сервер, Linux,  nginx, Apache, PHP-FPM" ctime="20190122112911" dir="154814575144imqniqxe" file="text.html"/>
      <record id="1548176161586hiatc5d" name="Ubuntu SERVER" author="alensav" url="" tags="tasksel, ubuntu, server" ctime="20190122195601" dir="1548176161bb5kmsn6se" file="text.html"/>
      <record id="15481833311a6mjs9012" name="MYSQL" author="alensav" url="https://community.vscale.io/hc/ru/community/posts/209370225-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-MySQL-%D0%BD%D0%B0-Ubuntu-16-04" tags="MYSQL, база, данных" ctime="20190122215531" dir="1548183331j65ohwpb7k" file="text.html"/>
+     <record id="154824696348qlfsmyio" name="ODA File Converter" author="alensav" url="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=ru&amp;prev=search&amp;rurl=translate.google.ru&amp;sl=en&amp;sp=nmt4&amp;u=https://www.opendesign.com/guestfiles/oda_file_converter&amp;xid=17259,15700022,15700043,15700186,15700191,15700248&amp;usg=ALkJrhgix1xHUe2FJcPyFDpdhYF4IOraeA" tags="преобразования, dwg, .dxf" ctime="20190123153603" dir="1548246963p2rxtm6pmd" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
