@@ -25,6 +25,12 @@
     <record id="1547279150zx1ur0cdop" name="Слушаем музыку  cmus " author="alensav" url="https://eax.me/cmus/" tags="musik, музыка, консоль, cmus" ctime="20190112104550" dir="154727915040k9dkkqmz" file="text.html"/>
     <record id="1547385990gpzqw7pmt8" name="шпаргалка по работе с Git" author="alensav" url="https://eax.me/git-commands/" tags="шпаргалка, Git" ctime="20190113162630" dir="1547385990vntsg3sw86" file="text.html"/>
     <record id="1547801722ayb98cm15s" name="ПЕНСИЯ" author="ли_ав" url="" tags="пенсия" ctime="20190118115522" dir="15478017225ukywb77ce" file="text.html"/>
+    <record id="15480717133dbddzgn1c" name="НАЛОГИ" author="alensav" url="" tags="налог" ctime="20190121145513" dir="1548071713riibvwir1c" file="text.html">
+     <files>
+      <file id="1548071753o7w4dpo6a0" fileName="treb-68049.pdf" type="file"/>
+      <file id="1548073811o0awtx2jcp" fileName="ИП_Налог.doc" type="file"/>
+     </files>
+    </record>
    </recordtable>
    <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
     <recordtable>
@@ -144,7 +150,7 @@
      <record id="154779902571cevu39d4" name="ORACLE" author="alensav" url="" tags="" ctime="20190118111025" dir="1547799025sseqei3kcs" file="text.html"/>
      <record id="1547799100hwv3p7s3np" name="NETBEANS" author="" url="" tags="netbeans" ctime="20190118111140" dir="1547799100qgn3ujdds6" file="text.html"/>
      <record id="1547890133camwmygzn9" name="HTTM-Ссылки внутри страницы" author="alensav" url="" tags="Ссылки, внутри, страницы, httm" ctime="20190119122853" dir="154789013319480zk0hy" file="text.html"/>
-     <record id="1547907146f9h71hwrym" name="Сайт_ARHIV-PROEKT.ru" author="alensav" url="ARHIV-PROEKT.ru" tags="site, сайт" ctime="20190119171226" dir="1547907146zghzgdxvmo" file="text.html"/>
+     <record id="1547907146f9h71hwrym" name="Сайт_ARHIV-PROEKT.ru" author="alensav" url="ARHIV-PROEKT.ru" tags="site, сайт,favicon" ctime="20190119171226" dir="1547907146zghzgdxvmo" file="text.html"/>
      <record id="15479837792zykpjy576" name="ID" author="" url="" tags="" ctime="20190120142939" dir="15479837794kun4plwgh" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
