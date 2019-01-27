@@ -112,6 +112,7 @@
      <record id="15485313211nv1w8ox8f" name=" Apache в Ubuntu" author="alensav" url="" tags="сервер, server, apache" ctime="20190126223521" dir="1548531321a8xcmsp8hv" file="text.html"/>
      <record id="15485808498mbnztiu0i" name="Создание и удаление баз в MySQL/MariaDB" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=mysql-create-db" tags="mysgl, bd, бд, база. данных" ctime="20190127122049" dir="1548580849xn426ta5lm" file="text.html"/>
      <record id="1548582906zlkiw9y4sk" name="phpMyAdmin" author="alensav" url="" tags="phpMyAdmin, admin, админ" ctime="20190127125506" dir="1548582906vnw5f6865b" file="text.html"/>
+     <record id="154861785162i0i94b5w" name="MySQL/MariaDB: как сменить пароль пользователя" author="alensav" url="http://linux-in.com/mysqlmariadb-how-to-change-a-user/" tags="mysql, mariadb, db, база. данных" ctime="20190127223731" dir="1548617851sm6cbwvcrk" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
