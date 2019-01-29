@@ -114,6 +114,9 @@
      <record id="1548582906zlkiw9y4sk" name="phpMyAdmin" author="alensav" url="https://www.digitalocean.com/community/tutorials/phpmyadmin-ubuntu-16-04-ru" tags="phpMyAdmin, admin, админ" ctime="20190127125506" dir="1548582906vnw5f6865b" file="text.html"/>
      <record id="154861785162i0i94b5w" name="MySQL/MariaDB: как сменить пароль пользователя" author="alensav" url="http://linux-in.com/mysqlmariadb-how-to-change-a-user/" tags="mysql, mariadb, db, база. данных" ctime="20190127223731" dir="1548617851sm6cbwvcrk" file="text.html"/>
      <record id="1548688499wbfe3dg2nk" name="Как установить веб-сервер Apache на Ubuntu 16.04" author="alensav" url="https://timeweb.com/ru/community/articles/kak-ustanovit-veb-server-apache-na-ubuntu-16-04-1" tags="apache, servver, phpmyadmin" ctime="20190128181459" dir="1548688499rwkslvab4d" file="text.html"/>
+     <record id="1548773727xx40f8y3tv" name="Install package owncloud-files" author="alensav" url="https://download.owncloud.org/download/repositories/stable/owncloud/index.html" tags="own, owncloud, cloud" ctime="20190129175527" dir="1548773727x9mmtm2z2q" file="text.html"/>
+     <record id="1548775311tam7r0visa" name="Apache HTTP Server &#10;" author="alensav" url="https://help.ubuntu.ru/wiki/apache2" tags="apache, server" ctime="20190129182151" dir="1548775311nj5rjkfino" file="text.html"/>
+     <record id="15487788783wqjn0nxa6" name="Настройка файла php.ini" author="alensav" url="https://losst.ru/nastrojka-fajla-php-ini" tags="php, настройка" ctime="20190129192118" dir="15487788782azrcz3951" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
