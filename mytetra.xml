@@ -119,6 +119,7 @@
      <record id="1548775311tam7r0visa" name="Apache HTTP Server &#10;" author="alensav" url="https://help.ubuntu.ru/wiki/apache2" tags="apache, server" ctime="20190129182151" dir="1548775311nj5rjkfino" file="text.html"/>
      <record id="15487788783wqjn0nxa6" name="Настройка файла php.ini" author="alensav" url="https://losst.ru/nastrojka-fajla-php-ini" tags="php, настройка" ctime="20190129192118" dir="15487788782azrcz3951" file="text.html"/>
      <record id="1548941200jp64uyup7j" name="HTML: Абзац и красная строка &#10;" author="alensav" url="https://puzzleweb.ru/html/5_paragraphs.php" tags="HTML, Абзац, красная, строка &#10;" ctime="20190131162640" dir="1548941200kcfg5giccm" file="text.html"/>
+     <record id="1549092323v6pomc68lk" name="Как установить Java 8 JDK, JRE в Ubuntu " author="alensav" url="https://www.mytechnote.ru/article/kak-ustanovit-java-8-jdk-jre-v-ubuntu" tags=" Java 8,  JDK,  JRE, Ubuntu " ctime="20190202102523" dir="1549092323x8lxmncgrv" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -184,6 +185,8 @@
      <record id="1549036630dooyvqpwdc" name="Всё о мета-теге Description" author="alensav" url="https://seokrem.com/seo/meta-tag-description/" tags="&#10;мета-тег, Description" ctime="20190201185710" dir="1549036630q9l4mv2bar" file="text.html"/>
      <record id="1549039653pcb02w1a93" name="&#10;Продвижение сайта в поисковых система" author="alensav" url="https://texterra.ru/blog/prodvizhenie-sayta-s-nulevym-byudzhetom-65-besplatnykh-sposobov-pokorit-poiskovye-topy.html" tags="&#10;Продвижение сайта в поисковых система" ctime="20190201194733" dir="15490396532plg0c6xpy" file="text.html"/>
      <record id="15490404039yzm8y6s2p" name="Как посмотреть мета-теги страниц интернет-сайта в WEB-браузере?" author="alensav" url="https://beseller.by/blog/kak-pravilno-formirovat-seo-tegi-dliya-internet-magazina/" tags=" мета-теги, страниц, интернет-сайта, WE, браузере" ctime="20190201200003" dir="1549040403dv1mahnqox" file="text.html"/>
+     <record id="15490928580fd8wa2uj7" name="Руководство по CSS" author="alensav" url="https://developer.mozilla.org/ru/docs/Web/CSS/Reference" tags="Руководство, CSS, HTTM" ctime="20190202103418" dir="1549092858npactw4gkq" file="text.html"/>
+     <record id="1549095686bnx0zd5oq2" name="Свойства элементов, управляемых с помощью CSS" author="" url="" tags="Свойства, элементов, CSS, httm, html" ctime="20190202112126" dir="15490956863dzgmbr46q" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
      <recordtable>
