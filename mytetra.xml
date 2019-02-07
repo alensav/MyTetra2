@@ -233,6 +233,8 @@
    <node crypt="" id="1546071604wwbokhp78i" name="RSYNC_COMMAND">
     <recordtable>
      <record id="15460718493nn830i6ih" name="RSYNC_COMMAND" author="alensav" url="" tags="sync, архивирование, ubuntu" ctime="20181229112409" dir="1546071849jbzvfzs5m0" file="text.html"/>
+     <record id="15492098607m6g7sfay7" name="Каталог САЙТА" author="alensav" url="" tags="сайт, rsync? win" ctime="20190203190420" dir="1549209860a2dabnwf16" file="text.html"/>
+     <record id="1549214315doaynxdvri" name="СВОДКА ПАРАМЕТРОВ RSYNC " author="alensav" url="http://www.opennet.ru/man.shtml?category=1&amp;russian=0&amp;topic=rsync" tags="СВОДКА ПАРАМЕТРОВ RSYNC" ctime="20190203201835" dir="1549214315tuq639dnr6" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1546350738abjfg5ofdo" name="FSTAB_SAV">
