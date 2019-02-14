@@ -124,6 +124,7 @@
      <record id="1549960195dh95s7vd3d" name=" Данный скрипт выводит текущую дату и время" author="alensav" url="http://gnatkovsky.com.ua/skript-tekushhej-daty-i-vremeni-ili-cifrovye-chasy-javascript.html" tags=" скрипт, дата, время" ctime="20190212112955" dir="1549960195v0q1bs6z1l" file="text.html"/>
      <record id="1549961665tc4pa4mg36" name="Дата на сайте HTML" author="alensav" url="https://s-sd.ru/blog_studio_design/data_na_sajte/" tags="Дата? сайт, HTML" ctime="20190212115425" dir="15499616654fxtkqgf3j" file="text.html"/>
      <record id="15500474038qeb698wud" name="Дисковое пространство" author="alensav" url="" tags="disk, ubuntu, диск, объем" ctime="20190213114323" dir="1550047403nvw3449t86" file="text.html"/>
+     <record id="1550143569zfco53zgjv" name="ОЧИСТКА UBUNTU" author="alensav" url="" tags="ОЧИСТКА,  UBUNTU" ctime="20190214142609" dir="1550143569d2tryhdgp3" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -202,6 +203,12 @@
      <record id="1549957374ygxzlp73qk" name="Задать цвет фона кнопки и цвет текста на ней.&#10;" author="alensav" url="http://htmlbook.ru/faq/kak-izmenit-tsvet-knopki-v-forme" tags=" цвет, фон, кнопка, цвет, текст" ctime="20190212104254" dir="154995737488zje9fl3r" file="text.html"/>
      <record id="1549975742p2erttg4qq" name="Полный список HTML-элементов " author="alensav" url="https://html5book.ru/html-tags/" tags=" список, HTML, элементs" ctime="20190212154902" dir="1549975742yrf3hzqdic" file="text.html"/>
      <record id="15500671222fkv88vmoy" name="СИНХРОНИЗАЦИЯ ПАПОК" author="alensav" url="" tags="СИНХРОНИЗАЦИЯ ПАПОК" ctime="20190213171202" dir="1550067122mfu3344pwn" file="text.html"/>
+     <record id="155014191141h3a0illp" name="BOOKS/Kvint_I._" author="alensav" url="file:///home/alensav/Dropbox/BOOKS/Kvint_I._Html_Xhtml_I_Css_Na_100.html/Kvint_I._Html_Xhtml_I_Css_Na_100.html" tags="BOOKS, Kvint, html, httm" ctime="20190214135831" dir="1550141911zy0l2y6sm5" file="text.html">
+      <files>
+       <file id="15501420961zvh1egn6i" fileName="Kvint_I._Html_Xhtml_I_Css_Na_100.html" type="file"/>
+      </files>
+     </record>
+     <record id="155014461012ptklefk8" name="Размещение Фото" author="" url="" tags="Размещение, Фото, httm" ctime="20190214144330" dir="15501446100xvxg6o22x" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
      <recordtable>
