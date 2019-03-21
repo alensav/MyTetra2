@@ -146,6 +146,9 @@
      <record id="1553099557mxfovw3mab" name="  ctrl+l, что бы появился адрес" author="alensav" url="http://tuksik.ru/show-url-in-nautilus/" tags=" ctrl+l,  появился,  адрес" ctime="20190320193237" dir="1553099557n5q0d1vazt" file="text.html"/>
      <record id="15531001397pay9g3xsz" name="Автоматическое монтирование яндекс диска в linux " author="alensav" url="http://tuksik.ru/auto-mount-disk-yandex/" tags="Автоматическое,  монтирование,  яндекс,  диск, linux " ctime="20190320194219" dir="15531001395oore03l08" file="text.html"/>
      <record id="1553112432un825jo3db" name="Выполнить скрипт при выходе из системы " author="alensav" url="https://ubuntugeeks.com/questions/3546/execute-a-script-upon-logout-reboot-shutdown-in-ubuntu" tags=" скрипт, выход, системы " ctime="20190320230712" dir="1553112432rbd3flrrtp" file="text.html"/>
+     <record id="1553179167byjhizdnfu" name="Настройка rdp сервера в Linux" author="alensav" url="http://admin-gu.ru/os/linux/nastrojka-rdp-servera-v-linux-mint-debian-ubuntu-dlya-podklyucheniya-iz-windows" tags="Настройка, rdp,  сервер, Linux" ctime="20190321173927" dir="15531791676ooudkrnf5" file="text.html"/>
+     <record id="155318367449220e6uzf" name="Удаленный рабочий стол ubuntu 16.04 " author="alensav" url="https://losst.ru/udalennyj-rabochij-stol-ubuntu-16-04" tags="Удаленный, рабочий, стол, ubuntu ,16.04 " ctime="20190321185434" dir="15531836745yn8dxpgdo" file="text.html"/>
+     <record id="1553185711dy6pv1afvl" name="Сервер VNC " author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=vnc-server-ubuntu" tags="Сервер, VNC " ctime="20190321192831" dir="1553185711y9ne4u839q" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
