@@ -32,6 +32,7 @@
      </files>
     </record>
     <record id="1548957905ii2nao29vs" name="Советы начинающему проектировщику" author="alensav" url="" tags="Советы,  начинающему,  проектировщику, план" ctime="20190131210505" dir="1548957905isfm2dx70g" file="text.html"/>
+    <record id="1553338847gzzs8o5lj2" name="skladchik" author="" url="" tags="skladchik" ctime="20190323140047" dir="1553338847rpjmg1m3r5" file="text.html"/>
    </recordtable>
    <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
     <recordtable>
@@ -149,6 +150,7 @@
      <record id="1553179167byjhizdnfu" name="Настройка rdp сервера в Linux" author="alensav" url="http://admin-gu.ru/os/linux/nastrojka-rdp-servera-v-linux-mint-debian-ubuntu-dlya-podklyucheniya-iz-windows" tags="Настройка, rdp,  сервер, Linux" ctime="20190321173927" dir="15531791676ooudkrnf5" file="text.html"/>
      <record id="155318367449220e6uzf" name="Удаленный рабочий стол ubuntu 16.04 " author="alensav" url="https://losst.ru/udalennyj-rabochij-stol-ubuntu-16-04" tags="Удаленный, рабочий, стол, ubuntu ,16.04 " ctime="20190321185434" dir="15531836745yn8dxpgdo" file="text.html"/>
      <record id="1553185711dy6pv1afvl" name="Сервер VNC " author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=vnc-server-ubuntu" tags="Сервер, VNC " ctime="20190321192831" dir="1553185711y9ne4u839q" file="text.html"/>
+     <record id="1553339846nv8o06qfgp" name="Как распаковать rar в Linux " author="alensav" url="https://losst.ru/kak-raspakovat-rar-v-linux" tags="распаковать, rar,  Linux " ctime="20190323141726" dir="1553339846ustfkahsqs" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
