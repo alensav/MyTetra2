@@ -151,6 +151,7 @@
      <record id="155318367449220e6uzf" name="Удаленный рабочий стол ubuntu 16.04 " author="alensav" url="https://losst.ru/udalennyj-rabochij-stol-ubuntu-16-04" tags="Удаленный, рабочий, стол, ubuntu ,16.04 " ctime="20190321185434" dir="15531836745yn8dxpgdo" file="text.html"/>
      <record id="1553185711dy6pv1afvl" name="Сервер VNC " author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=vnc-server-ubuntu" tags="Сервер, VNC " ctime="20190321192831" dir="1553185711y9ne4u839q" file="text.html"/>
      <record id="1553339846nv8o06qfgp" name="Как распаковать rar в Linux " author="alensav" url="https://losst.ru/kak-raspakovat-rar-v-linux" tags="распаковать, rar,  Linux " ctime="20190323141726" dir="1553339846ustfkahsqs" file="text.html"/>
+     <record id="15537629654hop276ymj" name="6 простых способов ускорить Ubuntu 16.04 в разы" author="alensav" url="https://webhamster.ru/mytetrashare/index/mtb191/1533921054uw39dfxif9" tags=" ускорить,  Ubuntu, " ctime="20190328114925" dir="1553762965lblod29714" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -336,6 +337,15 @@
     <recordtable>
      <record id="15535905973wj72lxgch" name="ЭЛЕКТРОЭНЕРГИЯ" author="Анатолий" url="" tags="эл" ctime="20190326115637" dir="15535905972t1yd6ig1f" file="text.html"/>
     </recordtable>
+    <node crypt="" id="155376513550q7ojpyrq" name="Поликарбонат">
+     <recordtable>
+      <record id="1553765391wxmsq3w2av" name="Как работать с поликарбонатом" author="alensav" url="https://otente.ru/polikarbonat/rabota-svoimi-rukami.html" tags="  поликарбонатом, быт" ctime="20190328122951" dir="1553765391cbqdg9iwvr" file="text.html"/>
+      <record id="1553767668fkr7zfleov" name="Как работать с поликарбонатом: общие рекомендации" author="alensav" url="http://propolikarbonat.ru/rabota-s-polikarbonatom" tags="Как работать с поликарбонатом: общие рекомендации" ctime="20190328130748" dir="1553767668pg7r8xukf4" file="text.html"/>
+      <record id="155376800991itx2esqf" name="Работа с поликарбонатом своими руками" author="alensav" url="https://kryshadoma.com/polikarbonat/rabota-s-polikarbonatom-svoimi-rukami.html" tags="Работа с поликарбонатом своими руками" ctime="20190328131329" dir="155376800907fw0mqwi8" file="text.html"/>
+      <record id="1553770508nw1f42w92m" name="Оптимальная толщина поликарбоната для навеса" author="alensav" url="https://srbu.ru/stroitelnye-materialy/252-kakoj-polikarbonat-luchshe-dlya-navesa.html" tags="Оптимальная толщина поликарбоната для навеса" ctime="20190328135508" dir="1553770508nj2ku418ol" file="text.html"/>
+      <record id="1553773162qpvlerl5tm" name="Монтаж поликарбоната на металлический каркас" author="alensav" url="https://teplica-exp.ru/montazh-polikarbonata-na-metallichesk/" tags="Монтаж поликарбоната на металлический каркас" ctime="20190328143922" dir="1553773162rct8rxbomd" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
   </node>
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
