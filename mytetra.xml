@@ -336,6 +336,8 @@
    <node crypt="" id="15535901428i8jinprzz" name="БЫТ">
     <recordtable>
      <record id="15535905973wj72lxgch" name="ЭЛЕКТРОЭНЕРГИЯ" author="Анатолий" url="" tags="эл" ctime="20190326115637" dir="15535905972t1yd6ig1f" file="text.html"/>
+     <record id="1554100452wyuc4wpgwi" name="ВОДА" author="alensav" url="" tags="ВОДА" ctime="20190401093412" dir="1554100452ujz77sdqny" file="text.html"/>
+     <record id="15541013155347n3gfvw" name="ГАЗ" author="alensav" url="" tags="ГАЗ" ctime="20190401094835" dir="1554101315b72lxfamis" file="text.html"/>
     </recordtable>
     <node crypt="" id="155376513550q7ojpyrq" name="Поликарбонат">
      <recordtable>
