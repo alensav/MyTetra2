@@ -37,13 +37,6 @@
    <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
     <recordtable>
      <record id="1543732416pofscthyn3" name="SSH_пересылка файлов" author="alensav" url="" tags="ssh_, ubuntu" ctime="20181202093336" dir="1543732416t8o93qjbis" file="text.html"/>
-     <record id="1543739752llscxwqfwp" name="XEOMA" author="alensav" url="" tags="" ctime="20181202113552" dir="1543739752xn467tdg96" file="text.html"/>
-     <record id="1543742325vnds07cd1i" name="XEOMA_РУКОВОДСТВО" author="" url="" tags="" ctime="20181202121845" dir="1543742325si41cnd6b2" file="text.html">
-      <files>
-       <file id="1545732834djxvjjexdx" fileName="user_manual_ru(1).pdf" type="file"/>
-       <file id="15457329097lamu5mgef" fileName="user_manual_ru(1).pdf" link="/home/alensav/Загрузки/user_manual_ru(1).pdf" type="link"/>
-      </files>
-     </record>
      <record id="15439373093rjt28u1ry" name="Android_на_Virtualbox" author="alensav" url="http://lumpics.ru/installation-android-on-virtualbox/" tags="android, virtual" ctime="20181204182829" dir="1543937309o0xzl428sb" file="text.html"/>
      <record id="15439450349pxfcb9q1b" name="Flash player" author="alensav" url="https://support.mozilla.org/ru/kb/upravlenie-plaginom-flash" tags="ubuntu, настройки" ctime="20181204203714" dir="15439450343as5j2ma0o" file="text.html"/>
      <record id="15439924086nqp263ahw" name="dd_Commands" author="alensav" url="https://losst.ru/kak-sdelat-zagruzochnuyu-fleshku-ubuntu" tags="dd, command, командыб загрузочная" ctime="20181205094648" dir="1543992408g897o5ntba" file="text.html"/>
@@ -51,14 +44,12 @@
      <record id="1544022215rlqi4w808x" name="Обзор систем бекапа в ubuntu" author="alensav" url="https://webhamster.ru/webmytetra#" tags="" ctime="20181205180335" dir="154402221590u2rln80a" file="text.html"/>
      <record id="15440227495kk4agnh16" name="rsnapshot " author="alensav" url="https://habr.com/post/45912/" tags="резервное, копир, sync" ctime="20181205181229" dir="1544022749p2k0eqzc0m" file="text.html"/>
      <record id="1544029759unlhycpo4t" name="Postfix" author="alensav" url="https://1cloud.ru/help/linux/postfix-dovecot-na-ubuntu" tags="mail, почта" ctime="20181205200919" dir="1544029759vgb6xe3elv" file="text.html"/>
-     <record id="1544086048v5wiwuga48" name="Запуск команд по времени" author="alensav" url="https://www.opennet.ru/docs/RUS/linux_base/node40.html" tags="command, time, команда, время" ctime="20181206114728" dir="1544086048ebq1esace6" file="text.html"/>
      <record id="154409549373h0ip5hpq" name=" watch" author="alensav" url="https://www.nixp.ru/recipes/33.html" tags="timr, время" ctime="20181206142453" dir="1544095493cp5on2ijc2" file="text.html"/>
      <record id="1544097005zde4u9p9ag" name="CP_remote_local" author="alensav" url="https://www.shellhacks.com/ru/copy-files-ssh-10-examples/" tags="cp, copir, копир" ctime="20181206145005" dir="1544097005ro4oo2ttji" file="text.html">
       <files>
        <file id="1544612815znr6xgpuum" fileName="Выделение_001.png" link="/home/alensav/Изображения/Выделение_001.png" type="link"/>
       </files>
      </record>
-     <record id="1544279361eejsoymjox" name="как закрыть зависшее приложение на ubuntu" author="alensav" url="https://www.google.com/search?client=ubuntu&amp;channel=fs&amp;q=%D0%BA%D0%B0%D0%BA+%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C+%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D1%88%D0%B5%D0%B5+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BD%D0%B0+ubuntu&amp;ie=utf-8&amp;oe=utf-8" tags="kill" ctime="20181208172921" dir="1544279361xkvhqsh0hj" file="text.html"/>
      <record id="1544432595a3c12faafz" name="Время" author="alensav" url="https://geeksmagazine.org/post/186/kak-pokazat-vremya-v-linuks-terminale" tags="время, time, настройка" ctime="20181210120315" dir="1544432595ywoq1z2od5" file="text.html"/>
      <record id="1544433153jnvjn8im9b" name="ИНДИКАТОРЫ" author="alensav" url="https://geeksmagazine.org/post/242/top-10-poleznyh-appletov-i-indikatorov-dlya-ubuntu-1404-lts" tags="индикаторы, настройки" ctime="20181210121233" dir="1544433153gg9h3117dk" file="text.html"/>
      <record id="1544618576bzona7su8e" name="Экпериментальное изучение" author="alensav" url="" tags="настройки, команды" ctime="20181212154256" dir="1544618576fe960n2phx" file="text.html"/>
@@ -69,18 +60,14 @@
      <record id="1544786642dojfkp8tup" name="NETWORK" author="alensav" url="" tags="сеть, настройка, локальная" ctime="20181214142402" dir="1544786642w71fg5n9xm" file="text.html"/>
      <record id="1544858699zl2vuz6k8n" name="Ярлыки программ" author="alensav" url="" tags="ярлык, приложение, программа" ctime="20181215102459" dir="1544858699cjanx9x7dw" file="text.html"/>
      <record id="15451183299klk4bpwdm" name="Распознавание текста" author="alensav" url="https://help.ubuntu.ru/fullcircle/36/top5_36" tags="текст, ocr, распознавание" ctime="20181218103209" dir="154511832945bq0uszp4" file="text.html"/>
-     <record id="15456507198mu4yiizoh" name="RSYNC_Настройка2" author="alensav" url="https://go.backupland.com/faq/install_rsync/install_rsync.html" tags="sync, настройка, синхронизация" ctime="20181224142519" dir="1545650719hxy8bk3joh" file="text.html"/>
      <record id="1545671116gw3rn7mvvb" name="FSTAB редактирование" author="alensav" url="https://help.ubuntu.ru/wiki/fstab" tags="" ctime="20181224200516" dir="1545671116u9i7278iog" file="text.html"/>
-     <record id="1545672020tji762x5xr" name="Командная строка" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0" tags="ubuntu, command, команды" ctime="20181224202020" dir="1545672020mrsy289h40" file="text.html"/>
      <record id="1545672663um4vr7nv7o" name="Планирование заданий" author="alensav" url="https://habr.com/company/ruvds/blog/336060/" tags="" ctime="20181224203103" dir="1545672663r239aqrnvo" file="text.html"/>
-     <record id="1545679271amiiedsi8t" name="Автозапуск_UBUNTU" author="alensav" url="https://programjutsu.wordpress.com/2010/06/23/%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4-%D0%BF%D1%80%D0%B8-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B5-ubuntu/" tags="авто, запуск" ctime="20181224222111" dir="1545679271c72w2t454b" file="text.html"/>
      <record id="1545822379v8hoq3igkp" name="CRON" author="alensav" url="https://help.ubuntu.ru/wiki/cron" tags="cron, ubuntu" ctime="20181226140619" dir="1545822379hn9qzxuqm8" file="text.html"/>
      <record id="1545839011i3ouh81adg" name="Command at" author="alensav" url="http://blog.sedicomm.com/2017/11/21/kak-ispolzovat-komandu-at-dlya-planirovaniya-zadachi-v-linux/" tags="" ctime="20181226184331" dir="15458390113hm1qzepll" file="text.html"/>
      <record id="15458398636r3xjjqzml" name="Ошибки CRON" author="alensav" url="https://system-admins.ru/ubuntu-linux-proverka-oshibok-cron/" tags="" ctime="20181226185743" dir="1545839863luafbjw2wd" file="text.html"/>
      <record id="1545841662ktq52q5316" name="15 лучших КОМАНД CRON" author="alen" url="http://devacademy.ru/posts/15-otlichnykh-primierov-dlia-sozdaniia-cron-zadach-v-linux/" tags="cron, command, настройки" ctime="20181226192742" dir="1545841662vyx49x78tp" file="text.html"/>
      <record id="1546532507und4rzzkj2" name="Автосборка" author="alensav" url="https://help.ubuntu.ru/wiki/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC" tags="автосборка" ctime="20190103192147" dir="1546532507vxs3o1dpmt" file="text.html"/>
      <record id="15465962066op8hm14or" name="авто_команды_перед_откл" author="alensav" url="" tags="авто, отключение" ctime="20190104130326" dir="15465962069g5fc411lj" file="text.html"/>
-     <record id="15466231031wd2v304s7" name="CRON_ОБРАЗЦЫ" author="alensav" url="https://help.ubuntu.ru/wiki/cron" tags="cron, образцы" ctime="20190104203143" dir="15466231031um8n8mfk5" file="text.html"/>
      <record id="1546624058v6468qk5dn" name="GREP ПОИСК" author="alensav" url="http://softhelp.org.ua/?p=4943" tags="grep, поиск" ctime="20190104204738" dir="15466240585pnd5qzrbr" file="text.html"/>
      <record id="15467231795852c5sl27" name="COmmands_UBUNTU" author="alensav" url="http://www.linuxguide.it/command_line/linux_commands_ru.html" tags="commands, ubuntu" ctime="20190106001939" dir="15467231797kq9n2cb8q" file="text.html"/>
      <record id="1546770526anjypu995l" name="Команды_Ubuntu_Алфавит" author="alensav" url="https://losst.ru/komandy-terminala-linux" tags="command, командыБ ubuntu" ctime="20190106132846" dir="15467705267fb82x6mz3" file="text.html"/>
@@ -178,6 +165,20 @@
      <recordtable>
       <record id="1546338004txygzd444s" name="GREP_INSTR" author="" url="" tags="" ctime="20190101132004" dir="1546338004sn3b04i11g" file="text.html"/>
       <record id="1546338537k5aa5u99jx" name="Grep_Руководство" author="alensav" url="https://andreyex.ru/operacionnaya-sistema-linux/polnoe-rukovodstvo-komanda-grep-v-linux/" tags="grep" ctime="20190101132857" dir="1546338537lrgolawcl4" file="text.html"/>
+      <record id="1544086048v5wiwuga48" name="Запуск команд по времени" author="alensav" url="https://www.opennet.ru/docs/RUS/linux_base/node40.html" tags="command, time, команда, время" ctime="20190402140653" dir="1544086048ebq1esace6" file="text.html"/>
+      <record id="1544279361eejsoymjox" name="как закрыть зависшее приложение на ubuntu" author="alensav" url="https://www.google.com/search?client=ubuntu&amp;channel=fs&amp;q=%D0%BA%D0%B0%D0%BA+%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C+%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D1%88%D0%B5%D0%B5+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BD%D0%B0+ubuntu&amp;ie=utf-8&amp;oe=utf-8" tags="kill" ctime="20190402140711" dir="1544279361xkvhqsh0hj" file="text.html"/>
+      <record id="1545672020tji762x5xr" name="Командная строка" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0" tags="ubuntu, command, команды" ctime="20190402140803" dir="1545672020mrsy289h40" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1554203120vny48libog" name="XEOMA">
+     <recordtable>
+      <record id="1543739752llscxwqfwp" name="XEOMA" author="alensav" url="" tags="" ctime="20190402140551" dir="1543739752xn467tdg96" file="text.html"/>
+      <record id="1543742325vnds07cd1i" name="XEOMA_РУКОВОДСТВО" author="" url="" tags="" ctime="20190402140606" dir="1543742325si41cnd6b2" file="text.html">
+       <files>
+        <file id="1545732834djxvjjexdx" fileName="user_manual_ru(1).pdf" type="file"/>
+        <file id="15457329097lamu5mgef" fileName="user_manual_ru(1).pdf" link="/home/alensav/Загрузки/user_manual_ru(1).pdf" type="link"/>
+       </files>
+      </record>
      </recordtable>
     </node>
    </node>
@@ -295,6 +296,11 @@
       <record id="1553585918mma626u3nd" name="команды" author="alensav" url="" tags="команды" ctime="20190326103838" dir="1553585918t2pv2h7gdd" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1554205121wav5akuahq" name="HOST">
+     <recordtable>
+      <record id="15542051791gm0rv5oxg" name="BEGET" author="alensav" url="https://beget.com/ru/free-hosting" tags="BEGET" ctime="20190402143939" dir="1554205179mwkrmk1w2s" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="15451483932alkp4upu2" name="РЕЦЕПТЫ">
     <recordtable>
@@ -309,6 +315,7 @@
    <node crypt="" id="1545823315faxpgcma2o" name="CRON_COMMAND">
     <recordtable>
      <record id="1545823453keaxuszt9e" name="COMMAND" author="alensav" url="" tags="command" ctime="20181226142413" dir="15458234534o91tptwgw" file="text.html"/>
+     <record id="15466231031wd2v304s7" name="CRON_ОБРАЗЦЫ" author="alensav" url="https://help.ubuntu.ru/wiki/cron" tags="cron, образцы" ctime="20190402141016" dir="15466231031um8n8mfk5" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1546071604wwbokhp78i" name="RSYNC_COMMAND">
@@ -316,6 +323,7 @@
      <record id="15460718493nn830i6ih" name="RSYNC_COMMAND" author="alensav" url="" tags="sync, архивирование, ubuntu" ctime="20181229112409" dir="1546071849jbzvfzs5m0" file="text.html"/>
      <record id="15492098607m6g7sfay7" name="Каталог САЙТА" author="alensav" url="" tags="сайт, rsync? win" ctime="20190203190420" dir="1549209860a2dabnwf16" file="text.html"/>
      <record id="1549214315doaynxdvri" name="СВОДКА ПАРАМЕТРОВ RSYNC " author="alensav" url="http://www.opennet.ru/man.shtml?category=1&amp;russian=0&amp;topic=rsync" tags="СВОДКА ПАРАМЕТРОВ RSYNC" ctime="20190203201835" dir="1549214315tuq639dnr6" file="text.html"/>
+     <record id="15456507198mu4yiizoh" name="RSYNC_Настройка2" author="alensav" url="https://go.backupland.com/faq/install_rsync/install_rsync.html" tags="sync, настройка, синхронизация" ctime="20190402140741" dir="1545650719hxy8bk3joh" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1546350738abjfg5ofdo" name="FSTAB_SAV">
