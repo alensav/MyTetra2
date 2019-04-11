@@ -364,6 +364,11 @@
      </recordtable>
     </node>
    </node>
+   <node crypt="" id="15549770206cvjvp9yrf" name="ROBOKASSA">
+    <recordtable>
+     <record id="1554977060vkv01lj9y0" name="LOGIN" author="alensav" url="" tags="robokassa" ctime="20190411130420" dir="1554977060urw5a7u0l1" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
    <recordtable>
