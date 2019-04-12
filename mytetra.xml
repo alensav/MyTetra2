@@ -368,6 +368,12 @@
    <node crypt="" id="15549770206cvjvp9yrf" name="ROBOKASSA">
     <recordtable>
      <record id="1554977060vkv01lj9y0" name="LOGIN" author="alensav" url="" tags="robokassa" ctime="20190411130420" dir="1554977060urw5a7u0l1" file="text.html"/>
+     <record id="15550933562u0e0hq27m" name="Настройки ROBOKASSA" author="alensav" url="https://docs.robokassa.ru/#2387" tags="robokassa" ctime="20190412212236" dir="1555093356yw5vpg8ogf" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="155509251794tdnj9nn1" name="Qiwi">
+    <recordtable>
+     <record id="15550925865odzzyivw0" name="QIWI" author="alensav" url="" tags="qiwi" ctime="20190412210946" dir="155509258612uufht44h" file="text.html"/>
     </recordtable>
    </node>
   </node>
