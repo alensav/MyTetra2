@@ -1,396 +1,393 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mytetradoc>
 <root>
- <format version="1" subversion="2"/>
- <content>
-  <node crypt="" id="1300000000aaaaaaaaa1" name="MyTetra">
-   <recordtable>
-    <record id="1300000000aaaaaaaaa3" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1300000000aaaaaaaaa2" file="text.html"/>
-    <record id="154395238261cdn75c38" name="Git_Lab_documents" author="alensav" url="" tags="git, настройки" ctime="20181204223942" dir="1543952382jqvw57nud4" file="text.html"/>
-    <record id="1543956914oeuuyvc44o" name="Графический_интерфейс_GIT GUI" author="alensav" url="https://git-scm.com/book/ru/v2/Appendix-A%3A-Git-%D0%B2-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85-%D0%BE%D0%BA%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B" tags="mytetra, настройкиб графический" ctime="20181204235514" dir="15439569142zp4n9a2sq" file="text.html"/>
-    <record id="1544080871l5vctfb4u8" name="Синхронизация MyTetra" author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/170" tags="sync, синхронизация, mytetra" ctime="20181206102111" dir="1544080871jfy9lkki92" file="text.html"/>
-    <record id="1544083649hz73m9h5w3" name="Синхронизация данных MyTetra с другими компьютерами" author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/170" tags="sync, синхронизация" ctime="20181206110729" dir="1544083649wpm8hfn9zy" file="text.html"/>
-    <record id="154419695825ztvwh9yi" name="Управление окном MyTetra " author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/499" tags="mytetra, окна" ctime="20181207183558" dir="15441969589wjijyjhlx" file="text.html"/>
-    <record id="1544456078921jn2qjde" name="Tig – консольный браузер для репозиториев Git" author="alensav" url="https://getpocket.com/a/read/2405847951" tags="git, рипозиторий, tig" ctime="20181210183438" dir="15444560788uk01f27os" file="text.html"/>
-    <record id="15445457845gjbf5dnl3" name="ОПЕРАТИВНЫЕ КОМАНДЫ" author="alensav" url="" tags="команды,git, " ctime="20181211192944" dir="1544545784e7qkkr9mfm" file="text.html"/>
-    <record id="1544956908mzt6vb58we" name="ОГЛАВЛЕНИЕ_UBUNTU" author="alensav" url="" tags="настройки. данные, команды" ctime="20181216134148" dir="15449569089z81cju46e" file="text.html"/>
-    <record id="1545139696z548o3rchc" name="ВЕТВИ" author="alensav" url="https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F" tags="git, ветви" ctime="20181218162816" dir="1545139696fnlyxn21q5" file="text.html"/>
-    <record id="15453034211cbbpr0qvv" name="Сведения о remote файлах" author="alensav" url="" tags="git, настройки" ctime="20181220135701" dir="1545303421u241d0pv9b" file="text.html"/>
-    <record id="15455702772eercx25cp" name="MyTetra_XML" author="alensav" url="" tags="" ctime="20181223160437" dir="1545570277oocsqa066a" file="text.html"/>
-    <record id="1545575790dnzovmz4bk" name="RSYNC" author="alensav" url="https://losst.ru/rsync-primery-sinhronizatsii" tags="sync, синхронизация" ctime="20181223173630" dir="1545575790se1nf713mz" file="text.html"/>
-    <record id="15456455651ory5f84d9" name="RSYNC_НАСТРОЙКИ1" author="alensav" url="https://www.dmosk.ru/instruktions.php?object=rsync-server" tags="sync, синхронизация, настройки" ctime="20181224125925" dir="1545645565vfw1qu8cry" file="text.html"/>
-    <record id="1545724717x3o9xcu9xp" name="RSYNC_настройки2" author="alensav" url="https://k0n0n3nk0.wordpress.com/2011/05/11/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%B0%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC-rsync-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82/" tags="sync, синхронизация" ctime="20181225105837" dir="15457247176q32m40xvs" file="text.html"/>
-    <record id="154572569378qhy5ecko" name="RSYNC_примеры использования" author="alensav" url="https://greendail.ru/node/rsync-primery-ispolzovaniya" tags="sync, синхронизация" ctime="20181225111453" dir="1545725693zlkiufjjlt" file="text.html"/>
-    <record id="1546510463ja8rtul5g5" name="ПЛАН" author="alensav" url="" tags="план" ctime="20190103131423" dir="1546510463jxii42gvyu" file="text.html"/>
-    <record id="1547279150zx1ur0cdop" name="Слушаем музыку  cmus " author="alensav" url="https://eax.me/cmus/" tags="musik, музыка, консоль, cmus" ctime="20190112104550" dir="154727915040k9dkkqmz" file="text.html"/>
-    <record id="1547385990gpzqw7pmt8" name="шпаргалка по работе с Git" author="alensav" url="https://eax.me/git-commands/" tags="шпаргалка, Git" ctime="20190113162630" dir="1547385990vntsg3sw86" file="text.html"/>
-    <record id="1547801722ayb98cm15s" name="ПЕНСИЯ" author="ли_ав" url="" tags="пенсия" ctime="20190118115522" dir="15478017225ukywb77ce" file="text.html"/>
-    <record id="15480717133dbddzgn1c" name="НАЛОГИ" author="alensav" url="" tags="налог" ctime="20190121145513" dir="1548071713riibvwir1c" file="text.html">
-     <files>
-      <file id="1548071753o7w4dpo6a0" fileName="treb-68049.pdf" type="file"/>
-      <file id="1548073811o0awtx2jcp" fileName="ИП_Налог.doc" type="file"/>
-     </files>
-    </record>
-    <record id="1548957905ii2nao29vs" name="Советы начинающему проектировщику" author="alensav" url="" tags="Советы,  начинающему,  проектировщику, план" ctime="20190131210505" dir="1548957905isfm2dx70g" file="text.html"/>
-    <record id="1553338847gzzs8o5lj2" name="skladchik" author="" url="" tags="skladchik" ctime="20190323140047" dir="1553338847rpjmg1m3r5" file="text.html"/>
-   </recordtable>
-   <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
-    <recordtable>
-     <record id="1543732416pofscthyn3" name="SSH_пересылка файлов" author="alensav" url="" tags="ssh_, ubuntu" ctime="20181202093336" dir="1543732416t8o93qjbis" file="text.html"/>
-     <record id="15439373093rjt28u1ry" name="Android_на_Virtualbox" author="alensav" url="http://lumpics.ru/installation-android-on-virtualbox/" tags="android, virtual" ctime="20181204182829" dir="1543937309o0xzl428sb" file="text.html"/>
-     <record id="15439450349pxfcb9q1b" name="Flash player" author="alensav" url="https://support.mozilla.org/ru/kb/upravlenie-plaginom-flash" tags="ubuntu, настройки" ctime="20181204203714" dir="15439450343as5j2ma0o" file="text.html"/>
-     <record id="15439924086nqp263ahw" name="dd_Commands" author="alensav" url="https://losst.ru/kak-sdelat-zagruzochnuyu-fleshku-ubuntu" tags="dd, command, командыб загрузочная" ctime="20181205094648" dir="1543992408g897o5ntba" file="text.html"/>
-     <record id="15440216859px9ixnjh6" name="rsync _СИНХРОНИЗАЦИЯ" author="alensav" url="https://webhamster.ru/webmytetra#" tags="sync, синхронизация, резервирование" ctime="20181205175445" dir="1544021685b4gtc9nllb" file="text.html"/>
-     <record id="1544022215rlqi4w808x" name="Обзор систем бекапа в ubuntu" author="alensav" url="https://webhamster.ru/webmytetra#" tags="" ctime="20181205180335" dir="154402221590u2rln80a" file="text.html"/>
-     <record id="15440227495kk4agnh16" name="rsnapshot " author="alensav" url="https://habr.com/post/45912/" tags="резервное, копир, sync" ctime="20181205181229" dir="1544022749p2k0eqzc0m" file="text.html"/>
-     <record id="1544029759unlhycpo4t" name="Postfix" author="alensav" url="https://1cloud.ru/help/linux/postfix-dovecot-na-ubuntu" tags="mail, почта" ctime="20181205200919" dir="1544029759vgb6xe3elv" file="text.html"/>
-     <record id="154409549373h0ip5hpq" name=" watch" author="alensav" url="https://www.nixp.ru/recipes/33.html" tags="timr, время" ctime="20181206142453" dir="1544095493cp5on2ijc2" file="text.html"/>
-     <record id="1544097005zde4u9p9ag" name="CP_remote_local" author="alensav" url="https://www.shellhacks.com/ru/copy-files-ssh-10-examples/" tags="cp, copir, копир" ctime="20181206145005" dir="1544097005ro4oo2ttji" file="text.html">
-      <files>
-       <file id="1544612815znr6xgpuum" fileName="Выделение_001.png" link="/home/alensav/Изображения/Выделение_001.png" type="link"/>
-      </files>
-     </record>
-     <record id="1544432595a3c12faafz" name="Время" author="alensav" url="https://geeksmagazine.org/post/186/kak-pokazat-vremya-v-linuks-terminale" tags="время, time, настройка" ctime="20181210120315" dir="1544432595ywoq1z2od5" file="text.html"/>
-     <record id="1544433153jnvjn8im9b" name="ИНДИКАТОРЫ" author="alensav" url="https://geeksmagazine.org/post/242/top-10-poleznyh-appletov-i-indikatorov-dlya-ubuntu-1404-lts" tags="индикаторы, настройки" ctime="20181210121233" dir="1544433153gg9h3117dk" file="text.html"/>
-     <record id="1544618576bzona7su8e" name="Экпериментальное изучение" author="alensav" url="" tags="настройки, команды" ctime="20181212154256" dir="1544618576fe960n2phx" file="text.html"/>
-     <record id="1544619803dm32slycl6" name="ССЫЛКИ" author="alensav" url="" tags="ссылки, настройки, база, данных" ctime="20181212160323" dir="1544619803xcwp7vpdwz" file="text.html"/>
-     <record id="15446423376xl1hf7xe7" name="Путеводитель_LINUX" author="alenasav" url="http://linsoft.info/" tags="linux, ос, настройки, приложения" ctime="20181212221857" dir="15446423377otvxhagin" file="text.html"/>
-     <record id="154471488731mlgjil13" name="ПОРТЫ (PORT)" author="alensav" url="http://blog.sedicomm.com/2018/04/08/kak-proverit-dostupnost-otkrytost-porta-portov-ispolzuya-komandu-nc/" tags="порт, port, проброска, связь" ctime="20181213182807" dir="1544714887k1mm5me7tu" file="text.html"/>
-     <record id="1544778372aptap7ozij" name="Программы для ubuntu" author="alensav" url="" tags="приложения, программы, поиск" ctime="20181214120612" dir="15447783722ig8xnt2i8" file="text.html"/>
-     <record id="1544786642dojfkp8tup" name="NETWORK" author="alensav" url="" tags="сеть, настройка, локальная" ctime="20181214142402" dir="1544786642w71fg5n9xm" file="text.html"/>
-     <record id="1544858699zl2vuz6k8n" name="Ярлыки программ" author="alensav" url="" tags="ярлык, приложение, программа" ctime="20181215102459" dir="1544858699cjanx9x7dw" file="text.html"/>
-     <record id="15451183299klk4bpwdm" name="Распознавание текста" author="alensav" url="https://help.ubuntu.ru/fullcircle/36/top5_36" tags="текст, ocr, распознавание" ctime="20181218103209" dir="154511832945bq0uszp4" file="text.html"/>
-     <record id="1545671116gw3rn7mvvb" name="FSTAB редактирование" author="alensav" url="https://help.ubuntu.ru/wiki/fstab" tags="" ctime="20181224200516" dir="1545671116u9i7278iog" file="text.html"/>
-     <record id="1545672663um4vr7nv7o" name="Планирование заданий" author="alensav" url="https://habr.com/company/ruvds/blog/336060/" tags="" ctime="20181224203103" dir="1545672663r239aqrnvo" file="text.html"/>
-     <record id="1545822379v8hoq3igkp" name="CRON" author="alensav" url="https://help.ubuntu.ru/wiki/cron" tags="cron, ubuntu" ctime="20181226140619" dir="1545822379hn9qzxuqm8" file="text.html"/>
-     <record id="1545839011i3ouh81adg" name="Command at" author="alensav" url="http://blog.sedicomm.com/2017/11/21/kak-ispolzovat-komandu-at-dlya-planirovaniya-zadachi-v-linux/" tags="" ctime="20181226184331" dir="15458390113hm1qzepll" file="text.html"/>
-     <record id="15458398636r3xjjqzml" name="Ошибки CRON" author="alensav" url="https://system-admins.ru/ubuntu-linux-proverka-oshibok-cron/" tags="" ctime="20181226185743" dir="1545839863luafbjw2wd" file="text.html"/>
-     <record id="1545841662ktq52q5316" name="15 лучших КОМАНД CRON" author="alen" url="http://devacademy.ru/posts/15-otlichnykh-primierov-dlia-sozdaniia-cron-zadach-v-linux/" tags="cron, command, настройки" ctime="20181226192742" dir="1545841662vyx49x78tp" file="text.html"/>
-     <record id="1546532507und4rzzkj2" name="Автосборка" author="alensav" url="https://help.ubuntu.ru/wiki/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC" tags="автосборка" ctime="20190103192147" dir="1546532507vxs3o1dpmt" file="text.html"/>
-     <record id="15465962066op8hm14or" name="авто_команды_перед_откл" author="alensav" url="" tags="авто, отключение" ctime="20190104130326" dir="15465962069g5fc411lj" file="text.html"/>
-     <record id="1546624058v6468qk5dn" name="GREP ПОИСК" author="alensav" url="http://softhelp.org.ua/?p=4943" tags="grep, поиск" ctime="20190104204738" dir="15466240585pnd5qzrbr" file="text.html"/>
-     <record id="15467231795852c5sl27" name="COmmands_UBUNTU" author="alensav" url="http://www.linuxguide.it/command_line/linux_commands_ru.html" tags="commands, ubuntu" ctime="20190106001939" dir="15467231797kq9n2cb8q" file="text.html"/>
-     <record id="1546770526anjypu995l" name="Команды_Ubuntu_Алфавит" author="alensav" url="https://losst.ru/komandy-terminala-linux" tags="command, командыБ ubuntu" ctime="20190106132846" dir="15467705267fb82x6mz3" file="text.html"/>
-     <record id="1546879070dhkw5ciqjm" name="webmin" author="alensav" url="https://losst.ru/ustanovka-webmin-na-ubuntu-server-16-04" tags="" ctime="20190107193750" dir="154687907066neycrmop" file="text.html"/>
-     <record id="1547049636f77f0ohggw" name="Резервное копирование Ununtu" author="alensav" url="https://losst.ru/rezervnoe-kopirovanie-ubuntu" tags="cp, copir, копир, архивация" ctime="20190109190036" dir="15470496363nsf66ozeb" file="text.html"/>
-     <record id="1547104064nnp7x35hen" name="Откат системы Ubuntu " author="alensav" url="https://losst.ru/otkat-sistemy-ubuntu" tags="откат, система, ubuntu," ctime="20190110100744" dir="1547104064wnjj5s47c3" file="text.html"/>
-     <record id="1547105717gxe0irn5ac" name="Журнал активности_USERUBUNTU" author="alensav" url="https://itshaman.ru/it-programmy-dlya-linux/263/zhurnal-aktivnosti-polzovatelya-v-gnome-ili-zeitgeist-v-deistvii" tags="log, user, журнал, лог, пользователь" ctime="20190110103517" dir="1547105717g4wn91x1sw" file="text.html"/>
-     <record id="15471408492e27n8z76g" name="Neofetch - информация о системе linux" author="alensav" url="https://losst.ru/neofetch-informatsiya-o-sisteme-linux-i-logotip-v-terminale" tags="system, сиситема. настройки" ctime="20190110202049" dir="1547140849s0i9gs9nbt" file="text.html"/>
-     <record id="1547142634i16ctp0o5n" name="Установка редактора Emacs" author="alensav" url="https://linuxsoid.club/how-to-install-emacs-editor-for-ubuntu" tags="редактор, текст, emaks" ctime="20190110205034" dir="1547142634l0zge9pup2" file="text.html"/>
-     <record id="15471931143whdacpgf6" name="Редакторы Brackets," author="alensav" url="https://linuxsoid.club/browse-best-code-editors-linux" tags="редактор, HTTM" ctime="20190111105154" dir="15471931141k0gr6rm88" file="text.html"/>
-     <record id="1547221392toa5usib9n" name="Сервер nginx на Ubuntu" author="alensav" url="https://neoblogs.net/2013/06/19/ustanovka-veb-servera-nginx-na-ubuntu-linux/" tags="server, nginx" ctime="20190111184312" dir="1547221392xx8smxtizw" file="text.html"/>
-     <record id="1547384449yguibixtwi" name="Частые команды" author="alensav" url="https://losst.ru/bash-skripty-linux" tags="Частые, команды" ctime="20190113160049" dir="1547384449nwkcy8qpgn" file="text.html"/>
-     <record id="1547384902n965gde9q9" name="Записать видео с экрана в терминале linux:" author="alensav" url="" tags="Записать, видео, экран, терминал" ctime="20190113160822" dir="1547384902eq6e92yk41" file="text.html"/>
-     <record id="15473876276iyfwkduph" name="Начало работы с Vagrant" author="alensav" url="https://eax.me/vagrant/" tags="vagrant, утилита, виртуалка" ctime="20190113165347" dir="1547387627a2z9po7xts" file="text.html"/>
-     <record id="1547407704s1q0yiysvw" name="Сокращаем команды терминала через alias" author="alensav" url="http://tuksik.ru/alias/" tags="Сокращения, команды, терминал, alias" ctime="20190113222824" dir="1547407704rbr2c96li8" file="text.html"/>
-     <record id="1547466925dlvqaymggd" name="XED" author="alensav" url="https://www.linuxhelp.com/how-to-install-xed-editor-on-ubuntu-16-04" tags="редактор, xed" ctime="20190114145525" dir="1547466925c71nh09dc0" file="text.html"/>
-     <record id="1547493934irfxvj4ntz" name="CodeLobster IDE" author="alensav" url="https://linuxthebest.net/codelobster-ide-novaya-ide-dlya-linux-sistem/#more-9297" tags="PHP/HTML/CSS/JavaScript редактором и средой для WEB" ctime="20190114222534" dir="1547493934yczs9jocf4" file="text.html"/>
-     <record id="1547545059ot86h631dq" name="Установка необходимых программ " author="alensav" url="http://ubuntovod.ru/" tags="Установка, необходимых, программ, ubuntu " ctime="20190115123739" dir="1547545059s0vclr2zv1" file="text.html"/>
-     <record id="1547544575wl5ppt8pvx" name="Завершить процесс в Linux" author="alensav" url="https://www.gotoadm.ru/kill-process-in-linux-command-ps-kill-killall/" tags="завершить, процесс, kill" ctime="20190115132352" dir="1547544575vryb3fzp80" file="text.html"/>
-     <record id="15475480487ai1o520mf" name="disk" author="alensav" url="https://help.ubuntu.ru/fullcircle/30/%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B_%D1%87_6" tags="disk, место. освободить" ctime="20190115132728" dir="1547548048215uflq26d" file="text.html"/>
-     <record id="15480839612q8ovakdnt" name="Как скачать файл с сети в консоли?" author="alensav" url="http://pro-spo.ru/linux-for-beginner/2864-2011-12-06-11-37-05" tags="скачать,  файл,  сети, сеть,  консолиь" ctime="20190121181921" dir="1548083961e8vi0xq0yj" file="text.html"/>
-     <record id="1548145751sgraor4ddt" name="Анализ нагрузки на веб-сервер Linux" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=web-load-analis" tags="Анализ, нагрузки,  веб-сервер, Linux,  nginx, Apache, PHP-FPM" ctime="20190122112911" dir="154814575144imqniqxe" file="text.html"/>
-     <record id="1548176161586hiatc5d" name="Ubuntu SERVER" author="alensav" url="" tags="tasksel, ubuntu, server" ctime="20190122195601" dir="1548176161bb5kmsn6se" file="text.html"/>
-     <record id="15481833311a6mjs9012" name="MYSQL" author="alensav" url="https://community.vscale.io/hc/ru/community/posts/209370225-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-MySQL-%D0%BD%D0%B0-Ubuntu-16-04" tags="MYSQL, база, данных" ctime="20190122215531" dir="1548183331j65ohwpb7k" file="text.html"/>
-     <record id="154824696348qlfsmyio" name="ODA File Converter" author="alensav" url="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=ru&amp;prev=search&amp;rurl=translate.google.ru&amp;sl=en&amp;sp=nmt4&amp;u=https://www.opendesign.com/guestfiles/oda_file_converter&amp;xid=17259,15700022,15700043,15700186,15700191,15700248&amp;usg=ALkJrhgix1xHUe2FJcPyFDpdhYF4IOraeA" tags="преобразования, dwg, .dxf" ctime="20190123153603" dir="1548246963p2rxtm6pmd" file="text.html"/>
-     <record id="1548259118pbj0yzcb7d" name="BRL-CAD" author="alensav" url="https://brlcad.org/wiki/Compiling" tags="BRL-CAD, autocad, dwg" ctime="20190123185838" dir="1548259118nbkeis1ujv" file="text.html"/>
-     <record id="15483554397tiyokifee" name="БД" author="alensav" url="https://1cloud.ru/help/website-hosting/kak-ustanovit-joomla-3-na-ubuntu" tags="bd, бд, база. данных" ctime="20190124214359" dir="1548355439g676e66qj5" file="text.html"/>
-     <record id="1548414097zdt6dx0ots" name="Cloud Selectel" author="alensav" url="https://selectel.ru/services/cloud/storage/?storage=40&amp;traffic=10" tags="облако, cloud, хранилище, файл, архивация, tar" ctime="20190125140137" dir="1548414097bt6hls7pyu" file="text.html"/>
-     <record id="1548497455fdo05jm403" name="Как распаковать tar.bz2 архив в Linux?" author="alensav" url="https://pingvinus.ru/answers/847" tags="tar, bz2, архив" ctime="20190126131055" dir="1548497455dnzt00cihl" file="text.html"/>
-     <record id="1548498103hb2zkduido" name="mysupercloud.ru" author="alensav" url="http://liberatum.ru/blog/owncloud-install" tags="сайт, mysupercloud.ru, owncloud" ctime="20190126132143" dir="1548498103dvdivi1xm1" file="text.html"/>
-     <record id="15485313211nv1w8ox8f" name=" Apache в Ubuntu" author="alensav" url="" tags="сервер, server, apache" ctime="20190126223521" dir="1548531321a8xcmsp8hv" file="text.html"/>
-     <record id="15485808498mbnztiu0i" name="Создание и удаление баз в MySQL/MariaDB" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=mysql-create-db" tags="mysgl, bd, бд, база. данных" ctime="20190127122049" dir="1548580849xn426ta5lm" file="text.html"/>
-     <record id="1548582906zlkiw9y4sk" name="phpMyAdmin" author="alensav" url="https://www.digitalocean.com/community/tutorials/phpmyadmin-ubuntu-16-04-ru" tags="phpMyAdmin, admin, админ" ctime="20190127125506" dir="1548582906vnw5f6865b" file="text.html"/>
-     <record id="154861785162i0i94b5w" name="MySQL/MariaDB: как сменить пароль пользователя" author="alensav" url="http://linux-in.com/mysqlmariadb-how-to-change-a-user/" tags="mysql, mariadb, db, база. данных" ctime="20190127223731" dir="1548617851sm6cbwvcrk" file="text.html"/>
-     <record id="1548688499wbfe3dg2nk" name="Как установить веб-сервер Apache на Ubuntu 16.04" author="alensav" url="https://timeweb.com/ru/community/articles/kak-ustanovit-veb-server-apache-na-ubuntu-16-04-1" tags="apache, servver, phpmyadmin" ctime="20190128181459" dir="1548688499rwkslvab4d" file="text.html"/>
-     <record id="1548773727xx40f8y3tv" name="Install package owncloud-files" author="alensav" url="https://download.owncloud.org/download/repositories/stable/owncloud/index.html" tags="own, owncloud, cloud" ctime="20190129175527" dir="1548773727x9mmtm2z2q" file="text.html"/>
-     <record id="1548775311tam7r0visa" name="Apache HTTP Server &#10;" author="alensav" url="https://help.ubuntu.ru/wiki/apache2" tags="apache, server" ctime="20190129182151" dir="1548775311nj5rjkfino" file="text.html"/>
-     <record id="15487788783wqjn0nxa6" name="Настройка файла php.ini" author="alensav" url="https://losst.ru/nastrojka-fajla-php-ini" tags="php, настройка" ctime="20190129192118" dir="15487788782azrcz3951" file="text.html"/>
-     <record id="1548941200jp64uyup7j" name="HTML: Абзац и красная строка &#10;" author="alensav" url="https://puzzleweb.ru/html/5_paragraphs.php" tags="HTML, Абзац, красная, строка &#10;" ctime="20190131162640" dir="1548941200kcfg5giccm" file="text.html"/>
-     <record id="1549092323v6pomc68lk" name="Как установить Java 8 JDK, JRE в Ubuntu " author="alensav" url="https://www.mytechnote.ru/article/kak-ustanovit-java-8-jdk-jre-v-ubuntu" tags=" Java 8,  JDK,  JRE, Ubuntu " ctime="20190202102523" dir="1549092323x8lxmncgrv" file="text.html"/>
-     <record id="1549959915vo5vlpo9ee" name="Текущее время и дата клиента." author="alensav" url="" tags="time, время, дата" ctime="20190212112515" dir="1549959915k9ihojmb3s" file="text.html"/>
-     <record id="1549960195dh95s7vd3d" name=" Данный скрипт выводит текущую дату и время" author="alensav" url="http://gnatkovsky.com.ua/skript-tekushhej-daty-i-vremeni-ili-cifrovye-chasy-javascript.html" tags=" скрипт, дата, время" ctime="20190212112955" dir="1549960195v0q1bs6z1l" file="text.html"/>
-     <record id="1549961665tc4pa4mg36" name="Дата на сайте HTML" author="alensav" url="https://s-sd.ru/blog_studio_design/data_na_sajte/" tags="Дата? сайт, HTML" ctime="20190212115425" dir="15499616654fxtkqgf3j" file="text.html"/>
-     <record id="15500474038qeb698wud" name="Дисковое пространство" author="alensav" url="" tags="disk, ubuntu, диск, объем" ctime="20190213114323" dir="1550047403nvw3449t86" file="text.html"/>
-     <record id="1550143569zfco53zgjv" name="ОЧИСТКА UBUNTU" author="alensav" url="" tags="ОЧИСТКА,  UBUNTU" ctime="20190214142609" dir="1550143569d2tryhdgp3" file="text.html"/>
-     <record id="1550154396wxvj5yqlvy" name="Лучшие способа очистки мусора в Ubuntu" author="alensav" url="https://linuxsoid.club/4-best-way-to-clean-the-trash-ubuntu" tags="очистк, мусор, Ubuntu" ctime="20190214172636" dir="1550154396s1xi79m1fj" file="text.html"/>
-     <record id="1550155215hgoyiopy2c" name="BleachBit" author="alensav" url="https://lifehacker.ru/kak-pochistit-ubuntu/" tags="очистка, система, ubuntu" ctime="20190214174015" dir="1550155215ogl7ljxnuc" file="text.html"/>
-     <record id="15510747873or283n9e0" name="Лог файлы Linux" author="alensav" url="https://habr.com/ru/post/332502/" tags="Лог, файлы, Linux, log" ctime="20190225090627" dir="1551074787q3u3vn7k9j" file="text.html"/>
-     <record id="1551423792lkzef3oxnm" name="создания загрузочной флэшки" author="alensav" url="https://linuxthebest.net/luchshie-utility-dlya-sozdaniya-zagruzoch/" tags=" загрузочная, флэшка" ctime="20190301100312" dir="15514237926m7e9pf83o" file="text.html"/>
-     <record id="1551445331rntpnhtbzm" name="КАК ПОЛЬЗОВАТЬСЯ TELNET" author="alensav" url="https://losst.ru/kak-polzovatsya-telnet" tags="TELNET" ctime="20190301160211" dir="1551445331ls87mbxvdc" file="text.html"/>
-     <record id="1551470691txq4nexpei" name="Настройка фаервола в Ubuntu с помощью утилиты UFW" author="alensav" url="https://community.vscale.io/hc/ru/community/posts/208348529-%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D1%84%D0%B0%D0%B5%D1%80%D0%B2%D0%BE%D0%BB%D0%B0-%D0%B2-Ubuntu-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B-UFW" tags="Настройка, фаервола,  Ubuntu, UFW" ctime="20190301230451" dir="1551470691v1jwj3i2u2" file="text.html"/>
-     <record id="1551471511mfqd1bgltb" name="Orange pi ps 2" author="alensav" url="https://www.ixbt.com/live/kvazis/orange-pi-pc-2-ustanovka-linux-domoticz-imperihome.html" tags="Orange, pi,  ps 2" ctime="20190301231831" dir="1551471511cpr1y4fm4l" file="text.html"/>
-     <record id="1551510496kmzta79swr" name="Распаковка ZIP Linux" author="alensav" url="https://losst.ru/kak-raspakovat-zip-v-linux" tags="Распаковка,  ZIP,  Linux" ctime="20190302100816" dir="155151049618qnjcm8v3" file="text.html"/>
-     <record id="15515110610fc3g6w97s" name="Могут встретиться и файлы XZ. Разархивируем командой" author="alensav" url="" tags="xz" ctime="20190302101741" dir="15515110619rwokmwte8" file="text.html"/>
-     <record id="1551612797iel629ylqn" name="dd" author="alensav" url="https://losst.ru/komanda-dd-linux" tags="dd" ctime="20190303143317" dir="1551612797js9605unhc" file="text.html"/>
-     <record id="1551630296dqpbh8vqid" name="Настройка сети в Linux, диагностика и мониторинг" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0_%D1%81%D0%B5%D1%82%D0%B8_%D0%B2_linux" tags="Настройка, сети, Linux,  диагностика, мониторинг" ctime="20190303192456" dir="1551630296w47i6ww8mj" file="text.html"/>
-     <record id="1551635790laq9kz4n1x" name="Руководство-Настройка сети вручную" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0_%D1%81%D0%B5%D1%82%D0%B8_%D0%B2%D1%80%D1%83%D1%87%D0%BD%D1%83%D1%8E" tags="Настройка сети вручную" ctime="20190303205630" dir="1551635790k5zpwwy7mw" file="text.html"/>
-     <record id="1551642936512a6vf4yj" name="Настройка проводной сети" author="alensav" url="" tags="Настройка, проводной, сети" ctime="20190303225536" dir="1551642936vfwzc2hwvj" file="text.html"/>
-     <record id="15517152763hahkfuo2g" name="Как создать загрузочную флешку Ubuntu Mate для Orange Pi PC из Windows" author="alensav" url="https://micro-pi.ru/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D0%B0%D1%8F-%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0-ubuntu-mate-orange-pi-pc/" tags="создать, загрузочную флешку, Ubuntu, Mate, Orange, Pi PC" ctime="20190304190116" dir="15517152768ubd69bc5k" file="text.html"/>
-     <record id="1551804820cr2ovvrbc3" name="Как работает SAMBA? часть 2 " author="alensav" url="http://www.k-max.name/windows/file-print-server-na-samba-cups/" tags="samba" ctime="20190305195340" dir="1551804820m9h2ash8yo" file="text.html"/>
-     <record id="1552855152ghhlsjsvk5" name="scrript_SAV" author="alensav" url="https://help.ubuntu.ru/wiki/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B0_%D0%B0%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0" tags="script, скрипт" ctime="20190317233912" dir="15528551524zoe8ljsv1" file="text.html"/>
-     <record id="1553074482qq5lqjhnhi" name="Синхронизация времени в Ubuntu" author="alensav" url="https://www.8host.com/blog/sinxronizaciya-vremeni-v-ubuntu-16-04/" tags="Синхронизация, время, Ubuntu, time" ctime="20190320123442" dir="15530744824ynbj9tkvl" file="text.html"/>
-     <record id="15530987392txrvuxiiv" name="Выполнение скрипта при запуске или выключении linux " author="alensav" url="http://tuksik.ru/auto-start-and-shutdown/" tags="Выполнение, скрипт, запуск, выключении, linux, out" ctime="20190320191859" dir="15530987390zjht6plc9" file="text.html"/>
-     <record id="1553099557mxfovw3mab" name="  ctrl+l, что бы появился адрес" author="alensav" url="http://tuksik.ru/show-url-in-nautilus/" tags=" ctrl+l,  появился,  адрес" ctime="20190320193237" dir="1553099557n5q0d1vazt" file="text.html"/>
-     <record id="15531001397pay9g3xsz" name="Автоматическое монтирование яндекс диска в linux " author="alensav" url="http://tuksik.ru/auto-mount-disk-yandex/" tags="Автоматическое,  монтирование,  яндекс,  диск, linux " ctime="20190320194219" dir="15531001395oore03l08" file="text.html"/>
-     <record id="1553112432un825jo3db" name="Выполнить скрипт при выходе из системы " author="alensav" url="https://ubuntugeeks.com/questions/3546/execute-a-script-upon-logout-reboot-shutdown-in-ubuntu" tags=" скрипт, выход, системы " ctime="20190320230712" dir="1553112432rbd3flrrtp" file="text.html"/>
-     <record id="1553179167byjhizdnfu" name="Настройка rdp сервера в Linux" author="alensav" url="http://admin-gu.ru/os/linux/nastrojka-rdp-servera-v-linux-mint-debian-ubuntu-dlya-podklyucheniya-iz-windows" tags="Настройка, rdp,  сервер, Linux" ctime="20190321173927" dir="15531791676ooudkrnf5" file="text.html"/>
-     <record id="155318367449220e6uzf" name="Удаленный рабочий стол ubuntu 16.04 " author="alensav" url="https://losst.ru/udalennyj-rabochij-stol-ubuntu-16-04" tags="Удаленный, рабочий, стол, ubuntu ,16.04 " ctime="20190321185434" dir="15531836745yn8dxpgdo" file="text.html"/>
-     <record id="1553185711dy6pv1afvl" name="Сервер VNC " author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=vnc-server-ubuntu" tags="Сервер, VNC " ctime="20190321192831" dir="1553185711y9ne4u839q" file="text.html"/>
-     <record id="1553339846nv8o06qfgp" name="Как распаковать rar в Linux " author="alensav" url="https://losst.ru/kak-raspakovat-rar-v-linux" tags="распаковать, rar,  Linux " ctime="20190323141726" dir="1553339846ustfkahsqs" file="text.html"/>
-     <record id="15537629654hop276ymj" name="6 простых способов ускорить Ubuntu 16.04 в разы" author="alensav" url="https://webhamster.ru/mytetrashare/index/mtb191/1533921054uw39dfxif9" tags=" ускорить,  Ubuntu, " ctime="20190328114925" dir="1553762965lblod29714" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="154382674372he9wscu4" name="GitLab">
-     <recordtable>
-      <record id="1543826838fphszo46kq" name="Git_Lab-command" author="alensav" url="" tags="GitLab, site" ctime="20181203114718" dir="1543826838j8j028wuk7" file="text.html"/>
-     </recordtable>
-     <node crypt="" id="1546074361u4zy0prf6x" name="SCRIPT_ALL">
-      <recordtable>
-       <record id="1546074450ayru8gy4zc" name="SCRIPT_FINISH" author="alensav" url="https://ubuntugeeks.com/questions/3546/execute-a-script-upon-logout-reboot-shutdown-in-ubuntu" tags="script" ctime="20181229120730" dir="1546074450bruq6ugdpm" file="text.html"/>
-       <record id="1546074745n7bqgyo3wy" name="SCRIPT_START_FINISH" author="alensav" url="http://tuksik.ru/auto-start-and-shutdown/" tags="script" ctime="20181229121225" dir="1546074745pyxlwhkoi3" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-    <node crypt="" id="154443071820y1k0o07v" name="ОБОРУДОВАНИЕ">
-     <recordtable>
-      <record id="1544430870bvxhcpvvme" name="Чтение температуры процессора" author="alensav" url="https://geeksmagazine.org/post/409/kak-proverit-temperaturu-protsessora-v-ubuntu" tags="температура" ctime="20181210113430" dir="1544430870av2abqbylf" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1545040023lz8ct8rx30" name="Отечественное ПО">
-     <recordtable>
-      <record id="1545041636ic6pq5m2pw" name="Отечественное ПО" author="alensav" url="" tags="ос, операционная, система" ctime="20181217131356" dir="1545041636hjsqble2yi" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1546337911372dkrkxis" name="COMMAND_UBUNTU">
-     <recordtable>
-      <record id="1546338004txygzd444s" name="GREP_INSTR" author="" url="" tags="" ctime="20190101132004" dir="1546338004sn3b04i11g" file="text.html"/>
-      <record id="1546338537k5aa5u99jx" name="Grep_Руководство" author="alensav" url="https://andreyex.ru/operacionnaya-sistema-linux/polnoe-rukovodstvo-komanda-grep-v-linux/" tags="grep" ctime="20190101132857" dir="1546338537lrgolawcl4" file="text.html"/>
-      <record id="1544086048v5wiwuga48" name="Запуск команд по времени" author="alensav" url="https://www.opennet.ru/docs/RUS/linux_base/node40.html" tags="command, time, команда, время" ctime="20190402140653" dir="1544086048ebq1esace6" file="text.html"/>
-      <record id="1544279361eejsoymjox" name="как закрыть зависшее приложение на ubuntu" author="alensav" url="https://www.google.com/search?client=ubuntu&amp;channel=fs&amp;q=%D0%BA%D0%B0%D0%BA+%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C+%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D1%88%D0%B5%D0%B5+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BD%D0%B0+ubuntu&amp;ie=utf-8&amp;oe=utf-8" tags="kill" ctime="20190402140711" dir="1544279361xkvhqsh0hj" file="text.html"/>
-      <record id="1545672020tji762x5xr" name="Командная строка" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0" tags="ubuntu, command, команды" ctime="20190402140803" dir="1545672020mrsy289h40" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1554203120vny48libog" name="XEOMA">
-     <recordtable>
-      <record id="1543739752llscxwqfwp" name="XEOMA" author="alensav" url="" tags="" ctime="20190402140551" dir="1543739752xn467tdg96" file="text.html"/>
-      <record id="1543742325vnds07cd1i" name="XEOMA_РУКОВОДСТВО" author="" url="" tags="" ctime="20190402140606" dir="1543742325si41cnd6b2" file="text.html">
-       <files>
-        <file id="1545732834djxvjjexdx" fileName="user_manual_ru(1).pdf" type="file"/>
-        <file id="15457329097lamu5mgef" fileName="user_manual_ru(1).pdf" link="/home/alensav/Загрузки/user_manual_ru(1).pdf" type="link"/>
-       </files>
-      </record>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="" id="1544111400vnc868hc3v" name="GRUB">
-    <recordtable>
-     <record id="1544111478ublyns1g8z" name="GRUB" author="alensav" url="https://losst.ru/nastrojka-zagruzchika-grub" tags="grub, загрузка" ctime="20181206185118" dir="1544111478newz228zvr" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1544800856rl0gmtktm0" name="INTERNET">
-    <recordtable>
-     <record id="1544800918skmgdunurm" name="TEST SPEED" author="alensav" url="https://www.shellhacks.com/ru/test-internet-speed-linux-command-line/" tags="скорость, тест, замер" ctime="20181214182158" dir="1544800918ibwyrysssu" file="text.html"/>
-     <record id="15449592467bcky3sisi" name="Облачные операционные системы. ТОП-6 лучших Cloud PC" author="alensav" url="http://la.by/news/oblachnye-operacionnye-sistemy-top-6-luchshih-cloud-pc" tags="облачный, виртуальный, интернет" ctime="20181216142046" dir="1544959246tey4e12pno" file="text.html"/>
-     <record id="1545486605g5thytu5t8" name="HTTM" author="alensav" url="https://ppt-online.org/306191" tags="httm, интернет, web" ctime="20181222165005" dir="1545486605hs6jmscm6a" file="text.html"/>
-     <record id="15469641718kr41lvycw" name="TURBO-TETRA" author="alensav" url="https://skladchik.com" tags="turbotetra, mytetra, заметки, блокнот" ctime="20190108191611" dir="1546964171yvjj4qov4y" file="text.html"/>
-     <record id="15471971355eohxtrfph" name="WAVEBOX" author="alensav" url="https://translate.google.com/translate?hl=ru&amp;sl=en&amp;u=https://snapcraft.io/wavebox&amp;prev=search" tags="ubuntu, настройки, умный дом" ctime="20190111115855" dir="1547197135s0eefknflp" file="text.html"/>
-     <record id="1547201555rd702vsuzm" name="Ускоряем Ubuntu Linux" author="alensav" url="https://linuxsoid.club/acceleration-ubuntu" tags="ubuntu, настройки" ctime="20190111131235" dir="1547201555ifz80j4t2d" file="text.html"/>
-     <record id="1547386241jkeuzzxt72" name="настройка OpenVPN в Ubuntu" author="alensav" url="https://eax.me/openvpn/" tags="настройка, OpenVPN, Ubuntu" ctime="20190113163041" dir="1547386241mfam5n9api" file="text.html"/>
-     <record id="15473872342gjm9xsol9" name="Docker и практика работы с ним" author="alensav" url="https://eax.me/docker/" tags="Docker, практика, виртуал" ctime="20190113164714" dir="15473872348pfa7y0deq" file="text.html"/>
-     <record id="1547453295nke69kktfr" name="TAILS" author="alensav" url="https://xakep.ru/2016/11/01/tails-live-flash/" tags="Tails, операционная, система,  Linux" ctime="20190114110815" dir="1547453295nw0nkh0yec" file="text.html"/>
-     <record id="154755657825a7ealhni" name=" сайт с нуля — пошаговая инструкция " author="alensav" url="https://zarabotat-na-sajte.ru/uroki-html/kak-sozdata-sayt-s-nulya-poshagovaya-instrukciya.html" tags=" сайт, с нуля, пошаговая, инструкция , httm" ctime="20190115154938" dir="1547556578jmu6dcefgh" file="text.html"/>
-     <record id="154758232307il4dhwjp" name="как соединить страницы сайта? " author="alensav" url="https://searchengines.guru/showthread.php?t=193971&amp;page=2" tags="соединить, страницы, сайт, httm " ctime="20190115225843" dir="1547582323o97yglo2ic" file="text.html"/>
-     <record id="1547721813fkyu3d2l4c" name="Описание команд HTML " author="alensav" url="" tags="Описание,  команд, HTML " ctime="20190117134333" dir="1547721813asfxcg2kta" file="text.html"/>
-     <record id="154779902571cevu39d4" name="ORACLE" author="alensav" url="" tags="" ctime="20190118111025" dir="1547799025sseqei3kcs" file="text.html"/>
-     <record id="1547799100hwv3p7s3np" name="NETBEANS" author="" url="" tags="netbeans" ctime="20190118111140" dir="1547799100qgn3ujdds6" file="text.html"/>
-     <record id="1547890133camwmygzn9" name="HTTM-Ссылки внутри страницы" author="alensav" url="" tags="Ссылки, внутри, страницы, httm" ctime="20190119122853" dir="154789013319480zk0hy" file="text.html"/>
-     <record id="1547907146f9h71hwrym" name="Сайт_ARHIV-PROEKT.ru" author="alensav" url="ARHIV-PROEKT.ru" tags="site, сайт,favicon" ctime="20190119171226" dir="1547907146zghzgdxvmo" file="text.html"/>
-     <record id="15479837792zykpjy576" name="ID" author="" url="" tags="" ctime="20190120142939" dir="15479837794kun4plwgh" file="text.html"/>
-     <record id="15480763383zi2uxav04" name="Screaming Frog SEO Spider" author="alensav" url="https://pixelplus.ru/samostoyatelno/seo-servisy/screaming-frog-seo-spider.html" tags="сканированме, сайт, конфигурация" ctime="20190121161218" dir="154807633875vnd8uzs5" file="text.html"/>
-     <record id="15481505151scfro2lzs" name="Проверка ответа сервера" author="alensav" url="https://webmaster.yandex.ru/site/http:www.arhiv-proekt.ru:80/tools/server-response/?url=www.arhiv-proekt.ru&amp;user-agent=robot&amp;if-modified-since=" tags="Проверка, ответ, сервера" ctime="20190122124835" dir="1548150515dh3k8srsl5" file="text.html"/>
-     <record id="1548154862gr33def7xz" name="БЛОГ О SEО" author="alensav" url="https://blog.reaspekt.ru/all_about_promotion/%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC-%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D1%8B%D0%B9-robots-txt-%D1%81%D0%B2%D0%BE%D0%B8%D0%BC%D0%B8-%D1%80%D1%83%D0%BA%D0%B0%D0%BC/" tags="seo, продвижение, сайт" ctime="20190122140102" dir="1548154862banyttya8w" file="text.html"/>
-     <record id="15481642618vgtlyeqzy" name="WSP" author="alensav" url="https://i.w.tools/wizard/choose-tariff" tags="сайт, раскрутка" ctime="20190122163741" dir="15481642614vc7e519cf" file="text.html"/>
-     <record id="1548171617wttum3kkbz" name="Мой САЙТ" author="alensav" url="" tags="сайт, arhiv, proekt,ru" ctime="20190122184017" dir="1548171617b8hlp7xxwh" file="text.html"/>
-     <record id="1548327350pqc1x1l0rk" name="РЕКЛАМА_ВК" author="alensav" url="https://vk.com/ads?act=office&amp;union_id=1605056335" tags="вк. реклама, сайт" ctime="20190124135550" dir="1548327350ergbus9gxi" file="text.html"/>
-     <record id="1548959135ft0ahv8gwp" name="Фреймы" author="alensav" url="http://wm-school.ru/html/html_frame.html" tags="Фреймы,  HTML, httm" ctime="20190131212535" dir="1548959135vikx5b1nkd" file="text.html"/>
-     <record id="154901154599fqv59h28" name="Справочник по HTML" author="alensav" url="http://htmlbook.ru/html" tags="Справочник, HTML, httm" ctime="20190201115905" dir="1549011545p167tnbh2d" file="text.html"/>
-     <record id="1549035791tjukqd5ve6" name="Мета тег description " author="alensav" url="https://wiki.rookee.ru/meta-teg-description/" tags="Мета, тег, description " ctime="20190201184311" dir="1549035791cz7ulxqacy" file="text.html"/>
-     <record id="1549036630dooyvqpwdc" name="Всё о мета-теге Description" author="alensav" url="https://seokrem.com/seo/meta-tag-description/" tags="&#10;мета-тег, Description" ctime="20190201185710" dir="1549036630q9l4mv2bar" file="text.html"/>
-     <record id="1549039653pcb02w1a93" name="&#10;Продвижение сайта в поисковых система" author="alensav" url="https://texterra.ru/blog/prodvizhenie-sayta-s-nulevym-byudzhetom-65-besplatnykh-sposobov-pokorit-poiskovye-topy.html" tags="&#10;Продвижение сайта в поисковых система" ctime="20190201194733" dir="15490396532plg0c6xpy" file="text.html"/>
-     <record id="15490404039yzm8y6s2p" name="Как посмотреть мета-теги страниц интернет-сайта в WEB-браузере?" author="alensav" url="https://beseller.by/blog/kak-pravilno-formirovat-seo-tegi-dliya-internet-magazina/" tags=" мета-теги, страниц, интернет-сайта, WE, браузере" ctime="20190201200003" dir="1549040403dv1mahnqox" file="text.html"/>
-     <record id="15490928580fd8wa2uj7" name="Руководство по CSS" author="alensav" url="https://developer.mozilla.org/ru/docs/Web/CSS/Reference" tags="Руководство, CSS, HTTM" ctime="20190202103418" dir="1549092858npactw4gkq" file="text.html"/>
-     <record id="1549095686bnx0zd5oq2" name="Свойства элементов, управляемых с помощью CSS" author="" url="" tags="Свойства, элементов, CSS, httm, html" ctime="20190202112126" dir="15490956863dzgmbr46q" file="text.html"/>
-     <record id="1549133113qtwr499jrl" name="10 лучших бесплатных HTML-редакторов" author="alensav" url="https://techrocks.ru/2017/09/28/10-best-free-html-editors/" tags=" HTM, редакторов" ctime="20190202214513" dir="1549133113sauqvu7tb0" file="text.html"/>
-     <record id="15491331922jn40092vo" name="10 лучших бесплатных HTML-редакторов" author="alensav" url="https://techrocks.ru/2017/09/28/10-best-free-html-editors/" tags="HTML, редактор, HTTM" ctime="20190202214632" dir="15491331922sk1f6e5d4" file="text.html"/>
-     <record id="1549133541y34ihtp2fx" name="HTML-online.com" author="alensav" url="https://techrocks.ru/2017/09/28/10-best-free-html-editors/" tags="HTML, online" ctime="20190202215221" dir="1549133541vk9wqapjtl" file="text.html"/>
-     <record id="1549569192izqxcawevn" name="КНОПКА" author="" url="" tags="" ctime="20190207225312" dir="1549569192efzkgn1dnd" file="text.html"/>
-     <record id="15497252813yjmiofaz7" name="Раскладка в CSS: float" author="alensav" url="http://softwaremaniacs.org/blog/2005/12/01/css-layout-float/" tags="httm, css, float" ctime="20190209181441" dir="1549725281t14b6rc944" file="text.html"/>
-     <record id="15498085539eb40oa9vb" name="Настроить проброску портов" author="alensav" url="" tags="порт, проброска" ctime="20190210172233" dir="1549808553y37sr6ef07" file="text.html"/>
-     <record id="1549814068xcsydy6tku" name="всплывающее окно PopUp." author="altnsav" url="https://habr.com/ru/post/417873/" tags="всплывающее, окно,  PopUp, httm" ctime="20190210185428" dir="1549814068s876m9tj3t" file="text.html"/>
-     <record id="15499568479gc9ev5uw7" name="Кнопка вверх для сайта" author="alensav" url="http://webmastermix.ru/raznoe/300-knopka-vverkh-dlya-saita.html" tags="Кнопка, вверх,  сайт, httm" ctime="20190212103407" dir="1549956847pkmm9kej22" file="text.html"/>
-     <record id="1549957374ygxzlp73qk" name="Задать цвет фона кнопки и цвет текста на ней.&#10;" author="alensav" url="http://htmlbook.ru/faq/kak-izmenit-tsvet-knopki-v-forme" tags=" цвет, фон, кнопка, цвет, текст" ctime="20190212104254" dir="154995737488zje9fl3r" file="text.html"/>
-     <record id="1549975742p2erttg4qq" name="Полный список HTML-элементов " author="alensav" url="https://html5book.ru/html-tags/" tags=" список, HTML, элементs" ctime="20190212154902" dir="1549975742yrf3hzqdic" file="text.html"/>
-     <record id="15500671222fkv88vmoy" name="СИНХРОНИЗАЦИЯ ПАПОК" author="alensav" url="" tags="СИНХРОНИЗАЦИЯ ПАПОК" ctime="20190213171202" dir="1550067122mfu3344pwn" file="text.html"/>
-     <record id="155014191141h3a0illp" name="BOOKS/Kvint_I._" author="alensav" url="file:///home/alensav/Dropbox/BOOKS/Kvint_I._Html_Xhtml_I_Css_Na_100.html/Kvint_I._Html_Xhtml_I_Css_Na_100.html" tags="BOOKS, Kvint, html, httm" ctime="20190214135831" dir="1550141911zy0l2y6sm5" file="text.html">
-      <files>
-       <file id="15501420961zvh1egn6i" fileName="Kvint_I._Html_Xhtml_I_Css_Na_100.html" type="file"/>
-      </files>
-     </record>
-     <record id="155014461012ptklefk8" name="Размещение Фото" author="" url="" tags="Размещение, Фото, httm" ctime="20190214144330" dir="15501446100xvxg6o22x" file="text.html"/>
-     <record id="1550321167bnug0sv0by" name="Изображение в качестве ссылки" author="alensav" url="http://htmlbook.ru/content/izobrazhenie-v-kachestve-ssylki" tags="Изображение,  ссылка, httm, html" ctime="20190216154607" dir="1550321167piuk6iv2dw" file="text.html"/>
-     <record id="1550418651a0x4bxc9i4" name=" CSS-рамка" author="alensav" url="https://html5book.ru/css-border/" tags="border, css, рамка" ctime="20190217185051" dir="15504186519dvyeacovy" file="text.html"/>
-     <record id="1550419051ddsfex7qwa" name="CSS border или границы элементов" author="alensav" url="http://ab-w.net/CSS/css_border.php" tags="CSS,  border, рамка" ctime="20190217185731" dir="15504190511w9eglb8a9" file="text.html"/>
-     <record id="1550677248xsx3607fvd" name="Как сделать плавную прокрутку для всего сайта с помощью JQuery и CS" author="" url="" tags=" прокрутка,  JQuery,  CSS" ctime="20190220184048" dir="1550677248u5zokzoln3" file="text.html"/>
-     <record id="1550682540md6ilve8ow" name="Тестовый САЙТ_alensav.temp.swtest.ru" author="" url="" tags="alensav.temp.swtest.ru" ctime="20190220200900" dir="1550682540yg29lnebkl" file="text.html"/>
-     <record id="1550772142ottyoo59h2" name="Бесплатный онлайн-семинар Михаила Русакова" author="" url="" tags="Бесплатный онлайн-семинар Михаила Русакова" ctime="20190221210222" dir="1550772142g62w5n7n96" file="text.html"/>
-     <record id="1550834027097kcrrxep" name="Переадресация порта" author="alensav" url="" tags="Переадресация, порта" ctime="20190222141347" dir="1550834027ai804l1psk" file="text.html"/>
-     <record id="1550855384wj0b7v8fv1" name="Мобильная оптимизация сайта" author="alensav" url="https://optimizator.su/optimization/mob/" tags="Мобильная оптимизация сайта" ctime="20190222200944" dir="1550855384wks1jxyudg" file="text.html"/>
-     <record id="1550856569dqyyl5vs19" name="FTP RU CENTER" author="" url="" tags="" ctime="20190222202929" dir="15508565697d78ou3waf" file="text.html"/>
-     <record id="1550950438uih076a1xf" name="преобразования документов PDF в нормальные HTM" author="alensav" url="https://xakep.ru/2013/05/13/60594/" tags="преобразования, документов, PDF, HTM" ctime="20190223223358" dir="1550950438v7hb5dj4nz" file="text.html"/>
-     <record id="15509922613vbfy6qdy8" name="NETBEANS" author="" url="" tags="" ctime="20190224101101" dir="15509922617jq30a30ti" file="text.html"/>
-     <record id="15510231207hvumhxyc1" name="Тег &lt;iframe&gt;" author="alensav" url="http://htmlbook.ru/html/iframe" tags="iframe" ctime="20190224184520" dir="1551023120n0w4jizi5f" file="text.html"/>
-     <record id="1551209961t4lnf926rb" name="Прокрутка на IPAD" author="alensav" url="http://qaru.site/questions/81323/iframes-and-the-safari-on-the-ipad-how-can-the-user-scroll-the-content" tags="iframe, scroliing, прокрутка" ctime="20190226223921" dir="1551209961vgxog1hwzd" file="text.html"/>
-     <record id="1551293358dmbk3pkhll" name="ПРОКРУТКА_DIV" author="alensav" url="" tags="ПРОКРУТКА, DIV" ctime="20190227214918" dir="1551293358ujyv92bvf4" file="text.html"/>
-     <record id="15513647621g5jnelh8s" name="Nmap — популярный сканер сетей" author="alensav" url="https://losst.ru/kak-proskanirovat-set-v-nmap" tags="Nmap, сканер, сети" ctime="20190228173922" dir="1551364762jmgw650hry" file="text.html"/>
-     <record id="1551608492eo8t4n8gom" name=" Полупрозрачный фон" author="alensav" url="http://htmlbook.ru/css3-na-primerakh/poluprozrachnyi-fon" tags=" Полу, прозрачный, фон" ctime="20190303132132" dir="1551608492hkveufart1" file="text.html"/>
-     <record id="1551812386pzyrtapu5x" name="Редактирование script.bin файла orangepi" author="alensav" url="https://piboard.io/topic/5/%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-script-bin-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0/20" tags="orangepi" ctime="20190305215946" dir="1551812386rkivvem66p" file="text.html"/>
-     <record id="1552668921jp1o70bgrn" name="Настройка сети в Ubuntu Server" author="alensav" url="https://itdeer.ru/nastrojka-seti-v-ubuntu-server-16-04-4/" tags="Настройка, сетm, Ubuntu, Server" ctime="20190315195521" dir="1552668921ybvib9rmq2" file="text.html"/>
-     <record id="1552815708qvgb0wcod9" name="CodySafe" author="alensav" url="" tags="CodySafe" ctime="20190317124148" dir="1552815708lirt5doh9s" file="text.html"/>
-     <record id="15536194511vsuk8yf5g" name="Создание таблицы в HTML" author="alensav" url="https://www.internet-technologies.ru/articles/sozdanie-tablicy-v-html.html" tags="таблицы, HTML" ctime="20190326195731" dir="1553619451wxz6al9iab" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
-     <recordtable>
-      <record id="1546165876fy9pd9h1ce" name="FESTIVAL" author="alensav" url="https://wiki.archlinux.org/index.php/Festival_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="звук, zvuk" ctime="20181230133116" dir="1546165876v61prg8d47" file="text.html"/>
-      <record id="1546255653q8x7ji3s6t" name="Asterisk + Festival" author="alensav" url="https://asterisk-pbx.ru/wiki/artikle/festival" tags="zvuk, звук" ctime="20181231142733" dir="1546255653hqxhhyk109" file="text.html"/>
-      <record id="1547044039a6q7fuzbnr" name="MPG_Consol" author="alensav" url="http://osmaster.org.ua/kak-proigryvat-mp3-fajly-s-komandnoj-stroki-linux/" tags="zvuk, звук, play, vlc, mp3" ctime="20190109172719" dir="1547044039sspehi1hid" file="text.html"/>
-      <record id="15472776358dcr6rnp13" name="MUSIK" author="alensav" url="https://help.ubuntu.ru/fullcircle/26/%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B2" tags="musik, музыка, консоль,mpg" ctime="20190112102035" dir="15472776358r64c3rtfd" file="text.html"/>
-      <record id="1547286304kxykhjm8gh" name="Аудио конвертер в mp3" author="alensav" url="http://audiogeek.ru/soundconverter-linux/" tags="аудио, конвертер, mp3, звук" ctime="20190112124504" dir="1547286304j7zwvvkd0y" file="text.html"/>
-      <record id="15472872998l4q9oq224" name="Как записать звук в Linux?" author="alensav" url="https://prostolinux.ru/kak-zapisat-zvuk-v-linux/" tags="записать, звук, mp3" ctime="20190112130139" dir="15472872992kuzkg70ep" file="text.html"/>
-      <record id="1547289316gjqvf0a8i6" name="Звук из консоли" author="alensav" url="" tags="звук, запись, консоль" ctime="20190112133516" dir="1547289316ku0hu34mww" file="text.html"/>
-      <record id="1547305080vhqkl14l73" name="создать плейлист" author="alensav" url="https://askubuntu.com/questions/686702/how-to-make-a-playlist-from-a-directory-of-mp3-files" tags="mp3, playlist, плейлист" ctime="20190112175800" dir="1547305080hnynydopmm" file="text.html"/>
-     </recordtable>
-     <node crypt="" id="15461965002nt4p4puf3" name="SCRIPTI">
-      <recordtable>
-       <record id="1546199206md6cce4a8k" name="БАНК_СКРИПТОВ" author="alensav" url="" tags="script" ctime="20181230224646" dir="1546199206itnsxcc36s" file="text.html"/>
-       <record id="154643634052h22o16oq" name="Пишем скрипты в Linux (обучение на примерах)" author="alensav" url="https://proggear.ru/%D0%BF%D0%B8%D1%88%D0%B5%D0%BC-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D1%8B-%D0%B2-linux-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B0%D1%85-711/" tags="scripts" ctime="20190102163900" dir="1546436340jjo2e6ojmi" file="text.html"/>
-      </recordtable>
-     </node>
-     <node crypt="" id="1546337131abl8ijmk6t" name="Alarm_festival">
-      <recordtable>
-       <record id="15463372564zqw13c0ai" name="Alarm" author="alensav" url="" tags="alarm" ctime="20190101130736" dir="1546337256c09do7wbrj" file="text.html"/>
-      </recordtable>
-     </node>
-    </node>
-    <node crypt="" id="15534364948ikfabv0h9" name="SUBLIME_TEXT3">
-     <recordtable>
-      <record id="1553440089n111t6dyek" name="Настройка Sublime Text 3 для веб-разработки: LiveReload, плагины, фишки" author="lensav" url="https://webdesign-master.ru/blog/tools/525.html" tags="httm, sublime, text,3" ctime="20190324180809" dir="1553440089y83vgozslf" file="text.html"/>
-      <record id="1553452783if4hf1rgoe" name="Быстрая настройка Sublime Text 3 для вёрстки сайтов" author="alensav" url="https://webdesign-master.ru/blog/tools/2017-03-13-sublime-text-3-setup.html" tags="html, sublime text" ctime="20190324213943" dir="1553452783hmbndj8l6j" file="text.html"/>
-      <record id="1553526658qeyuwmth6f" name=" ГлавнаяИнструкцииНастраиваем Sublime Text 3" author="alensav" url="https://losst.ru/nastraivaem-sublime-text-3" tags="html, httm, splin text" ctime="20190325181058" dir="1553526658zf2ex3eju9" file="text.html"/>
-      <record id="15535270281osq65gyti" name="WEB-Верстка" author="alensav" url="http://tumbleron.ru/topics/nastrojka-sublime-text-3/" tags="html, httm, sublime text" ctime="20190325181708" dir="1553527028mhs5xwznmz" file="text.html"/>
-      <record id="1553532546t7blit2z5f" name="Настройка Sublime Text 3, SW4 и STM32CubeMX для разработки STM32 под Linux Из песочницы" author="alensav" url="https://sohabr.net/habr/post/343456/" tags="html, httm, sublime text" ctime="20190325194906" dir="1553532546ex9uggz39w" file="text.html"/>
-      <record id="1553533195m7225fv6xy" name="ГЛАВНАЯ СТАТЬИ САЙТА ПОДБОР ЦВЕТА" author="alensav" url="https://sdelatlending.ru/nastraivaem-sublime-text-3.html" tags="html, httm, sublime text" ctime="20190325195955" dir="15535331958xvtlbllxf" file="text.html"/>
-      <record id="1553535022ysihusmq9t" name="Основные сокращения emmet в html" author="alensav" url="https://sdelatlending.ru/bystraya-verstka-v-sublime-text-s-plaginom-emmet.html" tags="html, httm, sublime text" ctime="20190325203022" dir="1553535022q95bq89cda" file="text.html"/>
-      <record id="1553535202vlaea0q631" name="Основные сокращения emmet в css" author="alensav" url="https://sdelatlending.ru/bystraya-verstka-v-sublime-text-s-plaginom-emmet.html" tags="html, httm, sublime text" ctime="20190325203322" dir="1553535202g8k5lqvw1n" file="text.html"/>
-      <record id="155353958612rfzrdseu" name="Генератор таблицы html онлайн" author="lensav" url="https://sdelatlending.ru/generator-tablicy-html" tags="Генератор, таблицы,  html,  онлайн" ctime="20190325214626" dir="1553539586s9g4jbb65x" file="text.html"/>
-      <record id="155354126072o1s0nfzk" name="Генератор кнопки css" author="alensav" url="https://sdelatlending.ru/generator-knopki-css-onlajn" tags="Генератор,  кнопки,  css, html, httm, sublime text" ctime="20190325221420" dir="1553541260ganpv5qigk" file="text.html"/>
-      <record id="1553585918mma626u3nd" name="команды" author="alensav" url="" tags="команды" ctime="20190326103838" dir="1553585918t2pv2h7gdd" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1554205121wav5akuahq" name="HOST">
-     <recordtable>
-      <record id="15542051791gm0rv5oxg" name="BEGET" author="alensav" url="https://beget.com/ru/free-hosting" tags="BEGET" ctime="20190402143939" dir="1554205179mwkrmk1w2s" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1554220857tgsahcyd7h" name="HTTM">
-     <recordtable>
-      <record id="1554220895gnhp1u81vs" name="Тег &lt;table&gt;" author="alensav" url="http://htmlbook.ru/html/table" tags="Тег &lt;table&gt;" ctime="20190402190135" dir="1554220895glmdd1qkim" file="text.html"/>
-      <record id="1554298033ic9qbexfbg" name="Создаем таблицу на html-странице" author="alensav" url="http://webcodius.ru/html_i_css/kak-vstavit-tablicu-v-html.html" tags="Создаем таблицу на html-странице" ctime="20190403162713" dir="15542980335jlsb8kqn0" file="text.html"/>
-      <record id="1554391092pt2ms8tcdl" name="таблицы для отображения содержимого ве" author="alensa" url="https://helpx.adobe.com/ru/dreamweaver/using/presenting-content-tables.html" tags="таблицы,  отображения, содержимого" ctime="20190404181812" dir="155439109227a3atbree" file="text.html"/>
-      <record id="1555049247npma7yrrt0" name="DIV_in_TAB" author="alensav" url="" tags="DIV_in_TAB" ctime="20190412090727" dir="155504924780b5dtfxii" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="" id="15451483932alkp4upu2" name="РЕЦЕПТЫ">
-    <recordtable>
-     <record id="1545148485tbnadyjzg6" name="Рецепты_2018-2019" author="alensav" url="" tags="" ctime="20181218185445" dir="1545148485jxkkhpobuy" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1545764529mkdpkw089z" name="GIT_ИНСТР">
-    <recordtable>
-     <record id="1545764685vi9q32taod" name="СЛИЯНИЕ РИПОЗИТОРИЕВ" author="alensav" url="https://ru.stackoverflow.com/questions/427790/%D0%A1%D0%BB%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B0-%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D1%85-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F-git" tags="ветви, слияние" ctime="20181225220445" dir="1545764685tps5p0f42k" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1545823315faxpgcma2o" name="CRON_COMMAND">
-    <recordtable>
-     <record id="1545823453keaxuszt9e" name="COMMAND" author="alensav" url="" tags="command" ctime="20181226142413" dir="15458234534o91tptwgw" file="text.html"/>
-     <record id="15466231031wd2v304s7" name="CRON_ОБРАЗЦЫ" author="alensav" url="https://help.ubuntu.ru/wiki/cron" tags="cron, образцы" ctime="20190402141016" dir="15466231031um8n8mfk5" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1546071604wwbokhp78i" name="RSYNC_COMMAND">
-    <recordtable>
-     <record id="15460718493nn830i6ih" name="RSYNC_COMMAND" author="alensav" url="" tags="sync, архивирование, ubuntu" ctime="20181229112409" dir="1546071849jbzvfzs5m0" file="text.html"/>
-     <record id="15492098607m6g7sfay7" name="Каталог САЙТА" author="alensav" url="" tags="сайт, rsync? win" ctime="20190203190420" dir="1549209860a2dabnwf16" file="text.html"/>
-     <record id="1549214315doaynxdvri" name="СВОДКА ПАРАМЕТРОВ RSYNC " author="alensav" url="http://www.opennet.ru/man.shtml?category=1&amp;russian=0&amp;topic=rsync" tags="СВОДКА ПАРАМЕТРОВ RSYNC" ctime="20190203201835" dir="1549214315tuq639dnr6" file="text.html"/>
-     <record id="15456507198mu4yiizoh" name="RSYNC_Настройка2" author="alensav" url="https://go.backupland.com/faq/install_rsync/install_rsync.html" tags="sync, настройка, синхронизация" ctime="20190402140741" dir="1545650719hxy8bk3joh" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1546350738abjfg5ofdo" name="FSTAB_SAV">
-    <recordtable>
-     <record id="1546350787larmrscc8i" name="FSTAB_SAV" author="alensav" url="" tags="fstab" ctime="20190101165307" dir="1546350787fxfysbkhqx" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1546352094c1v07zjloo" name="SAVSCRIPTS">
-    <recordtable>
-     <record id="1546352151i9d10xmvkd" name="SAV_SCRIPTS" author="alensav" url="" tags="автозапуск" ctime="20190101171551" dir="15463521514eczujeel3" file="text.html"/>
-     <record id="15464043667a6716tdvs" name="Полезные_SCRIPTS" author="alensav" url="https://losst.ru/bash-skripty-linux" tags="scripts" ctime="20190102074606" dir="1546404366szo3dt3nfu" file="text.html"/>
-     <record id="1546406372hqcsf37jon" name="Полезные_scripts2" author="alensav" url="http://rosinka.rosix.ru/index.php?topic=1073.0" tags="scripts" ctime="20190102081932" dir="1546406372lg162sshde" file="text.html"/>
-     <record id="1546422026mjdaqiq8xc" name="ПОЛЕЗНЫЕ_scripts3" author="alensav" url="https://unixforum.org/viewtopic.php?t=68069" tags="scripts" ctime="20190102124026" dir="1546422026oznhb0tlud" file="text.html"/>
-     <record id="1547039058g1lf6fb5w1" name="Полезные_Скрипты_4" author="alensav" url="https://tuxrider.ru/programmy/interesnye-bash-skripty-linux/" tags="scripts, скрипт" ctime="20190109160418" dir="15470390584fxyfd5m8d" file="text.html"/>
-     <record id="1547041220mar3rdohwa" name="Полезные_скрипты 5" author="alensav" url="https://unixforum.org/viewtopic.php?t=68069" tags="scripts, скрипт" ctime="20190109164020" dir="1547041220x2wfg552jq" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="15535901428i8jinprzz" name="БЫТ">
-    <recordtable>
-     <record id="15535905973wj72lxgch" name="ЭЛЕКТРОЭНЕРГИЯ" author="Анатолий" url="" tags="эл" ctime="20190326115637" dir="15535905972t1yd6ig1f" file="text.html"/>
-     <record id="1554100452wyuc4wpgwi" name="ВОДА" author="alensav" url="" tags="ВОДА" ctime="20190401093412" dir="1554100452ujz77sdqny" file="text.html"/>
-     <record id="15541013155347n3gfvw" name="ГАЗ" author="alensav" url="" tags="ГАЗ" ctime="20190401094835" dir="1554101315b72lxfamis" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="155376513550q7ojpyrq" name="Поликарбонат">
-     <recordtable>
-      <record id="1553765391wxmsq3w2av" name="Как работать с поликарбонатом" author="alensav" url="https://otente.ru/polikarbonat/rabota-svoimi-rukami.html" tags="  поликарбонатом, быт" ctime="20190328122951" dir="1553765391cbqdg9iwvr" file="text.html"/>
-      <record id="1553767668fkr7zfleov" name="Как работать с поликарбонатом: общие рекомендации" author="alensav" url="http://propolikarbonat.ru/rabota-s-polikarbonatom" tags="Как работать с поликарбонатом: общие рекомендации" ctime="20190328130748" dir="1553767668pg7r8xukf4" file="text.html"/>
-      <record id="155376800991itx2esqf" name="Работа с поликарбонатом своими руками" author="alensav" url="https://kryshadoma.com/polikarbonat/rabota-s-polikarbonatom-svoimi-rukami.html" tags="Работа с поликарбонатом своими руками" ctime="20190328131329" dir="155376800907fw0mqwi8" file="text.html"/>
-      <record id="1553770508nw1f42w92m" name="Оптимальная толщина поликарбоната для навеса" author="alensav" url="https://srbu.ru/stroitelnye-materialy/252-kakoj-polikarbonat-luchshe-dlya-navesa.html" tags="Оптимальная толщина поликарбоната для навеса" ctime="20190328135508" dir="1553770508nj2ku418ol" file="text.html"/>
-      <record id="1553773162qpvlerl5tm" name="Монтаж поликарбоната на металлический каркас" author="alensav" url="https://teplica-exp.ru/montazh-polikarbonata-na-metallichesk/" tags="Монтаж поликарбоната на металлический каркас" ctime="20190328143922" dir="1553773162rct8rxbomd" file="text.html"/>
-     </recordtable>
-    </node>
-   </node>
-   <node crypt="" id="15549770206cvjvp9yrf" name="ROBOKASSA">
-    <recordtable>
-     <record id="1554977060vkv01lj9y0" name="LOGIN" author="alensav" url="" tags="robokassa" ctime="20190411130420" dir="1554977060urw5a7u0l1" file="text.html"/>
-     <record id="15550933562u0e0hq27m" name="Настройки ROBOKASSA" author="alensav" url="https://docs.robokassa.ru/#2387" tags="robokassa" ctime="20190412212236" dir="1555093356yw5vpg8ogf" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="155509251794tdnj9nn1" name="Qiwi">
-    <recordtable>
-     <record id="15550925865odzzyivw0" name="QIWI" author="alensav" url="" tags="qiwi" ctime="20190412210946" dir="155509258612uufht44h" file="text.html"/>
-    </recordtable>
-   </node>
-   <node crypt="" id="1555168639xhvx6pnlbz" name="ПЛАН">
-    <recordtable>
-     <record id="1555168868cnsfvoui3m" name="ПЛАН-САЙТ" author="alensav" url="" tags="план, сайт" ctime="20190413182108" dir="15551688683caepw3chv" file="text.html"/>
-    </recordtable>
-   </node>
-  </node>
-  <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
-   <recordtable>
-    <record id="15457300561cbn5g2p45" name="Учет ламп" author="alennsav" url="" tags="лампы, светодиодные" ctime="20181225122736" dir="1545730056s9nbfgqwdo" file="text.html"/>
-   </recordtable>
-  </node>
-  <node crypt="" id="1546065447cs5d3gvx7y" name="УДАЛЕННЫЙ_СЕРВИС">
-   <recordtable>
-    <record id="15460655155bxd20y0gt" name="УДАЛЕННЫЙ_КОМПЬЮТ_СЕРВИС" author="alensav" url="" tags="" ctime="20181229093835" dir="15460655158xn9qglms9" file="text.html"/>
-   </recordtable>
-  </node>
- </content>
-</root>
+	<format version="1" subversion="2"/>
+	<content>
+		<node crypt="" id="1300000000aaaaaaaaa1" name="MyTetra">
+			<recordtable>
+				<record id="1300000000aaaaaaaaa3" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1300000000aaaaaaaaa2" file="text.html"/>
+				<record id="154395238261cdn75c38" name="Git_Lab_documents" author="alensav" url="" tags="git, настройки" ctime="20181204223942" dir="1543952382jqvw57nud4" file="text.html"/>
+				<record id="1543956914oeuuyvc44o" name="Графический_интерфейс_GIT GUI" author="alensav" url="https://git-scm.com/book/ru/v2/Appendix-A%3A-Git-%D0%B2-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85-%D0%BE%D0%BA%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D1%85-%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%D1%8B" tags="mytetra, настройкиб графический" ctime="20181204235514" dir="15439569142zp4n9a2sq" file="text.html"/>
+				<record id="1544080871l5vctfb4u8" name="Синхронизация MyTetra" author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/170" tags="sync, синхронизация, mytetra" ctime="20181206102111" dir="1544080871jfy9lkki92" file="text.html"/>
+				<record id="1544083649hz73m9h5w3" name="Синхронизация данных MyTetra с другими компьютерами" author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/170" tags="sync, синхронизация" ctime="20181206110729" dir="1544083649wpm8hfn9zy" file="text.html"/>
+				<record id="154419695825ztvwh9yi" name="Управление окном MyTetra " author="alensav" url="https://webhamster.ru/site/page/index/articles/projectcode/499" tags="mytetra, окна" ctime="20181207183558" dir="15441969589wjijyjhlx" file="text.html"/>
+				<record id="1544456078921jn2qjde" name="Tig – консольный браузер для репозиториев Git" author="alensav" url="https://getpocket.com/a/read/2405847951" tags="git, рипозиторий, tig" ctime="20181210183438" dir="15444560788uk01f27os" file="text.html"/>
+				<record id="15445457845gjbf5dnl3" name="ОПЕРАТИВНЫЕ КОМАНДЫ" author="alensav" url="" tags="команды,git, " ctime="20181211192944" dir="1544545784e7qkkr9mfm" file="text.html"/>
+				<record id="1544956908mzt6vb58we" name="ОГЛАВЛЕНИЕ_UBUNTU" author="alensav" url="" tags="настройки. данные, команды" ctime="20181216134148" dir="15449569089z81cju46e" file="text.html"/>
+				<record id="1545139696z548o3rchc" name="ВЕТВИ" author="alensav" url="https://git-scm.com/book/ru/v2/%D0%92%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-Git-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B2%D0%B5%D1%82%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F" tags="git, ветви" ctime="20181218162816" dir="1545139696fnlyxn21q5" file="text.html"/>
+				<record id="15453034211cbbpr0qvv" name="Сведения о remote файлах" author="alensav" url="" tags="git, настройки" ctime="20181220135701" dir="1545303421u241d0pv9b" file="text.html"/>
+				<record id="15455702772eercx25cp" name="MyTetra_XML" author="alensav" url="" tags="" ctime="20181223160437" dir="1545570277oocsqa066a" file="text.html"/>
+				<record id="1545575790dnzovmz4bk" name="RSYNC" author="alensav" url="https://losst.ru/rsync-primery-sinhronizatsii" tags="sync, синхронизация" ctime="20181223173630" dir="1545575790se1nf713mz" file="text.html"/>
+				<record id="15456455651ory5f84d9" name="RSYNC_НАСТРОЙКИ1" author="alensav" url="https://www.dmosk.ru/instruktions.php?object=rsync-server" tags="sync, синхронизация, настройки" ctime="20181224125925" dir="1545645565vfw1qu8cry" file="text.html"/>
+				<record id="1545724717x3o9xcu9xp" name="RSYNC_настройки2" author="alensav" url="https://k0n0n3nk0.wordpress.com/2011/05/11/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%B0%D0%B8%D0%B2%D0%B0%D0%B5%D0%BC-rsync-%D0%B7%D0%B0-5-%D0%BC%D0%B8%D0%BD%D1%83%D1%82/" tags="sync, синхронизация" ctime="20181225105837" dir="15457247176q32m40xvs" file="text.html"/>
+				<record id="154572569378qhy5ecko" name="RSYNC_примеры использования" author="alensav" url="https://greendail.ru/node/rsync-primery-ispolzovaniya" tags="sync, синхронизация" ctime="20181225111453" dir="1545725693zlkiufjjlt" file="text.html"/>
+				<record id="1546510463ja8rtul5g5" name="ПЛАН" author="alensav" url="" tags="план" ctime="20190103131423" dir="1546510463jxii42gvyu" file="text.html"/>
+				<record id="1547279150zx1ur0cdop" name="Слушаем музыку  cmus " author="alensav" url="https://eax.me/cmus/" tags="musik, музыка, консоль, cmus" ctime="20190112104550" dir="154727915040k9dkkqmz" file="text.html"/>
+				<record id="1547385990gpzqw7pmt8" name="шпаргалка по работе с Git" author="alensav" url="https://eax.me/git-commands/" tags="шпаргалка, Git" ctime="20190113162630" dir="1547385990vntsg3sw86" file="text.html"/>
+				<record id="1547801722ayb98cm15s" name="ПЕНСИЯ" author="ли_ав" url="" tags="пенсия" ctime="20190118115522" dir="15478017225ukywb77ce" file="text.html"/>
+				<record id="15480717133dbddzgn1c" name="НАЛОГИ" author="alensav" url="" tags="налог" ctime="20190121145513" dir="1548071713riibvwir1c" file="text.html">
+					<files>
+						<file id="1548071753o7w4dpo6a0" fileName="treb-68049.pdf" type="file"/>
+						<file id="1548073811o0awtx2jcp" fileName="ИП_Налог.doc" type="file"/>
+					</files>
+				</record>
+				<record id="1548957905ii2nao29vs" name="Советы начинающему проектировщику" author="alensav" url="" tags="Советы,  начинающему,  проектировщику, план" ctime="20190131210505" dir="1548957905isfm2dx70g" file="text.html"/>
+				<record id="1553338847gzzs8o5lj2" name="skladchik" author="" url="" tags="skladchik" ctime="20190323140047" dir="1553338847rpjmg1m3r5" file="text.html"/>
+			</recordtable>
+			<node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
+				<recordtable>
+					<record id="1543732416pofscthyn3" name="SSH_пересылка файлов" author="alensav" url="" tags="ssh_, ubuntu" ctime="20181202093336" dir="1543732416t8o93qjbis" file="text.html"/>
+					<record id="15439373093rjt28u1ry" name="Android_на_Virtualbox" author="alensav" url="http://lumpics.ru/installation-android-on-virtualbox/" tags="android, virtual" ctime="20181204182829" dir="1543937309o0xzl428sb" file="text.html"/>
+					<record id="15439450349pxfcb9q1b" name="Flash player" author="alensav" url="https://support.mozilla.org/ru/kb/upravlenie-plaginom-flash" tags="ubuntu, настройки" ctime="20181204203714" dir="15439450343as5j2ma0o" file="text.html"/>
+					<record id="15439924086nqp263ahw" name="dd_Commands" author="alensav" url="https://losst.ru/kak-sdelat-zagruzochnuyu-fleshku-ubuntu" tags="dd, command, командыб загрузочная" ctime="20181205094648" dir="1543992408g897o5ntba" file="text.html"/>
+					<record id="15440216859px9ixnjh6" name="rsync _СИНХРОНИЗАЦИЯ" author="alensav" url="https://webhamster.ru/webmytetra#" tags="sync, синхронизация, резервирование" ctime="20181205175445" dir="1544021685b4gtc9nllb" file="text.html"/>
+					<record id="1544022215rlqi4w808x" name="Обзор систем бекапа в ubuntu" author="alensav" url="https://webhamster.ru/webmytetra#" tags="" ctime="20181205180335" dir="154402221590u2rln80a" file="text.html"/>
+					<record id="15440227495kk4agnh16" name="rsnapshot " author="alensav" url="https://habr.com/post/45912/" tags="резервное, копир, sync" ctime="20181205181229" dir="1544022749p2k0eqzc0m" file="text.html"/>
+					<record id="1544029759unlhycpo4t" name="Postfix" author="alensav" url="https://1cloud.ru/help/linux/postfix-dovecot-na-ubuntu" tags="mail, почта" ctime="20181205200919" dir="1544029759vgb6xe3elv" file="text.html"/>
+					<record id="154409549373h0ip5hpq" name=" watch" author="alensav" url="https://www.nixp.ru/recipes/33.html" tags="timr, время" ctime="20181206142453" dir="1544095493cp5on2ijc2" file="text.html"/>
+					<record id="1544097005zde4u9p9ag" name="CP_remote_local" author="alensav" url="https://www.shellhacks.com/ru/copy-files-ssh-10-examples/" tags="cp, copir, копир" ctime="20181206145005" dir="1544097005ro4oo2ttji" file="text.html">
+						<files>
+							<file id="1544612815znr6xgpuum" fileName="Выделение_001.png" link="/home/alensav/Изображения/Выделение_001.png" type="link"/>
+						</files>
+					</record>
+					<record id="1544432595a3c12faafz" name="Время" author="alensav" url="https://geeksmagazine.org/post/186/kak-pokazat-vremya-v-linuks-terminale" tags="время, time, настройка" ctime="20181210120315" dir="1544432595ywoq1z2od5" file="text.html"/>
+					<record id="1544433153jnvjn8im9b" name="ИНДИКАТОРЫ" author="alensav" url="https://geeksmagazine.org/post/242/top-10-poleznyh-appletov-i-indikatorov-dlya-ubuntu-1404-lts" tags="индикаторы, настройки" ctime="20181210121233" dir="1544433153gg9h3117dk" file="text.html"/>
+					<record id="1544618576bzona7su8e" name="Экпериментальное изучение" author="alensav" url="" tags="настройки, команды" ctime="20181212154256" dir="1544618576fe960n2phx" file="text.html"/>
+					<record id="1544619803dm32slycl6" name="ССЫЛКИ" author="alensav" url="" tags="ссылки, настройки, база, данных" ctime="20181212160323" dir="1544619803xcwp7vpdwz" file="text.html"/>
+					<record id="15446423376xl1hf7xe7" name="Путеводитель_LINUX" author="alenasav" url="http://linsoft.info/" tags="linux, ос, настройки, приложения" ctime="20181212221857" dir="15446423377otvxhagin" file="text.html"/>
+					<record id="154471488731mlgjil13" name="ПОРТЫ (PORT)" author="alensav" url="http://blog.sedicomm.com/2018/04/08/kak-proverit-dostupnost-otkrytost-porta-portov-ispolzuya-komandu-nc/" tags="порт, port, проброска, связь" ctime="20181213182807" dir="1544714887k1mm5me7tu" file="text.html"/>
+					<record id="1544778372aptap7ozij" name="Программы для ubuntu" author="alensav" url="" tags="приложения, программы, поиск" ctime="20181214120612" dir="15447783722ig8xnt2i8" file="text.html"/>
+					<record id="1544786642dojfkp8tup" name="NETWORK" author="alensav" url="" tags="сеть, настройка, локальная" ctime="20181214142402" dir="1544786642w71fg5n9xm" file="text.html"/>
+					<record id="1544858699zl2vuz6k8n" name="Ярлыки программ" author="alensav" url="" tags="ярлык, приложение, программа" ctime="20181215102459" dir="1544858699cjanx9x7dw" file="text.html"/>
+					<record id="15451183299klk4bpwdm" name="Распознавание текста" author="alensav" url="https://help.ubuntu.ru/fullcircle/36/top5_36" tags="текст, ocr, распознавание" ctime="20181218103209" dir="154511832945bq0uszp4" file="text.html"/>
+					<record id="1545671116gw3rn7mvvb" name="FSTAB редактирование" author="alensav" url="https://help.ubuntu.ru/wiki/fstab" tags="" ctime="20181224200516" dir="1545671116u9i7278iog" file="text.html"/>
+					<record id="1545672663um4vr7nv7o" name="Планирование заданий" author="alensav" url="https://habr.com/company/ruvds/blog/336060/" tags="" ctime="20181224203103" dir="1545672663r239aqrnvo" file="text.html"/>
+					<record id="1545822379v8hoq3igkp" name="CRON" author="alensav" url="https://help.ubuntu.ru/wiki/cron" tags="cron, ubuntu" ctime="20181226140619" dir="1545822379hn9qzxuqm8" file="text.html"/>
+					<record id="1545839011i3ouh81adg" name="Command at" author="alensav" url="http://blog.sedicomm.com/2017/11/21/kak-ispolzovat-komandu-at-dlya-planirovaniya-zadachi-v-linux/" tags="" ctime="20181226184331" dir="15458390113hm1qzepll" file="text.html"/>
+					<record id="15458398636r3xjjqzml" name="Ошибки CRON" author="alensav" url="https://system-admins.ru/ubuntu-linux-proverka-oshibok-cron/" tags="" ctime="20181226185743" dir="1545839863luafbjw2wd" file="text.html"/>
+					<record id="1545841662ktq52q5316" name="15 лучших КОМАНД CRON" author="alen" url="http://devacademy.ru/posts/15-otlichnykh-primierov-dlia-sozdaniia-cron-zadach-v-linux/" tags="cron, command, настройки" ctime="20181226192742" dir="1545841662vyx49x78tp" file="text.html"/>
+					<record id="1546532507und4rzzkj2" name="Автосборка" author="alensav" url="https://help.ubuntu.ru/wiki/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC" tags="автосборка" ctime="20190103192147" dir="1546532507vxs3o1dpmt" file="text.html"/>
+					<record id="15465962066op8hm14or" name="авто_команды_перед_откл" author="alensav" url="" tags="авто, отключение" ctime="20190104130326" dir="15465962069g5fc411lj" file="text.html"/>
+					<record id="1546624058v6468qk5dn" name="GREP ПОИСК" author="alensav" url="http://softhelp.org.ua/?p=4943" tags="grep, поиск" ctime="20190104204738" dir="15466240585pnd5qzrbr" file="text.html"/>
+					<record id="15467231795852c5sl27" name="COmmands_UBUNTU" author="alensav" url="http://www.linuxguide.it/command_line/linux_commands_ru.html" tags="commands, ubuntu" ctime="20190106001939" dir="15467231797kq9n2cb8q" file="text.html"/>
+					<record id="1546770526anjypu995l" name="Команды_Ubuntu_Алфавит" author="alensav" url="https://losst.ru/komandy-terminala-linux" tags="command, командыБ ubuntu" ctime="20190106132846" dir="15467705267fb82x6mz3" file="text.html"/>
+					<record id="1546879070dhkw5ciqjm" name="webmin" author="alensav" url="https://losst.ru/ustanovka-webmin-na-ubuntu-server-16-04" tags="" ctime="20190107193750" dir="154687907066neycrmop" file="text.html"/>
+					<record id="1547049636f77f0ohggw" name="Резервное копирование Ununtu" author="alensav" url="https://losst.ru/rezervnoe-kopirovanie-ubuntu" tags="cp, copir, копир, архивация" ctime="20190109190036" dir="15470496363nsf66ozeb" file="text.html"/>
+					<record id="1547104064nnp7x35hen" name="Откат системы Ubuntu " author="alensav" url="https://losst.ru/otkat-sistemy-ubuntu" tags="откат, система, ubuntu," ctime="20190110100744" dir="1547104064wnjj5s47c3" file="text.html"/>
+					<record id="1547105717gxe0irn5ac" name="Журнал активности_USERUBUNTU" author="alensav" url="https://itshaman.ru/it-programmy-dlya-linux/263/zhurnal-aktivnosti-polzovatelya-v-gnome-ili-zeitgeist-v-deistvii" tags="log, user, журнал, лог, пользователь" ctime="20190110103517" dir="1547105717g4wn91x1sw" file="text.html"/>
+					<record id="15471408492e27n8z76g" name="Neofetch - информация о системе linux" author="alensav" url="https://losst.ru/neofetch-informatsiya-o-sisteme-linux-i-logotip-v-terminale" tags="system, сиситема. настройки" ctime="20190110202049" dir="1547140849s0i9gs9nbt" file="text.html"/>
+					<record id="1547142634i16ctp0o5n" name="Установка редактора Emacs" author="alensav" url="https://linuxsoid.club/how-to-install-emacs-editor-for-ubuntu" tags="редактор, текст, emaks" ctime="20190110205034" dir="1547142634l0zge9pup2" file="text.html"/>
+					<record id="15471931143whdacpgf6" name="Редакторы Brackets," author="alensav" url="https://linuxsoid.club/browse-best-code-editors-linux" tags="редактор, HTTM" ctime="20190111105154" dir="15471931141k0gr6rm88" file="text.html"/>
+					<record id="1547221392toa5usib9n" name="Сервер nginx на Ubuntu" author="alensav" url="https://neoblogs.net/2013/06/19/ustanovka-veb-servera-nginx-na-ubuntu-linux/" tags="server, nginx" ctime="20190111184312" dir="1547221392xx8smxtizw" file="text.html"/>
+					<record id="1547384449yguibixtwi" name="Частые команды" author="alensav" url="https://losst.ru/bash-skripty-linux" tags="Частые, команды" ctime="20190113160049" dir="1547384449nwkcy8qpgn" file="text.html"/>
+					<record id="1547384902n965gde9q9" name="Записать видео с экрана в терминале linux:" author="alensav" url="" tags="Записать, видео, экран, терминал" ctime="20190113160822" dir="1547384902eq6e92yk41" file="text.html"/>
+					<record id="15473876276iyfwkduph" name="Начало работы с Vagrant" author="alensav" url="https://eax.me/vagrant/" tags="vagrant, утилита, виртуалка" ctime="20190113165347" dir="1547387627a2z9po7xts" file="text.html"/>
+					<record id="1547407704s1q0yiysvw" name="Сокращаем команды терминала через alias" author="alensav" url="http://tuksik.ru/alias/" tags="Сокращения, команды, терминал, alias" ctime="20190113222824" dir="1547407704rbr2c96li8" file="text.html"/>
+					<record id="1547466925dlvqaymggd" name="XED" author="alensav" url="https://www.linuxhelp.com/how-to-install-xed-editor-on-ubuntu-16-04" tags="редактор, xed" ctime="20190114145525" dir="1547466925c71nh09dc0" file="text.html"/>
+					<record id="1547493934irfxvj4ntz" name="CodeLobster IDE" author="alensav" url="https://linuxthebest.net/codelobster-ide-novaya-ide-dlya-linux-sistem/#more-9297" tags="PHP/HTML/CSS/JavaScript редактором и средой для WEB" ctime="20190114222534" dir="1547493934yczs9jocf4" file="text.html"/>
+					<record id="1547545059ot86h631dq" name="Установка необходимых программ " author="alensav" url="http://ubuntovod.ru/" tags="Установка, необходимых, программ, ubuntu " ctime="20190115123739" dir="1547545059s0vclr2zv1" file="text.html"/>
+					<record id="1547544575wl5ppt8pvx" name="Завершить процесс в Linux" author="alensav" url="https://www.gotoadm.ru/kill-process-in-linux-command-ps-kill-killall/" tags="завершить, процесс, kill" ctime="20190115132352" dir="1547544575vryb3fzp80" file="text.html"/>
+					<record id="15475480487ai1o520mf" name="disk" author="alensav" url="https://help.ubuntu.ru/fullcircle/30/%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B_%D1%87_6" tags="disk, место. освободить" ctime="20190115132728" dir="1547548048215uflq26d" file="text.html"/>
+					<record id="15480839612q8ovakdnt" name="Как скачать файл с сети в консоли?" author="alensav" url="http://pro-spo.ru/linux-for-beginner/2864-2011-12-06-11-37-05" tags="скачать,  файл,  сети, сеть,  консолиь" ctime="20190121181921" dir="1548083961e8vi0xq0yj" file="text.html"/>
+					<record id="1548145751sgraor4ddt" name="Анализ нагрузки на веб-сервер Linux" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=web-load-analis" tags="Анализ, нагрузки,  веб-сервер, Linux,  nginx, Apache, PHP-FPM" ctime="20190122112911" dir="154814575144imqniqxe" file="text.html"/>
+					<record id="1548176161586hiatc5d" name="Ubuntu SERVER" author="alensav" url="" tags="tasksel, ubuntu, server" ctime="20190122195601" dir="1548176161bb5kmsn6se" file="text.html"/>
+					<record id="15481833311a6mjs9012" name="MYSQL" author="alensav" url="https://community.vscale.io/hc/ru/community/posts/209370225-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-MySQL-%D0%BD%D0%B0-Ubuntu-16-04" tags="MYSQL, база, данных" ctime="20190122215531" dir="1548183331j65ohwpb7k" file="text.html"/>
+					<record id="154824696348qlfsmyio" name="ODA File Converter" author="alensav" url="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=ru&amp;prev=search&amp;rurl=translate.google.ru&amp;sl=en&amp;sp=nmt4&amp;u=https://www.opendesign.com/guestfiles/oda_file_converter&amp;xid=17259,15700022,15700043,15700186,15700191,15700248&amp;usg=ALkJrhgix1xHUe2FJcPyFDpdhYF4IOraeA" tags="преобразования, dwg, .dxf" ctime="20190123153603" dir="1548246963p2rxtm6pmd" file="text.html"/>
+					<record id="1548259118pbj0yzcb7d" name="BRL-CAD" author="alensav" url="https://brlcad.org/wiki/Compiling" tags="BRL-CAD, autocad, dwg" ctime="20190123185838" dir="1548259118nbkeis1ujv" file="text.html"/>
+					<record id="15483554397tiyokifee" name="БД" author="alensav" url="https://1cloud.ru/help/website-hosting/kak-ustanovit-joomla-3-na-ubuntu" tags="bd, бд, база. данных" ctime="20190124214359" dir="1548355439g676e66qj5" file="text.html"/>
+					<record id="1548414097zdt6dx0ots" name="Cloud Selectel" author="alensav" url="https://selectel.ru/services/cloud/storage/?storage=40&amp;traffic=10" tags="облако, cloud, хранилище, файл, архивация, tar" ctime="20190125140137" dir="1548414097bt6hls7pyu" file="text.html"/>
+					<record id="1548497455fdo05jm403" name="Как распаковать tar.bz2 архив в Linux?" author="alensav" url="https://pingvinus.ru/answers/847" tags="tar, bz2, архив" ctime="20190126131055" dir="1548497455dnzt00cihl" file="text.html"/>
+					<record id="1548498103hb2zkduido" name="mysupercloud.ru" author="alensav" url="http://liberatum.ru/blog/owncloud-install" tags="сайт, mysupercloud.ru, owncloud" ctime="20190126132143" dir="1548498103dvdivi1xm1" file="text.html"/>
+					<record id="15485313211nv1w8ox8f" name=" Apache в Ubuntu" author="alensav" url="" tags="сервер, server, apache" ctime="20190126223521" dir="1548531321a8xcmsp8hv" file="text.html"/>
+					<record id="15485808498mbnztiu0i" name="Создание и удаление баз в MySQL/MariaDB" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=mysql-create-db" tags="mysgl, bd, бд, база. данных" ctime="20190127122049" dir="1548580849xn426ta5lm" file="text.html"/>
+					<record id="1548582906zlkiw9y4sk" name="phpMyAdmin" author="alensav" url="https://www.digitalocean.com/community/tutorials/phpmyadmin-ubuntu-16-04-ru" tags="phpMyAdmin, admin, админ" ctime="20190127125506" dir="1548582906vnw5f6865b" file="text.html"/>
+					<record id="154861785162i0i94b5w" name="MySQL/MariaDB: как сменить пароль пользователя" author="alensav" url="http://linux-in.com/mysqlmariadb-how-to-change-a-user/" tags="mysql, mariadb, db, база. данных" ctime="20190127223731" dir="1548617851sm6cbwvcrk" file="text.html"/>
+					<record id="1548688499wbfe3dg2nk" name="Как установить веб-сервер Apache на Ubuntu 16.04" author="alensav" url="https://timeweb.com/ru/community/articles/kak-ustanovit-veb-server-apache-na-ubuntu-16-04-1" tags="apache, servver, phpmyadmin" ctime="20190128181459" dir="1548688499rwkslvab4d" file="text.html"/>
+					<record id="1548773727xx40f8y3tv" name="Install package owncloud-files" author="alensav" url="https://download.owncloud.org/download/repositories/stable/owncloud/index.html" tags="own, owncloud, cloud" ctime="20190129175527" dir="1548773727x9mmtm2z2q" file="text.html"/>
+					<record id="1548775311tam7r0visa" name="Apache HTTP Server &#xA;" author="alensav" url="https://help.ubuntu.ru/wiki/apache2" tags="apache, server" ctime="20190129182151" dir="1548775311nj5rjkfino" file="text.html"/>
+					<record id="15487788783wqjn0nxa6" name="Настройка файла php.ini" author="alensav" url="https://losst.ru/nastrojka-fajla-php-ini" tags="php, настройка" ctime="20190129192118" dir="15487788782azrcz3951" file="text.html"/>
+					<record id="1548941200jp64uyup7j" name="HTML: Абзац и красная строка &#xA;" author="alensav" url="https://puzzleweb.ru/html/5_paragraphs.php" tags="HTML, Абзац, красная, строка &#xA;" ctime="20190131162640" dir="1548941200kcfg5giccm" file="text.html"/>
+					<record id="1549092323v6pomc68lk" name="Как установить Java 8 JDK, JRE в Ubuntu " author="alensav" url="https://www.mytechnote.ru/article/kak-ustanovit-java-8-jdk-jre-v-ubuntu" tags=" Java 8,  JDK,  JRE, Ubuntu " ctime="20190202102523" dir="1549092323x8lxmncgrv" file="text.html"/>
+					<record id="1549959915vo5vlpo9ee" name="Текущее время и дата клиента." author="alensav" url="" tags="time, время, дата" ctime="20190212112515" dir="1549959915k9ihojmb3s" file="text.html"/>
+					<record id="1549960195dh95s7vd3d" name=" Данный скрипт выводит текущую дату и время" author="alensav" url="http://gnatkovsky.com.ua/skript-tekushhej-daty-i-vremeni-ili-cifrovye-chasy-javascript.html" tags=" скрипт, дата, время" ctime="20190212112955" dir="1549960195v0q1bs6z1l" file="text.html"/>
+					<record id="1549961665tc4pa4mg36" name="Дата на сайте HTML" author="alensav" url="https://s-sd.ru/blog_studio_design/data_na_sajte/" tags="Дата? сайт, HTML" ctime="20190212115425" dir="15499616654fxtkqgf3j" file="text.html"/>
+					<record id="15500474038qeb698wud" name="Дисковое пространство" author="alensav" url="" tags="disk, ubuntu, диск, объем" ctime="20190213114323" dir="1550047403nvw3449t86" file="text.html"/>
+					<record id="1550143569zfco53zgjv" name="ОЧИСТКА UBUNTU" author="alensav" url="" tags="ОЧИСТКА,  UBUNTU" ctime="20190214142609" dir="1550143569d2tryhdgp3" file="text.html"/>
+					<record id="1550154396wxvj5yqlvy" name="Лучшие способа очистки мусора в Ubuntu" author="alensav" url="https://linuxsoid.club/4-best-way-to-clean-the-trash-ubuntu" tags="очистк, мусор, Ubuntu" ctime="20190214172636" dir="1550154396s1xi79m1fj" file="text.html"/>
+					<record id="1550155215hgoyiopy2c" name="BleachBit" author="alensav" url="https://lifehacker.ru/kak-pochistit-ubuntu/" tags="очистка, система, ubuntu" ctime="20190214174015" dir="1550155215ogl7ljxnuc" file="text.html"/>
+					<record id="15510747873or283n9e0" name="Лог файлы Linux" author="alensav" url="https://habr.com/ru/post/332502/" tags="Лог, файлы, Linux, log" ctime="20190225090627" dir="1551074787q3u3vn7k9j" file="text.html"/>
+					<record id="1551423792lkzef3oxnm" name="создания загрузочной флэшки" author="alensav" url="https://linuxthebest.net/luchshie-utility-dlya-sozdaniya-zagruzoch/" tags=" загрузочная, флэшка" ctime="20190301100312" dir="15514237926m7e9pf83o" file="text.html"/>
+					<record id="1551445331rntpnhtbzm" name="КАК ПОЛЬЗОВАТЬСЯ TELNET" author="alensav" url="https://losst.ru/kak-polzovatsya-telnet" tags="TELNET" ctime="20190301160211" dir="1551445331ls87mbxvdc" file="text.html"/>
+					<record id="1551470691txq4nexpei" name="Настройка фаервола в Ubuntu с помощью утилиты UFW" author="alensav" url="https://community.vscale.io/hc/ru/community/posts/208348529-%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D1%84%D0%B0%D0%B5%D1%80%D0%B2%D0%BE%D0%BB%D0%B0-%D0%B2-Ubuntu-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D1%8B-UFW" tags="Настройка, фаервола,  Ubuntu, UFW" ctime="20190301230451" dir="1551470691v1jwj3i2u2" file="text.html"/>
+					<record id="1551471511mfqd1bgltb" name="Orange pi ps 2" author="alensav" url="https://www.ixbt.com/live/kvazis/orange-pi-pc-2-ustanovka-linux-domoticz-imperihome.html" tags="Orange, pi,  ps 2" ctime="20190301231831" dir="1551471511cpr1y4fm4l" file="text.html"/>
+					<record id="1551510496kmzta79swr" name="Распаковка ZIP Linux" author="alensav" url="https://losst.ru/kak-raspakovat-zip-v-linux" tags="Распаковка,  ZIP,  Linux" ctime="20190302100816" dir="155151049618qnjcm8v3" file="text.html"/>
+					<record id="15515110610fc3g6w97s" name="Могут встретиться и файлы XZ. Разархивируем командой" author="alensav" url="" tags="xz" ctime="20190302101741" dir="15515110619rwokmwte8" file="text.html"/>
+					<record id="1551612797iel629ylqn" name="dd" author="alensav" url="https://losst.ru/komanda-dd-linux" tags="dd" ctime="20190303143317" dir="1551612797js9605unhc" file="text.html"/>
+					<record id="1551630296dqpbh8vqid" name="Настройка сети в Linux, диагностика и мониторинг" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0_%D1%81%D0%B5%D1%82%D0%B8_%D0%B2_linux" tags="Настройка, сети, Linux,  диагностика, мониторинг" ctime="20190303192456" dir="1551630296w47i6ww8mj" file="text.html"/>
+					<record id="1551635790laq9kz4n1x" name="Руководство-Настройка сети вручную" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0_%D1%81%D0%B5%D1%82%D0%B8_%D0%B2%D1%80%D1%83%D1%87%D0%BD%D1%83%D1%8E" tags="Настройка сети вручную" ctime="20190303205630" dir="1551635790k5zpwwy7mw" file="text.html"/>
+					<record id="1551642936512a6vf4yj" name="Настройка проводной сети" author="alensav" url="" tags="Настройка, проводной, сети" ctime="20190303225536" dir="1551642936vfwzc2hwvj" file="text.html"/>
+					<record id="15517152763hahkfuo2g" name="Как создать загрузочную флешку Ubuntu Mate для Orange Pi PC из Windows" author="alensav" url="https://micro-pi.ru/%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D0%B0%D1%8F-%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0-ubuntu-mate-orange-pi-pc/" tags="создать, загрузочную флешку, Ubuntu, Mate, Orange, Pi PC" ctime="20190304190116" dir="15517152768ubd69bc5k" file="text.html"/>
+					<record id="1551804820cr2ovvrbc3" name="Как работает SAMBA? часть 2 " author="alensav" url="http://www.k-max.name/windows/file-print-server-na-samba-cups/" tags="samba" ctime="20190305195340" dir="1551804820m9h2ash8yo" file="text.html"/>
+					<record id="1552855152ghhlsjsvk5" name="scrript_SAV" author="alensav" url="https://help.ubuntu.ru/wiki/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B0_%D0%B0%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0" tags="script, скрипт" ctime="20190317233912" dir="15528551524zoe8ljsv1" file="text.html"/>
+					<record id="1553074482qq5lqjhnhi" name="Синхронизация времени в Ubuntu" author="alensav" url="https://www.8host.com/blog/sinxronizaciya-vremeni-v-ubuntu-16-04/" tags="Синхронизация, время, Ubuntu, time" ctime="20190320123442" dir="15530744824ynbj9tkvl" file="text.html"/>
+					<record id="15530987392txrvuxiiv" name="Выполнение скрипта при запуске или выключении linux " author="alensav" url="http://tuksik.ru/auto-start-and-shutdown/" tags="Выполнение, скрипт, запуск, выключении, linux, out" ctime="20190320191859" dir="15530987390zjht6plc9" file="text.html"/>
+					<record id="1553099557mxfovw3mab" name="  ctrl+l, что бы появился адрес" author="alensav" url="http://tuksik.ru/show-url-in-nautilus/" tags=" ctrl+l,  появился,  адрес" ctime="20190320193237" dir="1553099557n5q0d1vazt" file="text.html"/>
+					<record id="15531001397pay9g3xsz" name="Автоматическое монтирование яндекс диска в linux " author="alensav" url="http://tuksik.ru/auto-mount-disk-yandex/" tags="Автоматическое,  монтирование,  яндекс,  диск, linux " ctime="20190320194219" dir="15531001395oore03l08" file="text.html"/>
+					<record id="1553112432un825jo3db" name="Выполнить скрипт при выходе из системы " author="alensav" url="https://ubuntugeeks.com/questions/3546/execute-a-script-upon-logout-reboot-shutdown-in-ubuntu" tags=" скрипт, выход, системы " ctime="20190320230712" dir="1553112432rbd3flrrtp" file="text.html"/>
+					<record id="1553179167byjhizdnfu" name="Настройка rdp сервера в Linux" author="alensav" url="http://admin-gu.ru/os/linux/nastrojka-rdp-servera-v-linux-mint-debian-ubuntu-dlya-podklyucheniya-iz-windows" tags="Настройка, rdp,  сервер, Linux" ctime="20190321173927" dir="15531791676ooudkrnf5" file="text.html"/>
+					<record id="155318367449220e6uzf" name="Удаленный рабочий стол ubuntu 16.04 " author="alensav" url="https://losst.ru/udalennyj-rabochij-stol-ubuntu-16-04" tags="Удаленный, рабочий, стол, ubuntu ,16.04 " ctime="20190321185434" dir="15531836745yn8dxpgdo" file="text.html"/>
+					<record id="1553185711dy6pv1afvl" name="Сервер VNC " author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=vnc-server-ubuntu" tags="Сервер, VNC " ctime="20190321192831" dir="1553185711y9ne4u839q" file="text.html"/>
+					<record id="1553339846nv8o06qfgp" name="Как распаковать rar в Linux " author="alensav" url="https://losst.ru/kak-raspakovat-rar-v-linux" tags="распаковать, rar,  Linux " ctime="20190323141726" dir="1553339846ustfkahsqs" file="text.html"/>
+					<record id="15537629654hop276ymj" name="6 простых способов ускорить Ubuntu 16.04 в разы" author="alensav" url="https://webhamster.ru/mytetrashare/index/mtb191/1533921054uw39dfxif9" tags=" ускорить,  Ubuntu, " ctime="20190328114925" dir="1553762965lblod29714" file="text.html"/>
+				</recordtable>
+				<node crypt="" id="154382674372he9wscu4" name="GitLab">
+					<recordtable>
+						<record id="1543826838fphszo46kq" name="Git_Lab-command" author="alensav" url="" tags="GitLab, site" ctime="20181203114718" dir="1543826838j8j028wuk7" file="text.html"/>
+					</recordtable>
+					<node crypt="" id="1546074361u4zy0prf6x" name="SCRIPT_ALL">
+						<recordtable>
+							<record id="1546074450ayru8gy4zc" name="SCRIPT_FINISH" author="alensav" url="https://ubuntugeeks.com/questions/3546/execute-a-script-upon-logout-reboot-shutdown-in-ubuntu" tags="script" ctime="20181229120730" dir="1546074450bruq6ugdpm" file="text.html"/>
+							<record id="1546074745n7bqgyo3wy" name="SCRIPT_START_FINISH" author="alensav" url="http://tuksik.ru/auto-start-and-shutdown/" tags="script" ctime="20181229121225" dir="1546074745pyxlwhkoi3" file="text.html"/>
+						</recordtable>
+					</node>
+				</node>
+				<node crypt="" id="154443071820y1k0o07v" name="ОБОРУДОВАНИЕ">
+					<recordtable>
+						<record id="1544430870bvxhcpvvme" name="Чтение температуры процессора" author="alensav" url="https://geeksmagazine.org/post/409/kak-proverit-temperaturu-protsessora-v-ubuntu" tags="температура" ctime="20181210113430" dir="1544430870av2abqbylf" file="text.html"/>
+					</recordtable>
+				</node>
+				<node crypt="" id="1545040023lz8ct8rx30" name="Отечественное ПО">
+					<recordtable>
+						<record id="1545041636ic6pq5m2pw" name="Отечественное ПО" author="alensav" url="" tags="ос, операционная, система" ctime="20181217131356" dir="1545041636hjsqble2yi" file="text.html"/>
+					</recordtable>
+				</node>
+				<node crypt="" id="1546337911372dkrkxis" name="COMMAND_UBUNTU">
+					<recordtable>
+						<record id="1546338004txygzd444s" name="GREP_INSTR" author="" url="" tags="" ctime="20190101132004" dir="1546338004sn3b04i11g" file="text.html"/>
+						<record id="1546338537k5aa5u99jx" name="Grep_Руководство" author="alensav" url="https://andreyex.ru/operacionnaya-sistema-linux/polnoe-rukovodstvo-komanda-grep-v-linux/" tags="grep" ctime="20190101132857" dir="1546338537lrgolawcl4" file="text.html"/>
+						<record id="1544086048v5wiwuga48" name="Запуск команд по времени" author="alensav" url="https://www.opennet.ru/docs/RUS/linux_base/node40.html" tags="command, time, команда, время" ctime="20190402140653" dir="1544086048ebq1esace6" file="text.html"/>
+						<record id="1544279361eejsoymjox" name="как закрыть зависшее приложение на ubuntu" author="alensav" url="https://www.google.com/search?client=ubuntu&amp;channel=fs&amp;q=%D0%BA%D0%B0%D0%BA+%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C+%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D1%88%D0%B5%D0%B5+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BD%D0%B0+ubuntu&amp;ie=utf-8&amp;oe=utf-8" tags="kill" ctime="20190402140711" dir="1544279361xkvhqsh0hj" file="text.html"/>
+						<record id="1545672020tji762x5xr" name="Командная строка" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0" tags="ubuntu, command, команды" ctime="20190402140803" dir="1545672020mrsy289h40" file="text.html"/>
+					</recordtable>
+				</node>
+				<node crypt="" id="1554203120vny48libog" name="XEOMA">
+					<recordtable>
+						<record id="1543739752llscxwqfwp" name="XEOMA" author="alensav" url="" tags="" ctime="20190402140551" dir="1543739752xn467tdg96" file="text.html"/>
+						<record id="1543742325vnds07cd1i" name="XEOMA_РУКОВОДСТВО" author="" url="" tags="" ctime="20190402140606" dir="1543742325si41cnd6b2" file="text.html">
+							<files>
+								<file id="1545732834djxvjjexdx" fileName="user_manual_ru(1).pdf" type="file"/>
+								<file id="15457329097lamu5mgef" fileName="user_manual_ru(1).pdf" link="/home/alensav/Загрузки/user_manual_ru(1).pdf" type="link"/>
+							</files>
+						</record>
+					</recordtable>
+				</node>
+			</node>
+			<node crypt="" id="1544111400vnc868hc3v" name="GRUB">
+				<recordtable>
+					<record id="1544111478ublyns1g8z" name="GRUB" author="alensav" url="https://losst.ru/nastrojka-zagruzchika-grub" tags="grub, загрузка" ctime="20181206185118" dir="1544111478newz228zvr" file="text.html"/>
+				</recordtable>
+			</node>
+			<node crypt="" id="1544800856rl0gmtktm0" name="INTERNET">
+				<recordtable>
+					<record id="1544800918skmgdunurm" name="TEST SPEED" author="alensav" url="https://www.shellhacks.com/ru/test-internet-speed-linux-command-line/" tags="скорость, тест, замер" ctime="20181214182158" dir="1544800918ibwyrysssu" file="text.html"/>
+					<record id="15449592467bcky3sisi" name="Облачные операционные системы. ТОП-6 лучших Cloud PC" author="alensav" url="http://la.by/news/oblachnye-operacionnye-sistemy-top-6-luchshih-cloud-pc" tags="облачный, виртуальный, интернет" ctime="20181216142046" dir="1544959246tey4e12pno" file="text.html"/>
+					<record id="1545486605g5thytu5t8" name="HTTM" author="alensav" url="https://ppt-online.org/306191" tags="httm, интернет, web" ctime="20181222165005" dir="1545486605hs6jmscm6a" file="text.html"/>
+					<record id="15469641718kr41lvycw" name="TURBO-TETRA" author="alensav" url="https://skladchik.com" tags="turbotetra, mytetra, заметки, блокнот" ctime="20190108191611" dir="1546964171yvjj4qov4y" file="text.html"/>
+					<record id="15471971355eohxtrfph" name="WAVEBOX" author="alensav" url="https://translate.google.com/translate?hl=ru&amp;sl=en&amp;u=https://snapcraft.io/wavebox&amp;prev=search" tags="ubuntu, настройки, умный дом" ctime="20190111115855" dir="1547197135s0eefknflp" file="text.html"/>
+					<record id="1547201555rd702vsuzm" name="Ускоряем Ubuntu Linux" author="alensav" url="https://linuxsoid.club/acceleration-ubuntu" tags="ubuntu, настройки" ctime="20190111131235" dir="1547201555ifz80j4t2d" file="text.html"/>
+					<record id="1547386241jkeuzzxt72" name="настройка OpenVPN в Ubuntu" author="alensav" url="https://eax.me/openvpn/" tags="настройка, OpenVPN, Ubuntu" ctime="20190113163041" dir="1547386241mfam5n9api" file="text.html"/>
+					<record id="15473872342gjm9xsol9" name="Docker и практика работы с ним" author="alensav" url="https://eax.me/docker/" tags="Docker, практика, виртуал" ctime="20190113164714" dir="15473872348pfa7y0deq" file="text.html"/>
+					<record id="1547453295nke69kktfr" name="TAILS" author="alensav" url="https://xakep.ru/2016/11/01/tails-live-flash/" tags="Tails, операционная, система,  Linux" ctime="20190114110815" dir="1547453295nw0nkh0yec" file="text.html"/>
+					<record id="154755657825a7ealhni" name=" сайт с нуля — пошаговая инструкция " author="alensav" url="https://zarabotat-na-sajte.ru/uroki-html/kak-sozdata-sayt-s-nulya-poshagovaya-instrukciya.html" tags=" сайт, с нуля, пошаговая, инструкция , httm" ctime="20190115154938" dir="1547556578jmu6dcefgh" file="text.html"/>
+					<record id="154758232307il4dhwjp" name="как соединить страницы сайта? " author="alensav" url="https://searchengines.guru/showthread.php?t=193971&amp;page=2" tags="соединить, страницы, сайт, httm " ctime="20190115225843" dir="1547582323o97yglo2ic" file="text.html"/>
+					<record id="1547721813fkyu3d2l4c" name="Описание команд HTML " author="alensav" url="" tags="Описание,  команд, HTML " ctime="20190117134333" dir="1547721813asfxcg2kta" file="text.html"/>
+					<record id="154779902571cevu39d4" name="ORACLE" author="alensav" url="" tags="" ctime="20190118111025" dir="1547799025sseqei3kcs" file="text.html"/>
+					<record id="1547799100hwv3p7s3np" name="NETBEANS" author="" url="" tags="netbeans" ctime="20190118111140" dir="1547799100qgn3ujdds6" file="text.html"/>
+					<record id="1547890133camwmygzn9" name="HTTM-Ссылки внутри страницы" author="alensav" url="" tags="Ссылки, внутри, страницы, httm" ctime="20190119122853" dir="154789013319480zk0hy" file="text.html"/>
+					<record id="1547907146f9h71hwrym" name="Сайт_ARHIV-PROEKT.ru" author="alensav" url="ARHIV-PROEKT.ru" tags="site, сайт,favicon" ctime="20190119171226" dir="1547907146zghzgdxvmo" file="text.html"/>
+					<record id="15479837792zykpjy576" name="ID" author="" url="" tags="" ctime="20190120142939" dir="15479837794kun4plwgh" file="text.html"/>
+					<record id="15480763383zi2uxav04" name="Screaming Frog SEO Spider" author="alensav" url="https://pixelplus.ru/samostoyatelno/seo-servisy/screaming-frog-seo-spider.html" tags="сканированме, сайт, конфигурация" ctime="20190121161218" dir="154807633875vnd8uzs5" file="text.html"/>
+					<record id="15481505151scfro2lzs" name="Проверка ответа сервера" author="alensav" url="https://webmaster.yandex.ru/site/http:www.arhiv-proekt.ru:80/tools/server-response/?url=www.arhiv-proekt.ru&amp;user-agent=robot&amp;if-modified-since=" tags="Проверка, ответ, сервера" ctime="20190122124835" dir="1548150515dh3k8srsl5" file="text.html"/>
+					<record id="1548154862gr33def7xz" name="БЛОГ О SEО" author="alensav" url="https://blog.reaspekt.ru/all_about_promotion/%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC-%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D1%8B%D0%B9-robots-txt-%D1%81%D0%B2%D0%BE%D0%B8%D0%BC%D0%B8-%D1%80%D1%83%D0%BA%D0%B0%D0%BC/" tags="seo, продвижение, сайт" ctime="20190122140102" dir="1548154862banyttya8w" file="text.html"/>
+					<record id="15481642618vgtlyeqzy" name="WSP" author="alensav" url="https://i.w.tools/wizard/choose-tariff" tags="сайт, раскрутка" ctime="20190122163741" dir="15481642614vc7e519cf" file="text.html"/>
+					<record id="1548171617wttum3kkbz" name="Мой САЙТ" author="alensav" url="" tags="сайт, arhiv, proekt,ru" ctime="20190122184017" dir="1548171617b8hlp7xxwh" file="text.html"/>
+					<record id="1548327350pqc1x1l0rk" name="РЕКЛАМА_ВК" author="alensav" url="https://vk.com/ads?act=office&amp;union_id=1605056335" tags="вк. реклама, сайт" ctime="20190124135550" dir="1548327350ergbus9gxi" file="text.html"/>
+					<record id="1548959135ft0ahv8gwp" name="Фреймы" author="alensav" url="http://wm-school.ru/html/html_frame.html" tags="Фреймы,  HTML, httm" ctime="20190131212535" dir="1548959135vikx5b1nkd" file="text.html"/>
+					<record id="154901154599fqv59h28" name="Справочник по HTML" author="alensav" url="http://htmlbook.ru/html" tags="Справочник, HTML, httm" ctime="20190201115905" dir="1549011545p167tnbh2d" file="text.html"/>
+					<record id="1549035791tjukqd5ve6" name="Мета тег description " author="alensav" url="https://wiki.rookee.ru/meta-teg-description/" tags="Мета, тег, description " ctime="20190201184311" dir="1549035791cz7ulxqacy" file="text.html"/>
+					<record id="1549036630dooyvqpwdc" name="Всё о мета-теге Description" author="alensav" url="https://seokrem.com/seo/meta-tag-description/" tags="&#xA;мета-тег, Description" ctime="20190201185710" dir="1549036630q9l4mv2bar" file="text.html"/>
+					<record id="1549039653pcb02w1a93" name="&#xA;Продвижение сайта в поисковых система" author="alensav" url="https://texterra.ru/blog/prodvizhenie-sayta-s-nulevym-byudzhetom-65-besplatnykh-sposobov-pokorit-poiskovye-topy.html" tags="&#xA;Продвижение сайта в поисковых система" ctime="20190201194733" dir="15490396532plg0c6xpy" file="text.html"/>
+					<record id="15490404039yzm8y6s2p" name="Как посмотреть мета-теги страниц интернет-сайта в WEB-браузере?" author="alensav" url="https://beseller.by/blog/kak-pravilno-formirovat-seo-tegi-dliya-internet-magazina/" tags=" мета-теги, страниц, интернет-сайта, WE, браузере" ctime="20190201200003" dir="1549040403dv1mahnqox" file="text.html"/>
+					<record id="15490928580fd8wa2uj7" name="Руководство по CSS" author="alensav" url="https://developer.mozilla.org/ru/docs/Web/CSS/Reference" tags="Руководство, CSS, HTTM" ctime="20190202103418" dir="1549092858npactw4gkq" file="text.html"/>
+					<record id="1549095686bnx0zd5oq2" name="Свойства элементов, управляемых с помощью CSS" author="" url="" tags="Свойства, элементов, CSS, httm, html" ctime="20190202112126" dir="15490956863dzgmbr46q" file="text.html"/>
+					<record id="1549133113qtwr499jrl" name="10 лучших бесплатных HTML-редакторов" author="alensav" url="https://techrocks.ru/2017/09/28/10-best-free-html-editors/" tags=" HTM, редакторов" ctime="20190202214513" dir="1549133113sauqvu7tb0" file="text.html"/>
+					<record id="15491331922jn40092vo" name="10 лучших бесплатных HTML-редакторов" author="alensav" url="https://techrocks.ru/2017/09/28/10-best-free-html-editors/" tags="HTML, редактор, HTTM" ctime="20190202214632" dir="15491331922sk1f6e5d4" file="text.html"/>
+					<record id="1549133541y34ihtp2fx" name="HTML-online.com" author="alensav" url="https://techrocks.ru/2017/09/28/10-best-free-html-editors/" tags="HTML, online" ctime="20190202215221" dir="1549133541vk9wqapjtl" file="text.html"/>
+					<record id="1549569192izqxcawevn" name="КНОПКА" author="" url="" tags="" ctime="20190207225312" dir="1549569192efzkgn1dnd" file="text.html"/>
+					<record id="15497252813yjmiofaz7" name="Раскладка в CSS: float" author="alensav" url="http://softwaremaniacs.org/blog/2005/12/01/css-layout-float/" tags="httm, css, float" ctime="20190209181441" dir="1549725281t14b6rc944" file="text.html"/>
+					<record id="15498085539eb40oa9vb" name="Настроить проброску портов" author="alensav" url="" tags="порт, проброска" ctime="20190210172233" dir="1549808553y37sr6ef07" file="text.html"/>
+					<record id="1549814068xcsydy6tku" name="всплывающее окно PopUp." author="altnsav" url="https://habr.com/ru/post/417873/" tags="всплывающее, окно,  PopUp, httm" ctime="20190210185428" dir="1549814068s876m9tj3t" file="text.html"/>
+					<record id="15499568479gc9ev5uw7" name="Кнопка вверх для сайта" author="alensav" url="http://webmastermix.ru/raznoe/300-knopka-vverkh-dlya-saita.html" tags="Кнопка, вверх,  сайт, httm" ctime="20190212103407" dir="1549956847pkmm9kej22" file="text.html"/>
+					<record id="1549957374ygxzlp73qk" name="Задать цвет фона кнопки и цвет текста на ней.&#xA;" author="alensav" url="http://htmlbook.ru/faq/kak-izmenit-tsvet-knopki-v-forme" tags=" цвет, фон, кнопка, цвет, текст" ctime="20190212104254" dir="154995737488zje9fl3r" file="text.html"/>
+					<record id="1549975742p2erttg4qq" name="Полный список HTML-элементов " author="alensav" url="https://html5book.ru/html-tags/" tags=" список, HTML, элементs" ctime="20190212154902" dir="1549975742yrf3hzqdic" file="text.html"/>
+					<record id="15500671222fkv88vmoy" name="СИНХРОНИЗАЦИЯ ПАПОК" author="alensav" url="" tags="СИНХРОНИЗАЦИЯ ПАПОК" ctime="20190213171202" dir="1550067122mfu3344pwn" file="text.html"/>
+					<record id="155014191141h3a0illp" name="BOOKS/Kvint_I._" author="alensav" url="file:///home/alensav/Dropbox/BOOKS/Kvint_I._Html_Xhtml_I_Css_Na_100.html/Kvint_I._Html_Xhtml_I_Css_Na_100.html" tags="BOOKS, Kvint, html, httm" ctime="20190214135831" dir="1550141911zy0l2y6sm5" file="text.html">
+						<files>
+							<file id="15501420961zvh1egn6i" fileName="Kvint_I._Html_Xhtml_I_Css_Na_100.html" type="file"/>
+						</files>
+					</record>
+					<record id="155014461012ptklefk8" name="Размещение Фото" author="" url="" tags="Размещение, Фото, httm" ctime="20190214144330" dir="15501446100xvxg6o22x" file="text.html"/>
+					<record id="1550321167bnug0sv0by" name="Изображение в качестве ссылки" author="alensav" url="http://htmlbook.ru/content/izobrazhenie-v-kachestve-ssylki" tags="Изображение,  ссылка, httm, html" ctime="20190216154607" dir="1550321167piuk6iv2dw" file="text.html"/>
+					<record id="1550418651a0x4bxc9i4" name=" CSS-рамка" author="alensav" url="https://html5book.ru/css-border/" tags="border, css, рамка" ctime="20190217185051" dir="15504186519dvyeacovy" file="text.html"/>
+					<record id="1550419051ddsfex7qwa" name="CSS border или границы элементов" author="alensav" url="http://ab-w.net/CSS/css_border.php" tags="CSS,  border, рамка" ctime="20190217185731" dir="15504190511w9eglb8a9" file="text.html"/>
+					<record id="1550677248xsx3607fvd" name="Как сделать плавную прокрутку для всего сайта с помощью JQuery и CS" author="" url="" tags=" прокрутка,  JQuery,  CSS" ctime="20190220184048" dir="1550677248u5zokzoln3" file="text.html"/>
+					<record id="1550682540md6ilve8ow" name="Тестовый САЙТ_alensav.temp.swtest.ru" author="" url="" tags="alensav.temp.swtest.ru" ctime="20190220200900" dir="1550682540yg29lnebkl" file="text.html"/>
+					<record id="1550772142ottyoo59h2" name="Бесплатный онлайн-семинар Михаила Русакова" author="" url="" tags="Бесплатный онлайн-семинар Михаила Русакова" ctime="20190221210222" dir="1550772142g62w5n7n96" file="text.html"/>
+					<record id="1550834027097kcrrxep" name="Переадресация порта" author="alensav" url="" tags="Переадресация, порта" ctime="20190222141347" dir="1550834027ai804l1psk" file="text.html"/>
+					<record id="1550855384wj0b7v8fv1" name="Мобильная оптимизация сайта" author="alensav" url="https://optimizator.su/optimization/mob/" tags="Мобильная оптимизация сайта" ctime="20190222200944" dir="1550855384wks1jxyudg" file="text.html"/>
+					<record id="1550856569dqyyl5vs19" name="FTP RU CENTER" author="" url="" tags="" ctime="20190222202929" dir="15508565697d78ou3waf" file="text.html"/>
+					<record id="1550950438uih076a1xf" name="преобразования документов PDF в нормальные HTM" author="alensav" url="https://xakep.ru/2013/05/13/60594/" tags="преобразования, документов, PDF, HTM" ctime="20190223223358" dir="1550950438v7hb5dj4nz" file="text.html"/>
+					<record id="15509922613vbfy6qdy8" name="NETBEANS" author="" url="" tags="" ctime="20190224101101" dir="15509922617jq30a30ti" file="text.html"/>
+					<record id="15510231207hvumhxyc1" name="Тег &lt;iframe&gt;" author="alensav" url="http://htmlbook.ru/html/iframe" tags="iframe" ctime="20190224184520" dir="1551023120n0w4jizi5f" file="text.html"/>
+					<record id="1551209961t4lnf926rb" name="Прокрутка на IPAD" author="alensav" url="http://qaru.site/questions/81323/iframes-and-the-safari-on-the-ipad-how-can-the-user-scroll-the-content" tags="iframe, scroliing, прокрутка" ctime="20190226223921" dir="1551209961vgxog1hwzd" file="text.html"/>
+					<record id="1551293358dmbk3pkhll" name="ПРОКРУТКА_DIV" author="alensav" url="" tags="ПРОКРУТКА, DIV" ctime="20190227214918" dir="1551293358ujyv92bvf4" file="text.html"/>
+					<record id="15513647621g5jnelh8s" name="Nmap — популярный сканер сетей" author="alensav" url="https://losst.ru/kak-proskanirovat-set-v-nmap" tags="Nmap, сканер, сети" ctime="20190228173922" dir="1551364762jmgw650hry" file="text.html"/>
+					<record id="1551608492eo8t4n8gom" name=" Полупрозрачный фон" author="alensav" url="http://htmlbook.ru/css3-na-primerakh/poluprozrachnyi-fon" tags=" Полу, прозрачный, фон" ctime="20190303132132" dir="1551608492hkveufart1" file="text.html"/>
+					<record id="1551812386pzyrtapu5x" name="Редактирование script.bin файла orangepi" author="alensav" url="https://piboard.io/topic/5/%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-script-bin-%D1%84%D0%B0%D0%B9%D0%BB%D0%B0/20" tags="orangepi" ctime="20190305215946" dir="1551812386rkivvem66p" file="text.html"/>
+					<record id="1552668921jp1o70bgrn" name="Настройка сети в Ubuntu Server" author="alensav" url="https://itdeer.ru/nastrojka-seti-v-ubuntu-server-16-04-4/" tags="Настройка, сетm, Ubuntu, Server" ctime="20190315195521" dir="1552668921ybvib9rmq2" file="text.html"/>
+					<record id="1552815708qvgb0wcod9" name="CodySafe" author="alensav" url="" tags="CodySafe" ctime="20190317124148" dir="1552815708lirt5doh9s" file="text.html"/>
+					<record id="15536194511vsuk8yf5g" name="Создание таблицы в HTML" author="alensav" url="https://www.internet-technologies.ru/articles/sozdanie-tablicy-v-html.html" tags="таблицы, HTML" ctime="20190326195731" dir="1553619451wxz6al9iab" file="text.html"/>
+				</recordtable>
+				<node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
+					<recordtable>
+						<record id="1546165876fy9pd9h1ce" name="FESTIVAL" author="alensav" url="https://wiki.archlinux.org/index.php/Festival_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="звук, zvuk" ctime="20181230133116" dir="1546165876v61prg8d47" file="text.html"/>
+						<record id="1546255653q8x7ji3s6t" name="Asterisk + Festival" author="alensav" url="https://asterisk-pbx.ru/wiki/artikle/festival" tags="zvuk, звук" ctime="20181231142733" dir="1546255653hqxhhyk109" file="text.html"/>
+						<record id="1547044039a6q7fuzbnr" name="MPG_Consol" author="alensav" url="http://osmaster.org.ua/kak-proigryvat-mp3-fajly-s-komandnoj-stroki-linux/" tags="zvuk, звук, play, vlc, mp3" ctime="20190109172719" dir="1547044039sspehi1hid" file="text.html"/>
+						<record id="15472776358dcr6rnp13" name="MUSIK" author="alensav" url="https://help.ubuntu.ru/fullcircle/26/%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B2" tags="musik, музыка, консоль,mpg" ctime="20190112102035" dir="15472776358r64c3rtfd" file="text.html"/>
+						<record id="1547286304kxykhjm8gh" name="Аудио конвертер в mp3" author="alensav" url="http://audiogeek.ru/soundconverter-linux/" tags="аудио, конвертер, mp3, звук" ctime="20190112124504" dir="1547286304j7zwvvkd0y" file="text.html"/>
+						<record id="15472872998l4q9oq224" name="Как записать звук в Linux?" author="alensav" url="https://prostolinux.ru/kak-zapisat-zvuk-v-linux/" tags="записать, звук, mp3" ctime="20190112130139" dir="15472872992kuzkg70ep" file="text.html"/>
+						<record id="1547289316gjqvf0a8i6" name="Звук из консоли" author="alensav" url="" tags="звук, запись, консоль" ctime="20190112133516" dir="1547289316ku0hu34mww" file="text.html"/>
+						<record id="1547305080vhqkl14l73" name="создать плейлист" author="alensav" url="https://askubuntu.com/questions/686702/how-to-make-a-playlist-from-a-directory-of-mp3-files" tags="mp3, playlist, плейлист" ctime="20190112175800" dir="1547305080hnynydopmm" file="text.html"/>
+					</recordtable>
+					<node crypt="" id="15461965002nt4p4puf3" name="SCRIPTI">
+						<recordtable>
+							<record id="1546199206md6cce4a8k" name="БАНК_СКРИПТОВ" author="alensav" url="" tags="script" ctime="20181230224646" dir="1546199206itnsxcc36s" file="text.html"/>
+							<record id="154643634052h22o16oq" name="Пишем скрипты в Linux (обучение на примерах)" author="alensav" url="https://proggear.ru/%D0%BF%D0%B8%D1%88%D0%B5%D0%BC-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D1%8B-%D0%B2-linux-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B0%D1%85-711/" tags="scripts" ctime="20190102163900" dir="1546436340jjo2e6ojmi" file="text.html"/>
+						</recordtable>
+					</node>
+					<node crypt="" id="1546337131abl8ijmk6t" name="Alarm_festival">
+						<recordtable>
+							<record id="15463372564zqw13c0ai" name="Alarm" author="alensav" url="" tags="alarm" ctime="20190101130736" dir="1546337256c09do7wbrj" file="text.html"/>
+						</recordtable>
+					</node>
+				</node>
+				<node crypt="" id="15534364948ikfabv0h9" name="SUBLIME_TEXT3">
+					<recordtable>
+						<record id="1553440089n111t6dyek" name="Настройка Sublime Text 3 для веб-разработки: LiveReload, плагины, фишки" author="lensav" url="https://webdesign-master.ru/blog/tools/525.html" tags="httm, sublime, text,3" ctime="20190324180809" dir="1553440089y83vgozslf" file="text.html"/>
+						<record id="1553452783if4hf1rgoe" name="Быстрая настройка Sublime Text 3 для вёрстки сайтов" author="alensav" url="https://webdesign-master.ru/blog/tools/2017-03-13-sublime-text-3-setup.html" tags="html, sublime text" ctime="20190324213943" dir="1553452783hmbndj8l6j" file="text.html"/>
+						<record id="1553526658qeyuwmth6f" name=" ГлавнаяИнструкцииНастраиваем Sublime Text 3" author="alensav" url="https://losst.ru/nastraivaem-sublime-text-3" tags="html, httm, splin text" ctime="20190325181058" dir="1553526658zf2ex3eju9" file="text.html"/>
+						<record id="15535270281osq65gyti" name="WEB-Верстка" author="alensav" url="http://tumbleron.ru/topics/nastrojka-sublime-text-3/" tags="html, httm, sublime text" ctime="20190325181708" dir="1553527028mhs5xwznmz" file="text.html"/>
+						<record id="1553532546t7blit2z5f" name="Настройка Sublime Text 3, SW4 и STM32CubeMX для разработки STM32 под Linux Из песочницы" author="alensav" url="https://sohabr.net/habr/post/343456/" tags="html, httm, sublime text" ctime="20190325194906" dir="1553532546ex9uggz39w" file="text.html"/>
+						<record id="1553533195m7225fv6xy" name="ГЛАВНАЯ СТАТЬИ САЙТА ПОДБОР ЦВЕТА" author="alensav" url="https://sdelatlending.ru/nastraivaem-sublime-text-3.html" tags="html, httm, sublime text" ctime="20190325195955" dir="15535331958xvtlbllxf" file="text.html"/>
+						<record id="1553535022ysihusmq9t" name="Основные сокращения emmet в html" author="alensav" url="https://sdelatlending.ru/bystraya-verstka-v-sublime-text-s-plaginom-emmet.html" tags="html, httm, sublime text" ctime="20190325203022" dir="1553535022q95bq89cda" file="text.html"/>
+						<record id="1553535202vlaea0q631" name="Основные сокращения emmet в css" author="alensav" url="https://sdelatlending.ru/bystraya-verstka-v-sublime-text-s-plaginom-emmet.html" tags="html, httm, sublime text" ctime="20190325203322" dir="1553535202g8k5lqvw1n" file="text.html"/>
+						<record id="155353958612rfzrdseu" name="Генератор таблицы html онлайн" author="lensav" url="https://sdelatlending.ru/generator-tablicy-html" tags="Генератор, таблицы,  html,  онлайн" ctime="20190325214626" dir="1553539586s9g4jbb65x" file="text.html"/>
+						<record id="155354126072o1s0nfzk" name="Генератор кнопки css" author="alensav" url="https://sdelatlending.ru/generator-knopki-css-onlajn" tags="Генератор,  кнопки,  css, html, httm, sublime text" ctime="20190325221420" dir="1553541260ganpv5qigk" file="text.html"/>
+						<record id="1553585918mma626u3nd" name="команды" author="alensav" url="" tags="команды" ctime="20190326103838" dir="1553585918t2pv2h7gdd" file="text.html"/>
+					</recordtable>
+				</node>
+				<node crypt="" id="1554205121wav5akuahq" name="HOST">
+					<recordtable>
+						<record id="15542051791gm0rv5oxg" name="BEGET" author="alensav" url="https://beget.com/ru/free-hosting" tags="BEGET" ctime="20190402143939" dir="1554205179mwkrmk1w2s" file="text.html"/>
+					</recordtable>
+				</node>
+				<node crypt="" id="1554220857tgsahcyd7h" name="HTTM">
+					<recordtable>
+						<record id="1554220895gnhp1u81vs" name="Тег &lt;table&gt;" author="alensav" url="http://htmlbook.ru/html/table" tags="Тег &lt;table&gt;" ctime="20190402190135" dir="1554220895glmdd1qkim" file="text.html"/>
+						<record id="1554298033ic9qbexfbg" name="Создаем таблицу на html-странице" author="alensav" url="http://webcodius.ru/html_i_css/kak-vstavit-tablicu-v-html.html" tags="Создаем таблицу на html-странице" ctime="20190403162713" dir="15542980335jlsb8kqn0" file="text.html"/>
+						<record id="1554391092pt2ms8tcdl" name="таблицы для отображения содержимого ве" author="alensa" url="https://helpx.adobe.com/ru/dreamweaver/using/presenting-content-tables.html" tags="таблицы,  отображения, содержимого" ctime="20190404181812" dir="155439109227a3atbree" file="text.html"/>
+						<record id="1555049247npma7yrrt0" name="DIV_in_TAB" author="alensav" url="" tags="DIV_in_TAB" ctime="20190412090727" dir="155504924780b5dtfxii" file="text.html"/>
+						<record id="1555257301m47en6pkqa" name="Цветовая схема онлайн" author="alensav" url="" tags="вет" ctime="20190414185501" dir="1555257301snqc5h0qfp" file="text.html"/></recordtable>
+				</node>
+			</node>
+			<node crypt="" id="15451483932alkp4upu2" name="РЕЦЕПТЫ">
+				<recordtable>
+					<record id="1545148485tbnadyjzg6" name="Рецепты_2018-2019" author="alensav" url="" tags="" ctime="20181218185445" dir="1545148485jxkkhpobuy" file="text.html"/>
+				</recordtable>
+			</node>
+			<node crypt="" id="1545764529mkdpkw089z" name="GIT_ИНСТР">
+				<recordtable>
+					<record id="1545764685vi9q32taod" name="СЛИЯНИЕ РИПОЗИТОРИЕВ" author="alensav" url="https://ru.stackoverflow.com/questions/427790/%D0%A1%D0%BB%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B0-%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D1%85-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F-git" tags="ветви, слияние" ctime="20181225220445" dir="1545764685tps5p0f42k" file="text.html"/>
+				</recordtable>
+			</node>
+			<node crypt="" id="1545823315faxpgcma2o" name="CRON_COMMAND">
+				<recordtable>
+					<record id="1545823453keaxuszt9e" name="COMMAND" author="alensav" url="" tags="command" ctime="20181226142413" dir="15458234534o91tptwgw" file="text.html"/>
+					<record id="15466231031wd2v304s7" name="CRON_ОБРАЗЦЫ" author="alensav" url="https://help.ubuntu.ru/wiki/cron" tags="cron, образцы" ctime="20190402141016" dir="15466231031um8n8mfk5" file="text.html"/>
+				</recordtable>
+			</node>
+			<node crypt="" id="1546071604wwbokhp78i" name="RSYNC_COMMAND">
+				<recordtable>
+					<record id="15460718493nn830i6ih" name="RSYNC_COMMAND" author="alensav" url="" tags="sync, архивирование, ubuntu" ctime="20181229112409" dir="1546071849jbzvfzs5m0" file="text.html"/>
+					<record id="15492098607m6g7sfay7" name="Каталог САЙТА" author="alensav" url="" tags="сайт, rsync? win" ctime="20190203190420" dir="1549209860a2dabnwf16" file="text.html"/>
+					<record id="1549214315doaynxdvri" name="СВОДКА ПАРАМЕТРОВ RSYNC " author="alensav" url="http://www.opennet.ru/man.shtml?category=1&amp;russian=0&amp;topic=rsync" tags="СВОДКА ПАРАМЕТРОВ RSYNC" ctime="20190203201835" dir="1549214315tuq639dnr6" file="text.html"/>
+					<record id="15456507198mu4yiizoh" name="RSYNC_Настройка2" author="alensav" url="https://go.backupland.com/faq/install_rsync/install_rsync.html" tags="sync, настройка, синхронизация" ctime="20190402140741" dir="1545650719hxy8bk3joh" file="text.html"/>
+				</recordtable>
+			</node>
+			<node crypt="" id="1546350738abjfg5ofdo" name="FSTAB_SAV">
+				<recordtable>
+					<record id="1546350787larmrscc8i" name="FSTAB_SAV" author="alensav" url="" tags="fstab" ctime="20190101165307" dir="1546350787fxfysbkhqx" file="text.html"/>
+				</recordtable>
+			</node>
+			<node crypt="" id="1546352094c1v07zjloo" name="SAVSCRIPTS">
+				<recordtable>
+					<record id="1546352151i9d10xmvkd" name="SAV_SCRIPTS" author="alensav" url="" tags="автозапуск" ctime="20190101171551" dir="15463521514eczujeel3" file="text.html"/>
+					<record id="15464043667a6716tdvs" name="Полезные_SCRIPTS" author="alensav" url="https://losst.ru/bash-skripty-linux" tags="scripts" ctime="20190102074606" dir="1546404366szo3dt3nfu" file="text.html"/>
+					<record id="1546406372hqcsf37jon" name="Полезные_scripts2" author="alensav" url="http://rosinka.rosix.ru/index.php?topic=1073.0" tags="scripts" ctime="20190102081932" dir="1546406372lg162sshde" file="text.html"/>
+					<record id="1546422026mjdaqiq8xc" name="ПОЛЕЗНЫЕ_scripts3" author="alensav" url="https://unixforum.org/viewtopic.php?t=68069" tags="scripts" ctime="20190102124026" dir="1546422026oznhb0tlud" file="text.html"/>
+					<record id="1547039058g1lf6fb5w1" name="Полезные_Скрипты_4" author="alensav" url="https://tuxrider.ru/programmy/interesnye-bash-skripty-linux/" tags="scripts, скрипт" ctime="20190109160418" dir="15470390584fxyfd5m8d" file="text.html"/>
+					<record id="1547041220mar3rdohwa" name="Полезные_скрипты 5" author="alensav" url="https://unixforum.org/viewtopic.php?t=68069" tags="scripts, скрипт" ctime="20190109164020" dir="1547041220x2wfg552jq" file="text.html"/>
+				</recordtable>
+			</node>
+			<node crypt="" id="15535901428i8jinprzz" name="БЫТ">
+				<recordtable>
+					<record id="15535905973wj72lxgch" name="ЭЛЕКТРОЭНЕРГИЯ" author="Анатолий" url="" tags="эл" ctime="20190326115637" dir="15535905972t1yd6ig1f" file="text.html"/>
+					<record id="1554100452wyuc4wpgwi" name="ВОДА" author="alensav" url="" tags="ВОДА" ctime="20190401093412" dir="1554100452ujz77sdqny" file="text.html"/>
+					<record id="15541013155347n3gfvw" name="ГАЗ" author="alensav" url="" tags="ГАЗ" ctime="20190401094835" dir="1554101315b72lxfamis" file="text.html"/>
+				</recordtable>
+				<node crypt="" id="155376513550q7ojpyrq" name="Поликарбонат">
+					<recordtable>
+						<record id="1553765391wxmsq3w2av" name="Как работать с поликарбонатом" author="alensav" url="https://otente.ru/polikarbonat/rabota-svoimi-rukami.html" tags="  поликарбонатом, быт" ctime="20190328122951" dir="1553765391cbqdg9iwvr" file="text.html"/>
+						<record id="1553767668fkr7zfleov" name="Как работать с поликарбонатом: общие рекомендации" author="alensav" url="http://propolikarbonat.ru/rabota-s-polikarbonatom" tags="Как работать с поликарбонатом: общие рекомендации" ctime="20190328130748" dir="1553767668pg7r8xukf4" file="text.html"/>
+						<record id="155376800991itx2esqf" name="Работа с поликарбонатом своими руками" author="alensav" url="https://kryshadoma.com/polikarbonat/rabota-s-polikarbonatom-svoimi-rukami.html" tags="Работа с поликарбонатом своими руками" ctime="20190328131329" dir="155376800907fw0mqwi8" file="text.html"/>
+						<record id="1553770508nw1f42w92m" name="Оптимальная толщина поликарбоната для навеса" author="alensav" url="https://srbu.ru/stroitelnye-materialy/252-kakoj-polikarbonat-luchshe-dlya-navesa.html" tags="Оптимальная толщина поликарбоната для навеса" ctime="20190328135508" dir="1553770508nj2ku418ol" file="text.html"/>
+						<record id="1553773162qpvlerl5tm" name="Монтаж поликарбоната на металлический каркас" author="alensav" url="https://teplica-exp.ru/montazh-polikarbonata-na-metallichesk/" tags="Монтаж поликарбоната на металлический каркас" ctime="20190328143922" dir="1553773162rct8rxbomd" file="text.html"/>
+					</recordtable>
+				</node>
+			</node>
+			<node crypt="" id="15549770206cvjvp9yrf" name="ROBOKASSA">
+				<recordtable>
+					<record id="1554977060vkv01lj9y0" name="LOGIN" author="alensav" url="" tags="robokassa" ctime="20190411130420" dir="1554977060urw5a7u0l1" file="text.html"/>
+					<record id="15550933562u0e0hq27m" name="Настройки ROBOKASSA" author="alensav" url="https://docs.robokassa.ru/#2387" tags="robokassa" ctime="20190412212236" dir="1555093356yw5vpg8ogf" file="text.html"/>
+				</recordtable>
+			</node>
+			<node crypt="" id="155509251794tdnj9nn1" name="Qiwi">
+				<recordtable>
+					<record id="15550925865odzzyivw0" name="QIWI" author="alensav" url="" tags="qiwi" ctime="20190412210946" dir="155509258612uufht44h" file="text.html"/>
+				</recordtable>
+			</node>
+			<node crypt="" id="1555168639xhvx6pnlbz" name="ПЛАН">
+				<recordtable>
+					<record id="1555168868cnsfvoui3m" name="ПЛАН-САЙТ" author="alensav" url="" tags="план, сайт" ctime="20190413182108" dir="15551688683caepw3chv" file="text.html"/>
+				</recordtable>
+			</node>
+		</node>
+		<node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
+			<recordtable>
+				<record id="15457300561cbn5g2p45" name="Учет ламп" author="alennsav" url="" tags="лампы, светодиодные" ctime="20181225122736" dir="1545730056s9nbfgqwdo" file="text.html"/>
+			</recordtable>
+		</node>
+		<node crypt="" id="1546065447cs5d3gvx7y" name="УДАЛЕННЫЙ_СЕРВИС">
+			<recordtable>
+				<record id="15460655155bxd20y0gt" name="УДАЛЕННЫЙ_КОМПЬЮТ_СЕРВИС" author="alensav" url="" tags="" ctime="20181229093835" dir="15460655158xn9qglms9" file="text.html"/>
+			</recordtable>
+		</node>
+	</content></root>
