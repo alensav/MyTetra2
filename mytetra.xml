@@ -311,11 +311,6 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="15451483932alkp4upu2" name="РЕЦЕПТЫ">
-    <recordtable>
-     <record id="1545148485tbnadyjzg6" name="Рецепты_2018-2019" author="alensav" url="" tags="" ctime="20181218185445" dir="1545148485jxkkhpobuy" file="text.html"/>
-    </recordtable>
-   </node>
    <node crypt="" id="1545764529mkdpkw089z" name="GIT_ИНСТР">
     <recordtable>
      <record id="1545764685vi9q32taod" name="СЛИЯНИЕ РИПОЗИТОРИЕВ" author="alensav" url="https://ru.stackoverflow.com/questions/427790/%D0%A1%D0%BB%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B0-%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D1%85-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F-git" tags="ветви, слияние" ctime="20181225220445" dir="1545764685tps5p0f42k" file="text.html"/>
@@ -363,6 +358,11 @@
       <record id="155376800991itx2esqf" name="Работа с поликарбонатом своими руками" author="alensav" url="https://kryshadoma.com/polikarbonat/rabota-s-polikarbonatom-svoimi-rukami.html" tags="Работа с поликарбонатом своими руками" ctime="20190328131329" dir="155376800907fw0mqwi8" file="text.html"/>
       <record id="1553770508nw1f42w92m" name="Оптимальная толщина поликарбоната для навеса" author="alensav" url="https://srbu.ru/stroitelnye-materialy/252-kakoj-polikarbonat-luchshe-dlya-navesa.html" tags="Оптимальная толщина поликарбоната для навеса" ctime="20190328135508" dir="1553770508nj2ku418ol" file="text.html"/>
       <record id="1553773162qpvlerl5tm" name="Монтаж поликарбоната на металлический каркас" author="alensav" url="https://teplica-exp.ru/montazh-polikarbonata-na-metallichesk/" tags="Монтаж поликарбоната на металлический каркас" ctime="20190328143922" dir="1553773162rct8rxbomd" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="15553416810rlppomr3c" name="РЕЦЕПТЫ">
+     <recordtable>
+      <record id="1545148485tbnadyjzg6" name="Рецепты_2018-2019" author="alensav" url="" tags="" ctime="20190415182121" dir="1545148485jxkkhpobuy" file="text.html"/>
      </recordtable>
     </node>
    </node>
