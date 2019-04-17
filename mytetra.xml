@@ -181,6 +181,11 @@
       </record>
      </recordtable>
     </node>
+    <node crypt="" id="1555481816bnedkkkshg" name="Права доступа">
+     <recordtable>
+      <record id="1555481992f8fnx29804" name=" права доступа Linu" author="alensav" url="https://www.hostinger.ru/rukovodstva/kak-izmenit-prava-dostupa-v-linux" tags=" права,  доступа, Linux" ctime="20190417091952" dir="1555481992ymjrmjsego" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1544111400vnc868hc3v" name="GRUB">
     <recordtable>
