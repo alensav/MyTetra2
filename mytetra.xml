@@ -380,7 +380,7 @@
     <recordtable>
      <record id="1554977060vkv01lj9y0" name="LOGIN" author="alensav" url="" tags="robokassa" ctime="20190411130420" dir="1554977060urw5a7u0l1" file="text.html"/>
      <record id="15550933562u0e0hq27m" name="Настройки ROBOKASSA" author="alensav" url="https://docs.robokassa.ru/#2387" tags="robokassa" ctime="20190412212236" dir="1555093356yw5vpg8ogf" file="text.html"/>
-     <record id="1556012097fl9ah7btb6" name="НАСИТОЙКИ ROBOKASSA" author="alensav" url="" tags="robopkassa" ctime="20190423123457" dir="1556012097gx2nisel4t" file="text.html"/>
+     <record id="1556012097fl9ah7btb6" name="НАСТРОЙКИ_ ROBOKASSA" author="alensav" url="" tags="robopkassa" ctime="20190423123457" dir="1556012097gx2nisel4t" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="155509251794tdnj9nn1" name="Qiwi">
