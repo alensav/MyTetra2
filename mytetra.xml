@@ -340,6 +340,11 @@
       <record id="15613701868d6wf43l39" name="Yandex_LAN" author="alensav" url="" tags="lan, сеть" ctime="20190624125626" dir="1561370186u9b9vw46lr" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1563894921qzfju1191i" name="Yandex-telefonia">
+     <recordtable>
+      <record id="156389499815gn8xko4k" name="Yandex-Telefonia" author="alensav" url="" tags="яндекс, телефония" ctime="20190723181638" dir="1563894998e2t914b3ds" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1545764529mkdpkw089z" name="GIT_ИНСТР">
     <recordtable>
