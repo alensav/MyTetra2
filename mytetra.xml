@@ -400,6 +400,11 @@
       <record id="1545148485tbnadyjzg6" name="Рецепты_2018-2019" author="alensav" url="" tags="" ctime="20190415182121" dir="1545148485jxkkhpobuy" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1564568478zz04x0co9x" name="ТЕЛЕФОН">
+     <recordtable>
+      <record id="1564568572l3w13q7z3m" name="TELEFON" author="alensav" url="" tags="telefon, internet" ctime="20190731132252" dir="1564568572eriubwvo04" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="15549770206cvjvp9yrf" name="ROBOKASSA">
     <recordtable>
