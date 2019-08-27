@@ -181,6 +181,7 @@
      <node crypt="" id="1566920156aojppfzc34" name="Приложения">
       <recordtable>
        <record id="1566920231f62owak9zi" name="Audacity" author="alensav" url="https://techrocks.ru/2018/05/27/best-linux-apps/" tags="fudacity, muz, музыка" ctime="20190827183711" dir="1566920231520uig6lkt" file="text.html"/>
+       <record id="15669214935jjq0tbptr" name="Teamview" author="alensav" url="" tags="teamview" ctime="20190827185813" dir="1566921493lju95rzsfg" file="text.html"/>
       </recordtable>
      </node>
     </node>
