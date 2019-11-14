@@ -425,11 +425,11 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="15549770206cvjvp9yrf" name="ROBOKASSA">
+   <node crypt="1" icon="" id="15549770206cvjvp9yrf" name="UkM1U0lNUAPO6w+ZHdc0+yrcbNLHY+pJT8xaCj+78E4SKY6QAaJVvjljqB0BbgVt/mb6V7nOE5s=">
     <recordtable>
-     <record id="1554977060vkv01lj9y0" name="LOGIN" author="alensav" url="" tags="robokassa" ctime="20190411130420" dir="1554977060urw5a7u0l1" file="text.html"/>
-     <record id="15550933562u0e0hq27m" name="Настройки ROBOKASSA" author="alensav" url="https://docs.robokassa.ru/#2387" tags="robokassa" ctime="20190412212236" dir="1555093356yw5vpg8ogf" file="text.html"/>
-     <record id="1556012097fl9ah7btb6" name="НАСТРОЙКИ_ ROBOKASSA" author="alensav" url="" tags="robopkassa" ctime="20190423123457" dir="1556012097gx2nisel4t" file="text.html"/>
+     <record id="1554977060vkv01lj9y0" name="UkM1U0lNUAPzfW7dHij8uVUJPousYbEAVE3sXvqohRHmx4oLknosAyxNa96/UknO" author="UkM1U0lNUAPM0kJXxb/FowhrJRptj73ZDPY5hZU0PUsJsgDVdwOu0TXRQEJYbjt5" url="" tags="UkM1U0lNUANELZNXXNsjLsn4UPyDufx8SBb+n8G//r4Xolz8r7FSC61+itCe02GLwIiK2u6E9Uw=" ctime="20190411130420" dir="1554977060urw5a7u0l1" file="text.html" crypt="1"/>
+     <record id="15550933562u0e0hq27m" name="UkM1U0lNUAP3TUEncx2zddR4rNRDh0eoUschsHw9Fx5WZo3pNj1tW/bweWqzUCRrTMbc91bSh0Yb/Ip1Py8T9AEj5D3J7MtY" author="UkM1U0lNUAORVnyIpL2vF0VpScmG/p+yglpG8B9ZxePtHgokfcv3PDtzWFOjfl36" url="UkM1U0lNUAPOo/ZqPrb7lUx2HmYRh3HdLsOaD4JoKMNT0uKKm4kqD3md3Dk2Tfa7C0dGgo45eT77TuWRiYpt8GB8oZ0OII4/" tags="UkM1U0lNUAOlWcnqNnu52ZV65cUTC9SfMZBDYJxLWdL+oKAnMg7bNgc8OwWEr/4UJzCZ2xni5L0=" ctime="20190412212236" dir="1555093356yw5vpg8ogf" file="text.html" crypt="1"/>
+     <record id="1556012097fl9ah7btb6" name="UkM1U0lNUAONtNnxbWJAXFNo/C4kpTBCOcO3LjHnkmLp6qLCkm/F2+B9bxlnuZQ6mYnbJ+aqAoFhDYXKozR3pqek1vvF8t0Z" author="UkM1U0lNUAODPI6cyUJ1uyzQyyybd2vdJv4bHQeV2SRC3QriLLsa4IX4dRl5SUHc" url="" tags="UkM1U0lNUAN2fc0C6waFJ3tX8brlfuUyGqFf5WF/Bm6aRpOMrgU1QnE2zIpGJxDroBDVLOzBfrs=" ctime="20190423123457" dir="1556012097gx2nisel4t" file="text.html" crypt="1"/>
     </recordtable>
    </node>
    <node crypt="" id="155509251794tdnj9nn1" name="Qiwi">
