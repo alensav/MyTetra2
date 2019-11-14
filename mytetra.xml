@@ -397,10 +397,8 @@
      <record id="1554100452wyuc4wpgwi" name="ВОДА" author="alensav" url="" tags="ВОДА" ctime="20190401093412" dir="1554100452ujz77sdqny" file="text.html"/>
      <record id="15541013155347n3gfvw" name="ГАЗ" author="alensav" url="" tags="ГАЗ" ctime="20190401094835" dir="1554101315b72lxfamis" file="text.html"/>
      <record id="1566415580xqzc69zs73" name="ПОЛЕЗНЫЕ ЖИДКОСТИ" author="alensav" url="" tags="" ctime="20190821222620" dir="15664155806rbj3szyl0" file="text.html"/>
-     <record id="15677606654nupp13mgv" name="ПЛАН ПОКУПОК" author="alensav" url="" tags="ПЛАН, ПОКУПКИ" ctime="20190906120425" dir="1567760665b9lfophj4l" file="text.html"
+     <record id="15677606654nupp13mgv" name="ПЛАН ПОКУПОК" author="alensav" url="" tags="ПЛАН, ПОКУПКИ" ctime="20190906120425" dir="1567760665b9lfophj4l" file="text.html"/>
      <record id="1568120085fk49omcmmc" name="Анализ_ТОВАРОВ" author="alensav" url="" tags="товары, телефоны" ctime="20190910155445" dir="1568120085981eo8tvpk" file="text.html"/>
-     <record id="1568199366gelrxh8gul" name="КНИГА" author="alensav" url="" tags="книга" ctime="20190911135606" dir="1568199366fv9pgczd8n" file="text.html"/>
->>>>>>> ecdbc16c40bb05f691ba4ed6e1253e7d2ef5c6a3
     </recordtable>
     <node crypt="" id="155376513550q7ojpyrq" name="Поликарбонат">
      <recordtable>
@@ -458,6 +456,11 @@
    <node crypt="" id="1561911017nbcawtbbtf" name="AUTOCAD">
     <recordtable>
      <record id="1561911145ypifcxmbad" name="AUTOCAD урок" author="alensav" url="" tags="AUTOCAD урок" ctime="20190630191225" dir="156191114571hzbtt242" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="15737163080vsdopdqua" name="DATA">
+    <recordtable>
+     <record id="15737164838bj48en460" name="data_time" author="alensav" url="" tags="data,time,дата, время" ctime="20191114102803" dir="15737164835bbx5g3y6x" file="text.html"/>
     </recordtable>
    </node>
   </node>
