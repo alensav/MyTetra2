@@ -183,7 +183,7 @@
     </node>
     <node crypt="1" icon="" id="1554203120vny48libog" name="UkM1U0lNUAPa/gM4f41ghVQJpedYjQL7xYHFrHFlKgH8OJhBE6nr7gRSnyCT8JJ5">
      <recordtable>
-      <record id="1543739752llscxwqfwp" name="UkM1U0lNUAOIlP8neXFH1kv3Z7RdzHVkAMTTyIFUsqO5t049pF9UL//5WW/y6F3Q" author="UkM1U0lNUAPC4fUCaYkBkXlPkVsk3/oEspchlrakvJah/lo+nZkXCarmt6jDeIRJ" url="" tags="" ctime="20190402140551" dir="1543739752xn467tdg96" file="text.html" crypt="1"/>
+      <record id="1543739752llscxwqfwp" name="UkM1U0lNUAMDgF0Z4XUTUr6NosKNAuonKcxYUIfbjDxwDQ0G83MUHV4wcmrK+z38yXBmXQjr+yzxRvdU5+pe1A==" author="UkM1U0lNUAP6cY36sn8rDgOnIdJUyU+ahNhGBvCNe3zZZVl+qdNrZd4zq/BqUe8F" url="" tags="" ctime="20190402140551" dir="1543739752xn467tdg96" file="text.html" crypt="1"/>
       <record id="1543742325vnds07cd1i" name="UkM1U0lNUANpuzena+N/9iwcuiGzUrbkpBqiJUqp0T9rzjL1cwem525Ogx9HZcxrXDxEL7obn5NRMteZpJYftJVM/L975D18" author="" url="" tags="" ctime="20190402140606" dir="1543742325si41cnd6b2" file="text.html" crypt="1">
        <files>
         <file id="1545732834djxvjjexdx" fileName="UkM1U0lNUAMbOgaW4hZEBiEiue0ue5Er66hiXq1y1U+jC+x1ZSvIzQx/vlARo7kIeLGyQrz8fxiKuW/g/5E/RQ==" type="file" crypt="1"/>
@@ -194,7 +194,7 @@
     </node>
     <node crypt="" id="1555481816bnedkkkshg" name="Права доступа">
      <recordtable>
-      <record id="1555481992f8fnx29804" name=" права доступа Linu" author="alensav" url="https://www.hostinger.ru/rukovodstva/kak-izmenit-prava-dostupa-v-linux" tags=" права,  доступа, Linux" ctime="20190417091952" dir="1555481992ymjrmjsego" file="text.html"/>
+      <record id="1555481992f8fnx29804" name=" права доступа Linux" author="alensav" url="https://www.hostinger.ru/rukovodstva/kak-izmenit-prava-dostupa-v-linux" tags=" права,  доступа, Linux" ctime="20190417091952" dir="1555481992ymjrmjsego" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="15626688115s49gwgriw" name="SLAX">
