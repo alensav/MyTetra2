@@ -392,9 +392,6 @@
    </node>
    <node crypt="" id="15535901428i8jinprzz" name="БЫТ">
     <recordtable>
-     <record id="15535905973wj72lxgch" name="ЭЛЕКТРОЭНЕРГИЯ" author="Анатолий" url="" tags="эл" ctime="20190326115637" dir="15535905972t1yd6ig1f" file="text.html"/>
-     <record id="1554100452wyuc4wpgwi" name="ВОДА" author="alensav" url="" tags="ВОДА" ctime="20190401093412" dir="1554100452ujz77sdqny" file="text.html"/>
-     <record id="15541013155347n3gfvw" name="ГАЗ" author="alensav" url="" tags="ГАЗ" ctime="20190401094835" dir="1554101315b72lxfamis" file="text.html"/>
      <record id="1566415580xqzc69zs73" name="ПОЛЕЗНЫЕ ЖИДКОСТИ" author="alensav" url="" tags="" ctime="20190821222620" dir="15664155806rbj3szyl0" file="text.html"/>
      <record id="15677606654nupp13mgv" name="ПЛАН ПОКУПОК" author="alensav" url="" tags="ПЛАН, ПОКУПКИ" ctime="20190906120425" dir="1567760665b9lfophj4l" file="text.html"/>
      <record id="1568120085fk49omcmmc" name="Анализ_ТОВАРОВ" author="alensav" url="" tags="товары, телефоны" ctime="20190910155445" dir="1568120085981eo8tvpk" file="text.html"/>
@@ -422,6 +419,13 @@
     <node crypt="" id="1564944123dz4ak0hxud" name="Дорожка садовая">
      <recordtable>
       <record id="156494417285z2jb4161" name="Дорожка" author="" url="" tags="" ctime="20190804214252" dir="1564944172lo5pyppf20" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="1" icon="" id="1574363169svq60sexbv" name="UkM1U0lNUAPIUqMjybepK4GMAcLJ17+5temvRpnwaQMTyiu6M6ho9t5RciizZIr+qtMDPp/XTlH0cwk1quO/ag==">
+     <recordtable>
+      <record id="15541013155347n3gfvw" name="UkM1U0lNUAPCrzWVUYowRnch6RdOLMsbF26dIVbaLZE1Iug/2uI54FM9x+Zi8pRe" author="UkM1U0lNUANtkivBf+1wtUGWM9AWXC0CKXhtvzFSs4uxNiiICs48Z4G+aDTrXZOu" url="" tags="UkM1U0lNUAOaw7PhdbJPByKGHhoSs9z/FVoHv3rX7WY13q70ivQ8fRfy/08O2HvY" ctime="20191121220642" dir="1554101315b72lxfamis" file="text.html" crypt="1"/>
+      <record id="1554100452wyuc4wpgwi" name="UkM1U0lNUAPpBprzh/LAukSAF30b/hB4nCqVx41S8DPXromo4O2nh4j5ETwtBpQ1" author="UkM1U0lNUANrHWdXL7Y1GDdrUubAUvw6OmvyRTM0kfVPeJpu6N1Kzu0Ol7E1+U82" url="" tags="UkM1U0lNUANYuREDXHpveRp7/OMpNmtV+NtIYrFKut3dsZpVPro1K1ev3+LCvC6c" ctime="20191121220700" dir="1554100452ujz77sdqny" file="text.html" crypt="1"/>
+      <record id="15535905973wj72lxgch" name="UkM1U0lNUANGlYLcDucQJ8mdKQ0PDg/UUVffUAtApMKzSunD2a+qyBScU9yZTFDB5wpea9sODcLpd8rMHoUHKEEukgA+5EeY" author="UkM1U0lNUAOLMpnRyBut1kWob+z30+wwtZ8Km9uF8vmYhU2xSv88SCAc9D0gnrrwSkO4m1NhKh4=" url="" tags="UkM1U0lNUANpz2D7rYqqOCeljIxBtKBGRPPT8IDaAXQzJhzgJ6awiilc4UqRPP07" ctime="20191121220723" dir="15535905972t1yd6ig1f" file="text.html" crypt="1"/>
      </recordtable>
     </node>
    </node>
