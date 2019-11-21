@@ -181,13 +181,13 @@
       </recordtable>
      </node>
     </node>
-    <node crypt="" id="1554203120vny48libog" name="XEOMA">
+    <node crypt="1" icon="" id="1554203120vny48libog" name="UkM1U0lNUAPa/gM4f41ghVQJpedYjQL7xYHFrHFlKgH8OJhBE6nr7gRSnyCT8JJ5">
      <recordtable>
-      <record id="1543739752llscxwqfwp" name="XEOMA" author="alensav" url="" tags="" ctime="20190402140551" dir="1543739752xn467tdg96" file="text.html"/>
-      <record id="1543742325vnds07cd1i" name="XEOMA_РУКОВОДСТВО" author="" url="" tags="" ctime="20190402140606" dir="1543742325si41cnd6b2" file="text.html">
+      <record id="1543739752llscxwqfwp" name="UkM1U0lNUAOIlP8neXFH1kv3Z7RdzHVkAMTTyIFUsqO5t049pF9UL//5WW/y6F3Q" author="UkM1U0lNUAPC4fUCaYkBkXlPkVsk3/oEspchlrakvJah/lo+nZkXCarmt6jDeIRJ" url="" tags="" ctime="20190402140551" dir="1543739752xn467tdg96" file="text.html" crypt="1"/>
+      <record id="1543742325vnds07cd1i" name="UkM1U0lNUANpuzena+N/9iwcuiGzUrbkpBqiJUqp0T9rzjL1cwem525Ogx9HZcxrXDxEL7obn5NRMteZpJYftJVM/L975D18" author="" url="" tags="" ctime="20190402140606" dir="1543742325si41cnd6b2" file="text.html" crypt="1">
        <files>
-        <file id="1545732834djxvjjexdx" fileName="user_manual_ru(1).pdf" type="file"/>
-        <file id="15457329097lamu5mgef" fileName="user_manual_ru(1).pdf" link="/home/alensav/Загрузки/user_manual_ru(1).pdf" type="link"/>
+        <file id="1545732834djxvjjexdx" fileName="UkM1U0lNUAMbOgaW4hZEBiEiue0ue5Er66hiXq1y1U+jC+x1ZSvIzQx/vlARo7kIeLGyQrz8fxiKuW/g/5E/RQ==" type="file" crypt="1"/>
+        <file id="15457329097lamu5mgef" fileName="UkM1U0lNUAPb3OdO9yJVjoN4+GSmFKOT8mfvbJJJK2D7Sx45dLQMYN/7BLx3AlIiFFVtVvIKU+lguJrPT+QlLQ==" link="UkM1U0lNUAM9sKzYi4i/2T458YwPDLJWQ71YOGl6bQBR4kr0q8ORKqgF1c0j2j3unrP9SCGX+BFa2hG0TnA/nq2txPfZ0isiwBwy68O/I2MhJQdd4xY6W6B0UmnHPeFM" type="link" crypt="1"/>
        </files>
       </record>
      </recordtable>
