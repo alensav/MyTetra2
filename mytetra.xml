@@ -24,15 +24,8 @@
     <record id="1546510463ja8rtul5g5" name="ПЛАН" author="alensav" url="" tags="план" ctime="20190103131423" dir="1546510463jxii42gvyu" file="text.html"/>
     <record id="1547279150zx1ur0cdop" name="Слушаем музыку  cmus " author="alensav" url="https://eax.me/cmus/" tags="musik, музыка, консоль, cmus" ctime="20190112104550" dir="154727915040k9dkkqmz" file="text.html"/>
     <record id="1547385990gpzqw7pmt8" name="шпаргалка по работе с Git" author="alensav" url="https://eax.me/git-commands/" tags="шпаргалка, Git" ctime="20190113162630" dir="1547385990vntsg3sw86" file="text.html"/>
-    <record id="1547801722ayb98cm15s" name="ПЕНСИЯ" author="ли_ав" url="" tags="пенсия" ctime="20190118115522" dir="15478017225ukywb77ce" file="text.html"/>
-    <record id="15480717133dbddzgn1c" name="НАЛОГИ" author="alensav" url="" tags="налог" ctime="20190121145513" dir="1548071713riibvwir1c" file="text.html">
-     <files>
-      <file id="1548071753o7w4dpo6a0" fileName="treb-68049.pdf" type="file"/>
-      <file id="1548073811o0awtx2jcp" fileName="ИП_Налог.doc" type="file"/>
-     </files>
-    </record>
-    <record id="1548957905ii2nao29vs" name="Советы начинающему проектировщику" author="alensav" url="" tags="Советы,  начинающему,  проектировщику, план" ctime="20190131210505" dir="1548957905isfm2dx70g" file="text.html"/>
-    <record id="1553338847gzzs8o5lj2" name="skladchik" author="" url="" tags="skladchik" ctime="20190323140047" dir="1553338847rpjmg1m3r5" file="text.html"/>
+    <record id="1548957905ii2nao29vs" name="Советы начинающему проектировщику" author="alensav" url="" tags="Советы,  начинающему,  проектировщику, план" ctime="20191121215426" dir="1548957905isfm2dx70g" file="text.html"/>
+    <record id="1553338847gzzs8o5lj2" name="skladchik" author="" url="" tags="skladchik" ctime="20191121215452" dir="1553338847rpjmg1m3r5" file="text.html"/>
    </recordtable>
    <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
     <recordtable>
@@ -473,6 +466,12 @@
    <node crypt="" id="1573760566ja5za0krth" name="Freedon">
     <recordtable>
      <record id="15737610990f2fnzx9jy" name="registratio" author="" url="" tags="" ctime="20191114225139" dir="1573761099h3722h22pw" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="1" icon="" id="15743621679h9e70chu2" name="UkM1U0lNUAN+fjVyPBE5WrK6bERZzo9M2H5RRglY719cDBVVmJqt99qvwB4L9l1J/IFDb90hjUo89MBjYcBZOzmvTmF7TZhy">
+    <recordtable>
+     <record id="1547801722ayb98cm15s" name="UkM1U0lNUANf1RHEwwao5xJfyvhd6H2MSsQRIsQ2j5fk3en6Eb3V9zJlphdS5yeZckNgLuvYXRw=" author="UkM1U0lNUAPKVxgpLSnu8OmHhn4zws9CQmIciWcHBA0wS5jVADASnQ8RPemQDKHAU9qoegxR1GE=" url="" tags="UkM1U0lNUAOo+ObSJQ/AFXVMjG9V8JgPoNTmLJC9d1dKdfZTrmOCcloy55/zXIpcB9wnyAnF0Ik=" ctime="20191121215224" dir="15478017225ukywb77ce" file="text.html" crypt="1" block=""/>
+     <record id="1574362734egllmxzwz7" name="UkM1U0lNUAP5NVfIP3WQL2AyHkxwoJWH2I/vwcPkSYHKbZmxg+l7A0kj9ULYOqb44XRqEQ/l154=" author="UkM1U0lNUAOsRJalee1tuSRTw8ZnKKWvn+kAK1V4QWyzIBvzy2/ziHJKmrU3Jqqb" url="" tags="UkM1U0lNUAOqBGyMTyE4k2CmivGX3WabPt87Jy+9zP3zNU0hgLh7M1gBXvW7akz9FgL3wffxlN8=" ctime="20191121215854" dir="15743627346rga4zm2q6" file="text.html" crypt="1"/>
     </recordtable>
    </node>
   </node>
