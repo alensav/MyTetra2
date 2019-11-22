@@ -481,6 +481,21 @@
     <recordtable>
      <record id="1553338847gzzs8o5lj2" name="UkM1U0lNUANFzU2nP+CzbPU/H8UueUfVK4brlU3HVNQGWcwDlwkzEYhGlkRXSvV5qqN6HJzUB4Q=" author="" url="" tags="UkM1U0lNUAOXVKc+k4fyAK8/4tH90Z2i+QD30aUdcCFe/KPFWmfDXsWaCz7r7mc6dBUGMhVFgqM=" ctime="20191122090205" dir="1553338847rpjmg1m3r5" file="text.html" crypt="1"/>
     </recordtable>
+    <node crypt="1" icon="" id="15744087287188hvd5ec" name="UkM1U0lNUAN3fF0UEzLoSnXWcOCV76pymazs/kUlItjX4XMIdWIsX7M3vIDsZd3i">
+     <recordtable>
+      <record id="1574408771tgltr7qqp5" name="UkM1U0lNUAPzme6Z7jytouqOJgb9zAXAIAH1nFVZFjNzOGSv9rabe1SdsRD+16A7iwZ113OHx7A=" author="" url="" tags="UkM1U0lNUAPffa14bOkmDnO0b1XEPCSb3Qv3LJUj8znftlO1eF2HI8GfAps80bRz+FvzdPQv0Sw=" ctime="20191122104611" dir="15744087712nhxtdtnim" file="text.html" crypt="1"/>
+     </recordtable>
+     <node crypt="1" icon="" id="1574410110un4ri4fvu4" name="UkM1U0lNUAPUmP8hrYTkR+gbd/JANHGVyrBo/pWbMT/NMfBsegKy+p8oldB5NP7CwTois2Nj+R8=">
+      <recordtable>
+       <record id="1574410234ypa9phpp3j" name="UkM1U0lNUANB+yOFqAjEgV+Wz6k8qs1vOX5PSa8sgFrD5Pfj0XMtTQ3nJZSSMbvxdwMqYK/G0XbnpeXPukT7p6G283NJsEko" author="" url="" tags="UkM1U0lNUAPVwclnOpvme0XJ+7QvVi+/CJYf85VU7tB6RRktghRlJ2QmJM96QcwxG5DE1371I5A=" ctime="20191122111034" dir="1574410234vduzyx6ero" file="text.html" crypt="1"/>
+      </recordtable>
+     </node>
+    </node>
+   </node>
+   <node crypt="" id="1574412087qdprv6oodn" name="DLNA">
+    <recordtable>
+     <record id="1574412127778dpq7s76" name="Настройка_DLNA" author="alensav" url="" tags="Настройка_DLNA, gerber" ctime="20191122114207" dir="1574412127zo2ogda414" file="text.html"/>
+    </recordtable>
    </node>
   </node>
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
