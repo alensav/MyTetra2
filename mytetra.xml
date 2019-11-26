@@ -206,6 +206,11 @@
       <record id="15746212108emf60jhy7" name="Yandex_help" author="alensav" url="" tags="disk, помощь" ctime="20191124214650" dir="157462121004x4k3w8kb" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="1574784296fntcpzct5l" name="KDirStat">
+     <recordtable>
+      <record id="157478442123p0h4coz7" name="KDirStat" author="alensav" url="" tags="поиск, больших, файл, карта, диск" ctime="20191126190701" dir="1574784421ccn5oc415p" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1544111400vnc868hc3v" name="GRUB">
     <recordtable>
@@ -520,6 +525,16 @@
    <node crypt="" id="1574412087qdprv6oodn" name="DLNA">
     <recordtable>
      <record id="1574412127778dpq7s76" name="Настройка_DLNA" author="alensav" url="" tags="Настройка_DLNA, gerber" ctime="20191122114207" dir="1574412127zo2ogda414" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="15747818766xp6n208l9" name="VAGRANT">
+    <recordtable>
+     <record id="1574782427fgzytux47m" name="Vagrant_настройки" author="alensav" url="" tags="vagrant, virtualbox, android" ctime="20191126183347" dir="1574782427wjhm5k469p" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="15747967868febkjo509" name="ANDROID">
+    <recordtable>
+     <record id="15747968501sw0r9d95n" name="ANDROID" author="alensav" url="" tags="android, virtual, box" ctime="20191126223410" dir="15747968505qge1y7hhh" file="text.html"/>
     </recordtable>
    </node>
   </node>
