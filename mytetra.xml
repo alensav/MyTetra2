@@ -529,8 +529,8 @@
    </node>
    <node crypt="" id="15747818766xp6n208l9" name="VAGRANT">
     <recordtable>
-     <record id="1574782427fgzytux47m" name="Vagrant_настройки" author="alensav" url="" tags="vagrant, virtualbox, android" ctime="20191126183347" dir="1574782427wjhm5k469p" file="text.html"/>
      <record id="1574834843clhen0flvy" name="Vagrant_SSH" author="" url="" tags="vagrant, ssh" ctime="20191127090723" dir="15748348431vzzc28jm7" file="text.html"/>
+     <record id="1574782427fgzytux47m" name="Vagrant_настройки" author="alensav" url="" tags="vagrant, virtualbox, android" ctime="20191127212506" dir="1574782427wjhm5k469p" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="15747967868febkjo509" name="ANDROID">
