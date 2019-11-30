@@ -376,7 +376,11 @@
      <record id="1545764685vi9q32taod" name="СЛИЯНИЕ РИПОЗИТОРИЕВ" author="alensav" url="https://ru.stackoverflow.com/questions/427790/%D0%A1%D0%BB%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B0-%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D1%85-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F-git" tags="ветви, слияние" ctime="20181225220445" dir="1545764685tps5p0f42k" file="text.html"/>
      <record id="15741702372hadpp21el" name="GIT_СПРАВОЧНАЯ" author="alensav" url="" tags="git, data, справочники" ctime="20191119163037" dir="15741702376j5vkwsrh6" file="text.html"/>
      <record id="1575040562l1n5u6hcsw" name="Как писать Bash-однострочники для клонирования и управления GitHub/" author="" url="" tags="Bash-однострочники,  клонирование, GitHub" ctime="20191129181602" dir="15750405626cgvth8g1w" file="text.html"/>
-     <record id="1575041068fpc4eren9l" name="Как получить Git репозиторий" author="alensav" url="" tags=" получить,  Git, репозиторий" ctime="20191129182428" dir="1575041068pgudmoz3hr" file="text.html"/>
+     <record id="1575041068fpc4eren9l" name="Как получить Git репозиторий" author="alensav" url="" tags=" получить,  Git, репозиторий" ctime="20191129182428" dir="1575041068pgudmoz3hr" file="text.html">
+      <files>
+       <file id="1575099203s4tba9ajjf" fileName="progit.ru.pdf" type="file"/>
+      </files>
+     </record>
     </recordtable>
     <node crypt="" id="1575054668uy0ormtq6a" name="BOOKS_PROGRAMMING">
      <recordtable>
@@ -553,6 +557,11 @@
      <record id="15747968501sw0r9d95n" name="ANDROID" author="alensav" url="" tags="android, virtual, box" ctime="20191126223410" dir="15747968505qge1y7hhh" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="157510552021ycqf2p41" name="Web_Diction">
+    <recordtable>
+     <record id="1575105598osyiaru6wz" name="Web_СЛОВАРИ" author="" url="" tags="Web, СЛОВАРь" ctime="20191130121958" dir="15751055980xgepnt7cy" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
    <recordtable>
@@ -562,6 +571,11 @@
   <node crypt="" id="1546065447cs5d3gvx7y" name="УДАЛЕННЫЙ_СЕРВИС">
    <recordtable>
     <record id="15460655155bxd20y0gt" name="УДАЛЕННЫЙ_КОМПЬЮТ_СЕРВИС" author="alensav" url="" tags="" ctime="20181229093835" dir="15460655158xn9qglms9" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="15751063735qqv5vpdi3" name="СЛОВАРИ_UBUNTU">
+   <recordtable>
+    <record id="1575106459bq187vqggk" name="Словари UBUNTU" author="" url="" tags="Словарь, UBUNTU" ctime="20191130123419" dir="15751064597s1enmps0n" file="text.html"/>
    </recordtable>
   </node>
  </content>
