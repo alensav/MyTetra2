@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:14pt; font-weight:600;">как копировать файл в несколько папок в ubntu</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:xx-large; font-weight:600;">Как скопировать один файл в несколько каталогов в Linux или Unix</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Я хочу  скопировать один файл в три места (каталоги), с помощью одной команды ср (например , <span style=" font-family:'Courier New,courier';">файл cp /dir1/ /dir2/ /dir3/.</span> Возможно ли это? Если да, то просьба указать команду для GNU / Linux или Unix операционных систем.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Короткий ответ: нет. Вы не можете использовать GNU /cp или BSD / cp для копирования одного файла в несколько каталогов. Тем не менее, <span style=" font-weight:600;">вы можете использовать комбинацию cp и xargs / параллельно и другие команды для копирования одного файла в несколько каталогов в MacOS, Linux, FreeBSD, OpenBSD, NetBSD и Unix-подобных</span> системах.</p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:x-large; font-weight:600;">Команда ср</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Основной синтаксис cp выглядит следующим образом, скопировать несколько файлов в одном каталоге:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c4950798851422"></a><span style=" font-size:12px;">c</span><span style=" font-size:12px;">p file1 /dir1/ cp file1 file2 file3 /dir1/</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12px;">2</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c4950798851422-1"></a><span style=" font-size:12px;">c</span><span style=" font-size:12px;">p </span><span style=" font-size:12px;">file1 /dir1/</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c4950798851422-2"></a><span style=" font-size:12px;">c</span><span style=" font-size:12px;">p </span><span style=" font-size:12px;">file1 file2 file3 /dir1/</span></p></td></tr></table>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:x-large; font-weight:600;">Скопируйте файл в несколько каталогов в Unix или Linux</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Хитрость заключается в том, чтобы использовать команду xargs или параллельной команды GNU.</p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Копирование одного файла с именем foo.txt в несколько каталогов с именем /tmp1/ /tmp2/ b /tmp3/ с помощью xargs</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В xargs команда позволяет выпонить построения списка (ов) аргумент и выполнить команду cp или mv Синтаксис:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c4967766226829"></a><span style=" font-size:12px;">x</span><span style=" font-size:12px;">args -n 1 cp -v filename&lt;&lt;&lt;&quot;/dir1/ /dir2/ /dir3/&quot; ## OR ## echo &quot;/dir1/ /dir2/ /dir3/&quot; | xargs -n 1 cp -v filename</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12px;">2</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12px;">3</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c4967766226829-1"></a><span style=" font-size:12px;">x</span><span style=" font-size:12px;">args</span><span style=" font-size:12px;"> -n 1 cp -v filename&lt;&lt;&lt;&quot;/dir1/ /dir2/ /dir3/&quot;  </span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c4967766226829-2"></a><span style=" font-size:12px;">#</span><span style=" font-size:12px;"># OR ## </span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c4967766226829-3"></a><span style=" font-size:12px;">e</span><span style=" font-size:12px;">cho</span><span style=" font-size:12px;"> &quot;/dir1/ /dir2/ /dir3/&quot; | xargs -n 1 cp -v filename</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В этом примере скопируем /etc/passwd в /tmp/1, /tmp/2 и $ HOME/3 следующим образом:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c4971750898891"></a><span style=" font-size:12px;">x</span><span style=" font-size:12px;">args -n 1 cp -v /etc/passwd&lt;&lt;&lt;&quot;/tmp/1/ /tmp/2/ $HOME/3/&quot;</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c4971750898891-1"></a><span style=" font-size:12px;">x</span><span style=" font-size:12px;">args</span><span style=" font-size:12px;"> -n 1 cp -v /etc/passwd&lt;&lt;&lt;&quot;/tmp/1/ /tmp/2/ $HOME/3/&quot;</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">или</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c4978573175935"></a><span style=" font-size:12px;">e</span><span style=" font-size:12px;">cho &quot;/tmp/1/ /tmp/2/ $HOME/3/&quot; | xargs -n 1 cp -v /etc/passwd</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c4978573175935-1"></a><span style=" font-size:12px;">e</span><span style=" font-size:12px;">cho</span><span style=" font-size:12px;"> &quot;/tmp/1/ /tmp/2/ $HOME/3/&quot; | xargs -n 1 cp -v /etc/passwd</span></p></td></tr></table>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Копирование одного файла с именем foo.txt в несколько каталогов , называемых /tmp/1 /tmp/2 и /tmp/3 , используя parallel</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">GNU parallel является инструментом оболочки для выполнения заданий в параллельном режиме с использованием одного или нескольких процессов. Синтаксис:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c4980123876280"></a><span style=" font-size:12px;">p</span><span style=" font-size:12px;">arallel cp fileNameHere ::: /dir1/ /dir2/ /dir3/</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c4980123876280-1"></a><span style=" font-size:12px;">p</span><span style=" font-size:12px;">arallel </span><span style=" font-size:12px;">cp fileNameHere ::: /dir1/ /dir2/ /dir3/</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Пример копирования /etc/resolv.conf в /tmp/1/, /tmp/2/, и $HOME/3/ слудующий:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49b7176336690"></a><span style=" font-size:12px;">p</span><span style=" font-size:12px;">arallel cp -v /etc/resolv.conf ::: /tmp/1/ /tmp/2/ $HOME/3/</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c49b7176336690-1"></a><span style=" font-size:12px;">p</span><span style=" font-size:12px;">arallel </span><span style=" font-size:12px;">cp -v /etc/resolv.conf ::: /tmp/1/ /tmp/2/ $HOME/3/</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Результат операции</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49c3719941118"></a><span style=" font-size:12px;">/</span><span style=" font-size:12px;">etc/resolv.conf &gt; /tmp/2/resolv.conf /etc/resolv.conf &gt; /tmp/1/resolv.conf /etc/resolv.conf &gt; /Users/vivek/3/resolv.conf</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12px;">2</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12px;">3</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c49c3719941118-1"></a><span style=" font-size:12px;">/</span><span style=" font-size:12px;">etc/resolv.conf &gt; /tmp/2/resolv.conf</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49c3719941118-2"></a><span style=" font-size:12px;">/</span><span style=" font-size:12px;">etc/resolv.conf &gt; /tmp/1/resolv.conf</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49c3719941118-3"></a><span style=" font-size:12px;">/</span><span style=" font-size:12px;">etc/resolv.conf &gt; /Users/vivek/3/resolv.conf</span></p></td></tr></table>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:x-large; font-weight:600;">Как использовать команду tee, чтобы скопировать файл в несколько папок</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Допустим, вы хотите скопировать в /etc/resolv.conf /tmp/1/ and /tmp/2/, выполняется команда tee следующим образом:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49c8004386682"></a><span style=" font-size:12px;">t</span><span style=" font-size:12px;">ee /tmp/1/resolv.conf /tmp/2/resolv.conf &lt; /etc/resolv.conf tee /tmp/1/resolv.conf /tmp/2/resolv.conf &lt; /etc/resolv.conf &gt;/dev/null</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12px;">2</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c49c8004386682-1"></a><span style=" font-size:12px;">t</span><span style=" font-size:12px;">ee</span><span style=" font-size:12px;"> /tmp/1/resolv.conf /tmp/2/resolv.conf &lt; /etc/resolv.conf </span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49c8004386682-2"></a><span style=" font-size:12px;">t</span><span style=" font-size:12px;">ee</span><span style=" font-size:12px;"> /tmp/1/resolv.conf /tmp/2/resolv.conf &lt; /etc/resolv.conf &gt;/dev/null</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вы должны указать полный путь /tmp/1/resolv.conf, в противном случае вы получите следующее сообщение об ошибке:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49cc213968429"></a><span style=" font-size:12px;">t</span><span style=" font-size:12px;">ee: /tmp/1/: Is a directory</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c49cc213968429-1"></a><span style=" font-size:12px;">t</span><span style=" font-size:12px;">ee</span><span style=" font-size:12px;">: /tmp/1/: Is a directory</span></p></td></tr></table>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:x-large; font-weight:600;">Как использовать команду find для копирования файлов в несколько директорий одновременно</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Синтаксис выглядит следующим образом для команды find:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49d0558972220"></a><span style=" font-size:12px;">f</span><span style=" font-size:12px;">ind /dir1/ /dir2/ -maxdepth 0 -exec cp filename {} \;</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c49d0558972220-1"></a><span style=" font-size:12px;">f</span><span style=" font-size:12px;">ind</span><span style=" font-size:12px;"> /dir1/ /dir2/ -maxdepth 0 -exec cp filename {} \;</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Для копирования /etc/hosts одновременно в папки /tmp/{1,2}/ и $HOME/3/ на Linux / Unix / MacOS / FreeBSD и т.д., введите следующую команду:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49d4233020897"></a><span style=" font-size:12px;">f</span><span style=" font-size:12px;">ind /tmp/1/ /tmp/2/ $HOME/3/ -maxdepth 0 -exec cp /etc/hosts {} \;</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c49d4233020897-1"></a><span style=" font-size:12px;">f</span><span style=" font-size:12px;">ind</span><span style=" font-size:12px;"> /tmp/1/ /tmp/2/ $HOME/3/ -maxdepth 0 -exec cp /etc/hosts {} \;</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Результат команды</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49d8479439481"></a><span style=" font-size:12px;">/</span><span style=" font-size:12px;">etc/hosts &gt; /tmp/1/hosts /etc/hosts &gt; /tmp/2/hosts /etc/hosts &gt; /Users/vivek/3/hosts</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12px;">2</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12px;">3</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c49d8479439481-1"></a><span style=" font-size:12px;">/</span><span style=" font-size:12px;">etc/hosts &gt; /tmp/1/hosts</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49d8479439481-2"></a><span style=" font-size:12px;">/</span><span style=" font-size:12px;">etc/hosts &gt; /tmp/2/hosts</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49d8479439481-3"></a><span style=" font-size:12px;">/</span><span style=" font-size:12px;">etc/hosts &gt; /Users/vivek/3/hosts</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Использование циклов</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49dc386839260"></a><span style=" font-size:12px;">f</span><span style=" font-size:12px;">or dest in /dir1/ /dir2/ ; do cp -v file &quot;$dest&quot; ; done for dest in /tmp/1/ /tmp2/ $HOME/3/ ; do cp -v &quot;/etc/resolv.conf&quot; &quot;$dest&quot; ; done</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:-18px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><span style=" font-size:12px;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:12px;">2</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:15px;"><a name="crayon-5de39b94c49dc386839260-1"></a><span style=" font-size:12px;">f</span><span style=" font-size:12px;">or</span><span style=" font-size:12px;"> dest in /dir1/ /dir2/ ; do cp -v file &quot;$dest&quot; ; done</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="crayon-5de39b94c49dc386839260-2"></a><span style=" font-size:12px;">f</span><span style=" font-size:12px;">or</span><span style=" font-size:12px;"> dest in /tmp/1/ /tmp2/ $HOME/3/ ; do cp -v &quot;/etc/resolv.conf&quot; &quot;$dest&quot; ; done</span></p></td></tr></table>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
