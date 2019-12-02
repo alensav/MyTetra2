@@ -584,9 +584,12 @@
     <record id="1575201829y0kn5mlpay" name="Библиотека" author="alensav" url="" tags="библиотека" ctime="20191201150349" dir="1575201829ek48ag8jcd" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="0" icon="" id="1575303820lxrkg3e0uk" name="ROBOKASSA_МАГАЗИН">
+  <node crypt="1" icon="" id="1575303820lxrkg3e0uk" name="UkM1U0lNUAM7Namp16RzH52jqb8/NBhztKmynV1z21X8JfbUv22LqJZpYGDixDVc1QMsT6HpUSR0/UGnNZ0SAw==">
    <recordtable>
-    <record id="15753039050aplldgej4" name="Магазин_ROBOKASSA" author="alensav" url="" tags="robokassa, магазин" ctime="20191202192505" dir="1575303905ohtv2pegpo" file="text.html" crypt="0"/>
+    <record id="15753039050aplldgej4" name="UkM1U0lNUAOFdJYVNwwXNTnIOzdOiJoVC1lFFlDPFa4uPYOFCzwz5swXzBR8czAipcjidsuNCgB4gYNZ64oVCA==" author="UkM1U0lNUAM+52cntMqlOUAh8aT2dslNJfZsVgbZFEHjWlNKDV4UMPjgfKhejLO8" url="" tags="UkM1U0lNUANNO/9uG0asA+bVnAyHK0NKYbe+iO/wThWgih8OErcIyMP9ASwYlXeIUNfkx+h5W7GfYNs67iQ9jwDz1y3UpwIS" ctime="20191202192505" dir="1575303905ohtv2pegpo" file="text.html" crypt="1"/>
+    <record id="1575307048pmy4s5yfoo" name="UkM1U0lNUANDhSluhuobqhWAE36X7kjEWXQDFRU+1ujM8GAQeot+qjzDh1by/nVJ+6Hq824EWo40jnn9rsaeNzuGofOtkIPlDvkOX8tKD0c=" author="UkM1U0lNUAN6e8pAB/GDjeR2bmZR/bdxsNyfFWUQUXWwssaeJNDBylm93qatPcd9" url="" tags="UkM1U0lNUANKenUTK+SNp1FLCNXMFuCsaN67wWO6OtKP2UhQVtvQ6ege3eSpZEfiAkoGFHSqM9gvPgaZcA9XmZMXaEk8+gftA434QqJh+zE=" ctime="20191202201728" dir="1575307048n1pngy9foe" file="text.html" crypt="1"/>
+    <record id="1575313456uqyp6esvtz" name="UkM1U0lNUANawXSPwFP1iU5hphn45Lr9zQ3AK3OWcPkr4PHL9ukn5gCJH/uTSqjX" author="UkM1U0lNUAOotBPFDtU6nbW1dQQNK9e+GuTRlDX7n7al+78d7Z3+a5p8oy9f9ux2" url="" tags="UkM1U0lNUAMCzPdWjC3+QFaCUU7LF20RWXs5YTtvB/CsIBGp5BwiQHM+Qcl9fRUu" ctime="20191202220416" dir="1575313456c2tn7nrc3s" file="text.html" crypt="1"/>
+    <record id="1575314358wwikzk6owy" name="UkM1U0lNUAOeoZPcF1QdSBDohWS7ClgJGnoR4cRhDNSkQplXjyp2SWYrc5S2qGeW6Dgvg5KOaB0=" author="" url="" tags="UkM1U0lNUAPJp1xicvoDBby0hzgaNQ+3ZW2K/StjfdmTucDyqgjY9Es0wNWGw/ZmTcRkRwuxe5E=" ctime="20191202221918" dir="1575314358gv68gag7gv" file="text.html" crypt="1"/>
    </recordtable>
   </node>
  </content>
