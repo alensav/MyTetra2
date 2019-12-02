@@ -584,5 +584,10 @@
     <record id="1575201829y0kn5mlpay" name="Библиотека" author="alensav" url="" tags="библиотека" ctime="20191201150349" dir="1575201829ek48ag8jcd" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1575303820lxrkg3e0uk" name="ROBOKASSA_МАГАЗИН">
+   <recordtable>
+    <record id="15753039050aplldgej4" name="Магазин_ROBOKASSA" author="alensav" url="" tags="robokassa, магазин" ctime="20191202192505" dir="1575303905ohtv2pegpo" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
