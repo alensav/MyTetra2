@@ -584,9 +584,9 @@
     <record id="1575201829y0kn5mlpay" name="Библиотека" author="alensav" url="" tags="библиотека" ctime="20191201150349" dir="1575201829ek48ag8jcd" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="1" icon="" id="1575303820lxrkg3e0uk" name="UkM1U0lNUANf44FS9ikKYYFV6dl2fJ44iHVFlqVbXZZxFQ2lyOSLqyYfYa23E2xNpKBsVXGGE3KpJd8wFNRR3w==">
+  <node crypt="0" icon="" id="1575303820lxrkg3e0uk" name="ROBOKASSA_МАГАЗИН">
    <recordtable>
-    <record id="15753039050aplldgej4" name="UkM1U0lNUAO8RZWwvF0RGzy3NztC8YbmUeWZuRmlZeQ/QqqZcADROCgAmnPds2LG0F09jZ+IC1/rL50ec22WTA==" author="UkM1U0lNUAM1eAsyxIXSgDPzU/AqBZI+H2TUpXzXqrTo3EoBgAsQQjGCADNKVI+m" url="" tags="UkM1U0lNUAMjvXi6dE7w7PXjoXvbx6enZ7ZPTmM+KKzIUXjxmxgs2q6P2FH9uf94Z9kbcBkctdPeiHOxwcP92cTM3AlAAUen" ctime="20191202192505" dir="1575303905ohtv2pegpo" file="text.html" crypt="1"/>
+    <record id="15753039050aplldgej4" name="Магазин_ROBOKASSA" author="alensav" url="" tags="robokassa, магазин" ctime="20191202192505" dir="1575303905ohtv2pegpo" file="text.html" crypt="0"/>
    </recordtable>
   </node>
  </content>
