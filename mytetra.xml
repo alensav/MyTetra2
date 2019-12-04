@@ -290,6 +290,7 @@
      <record id="15536194511vsuk8yf5g" name="Создание таблицы в HTML" author="alensav" url="https://www.internet-technologies.ru/articles/sozdanie-tablicy-v-html.html" tags="таблицы, HTML" ctime="20190326195731" dir="1553619451wxz6al9iab" file="text.html"/>
      <record id="1563022712nm2du2y1rh" name="Yandex_files" author="alensav" url="" tags="files, файлы" ctime="20190713155832" dir="1563022712tb78c6blgm" file="text.html"/>
      <record id="1566831148yfw54ou0qq" name="Советы google - калкулятор" author="alensav" url="" tags="калькулятор" ctime="20190826175228" dir="1566831148mrpbp3ii7r" file="text.html"/>
+     <record id="157547257543m1wf23ar" name="SSH_сайт" author="" url="" tags="SSH, сайт" ctime="20191204181615" dir="1575472575wh293yhh1t" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
      <recordtable>
@@ -359,6 +360,7 @@
     <node crypt="" id="1555916649esfgn639nl" name="PHP">
      <recordtable>
       <record id="1555916724u9log994ky" name="PHP для начинающих" author="alensav" url="" tags="php" ctime="20190422100524" dir="15559167248hl4kr79u9" file="text.html"/>
+      <record id="15754746007tpr2zol4u" name="как запустить скрипт PHP" author="alensav" url="" tags="как запустить скрипт PHP" ctime="20191204185000" dir="1575474600ee5lpbzo7d" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1561370123r9y55vbpm1" name="LAN CLOUD">
@@ -590,9 +592,14 @@
     <record id="1575307048pmy4s5yfoo" name="UkM1U0lNUANDhSluhuobqhWAE36X7kjEWXQDFRU+1ujM8GAQeot+qjzDh1by/nVJ+6Hq824EWo40jnn9rsaeNzuGofOtkIPlDvkOX8tKD0c=" author="UkM1U0lNUAN6e8pAB/GDjeR2bmZR/bdxsNyfFWUQUXWwssaeJNDBylm93qatPcd9" url="" tags="UkM1U0lNUANKenUTK+SNp1FLCNXMFuCsaN67wWO6OtKP2UhQVtvQ6ege3eSpZEfiAkoGFHSqM9gvPgaZcA9XmZMXaEk8+gftA434QqJh+zE=" ctime="20191202201728" dir="1575307048n1pngy9foe" file="text.html" crypt="1"/>
     <record id="1575313456uqyp6esvtz" name="UkM1U0lNUANawXSPwFP1iU5hphn45Lr9zQ3AK3OWcPkr4PHL9ukn5gCJH/uTSqjX" author="UkM1U0lNUAOotBPFDtU6nbW1dQQNK9e+GuTRlDX7n7al+78d7Z3+a5p8oy9f9ux2" url="" tags="UkM1U0lNUAMCzPdWjC3+QFaCUU7LF20RWXs5YTtvB/CsIBGp5BwiQHM+Qcl9fRUu" ctime="20191202220416" dir="1575313456c2tn7nrc3s" file="text.html" crypt="1"/>
     <record id="1575314358wwikzk6owy" name="UkM1U0lNUAOeoZPcF1QdSBDohWS7ClgJGnoR4cRhDNSkQplXjyp2SWYrc5S2qGeW6Dgvg5KOaB0=" author="" url="" tags="UkM1U0lNUAPJp1xicvoDBby0hzgaNQ+3ZW2K/StjfdmTucDyqgjY9Es0wNWGw/ZmTcRkRwuxe5E=" ctime="20191202221918" dir="1575314358gv68gag7gv" file="text.html" crypt="1"/>
-    <record id="1575386602htwc1rqr8x" name="UkM1U0lNUANiUgSGONggv1ulw/13bH+Qeg7wGdK92weBafBpLzFfxccVdiEUAKZDiyBugl2kqQw=" author="UkM1U0lNUAOVVWe+t7nCPZaCjrJXxI3ZwWtUONEdEa5TXnS4zPDxDNfLXMwykKcG" url="" tags="UkM1U0lNUANVJAjy6qOHPxFd4pLnW5zYD8BPrAifbhIF2RzlcHg3afgkbb6i/Larzfkh3dNfjOE=" ctime="20191203182322" dir="1575386602e4kkxcuh2o" file="text.html" crypt="1"/>
+    <record id="1575386602htwc1rqr8x" name="UkM1U0lNUAOGIfuhvr5DMVEDAAJdYyN7JNKwfaHrdaVw3mJQfxSZmer7gClduL/M7yk1xWO6wG1pBrIVLxAYug==" author="UkM1U0lNUAOhcsYqOe85srp3piX0n46G5EbMJ9o4grxt8lCanVWn3Ys0bP6YT9MI" url="" tags="UkM1U0lNUAMYmui5WKb8iceFTiy8szkWmYuwc4ff29G4anoaOi+87QbR0th8masTNaUO3K0R/O1HxgZ43dv9wg==" ctime="20191203182322" dir="1575386602e4kkxcuh2o" file="text.html" crypt="1"/>
     <record id="157539071021klgixr0f" name="UkM1U0lNUAPuHfecWYmOeG/RwrtJoZU1cZOgMOPUtyB0kOk/ZoPZamPcBy4/y+Y2r9Jdc026JFKId98Qjj2cK8PljLjGfh0juyPcoWWb1RBFp3+6sgRmwA==" author="UkM1U0lNUAPnUwYESqNe0wVBupW4I4nqkoy5pvB/RZFuukiJp5WQZS+7eabU73M5" url="" tags="UkM1U0lNUAN0onZbw45CFmmnp6H9K4ekcTYQwVU54b28aTFncCVl5hbzewWBl1DPkHElxO7QP6nAt03knMHoaXBIkIYe0nkrBoGAWkEWDZA=" ctime="20191203193150" dir="1575390710uhhenv8i2i" file="text.html" crypt="1"/>
     <record id="15754553779hn7auzzcj" name="UkM1U0lNUAPzX+LHb63fbdyLb3qPbk2mvEro2UtQ3m4gpxz6Q844BE/zcdTDtyQGWoV4iXwLEEyfI2BLWuNC3myLhawwrQmY" author="UkM1U0lNUANpRsYwtnQPIzJt75kSJhcGJiIl3+gkNs+d4S4yt9WdugZS4r//6hp+" url="UkM1U0lNUAOUSaYJMYpyd+1KqUeRqvVhYWk0Jpr+nnzIENkJefzRUFQtH7Ejv29+yCDSRdbK3KyuqEklUoJ4q224GWhbXTwRox/qRAFT7Rg=" tags="UkM1U0lNUAO73gJi5zPsWhNUsUFsOyFlqfnMT4SQB6YAleKLR890KFiIRLWeq0nCZ7N+SqaoVyP2EORDhfL5sKl4FV3vyfte" ctime="20191204132937" dir="1575455377gjxhw2tdyd" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="15754868969ohup654ad" name="CMS_JOMLA">
+   <recordtable>
+    <record id="1575486944n7k9d9dyn3" name="CMS_JOMLA" author="alensav" url="" tags="cms, jomla, управление, администратор, admin" ctime="20191204221544" dir="15754869448ehp96buq2" file="text.html"/>
    </recordtable>
   </node>
  </content>
