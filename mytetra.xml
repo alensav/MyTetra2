@@ -570,6 +570,11 @@
      <record id="1575618381quo9epi45d" name="UkM1U0lNUAMs4SWh/mXorNw0hHI3GJHMV4mvIfNiSP8CpuJjXzlojhyAx504aXlgRrbtkYzcT/E=" author="" url="" tags="UkM1U0lNUAPcw4jAsYXB2a06HwiBHRGHESOhPOb3hxCrfD8hlEzP8NnJ9Y4jyHBp0miVC12jSUc=" ctime="20191206104621" dir="1575618381oez7q3xb4l" file="text.html" crypt="1"/>
     </recordtable>
    </node>
+   <node crypt="" id="1575889508ivjnx2vd6e" name="Test_SPEED">
+    <recordtable>
+     <record id="1575889678zrobggtsw9" name="TEST_SPEED_SITE" author="alensav" url="https://developers.google.com/speed/pagespeed/insights/?hl=RU" tags="TEST  _  SPEED  _  SITE" ctime="20191209140758" dir="1575889678jd2mr5ikrc" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
    <recordtable>
@@ -620,6 +625,11 @@
   <node crypt="" id="1575821840psj9kn9txw" name="INTERNET_SHOP_ANALOG">
    <recordtable>
     <record id="1575821931edooehqset" name="Предложения разработчиков - Mydigiseller" author="alensav" url="" tags="магазин, разработка. shop" ctime="20191208191851" dir="1575821931n81bhaodb9" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1575884310d8exj4zjno" name="LiveExpert">
+   <recordtable>
+    <record id="1575884391e6lhzi7wb2" name="LiveExpert" author="alensav" url="" tags="expert, вопросы, ответы" ctime="20191209123951" dir="1575884391ivv08zqwwo" file="text.html"/>
    </recordtable>
   </node>
  </content>
