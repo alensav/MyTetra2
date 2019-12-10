@@ -575,6 +575,11 @@
      <record id="1575889678zrobggtsw9" name="TEST_SPEED_SITE" author="alensav" url="https://developers.google.com/speed/pagespeed/insights/?hl=RU" tags="TEST  _  SPEED  _  SITE" ctime="20191209140758" dir="1575889678jd2mr5ikrc" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1575915017so1yiupp2g" name="FREE-KASSA">
+    <recordtable>
+     <record id="1575915092c0zer13cu9" name="FREE-KASSA" author="" url="" tags="FREE-KASSA" ctime="20191209211132" dir="1575915092fbci3x9fur" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
    <recordtable>
@@ -609,6 +614,7 @@
    <node crypt="1" icon="" id="1575653014zet8atik3i" name="UkM1U0lNUAMySalLD/Ybzhc43t9FJqB7kQGnrS7pAzF6oXXKQxMCjYAGI3SdA+BB">
     <recordtable>
      <record id="1575653128s976vyriam" name="UkM1U0lNUAP+on0E3PvXCexOXGK2cpP0Jm3JRPC7IHDYJoijJjmaY9e36NyHpDBo" author="UkM1U0lNUANtGrDJ4KalYxM9nyDip9QePvMDPfbh7O0RYt7Aro/I367vWJ+O9auw" url="UkM1U0lNUANmmDijrCO86U9XJGvAP0OH7VnBNp5nWxZ5rhTZIczTKPaQb4T4oDZuGjMSdmNaoUDIqXk2WL/QoVa9QYLmb1w7BfsTSeX/azdO7TQw4OSmhZfbgWytjEWvab2r6azfXIc=" tags="UkM1U0lNUAPYtxZ3h7FSgrI7RilAEhkretv2a/YstecN8inLRXCazVhM/cQAlh4Aq5rbVbbR86IyPKheH8tecQ==" ctime="20191206202528" dir="15756531289bk14yyre6" file="text.html" crypt="1"/>
+     <record id="1575900209cf8ub2zd1p" name="UkM1U0lNUAPOH/XEUPGxNQX8hqUz57cePFTT1C5t65j/WK8WDmb5qr/kb+QVv8cTUAJw5o3Cz84=" author="UkM1U0lNUAPjDCm4RhiezgsCkv3M0PU8GlIkUM8NeK5yPtvE4yW/M2lW0upWWvBE" url="" tags="UkM1U0lNUANjolHyMnNfgPkTlPhE3JtEHBWrQh4bvwgB5pQvNb68lkCJ9ECemmqU89EHTGjWIIuRriiknqU28Q==" ctime="20191209170329" dir="1575900209j7cbsi73i8" file="text.html" crypt="1"/>
     </recordtable>
    </node>
   </node>
