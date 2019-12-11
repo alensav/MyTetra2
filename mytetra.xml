@@ -424,6 +424,11 @@
      <record id="1547039058g1lf6fb5w1" name="Полезные_Скрипты_4" author="alensav" url="https://tuxrider.ru/programmy/interesnye-bash-skripty-linux/" tags="scripts, скрипт" ctime="20190109160418" dir="15470390584fxyfd5m8d" file="text.html"/>
      <record id="1547041220mar3rdohwa" name="Полезные_скрипты 5" author="alensav" url="https://unixforum.org/viewtopic.php?t=68069" tags="scripts, скрипт" ctime="20190109164020" dir="1547041220x2wfg552jq" file="text.html"/>
     </recordtable>
+    <node crypt="" id="1576056086ufaopgk8a0" name="FORUM_SCRIPTS">
+     <recordtable>
+      <record id="1576056202bu250gmfqa" name="NULLED SCRIPTS" author="alensav" url="https://www.nulledscripts.ru/index.php" tags="scripts, скрипт" ctime="20191211122322" dir="1576056202bmzomvyl21" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="15535901428i8jinprzz" name="БЫТ">
     <recordtable>
@@ -575,9 +580,9 @@
      <record id="1575889678zrobggtsw9" name="TEST_SPEED_SITE" author="alensav" url="https://developers.google.com/speed/pagespeed/insights/?hl=RU" tags="TEST  _  SPEED  _  SITE" ctime="20191209140758" dir="1575889678jd2mr5ikrc" file="text.html"/>
     </recordtable>
    </node>
-   <node crypt="" id="1575915017so1yiupp2g" name="FREE-KASSA">
+   <node crypt="1" icon="" id="1575915017so1yiupp2g" name="UkM1U0lNUANgLz8KZwknL2UI4/kt08jbRMqvSN5UGEyI3we5LZ7ZanA/q9/ckXv33I/atMX+nwI=">
     <recordtable>
-     <record id="1575915092c0zer13cu9" name="FREE-KASSA" author="" url="" tags="FREE-KASSA" ctime="20191209211132" dir="1575915092fbci3x9fur" file="text.html"/>
+     <record id="1575915092c0zer13cu9" name="UkM1U0lNUAM1B6BUq4PY7q8Kz+Xn1LAr1FhrGFhQT07uOmrwk7hcmum1XS6xnenpN8rAbyFzSK4=" author="" url="" tags="UkM1U0lNUAP0y7XXQUhRCG+hD5c+58ZazstjPwZiKHJgKFTZJWoLQXj8KyeRXNOl5NgmfYAIPns=" ctime="20191209211132" dir="1575915092fbci3x9fur" file="text.html" crypt="1"/>
     </recordtable>
    </node>
   </node>
