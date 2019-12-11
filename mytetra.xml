@@ -3,6 +3,11 @@
 <root>
  <format version="1" subversion="2"/>
  <content>
+  <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
+   <recordtable>
+    <record id="15457300561cbn5g2p45" name="Учет ламп" author="alennsav" url="" tags="лампы, светодиодные" ctime="20181225122736" dir="1545730056s9nbfgqwdo" file="text.html"/>
+   </recordtable>
+  </node>
   <node crypt="" id="1300000000aaaaaaaaa1" name="MyTetra">
    <recordtable>
     <record id="1300000000aaaaaaaaa3" name="Welcome to MyTetra!" author="" url="" tags="MyTetra, Qt" ctime="20081210124656" dir="1300000000aaaaaaaaa2" file="text.html"/>
@@ -585,11 +590,6 @@
      <record id="1575915092c0zer13cu9" name="UkM1U0lNUAM1B6BUq4PY7q8Kz+Xn1LAr1FhrGFhQT07uOmrwk7hcmum1XS6xnenpN8rAbyFzSK4=" author="" url="" tags="UkM1U0lNUAP0y7XXQUhRCG+hD5c+58ZazstjPwZiKHJgKFTZJWoLQXj8KyeRXNOl5NgmfYAIPns=" ctime="20191209211132" dir="1575915092fbci3x9fur" file="text.html" crypt="1"/>
     </recordtable>
    </node>
-  </node>
-  <node crypt="" id="1545729819bojqdzgxyp" name="СВЕТОДИОДНЫЕ_л-пы">
-   <recordtable>
-    <record id="15457300561cbn5g2p45" name="Учет ламп" author="alennsav" url="" tags="лампы, светодиодные" ctime="20181225122736" dir="1545730056s9nbfgqwdo" file="text.html"/>
-   </recordtable>
   </node>
   <node crypt="" id="1546065447cs5d3gvx7y" name="УДАЛЕННЫЙ_СЕРВИС">
    <recordtable>
