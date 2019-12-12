@@ -367,6 +367,7 @@
      <recordtable>
       <record id="1555916724u9log994ky" name="PHP для начинающих" author="alensav" url="" tags="php" ctime="20190422100524" dir="15559167248hl4kr79u9" file="text.html"/>
       <record id="15754746007tpr2zol4u" name="как запустить скрипт PHP" author="alensav" url="" tags="как запустить скрипт PHP" ctime="20191204185000" dir="1575474600ee5lpbzo7d" file="text.html"/>
+      <record id="1576181314crgn0zehby" name="Как самостоятельно сделать сайт на PHP?" author="altnsav" url="" tags="Как самостоятельно сделать сайт на PHP?" ctime="20191212230834" dir="1576181314evqb6y5oze" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1561370123r9y55vbpm1" name="LAN CLOUD">
@@ -589,6 +590,23 @@
    <node crypt="1" icon="" id="1575915017so1yiupp2g" name="UkM1U0lNUANgLz8KZwknL2UI4/kt08jbRMqvSN5UGEyI3we5LZ7ZanA/q9/ckXv33I/atMX+nwI=">
     <recordtable>
      <record id="1575915092c0zer13cu9" name="UkM1U0lNUAM1B6BUq4PY7q8Kz+Xn1LAr1FhrGFhQT07uOmrwk7hcmum1XS6xnenpN8rAbyFzSK4=" author="" url="" tags="UkM1U0lNUAP0y7XXQUhRCG+hD5c+58ZazstjPwZiKHJgKFTZJWoLQXj8KyeRXNOl5NgmfYAIPns=" ctime="20191209211132" dir="1575915092fbci3x9fur" file="text.html" crypt="1"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="15761668873clbgfym5q" name="INSTRUKCIA_SCRIPT">
+    <recordtable>
+     <record id="1576166992rsfj6h4m57" name="ИНСТРУКЦИЯ" author="alensav" url="" tags="ИСТРУКЦИЯ" ctime="20191212190952" dir="15761669924bjpmflki6" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="1" icon="" id="1576179327w9cuzfrdyr" name="UkM1U0lNUANTWB5IQl2A3gdpwmBKk/fjXmFCGa169IM55yxyEgYCVJg8JEgS8VsI">
+    <recordtable>
+     <record id="157617932765q4noz8jq" name="UkM1U0lNUAMT7jMj1bO5TyR3Jxo2Yc9Qg5TvyWPQmcgLb0tOY8LBlF8GHK5k9eXt" author="UkM1U0lNUANsRFNp/J986oUhUaNuNkd009ghqhbGRTswpR4VtM0exIzynhYkBPNC" url="UkM1U0lNUAONJAiGR5jyjLwMARO6xxUWAyfwz4YamTzYOTGu6w7ztpeWhqfnE9B7jyM70yUR3m2tcWA4PVbIuxypLtvsgQalUG6iZB9GizeEyxxJAxNUR+PPDeQqqKc3/uNqpkfbLTk=" tags="UkM1U0lNUAMF5m29x/rhz7JSzxrhQ8nnxK9nTfYtfIO93hhRVFlxBiWZp7ya2iVOHkqsJ54/J47cf9XtSakcAQ==" ctime="20191212223527" dir="1576179327dk02ef4nu3" file="text.html" crypt="1"/>
+     <record id="157617932786z8od3s1y" name="UkM1U0lNUAPkdeZfW96w7scKVFNcLb40is4CxTB+0Id2aLgxjnoWaN3qquZknhypoDWTq4xz8Ecob4w/Y+t6RA==" author="UkM1U0lNUANRkhjPzbWsbshSw/asMRd5r4SGfSeYYTkEX3F6/NEF6n9vEZWsimMi" url="" tags="UkM1U0lNUANp82Ia19cAN7qMcYMTMvRCLZBmnJfbdVXl1LJBQiER7wXLJgO0G+N6QFibusyA/XpoZcChZWINeilq6mgRi87l" ctime="20191212223527" dir="1576179327uf0mqz1hsf" file="text.html" crypt="1"/>
+     <record id="1576179327xppdbfssw1" name="UkM1U0lNUAO31+SsKtdXRcsGrBE9YttI7n/EOzftColM862Z7PXue3km8H0wPT8d" author="UkM1U0lNUAN2X6iPe19mX+A677GCJxZPO6WKB5fwPboA15KRiIBuPZLi9+Ej1/d2" url="" tags="UkM1U0lNUANc5YM2wdWsIbC+kk77AFW+FRlz37IjeEVwt5ruJdJR41h6a+EizUDq" ctime="20191212223527" dir="1576179327wn3mrrq7fa" file="text.html" crypt="1"/>
+    </recordtable>
+   </node>
+   <node crypt="" id="1576183585ec74nt3sxi" name="APACHER">
+    <recordtable>
+     <record id="1576183633wyllgx7do9" name="Apache HTTP Server " author="alensav" url="https://help.ubuntu.ru/wiki/apache2" tags="Apache HTTP Server " ctime="20191212234713" dir="15761836332uhpe4yxcv" file="text.html"/>
     </recordtable>
    </node>
   </node>
