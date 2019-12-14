@@ -671,5 +671,12 @@
     <record id="1576266225imxvscvai0" name="cloudlite" author="alensav" url="" tags="cloudlite" ctime="20191213224345" dir="15762662252yb6pjktml" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1576308177tq5cxsf6hh" name="MSQL">
+   <recordtable>
+    <record id="1576308221c80y07xe87" name="Msql_ИНСТРУКЦИЯ" author="" url="" tags="Msql_ИНСТРУКЦИЯ" ctime="20191214102341" dir="1576308221wnp2fmuv8s" file="text.html"/>
+    <record id="1576324273wkpihp8g3x" name="Администрирование баз данных" author="alensav" url="http://www.mysql.ru/docs/mysql-man-4.0-ru/mysql-database-administration.html" tags="Администрирование баз данных" ctime="20191214145113" dir="1576324273zw99639421" file="text.html"/>
+    <record id="1576325034hcofjkg3vc" name="mysql" author="alensav" url="" tags="mysql" ctime="20191214150354" dir="15763250349xiyvf4kv7" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
