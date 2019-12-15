@@ -665,10 +665,11 @@
     <record id="1576166992rsfj6h4m57" name="ИНСТРУКЦИЯ" author="alensav" url="" tags="ИСТРУКЦИЯ" ctime="20191213190527" dir="15761669924bjpmflki6" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="15762657142atjqoju1z" name="VPS">
+  <node crypt="" id="15762657142atjqoju1z" name="VPS_and_DRUPAL">
    <recordtable>
     <record id="1576265815u04mdevh94" name="VPS KAMATERA" author="" url="" tags="VPS KAMATERA" ctime="20191213223655" dir="157626581536wr6795i9" file="text.html"/>
     <record id="1576266225imxvscvai0" name="cloudlite" author="alensav" url="" tags="cloudlite" ctime="20191213224345" dir="15762662252yb6pjktml" file="text.html"/>
+    <record id="1576408389y0xji2z6lq" name="Drupal " author="alensav" url="" tags="Drupal " ctime="20191215141309" dir="1576408389bh2xg04p6h" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1576308177tq5cxsf6hh" name="MSQL">
@@ -676,6 +677,9 @@
     <record id="1576308221c80y07xe87" name="Msql_ИНСТРУКЦИЯ" author="" url="" tags="Msql_ИНСТРУКЦИЯ" ctime="20191214102341" dir="1576308221wnp2fmuv8s" file="text.html"/>
     <record id="1576324273wkpihp8g3x" name="Администрирование баз данных" author="alensav" url="http://www.mysql.ru/docs/mysql-man-4.0-ru/mysql-database-administration.html" tags="Администрирование баз данных" ctime="20191214145113" dir="1576324273zw99639421" file="text.html"/>
     <record id="1576325034hcofjkg3vc" name="mysql" author="alensav" url="" tags="mysql" ctime="20191214150354" dir="15763250349xiyvf4kv7" file="text.html"/>
+    <record id="15763978249dsci8e9v7" name="ПРИВИЛЕГИИ MYSQL" author="alensav" url="" tags="ПРИВИЛЕГИИ MYSQL" ctime="20191215111704" dir="15763978243l61m8qnmr" file="text.html"/>
+    <record id="1576398020udlbkw4dfn" name="Показать пользователей в MySQL" author="alensav" url="" tags="Показать пользователей в MySQL" ctime="20191215112020" dir="15763980202hguty2nnd" file="text.html"/>
+    <record id="1576399780rbe6zi6t6d" name="20 команд My" author="alensav" url="https://zalinux.ru/?p=793" tags="20 команд My" ctime="20191215114940" dir="1576399780fiypa3e526" file="text.html"/>
    </recordtable>
   </node>
  </content>
