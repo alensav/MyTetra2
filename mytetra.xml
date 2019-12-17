@@ -604,6 +604,11 @@
      <record id="1576183633wyllgx7do9" name="Apache HTTP Server " author="alensav" url="https://help.ubuntu.ru/wiki/apache2" tags="Apache HTTP Server " ctime="20191212234713" dir="15761836332uhpe4yxcv" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="1576565598vlk1cc2yai" name="РЕЦЕПТЫ">
+    <recordtable>
+     <record id="15765655356xyqgjlm96" name="СЕЛЬДЬ" author="" url="" tags="СЕЛЬДЬ" ctime="20191217095318" dir="1576565535dpmihox0oj" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1546065447cs5d3gvx7y" name="УДАЛЕННЫЙ_СЕРВИС">
    <recordtable>
