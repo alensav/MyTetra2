@@ -718,5 +718,15 @@
     <record id="1577037434fc96uzk16j" name="Заказ1" author="alensav" url="" tags="Заказ1" ctime="20191222205714" dir="1577037434gme2g5zr47" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1577387755r13ainqmgk" name="TGZ_UBUNTU">
+   <recordtable>
+    <record id="15773878056ftx3ksqou" name="Распаковка .tgz файлов в Unix/Linux " author="altnsav" url="" tags="Распаковка . tgz  файлов в Unix /Linux " ctime="20191226221645" dir="1577387805uoc46zv9ff" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="157739067643rw8dcjm7" name="UkM1U0lNUAPLugwGPi0qw/g3m/b60snw/vVJn/Nl86wJrzyP4ssaaMWjt5uHd5Py">
+   <recordtable>
+    <record id="1577390722gw1jj7oq20" name="UkM1U0lNUAOG0fLWYe/4fTglZAlkJtWnmmvfW5Qix/hbYC2Z8ggIRW3Af1WoSsvgh4IPQHLnAzU=" author="UkM1U0lNUAMttL/6mUbLi81v4aA2bPKpi9EgnUyZzjhXUdjXsbUBA2FUWwiAD8ZW" url="" tags="UkM1U0lNUAPN0X51o+KiV8kxCimJfFnnCDwwG903mRpvUAJYFveHmRgpiUZJCmQS7jgSrSI+VF4=" ctime="20191226230522" dir="1577390722pkbwhz99ic" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
  </content>
 </root>
