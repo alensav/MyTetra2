@@ -438,45 +438,6 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="15535901428i8jinprzz" name="БЫТ">
-    <recordtable>
-     <record id="1566415580xqzc69zs73" name="ПОЛЕЗНЫЕ ЖИДКОСТИ" author="alensav" url="" tags="" ctime="20190821222620" dir="15664155806rbj3szyl0" file="text.html"/>
-     <record id="15677606654nupp13mgv" name="ПЛАН ПОКУПОК" author="alensav" url="" tags="ПЛАН, ПОКУПКИ" ctime="20190906120425" dir="1567760665b9lfophj4l" file="text.html"/>
-     <record id="1568120085fk49omcmmc" name="Анализ_ТОВАРОВ" author="alensav" url="" tags="товары, телефоны" ctime="20190910155445" dir="1568120085981eo8tvpk" file="text.html"/>
-     <record id="15742337173oh66oerfz" name="Врезка в полипропилен" author="alensav" url="" tags="Врезка, полипропилен, водоснабжение" ctime="20191120100837" dir="1574233717wlieionuh9" file="text.html"/>
-    </recordtable>
-    <node crypt="" id="155376513550q7ojpyrq" name="Поликарбонат">
-     <recordtable>
-      <record id="1553765391wxmsq3w2av" name="Как работать с поликарбонатом" author="alensav" url="https://otente.ru/polikarbonat/rabota-svoimi-rukami.html" tags="  поликарбонатом, быт" ctime="20190328122951" dir="1553765391cbqdg9iwvr" file="text.html"/>
-      <record id="1553767668fkr7zfleov" name="Как работать с поликарбонатом: общие рекомендации" author="alensav" url="http://propolikarbonat.ru/rabota-s-polikarbonatom" tags="Как работать с поликарбонатом: общие рекомендации" ctime="20190328130748" dir="1553767668pg7r8xukf4" file="text.html"/>
-      <record id="155376800991itx2esqf" name="Работа с поликарбонатом своими руками" author="alensav" url="https://kryshadoma.com/polikarbonat/rabota-s-polikarbonatom-svoimi-rukami.html" tags="Работа с поликарбонатом своими руками" ctime="20190328131329" dir="155376800907fw0mqwi8" file="text.html"/>
-      <record id="1553770508nw1f42w92m" name="Оптимальная толщина поликарбоната для навеса" author="alensav" url="https://srbu.ru/stroitelnye-materialy/252-kakoj-polikarbonat-luchshe-dlya-navesa.html" tags="Оптимальная толщина поликарбоната для навеса" ctime="20190328135508" dir="1553770508nj2ku418ol" file="text.html"/>
-      <record id="1553773162qpvlerl5tm" name="Монтаж поликарбоната на металлический каркас" author="alensav" url="https://teplica-exp.ru/montazh-polikarbonata-na-metallichesk/" tags="Монтаж поликарбоната на металлический каркас" ctime="20190328143922" dir="1553773162rct8rxbomd" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="15553416810rlppomr3c" name="РЕЦЕПТЫ">
-     <recordtable>
-      <record id="1545148485tbnadyjzg6" name="Рецепты_2018-2019" author="alensav" url="" tags="" ctime="20190415182121" dir="1545148485jxkkhpobuy" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1564568478zz04x0co9x" name="ТЕЛЕФОН">
-     <recordtable>
-      <record id="1564568572l3w13q7z3m" name="TELEFON" author="alensav" url="" tags="telefon, internet" ctime="20190731132252" dir="1564568572eriubwvo04" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="" id="1564944123dz4ak0hxud" name="Дорожка садовая">
-     <recordtable>
-      <record id="156494417285z2jb4161" name="Дорожка" author="" url="" tags="" ctime="20190804214252" dir="1564944172lo5pyppf20" file="text.html"/>
-     </recordtable>
-    </node>
-    <node crypt="1" icon="" id="1574363169svq60sexbv" name="UkM1U0lNUAPIUqMjybepK4GMAcLJ17+5temvRpnwaQMTyiu6M6ho9t5RciizZIr+qtMDPp/XTlH0cwk1quO/ag==">
-     <recordtable>
-      <record id="15541013155347n3gfvw" name="UkM1U0lNUAPu1k6W43IPzJx1dCYErBZ73V3I1og9Fct+X81nVCrJo/EmcoHo+Ghj" author="UkM1U0lNUAN56OtAKB1WU6dKWNYW8xUai588Oy+6lTbasCshuU03QowfdqpVDxce" url="" tags="UkM1U0lNUAMsY0dR1jUnJffROfssaYgjSPDbs8WB8qmPUQtHkMiNHynzxImqCDtKPkHVGh3PfZlRAYUE5rV47CBdBIqs/FfG" ctime="20191121220642" dir="1554101315b72lxfamis" file="text.html" crypt="1"/>
-      <record id="1554100452wyuc4wpgwi" name="UkM1U0lNUAPpBprzh/LAukSAF30b/hB4nCqVx41S8DPXromo4O2nh4j5ETwtBpQ1" author="UkM1U0lNUANrHWdXL7Y1GDdrUubAUvw6OmvyRTM0kfVPeJpu6N1Kzu0Ol7E1+U82" url="" tags="UkM1U0lNUANYuREDXHpveRp7/OMpNmtV+NtIYrFKut3dsZpVPro1K1ev3+LCvC6c" ctime="20191121220700" dir="1554100452ujz77sdqny" file="text.html" crypt="1"/>
-      <record id="15535905973wj72lxgch" name="UkM1U0lNUANGlYLcDucQJ8mdKQ0PDg/UUVffUAtApMKzSunD2a+qyBScU9yZTFDB5wpea9sODcLpd8rMHoUHKEEukgA+5EeY" author="UkM1U0lNUAOLMpnRyBut1kWob+z30+wwtZ8Km9uF8vmYhU2xSv88SCAc9D0gnrrwSkO4m1NhKh4=" url="" tags="UkM1U0lNUANpz2D7rYqqOCeljIxBtKBGRPPT8IDaAXQzJhzgJ6awiilc4UqRPP07" ctime="20191121220723" dir="15535905972t1yd6ig1f" file="text.html" crypt="1"/>
-     </recordtable>
-    </node>
-   </node>
    <node crypt="1" icon="" id="15549770206cvjvp9yrf" name="UkM1U0lNUAPO6w+ZHdc0+yrcbNLHY+pJT8xaCj+78E4SKY6QAaJVvjljqB0BbgVt/mb6V7nOE5s=">
     <recordtable>
      <record id="1554977060vkv01lj9y0" name="UkM1U0lNUAPzfW7dHij8uVUJPousYbEAVE3sXvqohRHmx4oLknosAyxNa96/UknO" author="UkM1U0lNUAPM0kJXxb/FowhrJRptj73ZDPY5hZU0PUsJsgDVdwOu0TXRQEJYbjt5" url="" tags="UkM1U0lNUANELZNXXNsjLsn4UPyDufx8SBb+n8G//r4Xolz8r7FSC61+itCe02GLwIiK2u6E9Uw=" ctime="20190411130420" dir="1554977060urw5a7u0l1" file="text.html" crypt="1"/>
@@ -623,6 +584,45 @@
       <record id="1576674541fdz8t5u0et" name="UkM1U0lNUAM+ZYe2x5B0hXh/Vc/0rzYM2W/ipf7nxmOIHCk0+a+xIv0+oAmU/RUxg9kUtGvOsyU=" author="UkM1U0lNUAO+WZ4j4VXrcby/5chfD9T8vB8YHBel9HVDLtJcu1b6RK04zU312fBB" url="" tags="UkM1U0lNUAN0B8bm0CakKehIXkMPOkPpioabAqWo+4j8D8rs5WLFr7BZIPMtcqs7g5Yc4caGyqk=" ctime="20191218160901" dir="15766745416cg3wez12l" file="text.html" crypt="1"/>
      </recordtable>
     </node>
+   </node>
+   <node crypt="" id="15535901428i8jinprzz" name="БЫТ">
+    <recordtable>
+     <record id="1566415580xqzc69zs73" name="ПОЛЕЗНЫЕ ЖИДКОСТИ" author="alensav" url="" tags="" ctime="20190821222620" dir="15664155806rbj3szyl0" file="text.html"/>
+     <record id="15677606654nupp13mgv" name="ПЛАН ПОКУПОК" author="alensav" url="" tags="ПЛАН, ПОКУПКИ" ctime="20190906120425" dir="1567760665b9lfophj4l" file="text.html"/>
+     <record id="1568120085fk49omcmmc" name="Анализ_ТОВАРОВ" author="alensav" url="" tags="товары, телефоны" ctime="20190910155445" dir="1568120085981eo8tvpk" file="text.html"/>
+     <record id="15742337173oh66oerfz" name="Врезка в полипропилен" author="alensav" url="" tags="Врезка, полипропилен, водоснабжение" ctime="20191120100837" dir="1574233717wlieionuh9" file="text.html"/>
+    </recordtable>
+    <node crypt="" id="155376513550q7ojpyrq" name="Поликарбонат">
+     <recordtable>
+      <record id="1553765391wxmsq3w2av" name="Как работать с поликарбонатом" author="alensav" url="https://otente.ru/polikarbonat/rabota-svoimi-rukami.html" tags="  поликарбонатом, быт" ctime="20190328122951" dir="1553765391cbqdg9iwvr" file="text.html"/>
+      <record id="1553767668fkr7zfleov" name="Как работать с поликарбонатом: общие рекомендации" author="alensav" url="http://propolikarbonat.ru/rabota-s-polikarbonatom" tags="Как работать с поликарбонатом: общие рекомендации" ctime="20190328130748" dir="1553767668pg7r8xukf4" file="text.html"/>
+      <record id="155376800991itx2esqf" name="Работа с поликарбонатом своими руками" author="alensav" url="https://kryshadoma.com/polikarbonat/rabota-s-polikarbonatom-svoimi-rukami.html" tags="Работа с поликарбонатом своими руками" ctime="20190328131329" dir="155376800907fw0mqwi8" file="text.html"/>
+      <record id="1553770508nw1f42w92m" name="Оптимальная толщина поликарбоната для навеса" author="alensav" url="https://srbu.ru/stroitelnye-materialy/252-kakoj-polikarbonat-luchshe-dlya-navesa.html" tags="Оптимальная толщина поликарбоната для навеса" ctime="20190328135508" dir="1553770508nj2ku418ol" file="text.html"/>
+      <record id="1553773162qpvlerl5tm" name="Монтаж поликарбоната на металлический каркас" author="alensav" url="https://teplica-exp.ru/montazh-polikarbonata-na-metallichesk/" tags="Монтаж поликарбоната на металлический каркас" ctime="20190328143922" dir="1553773162rct8rxbomd" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="15553416810rlppomr3c" name="РЕЦЕПТЫ">
+     <recordtable>
+      <record id="1545148485tbnadyjzg6" name="Рецепты_2018-2019" author="alensav" url="" tags="" ctime="20190415182121" dir="1545148485jxkkhpobuy" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1564568478zz04x0co9x" name="ТЕЛЕФОН">
+     <recordtable>
+      <record id="1564568572l3w13q7z3m" name="TELEFON" author="alensav" url="" tags="telefon, internet" ctime="20190731132252" dir="1564568572eriubwvo04" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="1564944123dz4ak0hxud" name="Дорожка садовая">
+     <recordtable>
+      <record id="156494417285z2jb4161" name="Дорожка" author="" url="" tags="" ctime="20190804214252" dir="1564944172lo5pyppf20" file="text.html"/>
+     </recordtable>
+    </node>
+   </node>
+   <node crypt="1" icon="" id="1578031593nmfgzbswkj" name="UkM1U0lNUAOnawHHHuV7ChlhFddmQRDFUPzGrKZwS0MHuLnzB5YA4HTaaA+EuC3C3bbaesy509x8Pi1VgA6TaQ==">
+    <recordtable>
+     <record id="15535905973wj72lxgch" name="UkM1U0lNUANZTut1NmhXPRXhVP31+iTZ7XrllewYEPkFg2tpqfKeR4V+pIaq+Vl0CE18BM6UNvgmMu3T50bOnGMIT5Di0SHS" author="UkM1U0lNUAN02InNJnRCXUO5SBOLVROLbxcfnEd5Plbe+LOz/J3o2bcBopdCM3b7IXINAIanquc=" url="" tags="UkM1U0lNUAOZf3jZDoDzgnsd1GYGRCTtsuDUBdt9bJ+Qbx67ibjl2FrbvkeJpZ+M" ctime="20200103090657" dir="15535905972t1yd6ig1f" file="text.html" crypt="1"/>
+     <record id="15541013155347n3gfvw" name="UkM1U0lNUAOEAXt8Xq3tlHWmfOatlMoNNVvK2x0HPPVA1ZT3GxhW7nNn5prvUDP9" author="UkM1U0lNUAMjAD1hycFiRSjtkmYBIFiYR8iArfiWktRuYo4peqou0VGkI1ap17Ys" url="" tags="UkM1U0lNUAPpZwNnkqqLks/v0FbCSbQ26IWN82YrGXdz7Hg486nP20e5+IGKQYI3i+IP3RpcICnHRLOI5m62kk9h/6doWkAU" ctime="20200103090723" dir="1554101315b72lxfamis" file="text.html" crypt="1"/>
+     <record id="1554100452wyuc4wpgwi" name="UkM1U0lNUAMLu8z5Dz1WF6R+yrjsAbvKah6sNAGZ3hKlkYivFBQiTq3Av3ldEz8L" author="UkM1U0lNUAP8YtNd9YzbAGjPLeZCq8a6aNuffixnIrekQlbFRPxQQgQUzzLT91a1" url="" tags="UkM1U0lNUANKNQP3aZHzzKG9LDuxtMdRq3m95BqCHZGOHhUQS0jgu7kGMhCfeNBO" ctime="20200103090739" dir="1554100452ujz77sdqny" file="text.html" crypt="1"/>
+    </recordtable>
    </node>
   </node>
   <node crypt="" id="1546065447cs5d3gvx7y" name="УДАЛЕННЫЙ_СЕРВИС">
