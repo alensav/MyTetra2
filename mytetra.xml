@@ -548,6 +548,7 @@
    <node crypt="" id="1576183585ec74nt3sxi" name="APACHER">
     <recordtable>
      <record id="1576183633wyllgx7do9" name="Apache HTTP Server " author="alensav" url="https://help.ubuntu.ru/wiki/apache2" tags="Apache HTTP Server " ctime="20191212234713" dir="15761836332uhpe4yxcv" file="text.html"/>
+     <record id="15799456051bcqrnny1w" name="Настройка public_html " author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0_public_html" tags="Настройка public_html " ctime="20200125124645" dir="1579945605n35e839ph3" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1576565598vlk1cc2yai" name="РЕЦЕПТЫ">
