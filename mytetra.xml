@@ -774,5 +774,10 @@
     <record id="1579696543ws9837i7ba" name="UkM1U0lNUAPvw1ScJMxyc2+17qY6XeV5hooiuJc39Tw3hIIoLEJ0voFc6HJ9Kz5t" author="" url="" tags="UkM1U0lNUAN9vifFYgq0JrQDKADyev7VLOkagzvpyRgtUYRzXWaPHt39DVFU2TWq" ctime="20200122153543" dir="1579696543hqyo3qkg8w" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1583149483626fb38mqu" name="!UBUNTU_переустановка">
+   <recordtable>
+    <record id="1583149576pheotpe1dx" name="UBUNTU_ПЕРЕУСТАНОВКА" author="alensav" url="" tags="UBUNTU_ПЕРЕУСТАНОВКА" ctime="20200302144616" dir="1583149576rj7co0oc39" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
