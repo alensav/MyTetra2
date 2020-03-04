@@ -722,6 +722,7 @@
     <record id="1579785469kf7nit67lo" name="Установка drush " author="ALENSAV" url="https://drupal-admin.ru/blog/drush-install" tags="Установка drush " ctime="20200123161749" dir="1579785469dv68lkaake" file="text.html"/>
     <record id="15801132105cbkdyeq4j" name="DOCS-PROEKT" author="alensav" url="" tags="DOCS-PROEKT" ctime="20200127112010" dir="15801132109ugr3b4b3k" file="text.html"/>
     <record id="15801391729r5cg192uk" name="Модули для Drupal – 30 самых лучших" author="alensav" url="https://drupal.ru/node/42762" tags="Модули для Drupal – 30 самых лучших" ctime="20200127183252" dir="15801391725er85flsw4" file="text.html"/>
+    <record id="1583337248icxfgvktmj" name="Управление конфигурациями в Drupal 8, обзор для разработчиков &#10;" author="alensav" url="https://habr.com/ru/post/248629/" tags="Управление конфигурациями в Drupal 8, обзор для разработчиков &#10;" ctime="20200304185408" dir="1583337248d5mk6duip1" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1576308177tq5cxsf6hh" name="MSQL">
