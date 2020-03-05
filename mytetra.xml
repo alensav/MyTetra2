@@ -780,5 +780,11 @@
     <record id="1583149576pheotpe1dx" name="UBUNTU_ПЕРЕУСТАНОВКА" author="alensav" url="" tags="UBUNTU_ПЕРЕУСТАНОВКА" ctime="20200302144616" dir="1583149576rj7co0oc39" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1583424602byt6c6u75l" name="!!Docker">
+   <recordtable>
+    <record id="1583424700bfeveaxppr" name="Project Docker" author="" url="" tags="Project Docker" ctime="20200305191140" dir="1583424700q9mkwe6q1b" file="text.html"/>
+    <record id="1583424740tlweq48hwe" name="Установка и настройка Docker4Drupal на Ubuntu " author="alensav" url="https://niklan.net/blog/172" tags="Установка и настройка Docker4Drupal на Ubuntu " ctime="20200305191220" dir="1583424740g2zndcenkb" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
