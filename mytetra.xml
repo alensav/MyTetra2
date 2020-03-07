@@ -799,5 +799,10 @@
     <record id="1583512982o7gj1fi734" name="Command_help" author="" url="" tags="Command_help" ctime="20200306194302" dir="1583512982tgunncytjy" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1583594631wnn491pd9b" name="!!OpenVPN">
+   <recordtable>
+    <record id="1583594744yme2mttp6x" name="OpenVPN" author="alensav" url="https://help.ubuntu.ru/wiki/openvpn" tags="OpenVPN" ctime="20200307182544" dir="1583594744fbdzkv5e4g" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
