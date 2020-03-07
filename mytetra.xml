@@ -788,5 +788,15 @@
     <record id="1583424740tlweq48hwe" name="Установка и настройка Docker4Drupal на Ubuntu " author="alensav" url="https://niklan.net/blog/172" tags="Установка и настройка Docker4Drupal на Ubuntu " ctime="20200305191220" dir="1583424740g2zndcenkb" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1583509015u04wg7v7ht" name="!!XAMP">
+   <recordtable>
+    <record id="1583509097rhgvsnayau" name="xamp" author="alensav" url="" tags="xamp" ctime="20200306183817" dir="1583509097tq7x2o5xb2" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1583512940mcdr2b67kf" name="!!COMMAND">
+   <recordtable>
+    <record id="1583512982o7gj1fi734" name="Command_help" author="" url="" tags="Command_help" ctime="20200306194302" dir="1583512982tgunncytjy" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
