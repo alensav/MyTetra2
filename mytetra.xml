@@ -804,5 +804,11 @@
     <record id="1583594744yme2mttp6x" name="OpenVPN" author="alensav" url="https://help.ubuntu.ru/wiki/openvpn" tags="OpenVPN" ctime="20200307182544" dir="1583594744fbdzkv5e4g" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1583748694rmk00wipyy" name="!!LXD">
+   <recordtable>
+    <record id="15837487748ez8xc42um" name="LXD" author="alensav" url="" tags="LXD" ctime="20200309131254" dir="1583748774yvbycruag8" file="text.html"/>
+    <record id="1583754705tdfz5mxiv6" name="Ваш первый LXD контейнер" author="alensav" url="http://vasilisc.com/lxd-2-0-your-first-lxd-container" tags="Ваш первый LXD контейнер" ctime="20200309145145" dir="1583754705u2cm7y56tl" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
