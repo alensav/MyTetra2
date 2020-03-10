@@ -797,6 +797,7 @@
   <node crypt="" id="1583512940mcdr2b67kf" name="!!COMMAND">
    <recordtable>
     <record id="1583512982o7gj1fi734" name="Command_help" author="" url="" tags="Command_help" ctime="20200306194302" dir="1583512982tgunncytjy" file="text.html"/>
+    <record id="1583847833inak4hulvm" name="Выполнение команд при запуске Ubuntu" author="alensav" url="https://programjutsu.wordpress.com/2010/06/23/выполнение-команд-при-запуске-ubuntu/" tags="Выполнение команд при запуске Ubuntu" ctime="20200310164353" dir="1583847833nk2mz2nc6x" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1583594631wnn491pd9b" name="!!OpenVPN">
@@ -808,6 +809,13 @@
    <recordtable>
     <record id="15837487748ez8xc42um" name="LXD" author="alensav" url="" tags="LXD" ctime="20200309131254" dir="1583748774yvbycruag8" file="text.html"/>
     <record id="1583754705tdfz5mxiv6" name="Ваш первый LXD контейнер" author="alensav" url="http://vasilisc.com/lxd-2-0-your-first-lxd-container" tags="Ваш первый LXD контейнер" ctime="20200309145145" dir="1583754705u2cm7y56tl" file="text.html"/>
+    <record id="1583869378x5ve3zhneg" name="LXC" author="alensav" url="https://linuxcontainers.org/ru/lxc/getting-started/" tags="LXC" ctime="20200310224258" dir="1583869378kvmadoc3mj" file="text.html"/>
+    <record id="1583869778jzivgj1mvf" name="my-container LXC" author="alensav" url="" tags="my-container LXC" ctime="20200310224938" dir="15838697784rff5yf2mt" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1583855436uha060b80n" name="!!IMAGE">
+   <recordtable>
+    <record id="1583855498ek9i2mpy6e" name="Пять лучших программ для просмотра изображений в Ubuntu/Kubuntu" author="alensav" url="http://rus-linux.net/nlib.php?name=/MyLDP/mm/image-viewers/5-programm-dlja-prosmotra-izobrazhenij.html" tags="Пять лучших программ для просмотра изображений в Ubuntu/Kubuntu" ctime="20200310185138" dir="1583855498wx5x1vkcfr" file="text.html"/>
    </recordtable>
   </node>
  </content>
