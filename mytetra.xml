@@ -817,6 +817,7 @@
     <record id="1583869378x5ve3zhneg" name="LXC" author="alensav" url="https://linuxcontainers.org/ru/lxc/getting-started/" tags="LXC" ctime="20200310224258" dir="1583869378kvmadoc3mj" file="text.html"/>
     <record id="1583869778jzivgj1mvf" name="my-container LXC" author="alensav" url="" tags="my-container LXC" ctime="20200310224938" dir="15838697784rff5yf2mt" file="text.html"/>
     <record id="1583937031e4yibqu6th" name="LXD 2.0." author="alensav" url="http://vasilisc.com/lxd-2-0-series" tags="LXD 2.0" ctime="20200311173031" dir="1583937031ev1n7t6gkh" file="text.html"/>
+    <record id="1584373737cvz3znx7o8" name="Установка LXC (2)" author="alensav" url="https://eax.me/lxc/" tags="Установка LXC (2)" ctime="20200316184857" dir="1584373737mgar54zgiu" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1583855436uha060b80n" name="!!IMAGE">
