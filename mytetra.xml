@@ -834,5 +834,13 @@
     <record id="1584031434403fgi0app" name="Capsule_TIME" author="alensav" url="" tags="Capsule_TIME" ctime="20200312194354" dir="1584031434kj6su2vdo0" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1584698785paru2luqfx" name="!!OnLineSERVICE">
+   <recordtable>
+    <record id="158469886815t0dvjlvd" name="Топ интернет-проектов в России&#10;" author="alensav" url="https://radar.yandex.ru/top_list?type=service" tags="Топ интернет-проектов в России&#10;" ctime="20200320130748" dir="15846988683z9utrvohq" file="text.html"/>
+    <record id="1584699040z3sb7w4gux" name="400 потрясающих бесплатных сервисов" author="alensav" url="https://habr.com/ru/post/271279/" tags="400 потрясающих бесплатных сервисов" ctime="20200320131040" dir="1584699040axa0xhsbwv" file="text.html"/>
+    <record id="15847018154oq6qjqi91" name="200 бесплатных сервисов на все случаи жизни " author="alensav" url="https://lifehacker.ru/200-free-services/" tags="200 бесплатных сервисов на все случаи жизни " ctime="20200320135655" dir="1584701815y0qvuoyxd4" file="text.html"/>
+    <record id="1584702364zexoy43t5m" name="￼￼Лучшие бесплатные интернет-сервисы " author="alensav" url="http://www.freeadvice.ru/iservices.php" tags="Лучшие бесплатные интернет-сервисы " ctime="20200320140604" dir="1584702364pc1fpa5x87" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
