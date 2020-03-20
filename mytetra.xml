@@ -150,6 +150,9 @@
      <record id="1581929811un5a5lpwlh" name="Lan_netplan" author="alensav" url="" tags="Lan netplan" ctime="20200217115651" dir="1581929811rc47l8qila" file="text.html"/>
      <record id="1582800719b2vhfuhgne" name="Как решить ошибку при установке mysql?" author="alensav" url="https://qna.habr.com/q/461943" tags="Как решить ошибку при установке mysql" ctime="20200227135159" dir="1582800719o0f8h21us3" file="text.html"/>
      <record id="158418042272tqw2ofav" name="USB controler" author="alensav" url="" tags="USB contro" ctime="20200314130702" dir="1584180422jtz3hh3mm5" file="text.html"/>
+     <record id="1584692689k7ta1x24jg" name="Что такое Emacs? " author="alensav" url="http://alexott.net/ru/writings/altlinux-emacs/" tags="Что такое Emacs? " ctime="20200320112449" dir="1584692689jkgfnk22vg" file="text.html"/>
+     <record id="1584692795999c9mwsxa" name="Почему Emacs? " author="alensav" url="https://habr.com/ru/post/190790/" tags="Почему Emacs? " ctime="20200320112635" dir="1584692795qk7ja8hct0" file="text.html"/>
+     <record id="1584692873ci06hubgo7" name="Emacs для начинающих" author="alensav" url="https://www.opennet.ru/docs/RUS/emacs_begin/" tags="Emacs для начинающих" ctime="20200320112753" dir="1584692873ln18zu59hr" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
