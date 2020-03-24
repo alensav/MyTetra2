@@ -371,6 +371,7 @@
       <record id="1575039552jea8z910cn" name="Вёрстка на Grid в CSS" author="ALENSAV" url="" tags="Вёрстка,  Grid в CSS" ctime="20191129175912" dir="1575039552itq2o19pta" file="text.html"/>
       <record id="157615660838vcntz5mn" name="Редакторы HTTM" author="" url="" tags="Редакторы HTTM" ctime="20191212161648" dir="1576156608dcd5p0m3k6" file="text.html"/>
       <record id="15844434109w9f90esug" name="Настройка Atom (full version) " author="alensav" url="http://blog.harrix.org/article/6076" tags="Настройка Atom (full version) " ctime="20200317141010" dir="1584443410pts5iirmnc" file="text.html"/>
+      <record id="1585037859dc87lv9u70" name="Visual code" author="" url="" tags="Visual code" ctime="20200324111739" dir="1585037859yh413a6s23" file="text.html"/>
      </recordtable>
      <node crypt="" id="1574497385mixdymvnys" name="САЙТ-ПРИЛОЖЕНИЙ">
       <recordtable>
@@ -844,6 +845,11 @@
     <record id="1584699040z3sb7w4gux" name="400 потрясающих бесплатных сервисов" author="alensav" url="https://habr.com/ru/post/271279/" tags="400 потрясающих бесплатных сервисов" ctime="20200320131040" dir="1584699040axa0xhsbwv" file="text.html"/>
     <record id="15847018154oq6qjqi91" name="200 бесплатных сервисов на все случаи жизни " author="alensav" url="https://lifehacker.ru/200-free-services/" tags="200 бесплатных сервисов на все случаи жизни " ctime="20200320135655" dir="1584701815y0qvuoyxd4" file="text.html"/>
     <record id="1584702364zexoy43t5m" name="￼￼Лучшие бесплатные интернет-сервисы " author="alensav" url="http://www.freeadvice.ru/iservices.php" tags="Лучшие бесплатные интернет-сервисы " ctime="20200320140604" dir="1584702364pc1fpa5x87" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="15850338763by0crf4o7" name="!!MyTetra_SAV">
+   <recordtable>
+    <record id="15850341682bw7un9z5e" name="MyTetra_SAV" author="" url="" tags="MyTetra_SAV" ctime="20200324101608" dir="15850341683jfik7pfbt" file="text.html"/>
    </recordtable>
   </node>
  </content>
