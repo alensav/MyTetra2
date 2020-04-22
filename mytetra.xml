@@ -154,6 +154,8 @@
      <record id="1584692795999c9mwsxa" name="Почему Emacs? " author="alensav" url="https://habr.com/ru/post/190790/" tags="Почему Emacs? " ctime="20200320112635" dir="1584692795qk7ja8hct0" file="text.html"/>
      <record id="1584692873ci06hubgo7" name="Emacs для начинающих" author="alensav" url="https://www.opennet.ru/docs/RUS/emacs_begin/" tags="Emacs для начинающих" ctime="20200320112753" dir="1584692873ln18zu59hr" file="text.html"/>
      <record id="1585068160pgwjm3aetn" name="Размер каталога" author="alensav" url="" tags="Размер каталога" ctime="20200324194240" dir="1585068160ufwv7cvbca" file="text.html"/>
+     <record id="15875479992qymz7vvug" name="GNU Make " author="alensav" url="https://www.sao.ru/hq/sts/linux/doc/infocity/GNU_Make_3-79_russian_manual.html" tags="GNU Make " ctime="20200422123319" dir="1587547999yiod2ybb54" file="text.html"/>
+     <record id="15875511663dtf8xvx54" name="Отладка с помощью GDB" author="alensav" url="http://rus-linux.net/nlib.php?name=/MyLDP/algol/gdb/otladka-s-gdb.html" tags="Отладка с помощью GDB" ctime="20200422132606" dir="15875511661p0fbznmax" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -375,6 +377,7 @@
       <record id="1585037859dc87lv9u70" name="Visual code" author="" url="" tags="Visual code" ctime="20200324111739" dir="1585037859yh413a6s23" file="text.html"/>
       <record id="1585242644gy07vro0e4" name="Полезные ссылки &#10;" author="alensav" url="" tags="Полезные ссылки &#10;visual" ctime="20200326201044" dir="15852426445q1j6abli5" file="text.html"/>
       <record id="15853947363hvlj6snmz" name="Справочник HTML " author="alensav" url="file:///home/alensav/Документы/Visual_code/HTMLRef/index.html" tags="Справочник HTML " ctime="20200328142536" dir="1585394736rlf0piuctc" file="text.html"/>
+      <record id="15875833948h1dy5auay" name="Расширения для Visual Studio Code" author="alensav" url="https://medium.com/nuances-of-programming/%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-visual-studio-code-%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5-%D0%BF%D0%BE%D0%B4%D0%BD%D0%B8%D0%BC%D1%83%D1%82-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BD%D0%B0-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C-a24f29173079" tags="Расширения для Visual Studio Code" ctime="20200422222314" dir="1587583394f0cvqhmw25" file="text.html"/>
      </recordtable>
      <node crypt="" id="1574497385mixdymvnys" name="САЙТ-ПРИЛОЖЕНИЙ">
       <recordtable>
