@@ -156,6 +156,7 @@
      <record id="1585068160pgwjm3aetn" name="Размер каталога" author="alensav" url="" tags="Размер каталога" ctime="20200324194240" dir="1585068160ufwv7cvbca" file="text.html"/>
      <record id="15875479992qymz7vvug" name="GNU Make " author="alensav" url="https://www.sao.ru/hq/sts/linux/doc/infocity/GNU_Make_3-79_russian_manual.html" tags="GNU Make " ctime="20200422123319" dir="1587547999yiod2ybb54" file="text.html"/>
      <record id="15875511663dtf8xvx54" name="Отладка с помощью GDB" author="alensav" url="http://rus-linux.net/nlib.php?name=/MyLDP/algol/gdb/otladka-s-gdb.html" tags="Отладка с помощью GDB" ctime="20200422132606" dir="15875511661p0fbznmax" file="text.html"/>
+     <record id="15878304163lp04k412q" name="C++" author="alensav" url="https://tproger.ru/translations/stanford-cpp-style-guide/" tags="C++" ctime="20200425190016" dir="158783041654ckyqezt8" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
