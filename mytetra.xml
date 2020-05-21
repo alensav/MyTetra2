@@ -870,5 +870,10 @@
     <record id="15872824221ky45xtlcv" name="Alias" author="alensav" url="" tags="Alias" ctime="20200419104702" dir="15872824227fexsge7ll" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1590068071bnf5d0113y" name="!!Yii">
+   <recordtable>
+    <record id="1590068165i9205uf78o" name="Полное руководство по Yii 2.0" author="alensav" url="https://www.yiiframework.com/doc/guide/2.0/ru/start-installation#installing-from-archive-file" tags="Полное руководство по Yii 2.0" ctime="20200521163605" dir="1590068165kg2kf5dsxd" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
