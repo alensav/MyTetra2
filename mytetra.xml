@@ -873,6 +873,7 @@
   <node crypt="" id="1590068071bnf5d0113y" name="!!Yii">
    <recordtable>
     <record id="1590068165i9205uf78o" name="Полное руководство по Yii 2.0" author="alensav" url="https://www.yiiframework.com/doc/guide/2.0/ru/start-installation#installing-from-archive-file" tags="Полное руководство по Yii 2.0" ctime="20200521163605" dir="1590068165kg2kf5dsxd" file="text.html"/>
+    <record id="1590069143swxz70p3ds" name="Установка из архива yii" author="alensav" url="http://www.webapplex.ru/ustanovka-yii-2.x-na-lokalnyij-kompyuter-s-windows" tags="Установка из архива" ctime="20200521165223" dir="1590069143zqib9z9opv" file="text.html"/>
    </recordtable>
   </node>
  </content>
