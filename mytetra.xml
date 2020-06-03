@@ -773,6 +773,11 @@
     <record id="1577029643gdepuk7lg2" name="Справочник3" author="alensav" url="" tags="Справочник php" ctime="20191222184723" dir="1577029643nuoljm9a3z" file="text.html"/>
     <record id="1577029995uma8781lew" name="Справочник функций" author="alensav" url="https://www.php.net/manual/ru/funcref.php" tags="Справочник функций" ctime="20191222185315" dir="1577029995f0x4ahrvd9" file="text.html"/>
     <record id="15771263965thxnsvyrv" name="Руководство по PHP" author="alensav" url="https://www.php.net/manual/ru/index.php" tags="Руководство по PHP" ctime="20191223213956" dir="1577126396dlc0tvk7rn" file="text.html"/>
+    <record id="1591203671q8q98h1ytk" name="PHP учебник" author="alensav" url="" tags="PHP учебник" ctime="20200603200111" dir="15912036715slp4m6hff" file="text.html">
+     <files>
+      <file id="1591203869fg005k2b2i" fileName="PHP_.pdf" type="file"/>
+     </files>
+    </record>
    </recordtable>
   </node>
   <node crypt="" id="1577037389176ergbiso" name="ZAKAZ">
