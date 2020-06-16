@@ -157,6 +157,10 @@
      <record id="15875479992qymz7vvug" name="GNU Make " author="alensav" url="https://www.sao.ru/hq/sts/linux/doc/infocity/GNU_Make_3-79_russian_manual.html" tags="GNU Make " ctime="20200422123319" dir="1587547999yiod2ybb54" file="text.html"/>
      <record id="15875511663dtf8xvx54" name="Отладка с помощью GDB" author="alensav" url="http://rus-linux.net/nlib.php?name=/MyLDP/algol/gdb/otladka-s-gdb.html" tags="Отладка с помощью GDB" ctime="20200422132606" dir="15875511661p0fbznmax" file="text.html"/>
      <record id="15878304163lp04k412q" name="C++" author="alensav" url="https://tproger.ru/translations/stanford-cpp-style-guide/" tags="C++" ctime="20200425190016" dir="158783041654ckyqezt8" file="text.html"/>
+     <record id="1592141606xawnvfp625" name="Clonezilla. Инструкция на русском " author="alensav" url="https://any-key.net/clonezilla-instrukciya-na-russkom/" tags="Clonezilla. Инструкция на русском " ctime="20200614163326" dir="1592141606zzw3wbty1k" file="text.html"/>
+     <record id="1592141716aa6pu19kef" name="Клонирование диска CloneZilla " author="alensav" url="https://losst.ru/klonirovanie-diska-clonezilla" tags="Клонирование диска CloneZilla " ctime="20200614163516" dir="1592141716p40zki3y16" file="text.html"/>
+     <record id="1592141937tmb38fnlgk" name="Клонирование настроенной операционной системы при помощи Clonezilla " author="alensav" url="https://it-school.pw/klonirovanie-nastroennoj-sistemy-pri-pomoshhi-clonezilla/" tags="Клонирование настроенной операционной системы при помощи Clonezilla " ctime="20200614163857" dir="15921419373on8pxiehq" file="text.html"/>
+     <record id="15921477076jjkwajnk1" name="Remastersys." author="alensav" url="http://www.linux-info.ru/remastersys.html" tags="Remastersys Создание загрузочного Live CD из установленной Ubuntu" ctime="20200614181507" dir="1592147707qcj5fk1zoc" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
