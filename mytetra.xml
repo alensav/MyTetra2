@@ -887,5 +887,10 @@
     <record id="1590069143swxz70p3ds" name="Установка из архива yii" author="alensav" url="http://www.webapplex.ru/ustanovka-yii-2.x-na-lokalnyij-kompyuter-s-windows" tags="Установка из архива" ctime="20200521165223" dir="1590069143zqib9z9opv" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1593694987jz2lkuh96a" name="!!Casandra">
+   <recordtable>
+    <record id="15936950274w47yzsiu7" name="настройки для Cassandra" author="alensav" url="https://community.vscale.io/hc/ru/community/posts/211673169-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Cassandra-%D0%BD%D0%B0-Ubuntu-16-04" tags="настройки для Cassandra" ctime="20200702160347" dir="15936950276wz6qwfx7f" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
