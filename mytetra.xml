@@ -239,6 +239,7 @@
     <node crypt="" id="1582319176ezuqae28b9" name="cups">
      <recordtable>
       <record id="1582319217khpcjrtuov" name="Ubuntu CUPS очистить очередь печати " author="alensav" url="http://onlyadmin.blogspot.com/2014/03/ubuntu-cups.html" tags="Ubuntu CUPS очистить очередь печати " ctime="20200222000657" dir="1582319217e2o9synune" file="text.html"/>
+      <record id="15948303212787rqme2d" name="Редактирование файла /etc/cups/cupsd.conf " author="alensav" url="https://it.wikireading.ru/10103" tags="Редактирование файла /etc/cups/cupsd.conf " ctime="20200715192521" dir="1594830321rr2cqtsjkp" file="text.html"/>
      </recordtable>
     </node>
    </node>
