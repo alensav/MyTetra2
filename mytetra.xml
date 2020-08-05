@@ -168,6 +168,7 @@
      <record id="1596484270oweompj7qc" name="mail-server" author="alensav" url="" tags="mail-server" ctime="20200803225110" dir="1596484270vz57rqf69h" file="text.html"/>
      <record id="1596486076954zj0gtqv" name="Postfix " author="alensav" url="https://help.ubuntu.com/community/Postfix" tags="Postfix " ctime="20200803232116" dir="1596486076i94tth3cti" file="text.html"/>
      <record id="1596486199omxdz13sga" name="Установка и настройка Postfix в Ubuntu" author="alensav" url="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-18-04-ru" tags="Установка и настройка Postfix в Ubuntu" ctime="20200803232319" dir="15964861997rh77ygdtu" file="text.html"/>
+     <record id="15966075030bkejil6m9" name="Что такое Kubernetes" author="alensav" url="https://kubernetes.io/ru/docs/concepts/overview/what-is-kubernetes/" tags="Что такое Kubernetes" ctime="20200805090503" dir="1596607503r0eekoo14o" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
