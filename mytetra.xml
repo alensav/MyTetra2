@@ -171,6 +171,7 @@
      <record id="15966075030bkejil6m9" name="Что такое Kubernetes" author="alensav" url="https://kubernetes.io/ru/docs/concepts/overview/what-is-kubernetes/" tags="Что такое Kubernetes" ctime="20200805090503" dir="1596607503r0eekoo14o" file="text.html"/>
      <record id="1601114307i0xqblzb5r" name="Lan" author="alensav" url="https://losst.ru/arp-skanirovanie-lokalnoj-seti-linux" tags="Lan" ctime="20200926125827" dir="1601114307vtcwl1s3zh" file="text.html"/>
      <record id="1601116732yuuzctu7iv" name="32 примера использования команды Nmap для Linux-систем" author="alensav" url="https://blog.sedicomm.com/2019/03/26/32-primera-ispolzovaniya-komandy-nmap-dlya-linux-sistem/" tags="32 примера использования команды Nmap для Linux-систем" ctime="20200926133852" dir="16011167329r5kr6sozf" file="text.html"/>
+     <record id="16011204550kw91nb5tj" name="Локальная сеть между Ubuntu Linux и Windows" author="alensav" url="http://ru.d-ws.biz/articles/lanOnLinuxAndWindows.shtml" tags="Локальная сеть между Ubuntu Linux и Windows" ctime="20200926144055" dir="1601120455vtn4ybqvaq" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
