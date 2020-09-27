@@ -172,6 +172,7 @@
      <record id="1601114307i0xqblzb5r" name="Lan" author="alensav" url="https://losst.ru/arp-skanirovanie-lokalnoj-seti-linux" tags="Lan" ctime="20200926125827" dir="1601114307vtcwl1s3zh" file="text.html"/>
      <record id="1601116732yuuzctu7iv" name="32 примера использования команды Nmap для Linux-систем" author="alensav" url="https://blog.sedicomm.com/2019/03/26/32-primera-ispolzovaniya-komandy-nmap-dlya-linux-sistem/" tags="32 примера использования команды Nmap для Linux-систем" ctime="20200926133852" dir="16011167329r5kr6sozf" file="text.html"/>
      <record id="16011204550kw91nb5tj" name="Локальная сеть между Ubuntu Linux и Windows" author="alensav" url="http://ru.d-ws.biz/articles/lanOnLinuxAndWindows.shtml" tags="Локальная сеть между Ubuntu Linux и Windows" ctime="20200926144055" dir="1601120455vtn4ybqvaq" file="text.html"/>
+     <record id="1601220076ff9youkdvb" name="Сетевой сканер Nmap как средство аудита локальной сети" author="alensav" url="https://compress.ru/article.aspx?id=17371" tags="Сетевой сканер Nmap как средство аудита локальной сети" ctime="20200927182116" dir="16012200760q7gnilvy4" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
