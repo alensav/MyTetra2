@@ -917,5 +917,10 @@
     <record id="15936950274w47yzsiu7" name="настройки для Cassandra" author="alensav" url="https://community.vscale.io/hc/ru/community/posts/211673169-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Cassandra-%D0%BD%D0%B0-Ubuntu-16-04" tags="настройки для Cassandra" ctime="20200702160347" dir="15936950276wz6qwfx7f" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1602238770st9sogjpf7" name="ПАМЯТКА">
+   <recordtable>
+    <record id="16022390629vle5lf20f" name="Памятка" author="alensav" url="" tags="Памятка история" ctime="20201009132422" dir="1602239062j90825o1aj" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
