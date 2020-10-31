@@ -934,7 +934,7 @@
   </node>
   <node crypt="" id="1602238770st9sogjpf7" name="ПАМЯТКА">
    <recordtable>
-    <record id="16022390629vle5lf20f" name="Памятка" author="alensav" url="" tags="Памятка история" ctime="20201009132422" dir="1602239062j90825o1aj" file="text.html"/>
+    <record id="16022390629vle5lf20f" name="Памятка1" author="alensav" url="" tags="Памятка история" ctime="20201009132422" dir="1602239062j90825o1aj" file="text.html"/>
     <record id="160337891855smticohr" name="Команды и сигналы Kill" author="alensav" url="http://rus-linux.net/MyLDP/consol/kill.html" tags="Команды и сигналы Kill" ctime="20201022180158" dir="1603378918a5rkxw3jr9" file="text.html"/>
    </recordtable>
   </node>
