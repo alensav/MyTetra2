@@ -199,6 +199,7 @@
      <record id="1604159435mlinie3rro" name="42 команды Linux которые вы должны знать " author="alensav" url="https://losst.ru/42-komandy-linux-kotorye-vy-dolzhny-znat" tags="42 команды Linux которые вы должны знать " ctime="20201031185035" dir="1604159435aa5qm61yf2" file="text.html"/>
      <record id="1604328142fo295jggn7" name="Что такое / dev / loop" author="alensav" url="https://askubuntu.ru/questions/88626/chto-takoe-dev-loopx-dublikat" tags="Что такое / dev / loop" ctime="20201102174222" dir="16043281423cb6es6nor" file="text.html"/>
      <record id="1604328476op7agdvhxb" name="Шифруем файлы и разделы с помощью Cryptoloop и алгоритма AES" author="alensav" url="http://mydebianblog.blogspot.com/2012/05/linux-loop-device-aes.html" tags="Шифруем файлы и разделы с помощью Cryptoloop и алгоритма AES" ctime="20201102174756" dir="1604328476tm955to4gd" file="text.html"/>
+     <record id="1604328987rkoikdj8pm" name="Перенос /home на зашифрованный раздел" author="alensav" url="https://libc6.org/page/perenos-home-na-zashifrovannyj-razdel/" tags="Перенос /home на зашифрованный раздел" ctime="20201102175627" dir="160432898751xpafgzq5" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
