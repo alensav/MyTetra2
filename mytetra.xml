@@ -217,6 +217,7 @@
      <record id="1606153614yvlu0fuq95" name="Как расшифровать хэш алгоритм (MD5, SHA, RIPEMD, DES и др.) с помощью HASHCAT &#10;" author="alensav" url="" tags="Как расшифровать хэш алгоритм (MD5, SHA, RIPEMD, DES и др.) с помощью HASHCAT &#10;" ctime="20201123204654" dir="1606153614tazw5pwox4" file="text.html"/>
      <record id="1606154190hbtb2c9bo8" name="Руководство по взлому паролей с помощью Hashcat &#10;" author="alensav" url="https://translate.google.com/translate?hl=&amp;sl=auto&amp;tl=ru&amp;u=https%3A%2F%2Fwww.unix-ninja.com%2Fp%2FA_guide_to_password_cracking_with_Hashcat" tags="Руководство по взлому паролей с помощью Hashcat &#10;" ctime="20201123205630" dir="1606154190x7ogd6r7hc" file="text.html"/>
      <record id="16061621228jlkbgsowz" name="BleachBit — это что-то на подобии CCleaner в Linux" author="alensav" url="http://linuxsoid.club/4-best-way-to-clean-the-trash-ubuntu" tags="BleachBit — это что-то на подобии CCleaner в Linux очистка Ubuntu" ctime="20201123230842" dir="1606162122q7j6l87vxy" file="text.html"/>
+     <record id="1606211226wftj2xeq2w" name="Инструкция по hashcat" author="alensav" url="https://hackware.ru/?p=4830" tags="Инструкция по hashcat: запуск и использование программы для взлома паролей " ctime="20201124124706" dir="1606211226s1bre9szst" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
