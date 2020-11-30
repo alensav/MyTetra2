@@ -981,6 +981,11 @@
     <record id="1606719034sbjflr5kxn" name="Возврат излишне перечисленных денежных средств " author="alensav" url="https://www.nic.ru/help/vozvrat-izlishne-perechislennyh-denezhnyh-sredstv-602/" tags="Возврат излишне перечисленных денежных средств " ctime="20201130095034" dir="1606719034xulk7mlzi0" file="text.html"/>
     <record id="1606719302cncl0dcqym" name="Письмо от физического лица на возврат излишне перечисленных средств " author="alensav" url="https://www.nic.ru/help/pis6mo-ot-fizicheskogo-lica-na-vozvrat-izlishne-perechislennyh-sredstv_3374.html" tags="Письмо от физического лица на возврат излишне перечисленных средств " ctime="20201130095502" dir="1606719302n9m0bk374s" file="text.html"/>
     <record id="1606719561ca5hhhllfe" name="Договор No- 1908649/NIC-D&#10;об оказании услуг" author="alensav" url="https://www.nic.ru/manager/contract.cgi?print=1&amp;step=contract.text&amp;view_format=html" tags="Договор No- 1908649/NIC-D&#10;об оказании услуг" ctime="20201130095921" dir="1606719561dmsyqzyxcl" file="text.html"/>
+    <record id="1606720121n5k6k2hoxs" name="RU_CENTER Платежи" author="alensav" url="" tags="RU_CENTER Платежи" ctime="20201130100841" dir="16067201210mtik273g9" file="text.html">
+     <files>
+      <file id="1606720190ei7ng86nbm" fileName="Schet_invoice_1908649.pdf" type="file"/>
+     </files>
+    </record>
    </recordtable>
   </node>
  </content>
