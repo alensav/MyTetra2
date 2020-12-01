@@ -989,5 +989,10 @@
     <record id="160681383410gqafzrp8" name="UkM1U0lNUAO6oFCsmagwbZESzMQ+Lf2vV5C+6Iy/sm3x6diRkDCi5AYseDIZVVUVRPKhBv6wcEQ=" author="UkM1U0lNUAOjLBRdzWUJZgl0QZckaE92xESJ/vPhHvl6iWIOSE6WCoj1aIrpGYsb" url="UkM1U0lNUAPhg1n9WeGghaivTyoesp+NA18/1BmhVy4+dDCpjJ3SK6Ix9dE6G4LHAb8vbQmeUVMKcS61yxqf6L/ieeC09tt/vsEGZfqvva4VgC0RAgoGIw0NNAZETi/bqJwKaD1RGzo=" tags="UkM1U0lNUAP2iUm/aswYZ8CMa85uibNs95e3hCMt/I61wz149aYkENmgltYJCNicxnQfbC68niU=" ctime="20201201121035" dir="1606813834vnwntig481" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1606849793aphujs8w9z" name="KYV">
+   <recordtable>
+    <record id="16068498284epmtv2z98" name="Настройка KVM на Ubuntu Server" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=kvm-ubuntu" tags="Настройка KVM на Ubuntu Server" ctime="20201201221028" dir="1606849828v1ueuiqjh6" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
