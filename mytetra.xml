@@ -993,6 +993,7 @@
   <node crypt="" id="1606849793aphujs8w9z" name="KYV">
    <recordtable>
     <record id="16068498284epmtv2z98" name="Настройка KVM на Ubuntu Server" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=kvm-ubuntu" tags="Настройка KVM на Ubuntu Server" ctime="20201201221028" dir="1606849828v1ueuiqjh6" file="text.html"/>
+    <record id="1606851591ltrpzpb8bm" name="Установка и настройка KVM на Ubuntu Server " author="alensav" url="https://obu4alka.ru/ustanovka-i-nastrojka-kvm-na-ubuntu-server.html" tags="Установка и настройка KVM на Ubuntu Server " ctime="20201201223951" dir="1606851591q6hzlp7cwe" file="text.html"/>
    </recordtable>
   </node>
  </content>
