@@ -995,6 +995,8 @@
     <record id="16068498284epmtv2z98" name="Настройка KVM на Ubuntu Server" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=kvm-ubuntu" tags="Настройка KVM на Ubuntu Server" ctime="20201201221028" dir="1606849828v1ueuiqjh6" file="text.html"/>
     <record id="1606851591ltrpzpb8bm" name="Установка и настройка KVM на Ubuntu Server " author="alensav" url="https://obu4alka.ru/ustanovka-i-nastrojka-kvm-na-ubuntu-server.html" tags="Установка и настройка KVM на Ubuntu Server " ctime="20201201223951" dir="1606851591q6hzlp7cwe" file="text.html"/>
     <record id="16068523175r6ndgu8bz" name="Установка KVM в Ubuntu " author="alensav" url="https://losst.ru/ustanovka-kvm-ubuntu-16-04" tags="Установка KVM в Ubuntu " ctime="20201201225157" dir="160685231743y9mko1zt" file="text.html"/>
+    <record id="1607007450fw96p1oko1" name="Виртуальные машины для Linux " author="alensav" url="https://losst.ru/virtualnye-mashiny-dlya-linux" tags="Виртуальные машины для Linux " ctime="20201203175730" dir="16070074500mlnengl2l" file="text.html"/>
+    <record id="1607007647df7v0p0kk4" name="Что такое виртуализация KVM " author="alensav" url="https://losst.ru/kvm" tags="Что такое виртуализация KVM " ctime="20201203180047" dir="1607007647in7jb7ocjv" file="text.html"/>
    </recordtable>
   </node>
  </content>
