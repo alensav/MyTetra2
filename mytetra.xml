@@ -999,5 +999,10 @@
     <record id="1607007647df7v0p0kk4" name="Что такое виртуализация KVM " author="alensav" url="https://losst.ru/kvm" tags="Что такое виртуализация KVM " ctime="20201203180047" dir="1607007647in7jb7ocjv" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1607027923gbxtebko29" name="PENTOO">
+   <recordtable>
+    <record id="1607028012uoce3oucai" name="Pentoo" author="alensav" url="https://www.comss.ru/page.php?id=2934" tags="Pentoo" ctime="20201203234012" dir="1607028012dd9mr06f3w" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
