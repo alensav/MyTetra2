@@ -1009,5 +1009,10 @@
     <record id="16072467989c70zfczme" name="бесплатный ISO-образ CAINE" author="alensav" url="https://translate.google.com/translate?hl=ru&amp;sl=en&amp;u=https://www.caine-live.net/page5/page5.html&amp;prev=search&amp;pto=aue" tags="бесплатный ISO-образ CAINE" ctime="20201206122638" dir="1607246798ucgz2louxm" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1607263828xjtmvrma8z" name="TEST">
+   <recordtable>
+    <record id="1607263858xn7m1m0vs9" name="HARDiNFO" author="" url="" tags="HARDiNFO test тест" ctime="20201206171058" dir="16072638585m47ibt8zt" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
