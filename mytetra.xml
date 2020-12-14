@@ -519,6 +519,7 @@
    <node crypt="" id="1546350738abjfg5ofdo" name="FSTAB_SAV">
     <recordtable>
      <record id="1546350787larmrscc8i" name="FSTAB_SAV" author="alensav" url="" tags="fstab" ctime="20190101165307" dir="1546350787fxfysbkhqx" file="text.html"/>
+     <record id="1607971046qpeirxq6hj" name="Подключение usb-диска в Ubuntu" author="alensav" url="https://www.1-ok.xyz/2019/02/time-capsule-ubuntu-server-18041.html" tags="Подключение usb-диска в Ubuntu" ctime="20201214213726" dir="1607971046uzoeuquhqz" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1546352094c1v07zjloo" name="SAVSCRIPTS">
