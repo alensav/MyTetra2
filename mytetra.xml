@@ -225,6 +225,7 @@
      <record id="1607696314xwnw6a4z5g" name="Права в Linux (chown, chmod, SUID, GUID, sticky bit, ACL, umask) " author="alensav" url="https://habr.com/ru/post/469667/" tags="Права в Linux (chown, chmod, SUID, GUID, sticky bit, ACL, umask) " ctime="20201211171834" dir="1607696314mflm5wtk0n" file="text.html"/>
      <record id="1607852567iszy617vo7" name="Установка Atom и добавление пакетов в Ubuntu " author="alensav" url="https://adminunix.ru/ustanovka-atom-i-dobavlenie-paketov-v-ubuntu/" tags="Установка Atom и добавление пакетов в Ubuntu " ctime="20201213124247" dir="1607852567ndmffqmgk3" file="text.html"/>
      <record id="1607853879mjq5kmivdx" name="Видео редактор Kdenlive" author="alensav" url="https://omgubuntu.ru/21-must-have-apps-ubuntu/" tags="Видео редактор Kdenlive" ctime="20201213130439" dir="1607853879iyjslqziim" file="text.html"/>
+     <record id="1608391685302wyuyoaw" name="Установка LAMP Ubuntu 16.04 " author="alensav" url="https://losst.ru/ustanovka-lamp-ubuntu-16-04" tags="Установка LAMP Ubuntu 16.04 apache2 php" ctime="20201219182805" dir="1608391685ul9qfv4iuk" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
