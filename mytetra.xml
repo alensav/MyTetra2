@@ -1048,6 +1048,10 @@
     <record id="1608578566zuarwpio72" name="UkM1U0lNUAODPVIowBvmVHw14Th2wQzz7Ir974DP4lM+jgrlMczuJJz/3+8ADbuxz04knSjfSkcHQOYUJ4K3ndviEWE5MyuW8jg3jlU8DzNFnoL2KQq8PKHf6KZ3LxiM9V/m7vC+o1L8ku4CUTRPWPODaLnk+jbpGdPx1g4CfMtGTkDhdCV+MZuf5bbkESYskmN2mlM5HBeoGxLC3o6i+t9/+rKjvYDT" author="UkM1U0lNUANAeaBoOrxOjvv4S/MWrrTv4NE0DOHV4Lv1tj8EbnTy01kkXMhp7uMX" url="" tags="UkM1U0lNUAMEf7TBuwICNarpzhF0zWyx01M6BVYQTFSsbws1Ax1uCOiHW6J/CT2S+W6K2sjmmM1h9vneXBct789wU7NLwlpdjFiR2HAyXupxHs2D9sDgs6TNzU3m/Ccxajxa23RyK+qzpAiDUmL5jfJ6VZWEEE55vhJ1Tq3YL08VxEU5NBF1/ESCNv8DSb6km04995Z9KMosSjVYq2oQMC9JEcNPp0Oo" ctime="20201221222246" dir="160857856606alwwtuk6" file="text.html" crypt="1"/>
    </recordtable>
   </node>
-  <node crypt="" id="1609083780gptbqdvtxj" name="ALLPEN"/>
+  <node crypt="" id="1609083780gptbqdvtxj" name="ALLPEN">
+   <recordtable>
+    <record id="1609084283n9hxhyyfif" name="Публичная оферта " author="alensav" url="" tags="Публичная оферта  allpen" ctime="20201227185123" dir="1609084283ddx3hqnm3i" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
