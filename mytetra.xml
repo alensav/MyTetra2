@@ -930,6 +930,7 @@
     <record id="16100088633txy6shqhu" name="LXC Centos" author="alensav" url="" tags="LXC Centos" ctime="20210107114103" dir="1610008863cghqoplg43" file="text.html"/>
     <record id="1610135767du55kldbs2" name="Запускаем виртуализацию LXC на Ubuntu" author="alensav" url="https://itldc.com/ru/oldblog/linux-containers-lxc-ubuntu/" tags="Запускаем виртуализацию LXC на Ubuntu" ctime="20210108225607" dir="1610135767ax2pz2ao17" file="text.html"/>
     <record id="16102130997y1huwk6jy" name="Базовые команды CentOS" author="alensav" url="https://voxlink.ru/kb/linux/bazovye-komandy-centos/" tags="Базовые команды CentOS" ctime="20210109202459" dir="1610213099s7zkahx1zs" file="text.html"/>
+    <record id="1610216306gov3n270tg" name="Контейнеры LXC в Linux &#10;" author="alensav" url="https://losst.ru/kontejnery-linux-ustanovka-i-nastrojka-lxc" tags="Контейнеры LXC в Linux &#10;" ctime="20210109211826" dir="1610216306hkmt4ekirk" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1583855436uha060b80n" name="!!IMAGE">
