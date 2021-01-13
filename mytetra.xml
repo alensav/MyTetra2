@@ -231,8 +231,8 @@
      <record id="1608978155n7hwyp8pqm" name="Как настроить виртуальные хосты в Apache на Ubuntu 16.04" author="alensav" url="https://www.digitalocean.com/community/tutorials/apache-ubuntu-16-04-ru" tags="Как настроить виртуальные хосты в Apache на Ubuntu 16.04" ctime="20201226132235" dir="16089781554n1ty0fdi1" file="text.html"/>
      <record id="16089955210oh8len0eh" name="Как добавить пользователя в группу Linux" author="alensav" url="https://losst.ru/kak-dobavit-polzovatelya-v-gruppu-linux" tags="Как добавить пользователя в группу Linux" ctime="20201226181201" dir="16089955212m83pc6gi2" file="text.html"/>
      <record id="1610264246m72cmbga55" name="опыт установки и настройки LXC" author="alensav" url="https://forum.astralinux.ru/threads/1264/#post-6164" tags="опыт установки и настройки LXC" ctime="20210110103727" dir="1610264246z6n69km39x" file="text.html"/>
-     <record id="1610473265fk2inohbn4" name="Как освободить память занимаемую процессами&#10;" author="alensav" url="https://losst.ru/kak-osvobodit-pamyat-linux" tags="Как освободить память занимаемую процессами&#10;" ctime="20210112204105" dir="1610473265sz5wv8gcku" file="text.html"/>
      <record id="1610474183mpgrcsztm5" name="Настройка zRam в Linux &#10;" author="alensav" url="https://losst.ru/nastrojka-zram-v-linux" tags="Настройка zRam в Linux &#10;" ctime="20210112205623" dir="1610474183tvtquwjn5g" file="text.html"/>
+     <record id="1610473265fk2inohbn4" name="Как освободить память занимаемую процессами&#10;" author="alensav" url="https://losst.ru/kak-osvobodit-pamyat-linux" tags="Как освободить память занимаемую процессами&#10;" ctime="20210112204105" dir="1610473265sz5wv8gcku" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
