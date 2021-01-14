@@ -234,6 +234,7 @@
      <record id="1610474183mpgrcsztm5" name="Настройка zRam в Linux &#10;" author="alensav" url="https://losst.ru/nastrojka-zram-v-linux" tags="Настройка zRam в Linux &#10;" ctime="20210112205623" dir="1610474183tvtquwjn5g" file="text.html"/>
      <record id="1610473265fk2inohbn4" name="Как освободить память занимаемую процессами&#10;" author="alensav" url="https://losst.ru/kak-osvobodit-pamyat-linux" tags="Как освободить память занимаемую процессами&#10;" ctime="20210112204105" dir="1610473265sz5wv8gcku" file="text.html"/>
      <record id="1610623124aetxvauhds" name="Базовые возможности LXD — системы контейнеров в Linux " author="alensav" url="https://habr.com/ru/post/496492/" tags="Базовые возможности LXD — системы контейнеров в Linux " ctime="20210114141844" dir="1610623124c9qqny5uas" file="text.html"/>
+     <record id="1610637485wjcrd4g2qx" name="LXC: Kонтейнерные утилиты Linux" author="alensav" url="https://www.ibm.com/developerworks/ru/library/l-lxc-containers/index.html" tags="LXC: Kонтейнерные утилиты Linux" ctime="20210114181805" dir="1610637485nok7htxqdv" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
