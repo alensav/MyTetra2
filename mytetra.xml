@@ -236,6 +236,7 @@
      <record id="1610623124aetxvauhds" name="Базовые возможности LXD — системы контейнеров в Linux " author="alensav" url="https://habr.com/ru/post/496492/" tags="Базовые возможности LXD — системы контейнеров в Linux " ctime="20210114141844" dir="1610623124c9qqny5uas" file="text.html"/>
      <record id="1610644205kycq4ajy25" name="Как установить контейнеры LXD / LXC в Ubuntu ? " author="alensav" url="https://unixhow.com/4709/kak-ustanovit-kontejnery-lxd-lxc-v-ubuntu" tags="Как установить контейнеры LXD / LXC в Ubuntu ? " ctime="20210114201005" dir="1610644205ejjav7k3n8" file="text.html"/>
      <record id="1610637485wjcrd4g2qx" name="LXC: Kонтейнерные утилиты Linux" author="alensav" url="https://www.ibm.com/developerworks/ru/library/l-lxc-containers/index.html" tags="LXC: Kонтейнерные утилиты Linux" ctime="20210114181805" dir="1610637485nok7htxqdv" file="text.html"/>
+     <record id="1610794142eig2pc80df" name="Ошибка сети Apache AH00072: make_sock: не удалось привязать к адресу ApacheСети " author="alensav" url="https://translate.google.com/translate?hl=ru&amp;sl=en&amp;u=https://www.digitalocean.com/community/tutorials/apache-network-error-ah00072-make_sock-could-not-bind-to-address&amp;prev=search&amp;pto=aue" tags="Ошибка сети Apache AH00072: make_sock: не удалось привязать к адресу ApacheСети " ctime="20210116134902" dir="1610794142s6dh4kua2z" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
