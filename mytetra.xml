@@ -1108,6 +1108,11 @@
     <record id="1611146829pz1fcdxd69" name="Управление версиями в&#10;Subversion" author="alensav" url="http://svnbook.red-bean.com/" tags="Управление версиями в&#10;Subversion" ctime="20210120154709" dir="1611146829s4kvw2w9ki" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1611646875f35wb3b2rf" name="RUBY"/>
+  <node crypt="" id="1611646875f35wb3b2rf" name="RUBY">
+   <recordtable>
+    <record id="16116477305igq8netoa" name="Rails для начинающих&#10;" author="alensav" url="http://rusrails.ru/getting-started-with-rails" tags="Rails для начинающих&#10;" ctime="20210126105530" dir="16116477308liaf1qqke" file="text.html"/>
+    <record id="1611647856a53yw3fynn" name="Ruby on Rails — это веб-фреймворк с открытым кодом" author="alensav" url="http://rusrails.ru/" tags="Ruby on Rails — это веб-фреймворк с открытым кодом" ctime="20210126105736" dir="1611647856agpr6du07i" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
