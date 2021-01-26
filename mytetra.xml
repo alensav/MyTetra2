@@ -1112,6 +1112,7 @@
    <recordtable>
     <record id="16116477305igq8netoa" name="Rails для начинающих&#10;" author="alensav" url="http://rusrails.ru/getting-started-with-rails" tags="Rails для начинающих&#10;" ctime="20210126105530" dir="16116477308liaf1qqke" file="text.html"/>
     <record id="1611647856a53yw3fynn" name="Ruby on Rails — это веб-фреймворк с открытым кодом" author="alensav" url="http://rusrails.ru/" tags="Ruby on Rails — это веб-фреймворк с открытым кодом" ctime="20210126105736" dir="1611647856agpr6du07i" file="text.html"/>
+    <record id="1611648019e4zbxz5vh0" name="Заметки о релизе Ruby on Rails 4.2" author="alensav" url="https://github.com/morsbox/rusrails/blob/4.2/source/4_2_release_notes.md" tags="Заметки о релизе Ruby on Rails 4.2" ctime="20210126110019" dir="16116480196estbnt4kw" file="text.html"/>
    </recordtable>
   </node>
  </content>
