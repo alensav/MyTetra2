@@ -1116,5 +1116,10 @@
     <record id="1611648019e4zbxz5vh0" name="Заметки о релизе Ruby on Rails 4.2" author="alensav" url="https://github.com/morsbox/rusrails/blob/4.2/source/4_2_release_notes.md" tags="Заметки о релизе Ruby on Rails 4.2" ctime="20210126110019" dir="16116480196estbnt4kw" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1611952488228s0n1yo3" name="PYTHON">
+   <recordtable>
+    <record id="1611952585p84naw4jxz" name="Программа на Python" author="alensav" url="https://help.ubuntu.ru/fullcircle/27/python_%D1%87_1" tags="Программа на Python" ctime="20210129233625" dir="1611952585xwr54rs5qg" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
