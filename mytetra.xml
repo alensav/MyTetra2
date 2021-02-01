@@ -1119,6 +1119,14 @@
   <node crypt="" id="1611952488228s0n1yo3" name="PYTHON">
    <recordtable>
     <record id="1611952585p84naw4jxz" name="Программа на Python" author="alensav" url="https://help.ubuntu.ru/fullcircle/27/python_%D1%87_1" tags="Программа на Python" ctime="20210129233625" dir="1611952585xwr54rs5qg" file="text.html"/>
+    <record id="1612205633vkqfm2hrkn" name="Основы языка программирования Python за 10 минут " author="alensav" url="https://habr.com/ru/post/31180/" tags="Основы языка программирования Python за 10 минут " ctime="20210201215353" dir="1612205633cclt3cs1na" file="text.html"/>
+    <record id="1612205829yja0bbc94c" name="Комментарии Python" author="alensav" url="https://habr.com/ru/post/31180/" tags="Комментарии Python" ctime="20210201215709" dir="16122058295i5be7dbye" file="text.html"/>
+    <record id="1612206450jdwz7hmepj" name="Python для начинающих" author="alensav" url="https://geekbrains.ru/courses/112" tags="Python для начинающих" ctime="20210201220730" dir="1612206450huohlxptnr" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1612206165unsfym2rxh" name="ANDROID_MOBILE">
+   <recordtable>
+    <record id="1612206246f1d7s0b978" name="10 языков для Android-разработчика" author="alensav" url="https://geekbrains.ru/posts/android_dev_langs" tags="10 языков для Android-разработчика" ctime="20210201220406" dir="1612206246u518r4gol1" file="text.html"/>
    </recordtable>
   </node>
  </content>
