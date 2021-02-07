@@ -1146,6 +1146,7 @@
     <record id="1612722163fo5i45ad0l" name="Веб-фреймворк Django (Python)" author="alensav" url="https://developer.mozilla.org/ru/docs/Learn/Server-side/Django" tags="Веб-фреймворк Django (Python)" ctime="20210207212243" dir="1612722163jrfo5cmfkg" file="text.html"/>
     <record id="1612722317ks1wg59ivk" name="Что такое Django?" author="alensav" url="https://tutorial.djangogirls.org/ru/django/" tags="Что такое Django?" ctime="20210207212517" dir="161272231708l3eolp3h" file="text.html"/>
     <record id="1612722967y7bk9dc654" name="Глава 1. Введение в Django" author="alensav" url="https://www.djbook.ru/ch01.html" tags="Глава 1. Введение в Django" ctime="20210207213607" dir="1612722967yyrbsi6kki" file="text.html"/>
+    <record id="1612726138abndaz7uk4" name="Эффективный Django. Часть 1 " author="alensav" url="https://habr.com/ru/post/240463/" tags="Эффективный Django. Часть 1 " ctime="20210207222858" dir="1612726138e1nhyzqjbu" file="text.html"/>
    </recordtable>
   </node>
  </content>
