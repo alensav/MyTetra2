@@ -1141,5 +1141,10 @@
     <record id="1612206246f1d7s0b978" name="10 языков для Android-разработчика" author="alensav" url="https://geekbrains.ru/posts/android_dev_langs" tags="10 языков для Android-разработчика" ctime="20210201220406" dir="1612206246u518r4gol1" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1612722097yn5yhhu8u0" name="Django">
+   <recordtable>
+    <record id="1612722163fo5i45ad0l" name="Веб-фреймворк Django (Python)" author="alensav" url="https://developer.mozilla.org/ru/docs/Learn/Server-side/Django" tags="Веб-фреймворк Django (Python)" ctime="20210207212243" dir="1612722163jrfo5cmfkg" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
