@@ -1149,5 +1149,10 @@
     <record id="1612726138abndaz7uk4" name="Эффективный Django. Часть 1 " author="alensav" url="https://habr.com/ru/post/240463/" tags="Эффективный Django. Часть 1 " ctime="20210207222858" dir="1612726138e1nhyzqjbu" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1612779447v6stir2yys" name="Редакторы HTML">
+   <recordtable>
+    <record id="16127794828kkesxtnq1" name="Особенности Sublime Text 3&#10;" author="alensav" url="https://techrocks.ru/2018/01/08/best-linux-code-editors/" tags="Особенности Sublime Text 3&#10;" ctime="20210208131802" dir="1612779482f4a7x8ef6d" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
