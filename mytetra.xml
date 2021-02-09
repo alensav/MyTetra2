@@ -1155,5 +1155,10 @@
     <record id="16128633776nbnh57qmj" name="Общая настройка VS Code " author="alensav" url="https://itchief.ru/javascript/vscode-configuration-for-frontend-development" tags="Общая настройка VS Code " ctime="20210209123617" dir="161286337781aqg5k7d9" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1612887919a06kuphu0w" name="GIT-PYTHON_SAV">
+   <recordtable>
+    <record id="16128879781m9r1g0mno" name="Отправить файлы в Github" author="alensav" url="https://coderoad.ru/44643741/%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D1%84%D0%B0%D0%B9%D0%BB%D1%8B-%D0%B2-Github" tags="Отправить файлы в Github" ctime="20210209192618" dir="1612887978t7yf8tlpnl" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
