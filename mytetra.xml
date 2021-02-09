@@ -1152,6 +1152,7 @@
   <node crypt="" id="1612779447v6stir2yys" name="Редакторы HTML">
    <recordtable>
     <record id="16127794828kkesxtnq1" name="Особенности Sublime Text 3&#10;" author="alensav" url="https://techrocks.ru/2018/01/08/best-linux-code-editors/" tags="Особенности Sublime Text 3&#10;" ctime="20210208131802" dir="1612779482f4a7x8ef6d" file="text.html"/>
+    <record id="16128633776nbnh57qmj" name="Общая настройка VS Code " author="alensav" url="https://itchief.ru/javascript/vscode-configuration-for-frontend-development" tags="Общая настройка VS Code " ctime="20210209123617" dir="161286337781aqg5k7d9" file="text.html"/>
    </recordtable>
   </node>
  </content>
