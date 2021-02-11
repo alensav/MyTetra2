@@ -1163,5 +1163,10 @@
     <record id="1612959425ymy5ihdo54" name="Установка git" author="alensav" url="https://qna.habr.com/q/140825" tags="Установка git настройка" ctime="20210210151705" dir="161295942549wduhaxot" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1613072615ewzbq1whwg" name="webDAV-webMoney">
+   <recordtable>
+    <record id="1613072713miz1lz53wr" name="webdav" author="alensav" url="https://files.web.money/account/webdav" tags="webdav" ctime="20210211224513" dir="1613072713my919fj6df" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
