@@ -1181,5 +1181,11 @@
     <record id="1613665538qondaf7gpn" name="ОГЛАВЛЕНИЕ" author="alensav" url="" tags="ОГЛАВЛЕНИЕ" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1613673263d0onl73zn8" name="МОИ ДЕЛА">
+   <recordtable>
+    <record id="1613673345l38qo2i0ws" name="СДЕЛАТЬ" author="alensav" url="" tags="сделать, дела, план" ctime="20210218213545" dir="1613673345363rt4ydjl" file="text.html"/>
+    <record id="1613673386752ddx6g1f" name="СДЕЛАНО" author="alensav" url="" tags="сделать, дела, план, сделано" ctime="20210218213626" dir="1613673386jberh2azj6" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
