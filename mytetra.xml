@@ -1187,9 +1187,9 @@
     <record id="1613673386752ddx6g1f" name="СДЕЛАНО" author="alensav" url="" tags="сделать, дела, план, сделано" ctime="20210218213626" dir="1613673386jberh2azj6" file="text.html"/>
     <record id="1613673487dykucjvnhg" name="ЗАВИСШИЕ" author="alensav" url="" tags="сделать, дела, план, зависшие, отложенныу" ctime="20210218213807" dir="1613673487su42s34d7h" file="text.html"/>
    </recordtable>
-   <node crypt="" id="1613673671s65chhvcks" name="СДЕЛАТЬ"/>
-   <node crypt="" id="1613673685eqm17chnnq" name="СДЕЛАНО"/>
-   <node crypt="" id="1613673705wd1etsora1" name="ЗАВИСШИЕ"/>
+   <node crypt="" icon="/Swift/color_swift_Browserpen.svg" id="1613673671s65chhvcks" name="СДЕЛАТЬ"/>
+   <node crypt="" icon="/Swift/color_swift_Vimeo.svg" id="1613673685eqm17chnnq" name="СДЕЛАНО"/>
+   <node crypt="" icon="/Swift/color_swift_Molecule.svg" id="1613673705wd1etsora1" name="ЗАВИСШИЕ"/>
   </node>
  </content>
 </root>
