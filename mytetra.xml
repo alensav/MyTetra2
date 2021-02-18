@@ -723,7 +723,7 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="15535901428i8jinprzz" name="БЫТ">
+   <node crypt="" icon="/BlueSphere/color_bluesphere_configure.svg" id="15535901428i8jinprzz" name="БЫТ">
     <recordtable>
      <record id="1566415580xqzc69zs73" name="ПОЛЕЗНЫЕ ЖИДКОСТИ" author="alensav" url="" tags="" ctime="20190821222620" dir="15664155806rbj3szyl0" file="text.html"/>
      <record id="15677606654nupp13mgv" name="ПЛАН ПОКУПОК" author="alensav" url="" tags="ПЛАН, ПОКУПКИ" ctime="20190906120425" dir="1567760665b9lfophj4l" file="text.html"/>
@@ -755,7 +755,7 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="1555266555at5aw5hgc7" name="САД">
+   <node crypt="" icon="/BwCinema/nocolor_cinema_Close Up Mode.svg" id="1555266555at5aw5hgc7" name="САД">
     <recordtable>
      <record id="1555266823r2vjr4q7b7" name="САД-Прививка" author="alensav" url="" tags="сад, прививка" ctime="20190414213343" dir="15552668238x3dnfz4vr" file="text.html"/>
     </recordtable>
