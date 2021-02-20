@@ -1192,7 +1192,17 @@
     <record id="1613673386752ddx6g1f" name="СДЕЛАНО" author="alensav" url="" tags="сделать, дела, план, сделано" ctime="20210218213626" dir="1613673386jberh2azj6" file="text.html"/>
     <record id="1613673487dykucjvnhg" name="ЗАВИСШИЕ" author="alensav" url="" tags="сделать, дела, план, зависшие, отложенныу" ctime="20210218213807" dir="1613673487su42s34d7h" file="text.html"/>
    </recordtable>
-   <node crypt="" icon="/Swift/color_swift_Browserpen.svg" id="1613673671s65chhvcks" name="СДЕЛАТЬ"/>
+   <node crypt="" icon="/Swift/color_swift_Browserpen.svg" id="1613673671s65chhvcks" name="СДЕЛАТЬ">
+    <recordtable>
+     <record id="1613813965gih5b1rnxo" name="В Подвале пропылесосить, убрать мусор и помыть лестницу." author="" url="" tags="В Подвале пропылесосить, убрать мусор и помыть лестницу." ctime="20210220123925" dir="1613813965dodxcfthni" file="text.html"/>
+     <record id="16138139973tq6vl0keb" name="Разобраться и отремонтировать железную дверь под навесом." author="" url="" tags="Разобраться и отремонтировать железную дверь под навесом." ctime="20210220123957" dir="1613813997u23b7fsfi5" file="text.html"/>
+     <record id="16138140218jb4rx2owc" name="Поставить батарею в ванной." author="" url="" tags="Поставить батарею в ванной." ctime="20210220124021" dir="1613814021navdg7yxrs" file="text.html"/>
+     <record id="1613814053xzz9q5f9u3" name="Заменить покрытие навеса со стороны улицы." author="" url="" tags="Заменить покрытие навеса со стороны улицы." ctime="20210220124053" dir="1613814053wyh83ol5sh" file="text.html"/>
+     <record id="16138140746b8mnt7rkg" name="Обследовать трубу на крыше." author="" url="" tags="Обследовать трубу на крыше." ctime="20210220124114" dir="1613814074cz1b87w3w6" file="text.html"/>
+     <record id="1613814107y4mzn1am9g" name="Обрезать сливу у навеса удлиненными ножницами." author="" url="" tags="Обрезать сливу у навеса удлиненными ножницами." ctime="20210220124147" dir="1613814107bd4zf7t2yd" file="text.html"/>
+     <record id="16138141362khg362pvs" name="Завершить тротуар на улице удлинить водоотливную трубу. Можно применить камень который лежит на огороде." author="" url="" tags="Завершить тротуар на улице удлинить водоотливную трубу. Можно применить камень который лежит на огороде." ctime="20210220124216" dir="16138141363g7qgbr6xg" file="text.html"/>
+    </recordtable>
+   </node>
    <node crypt="" icon="/Swift/color_swift_Vimeo.svg" id="1613673685eqm17chnnq" name="СДЕЛАНО"/>
    <node crypt="" icon="/Swift/color_swift_Molecule.svg" id="1613673705wd1etsora1" name="ЗАВИСШИЕ"/>
   </node>
