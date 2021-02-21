@@ -1179,7 +1179,11 @@
   </node>
   <node crypt="" icon="/Gnome/color_gnome_2_dialog-warning.svg" id="16136654772yl49sahzq" name="OGLAVLENIYE!!!!">
    <recordtable>
-    <record id="1613665538qondaf7gpn" name="ОГЛАВЛЕНИЕ" author="alensav" url="" tags="ОГЛАВЛЕНИЕ" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html"/>
+    <record id="1613665538qondaf7gpn" name="ОГЛАВЛЕНИЕ" author="alensav" url="" tags="ОГЛАВЛЕНИЕ" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html">
+     <files>
+      <file id="1613897870at5mnmf63b" fileName="index.html" link="/home/alensav/Документы/BOOKS/HTMLRef/index.html" type="link"/>
+     </files>
+    </record>
    </recordtable>
    <node crypt="" id="1613678210jw0wy9pnw4" name="IKONKI">
     <recordtable>
