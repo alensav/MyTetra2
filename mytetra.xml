@@ -1224,5 +1224,10 @@
     <record id="1613746481mu9i88g9mn" name="UkM1U0lNUANq4LIjRsYPDdX2N3RuOkDvnDuiLtgU8mKakHboLyKniLQr3mndStZx6lV4gC5n9NQ=" author="" url="" tags="UkM1U0lNUANdpaTHhVbqzNM9aKjjSXhUBO6v6t6bmIQ49s13QcvhgC9BS8M9Bn3iCSecXpylcyE=" ctime="20210219175441" dir="16137464810g5x1ilykv" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="16142542621x5ekfx12g" name="Google_AdSense">
+   <recordtable>
+    <record id="1614254339661yao3oj7" name="Платежный аккаунт" author="alensav" url="" tags="Платежный аккаунт" ctime="20210225145859" dir="1614254339qytvtuqqvs" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
