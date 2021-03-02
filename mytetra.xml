@@ -1234,5 +1234,10 @@
     <record id="1614443575jcw0gsntan" name="Littrass" author="alensav" url="" tags="Littrass" ctime="20210227193255" dir="1614443575cogi8qha5v" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1614674479vtyxsagese" name="NEWS_IT">
+   <recordtable>
+    <record id="1614674532kwtbg1v115" name="My List&#10;" author="alensav" url="" tags="My List&#10;" ctime="20210302114212" dir="1614674532bvu99mz508" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
