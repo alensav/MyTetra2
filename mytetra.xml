@@ -1239,5 +1239,10 @@
     <record id="1614674532kwtbg1v115" name="My List&#10;" author="alensav" url="" tags="My List&#10;" ctime="20210302114212" dir="1614674532bvu99mz508" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1614678122s9ypt4xas7" name="ALPINE_LINUX">
+   <recordtable>
+    <record id="1614678190mxms3f34kd" name="Про Alpine" author="alensav" url="https://habr.com/ru/company/digdes/blog/415279/" tags="Про Alpine linux" ctime="20210302124310" dir="1614678190ck3l83p1en" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
