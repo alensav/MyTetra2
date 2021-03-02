@@ -1222,7 +1222,6 @@
   <node crypt="1" icon="UkM1U0lNUAP528yi0ZjjXHlv14dU5CMOJchnDDqT9iUK4srPdAwRx1qQuY4cAqcyRVQbmFg7LJZisH5fuD+C+wXerWucH6bU4G7Vd/d9s6CiFnCJgwlYSA==" id="1613746293qpx5dox2un" name="UkM1U0lNUAPZ0XnXHmuaeNZyq3d+h0fC5MlFw4dBRrlTe0bdphWU0zFwc1leZw8t">
    <recordtable>
     <record id="1613746481mu9i88g9mn" name="UkM1U0lNUANq4LIjRsYPDdX2N3RuOkDvnDuiLtgU8mKakHboLyKniLQr3mndStZx6lV4gC5n9NQ=" author="" url="" tags="UkM1U0lNUANdpaTHhVbqzNM9aKjjSXhUBO6v6t6bmIQ49s13QcvhgC9BS8M9Bn3iCSecXpylcyE=" ctime="20210219175441" dir="16137464810g5x1ilykv" file="text.html" crypt="1"/>
-    <record id="16146794824qwfkwuli7" name="UkM1U0lNUAOB+rpXcPliZLP8Nk2Sh+8JLBNOQal2Oi9FDs9JrOftoYJYYRw7o5/XsP3jb914FU3MP4tc1rq4yxzYzd2YfCd1" author="UkM1U0lNUAND63iXbJbu7lqBnL5CWHOxFvinjRbQFDxLhvHvsWdR1b4C+26tdfMX" url="UkM1U0lNUAMNfJ/R++K8cxG1HfJg/OKPtTApBKkFwUni5t4pm8fG8nwQpzIWre4Vu2DIF/GCWV3+V7GsSeY+hcxs2gZaTa38e/Cp2P0UP2M=" tags="UkM1U0lNUAPjPxjCMcTQrcX2/jgBs7QcJtZ4VXUHRsUDBnt8ciNN6D6jGudrSQKzsW25ZwIBSH/nVtzHyu5YjsuLuruvEkwv" ctime="20210302130442" dir="16146794827iof7fntph" file="text.html" crypt="1"/>
    </recordtable>
   </node>
   <node crypt="1" icon="" id="16142542621x5ekfx12g" name="UkM1U0lNUAPz7l6Vqcm/fI2v1xzquwwiHVhH0UUIPlFvZWvTh90Vie+WDyGLuE88bWt4oSb1ZKg=">
@@ -1243,6 +1242,8 @@
   <node crypt="" id="1614678122s9ypt4xas7" name="ALPINE_LINUX">
    <recordtable>
     <record id="1614678190mxms3f34kd" name="Про Alpine" author="alensav" url="https://habr.com/ru/company/digdes/blog/415279/" tags="Про Alpine linux" ctime="20210302124310" dir="1614678190ck3l83p1en" file="text.html"/>
+    <record id="16146794824qwfkwuli7" name="Установка Alpine Linux " author="alesav" url="https://losst.ru/ustanovka-alpine-linux" tags="Установка Alpine Linux " ctime="20210302130457" dir="16146794827iof7fntph" file="text.html" crypt="0"/>
+    <record id="1614679689dlkhwdqg0z" name="Alpine linux установка и настройка" author="alensav" url="https://zhumor.ru/internet/alpine-linux-ustanovka-i-nastroika-h-zachem-ispolzovat-alpine-v.html" tags="Alpine linux установка и настройка.Зачем использовать Alpine в качестве основы docker-образа в черновиках " ctime="20210302130809" dir="1614679689jnie3zijne" file="text.html"/>
    </recordtable>
   </node>
  </content>
