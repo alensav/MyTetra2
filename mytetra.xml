@@ -1253,5 +1253,10 @@
     <record id="1614679689dlkhwdqg0z" name="Alpine linux установка и настройка" author="alensav" url="https://zhumor.ru/internet/alpine-linux-ustanovka-i-nastroika-h-zachem-ispolzovat-alpine-v.html" tags="Alpine linux установка и настройка.Зачем использовать Alpine в качестве основы docker-образа в черновиках " ctime="20210302130809" dir="1614679689jnie3zijne" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1615018448eokhxbn2jt" name="DOCKER_SAV">
+   <recordtable>
+    <record id="1615018648zc9g37vjvk" name="Docker-SAV" author="alensav" url="" tags="docker " ctime="20210306111728" dir="1615018648yl3z20a5iu" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
