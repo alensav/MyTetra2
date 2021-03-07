@@ -245,6 +245,7 @@
      <record id="1614785676pgj1s3udd9" name="SSH &#10;Содержание" author="alensav" url="https://help.ubuntu.ru/wiki/ssh" tags="SSH &#10;Содержание" ctime="20210303183436" dir="1614785676ke44vh36mg" file="text.html"/>
      <record id="1615112941wqinz8douh" name="LXC &#10;Содержание" author="alensav" url="https://help.ubuntu.ru/wiki/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_ubuntu_server/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/lxc" tags="LXC &#10;Содержание" ctime="20210307132901" dir="1615112941lj4ha19uy7" file="text.html"/>
      <record id="16151277178kua3yvzj1" name="SSH &#10;Содержание" author="alensav" url="https://help.ubuntu.ru/wiki/ssh" tags="SSH &#10;Содержание" ctime="20210307173517" dir="16151277174uz1ylq5zx" file="text.html"/>
+     <record id="1615131211ovt436brs5" name="SSH — настройка доступа к серверу, команды и подключение без паролей" author="alensav" url="https://sheensay.ru/ssh" tags="SSH — настройка доступа к серверу, команды и подключение без паролей" ctime="20210307183331" dir="1615131211djmzqxvxj5" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
