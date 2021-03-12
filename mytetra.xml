@@ -248,6 +248,7 @@
      <record id="1615131211ovt436brs5" name="SSH — настройка доступа к серверу, команды и подключение без паролей" author="alensav" url="https://sheensay.ru/ssh" tags="SSH — настройка доступа к серверу, команды и подключение без паролей" ctime="20210307183331" dir="1615131211djmzqxvxj5" file="text.html"/>
      <record id="1615132880gb9taq0tc5" name="команды command ubuntu" author="alensav" url="https://losst.ru/komandy-terminala-linux" tags="команды command ubuntu" ctime="20210307190120" dir="1615132880wec87lqyrt" file="text.html"/>
      <record id="1615456319rlzid1xuwk" name="Xfce (Русский) " author="alensav" url="https://wiki.archlinux.org/index.php/Xfce_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="Xfce (Русский) " ctime="20210311125159" dir="1615456319lsqatx8maf" file="text.html"/>
+     <record id="1615576909eehi9zqzsa" name="Планирование включения в Linux" author="alensav" url="https://losst.ru/zapusk-i-zavershenie-po-raspisaniyu-v-linux" tags="Планирование включения в Linux" ctime="20210312222149" dir="1615576909phh27dkv2z" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
