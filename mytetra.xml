@@ -250,6 +250,7 @@
      <record id="1615456319rlzid1xuwk" name="Xfce (Русский) " author="alensav" url="https://wiki.archlinux.org/index.php/Xfce_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="Xfce (Русский) " ctime="20210311125159" dir="1615456319lsqatx8maf" file="text.html"/>
      <record id="1615576909eehi9zqzsa" name="Планирование включения в Linux" author="alensav" url="https://losst.ru/zapusk-i-zavershenie-po-raspisaniyu-v-linux" tags="Планирование включения в Linux" ctime="20210312222149" dir="1615576909phh27dkv2z" file="text.html"/>
      <record id="16155780043ata3z66dx" name="Как добавить команду в Cron &#10;" author="фдутыфм" url="https://losst.ru/kak-dobavit-komandu-v-cron" tags="Как добавить команду в Cron &#10;" ctime="20210312224004" dir="1615578004wgb7fn8kji" file="text.html"/>
+     <record id="1615622630hmil5nkryj" name="gpart — пример работы с дисками " author="alensav" url="https://rtfm.co.ua/freebsd-gpart-primer-raboty-s-diskami/" tags="gpart — пример работы с дисками " ctime="20210313110350" dir="1615622630nqaeu6egk8" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
