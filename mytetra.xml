@@ -252,6 +252,7 @@
      <record id="16155780043ata3z66dx" name="Как добавить команду в Cron &#10;" author="фдутыфм" url="https://losst.ru/kak-dobavit-komandu-v-cron" tags="Как добавить команду в Cron &#10;" ctime="20210312224004" dir="1615578004wgb7fn8kji" file="text.html"/>
      <record id="1615622630hmil5nkryj" name="gpart — пример работы с дисками " author="alensav" url="https://rtfm.co.ua/freebsd-gpart-primer-raboty-s-diskami/" tags="gpart — пример работы с дисками " ctime="20210313110350" dir="1615622630nqaeu6egk8" file="text.html"/>
      <record id="16156264760iig3f3xys" name="Мини-HOWTO: Восстановление разделов" author="alensav" url="https://www.opennet.ru/docs/HOWTO-RU/mini/Partition-Rescue-mini-HOWTO.html" tags="Мини-HOWTO: Восстановление разделов" ctime="20210313120756" dir="1615626476ujn9zo8ow4" file="text.html"/>
+     <record id="1615800663yxkee9ots5" name="Удаление старых ядер " author="alensav" url="" tags="Удаление старых ядер " ctime="20210315123103" dir="1615800663gcsixinzcm" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
