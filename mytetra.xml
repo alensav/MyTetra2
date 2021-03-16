@@ -1273,5 +1273,10 @@
    </recordtable>
   </node>
   <node crypt="" id="1615887092mn9j7j4umf" name="ORANGE_PI"/>
+  <node crypt="" id="1615913077n8mmwd4k6f" name="MAC">
+   <recordtable>
+    <record id="1615913113bi7e4jb6w6" name="Как в Linux по MAC-адресу определить производителя устройства" author="alensav" url="https://hackware.ru/?p=3602" tags="Как в Linux по MAC-адресу определить производителя устройства" ctime="20210316194513" dir="1615913113n9yqwa3gva" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
