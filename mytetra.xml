@@ -1278,5 +1278,10 @@
     <record id="1615913113bi7e4jb6w6" name="Как в Linux по MAC-адресу определить производителя устройства" author="alensav" url="https://hackware.ru/?p=3602" tags="Как в Linux по MAC-адресу определить производителя устройства" ctime="20210316194513" dir="1615913113n9yqwa3gva" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1615975228cc4j1bx4dg" name="F-612">
+   <recordtable>
+    <record id="161597539839zy0vl764" name="DNS" author="alensav" url="" tags="dns" ctime="20210317130318" dir="1615975398ea3y9ka74n" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
