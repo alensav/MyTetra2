@@ -1292,6 +1292,7 @@
   <node crypt="" id="161660017815q8my3gd3" name="VIM">
    <recordtable>
     <record id="16166002166e7oyb4aah" name="Установка VIM в Linux&#10;" author="alensav" url="https://techrocks.ru/2018/01/08/best-linux-code-editors/" tags="Установка VIM в Linux&#10;" ctime="20210324183656" dir="16166002162c0s0263jk" file="text.html"/>
+    <record id="1616601193tug2tr8p7w" name="vim - Vi IMproved (Улучшенный Vi), текстовый редактор для программисто" author="alensav" url="https://manpages.debian.org/stretch/vim-gui-common/gvim.1.ru.html" tags="vim - Vi IMproved (Улучшенный Vi), текстовый редактор для программисто" ctime="20210324185313" dir="1616601193fhouju6x8p" file="text.html"/>
    </recordtable>
   </node>
  </content>
