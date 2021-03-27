@@ -1189,7 +1189,7 @@
     <record id="1613072713miz1lz53wr" name="webdav" author="alensav" url="https://files.web.money/account/webdav" tags="webdav" ctime="20210211224513" dir="1613072713my919fj6df" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="16134607331i8cqhtlrg" name="M_RUSAKOV_Teacher">
+  <node crypt="" icon="/Cinema/color_cinema_Idea.svg" id="16134607331i8cqhtlrg" name="M_RUSAKOV_Teacher">
    <recordtable>
     <record id="1613460804zrrj5dmshl" name="Обучение_HTML" author="" url="" tags="Обучение_HTML" ctime="20210216103324" dir="16134608040iu9a16j2d" file="text.html"/>
    </recordtable>
