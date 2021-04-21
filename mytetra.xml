@@ -1306,9 +1306,9 @@
     <record id="1618605986zro0m33mhl" name="UkM1U0lNUANSyOlt7F1iPBU00VRWEtSBoYd96qeBzs5nAklWd1xBbrdACZXY2g7s10UO8JJTXbM=" author="UkM1U0lNUAMBImlD5rsLz5e/VPiGnkNRimYXnLk0Myd39zjbpDuurWhGvQsFbw0V" url="" tags="UkM1U0lNUAPruHeJxCmK5koBm+lfoGuaSl3vAz01qKI5/VLfFenV/+Eu7DmqyNIlDyFs8M8PUzI=" ctime="20210416234626" dir="161860598621fc2z25w7" file="text.html" crypt="1"/>
    </recordtable>
   </node>
-  <node crypt="" id="16189984486lfufrdbwt" name="MONEY">
+  <node crypt="1" icon="" id="16189984486lfufrdbwt" name="UkM1U0lNUAPVC+SLXPRMxBPrqGPIag1gqPIYBvoh0ceHtBR9ddb8m+L6ICVb0oj1">
    <recordtable>
-    <record id="1618998495a5yp7hdl2u" name="Perfect Money" author="alensav" url="https://perfectmoney.is/?lang=ru_RU&amp;welcome=1" tags="Perfect Money" ctime="20210421124815" dir="1618998495yeddo9khkw" file="text.html"/>
+    <record id="1618998495a5yp7hdl2u" name="UkM1U0lNUAM1XpZLY942c2MoWASyw/Rp6xSb0YbvSib3nAPSmVQBAyHKNoPE1e7EzJ6lrtiByAo=" author="UkM1U0lNUAOlbIzRoepo7eqobU/3ay5duTXlWfTFzqiBGYU5NVh5hCocj0SswHOx" url="UkM1U0lNUAO3zXgssyHSH/rbqdxmb9aU8Nu52Sr0jeSIi9JyntRYkoewuLGOCkVYGAX4fDnmfbP1mPLhCwFgH/XUkvyx7uuTk1v9IG+/YAvaPIiIOXo1iA==" tags="UkM1U0lNUAMMYOK7F7AzRLUaQaIWPbb/8VuCIEWhm/TmTVun0/TDUQVFHDafeUIt1UQjAi3GkI4=" ctime="20210421124815" dir="1618998495yeddo9khkw" file="text.html" crypt="1"/>
    </recordtable>
   </node>
  </content>
