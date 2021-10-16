@@ -1347,5 +1347,10 @@
     <record id="1632666944sjyydw6hfk" name="EKSPORT_NASTROEK_1" author="alensav" url="" tags="экспорт, export" ctime="20210926173544" dir="1632666944gdxidofeyb" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1634395091gtf18a283u" name="Django">
+   <recordtable>
+    <record id="1634395228kc3ap4vpsq" name="Django_virtual" author="alensav" url="https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-18-04-ru" tags="django, virtual, python" ctime="20211016174028" dir="16343952286okurehnu5" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
