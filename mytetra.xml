@@ -1352,6 +1352,10 @@
     <record id="1634395228kc3ap4vpsq" name="Django_virtual" author="alensav" url="https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-18-04-ru" tags="django, virtual, python" ctime="20211016174028" dir="16343952286okurehnu5" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="16349299118rx6uhj6nr" name="EXPORT_NASTR_UBUNTU"/>
+  <node crypt="" id="16349299118rx6uhj6nr" name="EXPORT_NASTR_UBUNTU">
+   <recordtable>
+    <record id="1634930087gkwa37yj9l" name="Экспорт настроек" author="alensav" url="https://qastack.ru/ubuntu/25633/how-to-migrate-user-settings-and-data-to-new-machine" tags="Экспорт настроек ubunntu" ctime="20211022221447" dir="1634930087g90cs5vnaj" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
