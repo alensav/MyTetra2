@@ -1358,5 +1358,10 @@
     <record id="1634930087gkwa37yj9l" name="Экспорт настроек" author="alensav" url="https://qastack.ru/ubuntu/25633/how-to-migrate-user-settings-and-data-to-new-machine" tags="Экспорт настроек ubunntu" ctime="20211022221447" dir="1634930087g90cs5vnaj" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="16353567780wapmhyqql" name="Diagnostika">
+   <recordtable>
+    <record id="1635356885eri7kxyh92" name="DIAGNOZ_PC" author="alensav" url="https://www.instapaper.com/read/1455685752" tags="список аппаратных устройств диагностика" ctime="20211027204805" dir="1635356885hpmru9ptff" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
