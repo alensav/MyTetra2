@@ -30,6 +30,7 @@
     <record id="1547279150zx1ur0cdop" name="Слушаем музыку  cmus " author="alensav" url="https://eax.me/cmus/" tags="musik, музыка, консоль, cmus" ctime="20190112104550" dir="154727915040k9dkkqmz" file="text.html"/>
     <record id="1547385990gpzqw7pmt8" name="шпаргалка по работе с Git" author="alensav" url="https://eax.me/git-commands/" tags="шпаргалка, Git" ctime="20190113162630" dir="1547385990vntsg3sw86" file="text.html"/>
     <record id="1548957905ii2nao29vs" name="Советы начинающему проектировщику" author="alensav" url="" tags="Советы,  начинающему,  проектировщику, план" ctime="20191121215426" dir="1548957905isfm2dx70g" file="text.html"/>
+    <record id="1613026155waitjet0dj" name="Git Управление" author="alensav" url="" tags="Git Управление" ctime="20210211094915" dir="161302615525hh0xbebs" file="text.html"/>
    </recordtable>
    <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
     <recordtable>
@@ -88,7 +89,6 @@
      <record id="15480839612q8ovakdnt" name="Как скачать файл с сети в консоли?" author="alensav" url="http://pro-spo.ru/linux-for-beginner/2864-2011-12-06-11-37-05" tags="скачать,  файл,  сети, сеть,  консолиь" ctime="20190121181921" dir="1548083961e8vi0xq0yj" file="text.html"/>
      <record id="1548145751sgraor4ddt" name="Анализ нагрузки на веб-сервер Linux" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=web-load-analis" tags="Анализ, нагрузки,  веб-сервер, Linux,  nginx, Apache, PHP-FPM" ctime="20190122112911" dir="154814575144imqniqxe" file="text.html"/>
      <record id="1548176161586hiatc5d" name="Ubuntu SERVER" author="alensav" url="" tags="tasksel, ubuntu, server" ctime="20190122195601" dir="1548176161bb5kmsn6se" file="text.html"/>
-     <record id="15481833311a6mjs9012" name="MYSQL" author="alensav" url="https://community.vscale.io/hc/ru/community/posts/209370225-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-MySQL-%D0%BD%D0%B0-Ubuntu-16-04" tags="MYSQL, база, данных" ctime="20190122215531" dir="1548183331j65ohwpb7k" file="text.html"/>
      <record id="154824696348qlfsmyio" name="ODA File Converter" author="alensav" url="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=ru&amp;prev=search&amp;rurl=translate.google.ru&amp;sl=en&amp;sp=nmt4&amp;u=https://www.opendesign.com/guestfiles/oda_file_converter&amp;xid=17259,15700022,15700043,15700186,15700191,15700248&amp;usg=ALkJrhgix1xHUe2FJcPyFDpdhYF4IOraeA" tags="преобразования, dwg, .dxf" ctime="20190123153603" dir="1548246963p2rxtm6pmd" file="text.html"/>
      <record id="1548259118pbj0yzcb7d" name="BRL-CAD" author="alensav" url="https://brlcad.org/wiki/Compiling" tags="BRL-CAD, autocad, dwg" ctime="20190123185838" dir="1548259118nbkeis1ujv" file="text.html"/>
      <record id="15483554397tiyokifee" name="БД" author="alensav" url="https://1cloud.ru/help/website-hosting/kak-ustanovit-joomla-3-na-ubuntu" tags="bd, бд, база. данных" ctime="20190124214359" dir="1548355439g676e66qj5" file="text.html"/>
@@ -220,6 +220,44 @@
      <record id="1606211226wftj2xeq2w" name="Инструкция по hashcat" author="alensav" url="https://hackware.ru/?p=4830" tags="Инструкция по hashcat: запуск и использование программы для взлома паролей " ctime="20201124124706" dir="1606211226s1bre9szst" file="text.html"/>
      <record id="1606212699sapi1d9jfh" name="Руководство по Ubuntu для новичков " author="alensav" url="https://help.ubuntu.ru/manual/%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB" tags="Руководство по Ubuntu для новичков терминал" ctime="20201124131139" dir="1606212699k0urphcpjl" file="text.html"/>
      <record id="160685052841slcmscaj" name="как подключться к группе в Ubuntu" author="alensav" url="https://losst.ru/gruppy-polzovatelej-linux" tags="как подключться к группе в Ubuntu Группы пользователей Linux " ctime="20201201222208" dir="1606850528h5mv80w9cv" file="text.html"/>
+     <record id="1607264590xt0hlokoet" name="Команда dd Linux &#10;" author="alensav" url="https://losst.ru/komanda-dd-linux" tags="Команда dd Linux &#10;" ctime="20201206172310" dir="160726459041hlzxthoi" file="text.html"/>
+     <record id="1607265227g7mimitvs2" name="TeamViewer ID: 639609426 " author="alensav" url="https://login.teamviewer.com/authorizedevice.aspx?version=1&amp;token=BQ0BBAAAAMMQbAcCBAAAAFKqHyYDDQAAAFJvc3Rvdi1vbi1Eb24EAgAAAFJVBQ8AAAAyMDIwMTIwNlQxNDMwNTMGAgAAAHJ1BxAAAADwT34oNIx-AJx8VI7o1sG3CEAAAACuKl6kgx68J6Jj7avg_iLBOn7jB3QkKPZHog0sUORAWPitdcfIy6swFBycajJHmMgXO0Nv36ObFxC_-uELZNO3CQcAAABhbGVuc2F2CgwAAAABAgMEBQYHCQsMDQoMDAAAADgwLjI1NC4xMjcuMQ4QAAAA6fpReXslTa-453HK4gOQff4BAAAALA" tags="TeamViewer ID: 639609426 " ctime="20201206173347" dir="16072652274gcxw2v9l2" file="text.html"/>
+     <record id="1607696314xwnw6a4z5g" name="Права в Linux (chown, chmod, SUID, GUID, sticky bit, ACL, umask) " author="alensav" url="https://habr.com/ru/post/469667/" tags="Права в Linux (chown, chmod, SUID, GUID, sticky bit, ACL, umask) " ctime="20201211171834" dir="1607696314mflm5wtk0n" file="text.html"/>
+     <record id="1607852567iszy617vo7" name="Установка Atom и добавление пакетов в Ubuntu " author="alensav" url="https://adminunix.ru/ustanovka-atom-i-dobavlenie-paketov-v-ubuntu/" tags="Установка Atom и добавление пакетов в Ubuntu " ctime="20201213124247" dir="1607852567ndmffqmgk3" file="text.html"/>
+     <record id="1607853879mjq5kmivdx" name="Видео редактор Kdenlive" author="alensav" url="https://omgubuntu.ru/21-must-have-apps-ubuntu/" tags="Видео редактор Kdenlive" ctime="20201213130439" dir="1607853879iyjslqziim" file="text.html"/>
+     <record id="1608391685302wyuyoaw" name="Установка LAMP Ubuntu 16.04 " author="alensav" url="https://losst.ru/ustanovka-lamp-ubuntu-16-04" tags="Установка LAMP Ubuntu 16.04 apache2 php" ctime="20201219182805" dir="1608391685ul9qfv4iuk" file="text.html"/>
+     <record id="160848702865sagec8wq" name="Установка и настройка сервера Apache " author="alensav" url="https://losst.ru/ustanovka-i-nastrojka-servera-apache" tags="Установка и настройка сервера Apache server сервер " ctime="20201220205708" dir="1608487028jddcezsqdx" file="text.html"/>
+     <record id="16089280160v9dvrsksi" name="Ошибка конфигурации Apache" author="alensav" url="https://translate.google.com/translate?hl=ru&amp;sl=en&amp;u=https://www.digitalocean.com/community/tutorials/apache-configuration-error-ah00558-could-not-reliably-determine-the-server-s-fully-qualified-domain-name&amp;prev=search&amp;pto=aue" tags="Ошибка конфигурации Apache AH00558" ctime="20201225232656" dir="1608928016qtnjuwkkwt" file="text.html"/>
+     <record id="16089281529v87ntu6o5" name="Apache2 Поддержка виртуального хоста на основе имени" author="alensav" url="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=ru&amp;prev=search&amp;pto=aue&amp;rurl=translate.google.com&amp;sl=en&amp;sp=nmt4&amp;u=https://httpd.apache.org/docs/current/vhosts/name-based.html&amp;usg=ALkJrhiQiCJzWj2s8rxe7sFiMMSY8a-L0g" tags="Поддержка виртуального хоста на основе имени apache2 server" ctime="20201225232912" dir="1608928152q8tr1s0yag" file="text.html"/>
+     <record id="1608978155n7hwyp8pqm" name="Как настроить виртуальные хосты в Apache на Ubuntu 16.04" author="alensav" url="https://www.digitalocean.com/community/tutorials/apache-ubuntu-16-04-ru" tags="Как настроить виртуальные хосты в Apache на Ubuntu 16.04" ctime="20201226132235" dir="16089781554n1ty0fdi1" file="text.html"/>
+     <record id="16089955210oh8len0eh" name="Как добавить пользователя в группу Linux" author="alensav" url="https://losst.ru/kak-dobavit-polzovatelya-v-gruppu-linux" tags="Как добавить пользователя в группу Linux" ctime="20201226181201" dir="16089955212m83pc6gi2" file="text.html"/>
+     <record id="1610264246m72cmbga55" name="опыт установки и настройки LXC" author="alensav" url="https://forum.astralinux.ru/threads/1264/#post-6164" tags="опыт установки и настройки LXC" ctime="20210110103727" dir="1610264246z6n69km39x" file="text.html"/>
+     <record id="1610474183mpgrcsztm5" name="Настройка zRam в Linux &#10;" author="alensav" url="https://losst.ru/nastrojka-zram-v-linux" tags="Настройка zRam в Linux &#10;" ctime="20210112205623" dir="1610474183tvtquwjn5g" file="text.html"/>
+     <record id="1610473265fk2inohbn4" name="Как освободить память занимаемую процессами&#10;" author="alensav" url="https://losst.ru/kak-osvobodit-pamyat-linux" tags="Как освободить память занимаемую процессами&#10;" ctime="20210112204105" dir="1610473265sz5wv8gcku" file="text.html"/>
+     <record id="1610623124aetxvauhds" name="Базовые возможности LXD — системы контейнеров в Linux " author="alensav" url="https://habr.com/ru/post/496492/" tags="Базовые возможности LXD — системы контейнеров в Linux " ctime="20210114141844" dir="1610623124c9qqny5uas" file="text.html"/>
+     <record id="1610644205kycq4ajy25" name="Как установить контейнеры LXD / LXC в Ubuntu ? " author="alensav" url="https://unixhow.com/4709/kak-ustanovit-kontejnery-lxd-lxc-v-ubuntu" tags="Как установить контейнеры LXD / LXC в Ubuntu ? " ctime="20210114201005" dir="1610644205ejjav7k3n8" file="text.html"/>
+     <record id="1610637485wjcrd4g2qx" name="LXC: Kонтейнерные утилиты Linux" author="alensav" url="https://www.ibm.com/developerworks/ru/library/l-lxc-containers/index.html" tags="LXC: Kонтейнерные утилиты Linux" ctime="20210114181805" dir="1610637485nok7htxqdv" file="text.html"/>
+     <record id="1610794142eig2pc80df" name="Ошибка сети Apache AH00072: make_sock: не удалось привязать к адресу ApacheСети " author="alensav" url="https://translate.google.com/translate?hl=ru&amp;sl=en&amp;u=https://www.digitalocean.com/community/tutorials/apache-network-error-ah00072-make_sock-could-not-bind-to-address&amp;prev=search&amp;pto=aue" tags="Ошибка сети Apache AH00072: make_sock: не удалось привязать к адресу ApacheСети " ctime="20210116134902" dir="1610794142s6dh4kua2z" file="text.html"/>
+     <record id="16112246058zfinmbs4p" name="&#10;SSH_CONFIG (5)&#10;Руководство по форматам файлов&#10;SSH_CONFIG (5)&#10;" author="alensav" url="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=ru&amp;prev=search&amp;pto=aue&amp;rurl=translate.google.com&amp;sl=en&amp;sp=nmt4&amp;u=https://man.openbsd.org/ssh_config&amp;usg=ALkJrhjBRcLHxoUGgF-lw9OMGLmgMwSWdQ" tags="&#10;SSH_CONFIG (5)&#10;Руководство по форматам файлов&#10;SSH_CONFIG (5)&#10;" ctime="20210121132325" dir="1611224605lp5mw0vfu5" file="text.html"/>
+     <record id="1611473760wsnlx94e0h" name="как починить «сломанный» VPS на Linux" author="alensav" url="https://habr.com/ru/company/ruvds/blog/308348/" tags="как починить «сломанный» VPS на Linux" ctime="20210124103600" dir="16114737607a7v39ry02" file="text.html"/>
+     <record id="1612285536ij6jzpz5ql" name="git lection" author="alensav" url="" tags="git lection" ctime="20210202200536" dir="1612285536nnng9hrccd" file="text.html"/>
+     <record id="16129504213n4d84gihs" name="Права доступа к файлам в Linux " author="alensav" url="https://losst.ru/prava-dostupa-k-fajlam-v-linux" tags="Права доступа к файлам в Linux " ctime="20210210124701" dir="1612950421qxlfi7a778" file="text.html"/>
+     <record id="1614785676pgj1s3udd9" name="SSH &#10;Содержание" author="alensav" url="https://help.ubuntu.ru/wiki/ssh" tags="SSH &#10;Содержание" ctime="20210303183436" dir="1614785676ke44vh36mg" file="text.html"/>
+     <record id="1615112941wqinz8douh" name="LXC &#10;Содержание" author="alensav" url="https://help.ubuntu.ru/wiki/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_ubuntu_server/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/lxc" tags="LXC &#10;Содержание" ctime="20210307132901" dir="1615112941lj4ha19uy7" file="text.html"/>
+     <record id="16151277178kua3yvzj1" name="SSH &#10;Содержание" author="alensav" url="https://help.ubuntu.ru/wiki/ssh" tags="SSH &#10;Содержание" ctime="20210307173517" dir="16151277174uz1ylq5zx" file="text.html"/>
+     <record id="1615131211ovt436brs5" name="SSH — настройка доступа к серверу, команды и подключение без паролей" author="alensav" url="https://sheensay.ru/ssh" tags="SSH — настройка доступа к серверу, команды и подключение без паролей" ctime="20210307183331" dir="1615131211djmzqxvxj5" file="text.html"/>
+     <record id="1615132880gb9taq0tc5" name="команды command ubuntu" author="alensav" url="https://losst.ru/komandy-terminala-linux" tags="команды command ubuntu" ctime="20210307190120" dir="1615132880wec87lqyrt" file="text.html"/>
+     <record id="1615456319rlzid1xuwk" name="Xfce (Русский) " author="alensav" url="https://wiki.archlinux.org/index.php/Xfce_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="Xfce (Русский) " ctime="20210311125159" dir="1615456319lsqatx8maf" file="text.html"/>
+     <record id="1615576909eehi9zqzsa" name="Планирование включения в Linux" author="alensav" url="https://losst.ru/zapusk-i-zavershenie-po-raspisaniyu-v-linux" tags="Планирование включения в Linux" ctime="20210312222149" dir="1615576909phh27dkv2z" file="text.html"/>
+     <record id="16155780043ata3z66dx" name="Как добавить команду в Cron &#10;" author="фдутыфм" url="https://losst.ru/kak-dobavit-komandu-v-cron" tags="Как добавить команду в Cron &#10;" ctime="20210312224004" dir="1615578004wgb7fn8kji" file="text.html"/>
+     <record id="1615622630hmil5nkryj" name="gpart — пример работы с дисками " author="alensav" url="https://rtfm.co.ua/freebsd-gpart-primer-raboty-s-diskami/" tags="gpart — пример работы с дисками " ctime="20210313110350" dir="1615622630nqaeu6egk8" file="text.html"/>
+     <record id="16156264760iig3f3xys" name="Мини-HOWTO: Восстановление разделов" author="alensav" url="https://www.opennet.ru/docs/HOWTO-RU/mini/Partition-Rescue-mini-HOWTO.html" tags="Мини-HOWTO: Восстановление разделов" ctime="20210313120756" dir="1615626476ujn9zo8ow4" file="text.html"/>
+     <record id="1615800663yxkee9ots5" name="Удаление старых ядер " author="alensav" url="" tags="Удаление старых ядер " ctime="20210315123103" dir="1615800663gcsixinzcm" file="text.html"/>
+     <record id="1616063863n70kqx3eqb" name="Linux: команды для настройки сети из консоли " author="alensav" url="https://profhelp.com.ua/articles/linux-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D1%81%D0%B5%D1%82%D0%B8-%D0%B8%D0%B7-%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D0%B8" tags="Linux: команды для настройки сети из консоли " ctime="20210318133743" dir="16160638633hwxeg7ttq" file="text.html"/>
+     <record id="1617781726iifaca7ma4" name="Как я могу освободить место?" author="alensav" url="https://qastack.ru/ubuntu/57994/root-drive-is-running-out-of-disk-space-how-can-i-free-up-space" tags="Как я могу освободить место ubuntu корень корневая папка" ctime="20210407104846" dir="1617781726ro1gr4b7z5" file="text.html"/>
+     <record id="1617784081cv01gial0p" name="Очистка системы Ubuntu " author="alensav" url="https://losst.ru/ochistka-sistemy-ubuntu" tags="Очистка системы Ubuntu " ctime="20210407112801" dir="1617784081cwojw0zndh" file="text.html"/>
+     <record id="1619435315ezlcftgc8a" name="Подключение к Google Drive в Debian Stretch " author="alensav" url="https://it-school.pw/podklyuchenie-k-google-drive-v-debian-stretch/" tags="Подключение к Google Drive в Debian Stretch " ctime="20210426140835" dir="1619435315nbdo0v4ywg" file="text.html"/>
+     <record id="1621538854g1svnanfwt" name="Как посмотреть прогресс dd Linux " author="alensav" url="https://losst.ru/kak-posmotret-progress-komandy-v-linux" tags="Как посмотреть прогресс dd Linux " ctime="20210520222734" dir="1621538854y7gbw0yuyd" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -250,6 +288,7 @@
       <record id="1544279361eejsoymjox" name="как закрыть зависшее приложение на ubuntu" author="alensav" url="https://www.google.com/search?client=ubuntu&amp;channel=fs&amp;q=%D0%BA%D0%B0%D0%BA+%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8C+%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D1%88%D0%B5%D0%B5+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5+%D0%BD%D0%B0+ubuntu&amp;ie=utf-8&amp;oe=utf-8" tags="kill" ctime="20190402140711" dir="1544279361xkvhqsh0hj" file="text.html"/>
       <record id="1545672020tji762x5xr" name="Командная строка" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0" tags="ubuntu, command, команды" ctime="20190402140803" dir="1545672020mrsy289h40" file="text.html"/>
       <record id="1595080275pgd5lpedrn" name="Как в UBUNTU добавить программу в автозагрузку" author="alensav" url="https://artkiev.com/blog/ubuntu-add-autorun.htm" tags="Как в UBUNTU добавить программу в автозагрузку" ctime="20200718165115" dir="1595080275yv16qllvi0" file="text.html"/>
+      <record id="1619885632z38uusvo2w" name="Обновление ядра на Ubuntu" author="alensav" url="https://www.heyvaldemar.net/obnovlenie-yadra-na-ubuntu/" tags="Обновление ядра на Ubuntu" ctime="20210501191352" dir="1619885632ng3bpk9i03" file="text.html"/>
      </recordtable>
      <node crypt="" id="1566920156aojppfzc34" name="Приложения">
       <recordtable>
@@ -419,6 +458,8 @@
       <record id="155353958612rfzrdseu" name="Генератор таблицы html онлайн" author="lensav" url="https://sdelatlending.ru/generator-tablicy-html" tags="Генератор, таблицы,  html,  онлайн" ctime="20190325214626" dir="1553539586s9g4jbb65x" file="text.html"/>
       <record id="155354126072o1s0nfzk" name="Генератор кнопки css" author="alensav" url="https://sdelatlending.ru/generator-knopki-css-onlajn" tags="Генератор,  кнопки,  css, html, httm, sublime text" ctime="20190325221420" dir="1553541260ganpv5qigk" file="text.html"/>
       <record id="1553585918mma626u3nd" name="команды" author="alensav" url="" tags="команды" ctime="20190326103838" dir="1553585918t2pv2h7gdd" file="text.html"/>
+      <record id="1616673888kwe8o7e6jh" name="горячие клавиши для всех трех команд через Key Bindings:" author="alensav" url="" tags="горячие клавиши для всех трех команд через Key Bindings:" ctime="20210325150448" dir="1616673888jb9j6edj5a" file="text.html"/>
+      <record id="1616696185koq1dcq36v" name="Автообновление страниц в Chrome через Sublime Text 3 - Плагин LiveReload" author="alensav" url="https://zonawmr.ru/1714-avtoobnovlenie-stranic-v-chrome-cherez-sublime-text-3-plagin-livereload.html" tags="Автообновление страниц в Chrome через Sublime Text 3 - Плагин LiveReload" ctime="20210325211625" dir="1616696185csi5ogz4pd" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1554205121wav5akuahq" name="HOST">
@@ -447,6 +488,10 @@
       <record id="1585242644gy07vro0e4" name="Полезные ссылки &#10;" author="alensav" url="" tags="Полезные ссылки &#10;visual" ctime="20200326201044" dir="15852426445q1j6abli5" file="text.html"/>
       <record id="15853947363hvlj6snmz" name="Справочник HTML " author="alensav" url="file:///home/alensav/Документы/Visual_code/HTMLRef/index.html" tags="Справочник HTML " ctime="20200328142536" dir="1585394736rlf0piuctc" file="text.html"/>
       <record id="15875833948h1dy5auay" name="Расширения для Visual Studio Code" author="alensav" url="https://medium.com/nuances-of-programming/%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-visual-studio-code-%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5-%D0%BF%D0%BE%D0%B4%D0%BD%D0%B8%D0%BC%D1%83%D1%82-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BD%D0%B0-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C-a24f29173079" tags="Расширения для Visual Studio Code" ctime="20200422222314" dir="1587583394f0cvqhmw25" file="text.html"/>
+      <record id="1613467196xma6rlvqwk" name="CSS Примеры и Учебник&#10;" author="alensav" url="https://html5css.ru/css/default.php" tags="CSS Примеры и Учебник&#10;" ctime="20210216121956" dir="1613467196yu10zc3647" file="text.html"/>
+      <record id="161384779840e2nfsnah" name="ЛУЧШИЙ САЙТ ДЛЯ РАЗРАБОТЧИКОВ " author="alensav" url="https://html5css.ru/tags/default.php" tags="ЛУЧШИЙ САЙТ ДЛЯ РАЗРАБОТЧИКОВ " ctime="20210220220318" dir="16138477983jpp4rd8lr" file="text.html"/>
+      <record id="1614160430pduuuc3x9d" name="Visual Studio Code. Настройка и применение. Часть 1" author="alensav" url="https://medium.com/@p1t1ch/visual-studio-code-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B8-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%87%D0%B0%D1%81%D1%82%D1%8C-1-7f1a26806522" tags="Visual Studio Code. Настройка и применение. Часть 1" ctime="20210224125350" dir="1614160430grb5n4prvz" file="text.html"/>
+      <record id="16141606631wgb2hia9m" name="Настройка и применение. Часть 2" author="alensav" url="https://medium.com/@p1t1ch/visual-studio-code-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B8-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%87%D0%B0%D1%81%D1%82%D1%8C-2-8e4939bb1492" tags="Настройка и применение. Часть 2" ctime="20210224125743" dir="1614160663ictlch73le" file="text.html"/>
      </recordtable>
      <node crypt="" id="1574497385mixdymvnys" name="САЙТ-ПРИЛОЖЕНИЙ">
       <recordtable>
@@ -514,6 +559,7 @@
    <node crypt="" id="1546350738abjfg5ofdo" name="FSTAB_SAV">
     <recordtable>
      <record id="1546350787larmrscc8i" name="FSTAB_SAV" author="alensav" url="" tags="fstab" ctime="20190101165307" dir="1546350787fxfysbkhqx" file="text.html"/>
+     <record id="1607971046qpeirxq6hj" name="Подключение usb-диска в Ubuntu" author="alensav" url="https://www.1-ok.xyz/2019/02/time-capsule-ubuntu-server-18041.html" tags="Подключение usb-диска в Ubuntu" ctime="20201214213726" dir="1607971046uzoeuquhqz" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="1546352094c1v07zjloo" name="SAVSCRIPTS">
@@ -571,6 +617,7 @@
      <record id="1574362734egllmxzwz7" name="UkM1U0lNUAP5NVfIP3WQL2AyHkxwoJWH2I/vwcPkSYHKbZmxg+l7A0kj9ULYOqb44XRqEQ/l154=" author="UkM1U0lNUAOsRJalee1tuSRTw8ZnKKWvn+kAK1V4QWyzIBvzy2/ziHJKmrU3Jqqb" url="" tags="UkM1U0lNUAOqBGyMTyE4k2CmivGX3WabPt87Jy+9zP3zNU0hgLh7M1gBXvW7akz9FgL3wffxlN8=" ctime="20191121215854" dir="15743627346rga4zm2q6" file="text.html" crypt="1"/>
      <record id="1580392253j9y0ndagky" name="UkM1U0lNUAPjVEInHTwQb+ZA7aFomsqtXY8VluEVSQETp6oTLqeu/412J4jN51jA" author="" url="" tags="UkM1U0lNUAM0YQ0brP10fzAPWGKsVvTmh3yZa0qjMxLqkl7m0kwaYGaZJB+/M4c1" ctime="20200130165053" dir="1580392253aef2qr8jbq" file="text.html" crypt="1"/>
      <record id="1586594782aa9nsq4e2l" name="UkM1U0lNUAMPCJxTgj0lGUieUh4fCkxHYfMyMAFT4+ZI1No5PxqUb8RGSfh4bwUkr29hu3Qlx+BNZoVQ2xZ13GS5UfwZF+oF" author="UkM1U0lNUAPRl0apdBlMdLeioizExpCNYr/7bq78FpJCwGoCT/opSS/xYIIbVgaW" url="" tags="UkM1U0lNUAPm0MDubBRwqiwOx8zk7ccH5wwmicjwJWRU5TXzFtwJl9jsWQa0ZmvlqB4kxHajJ6ys8pL0PDiz34R84bSlEX1n" ctime="20200411114622" dir="15865947829hfmiamfqk" file="text.html" crypt="1"/>
+     <record id="1609081632uqpca92xgm" name="UkM1U0lNUAO/DWs4jaUqnS3XgxXePMgZjdpoc118QDzrJIyQxhyIul5zfHnQvJiabRaJRZ0kEOGf/xyvHvJqs0mLWTa1aW1Dusqrg4LU3KIQUwylcMpl6DUfjrpXXa+wh4pm7ILHj58tKPzlRTm+3JU/2r0r80AG6CZUGlFsbR6XH+Wqk+FXtw==" author="UkM1U0lNUANCaszNKto4YmHQXP4bFtgnyaD3u5rNnMbLoM1PAiAbbLsd/vOXH9Pt" url="" tags="UkM1U0lNUAMAy+LnXLYpx5BJlnwKWRuOmrniVFGrxc6cCahTq/9Paf7iLgbPPECSh9o/q2YWHxZJ7eoG/zozoy9TAr2MYjLNzsPpBH9VyFgK+eBeGsMkqvoETY6KYSiper6xpUWYTzwY4fJQJ9s2xYAy7eXk2vv3vaQn6vcePhg01faQx8R/pw==" ctime="20201227180712" dir="1609081632kqbxxdes2e" file="text.html" crypt="1"/>
     </recordtable>
     <node crypt="1" icon="" id="1574492468uajotloc6v" name="UkM1U0lNUAN2iFc0C95I/232XbcmrvZXj4eSFIbPok8GqlKKFcTX2PaItbOTv7oI">
      <recordtable>
@@ -678,7 +725,7 @@
        <file id="1578058910eyvz3bwh03" fileName="UkM1U0lNUAPXFWFfZk/IBITv9wevXKOo/Dt6Dfwe1hVOMIENibUOo2+smh4XL7M6uthxIN2UAl+JNBXxybf5fy+iURHqLTVk" type="file" crypt="1"/>
       </files>
      </record>
-     <record id="1578138335w3rmhkhndr" name="UkM1U0lNUAP8sVzrvD2NGWcPe9759/Qu183cKRN4sOR8SqiCcz1VPAaD1tftmVHWHITnbEq83R07joUHJ6Famw==" author="UkM1U0lNUAME7nDXyLQn2b7/Ods6JdwxsqAAuR9+ogrejHP2I3idj2eRzGc0n4z5" url="UkM1U0lNUANwX65avNhu2C5VeHxaBFHcoxkteQt0DAX7Ak3c4ncEDSE2vH7QREw6gL1+eraK6yxX50R1VTePcEJJRb/Up8BW" tags="UkM1U0lNUAOKANNpZ2AHCh4+lLzhGhLI08xBLNriGbFUkV9tKQOAnNDAciBx/HtF" ctime="20200104144535" dir="1578138335xkmlpr1u9r" file="text.html" crypt="1"/>
+     <record id="1578138335w3rmhkhndr" name="UkM1U0lNUAMw/hoF7T3NyISW6xet8wqmdHwy7IiaLmnMstr03Pf1It9JEeQyw4UK6aqCniV7x5edHde/X6CETg==" author="UkM1U0lNUAPH2pTr1cbC4xBFzn2RU59LgEdhjNdJg82xtEIo/cFhP3sQQoatn53C" url="UkM1U0lNUAOR5rvV1Tjni2mYCIBv2y0o3HCPlaTZB4Nf3dDBRv/EPfuQzc2+p2rbT3lFaSM5kCPpEgJ+B6fv5cq3xbJ5sr+E" tags="UkM1U0lNUAM/AT9E7n0RtuorEc2w2dW9pS2MKMfre6lIwoWGyjqEK9B0vTQ9tYXTqXPZ79X60hJcWySBuz+yfCLlba8vJO3KzbVo60wWJj8LD8OkgkQzjOi6fOQY8pb0TYWElLQNJws2pYY1+le4Jw==" ctime="20200104144535" dir="1578138335xkmlpr1u9r" file="text.html" crypt="1"/>
      <record id="1578310074i9qzbstwrd" name="UkM1U0lNUAMwyaFiuJk5wAmB7g4gLTN80hcDcMWlpQPeGOmalV2Iz2Dln+heAmAb/y0i/aTG9bjXWCZHJo24K1W9QAuzhBz+fRuxeJsAJcc7lxlWwg6YSFBTibIr4aWN" author="UkM1U0lNUANwg4AaDKZ3XNA/NCqVVCQ/MgMm1TwCCJnERhI7oYocQBVapWyWv2pX" url="" tags="UkM1U0lNUAPdpJpNIM98uQL8fR691vcej1YvQYmxnLOk6E/zlJKTJLNjCsBzFmq8QIyvsAmznLO5NzKvnvN1UOcgJyI/BoQXgZSPrHkYJMKcARYbEzUxihHO4EaOtbjogI1oIgZ77K0=" ctime="20200106142754" dir="1578310074zy7ax9p4xh" file="text.html" crypt="1"/>
      <record id="1578594945p4q7j6wn6l" name="UkM1U0lNUAPVWIm+9EI5nqFh+TOgdA2ga0AtSa+Us0JbqHQkh3YDgMFEi9OZADxkB2NVBxCY39MyQPw02UnoLyhnpf6g4aBT" author="UkM1U0lNUAPGYuMPcNKIhY7M+DfCqi3pn36DXhmipJAra8dsa2Xq5TF9GhjbyJEJ" url="" tags="UkM1U0lNUAPJ4Ac/vjyDWIK0HIiFXVQJy6lIaillsP4gpEbV0tNIBnWXa+D5ObPAtNwnUWlyBGvmOmNXwWTgH7GVArdBdeTd" ctime="20200109213545" dir="1578594945wmzt2xhgk0" file="text.html" crypt="1"/>
      <record id="1578598741dx33lseq2v" name="UkM1U0lNUAMW/vtVBavHulR14r/nDLZ5v3ZA6hIg4Bjbx1tKh+CPpdTCOQS6Nx6xiUXdUzpXvQM=" author="UkM1U0lNUAM6EC/d4CYX6F0ylCQdfRrLeqVbCwCCNvgqVwGSV8OzhPQPfsevzXHR" url="" tags="UkM1U0lNUAN2Y4t59GNjqTiXYAlEUK8STnh2tFQGmw2vElCRQ3YjXT+LRP+qfRYdeDg85zWbgVQ=" ctime="20200109223901" dir="157859874183uz20o3sr" file="text.html" crypt="1"/>
@@ -691,6 +738,7 @@
      <record id="15857493646s1v9q121j" name="UkM1U0lNUANMKn0hMHKxR7yvQpVbNZM1dJrHycka+5FsVbkBuF+PSdUrS0wRKbpd" author="UkM1U0lNUAMTQA3IGQQUQ9CyMO652uUXeYMHdLLi4gyxv8lFGvTsB8WMkordd9+7" url="" tags="UkM1U0lNUAPMjxksi/A/zMUbggZZ0/qBkBjOahWsT/j4iPbWnl2rcLFosN+NZ5Bc" ctime="20200401165604" dir="1585749364y3ddy9zwf2" file="text.html" crypt="1"/>
      <record id="158598863542x70s4wfz" name="UkM1U0lNUAMLT7CxG6gJwaWogqM8/3JavFLo12+D8ygj/oHWIMw54ITq0LrqAx16tORtRBxWOgswsRaO6Gz32g==" author="" url="" tags="UkM1U0lNUAOX+xfmq8gBU0P+AX+PWZSXtLDoNcyhMRpYutv9dEXmrGW+lZwu/ZybElaXC6k934Xr+ifzK1S3+w==" ctime="20200404112355" dir="158598863583lg15qfxh" file="text.html" crypt="1"/>
      <record id="1585990767j1420g606v" name="UkM1U0lNUAMihSJRySokVAdW+NfczggTEKI9s2hCeYo9iDGKjXv9+t+9U+gesnmF" author="UkM1U0lNUAOpYuo0K5ZWsPB1e6/dTgqQLyO1QTSrShvPHP7pypC877TzEkdUGVnC" url="" tags="UkM1U0lNUAMOfLV3D2MgcVBa+GbCAirM43sK4U7krONRM/WQVs+jNIY7CDRY61Tg" ctime="20200404115927" dir="1585990767cvft4uqgss" file="text.html" crypt="1"/>
+     <record id="1620723055h0861t4511" name="UkM1U0lNUANp3DJC5XXBdshCnwo8RcmeWYu1Axe9O2l1gAG4+3WvLQ0xtEeC4s7X" author="UkM1U0lNUANW1yWIGQr+2mLo4Ui8qHdJ2uCbKJ45ohJ4Pj7XWeiYuF5TdtVlC/6m" url="" tags="UkM1U0lNUANNmriqCAIB34T7oWAHkUlEz2S8JqLuD8+gt/zfOxz8QTQ2wDapZBEV" ctime="20210511115055" dir="162072305575p6zp71rs" file="text.html" crypt="1"/>
     </recordtable>
     <node crypt="1" icon="" id="1576674475la69mceacu" name="UkM1U0lNUAPG97CjE2e0+r/u7cxxV5ID8h3tz8u+HbSd5NGre89YG826zSo4HfgdyeCGCdwtb2UTyD9E5Z+CguZuyDNNDIiP">
      <recordtable>
@@ -698,7 +746,7 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="15535901428i8jinprzz" name="БЫТ">
+   <node crypt="" icon="/BlueSphere/color_bluesphere_configure.svg" id="15535901428i8jinprzz" name="БЫТ">
     <recordtable>
      <record id="1566415580xqzc69zs73" name="ПОЛЕЗНЫЕ ЖИДКОСТИ" author="alensav" url="" tags="" ctime="20190821222620" dir="15664155806rbj3szyl0" file="text.html"/>
      <record id="15677606654nupp13mgv" name="ПЛАН ПОКУПОК" author="alensav" url="" tags="ПЛАН, ПОКУПКИ" ctime="20190906120425" dir="1567760665b9lfophj4l" file="text.html"/>
@@ -730,7 +778,7 @@
      </recordtable>
     </node>
    </node>
-   <node crypt="" id="1555266555at5aw5hgc7" name="САД">
+   <node crypt="" icon="/BwCinema/nocolor_cinema_Close Up Mode.svg" id="1555266555at5aw5hgc7" name="САД">
     <recordtable>
      <record id="1555266823r2vjr4q7b7" name="САД-Прививка" author="alensav" url="" tags="сад, прививка" ctime="20190414213343" dir="15552668238x3dnfz4vr" file="text.html"/>
     </recordtable>
@@ -771,6 +819,7 @@
     <record id="157539071021klgixr0f" name="UkM1U0lNUAPuHfecWYmOeG/RwrtJoZU1cZOgMOPUtyB0kOk/ZoPZamPcBy4/y+Y2r9Jdc026JFKId98Qjj2cK8PljLjGfh0juyPcoWWb1RBFp3+6sgRmwA==" author="UkM1U0lNUAPnUwYESqNe0wVBupW4I4nqkoy5pvB/RZFuukiJp5WQZS+7eabU73M5" url="" tags="UkM1U0lNUAN0onZbw45CFmmnp6H9K4ekcTYQwVU54b28aTFncCVl5hbzewWBl1DPkHElxO7QP6nAt03knMHoaXBIkIYe0nkrBoGAWkEWDZA=" ctime="20191203193150" dir="1575390710uhhenv8i2i" file="text.html" crypt="1"/>
     <record id="15754553779hn7auzzcj" name="UkM1U0lNUAPzX+LHb63fbdyLb3qPbk2mvEro2UtQ3m4gpxz6Q844BE/zcdTDtyQGWoV4iXwLEEyfI2BLWuNC3myLhawwrQmY" author="UkM1U0lNUANpRsYwtnQPIzJt75kSJhcGJiIl3+gkNs+d4S4yt9WdugZS4r//6hp+" url="UkM1U0lNUAOUSaYJMYpyd+1KqUeRqvVhYWk0Jpr+nnzIENkJefzRUFQtH7Ejv29+yCDSRdbK3KyuqEklUoJ4q224GWhbXTwRox/qRAFT7Rg=" tags="UkM1U0lNUAO73gJi5zPsWhNUsUFsOyFlqfnMT4SQB6YAleKLR890KFiIRLWeq0nCZ7N+SqaoVyP2EORDhfL5sKl4FV3vyfte" ctime="20191204132937" dir="1575455377gjxhw2tdyd" file="text.html" crypt="1"/>
     <record id="1577464686d1fzg2b1ca" name="UkM1U0lNUAP8NxptL2JJbqJ2KdCRwDyyYJ/6ZyoBGTWayPRP6hg/6uj1pOdShblXvDzIlEZ5tIpeaVpbpAr490fAHZDSTEvYoAI1Ecp2o0e/tShv0azKSqV49H4UeaGXWdvT+L4/pS8=" author="UkM1U0lNUAPcP1U0AVXLN6BBD6S9JsE8u+JHNEii17oPqbnzTJFJpz5xEP6kmNK0" url="UkM1U0lNUAMhKd8g/Iso7vcH7d6ptD3z6kiuAHFd/wKCgNKk7y61g/OT3cq6EmFvDtyfo2Oc+iKXhfnJjOVxl3S2r7t8QJb1D5hiSzwgpEzrvzoaa+Cn8xOjHnp10yYEqAkeH1Tox2fhnC+t9TDWI6MBbIuy6HTu" tags="UkM1U0lNUAP/06sH8cgDKWQMkcC/0FtZtm2VezdStOcnkKBNVGO85fSWnGY4TTyWSx+yF9BomHSpQoHjh322uSOsTCYX5JVisAXuFAZVyp39akF0P1bruAcFqD7nTbn89Obn8dNMnBg=" ctime="20191227193806" dir="1577464686uajjcl0n39" file="text.html" crypt="1"/>
+    <record id="1620835433umwmytghcm" name="UkM1U0lNUAPAnwCEJvTv5U2OiSDLHsLeKBcEjmk7w71wdpPnQPKLPmNeCOObt+i6" author="UkM1U0lNUAOns5FHsxVtqCn4kUy9lQ03LaxbM29BlnxAGHE+ziEpb8YQWW+EfvHf" url="UkM1U0lNUAPEghKUPeM88NxOWg8Z0rHzxJG+GWvZsdYMmzhxQxp4jwOjGPXkVzX4113tk929DfrPjKD+yoKgOfRgmtrsyBvEHO3hyaD4eOsY10CM0Us9LMslDTGGZWkCBS3BIXKRYdQ=" tags="UkM1U0lNUAPlN8/7/FENkCnhcmQJFqdkQaerF+dCTofOsHK3N3lpJJNDUVnJVs9H" ctime="20210512190353" dir="16208354339hopwl09c6" file="text.html" crypt="1"/>
    </recordtable>
   </node>
   <node crypt="" id="15754868969ohup654ad" name="CMS_JOMLA">
@@ -828,6 +877,7 @@
     <record id="1576398020udlbkw4dfn" name="Показать пользователей в MySQL" author="alensav" url="" tags="Показать пользователей в MySQL" ctime="20191215112020" dir="15763980202hguty2nnd" file="text.html"/>
     <record id="1576399780rbe6zi6t6d" name="20 команд My" author="alensav" url="https://zalinux.ru/?p=793" tags="20 команд My" ctime="20191215114940" dir="1576399780fiypa3e526" file="text.html"/>
     <record id="1576218587rtoycwlhi9" name="Локальная_БД" author="alensav" url="" tags="Локальная    _    БД" ctime="20200101165917" dir="1576218587bwzqlm6sfw" file="text.html" crypt="0"/>
+    <record id="161147413143sazltega" name="Установка и первичная настройка MySQL на Ubuntu 16.04 " author="alensav" url="https://community.vscale.io/hc/ru/community/posts/209370225-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-MySQL-%D0%BD%D0%B0-Ubuntu-16-04" tags="Установка и первичная настройка MySQL на Ubuntu 16.04 " ctime="20210124104211" dir="1611474131gdmojxgutd" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="1" icon="" id="1576755808efne0hctuq" name="UkM1U0lNUANTrdqU2COuv9Wdd/e0I5v21mZKdzg2crtDuvS3y2TAA5SSx8ky/vLx">
@@ -915,6 +965,17 @@
     <record id="1583937031e4yibqu6th" name="LXD 2.0." author="alensav" url="http://vasilisc.com/lxd-2-0-series" tags="LXD 2.0" ctime="20200311173031" dir="1583937031ev1n7t6gkh" file="text.html"/>
     <record id="1584373737cvz3znx7o8" name="Установка LXC (2)" author="alensav" url="https://eax.me/lxc/" tags="Установка LXC (2)" ctime="20200316184857" dir="1584373737mgar54zgiu" file="text.html"/>
     <record id="15847287801gsmthrewz" name="LXD 2.0: Docker в LXD [7/12].&#10;" author="alensav" url="http://vasilisc.com/lxd-2-0-docker-in-lxd" tags="LXD 2.0: Docker в LXD [7/12].&#10;" ctime="20200320212620" dir="1584728780pbe6rmyuk1" file="text.html"/>
+    <record id="16100088633txy6shqhu" name="LXC Centos" author="alensav" url="" tags="LXC Centos" ctime="20210107114103" dir="1610008863cghqoplg43" file="text.html"/>
+    <record id="1610135767du55kldbs2" name="Запускаем виртуализацию LXC на Ubuntu" author="alensav" url="https://itldc.com/ru/oldblog/linux-containers-lxc-ubuntu/" tags="Запускаем виртуализацию LXC на Ubuntu" ctime="20210108225607" dir="1610135767ax2pz2ao17" file="text.html"/>
+    <record id="16102130997y1huwk6jy" name="Базовые команды CentOS" author="alensav" url="https://voxlink.ru/kb/linux/bazovye-komandy-centos/" tags="Базовые команды CentOS" ctime="20210109202459" dir="1610213099s7zkahx1zs" file="text.html"/>
+    <record id="1610216306gov3n270tg" name="Контейнеры LXC в Linux &#10;" author="alensav" url="https://losst.ru/kontejnery-linux-ustanovka-i-nastrojka-lxc" tags="Контейнеры LXC в Linux &#10;" ctime="20210109211826" dir="1610216306hkmt4ekirk" file="text.html"/>
+    <record id="1610295003ua7xfc1hmt" name="sudo lxd init" author="alensav" url="" tags="sudo lxd init" ctime="20210110191003" dir="1610295003437zbp1xey" file="text.html"/>
+    <record id="1610534518ti6n3tn4sn" name="Справка по LXD/LXC (Контейнеры Linux) " author="alensav" url="https://zotovp.wordpress.com/2019/01/05/lxd-lxc-linux-containers-manual-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0-%D0%BF%D0%BE-lxd-lxc-%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80%D1%8B-linux/" tags="Справка по LXD/LXC (Контейнеры Linux) " ctime="20210113134158" dir="1610534518eoihnysbh8" file="text.html"/>
+    <record id="1610536338ko05x6crdt" name="Установка и настройка LXC под Ubuntu 18.04 " author="alensav" url="https://blog.bayrell.org/ru/linux/lxc/64-ustanovka-lxc-ubuntu-18-04.html" tags="Установка и настройка LXC под Ubuntu 18.04 " ctime="20210113141218" dir="1610536338hxgb1ie7j1" file="text.html"/>
+    <record id="16105483211q040ynh5r" name="LXC_ИНСТРУКЦИЯ" author="alensav" url="http://xgu.ru/wiki/LXC" tags="LXC ИНСТРУКЦИЯ" ctime="20210113173201" dir="1610548321k1kw735khx" file="text.html"/>
+    <record id="1610550233u1854sv83l" name="Глава 6. Виртуальные машины Lxc" author="alensav" url="http://onreader.mdl.ru/MasteringProxmox.2ed/content/Ch06.html" tags="Глава 6. Виртуальные машины LXC" ctime="20210113180353" dir="1610550233uma5i31spq" file="text.html"/>
+    <record id="1610550487b4r5cuhmlk" name="Переход с виртуальных машин на контейнеры LXC: причины, преимущества и готовая инструкция к применению " author="alensav" url="https://habr.com/ru/post/458658/" tags="Переход с виртуальных машин на контейнеры LXC: причины, преимущества и готовая инструкция к применению " ctime="20210113180807" dir="1610550487n0dmju1a75" file="text.html"/>
+    <record id="16105685689m56fi7vh8" name="Команды LXC" author="alensav" url="http://xgu.ru/wiki/LXC#.D0.9A.D0.BE.D0.BC.D0.B0.D0.BD.D0.B4.D1.8B" tags="Команды LXC" ctime="20210113230928" dir="1610568568q4e99rzw62" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1583855436uha060b80n" name="!!IMAGE">
@@ -995,6 +1056,316 @@
     <record id="16068498284epmtv2z98" name="Настройка KVM на Ubuntu Server" author="alensav" url="https://www.dmosk.ru/miniinstruktions.php?mini=kvm-ubuntu" tags="Настройка KVM на Ubuntu Server" ctime="20201201221028" dir="1606849828v1ueuiqjh6" file="text.html"/>
     <record id="1606851591ltrpzpb8bm" name="Установка и настройка KVM на Ubuntu Server " author="alensav" url="https://obu4alka.ru/ustanovka-i-nastrojka-kvm-na-ubuntu-server.html" tags="Установка и настройка KVM на Ubuntu Server " ctime="20201201223951" dir="1606851591q6hzlp7cwe" file="text.html"/>
     <record id="16068523175r6ndgu8bz" name="Установка KVM в Ubuntu " author="alensav" url="https://losst.ru/ustanovka-kvm-ubuntu-16-04" tags="Установка KVM в Ubuntu " ctime="20201201225157" dir="160685231743y9mko1zt" file="text.html"/>
+    <record id="1607007450fw96p1oko1" name="Виртуальные машины для Linux " author="alensav" url="https://losst.ru/virtualnye-mashiny-dlya-linux" tags="Виртуальные машины для Linux " ctime="20201203175730" dir="16070074500mlnengl2l" file="text.html"/>
+    <record id="1607007647df7v0p0kk4" name="Что такое виртуализация KVM " author="alensav" url="https://losst.ru/kvm" tags="Что такое виртуализация KVM " ctime="20201203180047" dir="1607007647in7jb7ocjv" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1607027923gbxtebko29" name="PENTOO">
+   <recordtable>
+    <record id="1607028012uoce3oucai" name="Pentoo" author="alensav" url="https://www.comss.ru/page.php?id=2934" tags="Pentoo" ctime="20201203234012" dir="1607028012dd9mr06f3w" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1607246708f4opp9sbif" name="CAINE">
+   <recordtable>
+    <record id="16072467989c70zfczme" name="бесплатный ISO-образ CAINE" author="alensav" url="https://translate.google.com/translate?hl=ru&amp;sl=en&amp;u=https://www.caine-live.net/page5/page5.html&amp;prev=search&amp;pto=aue" tags="бесплатный ISO-образ CAINE" ctime="20201206122638" dir="1607246798ucgz2louxm" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1607263828xjtmvrma8z" name="TEST">
+   <recordtable>
+    <record id="1607263858xn7m1m0vs9" name="HARDiNFO" author="" url="" tags="HARDiNFO test тест" ctime="20201206171058" dir="16072638585m47ibt8zt" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1607280728wdyqg74zqh" name="CENTOS">
+   <recordtable>
+    <record id="16072811096aqxamw9no" name="Список команд centos &#10;" author="alensav" url="https://sites.google.com/site/dlasebamne/home/spisok-komand-centos" tags="Список команд centos &#10;" ctime="20201206215829" dir="160728110993pru4qfmq" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="1608135626yss3s0r6fh" name="UkM1U0lNUANL/j7vuiD1EOw6Kx4MljoXpcOtgSv2q7z2bADCH88UqKVz9uJEWsQw">
+   <recordtable>
+    <record id="1608135786h1p5wrqh19" name="UkM1U0lNUAMkioJ1i5hLFPsKie3bNOPvPbfNthLc/OxtaJrN76H/X3tHJyfCK6mAMa4On2bwzpw=" author="UkM1U0lNUAMugODNcWDx+3nTV8VxgCkFeez4Dre58v1pBaq780fhx02jjzG5EpU7" url="" tags="UkM1U0lNUAML/tVU/hCDfnuBHO7u8SJxWGYmQA3donvXSD4TaKk05mBMiydtEghYzXN/33e6Jh0=" ctime="20201216192306" dir="1608135786p72p3f4fj7" file="text.html" crypt="1"/>
+    <record id="16081407203kiukf5ztw" name="UkM1U0lNUAPb6+hMRw1A/fFwzCgSmgPmcuXqnsHoDLXK7LxM/grxVLlASDzX7ZShrzLSSx195OA=" author="UkM1U0lNUAOSVQN6oUqH4kYQMVj5nC7JsQmXpK5NMDqRe5COKyGWIBrldW5VXXaq" url="" tags="UkM1U0lNUANHhcgI/9+aVbTcA+0HMe2Cnw/gx6yfg5P4IpDtQO8xihTnO1rMcWJz" ctime="20201216204520" dir="1608140720lkopvco75n" file="text.html" crypt="1"/>
+    <record id="1608141108f577xivhtl" name="UkM1U0lNUAMpFRVadvacSl6M5CSn/Si5g9aXNfMd3013XOlq7IFMo2anye9+YMgUkat60LyNbk+5J0OULxYdGvzofN/G2lrl1+bsXOQc/7zSQ9anwjoM8SrNIz9Wp10s46uAq7Eq5V8=" author="UkM1U0lNUAOIKuhmU/58rtA7yJt0YjOrQxi6KeifWI9xEpgKQRPGfP9oiXjZORlE" url="UkM1U0lNUANTK1EFCWKNM6BWiX+Kv0KCIonA0g/Y9m31gSPhooLF4e1k/U0qTsP7sNmnIraxQOwuUlkrdfX3zaM7nSiAh4tHFa0Fzo7rcuI=" tags="UkM1U0lNUAOU5i6/NzPImSK7cW8xp5fvh2PitwZQDEBAvnyY6LghGwq/i/h3hr38Sn48LkEVyc7zvH9RnG0XcWvFH5OniLARqO0DWosimBafz8HReqT5gGm2x4aZUK+7lxiHMOQO/xQ=" ctime="20201216205148" dir="1608141108km7ks5gqzs" file="text.html" crypt="1"/>
+    <record id="1608141555slb8zu2dba" name="UkM1U0lNUAODqRuFbSUeaOEId6RV88wKgu6cjTlerafBS1optGaSvCQQm3MlFI+XKmd2HWvMLX9dTjOwZKBN5TpYwkN2kMXWR2kfRhlxNy3X0z0k5WzW9g==" author="UkM1U0lNUAN1HHqQoee2v5ekFnvvlZZ0Hq5cpXdkk1bPCoXPtUYOlEsqvCWxhnl8" url="" tags="UkM1U0lNUAPtdRv5DetvKRh1AE28Wue408Jknz+lCChy71aTWZ/M29JudE92TR5/4mWWTSi8YDoMLiCK5ODj99gdIYnopbM7ZGsfBpId+mDZUehMDUl8CfeVdwW/qDOJ" ctime="20201216205915" dir="1608141555gbwwa1xczk" file="text.html" crypt="1"/>
+    <record id="1608141886zgr004fgno" name="UkM1U0lNUAM5K4OkqC7Dsb/9hEecAFLo6aatp1l4K340n3asNnvXitbkievo5Xl0L4vLn4lZ3Luvu5rsYZwmAKCMgZQ7vx6+YsEOQsSrX7MhSOJLkOVIxF89vC1JIW/osUeTJOusPhLqct8Y4dHTfbVSjJQwXgyVn+iFlJ6x4kBxD4SJDs25bp4f7jkSMK76" author="" url="UkM1U0lNUAPbBAgUL4y515JslOc2SwFKBX4l59W6NKaVJjWbI0VF7bwXkNv+vQp5SI30Du7nAoCTCRBSZ8C0nS6/nPQOGYE6tBLLF2hRpncGKGFN5y91og==" tags="UkM1U0lNUAMVI3XwKH0EV4uHY2CvB2RH01TbfbL1niuda4lVYEWcWyTuFQNRJ03s6Ieo6Qe7hwKqTzL87DbGBjcRBeIHXKxdbir04xQ2xTYdDjDhIQjJJV8tG4RPeT2dcnNmlOFOvWpJbpTPMflDPkoBFlgeTD25dirrlzuFPvyi5ApRvlouOWJwHlW3a7FV0WDs+qJXFYwkU8VIZvwqnQ==" ctime="20201216210446" dir="1608141886wvwupjugb4" file="text.html" crypt="1"/>
+    <record id="1608149299xnyrnpegyh" name="UkM1U0lNUAN1KRtx4PQVV483l6wr/uCuH0NEUuf9rl60Py5/Q39qgY/dbuEqmLvUgvlESZxXm4U0w6RMAYFKjaD3qxuh+QId4BDW1oZL8qlySB0JNtJn+SO9yuDkNHgHALpK6nalDhA=" author="UkM1U0lNUAPx1/Jit+Z3DuftglTiIcchEnwwsPzcXFJa+nl44lR5Y0vgqVzHnagn" url="" tags="UkM1U0lNUAOGEMICvpr0leHyXtcEQvNQphTxzasBtOEEqU9k4BxMQ1VOLiqZu+T8WBW3FDfEmC7u13tKOzCoJkb+qFk23a72QpX9CSqDVhBWVf9YuNAygGj01tLtyc8V6DiOu8hKt3k=" ctime="20201216230819" dir="1608149299549ju013gy" file="text.html" crypt="1">
+     <files>
+      <file id="1620726161o26xgrjsj0" fileName="UkM1U0lNUAOilW+NXpkYna7Bn0rgc4/8n+90yv4/whehrFaEOOhK/R0SXqWz4/N8H3/jUP5cWyBa/lnB29zp++x5GSR9htelo8n0mWml7UzzvmLA9BLU1eUPlUnATl8mPgw42kUTFzRBjH4dpBOUL9IM+EzqEVN5" type="file" crypt="1"/>
+     </files>
+    </record>
+    <record id="1608648169v4f7gy2h7w" name="UkM1U0lNUAMTkpAIC5nQMlA0V5d04jzr6nPlFmN3q82q0xLFi5LQQyqYgmigSy6fWUyItwM3jf8=" author="UkM1U0lNUAN1Lm19OQZObMG+JsWYN1vXZ8r46UqT0MOvsHD0xC4cs5GfzqshcneI" url="" tags="UkM1U0lNUAOWdlj4EjRtQHhJng4wcG3BjS8FqIfl3I25DgsRgdhN+kyO+6EyUTD1TsyUeKN0UA4=" ctime="20201222174249" dir="16086481696acyxy4icf" file="text.html" crypt="1"/>
+    <record id="1609920750uxr7jtcyx8" name="UkM1U0lNUANRhwbnQaDln0NupPVJ3mIbKUju417DK3uP3UYskvrlgD8s0EvX82j5X0BgHxRjEOA3vXRQ/7vtYWGgJUQC1EiA8tjvoPpVnYZVcspKaDeEabqKWUIADT9O1hkgU8gJgnNZeOqUGretO5dkt3KPBS4d18lMZbUz+LqH2Vdg6bJBv/gyWNTATda3oPhc5xwVmldmMXJER8s4841+EQmnb4f2" author="UkM1U0lNUAN2QaFdgkFCIhlce+2wIez6GKgByNOYUQ5nTxOz2O1aekOAXbuUvNN/" url="" tags="UkM1U0lNUANpTGmOBgQESLXwSXX/LRCxgL+y76XsvPxUQIn/hUgwGew0AztyjPTzkb5pJD8EAGlVuyDLz4as3NMnP9gZLs+9a2nGudalG7azZaA5LHQTIB9pRsXFb4kfL0fLUOHs3h9A6huiKDvLGr05WYyQEKYZ+KULgu/1Hn9NzIk6piNqHkay2D3u2f0UVi4OiQpiZA4qi8IUtTT/NUKBhcKO7HjD" ctime="20210106111230" dir="1609920750fqow9e56b8" file="text.html" crypt="1"/>
+    <record id="1621361129qvhw6rjtr4" name="UkM1U0lNUAO7JeekBTMT6XMLeQkF/qm678FjPj5HIGbEPwdKr2zHsxFlZyjoA0ObasND11QSPO/POjaBACBhDA==" author="UkM1U0lNUAPabRPBERn0JUh58dnwpna12pntj2z5iznrQQPZc5wezqVMmCpF5XTB" url="UkM1U0lNUANJs9rgZci60vcrh29Gb41ojd2W1aBymAFJaLcRrrvcRrrwdpIp9VuVGoyrZFiS8NRszgykLn35jbxNUqYl7ojE1GPiQZBH57mj1bIz0NKYbA==" tags="UkM1U0lNUAPFg2tYUQ2hBFr+HHvXXUODsM0oPKNtDbm5z1/Hr8j+CaJLG1qj1NrXHrW0BwUDbDY=" ctime="20210518210529" dir="1621361129il6sgg6vro" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="1608478659w5ci5z2vxw" name="UkM1U0lNUAOogfE+N+6jYxfZ8gFcXX6i4Tam9xqdgCjl/4WnJSOWUpK8BDZCIrun">
+   <recordtable>
+    <record id="15481833311a6mjs9012" name="UkM1U0lNUAOsvp9Ua2xbuI4jF+6BXtrUXwFL9I/CAvgEuD5Y8QKDvnaUT/I6rC2f" author="UkM1U0lNUAPIp/STU7IyqIXIZJPNQwLzqGDukkQG74P7V15FSHlELGktNmL4DIiT" url="UkM1U0lNUAOnXgWnEpVvudy8W8Wn1TKXEmpR6Y7uEm9HT6TWLyYl0lUYNGEHF/x51kn8ni8jBHCsDUMjFK7s3t74xbjoryaGklULKDxgD4g//pkx3k/5tmJGX7TRPFzHfEg07ucH3sRzQif9AU1jisDZW5sVHHK5KUVsbDyjn6dvS6bP1Tv33qsQOxiPMRHAvPx2EQuCR12+kI2+0TBTotsJOZAq5y5oZv9pNpZV7Y0G+byEYokT/Yu7mNjBz1eIs8k1r8eMDPrbJbAtu1IuFolB7abDjvxK/vLyIwkhTrBjddcuDgqslJ3pdhO6DFfKIUJxxIqq+hWpqQE7tqwEh9Y17D+HEXHU4CFbPARPEpT7AQkEK5diLGVFCEympwJIgP4d+IKmF9sWK3kH8YhuVA==" tags="UkM1U0lNUAPdPayCBVYpY7VLaMJwIsBnpAomvKwvgL+eSuTQ8onCOuIVO5cCKz9RIzg98h6nRUnH37QA4vrxv8ng4ECKZTbH" ctime="20201220183811" dir="1548183331j65ohwpb7k" file="text.html" crypt="1"/>
+    <record id="1608578566zuarwpio72" name="UkM1U0lNUAODPVIowBvmVHw14Th2wQzz7Ir974DP4lM+jgrlMczuJJz/3+8ADbuxz04knSjfSkcHQOYUJ4K3ndviEWE5MyuW8jg3jlU8DzNFnoL2KQq8PKHf6KZ3LxiM9V/m7vC+o1L8ku4CUTRPWPODaLnk+jbpGdPx1g4CfMtGTkDhdCV+MZuf5bbkESYskmN2mlM5HBeoGxLC3o6i+t9/+rKjvYDT" author="UkM1U0lNUANAeaBoOrxOjvv4S/MWrrTv4NE0DOHV4Lv1tj8EbnTy01kkXMhp7uMX" url="" tags="UkM1U0lNUAMEf7TBuwICNarpzhF0zWyx01M6BVYQTFSsbws1Ax1uCOiHW6J/CT2S+W6K2sjmmM1h9vneXBct789wU7NLwlpdjFiR2HAyXupxHs2D9sDgs6TNzU3m/Ccxajxa23RyK+qzpAiDUmL5jfJ6VZWEEE55vhJ1Tq3YL08VxEU5NBF1/ESCNv8DSb6km04995Z9KMosSjVYq2oQMC9JEcNPp0Oo" ctime="20201221222246" dir="160857856606alwwtuk6" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="1609083780gptbqdvtxj" name="UkM1U0lNUAMMloAZEXQZXD0zW4ZMmVz8wZ9723Lw94NfT43XgyZj3VjyDSupmb+a">
+   <recordtable>
+    <record id="1609084283n9hxhyyfif" name="UkM1U0lNUAO8zf2Wj/YvXYtM/kSexdK0I4Ux6uvgA/qC2mKf45qu2j4NFY+wmEWBx9MgYiiOIuG8I4smNm1298KePQi96itQ" author="UkM1U0lNUAM3VHcX2SGulTFmSvFULQGni6DbOamRxpNS6t0jltxaqqAk6kMhH7kq" url="" tags="UkM1U0lNUANX0+D2Y3ott9BG6eNncq/f1Pn0hQ6M0KepwchRmTBQ8vyO+pMFS+lQta2Sk9oQqZSey9oQ60oe3uUwl7S03cI0qv2rbpDOp/I=" ctime="20201227185123" dir="1609084283ddx3hqnm3i" file="text.html" crypt="1"/>
+    <record id="16090880878wtu93j4vr" name="UkM1U0lNUAOZMmDEEtaVSah/gjq71YAJbzmBbwD3pMkpPP3LqJ5OQiHUvPZQzLw+FdY/IDV96DWVwCEjMWsiPVhzjgSD4sfP3Os6GyvnZrGm/IRn/2artGbYO1vLmGes" author="UkM1U0lNUAOdjCweJV5+6sqtAu1FHAQt1BWSL/OFoNyJc1vyANyYFrf1y6p1/cH6" url="" tags="UkM1U0lNUANnsIr+XU+b6cwgv/FOlIQFtV16K2aqtY9d+FO2eZsIhdNJ5Zvri+gLHZLRNiJN8jKBS9YTBBg1Kp+Rfmn51hFUkf64Rnbu6D4je95l2QmuMTaN43faQ47KBrMzAw72fC8=" ctime="20201227195447" dir="1609088087rfjp5465jp" file="text.html" crypt="1"/>
+    <record id="1609170706eze1h0kuw8" name="UkM1U0lNUAPeODsNXg9FA4JSB0CpcK/6l/fpVe64wiZuN2HcllgUElw5rpL8p+DdhGY7aACVeFg+45IPKPTCEw==" author="UkM1U0lNUAPhcPPuzgIz0Rv9n5qe9nO5Rj+LicM+gvaqY3w2nVc5jODlEAg1QMXM" url="" tags="UkM1U0lNUAODEZGGSUloum+CIJt1bnrxoM2GVZB9on26PWKEoxfPirBwS4arTzOjwqXhxYXbJRfhBwQ8L3Nn2g==" ctime="20201228185146" dir="1609170706lac7c63ljn" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="1609515789jy7cd8cnkf" name="UkM1U0lNUAO6ikfV/HaASbki/pse0jxFmHYUk6V9ON76NtpBJF2aU7QiNRbaqZuY">
+   <recordtable>
+    <record id="1609515828xqf7f89x39" name="UkM1U0lNUAOipZwQBm9hDDoq8vR/poK9rnHQfXrAFqnwvMvqSBS7nO1I7wSEvkrm9bIO5mTVU7s=" author="UkM1U0lNUAMMzg34cbKUgSQcLcDw9w54y0wm76Crj8N0pHcKqcYPBZ0+w/jcMMW2" url="" tags="UkM1U0lNUAPePCpGe5VTSnpvCniTBETOiXdxGIYMFzU3mRMN+d954rGSYMAJMUzDyCwFlkRBa3M=" ctime="20210101184348" dir="1609515828yp21869ldd" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="1609837973up53noobdr" name="UkM1U0lNUAMfPVU9EshxdHjDQruZ3WhXgfR4/p/TMhT33YOSBFcNsMi8mr+olSWe">
+   <recordtable>
+    <record id="1609838039u419ewsq8k" name="UkM1U0lNUANU37oROc99LNl8/RZZyMCAGtOBEcj38T5KHCtmjLhnJzfM8o6WoeC1" author="UkM1U0lNUAOxAvr5dfxNVPGvwRXCzY8xFY9eHRAdwLzxVEwFR3DJHj0R13r+rI2P" url="" tags="UkM1U0lNUAOTkhrIE0N5Fd+ONg9vUrYXNEo+5C0QQ/Lk3YQcFJiTOfPYXb4B7fZD" ctime="20210105121359" dir="1609838039l5o9r9335s" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1610263887mev5gxx87i" name="VPS">
+   <recordtable>
+    <record id="1610263934fdr40sjvl8" name="Виртуальный сервер VPS " author="alensav" url="https://vps.free-www.ru/?utm_source=eLama-google&amp;utm_medium=cpc&amp;utm_campaign=45905041_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F&amp;utm_content=cid|9284693032|gid|96982619027|aid|417235393400|dvc|c|pid|kwd-316045583475|pos|none|adn|d|mt|&amp;utm_term=%2B%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%2B%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%20%2B%D0%BB%D0%B8%D0%BD%D1%83%D0%BA%D1%81&amp;gclid=EAIaIQobChMI4r3kp-qQ7gIViN2yCh0CqQ6aEAEYAyAAEgJQKfD_BwE" tags="Виртуальный сервер VPS " ctime="20210110103214" dir="1610263934yxm0m75uoe" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1610738754itbeodq2iw" name="OpenCART">
+   <recordtable>
+    <record id="1610738839qxal3inaa2" name=" OpenCart V2.x" author="alensav" url="https://www.opencart.com/index.php?route=cms/download/download&amp;download_id=59" tags=" OpenCart V2.x электронный магазин" ctime="20210115222719" dir="1610738839atml7aydsx" file="text.html"/>
+    <record id="1610739045pq4smrucot" name="Скачать OpenCart бесплатно" author="alensav" url="https://opencart.ws/download.html" tags="Скачать OpenCart бесплатно" ctime="20210115223045" dir="16107390457vqszfmdm8" file="text.html"/>
+    <record id="1610787648r9148vp5lp" name="Как установить OpenCart на Ubuntu 18.04 4" author="alensav" url="https://andreyex.ru/ubuntu/kak-ustanovit-opencart-na-ubuntu-18-04/" tags="Как установить OpenCart на Ubuntu 18.04 4" ctime="20210116120048" dir="1610787648qj4lw77zg2" file="text.html"/>
+    <record id="1611043108glo4w825f2" name="Решение проблем OpenCart" author="alensav" url="https://www.templatemonster.com/help/ru/opencart-troubleshooter-how-to-solve-admin-panel-redirects-to-installation-issue.html" tags="Решение проблем OpenCart. Как решить проблему, если ваша админ панель перенаправляет Вас на страницу установки&#10;" ctime="20210119105828" dir="1611043108jno6cbjst6" file="text.html"/>
+    <record id="1611045272k56qnvx54b" name="Дистрибутив OpenCart" author="alensav" url="https://shopiweb.ru/opencart-3/distributiv-opencart-kak-ustroen/" tags="Дистрибутив OpenCart: как устроен, папки и файлы дистрибутива" ctime="20210119113432" dir="1611045272bu1jhkv02n" file="text.html"/>
+    <record id="1611054993aqmcz2fdto" name="OpenCart 2+ описание процесса загрузки приложения. &#10;К" author="alensav" url="https://klisl.com/OpenCart_MVC.html" tags="OpenCart 2+ описание процесса загрузки приложения. &#10;К" ctime="20210119141633" dir="1611054993lr7iieesqv" file="text.html"/>
+    <record id="1611059183zi3q2208v6" name="Руководство Администратора " author="alensav" url="https://docs.ocstore.com/index.php?title=%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B0" tags="Руководство Администратора opencart" ctime="20210119152623" dir="1611059183wua5kc4hs2" file="text.html"/>
+    <record id="16116622180d7ovl3s48" name="Как установить веб-сервер Apache в Ubuntu 18.04" author="alensav" url="https://www.digitalocean.com/community/tutorials/apache-ubuntu-18-04-ru" tags="Как установить веб-сервер Apache в Ubuntu 18.04" ctime="20210126145658" dir="1611662218v2zqetibnb" file="text.html"/>
+    <record id="1618571838mk4e0zosy0" name="DOCS_SHOP" author="alensav" url="" tags="DOCS_SHOP интернет магазин" ctime="20210416141718" dir="16185718389w1fxfmkcr" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1611146780gp3s2lximz" name="Subversion">
+   <recordtable>
+    <record id="1611146829pz1fcdxd69" name="Управление версиями в&#10;Subversion" author="alensav" url="http://svnbook.red-bean.com/" tags="Управление версиями в&#10;Subversion" ctime="20210120154709" dir="1611146829s4kvw2w9ki" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1611646875f35wb3b2rf" name="RUBY">
+   <recordtable>
+    <record id="16116477305igq8netoa" name="Rails для начинающих&#10;" author="alensav" url="http://rusrails.ru/getting-started-with-rails" tags="Rails для начинающих&#10;" ctime="20210126105530" dir="16116477308liaf1qqke" file="text.html"/>
+    <record id="1611647856a53yw3fynn" name="Ruby on Rails — это веб-фреймворк с открытым кодом" author="alensav" url="http://rusrails.ru/" tags="Ruby on Rails — это веб-фреймворк с открытым кодом" ctime="20210126105736" dir="1611647856agpr6du07i" file="text.html"/>
+    <record id="1611648019e4zbxz5vh0" name="Заметки о релизе Ruby on Rails 4.2" author="alensav" url="https://github.com/morsbox/rusrails/blob/4.2/source/4_2_release_notes.md" tags="Заметки о релизе Ruby on Rails 4.2" ctime="20210126110019" dir="16116480196estbnt4kw" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1611952488228s0n1yo3" name="PYTHON">
+   <recordtable>
+    <record id="1611952585p84naw4jxz" name="Программа на Python" author="alensav" url="https://help.ubuntu.ru/fullcircle/27/python_%D1%87_1" tags="Программа на Python" ctime="20210129233625" dir="1611952585xwr54rs5qg" file="text.html"/>
+    <record id="1612205633vkqfm2hrkn" name="Основы языка программирования Python за 10 минут " author="alensav" url="https://habr.com/ru/post/31180/" tags="Основы языка программирования Python за 10 минут " ctime="20210201215353" dir="1612205633cclt3cs1na" file="text.html"/>
+    <record id="1612205829yja0bbc94c" name="Комментарии Python" author="alensav" url="https://habr.com/ru/post/31180/" tags="Комментарии Python" ctime="20210201215709" dir="16122058295i5be7dbye" file="text.html"/>
+    <record id="1612206450jdwz7hmepj" name="Python для начинающих" author="alensav" url="https://geekbrains.ru/courses/112" tags="Python для начинающих" ctime="20210201220730" dir="1612206450huohlxptnr" file="text.html"/>
+    <record id="1612379778zhfusb0p7u" name="Python/Учебник Python 3.1 " author="alensav" url="https://ru.wikibooks.org/wiki/Python/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA_Python_3.1" tags="Python/Учебник Python 3.1 " ctime="20210203221618" dir="1612379778k9urgt9jfa" file="text.html"/>
+    <record id="1612445743mxaedpb3yp" name="Синтаксис языка Python&#10;" author="alensav" url="https://pythonworld.ru/osnovy/sintaksis-yazyka-python.html" tags="Синтаксис языка Python&#10;" ctime="20210204163543" dir="161244574340fl8ka5r6" file="text.html"/>
+    <record id="1612452011s6epp26hy3" name="курс" author="alensav" url="" tags="Типы данных и функции вывода&#10;" ctime="20210204182011" dir="1612452011zeq8ltisqf" file="text.html"/>
+    <record id="1612454799cjgs9vzoyt" name="курс2" author="alensav" url="" tags="Переменные и арифметические выражения" ctime="20210204190639" dir="1612454799cn9qmt4f26" file="text.html"/>
+    <record id="1612455755q4liynt5s3" name="курс3" author="alensav" url="" tags="Чтение данных&#10;" ctime="20210204192235" dir="1612455755zgkojviwp1" file="text.html"/>
+    <record id="1612621002dwkz0t3zn9" name="Настройка виртуальной среды Python" author="alensav" url="" tags="Настройка виртуальной среды Python" ctime="20210206171642" dir="1612621002fflcrs4e7x" file="text.html"/>
+    <record id="1612622569jys57u0oxv" name="Мы можем устранить ошибку, изменив файл pip." author="alensav" url="https://translate.googleusercontent.com/translate_c?depth=1&amp;hl=ru&amp;prev=search&amp;pto=aue&amp;rurl=translate.google.com&amp;sl=en&amp;sp=nmt4&amp;u=https://stackoverflow.com/questions/49836676/error-after-upgrading-pip-cannot-import-name-main&amp;usg=ALkJrhj9duER_2vf6JZ1jWJ7J21HI4x0eA" tags="Мы можем устранить ошибку, изменив файл pip." ctime="20210206174249" dir="1612622569qmdi20t4rj" file="text.html"/>
+    <record id="1612713838b3r1mzl7q5" name="Модуль math – один из наиважнейших в Python" author="alensav" url="https://pythonworld.ru/moduli/modul-math.html" tags="Модуль math – один из наиважнейших в Python" ctime="20210207190358" dir="161271383894927z78f3" file="text.html"/>
+    <record id="16127147504hiyus5dqb" name="Math — математические функции в Python " author="alensav" url="https://pythonru.com/osnovy/modul-math-python" tags="Math — математические функции в Python " ctime="20210207191910" dir="1612714750be2n49ldwx" file="text.html"/>
+    <record id="1612715016069ktxed33" name="Модуль math. Теоретико-числовые функции и функции представления" author="alensav" url="https://www.bestprog.net/ru/2019/10/27/python-module-math-number-theoretic-and-representation-functions-ru/" tags="Модуль math. Теоретико-числовые функции и функции представления" ctime="20210207192336" dir="1612715016gyl755ov0h" file="text.html"/>
+    <record id="16127164341z1vghv4ie" name="CGI: пишем простой сайт на Python" author="alensav" url="https://pythonworld.ru/web/cgi-1.html" tags="CGI: пишем простой сайт на Python" ctime="20210207194714" dir="16127164341ffdulp5pj" file="text.html"/>
+    <record id="1614856975pcjmypxcrw" name="Python Module Index" author="alensav" url="https://docs.python.org/3/py-modindex.html" tags="Python Module Index" ctime="20210304142255" dir="1614856975dfza20g1su" file="text.html"/>
+    <record id="1635084778mg2ywz1e1m" name="Приемы_PYTHON" author="alensav" url="" tags="python jgsn ghbtvs" ctime="20211024171258" dir="1635084778zp5bafx83x" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1612206165unsfym2rxh" name="ANDROID_MOBILE">
+   <recordtable>
+    <record id="1612206246f1d7s0b978" name="10 языков для Android-разработчика" author="alensav" url="https://geekbrains.ru/posts/android_dev_langs" tags="10 языков для Android-разработчика" ctime="20210201220406" dir="1612206246u518r4gol1" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1612722097yn5yhhu8u0" name="Django">
+   <recordtable>
+    <record id="1612722163fo5i45ad0l" name="Веб-фреймворк Django (Python)" author="alensav" url="https://developer.mozilla.org/ru/docs/Learn/Server-side/Django" tags="Веб-фреймворк Django (Python)" ctime="20210207212243" dir="1612722163jrfo5cmfkg" file="text.html"/>
+    <record id="1612722317ks1wg59ivk" name="Что такое Django?" author="alensav" url="https://tutorial.djangogirls.org/ru/django/" tags="Что такое Django?" ctime="20210207212517" dir="161272231708l3eolp3h" file="text.html"/>
+    <record id="1612722967y7bk9dc654" name="Глава 1. Введение в Django" author="alensav" url="https://www.djbook.ru/ch01.html" tags="Глава 1. Введение в Django" ctime="20210207213607" dir="1612722967yyrbsi6kki" file="text.html"/>
+    <record id="1612726138abndaz7uk4" name="Эффективный Django. Часть 1 " author="alensav" url="https://habr.com/ru/post/240463/" tags="Эффективный Django. Часть 1 " ctime="20210207222858" dir="1612726138e1nhyzqjbu" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1612779447v6stir2yys" name="Редакторы HTML">
+   <recordtable>
+    <record id="16127794828kkesxtnq1" name="Особенности Sublime Text 3&#10;" author="alensav" url="https://techrocks.ru/2018/01/08/best-linux-code-editors/" tags="Особенности Sublime Text 3&#10;" ctime="20210208131802" dir="1612779482f4a7x8ef6d" file="text.html"/>
+    <record id="16128633776nbnh57qmj" name="Общая настройка VS Code " author="alensav" url="https://itchief.ru/javascript/vscode-configuration-for-frontend-development" tags="Общая настройка VS Code " ctime="20210209123617" dir="161286337781aqg5k7d9" file="text.html"/>
+    <record id="1613076747e1nrnwhaht" name="Visual Studio Code: мощное руководство пользователя " author="alensav" url="https://dev-gang.ru/article/visual-studio-code-moscznoe-rukovodstvo-polzovatelja-dwedy9wjzg/" tags="Visual Studio Code: мощное руководство пользователя " ctime="20210211235227" dir="1613076747orvex9z4hf" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1612887919a06kuphu0w" name="GIT-PYTHON_SAV">
+   <recordtable>
+    <record id="16128879781m9r1g0mno" name="Отправить файлы в Github" author="alensav" url="https://coderoad.ru/44643741/%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D1%84%D0%B0%D0%B9%D0%BB%D1%8B-%D0%B2-Github" tags="Отправить файлы в Github" ctime="20210209192618" dir="1612887978t7yf8tlpnl" file="text.html"/>
+    <record id="1612959425ymy5ihdo54" name="Установка git" author="alensav" url="https://qna.habr.com/q/140825" tags="Установка git настройка" ctime="20210210151705" dir="161295942549wduhaxot" file="text.html"/>
+    <record id="1613076341fbverz04p1" name="GitHub - Внесение собственного вклада в проекты " author="alensav" url="https://git-scm.com/book/ru/v2/GitHub-%D0%92%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0-%D0%B2-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B" tags="GitHub - Внесение собственного вклада в проекты " ctime="20210211234541" dir="1613076341fm9l7qms90" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="1613072615ewzbq1whwg" name="UkM1U0lNUANO7iNYYLKXOmYzYY2k6TLPZT1zPkGIbvOl9fdY5X3koa9AGMcWz3LL6HffL7E9gY0=">
+   <recordtable>
+    <record id="1613072713miz1lz53wr" name="UkM1U0lNUAMeDHeVXzrhVLGY9N14j8fhyx31yirLYoGLPbHXPkyDEFI98+aV8DDl" author="UkM1U0lNUANM9anKr9vDz2Wl1C0i3eaVzpToP9OjfuaGcriwbiMxzOeUIf3AgQh5" url="UkM1U0lNUAP7erxcIM0Uude+w869AxDvLuk7VXSwMwyc+oIs+By/J0GbNJMcgE/YoHM5xEB5k0vkbqwirE9zyDtvwJbmzwMTrKAh0vUF5ts=" tags="UkM1U0lNUAMRuJjqlLf2CyvwQePmyy3JLoIxUectC0kRg27JGPTUwSsyntBPMIKt" ctime="20210211224513" dir="1613072713my919fj6df" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="" icon="/Cinema/color_cinema_Idea.svg" id="16134607331i8cqhtlrg" name="M_RUSAKOV_Teacher">
+   <recordtable>
+    <record id="1613460804zrrj5dmshl" name="Обучение_HTML" author="" url="" tags="Обучение_HTML" ctime="20210216103324" dir="16134608040iu9a16j2d" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" icon="/Gnome/color_gnome_2_dialog-warning.svg" id="16136654772yl49sahzq" name="OGLAVLENIYE!!!!">
+   <recordtable>
+    <record id="1613665538qondaf7gpn" name="ОГЛАВЛЕНИЕ" author="alensav" url="" tags="ОГЛАВЛЕНИЕ" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html">
+     <files>
+      <file id="1613897870at5mnmf63b" fileName="index.html" link="/home/alensav/Документы/BOOKS/HTMLRef/index.html" type="link"/>
+     </files>
+    </record>
+   </recordtable>
+   <node crypt="" id="1613678210jw0wy9pnw4" name="IKONKI">
+    <recordtable>
+     <record id="1613678266ezgle36sey" name="IKONKI" author="alensav" url="" tags="IKONKI" ctime="20210218225746" dir="1613678266uv7awcnpk8" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
+  <node crypt="" icon="/Swift/color_swift_Calculator.svg" id="1613673263d0onl73zn8" name="МОИ ДЕЛА">
+   <recordtable>
+    <record id="1613673345l38qo2i0ws" name="СДЕЛАТЬ" author="alensav" url="" tags="сделать, дела, план" ctime="20210218213545" dir="1613673345363rt4ydjl" file="text.html"/>
+    <record id="1613673386752ddx6g1f" name="СДЕЛАНО" author="alensav" url="" tags="сделать, дела, план, сделано" ctime="20210218213626" dir="1613673386jberh2azj6" file="text.html"/>
+    <record id="1613673487dykucjvnhg" name="ЗАВИСШИЕ" author="alensav" url="" tags="сделать, дела, план, зависшие, отложенныу" ctime="20210218213807" dir="1613673487su42s34d7h" file="text.html"/>
+   </recordtable>
+   <node crypt="" icon="/Swift/color_swift_Browserpen.svg" id="1613673671s65chhvcks" name="СДЕЛАТЬ">
+    <recordtable>
+     <record id="1613813965gih5b1rnxo" name="В Подвале пропылесосить, убрать мусор и помыть лестницу." author="" url="" tags="В Подвале пропылесосить, убрать мусор и помыть лестницу." ctime="20210220123925" dir="1613813965dodxcfthni" file="text.html"/>
+     <record id="16138139973tq6vl0keb" name="Разобраться и отремонтировать железную дверь под навесом." author="" url="" tags="Разобраться и отремонтировать железную дверь под навесом." ctime="20210220123957" dir="1613813997u23b7fsfi5" file="text.html"/>
+     <record id="16138140218jb4rx2owc" name="Поставить батарею в ванной." author="" url="" tags="Поставить батарею в ванной." ctime="20210220124021" dir="1613814021navdg7yxrs" file="text.html"/>
+     <record id="1613814053xzz9q5f9u3" name="Заменить покрытие навеса со стороны улицы." author="" url="" tags="Заменить покрытие навеса со стороны улицы." ctime="20210220124053" dir="1613814053wyh83ol5sh" file="text.html"/>
+     <record id="16138140746b8mnt7rkg" name="Обследовать трубу на крыше." author="" url="" tags="Обследовать трубу на крыше." ctime="20210220124114" dir="1613814074cz1b87w3w6" file="text.html"/>
+     <record id="1613814107y4mzn1am9g" name="Обрезать сливу у навеса удлиненными ножницами." author="" url="" tags="Обрезать сливу у навеса удлиненными ножницами." ctime="20210220124147" dir="1613814107bd4zf7t2yd" file="text.html"/>
+     <record id="16138141362khg362pvs" name="Завершить тротуар на улице удлинить водоотливную трубу. Можно применить камень который лежит на огороде." author="" url="" tags="Завершить тротуар на улице удлинить водоотливную трубу. Можно применить камень который лежит на огороде." ctime="20210220124216" dir="16138141363g7qgbr6xg" file="text.html"/>
+     <record id="161381416160e492259t" name="Восстановить облицовочные плитки возле ступенек, со стороны улицы." author="" url="" tags="Восстановить облицовочные плитки возле ступенек, со стороны улицы." ctime="20210220124241" dir="1613814161jamk2gf0m3" file="text.html"/>
+     <record id="16138141856czc1c9lkm" name="Покрасить окна на втором этаже со стороны Надежды." author="" url="" tags="Покрасить окна на втором этаже со стороны Надежды." ctime="20210220124305" dir="1613814185eaosvxadik" file="text.html"/>
+     <record id="1613814212nh7l0l08kq" name="Покрасить ворота и у вход в гараж." author="Покрасить ворота и у вход в гараж." url="" tags="Покрасить ворота и у вход в гараж." ctime="20210220124332" dir="1613814212ng2msjf1kz" file="text.html"/>
+     <record id="1613814239cbr2y96yjd" name="Устройство дорожки до чёрного бака." author="" url="" tags="Устройство дорожки до чёрного бака." ctime="20210220124359" dir="1613814239bk3z630mrk" file="text.html"/>
+     <record id="1613814258u9lh5m2g4e" name="Запланировать отдых." author="" url="" tags="Запланировать отдых." ctime="20210220124418" dir="1613814258nstuv73hlm" file="text.html"/>
+     <record id="16138142810d92938k30" name="Регулярная зарядка по намеченной программе.&#10;" author="" url="" tags="Регулярная зарядка по намеченной программе.&#10;" ctime="20210220124441" dir="1613814281em8fjdhl9l" file="text.html"/>
+    </recordtable>
+   </node>
+   <node crypt="" icon="/Swift/color_swift_Vimeo.svg" id="1613673685eqm17chnnq" name="СДЕЛАНО"/>
+   <node crypt="" icon="/Swift/color_swift_Molecule.svg" id="1613673705wd1etsora1" name="ЗАВИСШИЕ"/>
+   <node crypt="" id="1614683501id4danqr8w" name="MAYAK">
+    <recordtable>
+     <record id="1614683737z8l9e3rfzr" name="Mayak1" author="" url="" tags="Mayak1" ctime="20210302141537" dir="1614683737bcs6mf0jca" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
+  <node crypt="1" icon="UkM1U0lNUAP528yi0ZjjXHlv14dU5CMOJchnDDqT9iUK4srPdAwRx1qQuY4cAqcyRVQbmFg7LJZisH5fuD+C+wXerWucH6bU4G7Vd/d9s6CiFnCJgwlYSA==" id="1613746293qpx5dox2un" name="UkM1U0lNUAPZ0XnXHmuaeNZyq3d+h0fC5MlFw4dBRrlTe0bdphWU0zFwc1leZw8t">
+   <recordtable>
+    <record id="1613746481mu9i88g9mn" name="UkM1U0lNUANq4LIjRsYPDdX2N3RuOkDvnDuiLtgU8mKakHboLyKniLQr3mndStZx6lV4gC5n9NQ=" author="" url="" tags="UkM1U0lNUANdpaTHhVbqzNM9aKjjSXhUBO6v6t6bmIQ49s13QcvhgC9BS8M9Bn3iCSecXpylcyE=" ctime="20210219175441" dir="16137464810g5x1ilykv" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="16142542621x5ekfx12g" name="UkM1U0lNUAPz7l6Vqcm/fI2v1xzquwwiHVhH0UUIPlFvZWvTh90Vie+WDyGLuE88bWt4oSb1ZKg=">
+   <recordtable>
+    <record id="1614254339661yao3oj7" name="UkM1U0lNUANDOyrr5aLwX5EBz42zqOuhxQQi/gjb07DfO8lHk4xkp8gOP/3muitm0kyLWP9q79rcvesiITyOkSZElZlKP26sz8iqprPo110=" author="UkM1U0lNUAMcIBkHBbz3ZIeTFXRLFfMV4wNaHKrkySXdKEpKrLRSJDHVDkL+q/uI" url="" tags="UkM1U0lNUANQSRkpLghGTvdCTQiVYeN0PvVK4v3vhSESOrNiKL4vvllF096Aku4ZXRVX+hqtTT/D+C8yggy4mKTWGa7Z/uMJwmNIjdQc1b8=" ctime="20210225145859" dir="1614254339qytvtuqqvs" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="161444337434pjaz2eys" name="LITTRASS">
+   <recordtable>
+    <record id="1614443575jcw0gsntan" name="Littrass" author="alensav" url="" tags="Littrass" ctime="20210227193255" dir="1614443575cogi8qha5v" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1614674479vtyxsagese" name="NEWS_IT">
+   <recordtable>
+    <record id="1614674532kwtbg1v115" name="My List&#10;pocket" author="alensav" url="" tags="My List&#10;pocket" ctime="20210302114212" dir="1614674532bvu99mz508" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1614678122s9ypt4xas7" name="ALPINE_LINUX">
+   <recordtable>
+    <record id="1614678190mxms3f34kd" name="Про Alpine" author="alensav" url="https://habr.com/ru/company/digdes/blog/415279/" tags="Про Alpine linux" ctime="20210302124310" dir="1614678190ck3l83p1en" file="text.html"/>
+    <record id="16146794824qwfkwuli7" name="Установка Alpine Linux " author="alesav" url="https://losst.ru/ustanovka-alpine-linux" tags="Установка Alpine Linux " ctime="20210302130457" dir="16146794827iof7fntph" file="text.html" crypt="0"/>
+    <record id="1614679689dlkhwdqg0z" name="Alpine linux установка и настройка" author="alensav" url="https://zhumor.ru/internet/alpine-linux-ustanovka-i-nastroika-h-zachem-ispolzovat-alpine-v.html" tags="Alpine linux установка и настройка.Зачем использовать Alpine в качестве основы docker-образа в черновиках " ctime="20210302130809" dir="1614679689jnie3zijne" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1615018448eokhxbn2jt" name="DOCKER_SAV">
+   <recordtable>
+    <record id="1615018648zc9g37vjvk" name="Docker-SAV" author="alensav" url="" tags="docker " ctime="20210306111728" dir="1615018648yl3z20a5iu" file="text.html"/>
+    <record id="1615113946x6bnh73kd1" name="Команды для работы с контейнерами&#10;" author="alensav" url="" tags="Команды для работы с контейнерами&#10;lxc" ctime="20210307134546" dir="1615113946r9gl0pfaf8" file="text.html"/>
+    <record id="1615281174run5xwkart" name="LXD/LXD command" author="alensav" url="" tags="LXD  / LXD command команды" ctime="20210309121254" dir="1615281174etu07p1mp8" file="text.html"/>
+    <record id="1615734869qim2zlrrtp" name="SETTING" author="фдутыфм" url="" tags="SETTING lxc наладка" ctime="20210314181429" dir="1615734869ksp9r40l81" file="text.html"/>
+    <record id="1615884534ifupmpajv8" name="apt-get install lxc " author="alensav" url="https://sites.google.com/site/kfgnb0101/home/Doc/promox/lxc" tags="apt-get install lxc " ctime="20210316114854" dir="1615884534in9ab11idz" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1615887092mn9j7j4umf" name="ORANGE_PI"/>
+  <node crypt="" id="1615913077n8mmwd4k6f" name="MAC">
+   <recordtable>
+    <record id="1615913113bi7e4jb6w6" name="Как в Linux по MAC-адресу определить производителя устройства" author="alensav" url="https://hackware.ru/?p=3602" tags="Как в Linux по MAC-адресу определить производителя устройства" ctime="20210316194513" dir="1615913113n9yqwa3gva" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1615975228cc4j1bx4dg" name="F-612">
+   <recordtable>
+    <record id="161597539839zy0vl764" name="DNS" author="alensav" url="" tags="dns" ctime="20210317130318" dir="1615975398ea3y9ka74n" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1616343302i2ad7epgqj" name="TLFN_ROZETKA">
+   <recordtable>
+    <record id="1616343449fo7bdqeo66" name="TLFN-ROZETKA" author="alensav" url="" tags="TLFN-ROZETKA" ctime="20210321191729" dir="1616343449qxvd2vc5nx" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="161660017815q8my3gd3" name="VIM">
+   <recordtable>
+    <record id="16166002166e7oyb4aah" name="Установка VIM в Linux&#10;" author="alensav" url="https://techrocks.ru/2018/01/08/best-linux-code-editors/" tags="Установка VIM в Linux&#10;" ctime="20210324183656" dir="16166002162c0s0263jk" file="text.html"/>
+    <record id="1616601193tug2tr8p7w" name="vim - Vi IMproved (Улучшенный Vi), текстовый редактор для программисто" author="alensav" url="https://manpages.debian.org/stretch/vim-gui-common/gvim.1.ru.html" tags="vim - Vi IMproved (Улучшенный Vi), текстовый редактор для программисто" ctime="20210324185313" dir="1616601193fhouju6x8p" file="text.html"/>
+    <record id="1616776709m2c1j4dt01" name="Создание нового проекта WiringPi в Code::blocks" author="alensav" url="https://micro-pi.ru/%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-codeblocks-ubuntu/" tags="Создание нового проекта WiringPi в Code::blocks" ctime="20210326193829" dir="1616776709c7ju6qsciv" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="16186058987fak4a3w4d" name="UkM1U0lNUAOnd4CeTtkrBi9cmKDGhm3ma/NUttfH0aGPMK1Hj0Jn9OLJX5RdSelqIwms4bj/ahM=">
+   <recordtable>
+    <record id="1618605986zro0m33mhl" name="UkM1U0lNUANSyOlt7F1iPBU00VRWEtSBoYd96qeBzs5nAklWd1xBbrdACZXY2g7s10UO8JJTXbM=" author="UkM1U0lNUAMBImlD5rsLz5e/VPiGnkNRimYXnLk0Myd39zjbpDuurWhGvQsFbw0V" url="" tags="UkM1U0lNUAPruHeJxCmK5koBm+lfoGuaSl3vAz01qKI5/VLfFenV/+Eu7DmqyNIlDyFs8M8PUzI=" ctime="20210416234626" dir="161860598621fc2z25w7" file="text.html" crypt="1"/>
+    <record id="1619447250o7i930tawn" name="UkM1U0lNUAOMnLv4EnduXUoMGA1742th7iL3K/Nj2LFtDe9pUES5j0uN9fuSWhVdvMzsb85M/i8=" author="UkM1U0lNUAPRLHdgHwT92nCuc/Qd0SzCnWxZK+RqoWRAzjYQ/UK2qByFh0kHMz6i" url="" tags="UkM1U0lNUAP6Xir55CzKET8EhYx8Tycv08LhsOvMKwHzLcD4g/j/82cr09h92p8DBzOv9K6/nes=" ctime="20210426172730" dir="1619447250p45h3yum88" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="16189984486lfufrdbwt" name="UkM1U0lNUAPVC+SLXPRMxBPrqGPIag1gqPIYBvoh0ceHtBR9ddb8m+L6ICVb0oj1">
+   <recordtable>
+    <record id="1618998495a5yp7hdl2u" name="UkM1U0lNUAM1XpZLY942c2MoWASyw/Rp6xSb0YbvSib3nAPSmVQBAyHKNoPE1e7EzJ6lrtiByAo=" author="UkM1U0lNUAOlbIzRoepo7eqobU/3ay5duTXlWfTFzqiBGYU5NVh5hCocj0SswHOx" url="UkM1U0lNUAO3zXgssyHSH/rbqdxmb9aU8Nu52Sr0jeSIi9JyntRYkoewuLGOCkVYGAX4fDnmfbP1mPLhCwFgH/XUkvyx7uuTk1v9IG+/YAvaPIiIOXo1iA==" tags="UkM1U0lNUAMMYOK7F7AzRLUaQaIWPbb/8VuCIEWhm/TmTVun0/TDUQVFHDafeUIt1UQjAi3GkI4=" ctime="20210421124815" dir="1618998495yeddo9khkw" file="text.html" crypt="1"/>
+    <record id="1618999681vcfxng8kxb" name="UkM1U0lNUANfJ79vnUIRWjEQ1eRm97AwYGBTcfrHOT0Nf+wgPNpYBy901l/14BdJLfsdu/VxYjkegvYBDbjnqdthKSwJzRyccTs+sGajRqweieizxXcupw==" author="UkM1U0lNUANqisMp+WBsCtKFyFdfyBofAm74OzAT33PQsKl1lAXhsPb6CmVKf8Y7" url="UkM1U0lNUAOQZlG6ke0kG5izTf69NpN6i2GM4s5E5TJEANh07S69tQhA3+nRIIJTSBPlWtjerxeGcJX2XhcgS/ZEGpzmZYoop9SzJ54C74wQvfdbp6XKzw==" tags="UkM1U0lNUAMN4/lwnUEBA89t4IpWyVU5XcF6nHq16dIM0RdnXLyKKrsfzCMdgiloodHlAGPZdsu2qy349d50hnJNLxz93M5XMxM3q9Saa584rG7+SWw3Mg==" ctime="20210421130801" dir="1618999681g3ubqfvwok" file="text.html" crypt="1"/>
+    <record id="1619342764l8ru5qpvcc" name="UkM1U0lNUAM8cuwJAtUuNgTxd72cwUVEiiL/GkT6BcXVqCAjmT70/QGFMa+M4aBsPhE2cU3lygvh0ron/keMxXOxNu1LFs2s6c/SJSMiOAP+DcLXmOxL/W6TfL6ozGqT" author="UkM1U0lNUANoknOkz+WR2DVBfpmlqyE5XU8olDgYzG45bYjroLc3uuUK7aVAa19E" url="UkM1U0lNUAO/xvGPW6b37oy6fg2+WseYF4/3AWpZx51RLe4otFNV1a7xGXg0zS/sqR5jGdexxwpZyvehxzRhnW6fzx3T10F8uhAA3iVVqa3mEkRxy4AOLCMQV8Cos7wEY6Ck2vtK5Dk=" tags="UkM1U0lNUAMPJirO7BtdSOefBCDp88Sc/b/tNvUBZNtnsqe7XjNf5nQzRAuwJ7/oG8LyimxT2dYxc8j20KJrYcf/4dKdLFOhX8KoNf4TV2AkuaK3IkrNrQv7r85aZeJ1" ctime="20210425122604" dir="1619342764aa25pd4a3t" file="text.html" crypt="1"/>
+    <record id="1619628022p68shixw81" name="UkM1U0lNUAMlpUrRftfJe3Nb0rUCDKQK2SUR17NpPGZwSDEKLfLPKbDNU/0R+X0UeBFbElY8xAh713+Eq2EiP9moYLC1FauJIOq79pIoxKaHDehxE2vKn1BSQj2ynyUIp/1KOEs7BLBBj0UqsAKqkd88Iy6Pmr6+h38enxi2Xoc=" author="UkM1U0lNUANp1Qc6U94Dzt6Tcs5X0+vv6IXVAEhA9W3uIpHvfdZeJKr7/OFgSBA5" url="UkM1U0lNUAPCkEkGwAZvln+P/Iuh3lxGXeeUQJYawBPsiB95DsoKdbr/pfUrcejTLerziOK7xm05++FUWteZoUNR/VbmzNY6jHV4rAxXD2cDgpuwnb6ldjzpHxeznoUoOJKJqp5vy8ouGTG0vuc8sdkSnjkAQo2Sseh5rotYVZpErpMb7Sd0NjXW8tMGLdJg" tags="UkM1U0lNUAMwhDHAzjeA1NR+WpHcqJFC/djpaQCe6IpBebjqk61yjogNgzvf8YKpLGRFwSWpZ3sPEsrgNxmIcYdRDd+FwFFzBKs5LSll7ZhvRn1NB+7SQF2OVtNC9IkjdxH8DaqKmuso5x382eZEJsK99Xxev/WjD+4yb/bICCI=" ctime="20210428194022" dir="1619628022grzerdv7br" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="16205489180lr4w4we1k" name="САЙТ_РАСКРУТКИ">
+   <recordtable>
+    <record id="1620548977e85h9xj2xm" name="Раскрутка сайтов_docsproekt_ya_ru" author="alensav" url="" tags="Раскрутка сайтов" ctime="20210509112937" dir="16205489775xjcifhuti" file="text.html"/>
+    <record id="1620549239dv5srvv66q" name="Раскрутка сайта в 2021: как раскрутить сайт быстро и бесплатно " author="alensav" url="https://1ps.ru/blog/dirs/kak-raskrutit-sajt-sovetyi-novichkam/" tags="Раскрутка сайта в 2021: как раскрутить сайт быстро и бесплатно " ctime="20210509113359" dir="1620549239l1ldmudijs" file="text.html"/>
+    <record id="162054945000kb5ah5n9" name="Продвижение сайтов " author="alensav" url="https://www.iseo.ru/" tags="Продвижение сайтов " ctime="20210509113730" dir="1620549450erg8c1xa4l" file="text.html"/>
+    <record id="16205774908yk431xebv" name="google_DOCS_SHOP" author="alensav" url="" tags="docs shop docsproekt" ctime="20210509192450" dir="1620577490f0pwv9cyl7" file="text.html"/>
+    <record id="1620579549pg4mnrozxo" name="Arhiv-proekt" author="" url="" tags="Arhiv-proekt" ctime="20210509195909" dir="1620579549bl33vjx0pp" file="text.html"/>
+    <record id="1621361773gordcew6ns" name="Hosting_docsproekt" author="alensav" url="https://www.reg.ru/user/account/#/card/64036763" tags="docsproekt host " ctime="20210518211613" dir="1621361773u49ac69rof" file="text.html" crypt="0"/>
+    <record id="16214194660umfoeyob7" name="Редактирование dicription docsproekt" author="alensav" url="" tags="Редактирование dicription docsproekt" ctime="20210519131746" dir="1621419466r96b9wwk89" file="text.html"/>
+    <record id="1621950972tsrs3c4bz9" name="Яндекс.Бизнес" author="alensav" url="https://www.reg.ru/user/account/#/yandex-business/64036763" tags="Яндекс.Бизнес" ctime="20210525165612" dir="1621950972y2tfpxp51f" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1622908364h988is47ey" name="Клиенты_DOCS_SHOP">
+   <recordtable>
+    <record id="1622908419hlsk6t0lb3" name="Дмитрий_Зубков" author="alensav" url="" tags="Дмитрий, Зубков" ctime="20210605185339" dir="1622908419xajlihe3ps" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1632666839n1mkaglawd" name="EXPORT_NASTROEK">
+   <recordtable>
+    <record id="1632666944sjyydw6hfk" name="EKSPORT_NASTROEK_1" author="alensav" url="" tags="экспорт, export" ctime="20210926173544" dir="1632666944gdxidofeyb" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1634395091gtf18a283u" name="Django">
+   <recordtable>
+    <record id="1634395228kc3ap4vpsq" name="Django_virtual" author="alensav" url="https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-18-04-ru" tags="django, virtual, python" ctime="20211016174028" dir="16343952286okurehnu5" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="16349299118rx6uhj6nr" name="EXPORT_NASTR_UBUNTU">
+   <recordtable>
+    <record id="1634930087gkwa37yj9l" name="Экспорт настроек" author="alensav" url="https://qastack.ru/ubuntu/25633/how-to-migrate-user-settings-and-data-to-new-machine" tags="Экспорт настроек ubunntu" ctime="20211022221447" dir="1634930087g90cs5vnaj" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="16353567780wapmhyqql" name="Diagnostika">
+   <recordtable>
+    <record id="1635356885eri7kxyh92" name="DIAGNOZ_PC" author="alensav" url="https://www.instapaper.com/read/1455685752" tags="список аппаратных устройств диагностика" ctime="20211027204805" dir="1635356885hpmru9ptff" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1635418913wqqx8khytp" name="&#10;Увеличение скорости работы Ubuntu&#10;">
+   <recordtable>
+    <record id="1635418981vu5egdiet0" name="&#10;Увеличение скорости работы Ubuntu&#10;_SAV" author="alensav" url="https://help.ubuntu.ru/wiki/ubuntu_optimization" tags="Увеличение скорости работы Ubuntu&#10;" ctime="20211028140301" dir="1635418981tvxks54qjd" file="text.html"/>
    </recordtable>
   </node>
  </content>
