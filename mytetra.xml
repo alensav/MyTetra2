@@ -1368,6 +1368,10 @@
     <record id="1635418981vu5egdiet0" name="&#10;Увеличение скорости работы Ubuntu&#10;_SAV" author="alensav" url="https://help.ubuntu.ru/wiki/ubuntu_optimization" tags="Увеличение скорости работы Ubuntu&#10;" ctime="20211028140301" dir="1635418981tvxks54qjd" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1635587417vuao7g65kz" name="KALI"/>
+  <node crypt="" id="1635587417vuao7g65kz" name="KALI">
+   <recordtable>
+    <record id="16355899524gna9vje0p" name="KALI_OPERAT" author="alensav" url="" tags="kali manager" ctime="20211030133232" dir="1635589952zij1j8e4ed" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
