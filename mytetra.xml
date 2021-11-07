@@ -1374,5 +1374,10 @@
     <record id="16355899524gna9vje0p" name="KALI_OPERAT" author="alensav" url="" tags="kali manager" ctime="20211030133232" dir="1635589952zij1j8e4ed" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="16362994368gpjhqxwc5" name="CONDA">
+   <recordtable>
+    <record id="1636299487xm9xvoqpqk" name="Conda_sav" author="alensav" url="https://abc-server.com/ru/blog/administration/anaconda-install/" tags="anaconda conda" ctime="20211107183807" dir="1636299487iw87fpes26" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
