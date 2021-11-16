@@ -1180,6 +1180,11 @@
     </record>
     <record id="1636967584md9gjfuydr" name="Практика: графические примитивы" author="alensav" url="https://mipt-cs.github.io/python3-2017-2018/labs/lab4.html" tags="Практика: графические примитивы python графика" ctime="20211115121304" dir="1636967584xe8fow4tx1" file="text.html"/>
     <record id="16369920331z9uvb306l" name="Графика в Python: Tkinter и Canvas" author="alensav" url="https://otus.ru/journal/grafika-v-python-tkinter-i-canvas/" tags="Графика в Python: Tkinter и Canvas" ctime="20211115190033" dir="1636992033f9ssi0m5bx" file="text.html"/>
+    <record id="1637060788l7i1mwsu8a" name="Библиотека Matplotlib" author="alensav" url="https://devpractice.ru/files/books/python/Matplotlib.book.pdf" tags="Библиотека Matplotlib" ctime="20211116140628" dir="1637060788421n24i4q7" file="text.html">
+     <files>
+      <file id="16370608383a7ke9owte" fileName="Matplotlib.book.pdf" type="file"/>
+     </files>
+    </record>
    </recordtable>
   </node>
   <node crypt="" id="1612206165unsfym2rxh" name="ANDROID_MOBILE">
