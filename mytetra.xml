@@ -1410,6 +1410,10 @@
     <record id="1638181328iockdsxi9f" name="Установка драйвера wifi Asus wl-167g" author="alensav" url="https://www.oslogic.ru/knowledge/1350/ustanovka-drajvera-wifi-asus-wl-167g-v3-rtl8192-dlya-ubuntu-16-04-i-18-04/" tags="Установка драйвера wifi Asus wl-167g" ctime="20211129132208" dir="16381813283ugks525li" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1638352051qykgaxgnlp" name="Доски.ru"/>
+  <node crypt="" id="1638352051qykgaxgnlp" name="Доски.ru">
+   <recordtable>
+    <record id="1638352134fqkjebs6hy" name="доски_ru" author="alensav" url="https://www.doski.ru/internet-magazin-proektov-docs-shop-msg5696137.htm" tags="доски_ru" ctime="20211201124854" dir="16383521348cedrfsbz1" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
