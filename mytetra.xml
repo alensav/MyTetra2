@@ -1416,6 +1416,10 @@
     <record id="1638352134fqkjebs6hy" name="доски_ru" author="alensav" url="https://www.doski.ru/internet-magazin-proektov-docs-shop-msg5696137.htm" tags="доски_ru" ctime="20211201124854" dir="16383521348cedrfsbz1" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1638719653bjpn8w1wr4" name="WEB_РАЗРАБОТКА"/>
+  <node crypt="" id="1638719653bjpn8w1wr4" name="WEB_РАЗРАБОТКА">
+   <recordtable>
+    <record id="1638720115e8so6hepr2" name="30 полезных сервисов " author="alensav" url="https://habr.com/ru/post/236219/" tags="30 полезных сервисов для веб-разработчиков и дизайнеров v2" ctime="20211205190155" dir="1638720115e25n6tf1zu" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
