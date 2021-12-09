@@ -1425,5 +1425,10 @@
     <record id="1638727302d2w8ump77v" name="Топ 10 сайтов" author="alensav" url="https://vc.ru/design/128619-top-10-luchshih-saytov-dlya-veb-razrabotchikov" tags="Топ 10 сайтов вебразработка web site" ctime="20211205210142" dir="16387273028x0tv82rdt" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1639067279nprivxgo5v" name="EMMET">
+   <recordtable>
+    <record id="16390674048au0mabze5" name="Emmet 2 for Sublime Text editor" author="alensav" url="https://github.com/emmetio/sublime-text-plugin" tags="Emmet 2 for Sublime Text editor" ctime="20211209193004" dir="1639067404n6lt1icol3" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
