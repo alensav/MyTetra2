@@ -1430,5 +1430,10 @@
     <record id="16390674048au0mabze5" name="Emmet 2 for Sublime Text editor" author="alensav" url="https://github.com/emmetio/sublime-text-plugin" tags="Emmet 2 for Sublime Text editor" ctime="20211209193004" dir="1639067404n6lt1icol3" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1639154774xuacquyqev" name="BOWER">
+   <recordtable>
+    <record id="1639154823cvdr12fuvt" name="Установка и использование Bower" author="alensav" url="https://www.8host.com/blog/ustanovka-i-ispolzovanie-bower/" tags="Установка и использование Bower" ctime="20211210194703" dir="1639154823xhap84oyij" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
