@@ -343,6 +343,7 @@
       <record id="1596137502g2akgpe1j7" name="Права доступа к принтеру cups" author="" url="" tags="Права доступа к принтеру cups" ctime="20200730223142" dir="1596137502h9crvfmge7" file="text.html"/>
       <record id="1639320254yqz8lqfsel" name="ожидание доступа к принтеру linux" author="alensav" url="https://santehnika-terra.ru/articles/ozhidanie-dostupa-k-printeru-linux.html" tags="ожидание доступа к принтеру linux" ctime="20211212174414" dir="1639320254kc100pzjnj" file="text.html"/>
       <record id="1639321079zy1fa207ni" name="Настройка с нуля принтсервера CUPS с доменной авторизацией и без нее в сети с разными ОС" author="alensav" url="https://habr.com/ru/post/443094/" tags="Настройка с нуля принтсервера CUPS с доменной авторизацией и без нее в сети с разными ОС" ctime="20211212175759" dir="1639321079nz6vm8nh4h" file="text.html"/>
+      <record id="1639322188j2vka4aqs2" name="CUPS (Русский)/Printer sharing (Русский)" author="alensav" url="https://wiki.archlinux.org/title/CUPS_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)/Printer_sharing_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="CUPS (Русский)/Printer sharing (Русский)" ctime="20211212181628" dir="1639322188fs5336vpq1" file="text.html"/>
      </recordtable>
     </node>
    </node>
