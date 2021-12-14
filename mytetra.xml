@@ -1438,6 +1438,10 @@
     <record id="1639154823cvdr12fuvt" name="Установка и использование Bower" author="alensav" url="https://www.8host.com/blog/ustanovka-i-ispolzovanie-bower/" tags="Установка и использование Bower" ctime="20211210194703" dir="1639154823xhap84oyij" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1639468439j53mr8blu3" name="YOUDO"/>
+  <node crypt="" id="1639468439j53mr8blu3" name="YOUDO">
+   <recordtable>
+    <record id="1639468579c7cfsqdl92" name="youdo_ЗАКАЗЫ" author="alensav" url="https://youdo.com/profile/settings/security" tags="youdo ЗАКАЗЫ" ctime="20211214105620" dir="1639468579zceriohk0f" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
