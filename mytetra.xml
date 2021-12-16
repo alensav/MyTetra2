@@ -346,6 +346,11 @@
       <record id="1639322188j2vka4aqs2" name="CUPS (Русский)/Printer sharing (Русский)" author="alensav" url="https://wiki.archlinux.org/title/CUPS_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)/Printer_sharing_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="CUPS (Русский)/Printer sharing (Русский)" ctime="20211212181628" dir="1639322188fs5336vpq1" file="text.html"/>
      </recordtable>
     </node>
+    <node crypt="" id="16396800919bpvlkwnf1" name="Spravka_ADMIN">
+     <recordtable>
+      <record id="1639680154ddqzxatg2y" name="Ubuntu 16 + apache2 + php7" author="alensav" url="https://sites.google.com/site/admcrib/home/ubuntu-16-apache2-php7" tags="Ubuntu 16 + apache2 + php7" ctime="20211216214234" dir="1639680154940ezmzcpu" file="text.html"/>
+     </recordtable>
+    </node>
    </node>
    <node crypt="" id="1544111400vnc868hc3v" name="GRUB">
     <recordtable>
