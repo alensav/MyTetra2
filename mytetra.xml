@@ -1449,5 +1449,10 @@
     <record id="1639468579c7cfsqdl92" name="youdo_ЗАКАЗЫ" author="alensav" url="https://youdo.com/profile/settings/security" tags="youdo ЗАКАЗЫ" ctime="20211214105620" dir="1639468579zceriohk0f" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1639833260wpeks129hz" name="UCHEBA_PHP">
+   <recordtable>
+    <record id="1639833329s3s9kn11ep" name="Вход/Регистрация на PHP + MySQL за 20 минут" author="alensav" url="https://3-info.ru/post/13280" tags="Вход/Регистрация на PHP + MySQL за 20 минут" ctime="20211218161529" dir="1639833329bugswppcp0" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
