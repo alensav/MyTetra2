@@ -1454,6 +1454,7 @@
   <node crypt="" id="1639833260wpeks129hz" name="UCHEBA_PHP">
    <recordtable>
     <record id="1639833329s3s9kn11ep" name="Вход/Регистрация на PHP + MySQL за 20 минут" author="alensav" url="https://3-info.ru/post/13280" tags="Вход/Регистрация на PHP + MySQL за 20 минут" ctime="20211218161529" dir="1639833329bugswppcp0" file="text.html"/>
+    <record id="1640108723p0ceszyrxv" name="sozdanie-formy-registratsii-i-avtorizatsii-v-php" author="alensav" url="https://github.com/sergiu920/sozdanie-formy-registratsii-i-avtorizatsii-v-php#readme" tags="sozdanie-formy-registratsii-i-avtorizatsii-v-php" ctime="20211221204523" dir="1640108723zgf02uw7um" file="text.html"/>
    </recordtable>
   </node>
  </content>
