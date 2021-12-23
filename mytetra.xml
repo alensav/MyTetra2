@@ -1457,5 +1457,10 @@
     <record id="1640108723p0ceszyrxv" name="sozdanie-formy-registratsii-i-avtorizatsii-v-php" author="alensav" url="https://github.com/sergiu920/sozdanie-formy-registratsii-i-avtorizatsii-v-php#readme" tags="sozdanie-formy-registratsii-i-avtorizatsii-v-php" ctime="20211221204523" dir="1640108723zgf02uw7um" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1640272689mtxt22mmsz" name="WORDPRESS">
+   <recordtable>
+    <record id="1640272737obhlyuzlbw" name="Установка плагина вручную #" author="alensav" url="https://wordpress.org/support/article/managing-plugins/" tags="Установка плагина вручную #" ctime="20211223181857" dir="1640272737ytmbm4tpr1" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
