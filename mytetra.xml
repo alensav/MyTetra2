@@ -1478,6 +1478,7 @@
   <node crypt="" id="16421015871mzlez8b3c" name="VPN">
    <recordtable>
     <record id="16421016713dayygb47b" name="sertifikat" author="alensav" url="https://timeweb.com/ru/community/articles/openvpn-na-ubuntu-16-04-ustanovka-1" tags="sertifikat" ctime="20220113222111" dir="16421016716yn67oo5nm" file="text.html"/>
+    <record id="16421021491mst99yfcf" name="OpenVPN на Ubuntu 16.04: установка" author="alensav" url="https://timeweb.com/ru/community/articles/openvpn-na-ubuntu-16-04-ustanovka-1" tags="OpenVPN на Ubuntu 16.04: установка" ctime="20220113222909" dir="16421021495s41c2q39w" file="text.html"/>
    </recordtable>
   </node>
  </content>
