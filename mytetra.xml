@@ -1493,9 +1493,10 @@
     <record id="1642106292iavahs3ab1" name="OpenVPN на Ubuntu 16.04: настройка" author="alensav" url="https://timeweb.com/ru/community/articles/openvpn-na-ubuntu-16-04-nastroyka-1" tags="OpenVPN на Ubuntu 16.04: настройка" ctime="20220113233812" dir="1642106292xdnup6z04o" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="16425254073ndt4vls5n" name="ssl">
+  <node crypt="1" icon="" id="16425254073ndt4vls5n" name="UkM1U0lNUANmDEtgvTdctaBkp9Zq4izg7QaORmcVJzo3e7rklpyg70B6JveqL4FZ">
    <recordtable>
-    <record id="1642525450loic5uo5o7" name="ssl" author="alensav" url="https://sslcertificate.ru/clients/complete.php" tags="ssl" ctime="20220118200410" dir="1642525450ll2ptn20bb" file="text.html"/>
+    <record id="1642525450loic5uo5o7" name="UkM1U0lNUAMxub9am5Q/tFENhT4BBOn8iYDiOsISeAOYNqdKnR9HXeZ6Otzdj7Fn" author="UkM1U0lNUAOd9l9WtrnxSkM/WIEQhtidmHm4N4MyWUE/zGA06+ELN66178Co70Sx" url="UkM1U0lNUAOUxZ4PccytZ9M0fwkxyjvqf9NdVRucapXOmNPwS3J52UZ+GYVQdjzkVKAzK3BfI/j7MIrkhVvGAaklc0lTxV52ZZehzyuaHa+YDgtTRIrAJA==" tags="UkM1U0lNUAN9ugjSP52X3fcNYJnS4yOEGjt7l/OKKQA39q9xpkuUCLsNgDZ+dX9W" ctime="20220118200410" dir="1642525450ll2ptn20bb" file="text.html" crypt="1"/>
+    <record id="16425263197x7wi80mb4" name="UkM1U0lNUAM3gWtRqaI/tabzVBM7qgKKt9tSCGeBQKOxLOxaWJTmTmPQKUE1Vl8NNZGmr0jj8+Q=" author="UkM1U0lNUAMLcJ5C8QqTmgXtuADXxhgRCiFD1NjEjOmPQtpCpNIc7uNwVxEueDG8" url="UkM1U0lNUAOXf84KIhkVksEiSiOo7nJz2GBdszV2j0NIOLV0POsR00mhTsenr7hssBNzzoTWx8WWPMswhAuzZOtSzs1ObGp0r99tVNz6M12vX/xMXQc3av4b20zqUX5pwtksg8fALdOm/j6MGErAIw==" tags="UkM1U0lNUAM3tduY63MXuWhYy5spnyGYmT187RG3K4WSgaOLQHaxR43QgiIbIcoozCIxKJuUUE8=" ctime="20220118201839" dir="1642526319jmc5nkdzba" file="text.html" crypt="1"/>
    </recordtable>
   </node>
  </content>
