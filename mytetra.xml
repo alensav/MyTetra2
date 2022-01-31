@@ -1276,17 +1276,17 @@
     <record id="1613460804zrrj5dmshl" name="Обучение_HTML" author="" url="" tags="Обучение_HTML" ctime="20210216103324" dir="16134608040iu9a16j2d" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" icon="/Gnome/color_gnome_2_dialog-warning.svg" id="16136654772yl49sahzq" name="OGLAVLENIYE!!!!">
+  <node crypt="1" icon="UkM1U0lNUAOJUCgW+zXsIiycdpVtbBvqiUBi7AokUEujZkG+0otYE7KS2GvteRnzWgacHsF6Vk1jdmGJIinUYoQaNdH9yrUU4IhMjJKflMk=" id="16136654772yl49sahzq" name="UkM1U0lNUAPVJy3YeyECibCkdPmcST1xsXzUkXM5XcxPuWpgaGquG9LlUABRB0c2TXQSWXHM2LI=">
    <recordtable>
-    <record id="1613665538qondaf7gpn" name="ОГЛАВЛЕНИЕ" author="alensav" url="" tags="ОГЛАВЛЕНИЕ" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html">
+    <record id="1613665538qondaf7gpn" name="UkM1U0lNUANiM4uTpoKh+8FMd2sWBJAASpPwfDMMNTwYNq1d19ml/t0M7dXrEbNbj17eHr99DKenRESP0VDEDQ==" author="UkM1U0lNUAOB7wHjIox2yFQpIQm84A90YDh1f7GDimSQjKoh7/AXLeksy8TZhQDG" url="" tags="UkM1U0lNUAPx0zFUkUfWgEotgpbNe1Yu9XZJ2hSsG9qb9pNM3WPQ4s+0Lzk2V1R0ZjOn6+oai+2LPy9gQTKQJA==" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html" crypt="1">
      <files>
-      <file id="1613897870at5mnmf63b" fileName="index.html" link="/home/alensav/Документы/BOOKS/HTMLRef/index.html" type="link"/>
+      <file id="1613897870at5mnmf63b" fileName="UkM1U0lNUAODie1xWN3iCC2ucgkvZnyFlx2Q+w4PGkCjwkefLBU7w1NSfUl0c29cckkAGBaOX4Q=" link="UkM1U0lNUANDAp8xc/cOVR4pXhp8C9OS2RcADjtJ9CvWNw70744/bN3+hJ3emdl6M8jwf/JLsLfFR2jh8JaD4PuqwMHw2DQ9/qA5rhKlTxj4Vn4ZLwDKp53aWikNRTwYEX9eKGqCOJ0=" type="link" crypt="1"/>
      </files>
     </record>
    </recordtable>
-   <node crypt="" id="1613678210jw0wy9pnw4" name="IKONKI">
+   <node crypt="1" icon="" id="1613678210jw0wy9pnw4" name="UkM1U0lNUAODa3d1PqnJz9pRVzh2woXdrczXOUpV9ia8HML6P3/XL/TbP9BrdyNR">
     <recordtable>
-     <record id="1613678266ezgle36sey" name="IKONKI" author="alensav" url="" tags="IKONKI" ctime="20210218225746" dir="1613678266uv7awcnpk8" file="text.html"/>
+     <record id="1613678266ezgle36sey" name="UkM1U0lNUAPAXjLSV5ka5x6+uVZu/6NqUH55P6bF38kAfsUc9BY8tWvQmJDKCmbz" author="UkM1U0lNUANOrAqvM8oNZhgcUDyQJP6/axVnpoOJugsNwzhrLrh+D6l4jjfnLwnT" url="" tags="UkM1U0lNUANXbrYWG2RkyO6B9tUz2BJE0UGhPkJVis4GTUX8VDZpoTfERoVycVyj" ctime="20210218225746" dir="1613678266uv7awcnpk8" file="text.html" crypt="1"/>
     </recordtable>
    </node>
   </node>
