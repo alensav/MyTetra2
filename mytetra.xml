@@ -969,9 +969,9 @@
     </record>
    </recordtable>
   </node>
-  <node crypt="" id="1577037389176ergbiso" name="ZAKAZ">
+  <node crypt="0" icon="" id="1577037389176ergbiso" name="ZAKAZ">
    <recordtable>
-    <record id="1577037434fc96uzk16j" name="Заказ1" author="alensav" url="" tags="Заказ1" ctime="20191222205714" dir="1577037434gme2g5zr47" file="text.html"/>
+    <record id="1577037434fc96uzk16j" name="Заказ1" author="alensav" url="" tags="Заказ1" ctime="20191222205714" dir="1577037434gme2g5zr47" file="text.html" crypt="0"/>
    </recordtable>
   </node>
   <node crypt="" id="1577387755r13ainqmgk" name="TGZ_UBUNTU">
