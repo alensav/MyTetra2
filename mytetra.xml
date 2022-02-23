@@ -31,6 +31,8 @@
     <record id="1547385990gpzqw7pmt8" name="шпаргалка по работе с Git" author="alensav" url="https://eax.me/git-commands/" tags="шпаргалка, Git" ctime="20190113162630" dir="1547385990vntsg3sw86" file="text.html"/>
     <record id="1548957905ii2nao29vs" name="Советы начинающему проектировщику" author="alensav" url="" tags="Советы,  начинающему,  проектировщику, план" ctime="20191121215426" dir="1548957905isfm2dx70g" file="text.html"/>
     <record id="1613026155waitjet0dj" name="Git Управление" author="alensav" url="" tags="Git Управление" ctime="20210211094915" dir="161302615525hh0xbebs" file="text.html"/>
+    <record id="16378664297naob8uwpq" name="git_sav" author="alensav" url="https://github.com/settings/tokens" tags="git_sav" ctime="20211125215349" dir="163786642932jxnx83jk" file="text.html"/>
+    <record id="1643656904ny098u1mmj" name="ssh-keygen " author="alensav" url="https://qna.habr.com/q/964989#answer_1913237" tags="ssh keygen  ключ" ctime="20220131222144" dir="16436569045ah82sfxx6" file="text.html"/>
    </recordtable>
    <node crypt="" id="15437322986o0fl98cty" name="Ubuntu_Command">
     <recordtable>
@@ -258,6 +260,12 @@
      <record id="1617784081cv01gial0p" name="Очистка системы Ubuntu " author="alensav" url="https://losst.ru/ochistka-sistemy-ubuntu" tags="Очистка системы Ubuntu " ctime="20210407112801" dir="1617784081cwojw0zndh" file="text.html"/>
      <record id="1619435315ezlcftgc8a" name="Подключение к Google Drive в Debian Stretch " author="alensav" url="https://it-school.pw/podklyuchenie-k-google-drive-v-debian-stretch/" tags="Подключение к Google Drive в Debian Stretch " ctime="20210426140835" dir="1619435315nbdo0v4ywg" file="text.html"/>
      <record id="1621538854g1svnanfwt" name="Как посмотреть прогресс dd Linux " author="alensav" url="https://losst.ru/kak-posmotret-progress-komandy-v-linux" tags="Как посмотреть прогресс dd Linux " ctime="20210520222734" dir="1621538854y7gbw0yuyd" file="text.html"/>
+     <record id="163888902837udxg4fog" name="Настройка виртуальных хостов Apache в Ubuntu" author="alensav" url="https://ruvds.com/ru/helpcenter/nastroyka-virtualnyh-hostov-apache-ubuntu-20-04/" tags="Настройка виртуальных хостов Apache в Ubuntu" ctime="20211207175708" dir="1638889028tqug049hfm" file="text.html"/>
+     <record id="1638901770ldow6nonhm" name="как создать сайт" author="alensav" url="http://ab-w.net/PHP/server_set.php" tags="как создать сайт" ctime="20211207212930" dir="1638901770oyfv95zlpq" file="text.html"/>
+     <record id="1640428029rivm8wv6l2" name="CodeLobster IDE – новая IDE для Linux систем " author="alensav" url="https://webhamster.ru/mytetrashare/index/mtb348/1547493934irfxvj4ntz" tags="CodeLobster IDE – новая IDE для Linux систем " ctime="20211225132709" dir="1640428029g1xlynzaop" file="text.html"/>
+     <record id="16404315475yx61vutfe" name="VirtualHost" author="alensav" url="https://www.digitalocean.com/community/tutorials/apache-ubuntu-14-04-lts-ru" tags="VirtualHost" ctime="20211225142547" dir="1640431547knt7g4oh1n" file="text.html"/>
+     <record id="1641145158l7znuhdyqf" name="FREE PERSONAL TOKEN ubuntu" author="alensav" url="https://ubuntu.com/advantage" tags="FREE PERSONAL TOKEN ubuntu" ctime="20220102203918" dir="1641145158gh8ebl8xqm" file="text.html"/>
+     <record id="1645120780ts5pjgieux" name="Готовая виртуальная " author="alensav" url="https://whoer.net/blog/ru/polnaya-setevaya-anonimnost-vpn-virtualnaya-mashina/" tags="Готовая виртуальная " ctime="20220217205940" dir="16451207807nbipkq8kt" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -338,6 +346,14 @@
       <record id="15948303212787rqme2d" name="Редактирование файла /etc/cups/cupsd.conf " author="alensav" url="https://it.wikireading.ru/10103" tags="Редактирование файла /etc/cups/cupsd.conf " ctime="20200715192521" dir="1594830321rr2cqtsjkp" file="text.html"/>
       <record id="1595005312n2aapudwrf" name="Управление сервером CUPS и его конфигурирование " author="alendsav" url="https://itproffi.ru/upravlenie-serverom-cups-i-ego-konfigurirovanie/" tags="Управление сервером CUPS и его конфигурирование " ctime="20200717200152" dir="1595005312bai5u7yqhr" file="text.html"/>
       <record id="1596137502g2akgpe1j7" name="Права доступа к принтеру cups" author="" url="" tags="Права доступа к принтеру cups" ctime="20200730223142" dir="1596137502h9crvfmge7" file="text.html"/>
+      <record id="1639320254yqz8lqfsel" name="ожидание доступа к принтеру linux" author="alensav" url="https://santehnika-terra.ru/articles/ozhidanie-dostupa-k-printeru-linux.html" tags="ожидание доступа к принтеру linux" ctime="20211212174414" dir="1639320254kc100pzjnj" file="text.html"/>
+      <record id="1639321079zy1fa207ni" name="Настройка с нуля принтсервера CUPS с доменной авторизацией и без нее в сети с разными ОС" author="alensav" url="https://habr.com/ru/post/443094/" tags="Настройка с нуля принтсервера CUPS с доменной авторизацией и без нее в сети с разными ОС" ctime="20211212175759" dir="1639321079nz6vm8nh4h" file="text.html"/>
+      <record id="1639322188j2vka4aqs2" name="CUPS (Русский)/Printer sharing (Русский)" author="alensav" url="https://wiki.archlinux.org/title/CUPS_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)/Printer_sharing_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="CUPS (Русский)/Printer sharing (Русский)" ctime="20211212181628" dir="1639322188fs5336vpq1" file="text.html"/>
+     </recordtable>
+    </node>
+    <node crypt="" id="16396800919bpvlkwnf1" name="Spravka_ADMIN">
+     <recordtable>
+      <record id="1639680154ddqzxatg2y" name="Ubuntu 16 + apache2 + php7" author="alensav" url="https://sites.google.com/site/admcrib/home/ubuntu-16-apache2-php7" tags="Ubuntu 16 + apache2 + php7" ctime="20211216214234" dir="1639680154940ezmzcpu" file="text.html"/>
      </recordtable>
     </node>
    </node>
@@ -421,6 +437,9 @@
      <record id="157547257543m1wf23ar" name="SSH_сайт" author="" url="" tags="SSH, сайт" ctime="20191204181615" dir="1575472575wh293yhh1t" file="text.html"/>
      <record id="1583496024jt296igc5l" name="Как установить и использовать Docker в Ubuntu 16.04" author="alensav" url="https://www.digitalocean.com/community/tutorials/docker-ubuntu-16-04-ru" tags="Как установить и использовать Docker в Ubuntu 16.04" ctime="20200306150024" dir="1583496024q8pks2p8s7" file="text.html"/>
      <record id="1583496545x0chp4oas4" name="My_DOCKER" author="" url="" tags="My_DOCKER" ctime="20200306150905" dir="15834965453rfl0l3we8" file="text.html"/>
+     <record id="1643641635sssba79vu8" name="sav_site" author="alensav" url="https://alensav.github.io/sav_site/" tags="сайт github" ctime="20220131180715" dir="164364163593xd59uxw9" file="text.html"/>
+     <record id="164460412407ypqb482n" name="Как использовать NordVPN в контейнере LXD" author="alensav" url="https://blog-simos-info.translate.goog/how-to-use-nordvpn-in-a-lxd-container/?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="Как использовать NordVPN в контейнере LXD" ctime="20220211212844" dir="16446041247jfm5g4ubk" file="text.html"/>
+     <record id="1645119680ig5ukdtoss" name="Виртуальная частная сеть (VPN)" author="alensav" url="https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-ubuntu-20-04-ru" tags="Виртуальная частная сеть (VPN)" ctime="20220217204120" dir="1645119680igld30xf7r" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
      <recordtable>
@@ -460,6 +479,8 @@
       <record id="1553585918mma626u3nd" name="команды" author="alensav" url="" tags="команды" ctime="20190326103838" dir="1553585918t2pv2h7gdd" file="text.html"/>
       <record id="1616673888kwe8o7e6jh" name="горячие клавиши для всех трех команд через Key Bindings:" author="alensav" url="" tags="горячие клавиши для всех трех команд через Key Bindings:" ctime="20210325150448" dir="1616673888jb9j6edj5a" file="text.html"/>
       <record id="1616696185koq1dcq36v" name="Автообновление страниц в Chrome через Sublime Text 3 - Плагин LiveReload" author="alensav" url="https://zonawmr.ru/1714-avtoobnovlenie-stranic-v-chrome-cherez-sublime-text-3-plagin-livereload.html" tags="Автообновление страниц в Chrome через Sublime Text 3 - Плагин LiveReload" ctime="20210325211625" dir="1616696185csi5ogz4pd" file="text.html"/>
+      <record id="1638295925zzbcmylxgz" name="Синхронизация настроек" author="alensav" url="￼&#10;Installation&#10;Browse&#10;Search&#10;Docs&#10;News&#10;Stats&#10;About&#10;Say Thanks&#10;￼&#10;DOCS&#10;Syncing&#10;To properly sync your installed packages across different machines, you actually do not want to sync the whole Packages/ and Installed Packages/ folders. The reason for this is that some packages have different versions for different operating systems. By syncing the actual package contents across operating systems, you will possibly run into broken packages.&#10;&#10;The proper solution is to install Package Control on all machines and then to sync only the Packages/User/ folder. This folder contains the Package Control.sublime-settings file, which includes a list of all installed packages. If this file is copied to another machine, the next time Sublime Text is started, Package Control will install the correct version of any missing packages.&#10;&#10;Using Git&#10;Many developers are familiar with Git, and it is a logical choice for keeping files in sync across machines if you don't mind a little manual work. There are a few things to keep in consideration when using Git:&#10;&#10;If you use a service like GitHub and do not use a private repository, you may accidentally share license keys for any commercial packages you have purchased.&#10;Certain files and folders in the Packages/User/ folder change regularly, so you may want to add them to a .gitignore file. There is really no harm in syncing these, however some of them change on an hourly basis, which may result in having to run more Git commands. Examples include:&#10;&#10;Package Control.last-run&#10;Package Control.ca-list&#10;Package Control.ca-bundle&#10;Package Control.system-ca-bundle&#10;Package Control.cache/&#10;Package Control.ca-certs/&#10;Using Dropbox&#10;Dropbox is another popular choice for syncing settings. It has the benefit of automatically syncing files and not having to worry about privacy. In order to use this properly, symlinks must be set up via the command line. The following instructions should provide some guidance.&#10;&#10;Windows instructions&#10;Mac instructions&#10;Linux instructions&#10;Windows&#10;These instructions work for Windows Vista and newer, but unfortunately do not work for Windows XP. If your Dropbox folder is not in the default location, you'll need to change $env:userprofile\Dropbox to your location.&#10;&#10;Close Sublime Text&#10;Open PowerShell by right-clicking and selecting Run as administrator&#10;First Machine&#10;On your first machine, use the following instructions.&#10;&#10;Sublime Text 3Sublime Text 2&#10;cd &quot;$env:appdata\Sublime Text 3\Packages\&quot;&#10;mkdir $env:userprofile\Dropbox\Sublime&#10;mv User $env:userprofile\Dropbox\Sublime\&#10;cmd /c mklink /D User $env:userprofile\Dropbox\Sublime\User&#10;Other Machine(s)&#10;On your other machine(s), use the following instructions. These instructions will remove your User/ folder and all contents!&#10;&#10;Sublime Text 3Sublime Text 2&#10;cd &quot;$env:appdata\Sublime Text 3\Packages\&quot;&#10;rmdir -recurse User&#10;cmd /c mklink /D User $env:userprofile\Dropbox\Sublime\User&#10;Mac&#10;If your Dropbox folder is not in the default location, you'll need to change ~/Dropbox to your location.&#10;&#10;Close Sublime Text&#10;Open Terminal&#10;First Machine&#10;On your first machine, use the following instructions.&#10;&#10;Sublime Text 3Sublime Text 2&#10;cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/&#10;mkdir ~/Dropbox/Sublime&#10;mv User ~/Dropbox/Sublime/&#10;ln -s ~/Dropbox/Sublime/User&#10;Other Machine(s)&#10;On your other machine(s), use the following instructions. These instructions will remove your User/ folder and all contents!&#10;&#10;Sublime Text 3Sublime Text 2&#10;cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/&#10;rm -r User&#10;ln -s ~/Dropbox/Sublime/User&#10;Linux&#10;If your Dropbox folder is not in the default location, you'll need to change ~/Dropbox to your location.&#10;&#10;Close Sublime Text&#10;Open Terminal&#10;First Machine&#10;On your first machine, use the following instructions.&#10;&#10;Sublime Text 3Sublime Text 2&#10;cd ~/.config/sublime-text-3/Packages/&#10;mkdir ~/Dropbox/Sublime&#10;mv User ~/Dropbox/Sublime/&#10;ln -s ~/Dropbox/Sublime/User&#10;Other Machine(s)&#10;On your other machine(s), use the following instructions. These instructions will remove your User/ folder and all contents!&#10;&#10;Sublime Text 3Sublime Text 2&#10;cd ~/.config/sublime-text-3/Packages/&#10;rm -r User&#10;ln -s ~/Dropbox/Sublime/User&#10;" tags="sublime text синхронизация" ctime="20211130211205" dir="1638295925d9x5vb7a1z" file="text.html"/>
+      <record id="1638549246ixikj5csqp" name="Курс Основы HTML/CSS - верстка сайтов с нуля" author="alensav" url="https://beonmax.com/courses/html-css-osnovy/?utm_source=yt&amp;utm_medium=yt33_htmlcss&amp;utm_campaign=yt33_htmlcss_01" tags="Курс Основы HTML/CSS - верстка сайтов с нуля" ctime="20211203193406" dir="1638549246x21t4d30b7" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1554205121wav5akuahq" name="HOST">
@@ -471,7 +492,7 @@
      <recordtable>
       <record id="1554220895gnhp1u81vs" name="Тег &lt;table&gt;" author="alensav" url="http://htmlbook.ru/html/table" tags="Тег &lt;table&gt;" ctime="20190402190135" dir="1554220895glmdd1qkim" file="text.html"/>
       <record id="1554298033ic9qbexfbg" name="Создаем таблицу на html-странице" author="alensav" url="http://webcodius.ru/html_i_css/kak-vstavit-tablicu-v-html.html" tags="Создаем таблицу на html-странице" ctime="20190403162713" dir="15542980335jlsb8kqn0" file="text.html"/>
-      <record id="1554391092pt2ms8tcdl" name="таблицы для отображения содержимого ве" author="alensa" url="https://helpx.adobe.com/ru/dreamweaver/using/presenting-content-tables.html" tags="таблицы,  отображения, содержимого" ctime="20190404181812" dir="155439109227a3atbree" file="text.html"/>
+      <record id="1554391092pt2ms8tcdl" name="таблицы для отображения содержимого " author="alensa" url="https://helpx.adobe.com/ru/dreamweaver/using/presenting-content-tables.html" tags="таблицы,  отображения, содержимого" ctime="20190404181812" dir="155439109227a3atbree" file="text.html"/>
       <record id="1555049247npma7yrrt0" name="DIV_in_TAB" author="alensav" url="" tags="DIV_in_TAB" ctime="20190412090727" dir="155504924780b5dtfxii" file="text.html"/>
       <record id="1555257451zi17fraib5" name="Цветовая схема онлайн" author="alensav" url="https://sdelatlending.ru/cvetovaya-sxema-onlajn" tags="цвет" ctime="20190414185731" dir="1555257451wcm6od85ii" file="text.html"/>
       <record id="1566919011sz5vm55i7v" name="EditRocket" author="alensav" url="http://relizua.com/raznie-programi/1811-editrocket.html" tags="EditRocket, httm, html, редактор, код" ctime="20190827181651" dir="1566919011bfxtdk4ypk" file="text.html"/>
@@ -492,6 +513,51 @@
       <record id="161384779840e2nfsnah" name="ЛУЧШИЙ САЙТ ДЛЯ РАЗРАБОТЧИКОВ " author="alensav" url="https://html5css.ru/tags/default.php" tags="ЛУЧШИЙ САЙТ ДЛЯ РАЗРАБОТЧИКОВ " ctime="20210220220318" dir="16138477983jpp4rd8lr" file="text.html"/>
       <record id="1614160430pduuuc3x9d" name="Visual Studio Code. Настройка и применение. Часть 1" author="alensav" url="https://medium.com/@p1t1ch/visual-studio-code-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B8-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%87%D0%B0%D1%81%D1%82%D1%8C-1-7f1a26806522" tags="Visual Studio Code. Настройка и применение. Часть 1" ctime="20210224125350" dir="1614160430grb5n4prvz" file="text.html"/>
       <record id="16141606631wgb2hia9m" name="Настройка и применение. Часть 2" author="alensav" url="https://medium.com/@p1t1ch/visual-studio-code-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%B8-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D1%87%D0%B0%D1%81%D1%82%D1%8C-2-8e4939bb1492" tags="Настройка и применение. Часть 2" ctime="20210224125743" dir="1614160663ictlch73le" file="text.html"/>
+      <record id="1642259618lf2d6s91c9" name="flexbox_Gird_CSS" author="alensav" url="" tags="flexbox  Gird  CSS" ctime="20220115181338" dir="1642259618ausmf32svt" file="text.html"/>
+      <record id="16422607074nini6jbiy" name="Шпаргалка по Grid CSS " author="alensav" url="https://tpverstak.ru/grid/" tags="Шпаргалка по Grid CSS " ctime="20220115183147" dir="1642260707p7ejv8vokv" file="text.html"/>
+      <record id="1642272310pphsxxqcyg" name="Полное руководство по Flexbox" author="alensav" url="https://temofeev.ru/info/articles/polnoe-rukovodstvo-po-flexbox/" tags="Полное руководство по Flexbox" ctime="20220115214510" dir="1642272310djj4kn6ks6" file="text.html"/>
+      <record id="1642272681zckzlzvhhz" name="Введение в Flexbox&#10;" author="alensav" url="https://russianblogs.com/article/9958669114/" tags="Введение в Flexbox&#10;" ctime="20220115215121" dir="1642272681dndkgicldp" file="text.html"/>
+      <record id="1642410861xqx1yhlpjr" name="Руководств0_2.28. CSS Grid" author="фдутыфм" url="https://html5book.ru/css-grid/" tags="2.28. CSS Grid" ctime="20220117121421" dir="16424108618waz0fjfae" file="text.html"/>
+      <record id="1642412617xvxlf4v8b2" name="CSS Grid Layout — это новое многообещающее явление в мире верстки. " author="alensav" url="https://wp-kama.ru/id_8945/grid-v-css.html#grid-template-rows" tags="CSS Grid Layout — это новое многообещающее явление в мире верстки. " ctime="20220117124337" dir="1642412617m9xv3gccbj" file="text.html"/>
+      <record id="1642419565mdab22q2mj" name="Полное руководство по CSS Grid " author="alensav" url="https://tuhub.ru/posts/css-grid-complete-guide" tags="Полное руководство по CSS Grid " ctime="20220117143925" dir="1642419565tjmavsskgf" file="text.html"/>
+      <record id="1642432194pl2km27dbc" name="Что такое Bootstrap и зачем он нужен?" author="alensav" url="https://itchief.ru/bootstrap/introduction" tags="Что такое Bootstrap " ctime="20220117180954" dir="1642432194937j2k9jdv" file="text.html"/>
+      <record id="1642432437j235ri3wtr" name="Подключение фреймворка Bootstrap к сайту" author="alensav" url="https://itchief.ru/bootstrap/installation" tags="Подключение фреймворка Bootstrap к сайту" ctime="20220117181357" dir="1642432437czm7jhkf5x" file="text.html"/>
+      <record id="1642436425fiw5xzqhl8" name="Руководство для начинающих по CSS Grid" author="alensav" url="https://webformyself.com/rukovodstvo-dlya-nachinayushhix-po-css-grid/" tags="Руководство для начинающих по CSS Grid" ctime="20220117192025" dir="1642436425niy5e65hc9" file="text.html"/>
+      <record id="1642760340vy8ff5xm96" name="Основы Sass" author="alensav" url="https://sass-scss.ru/guide/" tags="Основы Sass" ctime="20220121131900" dir="1642760340gxwhmzjzjc" file="text.html"/>
+      <record id="1642760993a69zowa86n" name="Препроцессор Sass. Полное руководство и зачем он нужен" author="alensav" url="https://medium.com/@stasonmars/%D0%BF%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80-sass-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B8-%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BE%D0%BD-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-20fb638e29e3" tags="Препроцессор Sass. Полное руководство и зачем он нужен" ctime="20220121132953" dir="1642760993tku252bz15" file="text.html"/>
+      <record id="1642765752ieq4fjdx8p" name="Развёрнутое руководство по Sass/SCSS&#10;" author="alensav" url="https://tproger.ru/translations/complete-sass-guide/" tags="Развёрнутое руководство по Sass/SCSS&#10;" ctime="20220121144912" dir="1642765752v8lsvjogda" file="text.html"/>
+      <record id="1642774260ix8gw6yej4" name="CSS с суперсилой" author="alensav" url="https://sass-scss.ru/" tags="CSS с суперсилой" ctime="20220121171100" dir="16427742600mci57q11n" file="text.html"/>
+      <record id="16430147791vc0b44acr" name="пакетный менеджер NPM для начинающих" author="alensav" url="http://prgssr.ru/development/vvedenie-v-paketnyj-menedzher-npm-dlya-nachinayushih.html" tags="пакетный менеджер NPM для начинающих" ctime="20220124115939" dir="1643014779bk90bevfts" file="text.html"/>
+      <record id="1643042755edoyhui16w" name="SASS-пишем стили" author="alensav" url="https://zaurmag.ru/html5-css3/preprotsessor-sass.html" tags="SASS-пишем стили" ctime="20220124194555" dir="1643042755twj8q4fo04" file="text.html"/>
+      <record id="1643043748glej8q8bnw" name="сетка" author="alensav" url="https://medium.com/web-standards/responsive-grid-system-89d07e48a564" tags="сетка" ctime="20220124200228" dir="1643043748ty4gbbhuv6" file="text.html"/>
+      <record id="1643210349n7umpmh9cz" name="Тег &lt;iframe&gt; создает плавающий фрейм," author="alensav" url="http://htmlbook.ru/html/iframe" tags="Тег &lt;iframe&gt; создает плавающий фрейм," ctime="20220126181909" dir="1643210349tga7s9fstt" file="text.html"/>
+      <record id="1643375075cx0c8uixtf" name="HTML_GRID_FLEX_SCSS_CSS" author="alensav" url="" tags="HTML, GRID, FLEX, SCSS, CSS" ctime="20220128160435" dir="16433750758e716czhse" file="text.html"/>
+      <record id="1643627296t4rqaqgck1" name="GIT_SETTING" author="alensav" url="" tags="GIT SETTING авторизация" ctime="20220131140816" dir="1643627296kf6mq0kug8" file="text.html">
+       <files>
+        <file id="1643627604mwyge27op1" fileName="github-recovery-codes.txt" type="file"/>
+       </files>
+      </record>
+      <record id="1643989563gi2652bq5n" name="FLEX and GRID" author="alensav" url="https://habr.com/ru/company/ruvds/blog/523808/https://habr.com/ru/company/ruvds/blog/523808/" tags="flexbox flex grid" ctime="20220204184603" dir="1643989563xylce6m2n7" file="text.html"/>
+      <record id="1643990826zpxu97oe47" name="Выбор GRID or FLEX" author="alensav" url="https://webformyself.com/grid-dlya-maketa-flexbox-dlya-komponentov/" tags="выбор flex grid" ctime="20220204190706" dir="16439908267s0by57gzc" file="text.html"/>
+      <record id="1643991970yanzbbf1zb" name="Flex Breakpoints" author="alensav" url="https://shadeed.github.io/grid-to-flex/" tags="Flex Breakpoints" ctime="20220204192610" dir="1643991970u64oy1k6im" file="text.html"/>
+      <record id="1643992322ecgf1beb96" name="Сочетание GRID c другими техниками" author="alensav" url="https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout" tags="Сочетание GRID c другими техниками" ctime="20220204193202" dir="16439923224cni0pe3ff" file="text.html"/>
+      <record id="1644057448etcv1cdt8e" name="Bourbon - SASS библиотека для быстрого создания дизайна сайтов" author="alensav" url="http://blog.phpworld.ru/web-tehnologii/bourbon" tags="Bourbon -SASS библиотека для быстрого создания дизайна сайтов" ctime="20220205133728" dir="1644057448254sukvuey" file="text.html"/>
+      <record id="1644057645jd4glpz42d" name="Представляем Bourbon: легковесные Sass миксины и не только" author="alensav" url="https://webdesign.tutsplus.com/ru/tutorials/introducing-bourbon-lightweight-sass-mixins-and-more--cms-24733" tags="Представляем Bourbon: легковесные Sass миксины и не только" ctime="20220205134045" dir="16440576459usqnlkvz0" file="text.html"/>
+      <record id="1644058621iwtgcex6g3" name="Documentation Bourbon" author="alensav" url="https://www.bourbon.io/docs/latest" tags="Documentation Bourbon" ctime="20220205135701" dir="1644058621h03gy5iy2q" file="text.html"/>
+      <record id="16440715222eil35ftud" name="Различные интересные миксины" author="alensav" url="http://blog.phpworld.ru/web-tehnologii/bourbon" tags="Различные интересные миксины" ctime="20220205173202" dir="1644071522s0m445o8t8" file="text.html"/>
+      <record id="1644071750dybe0ehdce" name="Добавляем Bitters к Bourbon и Sass" author="alenav" url="http://prgssr.ru/development/dobavlyaem-bitters-k-bourbon-i-sass.html" tags="Добавляем Bitters к Bourbon и Sass" ctime="20220205173550" dir="164407175004zvnyvl98" file="text.html"/>
+      <record id="1644072614qy1rangcwi" name="Семантические сетки с Sass, Bourbon и Neat" author="alensav" url="http://prgssr.ru/development/semanticheskie-setki-s-sass-bourbon-i-neat.html" tags="Семантические сетки с Sass, Bourbon и Neat" ctime="20220205175014" dir="16440726142lb7nvzwnl" file="text.html"/>
+      <record id="16440731173a9k8l7rp7" name="5 способов улучшить Sass с помощью Bourbon" author="alensav" url="http://prgssr.ru/development/5-sposobov-uluchshit-sass-s-pomoshyu-bourbon.html" tags="5 способов улучшить Sass с помощью Bourbon" ctime="20220205175837" dir="1644073117w8b67oko6b" file="text.html"/>
+      <record id="1644074530vt7bmghkrc" name="Bourbon + Sass - краткое знакомство &#10;" author="alensav" url="http://gearmobile.github.io/css/bourbon-brief-introduction/" tags="Bourbon + Sass - краткое знакомство &#10;" ctime="20220205182210" dir="164407453016j4xw3s5k" file="text.html"/>
+      <record id="1644075571x75zj8nse2" name="Начинаем работу с Sass и Bourbon" author="alensav" url="http://prgssr.ru/development/nachinaem-rabotu-s-sass-i-bourbon.html" tags="Начинаем работу с Sass и Bourbon" ctime="20220205183931" dir="1644075571tb4wtdikm9" file="text.html"/>
+      <record id="1644086990su9sggt96k" name="Нормализация CSS при помощи Normalize.css " author="alensav" url="https://www.kobzarev.com/makeup/normalization-of-css-with-normalize-css/" tags="Нормализация CSS при помощи Normalize.css " ctime="20220205214950" dir="1644086990z4mxcwvez6" file="text.html"/>
+      <record id="1644255359pb76w5j7g0" name="color" author="alensav" url="https://colormeup.co/#5eaa00" tags="color" ctime="20220207203559" dir="1644255359p5goq3cz5q" file="text.html"/>
+      <record id="1644259026v6suj0mlne" name="50 Бесплатных Шаблонов Сайтов " author="alensav" url="http://www.websovet.com/50-besplatnyx-shablonov-sajtov-na-html5-i-css3" tags="50 Бесплатных Шаблонов Сайтов " ctime="20220207213706" dir="1644259026tpyowr7ou7" file="text.html"/>
+      <record id="1644336984ko3y2y83r8" name="Запуск сервера L2TP IPSec VPN в Docker контейнере" author="alensav" url="https://www.it-rem.ru/zapusk-l2tp-ipsec-vpn-servera-v-doker-kontejnere.html" tags="Запуск сервера L2TP IPSec VPN в Docker контейнере" ctime="20220208191624" dir="1644336984usw6wqwicj" file="text.html"/>
+      <record id="16443958177a3s11avw1" name="Код скрипта ВРЕМЯ" author="alensav" url="http://arbuzova.mooseum.ru/1-rubrika/03-js/03-js-005.php" tags="Код скрипта ВРЕМЯ" ctime="20220209113657" dir="1644395817fc8ix6pv5o" file="text.html"/>
+      <record id="1644416461jsmbcf5yna" name="￼Script_TIME" author="alensav" url="http://usefulscript.ru/current_time.php" tags="￼Script TIME" ctime="20220209172101" dir="16444164613bng34eovp" file="text.html"/>
+      <record id="164451068521tyix33zp" name="Селекторы CSS – точечное применение" author="alensav" url="http://site-on.net/create/html/5-selectori-css-tochechnoe-primenenie-svoistv-css-optimizaciya-html" tags="Селекторы CSS – точечное применение свойств CSS к элементам страницы (тегам) | Оптимизация HTML за счёт использования селекторов&#10;" ctime="20220210193125" dir="16445106851exfu1958y" file="text.html"/>
+      <record id="1644591257vm1xm5vxh1" name="css box" author="alensav" url="https://www.w3schools.com/css/css_display_visibility.asp" tags="css box" ctime="20220211175417" dir="1644591257uku6w0cdrp" file="text.html"/>
      </recordtable>
      <node crypt="" id="1574497385mixdymvnys" name="САЙТ-ПРИЛОЖЕНИЙ">
       <recordtable>
@@ -505,6 +571,7 @@
       <record id="15754746007tpr2zol4u" name="как запустить скрипт PHP" author="alensav" url="" tags="как запустить скрипт PHP" ctime="20191204185000" dir="1575474600ee5lpbzo7d" file="text.html"/>
       <record id="1576181314crgn0zehby" name="Как самостоятельно сделать сайт на PHP?" author="altnsav" url="" tags="Как самостоятельно сделать сайт на PHP?" ctime="20191212230834" dir="1576181314evqb6y5oze" file="text.html"/>
       <record id="1577625725c928yvkohs" name="￼￼WoWeb_ru" author="alensav" url="http://www.woweb.ru/" tags="￼￼￼WoWeb_ru  scripts   script   скрипт   php" ctime="20191229162205" dir="15776257253gvjv0x0zf" file="text.html"/>
+      <record id="16396814075bp7d3p1h8" name="php руководство" author="alensav" url="https://www.php.net/manual/ru/" tags="php руководство" ctime="20211216220327" dir="1639681407dg0hnwbxpg" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1561370123r9y55vbpm1" name="LAN CLOUD">
@@ -752,6 +819,7 @@
      <record id="15677606654nupp13mgv" name="ПЛАН ПОКУПОК" author="alensav" url="" tags="ПЛАН, ПОКУПКИ" ctime="20190906120425" dir="1567760665b9lfophj4l" file="text.html"/>
      <record id="1568120085fk49omcmmc" name="Анализ_ТОВАРОВ" author="alensav" url="" tags="товары, телефоны" ctime="20190910155445" dir="1568120085981eo8tvpk" file="text.html"/>
      <record id="15742337173oh66oerfz" name="Врезка в полипропилен" author="alensav" url="" tags="Врезка, полипропилен, водоснабжение" ctime="20191120100837" dir="1574233717wlieionuh9" file="text.html"/>
+     <record id="1636185883oijr1d8j5m" name="ФИЛЬТРЫ" author="alensav" url="" tags="фильтр  аквафор фаворит" ctime="20211106110443" dir="16361858836q0p22lgn1" file="text.html"/>
     </recordtable>
     <node crypt="" id="155376513550q7ojpyrq" name="Поликарбонат">
      <recordtable>
@@ -878,6 +946,8 @@
     <record id="1576399780rbe6zi6t6d" name="20 команд My" author="alensav" url="https://zalinux.ru/?p=793" tags="20 команд My" ctime="20191215114940" dir="1576399780fiypa3e526" file="text.html"/>
     <record id="1576218587rtoycwlhi9" name="Локальная_БД" author="alensav" url="" tags="Локальная    _    БД" ctime="20200101165917" dir="1576218587bwzqlm6sfw" file="text.html" crypt="0"/>
     <record id="161147413143sazltega" name="Установка и первичная настройка MySQL на Ubuntu 16.04 " author="alensav" url="https://community.vscale.io/hc/ru/community/posts/209370225-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%BF%D0%B5%D1%80%D0%B2%D0%B8%D1%87%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-MySQL-%D0%BD%D0%B0-Ubuntu-16-04" tags="Установка и первичная настройка MySQL на Ubuntu 16.04 " ctime="20210124104211" dir="1611474131gdmojxgutd" file="text.html"/>
+    <record id="1640020375y7so8seg2r" name="Полная переустановка mysql" author="alensav" url="https://mraak.ru/linux/ubuntu-16-04-mysql-full-reinstall.html" tags="Полная переустановка mysql" ctime="20211220201255" dir="1640020375l5l1j6ex7r" file="text.html"/>
+    <record id="1640031079sny5a574ua" name="mysql-сервер в ubuntu16.0.4" author="alensav" url="https://askubuntu.com/questions/980314/cannot-install-mysql-server-in-ubuntu16-0-4" tags="mysql-сервер в ubuntu16.0.4" ctime="20211220231119" dir="1640031079vx1izuhh4x" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="1" icon="" id="1576755808efne0hctuq" name="UkM1U0lNUANTrdqU2COuv9Wdd/e0I5v21mZKdzg2crtDuvS3y2TAA5SSx8ky/vLx">
@@ -899,9 +969,9 @@
     </record>
    </recordtable>
   </node>
-  <node crypt="" id="1577037389176ergbiso" name="ZAKAZ">
+  <node crypt="0" icon="" id="1577037389176ergbiso" name="ZAKAZ">
    <recordtable>
-    <record id="1577037434fc96uzk16j" name="Заказ1" author="alensav" url="" tags="Заказ1" ctime="20191222205714" dir="1577037434gme2g5zr47" file="text.html"/>
+    <record id="1577037434fc96uzk16j" name="Заказ1" author="alensav" url="" tags="Заказ1" ctime="20191222205714" dir="1577037434gme2g5zr47" file="text.html" crypt="0"/>
    </recordtable>
   </node>
   <node crypt="" id="1577387755r13ainqmgk" name="TGZ_UBUNTU">
@@ -976,6 +1046,7 @@
     <record id="1610550233u1854sv83l" name="Глава 6. Виртуальные машины Lxc" author="alensav" url="http://onreader.mdl.ru/MasteringProxmox.2ed/content/Ch06.html" tags="Глава 6. Виртуальные машины LXC" ctime="20210113180353" dir="1610550233uma5i31spq" file="text.html"/>
     <record id="1610550487b4r5cuhmlk" name="Переход с виртуальных машин на контейнеры LXC: причины, преимущества и готовая инструкция к применению " author="alensav" url="https://habr.com/ru/post/458658/" tags="Переход с виртуальных машин на контейнеры LXC: причины, преимущества и готовая инструкция к применению " ctime="20210113180807" dir="1610550487n0dmju1a75" file="text.html"/>
     <record id="16105685689m56fi7vh8" name="Команды LXC" author="alensav" url="http://xgu.ru/wiki/LXC#.D0.9A.D0.BE.D0.BC.D0.B0.D0.BD.D0.B4.D1.8B" tags="Команды LXC" ctime="20210113230928" dir="1610568568q4e99rzw62" file="text.html"/>
+    <record id="16455503332rg4p50183" name="CRIU, система для сохранения и восстановления состояния процессов в Linux" author="alensav" url="https://blog.desdelinux.net/ru/criu-un-sistema-para-guardar-y-restaurar-el-estado-de-procesos-en-linux/" tags="CRIU, система для сохранения и восстановления состояния процессов в Linux" ctime="20220222201853" dir="16455503334xhj2qe86t" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1583855436uha060b80n" name="!!IMAGE">
@@ -1029,6 +1100,9 @@
     <record id="16032058456cjnbmljeg" name="PosterPrint 2.5R - многостраничная печать " author="alensav" url="http://www.grandutils.com/RU/PosterPrint/" tags="PosterPrint 2.5R - многостраничная печать Печать многостраничных постеров и баннеров " ctime="20201020175725" dir="1603205845xbtpxb51js" file="text.html"/>
     <record id="1603206010s73cw1yyyq" name="распечатки документа большого размера " author="alensav" url="http://3domen.com/5598-programmy-dlya-pechati-posterov.html" tags="распечатки документа большого размера " ctime="20201020180010" dir="1603206010bpwjg93bns" file="text.html"/>
     <record id="1603220925mhnja859la" name="pdfposter" author="alensav" url="" tags="pdfposter gечать больщих листов" ctime="20201020220845" dir="16032209250mstuyrlyr" file="text.html"/>
+    <record id="16387819708vei3vliwi" name="Инструкция по сбросу счетчика тонера на принтере Brother HL-2130" author="alensav" url="https://xn----8sbekbkkcq0dfaeet.xn--p1ai/instrukcii/kak-obnulit-printer-brother-hl-2130-sbros-schetchika-tonera.html" tags="Инструкция по сбросу счетчика тонера на принтере Brother HL-2130" ctime="20211206121250" dir="1638781970yn7eatsg9l" file="text.html"/>
+    <record id="1644490081zb1uzfelf1" name="Печать плакатов в Ubuntu&#10;" author="alensav" url="https://linuxthebest.net/pechat-plakatov-v-ubuntu/?tmpl=component&amp;print=1&amp;layout=default" tags="Печать плакатов в Ubuntu&#10;" ctime="20220210134801" dir="1644490081vu49sl0afn" file="text.html"/>
+    <record id="1644491139q2evznunsf" name="Online PRINT big page" author="alensav" url="https://rasterbator.net/" tags="Online PRINT big page" ctime="20220210140539" dir="16444911391p5uqyc3uv" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="16051162192gn8c2h0uh" name="KALLI">
@@ -1049,6 +1123,7 @@
      </files>
     </record>
     <record id="160681383410gqafzrp8" name="UkM1U0lNUAO6oFCsmagwbZESzMQ+Lf2vV5C+6Iy/sm3x6diRkDCi5AYseDIZVVUVRPKhBv6wcEQ=" author="UkM1U0lNUAOjLBRdzWUJZgl0QZckaE92xESJ/vPhHvl6iWIOSE6WCoj1aIrpGYsb" url="UkM1U0lNUAPhg1n9WeGghaivTyoesp+NA18/1BmhVy4+dDCpjJ3SK6Ix9dE6G4LHAb8vbQmeUVMKcS61yxqf6L/ieeC09tt/vsEGZfqvva4VgC0RAgoGIw0NNAZETi/bqJwKaD1RGzo=" tags="UkM1U0lNUAP2iUm/aswYZ8CMa85uibNs95e3hCMt/I61wz149aYkENmgltYJCNicxnQfbC68niU=" ctime="20201201121035" dir="1606813834vnwntig481" file="text.html" crypt="1"/>
+    <record id="1637566843ym49fg36gb" name="UkM1U0lNUAPPEBPf96xpGUgdmCuFgCgn57rFfT73rksIMyjEy6/CiJJDW6mYJLllhRaDm//qhkg=" author="UkM1U0lNUAO36SyMuDyfl7ZQfUnJHoks9N1Hp65x59foWln2aB4Hh9XsowLPcxN/" url="UkM1U0lNUAOrWuWNSUxEMgVjbRY1oFv6Aabnn6s68yc9QGsuhPm5Kur+tAPMTCxiGlUjutN3ONs93a5Vziau8TgewWgjXhifyPsujq11VCxWAXMOyC/ELA==" tags="UkM1U0lNUAM66kjHM5QLZZsEjUQIFEpkGcka2Yt6ZOz5jUoo5StkADDGqZVw2y9QJHMSLt5Urh0=" ctime="20211122104043" dir="1637566843ckuik96gki" file="text.html" crypt="1"/>
    </recordtable>
   </node>
   <node crypt="" id="1606849793aphujs8w9z" name="KYV">
@@ -1168,7 +1243,29 @@
     <record id="1612715016069ktxed33" name="Модуль math. Теоретико-числовые функции и функции представления" author="alensav" url="https://www.bestprog.net/ru/2019/10/27/python-module-math-number-theoretic-and-representation-functions-ru/" tags="Модуль math. Теоретико-числовые функции и функции представления" ctime="20210207192336" dir="1612715016gyl755ov0h" file="text.html"/>
     <record id="16127164341z1vghv4ie" name="CGI: пишем простой сайт на Python" author="alensav" url="https://pythonworld.ru/web/cgi-1.html" tags="CGI: пишем простой сайт на Python" ctime="20210207194714" dir="16127164341ffdulp5pj" file="text.html"/>
     <record id="1614856975pcjmypxcrw" name="Python Module Index" author="alensav" url="https://docs.python.org/3/py-modindex.html" tags="Python Module Index" ctime="20210304142255" dir="1614856975dfza20g1su" file="text.html"/>
-    <record id="1635084778mg2ywz1e1m" name="Приемы_PYTHON" author="alensav" url="" tags="python jgsn ghbtvs" ctime="20211024171258" dir="1635084778zp5bafx83x" file="text.html"/>
+    <record id="1635084778mg2ywz1e1m" name="Приемы_PYTHON" author="alensav" url="https://docs-python-org.translate.goog/3/tutorial/venv.html?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=nui,sc" tags="python jgsn ghbtvs" ctime="20211024171258" dir="1635084778zp5bafx83x" file="text.html"/>
+    <record id="16363687433e7m5d6pfj" name="Лучшие Библиотеки Python в 2022&#10;" author="alensav" url="https://merehead.com/ru/blog/best-python-libraries-know-in-2022/" tags="Лучшие Библиотеки Python в 2022&#10;" ctime="20211108135223" dir="1636368743bt2div73ns" file="text.html"/>
+    <record id="1636452898ad5424g5q7" name="Spyder" author="alensav" url="https://habr.com/ru/company/skillfactory/blog/521838/" tags="Spyder" ctime="20211109131458" dir="1636452898bycddqm4yq" file="text.html"/>
+    <record id="1636472778lirf11t4q9" name="Библиотека Pygame / Часть 1. Введение" author="alensav" url="https://pythonru.com/uroki/biblioteka-pygame-chast-1-vvedenie" tags="Библиотека Pygame / Часть 1. Введение" ctime="20211109184618" dir="163647277851ipneipsm" file="text.html"/>
+    <record id="1636488665uk4fsjrxgm" name="Создание классов" author="alensav" url="https://pythonru.com/primery/primery-raboty-s-klassami-v-python" tags="Создание классов" ctime="20211109231105" dir="1636488665dq1xzt3lk2" file="text.html">
+     <files>
+      <file id="1636796972zls0x38m8s" fileName="Графика_Python.pdf" type="file"/>
+     </files>
+    </record>
+    <record id="1636967584md9gjfuydr" name="Практика: графические примитивы" author="alensav" url="https://mipt-cs.github.io/python3-2017-2018/labs/lab4.html" tags="Практика: графические примитивы python графика" ctime="20211115121304" dir="1636967584xe8fow4tx1" file="text.html"/>
+    <record id="16369920331z9uvb306l" name="Графика в Python: Tkinter и Canvas" author="alensav" url="https://otus.ru/journal/grafika-v-python-tkinter-i-canvas/" tags="Графика в Python: Tkinter и Canvas" ctime="20211115190033" dir="1636992033f9ssi0m5bx" file="text.html"/>
+    <record id="1637060788l7i1mwsu8a" name="Библиотека Matplotlib" author="alensav" url="https://devpractice.ru/files/books/python/Matplotlib.book.pdf" tags="Библиотека Matplotlib" ctime="20211116140628" dir="1637060788421n24i4q7" file="text.html">
+     <files>
+      <file id="16370608383a7ke9owte" fileName="Matplotlib.book.pdf" type="file"/>
+     </files>
+    </record>
+    <record id="16370854521mba6y73yh" name="python -m pip" author="alensav" url="https://habr.com/ru/company/otus/blog/475392/" tags="python -m pip" ctime="20211116205732" dir="16370854525myiwnnbz0" file="text.html"/>
+    <record id="1637163800w8s95e6ewu" name="Шпаргалки python" author="alensav" url="https://proglib.io/p/python-cheatsheet" tags="Шпаргалки python" ctime="20211117184320" dir="16371638009g3emgvc2v" file="text.html"/>
+    <record id="1637168122hx724cpeez" name="Крупнейшая подборка Python-каналов на Youtube " author="alensav" url="https://proglib.io/p/python-youtube" tags="Крупнейшая подборка Python-каналов на Youtube " ctime="20211117195522" dir="1637168122umvoyctrut" file="text.html"/>
+    <record id="1637168390ox5v4rtnj3" name="TOП-50 Python-проектов в 2018: самые востребованные инструменты " author="alensav" url="https://proglib.io/p/50-python-projects" tags="TOП-50 Python-проектов в 2018: самые востребованные инструменты " ctime="20211117195950" dir="1637168390miptvp0r36" file="text.html"/>
+    <record id="1637168496r1qydfsas0" name="13 лучших книг по Python для начинающих и продолжающих " author="alensav" url="https://proglib.io/p/python-best-books" tags="13 лучших книг по Python для начинающих и продолжающих " ctime="20211117200136" dir="1637168496dpnj9366qs" file="text.html"/>
+    <record id="1637334619yofb0cuxi6" name="Python-LESSON" author="alensav" url="https://trinket.io/home" tags="python lesson учеба изучение" ctime="20211119181019" dir="1637334619mnxfqgqj8n" file="text.html"/>
+    <record id="16373416680zq2xnmye1" name="online compiler and debugger" author="alensav" url="https://www.onlinegdb.com/myfiles" tags="online compiler and debugger" ctime="20211119200748" dir="16373416682crqvjdwcv" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1612206165unsfym2rxh" name="ANDROID_MOBILE">
@@ -1208,17 +1305,17 @@
     <record id="1613460804zrrj5dmshl" name="Обучение_HTML" author="" url="" tags="Обучение_HTML" ctime="20210216103324" dir="16134608040iu9a16j2d" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" icon="/Gnome/color_gnome_2_dialog-warning.svg" id="16136654772yl49sahzq" name="OGLAVLENIYE!!!!">
+  <node crypt="1" icon="UkM1U0lNUAOJUCgW+zXsIiycdpVtbBvqiUBi7AokUEujZkG+0otYE7KS2GvteRnzWgacHsF6Vk1jdmGJIinUYoQaNdH9yrUU4IhMjJKflMk=" id="16136654772yl49sahzq" name="UkM1U0lNUAPVJy3YeyECibCkdPmcST1xsXzUkXM5XcxPuWpgaGquG9LlUABRB0c2TXQSWXHM2LI=">
    <recordtable>
-    <record id="1613665538qondaf7gpn" name="ОГЛАВЛЕНИЕ" author="alensav" url="" tags="ОГЛАВЛЕНИЕ" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html">
+    <record id="1613665538qondaf7gpn" name="UkM1U0lNUANiM4uTpoKh+8FMd2sWBJAASpPwfDMMNTwYNq1d19ml/t0M7dXrEbNbj17eHr99DKenRESP0VDEDQ==" author="UkM1U0lNUAOB7wHjIox2yFQpIQm84A90YDh1f7GDimSQjKoh7/AXLeksy8TZhQDG" url="" tags="UkM1U0lNUAPx0zFUkUfWgEotgpbNe1Yu9XZJ2hSsG9qb9pNM3WPQ4s+0Lzk2V1R0ZjOn6+oai+2LPy9gQTKQJA==" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html" crypt="1">
      <files>
-      <file id="1613897870at5mnmf63b" fileName="index.html" link="/home/alensav/Документы/BOOKS/HTMLRef/index.html" type="link"/>
+      <file id="1613897870at5mnmf63b" fileName="UkM1U0lNUAODie1xWN3iCC2ucgkvZnyFlx2Q+w4PGkCjwkefLBU7w1NSfUl0c29cckkAGBaOX4Q=" link="UkM1U0lNUANDAp8xc/cOVR4pXhp8C9OS2RcADjtJ9CvWNw70744/bN3+hJ3emdl6M8jwf/JLsLfFR2jh8JaD4PuqwMHw2DQ9/qA5rhKlTxj4Vn4ZLwDKp53aWikNRTwYEX9eKGqCOJ0=" type="link" crypt="1"/>
      </files>
     </record>
    </recordtable>
-   <node crypt="" id="1613678210jw0wy9pnw4" name="IKONKI">
+   <node crypt="1" icon="" id="1613678210jw0wy9pnw4" name="UkM1U0lNUAODa3d1PqnJz9pRVzh2woXdrczXOUpV9ia8HML6P3/XL/TbP9BrdyNR">
     <recordtable>
-     <record id="1613678266ezgle36sey" name="IKONKI" author="alensav" url="" tags="IKONKI" ctime="20210218225746" dir="1613678266uv7awcnpk8" file="text.html"/>
+     <record id="1613678266ezgle36sey" name="UkM1U0lNUAPAXjLSV5ka5x6+uVZu/6NqUH55P6bF38kAfsUc9BY8tWvQmJDKCmbz" author="UkM1U0lNUANOrAqvM8oNZhgcUDyQJP6/axVnpoOJugsNwzhrLrh+D6l4jjfnLwnT" url="" tags="UkM1U0lNUANXbrYWG2RkyO6B9tUz2BJE0UGhPkJVis4GTUX8VDZpoTfERoVycVyj" ctime="20210218225746" dir="1613678266uv7awcnpk8" file="text.html" crypt="1"/>
     </recordtable>
    </node>
   </node>
@@ -1368,6 +1465,87 @@
     <record id="1635418981vu5egdiet0" name="&#10;Увеличение скорости работы Ubuntu&#10;_SAV" author="alensav" url="https://help.ubuntu.ru/wiki/ubuntu_optimization" tags="Увеличение скорости работы Ubuntu&#10;" ctime="20211028140301" dir="1635418981tvxks54qjd" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1635587417vuao7g65kz" name="KALI"/>
+  <node crypt="" id="1635587417vuao7g65kz" name="KALI">
+   <recordtable>
+    <record id="16355899524gna9vje0p" name="KALI_OPERAT" author="alensav" url="" tags="kali manager" ctime="20211030133232" dir="1635589952zij1j8e4ed" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="16362994368gpjhqxwc5" name="CONDA">
+   <recordtable>
+    <record id="1636299487xm9xvoqpqk" name="Conda_sav" author="alensav" url="https://abc-server.com/ru/blog/administration/anaconda-install/" tags="anaconda conda" ctime="20211107183807" dir="1636299487iw87fpes26" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="16381797265tmpn636zk" name="WIRELES">
+   <recordtable>
+    <record id="1638179782s49jidtm9t" name="ASUS_wifi" author="alensav" url="" tags="ASUS_wifi" ctime="20211129125622" dir="1638179782fzi1p6oss3" file="text.html"/>
+    <record id="1638181328iockdsxi9f" name="Установка драйвера wifi Asus wl-167g" author="alensav" url="https://www.oslogic.ru/knowledge/1350/ustanovka-drajvera-wifi-asus-wl-167g-v3-rtl8192-dlya-ubuntu-16-04-i-18-04/" tags="Установка драйвера wifi Asus wl-167g" ctime="20211129132208" dir="16381813283ugks525li" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1638352051qykgaxgnlp" name="Доски.ru">
+   <recordtable>
+    <record id="1638352134fqkjebs6hy" name="доски_ru" author="alensav" url="https://www.doski.ru/internet-magazin-proektov-docs-shop-msg5696137.htm" tags="доски_ru" ctime="20211201124854" dir="16383521348cedrfsbz1" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1638719653bjpn8w1wr4" name="WEB_РАЗРАБОТКА">
+   <recordtable>
+    <record id="1638720115e8so6hepr2" name="30 полезных сервисов " author="alensav" url="https://habr.com/ru/post/236219/" tags="30 полезных сервисов для веб-разработчиков и дизайнеров v2" ctime="20211205190155" dir="1638720115e25n6tf1zu" file="text.html"/>
+    <record id="1638727302d2w8ump77v" name="Топ 10 сайтов" author="alensav" url="https://vc.ru/design/128619-top-10-luchshih-saytov-dlya-veb-razrabotchikov" tags="Топ 10 сайтов вебразработка web site" ctime="20211205210142" dir="16387273028x0tv82rdt" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1639067279nprivxgo5v" name="EMMET">
+   <recordtable>
+    <record id="16390674048au0mabze5" name="Emmet 2 for Sublime Text editor" author="alensav" url="https://github.com/emmetio/sublime-text-plugin" tags="Emmet 2 for Sublime Text editor" ctime="20211209193004" dir="1639067404n6lt1icol3" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1639154774xuacquyqev" name="BOWER">
+   <recordtable>
+    <record id="1639154823cvdr12fuvt" name="Установка и использование Bower" author="alensav" url="https://www.8host.com/blog/ustanovka-i-ispolzovanie-bower/" tags="Установка и использование Bower" ctime="20211210194703" dir="1639154823xhap84oyij" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1639468439j53mr8blu3" name="YOUDO">
+   <recordtable>
+    <record id="1639468579c7cfsqdl92" name="youdo_ЗАКАЗЫ" author="alensav" url="https://youdo.com/profile/settings/security" tags="youdo ЗАКАЗЫ" ctime="20211214105620" dir="1639468579zceriohk0f" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1639833260wpeks129hz" name="UCHEBA_PHP">
+   <recordtable>
+    <record id="1639833329s3s9kn11ep" name="Вход/Регистрация на PHP + MySQL за 20 минут" author="alensav" url="https://3-info.ru/post/13280" tags="Вход/Регистрация на PHP + MySQL за 20 минут" ctime="20211218161529" dir="1639833329bugswppcp0" file="text.html"/>
+    <record id="1640108723p0ceszyrxv" name="sozdanie-formy-registratsii-i-avtorizatsii-v-php" author="alensav" url="https://github.com/sergiu920/sozdanie-formy-registratsii-i-avtorizatsii-v-php#readme" tags="sozdanie-formy-registratsii-i-avtorizatsii-v-php" ctime="20211221204523" dir="1640108723zgf02uw7um" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1640272689mtxt22mmsz" name="WORDPRESS">
+   <recordtable>
+    <record id="1640272737obhlyuzlbw" name="Установка плагина вручную #" author="alensav" url="https://wordpress.org/support/article/managing-plugins/" tags="Установка плагина вручную #" ctime="20211223181857" dir="1640272737ytmbm4tpr1" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1640600024ywuc5neusn" name="SITE_IMAGE">
+   <recordtable>
+    <record id="1640600102m2egst4176" name="Загрузите выбранные файлы" author="alensav" url="https://hostingkartinok.com/" tags="Загрузите выбранные файлы" ctime="20211227131502" dir="1640600102k5jnzufm8b" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="1642002221s1fy7qxnp0" name="UkM1U0lNUAPbgFznlVGnaqrlr/4FW47QowXjME1muVnKjZxJRqMJ3HfZThA4+FWFrn4cKzT4EFo=">
+   <recordtable>
+    <record id="1642002322rbbdq422m9" name="UkM1U0lNUAMymJtrbYGM11oazXsEXyrRE3Egx6PbMTW9WSRoaDraPjL3sdCLObqLRaGLC6rijFsNtDmIkjQuW46zYkREiB8N" author="UkM1U0lNUAPYyj8KYtp20Nv8KZGkvZo3k/eIOO6HTmJnjVZXIPL7xEIkd5ZcS7IJ" url="UkM1U0lNUAMsg4AxCa4J0/12pg/j55JCxcvAAUcEFDAFjHAcgwIcTFEYjo5UP1Hk3LmSo7NJB+/pnkZMMlQnHzoGDvBjOXZBSQ5pr49ORXx3qScgKXPPFA==" tags="UkM1U0lNUAPYrGcJtRUSiVclC2H+YiQ/qecxnLI/J6gruS35rVs51TZf7DskA5Ax+yfq7/PtsGVkAnC75LmXmiEaCm8mN1/q6nP22bM/skw8JBNMPbB4EG8Ard2rcabNWD7dpzBZ0NboDUioqhrXLUfswJnahwS5" ctime="20220112184522" dir="1642002322o63von5hon" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="16421015871mzlez8b3c" name="VPN">
+   <recordtable>
+    <record id="16421016713dayygb47b" name="sertifikat" author="alensav" url="https://timeweb.com/ru/community/articles/openvpn-na-ubuntu-16-04-ustanovka-1" tags="sertifikat" ctime="20220113222111" dir="16421016716yn67oo5nm" file="text.html"/>
+    <record id="16421021491mst99yfcf" name="OpenVPN на Ubuntu 16.04: установка" author="alensav" url="https://timeweb.com/ru/community/articles/openvpn-na-ubuntu-16-04-ustanovka-1" tags="OpenVPN на Ubuntu 16.04: установка" ctime="20220113222909" dir="16421021495s41c2q39w" file="text.html"/>
+    <record id="1642102611lb5v8xec60" name="Sample OpenVPN 2.0 config file      " author="alensav" url="" tags="Sample OpenVPN 2.0 config file    " ctime="20220113223651" dir="1642102611gtc461pot9" file="text.html"/>
+    <record id="1642106292iavahs3ab1" name="OpenVPN на Ubuntu 16.04: настройка" author="alensav" url="https://timeweb.com/ru/community/articles/openvpn-na-ubuntu-16-04-nastroyka-1" tags="OpenVPN на Ubuntu 16.04: настройка" ctime="20220113233812" dir="1642106292xdnup6z04o" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="16425254073ndt4vls5n" name="UkM1U0lNUANmDEtgvTdctaBkp9Zq4izg7QaORmcVJzo3e7rklpyg70B6JveqL4FZ">
+   <recordtable>
+    <record id="1642525450loic5uo5o7" name="UkM1U0lNUAMxub9am5Q/tFENhT4BBOn8iYDiOsISeAOYNqdKnR9HXeZ6Otzdj7Fn" author="UkM1U0lNUAOd9l9WtrnxSkM/WIEQhtidmHm4N4MyWUE/zGA06+ELN66178Co70Sx" url="UkM1U0lNUAOUxZ4PccytZ9M0fwkxyjvqf9NdVRucapXOmNPwS3J52UZ+GYVQdjzkVKAzK3BfI/j7MIrkhVvGAaklc0lTxV52ZZehzyuaHa+YDgtTRIrAJA==" tags="UkM1U0lNUAN9ugjSP52X3fcNYJnS4yOEGjt7l/OKKQA39q9xpkuUCLsNgDZ+dX9W" ctime="20220118200410" dir="1642525450ll2ptn20bb" file="text.html" crypt="1"/>
+    <record id="16425263197x7wi80mb4" name="UkM1U0lNUAM3gWtRqaI/tabzVBM7qgKKt9tSCGeBQKOxLOxaWJTmTmPQKUE1Vl8NNZGmr0jj8+Q=" author="UkM1U0lNUAMLcJ5C8QqTmgXtuADXxhgRCiFD1NjEjOmPQtpCpNIc7uNwVxEueDG8" url="UkM1U0lNUAOXf84KIhkVksEiSiOo7nJz2GBdszV2j0NIOLV0POsR00mhTsenr7hssBNzzoTWx8WWPMswhAuzZOtSzs1ObGp0r99tVNz6M12vX/xMXQc3av4b20zqUX5pwtksg8fALdOm/j6MGErAIw==" tags="UkM1U0lNUAM3tduY63MXuWhYy5spnyGYmT187RG3K4WSgaOLQHaxR43QgiIbIcoozCIxKJuUUE8=" ctime="20220118201839" dir="1642526319jmc5nkdzba" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="1644303853n3n1i39zla" name="UkM1U0lNUANDLbB2i4PON47KMqus8Be9fqEOU1GenjMvcNhj+MWGxlLHZ0mJLOa5">
+   <recordtable>
+    <record id="1644303884uv44an08rs" name="UkM1U0lNUAPKdfKUwROiUQMgUPwiha0562eYvDl1tZHgpWnOuq1WFxaWUGNp/hj4WmqWmnvGNuUn27wz6GyUQQ==" author="UkM1U0lNUAMBGTp9sQTyo5ro+0NGOtEFtbkZCq/OCZ430hanPhI0W5nrCNTCyHoQ" url="" tags="UkM1U0lNUANbMtKyMmW0S6cTixLW2Pa2561fcbT/A0JUS0fqvctKndo7sEQiKBrZTmkCI7GofL9FSL9A91Hvow==" ctime="20220208100444" dir="1644303884rimiykikzk" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
  </content>
 </root>
