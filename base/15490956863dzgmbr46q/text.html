@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" width="100%" cellspacing="0" cellpadding="1" bgcolor="#647062">
+<tr>
+<td>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" width="100%" cellspacing="0" cellpadding="3" bgcolor="#ffffff">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="file:///home/alensav/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/HTTM_EDIT/html_book/index.html"><span style=" text-decoration: underline; color:#0000ff;">Содержание</span></a> / Основы CSS / Свойства элементов, управляемых с помощью CSS </p></td></tr></table></td></tr></table>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:x-large; font-weight:600;">Свойства элементов, управляемых с помощью CSS</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В настоящее время язык CSS насчитывает довольно большое количество свойств элементов HTML, которыми он может управлять. Но из-за того, что этот стандарт еще очень молод, в полном объеме его пока не поддерживают наиболее популярные броузеры (Netscape Navigator и Microsoft Internet Explorer). Последние версии этих броузеров могут работать с довольно большим количеством команд CSS, а вот 3-и версии или совсем не поддерживают его (Netscape Navigator 3), или поддерживают, но лишь частично (Microsoft IE 3). Более того, поскольку разработчики из этих компаний никак не могут договориться между собой, последние версии броузеров поддерживают неодинаковый набор свойств CSS. Все это делает малоприемлемым использование CSS в полном объеме, так как, при использовании CSS для форматирования элементов страницы и просмотре ее с помощью броузера версии ниже 4­й, есть большая вероятность увидеть нечто такое, что вам не понравится. Поэтому будет разумнее воздержаться от использования CSS для форматирования основной структуры страниц до всеобщего перехода на последние версии броузеров. В то же время, применяя «безопасные», т. е. совместимые с максимальным количеством броузеров элементы CSS, вы можете сильно облегчить себе жизнь и сделать ваши Web-странички более привлекательными в плане шрифтового оформления, а пользователи, путешествующие по Internet с помощью устаревших броузеров, просто этого не увидят, но также они не увидят и тех кошмаров, которые появляются при использовании CSS для верстки страниц.</p>
+<p align="center" style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" align="center" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td bgcolor="#000000">
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" align="center" width="100%" cellspacing="1" cellpadding="6">
+<tr>
+<td colspan="2" bgcolor="#e8e7d2">
+<p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">СВОЙСТВА ШРИФТА</p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">font-family</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Используется для указания шрифта или шрифтового семейства, которым будет отображаться элемент.</span><br />P {font-family: Times New Roman, sans-serif;}</p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">font-weight</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Определяет степень жирности шрифта с помощью трех параметров: lighter, bold, bolder</span><br />B {font-weight: bolder;}</p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">font-size</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Устанавливает размер шрифта. Параметр может указываться как в относительной (проценты), так и абсолютной величине (пункты, пикселы, сантиметры)</span><br />H1 {font-size: 200%;}<br />H2 {font-size: 150px;}<br />H3 {font-size: 400pt;}</p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">font-size</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Устанавливает размер шрифта. Параметр может указываться как в относительной (проценты), так и абсолютной величине (пункты, пикселы, сантиметры)</span><br />H1 {font-size: 200%;}<br />H2 {font-size: 150px;}<br />H3 {font-size: 400pt;}</p></td></tr>
+<tr>
+<td colspan="2" bgcolor="#e8e7d2">
+<p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ЦВЕТ ЭЛЕМЕНТА И ЦВЕТ ФОНА</p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">color</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Определяет цвет элемента</span><br />I {color: yellow;} </p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">background-color</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Устанавливает цвет фона для элемента – именно для элемента, а не для странички. Обратите внимание, что броузеры отображают это свойство по-разному: Microsoft IE отводит под фон элемента всю доступную ширину страницы, а Netscape Navigator – лишь ширину, занимаемую этим элементом. Посмотрите пример (рис. 3, 4 ), вот его исходный код:</span><br /><br />&lt;HTML&gt;<br />&lt;HEAD&gt;<br />&lt;TITLE&gt;Пример использования CSS&lt;/TITLE&gt;<br /><br />&lt;STYLE type=”text/css”&gt;<br />H1 {font-size: 300%;}<br />&lt;/STYLE&gt;<br />&lt;/HEAD&gt;<br /><br />&lt;BODY bgcolor=white&gt;<br />&lt;center&gt;&lt;BR&gt;<br />&lt;H1 style=”background-color: teal; color: white;”&gt;Cascading&lt;/H1&gt;<br />&lt;H1 style=”background-color: navy; color: yellow;”&gt;Style&lt;/H1&gt;<br />&lt;H1 style=”background-color: gold; color: brown;”&gt;Sheets&lt;/H1&gt;<br />&lt;/BODY&gt;<br />&lt;/HTML&gt;<br /><br />В этом примере в разделе &lt;STYLE&gt; всем элементам &lt;Н1&gt; на этой страничке был установлен размер 300 % от нормы. Затем каждому из элементов &lt;H1&gt; были присвоены собственные значения цвета фона и цвета символов. </p></td></tr>
+<tr>
+<td colspan="2" bgcolor="#e8e7d2">
+<p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">СВОЙСТВА ТЕКСТА</p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">text-decoration</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Устанавливает эффекты оформления шрифта, такие, как подчеркивание или зачеркнутый текст</span><br /><br />H4 {text-decoration: underline;}<br />A {text-decoration: none;}<br />.wrong {text-decoration: line-through;} </p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">text-align</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Определяет выравнивание элемента. </span><br />P {text-align: justify}<br />H1 {text-align: center} </p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">text-indent</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Устанавливает отступ первой строки текста. Чаще всего используется для создания параграфов с табулированной первой строкой.</span><br />P {text-indent: 50pt;} </p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">line-height</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Управляет интервалами между строками текста.</span><br />P {line-height: 50 %} </p></td></tr>
+<tr>
+<td colspan="2" bgcolor="#e8e7d2">
+<p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">СВОЙСТВА ГРАНИЦ</p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">margin-left</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Устанавливают значения отступов вокруг элемента.</span><br />IMG { margin-right: 20pt}<br />P { margin-left: 2cm} </p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">margin-right</span><br />margin-right<br />margin-top</p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Устанавливают значения отступов вокруг элемента.</span><br />IMG { margin-right: 20pt}<br />P { margin-left: 2cm} </p></td></tr>
+<tr>
+<td colspan="2" bgcolor="#e8e7d2">
+<p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ЕДИНИЦЫ ИЗМЕРЕНИЯ</p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">px</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Пикселы </span></p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">cm</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Сантиметры </span></p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">mm</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Миллиметры </span></p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">pt</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Пункты (типограф.) </span></p></td></tr>
+<tr>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">%</span></p></td>
+<td bgcolor="#f0f7ef" style=" vertical-align:top;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" background-color:#f0f7ef;">Проценты</span></p></td></tr></table></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Итак, перейдем к изучению безопасных элементов CSS. Описание свойств элементов в CSS состоит из названия свойства с последующим присвоением ему определенного значения. Название свойства и его значение разделены двоеточием.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Указывая абсолютные, а не относительные размеры шрифтов, вы лишаете людей, просматривающих ваши странички, возможности увеличивать или уменьшать размер шрифтов с помощью специальной кнопочки в броузере в соответствии с разрешением их дисплея и зрением. Шрифты будут отображаться только такого размера, который вы указали при написании странички.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Поэтому, если использование абсолютных размеров шрифтов не обусловлено художественным замыслом или коварным умыслом, рекомендую вам использовать для этих целей указание размеров в процентах. В этом случае размер шрифта будет меньше (больше) на указанное вами количество процентов, чем при оформлении его с помощью стандартного HTML-тега.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Есть еще одна небольшая, но очень полезная хитрость – это способ скрыть от устаревших броузеров описания стилей, располагающихся в теге &lt;STYLE&gt;, внутри раздела&lt;HEAD&gt;. Поскольку броузер был написан несколько лет назад, когда никакого CSS еще и в планах не было, он просто не поймет, что это такое написано внутри &lt;STYLE&gt;…&lt;/STYLE&gt;, и выдаст все описания стилей на страничку, как обычный текст. Для того чтобы предотвратить это, необходимо заключить описания стилей в тег комментариев. Делается это очень просто.</p>
+<p align="center" style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" align="center" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;HEAD&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;STYLE type=&quot;text/css&quot;&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;!--</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">описания стилей</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">-- &gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/STYLE&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/HEAD&gt;</span></pre>
+<pre style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier';"><br /></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">где</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;!--– тег, открывающий комментарий, а</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">­­&gt; – закрывающий.</span></pre></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Устаревшие броузеры посчитают все заключенное между тегами комментариев информацией неотображенной, а новые и сообразительные броузеры определят, что это — описание стилей, и задействуют их.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Еще один из интересных вариантов применения CSS скрывается за, казалось бы, простой возможностью: вы можете указывать значения отступов вокруг объектов, как отрицательные величины! Это позволяет накладывать один слой текста на другой и получать весьма интересные и привлекательные результаты.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Добиться такого эффекта не очень сложно, давайте попробуем создать страничку с заголовком, который будет выглядеть трехмерным, но не будет использовать графику.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Создадим новый html-файл и составим описание стилей для трех объектов:</p>
+<p align="center" style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" align="center" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;HEAD&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;STYLE type=&quot;text/css&quot;&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">BODY {font-family: Verdana; font-size: 70pt; font-weight: bold;}</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">.z1 { color: silver; margin-top: 100px; margin-left: 70px;}</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">.z2 {color: navy; margin-top: -118px; margin-left: 68px;}</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/STYLE&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/HEAD&gt;</span></pre></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В этом описании мы присвоили &lt;BODY&gt; (впрочем, это мог быть практически любой другой тег) размер, шрифт и начертание – в таком стиле будут отображаться все элементы страницы. Это было сделано лишь ради стремления уменьшить размер файла странички, вместо этого можно было описать эти параметры дважды: для каждого из классов z. Далее мы описываем два стиля, которые отличаются цветом и размером отступов вокруг них: нижний слой описывается стилем z1, а верхний – z2. Используя отрицательные значения отступов и подбирая нужное значение, мы добиваемся того, что верхний слой как бы наползает на предыдущий...</p>
+<p align="center" style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" align="center" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;BODY bgcolor=white&gt;</span></pre>
+<pre style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier';"><br /></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;DIV class=&quot;z1&quot;&gt;EC-NET&lt;/DIV&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;DIV class=&quot;z2&quot;&gt;EC-NET&lt;/DIV&gt;</span></pre>
+<pre style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Courier New,courier';"><br /></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/BODY&gt;</span></pre></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Откроем наш любимый Web-редактор Notepad и создадим файл с будущим названием styles.css (название файла может быть любым). Опишем в этом файле стиль параграфа &lt;P&gt;, который будет использоваться на всех страничках нашего сайта:</p>
+<p align="center" style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" align="center" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">P {</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">font-family: Times New Roman, serif;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">color: #000000;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">margin-left: 15%;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">margin-right: 15%;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">margin-top: 1pt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">margin-bottom: 1pt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">text-indent: 1cm;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">text-align: justify;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">}</span></pre></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Внутри описания стиля для удобства форматирования вы можете использовать любое количество пробелов и переносов строк – при чтении стиля броузер просто отбросит все лишние пробелы.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В этом стиле мы задали, что параграфы &lt;P&gt; на всех страничках, которые используют это описание, будут отображаться шрифтом Times New Roman или в случае, если этот шрифт на машине не установлен, другим шрифтом, но из этого семейства (serif). Цвет шрифта мы установили черный, выравнивание – полное (по обеим сторонам). </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Также мы установили для параграфа ряд значений отступов. Это было сделано со следующей целью: по умолчанию параграф в HTML отображается равным практически 95 % страницы и с интервалами между параграфами, равными 180 % межстрочного интервала. Читать такие параграфы не очень удобно, так как интервалы между ними слишком велики, а ширина параграфа слишком большая. Посмотрите на журнал, который вы сейчас держите в руках: текст сверстан в колонки для того, чтобы его было удобнее читать. В стиле параграфа, который мы создали, установлены боковые отступы в 15 % ширины окна и вертикальные отступы в 1 пункт – так текст статьи будет гораздо читабельнее.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Давайте так же создадим стиль для заголовков статей:</p>
+<p align="center" style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" align="center" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">H2 {</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">font-family: Verdana, Arial Cyr, Arial;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">font-weight: bold;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">font-size: 14pt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">color: black;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">margin-left: 20%;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">margin-top: 1cm;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">text-align: left;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">}</span></pre></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Все заголовки наших страниц, оформленные тегом &lt;H2&gt;, будут отображаться жирным шрифтом Verdana или, если этот шрифт не установлен, шрифтом Arial. Размер заголовка мы установим равным 14 пунктам, цвет черный, отступ слева равен 20 % ширины страницы, а отступ сверху – 1 см. Заголовок будет выравниваться относительно левого края страницы.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Благодаря тому, что боковые отступы заголовка и параграфа установлены нами в процентах от ширины окна броузера, при просмотре наших страничек на компьютерах с разным разрешением дисплея пропорции и расположение заголовка, основного текста и отступов будут сохранены.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Для того чтобы «привязать» созданные нами стили к нашим страничкам, во все html-файлы в разделе &lt;HEAD&gt; мы должны поместить строку со ссылкой на файл стилей и с указанием об использовании CSS:</p>
+<p align="center" style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" align="center" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;LINK REL=STYLESHEET TYPE=&quot;text/css&quot; HREF=&quot;styles.css&quot;&gt;</span></pre></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Поскольку файл со стилями будет находиться в том же каталоге сервера, что и остальные странички, параметр HREF=&quot;URL&quot; в нашем случае будет просто именем нашего файла стилей (styles.css).</p></body></html>

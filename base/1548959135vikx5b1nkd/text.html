@@ -1,0 +1,249 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<hr />
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://wm-school.ru/html/html_classes.html"><span style=" text-decoration: underline; color:#0000ff;">HTML ID и CLASS</span></a></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://wm-school.ru/html/html_layouts.html"><span style=" text-decoration: underline; color:#0000ff;">HTML Макеты </span></a></p>
+<hr />
+<p style=" margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:xx-large; font-weight:600;">Фреймы</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Фреймы — это HTML-элементы, позволяющие разделить окно веб-браузера на несколько независимых окон, в каждое из которых можно загрузить отдельный HTML-документ. Каждое такое окно (фрейм) может иметь собственные полосы прокрутки и функционировать независимо от других независимых окон либо наоборот управлять их содержанием. Они могут применяться для организации постоянно находящегося в одном окне меню, в то время как в другом окне располагается непосредственно сама информация. Пользователи могут обращаться к меню в любой момент, и им не нужно возвращаться к предыдущей странице, чтобы выбрать другой пункт меню. Применение фреймов позволит вам «закрепить» в окне браузера изображения или другие неподвижные по замыслу элементы интерфейса, в то время как остальная часть страницы будет прокручиваться во фрейме.<br />Однако, стоит отметить, что в наши дни фреймы считаются устаревшим средством, а сайты с фреймами теперь считаются несолидными, так как профессиональные веб-мастера никогда не используют фреймы в своих проектах. С фреймами связан целый ряд печально известных проблем. Они, например, сбивают с толку поисковые машины, поскольку на страницах, которые содержат контент, нет ссылок на другие документы. Если вы хотите получать посетителей с поисковых систем, забудьте о фреймах. Понравившуюся страницу пользователю невозможно поместить в раздел закладки браузера, так как фреймы скрывают адрес страницы, на которой он находится, и всегда показывают только адрес веб-сайта. По этой причине они создают проблемы для браузеров при отслеживании хронологии и еще они не слишком приспособлены для разных размеров экранов и мобильных устройств.<br />Несмотря на то, что проекты с фреймами встречаются во всемирной паутине все реже, изучение HTML было бы неполным без рассмотрения темы о фреймах. У фреймов наряду с недостатками есть и некоторые достоинства, которые не позволяют отбросить эту технологию как бесперспективную. </p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:x-large; font-weight:600;">Создание фреймов</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Структура HTML-документа с фреймами внешне очень напоминает формат обычного HTML-документа. Как и в обычном HTML-документе, весь код помещен между парными тегами <span style=" font-weight:600;">&lt;html&gt;</span> и <span style=" font-weight:600;">&lt;/html&gt;</span>, а в контейнере <span style=" font-weight:600;">&lt;head&gt;</span> располагаются заголовки. Основное отличие документа с фреймами от обычного HTML-документа — у документа с фреймами вместо тега <span style=" font-weight:600;">&lt;body&gt;</span> применяется парный тег <span style=" font-weight:600;">&lt;frameset&gt;</span> (от англ. frame set – набор фреймов).<br />В следующем примере приведена структура HTML-документа с фреймами:</p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Пример: Структура HTML-документа с фреймами</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="javascript:void(0);"><span style=" text-decoration: underline; color:#0000ff;">Результат</span></a> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="javascript:void(0);"><span style=" text-decoration: underline; color:#0000ff;">HTML-код</span></a> </li></ul>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td colspan="2" bgcolor="#0000ff">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="task0"></a><span style=" color:#ffffff; background-color:#0000ff;">f</span><span style=" color:#ffffff; background-color:#0000ff;">rame_top</span><span style=" color:#ffffff;"><br /><br /><br /><br /><br /></span></p></td></tr>
+<tr>
+<td bgcolor="#008000">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#ffffff; background-color:#008000;">frame_left</span><span style=" color:#ffffff;"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></span></p></td>
+<td bgcolor="#00ff00">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#ffffff; background-color:#00ff00;">frame_right</span><span style=" color:#ffffff;"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В приведенном примере страница содержит три области, в каждую из которых первоначально загружаются HTML-документы frame_top.html, frame_left.html и frame_right.html. Помимо HTML-документов, фрейм может содержать и графику. Для этого необходимо указать адрес соответствующего изображения в атрибуте <span style=" font-weight:600;">src</span>, например <span style=" font-style:italic;">src=&quot;image.gif&quot;</span>. Обратите внимание, что элемент <span style=" font-weight:600;">&lt;frame&gt;</span> используется без закрывающего тега.<br />Внутри контейнера <span style=" font-weight:600;">&lt;frameset&gt;</span> могут содержаться только теги <span style=" font-weight:600;">&lt;frame&gt;</span> или другой набор фреймов, охваченный тегами <span style=" font-weight:600;">&lt;frameset&gt;</span> и <span style=" font-weight:600;">&lt;frameset&gt;</span>.<br />Тег <span style=" font-weight:600;">&lt;frameset&gt;</span> имеет следующие атрибуты:</p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">rows</span> — описывает разбиение страницы на строки: <span style=" font-weight:600;">&lt;frameset rows=&quot;100, *&quot;&gt;</span></li>
+<li style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">cols</span> — описывает разбиение страницы на столбцы: <span style=" font-weight:600;">&lt;frameset cols=&quot;20%, 80%&quot;&gt;</span></li></ul>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Области, полученные в результате такого разбиения страницы, и будут являться фреймами. Отсутствие этих атрибутов определяет один фрейм, который займет все окно браузера.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В значении атрибутов <span style=" font-weight:600;">rows</span> и <span style=" font-weight:600;">cols</span> необходимо указывать не количество строк или столбцов, а значение ширины и высоты фреймов. Все значения в списке разделяются запятыми. Размеры могут быть указаны в абсолютных единицах (в пикселах) или в процентах: </p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">cols=&quot;20%, 80%&quot;</span> — окно браузера разбивается на две колонки с помощью атрибута <span style=" font-weight:600;">cols</span>, левая колонка занимает 20%, а правая 80% окна браузера.</li>
+<li style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">rows=&quot;100, *&quot;</span> окно браузера разбивается на два горизонтальных окна с помощью атрибута <span style=" font-weight:600;">rows</span>, верхнее окно занимает 100 пикселов, а нижнее — оставшееся пространство, заданное символом звездочки.</li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Как видно из данного примера, контейнер <span style=" font-weight:600;">&lt;frameset&gt;</span> с атрибутом <span style=" font-weight:600;">rows</span> вначале создает два горизонтальных фрейма, а вместо второго фрейма подставляется еще один <span style=" font-weight:600;">&lt;frameset&gt;</span>, который разбивает нижний горизонтальный фрейм на две колонки с помощью атрибута <span style=" font-weight:600;">cols</span>, левая колонка занимает занимает 20%, а правая 80% окна браузера.<br />Если браузер не поддерживает фреймы, то в окне будет отображен текст, расположенный между тегами <span style=" font-weight:600;">&lt;noframes&gt;</span> и <span style=" font-weight:600;">&lt;/noframes&gt;</span>. Все, что находится между тегами <span style=" font-weight:600;">&lt;noframes&gt;</span> и <span style=" font-weight:600;">&lt;/noframes&gt;</span>, игнорируется браузерами, поддерживающими фреймы. Таким образом разработчику нужно написать код, дублирующий содержимое фреймов другими средствами, и поместить этот код в контейнер <span style=" font-weight:600;">&lt;noframes&gt;</span>, тогда все пользователи смогут увидеть его веб-страницу.<br />Как уже отмечалось, для вставки в документ отдельного фрейма служит непарный тег <span style=" font-weight:600;">&lt;frame&gt;</span>. Атрибут <span style=" font-weight:600;">src</span> задает документ, который должен отображаться внутри данного фрейма, например: &lt;frame src=&quot;frame_top.html&quot;&gt;. Если атрибут <span style=" font-weight:600;">src</span> отсутствует, отображается пустой фрейм. </p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:x-large; font-weight:600;">Границы или пространство между фреймами</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">По умолчанию, браузер отображает серую и, как правило, в виде трехмерной линии границу между фреймами, с помощью которой посетители могут регулировать размер фрейма.<br />Границей фрейма можно управлять, как и любыми другими элементами фрейма. Для этого существует несколько атрибутов элемента <span style=" font-weight:600;">&lt;frameset&gt;</span>, позволяющих настраивать границы фреймов. Толщина линии границы определяется атрибутом <span style=" font-weight:600;">border</span>. По умолчанию значение толщины границы равно пяти.<br />Чтобы скрыть границу фрейма, необходимо либо указать значение ширины границы равным нулю, либо присвоить значение «no» или «0» атрибуту <span style=" font-weight:600;">frameborder</span>. Атрибут <span style=" font-weight:600;">frameborder</span> может принимать только два противоположных значения. Если значение атрибута <span style=" font-weight:600;">frameborder</span> равно «yes» или «1», то граница фреймов будет отображаться, а если «0» или «no», то нет. Учтите, что значения атрибута <span style=" font-weight:600;">frameborder</span> различаются для разных браузеров. Чтобы решить эту проблему используйте дважды атрибут <span style=" font-weight:600;">frameborder</span>, а для некоторых браузеров требуется еще добавить атрибут <span style=" font-weight:600;">framespacing</span> со значением «0»:</p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;frameset frameborder=&quot;0&quot; framespacing=&quot;0&quot; frameborder=&quot;no&quot; border=&quot;0&quot;&gt;</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В следующем примере убираем границу между фреймами:</p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Пример: Убираем границу между фреймами</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="javascript:void(0);"><span style=" text-decoration: underline; color:#0000ff;">Результат</span></a> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="javascript:void(0);"><span style=" text-decoration: underline; color:#0000ff;">HTML-код</span></a> </li></ul>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td bgcolor="#008000">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="task1"></a><span style=" color:#ffffff; background-color:#008000;">f</span><span style=" color:#ffffff; background-color:#008000;">rame_left </span><span style=" color:#ffffff;"><br /><br /><br /><br /><br /><br /><br /><br /><br /></span></p></td>
+<td bgcolor="#00ff00">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#ffffff; background-color:#00ff00;">frame_right </span><span style=" color:#ffffff;"><br /><br /><br /><br /><br /><br /><br /><br /><br /></span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если вы удалите границу между фреймами, посетители не смогут изменять размер фрейма в браузере. Вы можете также не допустить изменения размера фрейма, сохранив границы, используя атрибут <span style=" font-weight:600;">noresize</span>:</p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;frame src=&quot;frame_left.html&quot; noresize&gt;</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">С помощью атрибута <span style=" font-weight:600;">bordercolor</span> можно изменить цвет границы фрейма, необходимо только указать код или соответствующее зарезервированное имя цвета.<br />Ниже приведен пример html-страницы, которая содержит описанные выше атрибуты управления границей фрейма: цвет границы — красный, изменять размер верхнего фрейма нельзя: </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Пример: Управление границей фреймов</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="javascript:void(0);"><span style=" text-decoration: underline; color:#0000ff;">Результат</span></a> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="javascript:void(0);"><span style=" text-decoration: underline; color:#0000ff;">HTML-код</span></a> </li></ul>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td colspan="2" bgcolor="#0000ff">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="task2"></a><span style=" color:#ffffff; background-color:#0000ff;">f</span><span style=" color:#ffffff; background-color:#0000ff;">rame_top</span><span style=" color:#ffffff;"><br /><br /><br /><br /><br /><br /></span></p></td></tr>
+<tr>
+<td bgcolor="#008000">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#ffffff; background-color:#008000;">frame_left</span><span style=" color:#ffffff;"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></span></p></td>
+<td bgcolor="#00ff00">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#ffffff; background-color:#00ff00;">frame_right</span><span style=" color:#ffffff;"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если вы хотите расположить страницу, отображаемую внутри фрейма, ближе к его границам, или, наоборот, отодвинуть дальше, измените атрибуты <span style=" font-weight:600;">marginheight</span> и <span style=" font-weight:600;">marginwidth</span> тэга <span style=" font-weight:600;">&lt;frame&gt;</span>. Атрибут <span style=" font-weight:600;">marginheight</span> определяет отступ между содержимым фрейма и его верхней и нижней границами. Синтаксис: </p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;frame marginheight=&quot;число&quot;&gt;</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Атрибут <span style=" font-weight:600;">marginwidth</span> определяет отступ между содержимым фрейма и его правой и левой границами. Синтаксис:</p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;frame marginwidth=&quot;число&quot;&gt;</span> </pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Данная строка html, например, располагает отображаемую страницу вплотную к границе фрейма: </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если страница отображает нежелательную для вас полосу прокрутки, вы можете решить эту проблему, указав атрибут <span style=" font-weight:600;">scrolling</span>=&quot;no&quot; в тэге <span style=" font-weight:600;">&lt;frame&gt;</span>. Но учтите, что если фрейм будет недостаточно большим, чтобы отобразить все содержимое страницы, то у посетителя не будет никакой возможности прокрутить отображаемую страницу.</p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:x-large; font-weight:600;">Ссылки внутри фреймов</span> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Переход по ссылке в обычном HTML-документе осуществляется следующим образом: нажимаете ссылку и текущий документ заменяется новым в текущем либо в новом окне браузера. При использовании фреймов схема загрузки html-документов отличается от обычной и главное отличие — это возможность загружать html-документ в один фрейм из другого фрейма.<br />Для загрузки документа в определенный фрейм используется атрибут <span style=" font-weight:600;">target</span> тега <span style=" font-weight:600;">&lt;a&gt;</span>. В качестве значения атрибута <span style=" font-weight:600;">target</span> используется имя фрейма, в который будет загружаться документ, указанный атрибутом <span style=" font-weight:600;">name</span> тега <span style=" font-weight:600;">&lt;frame&gt;</span>. Стоит также отметить, что имя фрейма должно начинаться либо с цифры либо с латинской буквы. Следующие имена используются в качестве зарезервированных:</p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Имя</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Описание</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_self</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">документ загрузится в текущий фрейм, т.е. в котором находится сама гиперссылка</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_blank</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">документ загрузится в новом окне веб-браузера</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_parent</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">документ загрузится в окне, являющееся родительским по отношению к текущему фрейму</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_top</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">документ загрузится поверх всех фреймов</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">targetframe</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">документ загрузится в фрейм с указанным именем</p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Для внешних ссылок следует задавать в качестве значения для атрибута target либо <span style=" font-family:'Courier New,courier';">_top</span>, либо <span style=" font-family:'Courier New,courier';">_blank</span>, для того, чтобы сторонние проекты отображались не в ваших фреймах, а занимали полное окно браузера.</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В следующем примере изображен HTML-документ, в правый фрейм которого загружается страница по ссылке, помещенной в верхний фрейм. Ссылка на документ, который откроется в правом фрейме:</p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;a href=&quot;</span><a href="http://www.google.com"><span style=" font-family:'Courier New,courier'; text-decoration: underline; color:#0000ff;">http://www.google.com</span></a><span style=" font-family:'Courier New,courier';">&quot; target=&quot;frame_right&quot;&gt;Google&lt;/a&gt;</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Правому фрейму присваивается имя <span style=" font-style:italic;">frame_right</span>:</p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;frame src=&quot;frame_right.html&quot; name=&quot;frame_right&quot;&gt;</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Чтобы документ загружался в указанный фрейм, используется конструкция <span style=" font-style:italic;">target=&quot;frame_right&quot;</span>, как показано в примере:</p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Пример: Ссылка на другой фрейм</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="javascript:void(0);"><span style=" text-decoration: underline; color:#0000ff;">Результат</span></a> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="javascript:void(0);"><span style=" text-decoration: underline; color:#0000ff;">HTML-код</span></a> </li></ul>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td colspan="2" bgcolor="#ffe5b4">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="task3"></a><span style=" background-color:#ffe5b4;">f</span><span style=" background-color:#ffe5b4;">rame_topic</span><br /><br /><a href="http://www.google.com"><span style=" font-weight:600; text-decoration: underline; color:#0000ff;">Google</span></a><br /><br /></p></td></tr>
+<tr>
+<td bgcolor="#008000">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#ffffff; background-color:#008000;">frame_left</span><span style=" color:#ffffff;"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></span></p></td>
+<td bgcolor="#00ff00">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#ffffff; background-color:#00ff00;">frame_right</span><span style=" color:#ffffff;"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></span></p></td></tr></table>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="iframe"></a><span style=" font-size:x-large; font-weight:600;">П</span><span style=" font-size:x-large; font-weight:600;">лавающие фреймы</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Элемент <span style=" font-weight:600;">&lt;iframe&gt;</span> (сокращение английского термина «плавающий фрейм») позволяет встроить в любое место веб-страницы отдельный HTML-документ или другой ресурс. Содержимым плавающего (встроенного) фрейма может быть любая НТМL-страница, как с вашего ресурса, так и с другого веб-сайта. Как вы уже поняли, плавающие фреймы создаются с помощью элемента <span style=" font-weight:600;">&lt;iframe&gt;</span>, который в отличие от тега <span style=" font-weight:600;">&lt;frame&gt;</span> вставляется не между тегами <span style=" font-weight:600;">&lt;frameset&gt;</span> и <span style=" font-weight:600;">&lt;/frameset&gt;</span>, а между тегами <span style=" font-weight:600;">&lt;body&gt;</span> и <span style=" font-weight:600;">&lt;/body&gt;</span>.<br />В элементе <span style=" font-weight:600;">&lt;iframe&gt;</span> можно использовать те же атрибуты, что и для фрейма <span style=" font-weight:600;">&lt;/frame&gt;</span>, за исключением атрибута <span style=" font-weight:600;">noresize</span> — в отличие от обычных фреймов, для встроенных фреймов возможность изменения размеров на экране не предусмотрена:</p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Атрибут</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Описание</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">src</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">используется для указания URL-aдpeca страницы, отображаемой во фрейме</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">height</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">устанавливает высоту окна плавающего фрейма в пикселах или %</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">width</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">устанавливает ширину окна плавающего фрейма в пикселах или %</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">name</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">имя фрейма, по которому к нему можно будет обращаться в ссылках</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">frameborder</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">задает обрамление у фреймов, может принимать значения 1 (есть обрамление) или 0 (нет об-рамления) (<span style=" font-weight:600;">В HTML5 не поддерживается</span>)</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">marginwidth</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">отступ слева и справа от содержания до границы фрейма (<span style=" font-weight:600;">В HTML5 не поддерживается</span>)</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">marginheight</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">отступ сверху и снизу от содержания до границы фрейма (<span style=" font-weight:600;">В HTML5 не поддерживается</span>)</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">scrolling</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">определяет вид полос прокрутки у фрейма и принимает значения yes (есть полосы), no (нет полос) и auto (полосы появляются при необходимости) (<span style=" font-weight:600;">В HTML5 не поддерживается</span>)</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">allowfullscreen</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">разрешает для фрейма полноэкранный режим</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">hspace</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Горизонтальный отступ от фрейма до окружающего контента</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">vspace</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">вертикальный отступ от фрейма до окружающего контента</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">align</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">определяет выравнивание фрейма</p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В следующем примере размеры плавающего фрейма заданы в пикселях, однако вы можете задавать их и в %:</p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;iframe src=&quot;demo_iframe.htm&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;&lt;/iframe&gt;</span></pre>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Пример: Плавающий фрейм</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="javascript:void(0);"><span style=" text-decoration: underline; color:#0000ff;">Результат</span></a> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="javascript:void(0);"><span style=" text-decoration: underline; color:#0000ff;">HTML-код</span></a> </li></ul>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0">
+<tr>
+<td bgcolor="#ffe5b4">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="task4"></a><span style=" background-color:#ffe5b4;">d</span><span style=" background-color:#ffe5b4;">emo_iframe</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">По умолчанию плавающий (строчный) фрейм имеет границы черного цвета. Чтобы удалить границу, вместо атрибута <span style=" font-weight:600;">frameborder</span> воспользуйтесь свойством <span style=" font-weight:600;">border</span> таблицы стилей CSS: </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Пример HTML: </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<hr />
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;iframe src=&quot;demo_iframe.html&quot; width=&quot;200&quot; height=&quot;200&quot; style=&quot;border:none&quot;&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/iframe&gt;</span></pre>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Используя свойства каскадных таблиц стилей CSS Вы можете также изменить размер, стиль и цвет границы встроенного фрейма: </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Пример HTML: </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<hr />
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;iframe src=&quot;demo_iframe.html&quot; style=&quot;border:5px dashed green&quot;&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/iframe&gt;</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В следующем примере при переходе по ссылкам соответствующая страница загружается в окно встроенного фрейма. Для этого требуется задать имя фрейма через атрибут <span style=" font-weight:600;">name</span>, а в теге <span style=" font-weight:600;">&lt;a&gt;</span> указать это же имя в атрибуте <span style=" font-weight:600;">target</span>:</p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Пример HTML: </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<hr />
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;iframe src=&quot;demo_iframe.html&quot; name=&quot;chapter&quot; align=&quot;right&quot; width=&quot;100%&quot; height=&quot;300&quot;&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;p&gt;Ваш Web-браузер не отображает фреймы&lt;/p&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/iframe&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;h2&gt;Оглавление&lt;/h2&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;ul&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;li&gt;&lt;a href=&quot;orange.jpg&quot; target=&quot;chapter&quot;&gt;Апельсин&lt;/a&gt;&lt;/li&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;li&gt;&lt;a href=&quot;rabbit.gif&quot; target=&quot;chapter&quot;&gt;Веселый кролик&lt;/a&gt;&lt;/li&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;li&gt;&lt;a href=&quot;frame_topic.html&quot; target=&quot;chapter&quot;&gt;О GOOLE&lt;/a&gt;&lt;/li&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/ul&gt;</span> </pre>
+<hr />
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:x-large; font-weight:600;">Задачи</span></p>
+<hr />
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-size:large; font-weight:600;" style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:large;">Загрузка картинки в окно фрейма</span></li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;">Сделайте так, чтобы при клике по ссылке изображение &quot;smiley.jpg&quot; загружалось в окно фрейма. </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-size:large; font-weight:600;">Задача HTML: </span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style="" style="-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></li></ul>
+<hr />
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;!DOCTYPE html&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;html&gt;<br />&lt;head&gt;<br />&lt;meta charset=&quot;UTF-8&quot;&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;title&gt;Загрузка изображения во фрейм&lt;/title&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/head&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Courier New,courier';"> &lt;body&gt;  </span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Courier New,courier';">   &lt;iframe src=&quot;demo_iframe.html&quot; name=&quot;iframe1&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Courier New,courier';">   &lt;/iframe&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Courier New,courier';">   &lt;a href=&quot;#&quot;&gt;Смайлик&lt;/a&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Courier New,courier';"> &lt;/body&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Courier New,courier';">&lt;/html&gt;</span> </pre>
+<hr />
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<hr />
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://wm-school.ru/html/html_classes.html"><span style=" text-decoration: underline; color:#0000ff;">HTML ID и CLASS</span></a></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://wm-school.ru/html/html_layouts.html"><span style=" text-decoration: underline; color:#0000ff;">HTML Макеты </span></a></p>
+<hr /></body></html>
