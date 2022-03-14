@@ -1,0 +1,391 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">FSTAB редактирование</p>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="блочное_устройство"></a><span style=" font-size:large; font-weight:600;">Б</span><span style=" font-size:large; font-weight:600;">лочное устройство</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">То, что нужно смонтировать. Это может быть файл-образ, раздел диска или диск целиком. С файлами-образами всё вполне очевидно — нужно указать путь к файлу. С дисками и их разделами интереснее. Они числятся в системе как, например, /dev/sda (диск целиком) или /dev/hdc1 (раздел диска), но монтировать разделы встроенного диска стоит по UUID. Это позволит правильно монтировать разделы даже если они поменяют свой порядок, например, при добавлении новых разделов или подключении новых дисков. Например, добавление раздела перед /dev/sda6 может превратить его в /dev/sda7. А добавление нового диска может превратить /dev/sdb в /dev/sdc, соответственно раздел /dev/sdb1 станет /dev/sdc1. Но во всех приведенных примерах UUID раздела не изменится. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">id</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Узнать UUID раздела можно из вывода команды </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier'; font-size:16pt; font-weight:600;">blkid</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если uuid, тип файловой системы и точки монтирования мы знаем, то с опциями монтирования - сложнее. К счастью, тут можно схитрить<a name="fnt__8"></a><a href="https://help.ubuntu.ru/wiki/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_lubuntu_desktop_14_04/%D0%BC%D0%BE%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B8_fstab#fn__8"><span style=" text-decoration: underline; color:#0000ff; vertical-align:super;">8</span></a><span style=" text-decoration: underline; color:#0000ff; vertical-align:super;">)</span>. Дело в том, что записи о всех смонтированных дисках попадают в специальный файл<span style=" font-size:16pt; font-weight:600;"> </span><span style=" font-family:'Courier New,courier'; font-size:16pt; font-weight:600;">/etc/mtab</span>, а формат записей этого файла ровно такой же, как и у <span style=" font-family:'Courier New,courier';">/etc/fstab</span>. Поэтому если вам надо добавить запись для какого-то раздела винчестера в <span style=" font-family:'Courier New,courier';">fstab</span> просто зайдите на него через в Nautilus, при этом он автоматически смонтируется в подкаталог <span style=" font-family:'Courier New,courier';">/media</span> и следовательно запись о нём появится в <span style=" font-family:'Courier New,courier';">mtab</span>. Теперь откройте <span style=" font-family:'Courier New,courier';">mtab</span>, найдите нужную строчку (тут уже диски именуются обычным способом) и скопируйте её в <span style=" font-family:'Courier New,courier';">fstab</span>, заменив имя диска на его <span style=" font-family:'Courier New,courier';">uuid</span> и точку монтирования на желаемую. Кроме того, если в качестве ФС в <span style=" font-family:'Courier New,courier';">mtab</span> записано <span style=" font-family:'Courier New,courier';">fuseblk</span>, то при копировании необходимо подставить вместо этого значения имя своей файловой системы. Если вы не знаете, как правильно должна называться ваша ФС в <span style=" font-family:'Courier New,courier';">fstab</span>, то поищите информацию на эту тему в интернете. И если вы не наделаете ошибок при замене, то при следующей загрузке диск смонтируется туда, куда вы указали. Более подробно про опции монтирования можно узнать из <a href="https://help.ubuntu.ru/wiki/fstab#опции_файловых_систем"><span style=" text-decoration: underline; color:#0000ff;">статьи</span></a> на нашей Wiki. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">===============================</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="__main-title"></a><span style=" font-size:xx-large; font-weight:600;">Ф</span><span style=" font-size:xx-large; font-weight:600;">айл fstab</span> </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="dw__toc"></a><span style=" font-size:large; font-weight:600;">С</span><span style=" font-size:large; font-weight:600;">одержание</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style="" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/fstab#файл_fstab"><span style=" text-decoration: underline; color:#0000ff;">Файл fstab</span></a></li></ul>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/fstab#пример_файла_fstab"><span style=" text-decoration: underline; color:#0000ff;">Пример файла fstab</span></a></li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;"><li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/fstab#блочное_устройство"><span style=" text-decoration: underline; color:#0000ff;">Блочное устройство</span></a></li>
+<li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/fstab#точка_монтирования"><span style=" text-decoration: underline; color:#0000ff;">Точка монтирования</span></a></li>
+<li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/fstab#файловая_система"><span style=" text-decoration: underline; color:#0000ff;">Файловая система</span></a></li></ul>
+<li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/fstab#опции_файловых_систем"><span style=" text-decoration: underline; color:#0000ff;">Опции файловых систем</span></a></li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;"><li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/fstab#ntfs"><span style=" text-decoration: underline; color:#0000ff;">NTFS</span></a></li>
+<li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/fstab#fat_32"><span style=" text-decoration: underline; color:#0000ff;">FAT 32</span></a></li>
+<li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/fstab#btrfs"><span style=" text-decoration: underline; color:#0000ff;">btrfs</span></a></li></ul>
+<li style="" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/fstab#ссылки"><span style=" text-decoration: underline; color:#0000ff;">Ссылки</span></a> </li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Файл <span style=" font-weight:600;">fstab</span> - это текстовый файл, который содержит информацию о различных файловых системах и устройствах хранения информации в вашем компьютере. Это всего лишь один файл, определяющий, как диск и/или раздел будут использоваться и как будут встроены в остальную систему. Полный путь к файлу - <span style=" font-weight:600;">/etc/fstab</span>. Этот файл можно открыть в любом текстовом редакторе, но редактировать его возможно только от имени <a href="https://help.ubuntu.ru/wiki/%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_%D0%B2_ubuntu"><span style=" text-decoration: underline; color:#0000ff;">суперпользователя</span></a>, т.к. файл является важной, неотъемлемой частью системы, без него система не загрузится. </p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Открыть файл fstab для редактирования, например в текстовом редакторе <a href="https://help.ubuntu.ru/wiki/gedit"><span style=" text-decoration: underline; color:#0000ff;">gedit</span></a>, вы можете набрав команду в <a href="https://help.ubuntu.ru/wiki/%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB"><span style=" text-decoration: underline; color:#0000ff;">терминале</span></a>: </li></ul>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">sudo gedit /etc/fstab</span></pre>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Предварительно рекомендуется создать резервную копию: </li></ul>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">sudo cp /etc/fstab /etc/fstab_backup</span> </pre>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="пример_файла_fstab"></a><span style=" font-size:x-large; font-weight:600;">П</span><span style=" font-size:x-large; font-weight:600;">ример файла fstab</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Пример файла fstab c примонтированными Windows-дисками sda3 (С:) и sda4 (D:): </li></ul>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';"># &lt;file system&gt; &lt;mount point&gt;   &lt;type&gt;  &lt;options&gt;       &lt;dump&gt;  &lt;pass&gt;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">proc            /proc           proc    defaults        0       0</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';"># / was on /dev/sda1 during installation</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">UUID=7211313d-8b5e-4b96-be63-5dbbeb97f590 /               ext4    errors=remount-ro 0       1</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';"># swap was on /dev/sda2 during installation</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">UUID=8ef72438-830b-485f-8de5-b0f6242eff91 none            swap    sw              0       0</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';"># Windows disc (FAT32) C:\</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">/dev/sda3 /media/D642D91542D8FAE7 vfat shortname=mixed,codepage=850,umask=002,uid=1000,gid=100,noauto,user 0 0</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';"># Windows disc (NTFS) D:\</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">/dev/sda4 /media/BA1AF3B41AF36C2F ntfs-3g rw,nosuid,nodev,allow_other,default_permissions,blksize=4096 0 0</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">#/dev/sdb1</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">UUID=54AE4096AE407292           /mnt/backup     ntfs-3g         defaults,windows_names,locale=en_US.utf8 0 0</span> </pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Строки файла содержат следующие поля: </p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Что монтируем — некоторое <span style=" font-weight:600;">блочное устройство</span>, которое должно быть <a href="https://help.ubuntu.ru/wiki/%D0%BC%D0%BE%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%BE%D0%B2"><span style=" text-decoration: underline; color:#0000ff;">примонтировано</span></a> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Куда монтируем — <span style=" font-weight:600;">точка монтирования</span> - путь в корневой файловой системе к каталогу в который будет смонтировано устройство </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Тип <span style=" font-weight:600;">файловой системы</span> монтируемого раздела </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Опции монтирования файловой системы </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Индикатор необходимости делать резервную копию (как правило не используется и равно 0) </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Порядок проверки раздела (0- не проверять, 1 - устанавливается для корня, 2 - для остальных разделов). </li></ul>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Поля в файле fstab отделяются друг от друга пробелами или знаками табуляция (произвольным количеством - любой набор пробелов и табуляций считается просто разделителем между двумя полями). Значения в списке опций разделяются запятыми <span style=" font-weight:600;">без пробелов</span>. Если опций нет, то указывается специальная опция defaults (указывать defaults вместе с другими опциями не нужно). Строки, начинающиеся с символа #, являются комментариями. Пустые строки игнорируются. В конце файла требуется одна пустая строка. </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="блочное_устройство"></a><span style=" font-size:large; font-weight:600;">Б</span><span style=" font-size:large; font-weight:600;">лочное устройство</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">То, что нужно смонтировать. Это может быть файл-образ, раздел диска или диск целиком. С файлами-образами всё вполне очевидно — нужно указать путь к файлу. С дисками и их разделами интереснее. Они числятся в системе как, например, /dev/sda (диск целиком) или /dev/hdc1 (раздел диска), но монтировать разделы встроенного диска стоит по UUID. Это позволит правильно монтировать разделы даже если они поменяют свой порядок, например, при добавлении новых разделов или подключении новых дисков. Например, добавление раздела перед /dev/sda6 может превратить его в /dev/sda7. А добавление нового диска может превратить /dev/sdb в /dev/sdc, соответственно раздел /dev/sdb1 станет /dev/sdc1. Но во всех приведенных примерах UUID раздела не изменится. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Узнать UUID раздела можно из вывода команды </p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">blkid</span> </pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Кроме UUID монтировать можно еще и по другим адресам устройств, вот они: </p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">ls -Rhal /dev/disk/by-*</span> </pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Эти адреса являются ссылками на те же /dev/sd*. </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Для флешки (если вы хотите прописать ее монтирование в fstab, а не пользоваться автоматическим монтированием) удобнее использовать адрес из <span style=" font-family:'Courier New,courier';">by-id</span> (название), для iSCSI-тома — <span style=" font-family:'Courier New,courier';">by-path</span> (используется сетевой адрес и название «цели»). </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="точка_монтирования"></a><span style=" font-size:large; font-weight:600;">Т</span><span style=" font-size:large; font-weight:600;">очка монтирования</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Каталог, в который монтируется файловая система, к примеру /media/disc. Крайне желательно, чтобы он был пустым. Монтировать в непустой каталог тоже можно, но при этом вы заблокируете доступ ко всему содержимому каталога, ведь после монтирование содержимым каталога будет содержимое той файловой системы что была смонтирована. </p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="файловая_система"></a><span style=" font-size:large; font-weight:600;">Ф</span><span style=" font-size:large; font-weight:600;">айловая система</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Обычно что-то из следующего: </p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/ext4"><span style=" text-decoration: underline; color:#0000ff;">ext4</span></a> </li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/swap"><span style=" text-decoration: underline; color:#0000ff;">swap</span></a> (раздел подкачки)</li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="https://help.ubuntu.ru/wiki/btrfs"><span style=" text-decoration: underline; color:#0000ff;">btrfs</span></a> (B-tree file system),</li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="http://ru.wikipedia.org/wiki/XFS"><span style=" text-decoration: underline; color:#0000ff;">xfs</span></a></li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">jfs</li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ext3</li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ext2</li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">hfsplus (Apple HFS)</li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ntfs-3g (Microsoft NTFS)</li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">vfat (Microsoft FAT16, FAT32)</li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">iso9660 (CD/DVD диски)</li>
+<li style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">udf (съёмные носители).</li></ul>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Примеры монтирования разделов рассмотрены в соответствующей <a href="https://help.ubuntu.ru/wiki/%D0%BC%D0%BE%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%BE%D0%B2"><span style=" text-decoration: underline; color:#0000ff;">статье</span></a> </p>
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="опции_файловых_систем"></a><span style=" font-size:x-large; font-weight:600;">О</span><span style=" font-size:x-large; font-weight:600;">пции файловых систем</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-style:italic;">(указываются через запятую, без пробелов)</span> <span style=" font-weight:600;">:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Опции</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Описание</span></p></td></tr>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Общие</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Могут применяться к любой файловой системе (но не все файловые системы на самом деле поддерживают их) - например, опция sync сегодня имеет силу только для ext2, ext3, fat, vfat и ufs</span></p></td></tr></thead>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">sync / async</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Все операции ввода / вывода файловой системы должны выполняться синхронно/асинхронно.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">atime</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Производить запись времени последнего доступа к файлу. Значение по умолчанию.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">noatime</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Не обновлять время доступа к файлу (например, для быстрого доступа к новостным потокам, для ускорения серверов новостей).</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">relatime</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Обновлять время доступа только при изменении файла или изменении времени доступа. (В отличие от noatime, необходимая опция для нормальной работы, например, почтовых клиентов или других приложений, которым необходимо точное время последнего изменения файлов)</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">norelatime</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Не включать функцию relatime (например, для систем, в которых эта функция включена по умолчанию, для более подробной информации см. параметры монтирования в /proc/mounts).</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">strictatime</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Обновление времени доступа к структуре данных при изменении файлов. Отключает noatime и relatime.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">nostrictatime</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Обновлять время доступа к структуре данных, в соответствии с настройками ядра по умолчанию.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">auto / noauto</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">При auto устройство будет устанавливаться автоматически при загрузке, или по команде <a href="https://help.ubuntu.ru/wiki/mount"><span style=" text-decoration: underline; color:#0000ff;">mount</span></a>. auto является вариантом по умолчанию. Если вы не хотите, чтобы устройство устанавливалось автоматически, используйте параметр noauto. </p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">context=<br />fscontext=<br />defcontext=<br />rootcontext=</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Эти опции полезны при монтировании файловой систем, которые не поддерживают дополнительные атрибуты, такие как дискеты или жесткие диски отформатирован в VFAT, или файловые системы, которые обычно не работает под SELinux (например ext3 диск отформатированный на не-SELinux рабочей станции). Вы можете также использовать *context= для файловых систем которым вы не доверяете, например на дискетах или флешках. Более подробно о контексте можно узнать прочитав о SELinux. </p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">defaults</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Использовать настройки по умолчанию. Эквивалентно: rw,suid,dev,exec,auto,nouser,async.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">dev / nodev</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Интерпретировать/не интерпретировать блок специальных устройств на файловой системе.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">diratime / nodiratime</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Обновлять/не обновлять время доступа к каталогу структуры данных. По умолчанию установлено diratime</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">dirsync</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Изменения каталогов в файловой системе выполняются синхронно. Это относится к следующим системным командам: creat, link, unlink, symlink, mkdir, rmdir, mknod и rename.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">exec / noexec</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">exec позволяет выполнять двоичные файлы, которые находятся на этом раздел, в то время как noexec не позволяет этого делать. noexec может быть полезно для раздела, который не содержит бинарные файлы например /<a href="https://help.ubuntu.ru/wiki/var"><span style=" text-decoration: underline; color:#0000ff;">var</span></a>, или содержит бинарные файлы которые вы не хотите выполнять на вашей системе, или которые не могут быть выполнены в вашей системе. Последнее может быть в случае Windows раздела.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">group</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Разрешает обычным (т.е. не root) пользователям монтировать файловую систему, если одна из его групп совпадает с группой устройства. Эта опция подразумевает наличие опций nosuid и nodev (за исключением случаев, когда пересекается с последующими опциями, такими как group,dev,suid).</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">encryption</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Определяет используемый алгоритм шифрования. Используется в сочетании с опцией loop.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">keybits</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Определяет размер ключа для используемого алгоритма шифрования. Используется в сочетании с loop и encryption.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">nofail</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В случае отсутствия устройства не сообщать об ошибке.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">iversion</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Номер версии структуры данных увеличивается каждый раз, когда структура данных изменяется.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">noiversion</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Номер версии структуры данных не увеличивается при изменении структуры данных.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">mand</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Разрешает принудительное блокирование файловой системы.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">nomand</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Не разрешает принудительное блокирование файловой системы.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">_netdev</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Используется для предотвращения попыток смонтировать файловые системы, подключённые к сети.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">suid / nosuid</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Разрешает использование битовых идентификаторов пользователей или групп / Запрещает использование битовых идентификаторов пользователей или групп. (Это достаточно небезопасно, особенно, если установлен suidperl).</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">owner</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Разрешает обычному (т.е. не root) пользователю монтировать файловую систему, если он является владельцем устройства. Эта опция подразумевает параметры nosuid и nodev (за исключением случаев, когда пересекается с последующими опциями, такими как owner, suid и dev).</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ro</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Монтировать только для чтения.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">rw</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Монтирование файловой системы для чтения и записи.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">user / nouser</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">user - разрешает монтирование от лица обычного пользователя, по умолчанию это имеет право сделать только <a href="https://help.ubuntu.ru/wiki/root"><span style=" text-decoration: underline; color:#0000ff;">root</span></a>. nouser — соответсвенно запрещает (является параметром по умолчанию).</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">users</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Разрешает монтирование от лица любого пользователя. Эта опция подразумевает параметры nosuid, noexec и nodev (за исключением случаев, когда пересекается с последующими опциями, такими как users, exec, owner, suid и dev).</p></td></tr></table>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="ntfs"></a><span style=" font-size:large; font-weight:600;">N</span><span style=" font-size:large; font-weight:600;">TFS</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td colspan="2">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Опции для файловой системы Microsoft NTFS</span></p></td></tr></thead>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">nls=utf8</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Включение поддержки <a href="https://help.ubuntu.ru/wiki/utf-8"><span style=" text-decoration: underline; color:#0000ff;">utf-8</span></a>. Поддержка «нестандартных» символов (кирилицы) в файловой системе.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">codepage=866</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Включаем поддержку кириллицы в названия файлов папок для MS-DOS/fat32 разделов. <a href="http://msdn.microsoft.com/en-us/library/cc195074.aspx"><span style=" text-decoration: underline; color:#0000ff;">Подробнее</span></a>.</p></td></tr></table>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="fat_32"></a><span style=" font-size:large; font-weight:600;">F</span><span style=" font-size:large; font-weight:600;">AT 32</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td colspan="2">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Опции для файловой системы Microsoft FAT</span></p></td></tr></thead>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">utf8</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Включение поддержки <a href="https://help.ubuntu.ru/wiki/utf-8"><span style=" text-decoration: underline; color:#0000ff;">utf-8</span></a>. Поддержка «нестандартных» символов (кирилицы) в файловой системе.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">codepage=866</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Включаем поддержку кириллицы в названия файлов папок для MS-DOS/fat32 разделов. <a href="http://msdn.microsoft.com/en-us/library/cc195074.aspx"><span style=" text-decoration: underline; color:#0000ff;">Подробнее</span></a>.</p></td></tr></table>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="btrfs"></a><span style=" font-size:large; font-weight:600;">b</span><span style=" font-size:large; font-weight:600;">trfs</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Все опции ради совместимости и отсутствия проблем применяются c ядром 3.0+ </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td colspan="2">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Опции для файловой системы btrfs</span></p></td></tr></thead>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">subvol=subvolume_name</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Монтирует корень указанного подраздела subvolume_name, где subvolume_name - путь к нему в корне btrfs.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">autodefrag</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Дефрагментация на «лету», не применять для SSD</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">noacl</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Отключить контроль доступа к файлам (права)</p></td></tr>
+<tr>
+<td colspan="2">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">compression</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">compress=zlib</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Включение прозрачного сжатия с алгоритмом gzip (медленнее lzo, но лучше сжимает)</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">compress=lzo</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Включает алгоритм прозрачного сжатия lzo (быстрее gzip, немного хуже сжимает) <a href="http://www.phoronix.com/scan.php?page=article&amp;item=btrfs_lzo_2638&amp;num=2"><span style=" text-decoration: underline; color:#0000ff;">Btrfs LZO Compression Performance</span></a>.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">compress=no</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Без компрессии с версии ядра 3.6</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">compress-force=…</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Применяется аналогично compress, опция force позволяет выполнять компрессию файлов, которые обычно имеют низкий коэффициент сжатия (таких, как сжатые аудио или видео форматы).</p></td></tr>
+<tr>
+<td colspan="2">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">cache</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">inode_cache</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">(&gt;3,0) Включить кэширование inode. Эта опция может замедлить работу системы при первом запуске.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">space_cache</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Кэширование данных о свободных блоках, чтобы не искать их перед записью</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">clear_cache</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">(&gt;2.6.37) Очищает весь кеш свободного места, после монтирования. Это безопасная опция, но вызывает пересоздание кеша.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">nospace_cache</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">(&gt;3.2) выключает space_cache</p></td></tr>
+<tr>
+<td colspan="2">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">другие </span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">skip_balance</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">(&gt;3.3)Пропускает автоматическую балансировку после монтирования или неправильного выключения.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">nodatasum</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Не высчитывать хэш-сумму, для новых файлов. Некоторый мусор и ошибки могут быть не замечены, но позволяет ускорить работу с FS. На большинстве современных CPU не даст ощутимого прироста к производительности.</p></td></tr>
+<tr>
+<td colspan="2">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">SSD</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ssd</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Включает некоторые оптимизации для SSD в Btrfs. Минимизируется количество записей, отключается последовательная запись файлов. Эта опция включается автоматически, если вращение диска = 0. Не влечет за собой включения параметров TRIM/discard.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ssd_spread</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Монтирование с -o ssd_spread вынуждает драйвер использовать для записи преимущественно не занятые области жёсткого диска, что специально вызывает сильную фрагментацию. Может значительно ускорить недорогие SSD.</p></td></tr>
+<tr>
+<td colspan="2">
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">recovery and debug</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">recovery</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">(&gt;3.2)Включает автовосстановление после монтирования, на данный момент сканирует старые списки корней и деревьев, которые можно прочесть. Информация о корнях деревьев сохраняется с версии ядра &gt; 3.2, старые ядра не смогут использовать режим восстановления. <span style=" font-style:italic;">Практика показала что оно работает, но нужно иметь снимки файловой системы и оно просто вытаскивает списки корней и деревьев из снимков если таковые имеются</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">degraded</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Используйте это, если у вас есть несколько устройств в объеме Btrfs (одна из RAID конфигураций или несколько дисков в Single или DUP режиме) и одно из них не монтируется. Это позволит вам по-прежнему монтировать файловую систему, даже если неисправное устройство выдаёт ошибки.</p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">enospc_debug</p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Используйте, если столкнулись с ошибкой «Не хватает места»</p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Актуально для выбора алгоритма сжатия (смотрите как соотносятся реализованные в BTRFS LZO и zlib) Один поток, Core 2 Duo 3GHz </p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">Name            Ratio   C.speed D.speed</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">LZ4 (r59)       2.084   330      915</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">LZO 2.05 1x_1   2.038   311      480</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">QuickLZ 1.5 -1  2.233   257      277</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">Snappy 1.0.5    2.024   227      729</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">LZF             2.076   197      465</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">FastLZ          2.030   190      420</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">zlib 1.2.5 -1   2.728    39      195</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">LZ4 HC (r66)    2.712    18     1020</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Courier New,courier';">zlib 1.2.5 -6   3.095    14      210</span></pre>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
