@@ -270,6 +270,7 @@
      <record id="1646674547zexvt8ngd4" name="Распаковка tar tar.bz2, tar.bzip2, tbz2, tb2, tbz" author="alensav" url="https://pingvinus.ru/note/tar-extract" tags="Распаковка ta,r tar.bz2, tar.bzip2, tbz2, tb2, tbz" ctime="20220307203547" dir="16466745479t34p18qzu" file="text.html"/>
      <record id="1647368244dpof8nglj2" name="ssh доступ" author="alensav" url="https://webhamster.ru/mytetrashare/index/mtb339/1523442204bu27t1w1ol" tags="ssh доступ" ctime="20220315211724" dir="1647368244sxo40sq8ty" file="text.html"/>
      <record id="16474546674myjditrho" name="Как сгенерировать SSH-ключ ed25519" author="" url="https://www-unixtutorial-org.translate.goog/how-to-generate-ed25519-ssh-key/?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="Как сгенерировать SSH-ключ ed25519" ctime="20220316211747" dir="1647454667npc3yms9yi" file="text.html"/>
+     <record id="1647540625fqxu7g06tx" name="Построение сетей в LXC" author="alensav" url="http://onreader.mdl.ru/ContainerizationWithLXC/content/Ch05.html" tags="Построение сети  LXC" ctime="20220317211025" dir="1647540625w9guv9xvnj" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
