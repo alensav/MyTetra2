@@ -1,0 +1,10 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="yandex_rtb_R-A-440036-1"></a><a href="https://krayny.ru/linux/zametki/746-ne-rabotaet-ili-ne-otkryvaetsya-phpmyadmin-v-ubuntu-po-http-localhost-phpmyadmin.html"><span style=" font-size:x-large; font-weight:600; text-decoration: underline; color:#0000ff;">Н</span></a><span style=" font-size:x-large; font-weight:600; text-decoration: underline; color:#0000ff;">е работает или не открывается phpmyadmin в Ubuntu по http://localhost/phpmyadmin/ </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Если через <a href="http://localhost/phpmyadmin/"><span style=" text-decoration: underline; color:#0000ff;">http://localhost/phpmyadmin/</span></a> не открывается, добавьте в файл</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">/etc/apache2/apache2.conf строку</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Include /etc/phpmyadmin/apache.conf после чего перезапустите апач</p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> </p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">/etc/init.d/apache2 restartИ будет Вам счастье.</p></body></html>
