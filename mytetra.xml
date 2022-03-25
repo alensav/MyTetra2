@@ -339,6 +339,7 @@
     <node crypt="" id="1574621135zc2440qb8g" name="YANDEX_HELP">
      <recordtable>
       <record id="15746212108emf60jhy7" name="Yandex_help" author="alensav" url="" tags="disk, помощь" ctime="20191124214650" dir="157462121004x4k3w8kb" file="text.html"/>
+      <record id="164814659985lgwnb93c" name="yandex gui" author="alensav" url="https://prostolinux.ru/yandeks-disk-v-linux/" tags="yandex gui" ctime="20220324212959" dir="1648146599jjbdt52018" file="text.html"/>
      </recordtable>
     </node>
     <node crypt="" id="1574784296fntcpzct5l" name="KDirStat">
