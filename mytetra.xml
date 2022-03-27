@@ -272,6 +272,7 @@
      <record id="16474546674myjditrho" name="Как сгенерировать SSH-ключ ed25519" author="" url="https://www-unixtutorial-org.translate.goog/how-to-generate-ed25519-ssh-key/?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="Как сгенерировать SSH-ключ ed25519" ctime="20220316211747" dir="1647454667npc3yms9yi" file="text.html"/>
      <record id="1647540625fqxu7g06tx" name="Построение сетей в LXC" author="alensav" url="http://onreader.mdl.ru/ContainerizationWithLXC/content/Ch05.html" tags="Построение сети  LXC" ctime="20220317211025" dir="1647540625w9guv9xvnj" file="text.html"/>
      <record id="16482234390qnlm4c1wc" name="Syncthing – удобное средство передачи файлов" author="alensav" url="https://fornote.net/2021/11/syncthing-udobnoe-sredstvo-peredachi-fajlov/" tags="Syncthing – удобное средство передачи файлов" ctime="20220325185039" dir="16482234398jrovmz56c" file="text.html"/>
+     <record id="1648370091o6ex97y6r6" name="Как настроить внешнюю сеть для контейнеров в Linux (LXC) " author="alensav" url="https://itisgood.ru/2019/06/28/kak-nastroit-vneshnjuju-set-dlja-kontejnerov-v-linux-lxc/" tags="Как настроить внешнюю сеть для контейнеров в Linux (LXC) " ctime="20220327113451" dir="1648370091wofxgjvii6" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
