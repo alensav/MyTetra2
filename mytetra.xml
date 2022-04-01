@@ -273,6 +273,8 @@
      <record id="1647540625fqxu7g06tx" name="Построение сетей в LXC" author="alensav" url="http://onreader.mdl.ru/ContainerizationWithLXC/content/Ch05.html" tags="Построение сети  LXC" ctime="20220317211025" dir="1647540625w9guv9xvnj" file="text.html"/>
      <record id="16482234390qnlm4c1wc" name="Syncthing – удобное средство передачи файлов" author="alensav" url="https://fornote.net/2021/11/syncthing-udobnoe-sredstvo-peredachi-fajlov/" tags="Syncthing – удобное средство передачи файлов" ctime="20220325185039" dir="16482234398jrovmz56c" file="text.html"/>
      <record id="1648370091o6ex97y6r6" name="Как настроить внешнюю сеть для контейнеров в Linux (LXC) " author="alensav" url="https://itisgood.ru/2019/06/28/kak-nastroit-vneshnjuju-set-dlja-kontejnerov-v-linux-lxc/" tags="Как настроить внешнюю сеть для контейнеров в Linux (LXC) " ctime="20220327113451" dir="1648370091wofxgjvii6" file="text.html"/>
+     <record id="16487429859ax9h9kr9k" name="Ваш первый LXD контейнер" author="alensav" url="http://vasilisc.com/lxd-2-0-your-first-lxd-container" tags="Ваш первый LXD контейнер" ctime="20220331190945" dir="1648742985rczskvvd2t" file="text.html"/>
+     <record id="1648743307qxfzyarvpv" name="LXD" author="alensav" url="http://vasilisc.com/lxd-2-0-series" tags="LXD" ctime="20220331191507" dir="1648743307c0z116rlpx" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
