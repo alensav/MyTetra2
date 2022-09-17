@@ -1559,5 +1559,10 @@
     <record id="1644303884uv44an08rs" name="UkM1U0lNUAPKdfKUwROiUQMgUPwiha0562eYvDl1tZHgpWnOuq1WFxaWUGNp/hj4WmqWmnvGNuUn27wz6GyUQQ==" author="UkM1U0lNUAMBGTp9sQTyo5ro+0NGOtEFtbkZCq/OCZ430hanPhI0W5nrCNTCyHoQ" url="" tags="UkM1U0lNUANbMtKyMmW0S6cTixLW2Pa2561fcbT/A0JUS0fqvctKndo7sEQiKBrZTmkCI7GofL9FSL9A91Hvow==" ctime="20220208100444" dir="1644303884rimiykikzk" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="16634373315g637g1akk" name="TEXLIVE">
+   <recordtable>
+    <record id="1663437395ubrwmvgcjd" name="Руководство пользователя TeX Live — 2021 &#10;" author="alensav" url="https://tug.org/texlive/doc/texlive-ru/texlive-ru.html" tags="Руководство пользователя TeX Live — 2021 &#10;" ctime="20220917205635" dir="16634373952u6j66gv6y" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
