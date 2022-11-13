@@ -1574,5 +1574,10 @@
     <record id="1663953543moflv4rpp7" name="Moneyspire for Linux 16.0.44" author="alensav" url="https://www.audit-it.ru/software/homebuh/854719.html" tags="Moneyspire for Linux 16.0.44" ctime="20220923201903" dir="1663953543p0hjxu4050" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="16683334559g9hzeegk2" name="Simple_LINUX">
+   <recordtable>
+    <record id="16683341958rqxcvuf5z" name="Российская ОС Simply Linux" author="alensav" url="https://habr.com/ru/news/t/657369/" tags="Российская ОС Simply Linux" ctime="20221113130955" dir="1668334195luzkougow1" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
