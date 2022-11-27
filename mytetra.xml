@@ -1580,6 +1580,10 @@
     <record id="1668614233zzs6xpwxpr" name="Руководство пользователя&#10;Simple Linux" author="alensav" url="https://docs.altlinux.org/ru-RU/alt-simply/10.1/html/alt-simply/index.html" tags="Руководство пользователя&#10;Simple Linux" ctime="20221116185713" dir="1668614233702bgnrnv2" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1669404945vs435ksn5q" name="VNC_Simple_LINUX"/>
+  <node crypt="" id="1669404945vs435ksn5q" name="VNC_Simple_LINUX">
+   <recordtable>
+    <record id="1669405096iu8u310ty3" name="VNC &#10;Содержание" author="alensav" url="https://www.altlinux.org/VNC" tags="VNC &#10;Содержание" ctime="20221125223816" dir="1669405096gw3uudpi3r" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
