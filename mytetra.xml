@@ -1585,5 +1585,10 @@
     <record id="1669405096iu8u310ty3" name="VNC &#10;Содержание" author="alensav" url="https://www.altlinux.org/VNC" tags="VNC &#10;Содержание" ctime="20221125223816" dir="1669405096gw3uudpi3r" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1669716437zuljie9clm" name="MiniDLNA">
+   <recordtable>
+    <record id="1669716483qaqn09bzsd" name="Как установить и настроить DLNA miniDLNA Server в Linux&#10;" author="alensav" url="https://itigic.com/ru/install-and-configure-dlna-minidlna-server-on-linux/" tags="Как установить и настроить DLNA miniDLNA Server в Linux&#10;" ctime="20221129130803" dir="16697164831s7mechvsk" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
