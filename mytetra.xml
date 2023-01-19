@@ -1590,5 +1590,14 @@
     <record id="1669716483qaqn09bzsd" name="Как установить и настроить DLNA miniDLNA Server в Linux&#10;" author="alensav" url="https://itigic.com/ru/install-and-configure-dlna-minidlna-server-on-linux/" tags="Как установить и настроить DLNA miniDLNA Server в Linux&#10;" ctime="20221129130803" dir="16697164831s7mechvsk" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1674034523se2jgsv4c9" name="ARDUINO">
+   <recordtable>
+    <record id="16740347401ycbgpqm0m" name="Arduini _ESP" author="alensav" url="http://studenthelp.ucoz.ru/publ/arduino_dlja_chajnikov/esp8266_opisanie_podkljuchenie_rabota_i_t_d/esp8266-esp-12e-uart-wireless-wifi-shield-pervoe-znakomstvo-i-ustranenie-bagov/5-1-0-9" tags="arduino esp" ctime="20230118123900" dir="1674034740f5k7goj6vt" file="text.html"/>
+    <record id="1674035441df2wciuf96" name="Как у меня заработал WIFI для Arduino ESP8266 ESP-12E" author="alensav" url="https://fil-tec.ru/page/arduino-uno-esp8266-esp-12e" tags="  Arduino ESP8266 ESP-12E" ctime="20230118125041" dir="16740354415lqz5j31fb" file="text.html"/>
+    <record id="1674036143b1a2ta3ndt" name="ESP8266" author="alensav" url="https://fineshang.gitbooks.io/esp8266-based-serial-wifi-shield-for-arduino-user/content/" tags="esp8266" ctime="20230118130223" dir="16740361435yt7u6651f" file="text.html"/>
+    <record id="1674055119bcihcrvy51" name="HMI - Human-machine interface" author="alensav" url="https://3d-diy.ru/wiki/arduino-displei/sensornye-hmi-displei-dwin/" tags="HMI - Human-machine interface" ctime="20230118181839" dir="1674055119h7bdw61nwt" file="text.html"/>
+    <record id="1674057842kccthn0n6a" name="Arduino Mega 2560: расиновка,&#10; схема подключения и&#10; программирование" author="alensav" url="http://wiki.amperka.ru/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B:arduino-mega-2560" tags="Arduino Mega 2560: расиновка,&#10; схема подключения и&#10; программирование" ctime="20230118190402" dir="16740578422g9wzrjgq6" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
