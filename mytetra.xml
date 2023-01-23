@@ -1600,5 +1600,10 @@
     <record id="1674196469c7rzkzq3c8" name="Подключаем дисплей DWIN к ARDUINO по&#10; rs232." author="alensav" url="https://arduino-tex.ru/news/154/podklyuchaem-displei-dwin-k-arduino-po-rs232.html" tags="Подключаем дисплей DWIN к ARDUINO по&#10; rs232." ctime="20230120093429" dir="1674196469n6vaita9m1" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1674502662njx6i4m9j3" name="MQTT">
+   <recordtable>
+    <record id="16745027482aqg0g1y76" name="Настройка брокера MQTT" author="alensav" url="https://connect.smartliving.ru/profile/1502/blog36.html" tags="Настройка брокера MQTT" ctime="20230123223908" dir="1674502748nr70d5kzej" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
