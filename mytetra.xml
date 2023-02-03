@@ -1601,6 +1601,8 @@
     <record id="16748072978iv2aovf2u" name="Выложена программа для схемотехников Crocodile Technology 3D v6.09" author="alensav" url="http://jaxik1.narod.ru/index.files/soft.htm" tags="Выложена программа для схемотехников Crocodile Technology 3D" ctime="20230127111457" dir="1674807297yfj3u9ipr6" file="text.html"/>
     <record id="1675005343zx8qi8t14p" name="Arduino Shields – платы расширения для ардуино" author="alensav" url="https://arduinomaster.ru/platy-arduino/shildy-i-platy-rasshireniya-arduino/" tags="Arduino Shields  платы расширения для ардуино" ctime="20230129181543" dir="167500534320sbhrn3ny" file="text.html"/>
     <record id="16750078082yofjs6t7w" name="GSM GPRS SIM900 Shield" author="alensav" url="https://3d-diy.ru/wiki/arduino-moduli/gsm-gprs-sim900-shield/" tags="GSM GPRS SIM900 Shield" ctime="20230129185648" dir="1675007808uml3casbay" file="text.html"/>
+    <record id="1675070424s3l93bsx9q" name="Прошивка esp8266 через Arduino IDE" author="alensav" url="https://arduinomaster.ru/platy-arduino/proshivka-esp8266-cherez-arduino-ide/" tags="Прошивка esp8266 Arduino IDE" ctime="20230130122024" dir="167507042423cg1ujlz4" file="text.html"/>
+    <record id="1675070865faki63vkn8" name="Arduino USB UART чипы и драйвера CH340, CH340G, FTDI" author="alensav" url="https://arduinomaster.ru/platy-arduino/arduino-usb-uart-chipy-i-drajvera-ch340-ch340g-ftdi/" tags="Arduino USB UART чипы и драйвера CH340, CH340G, FTDI" ctime="20230130122745" dir="16750708656nyjgukorj" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1674502662njx6i4m9j3" name="MQTT">
