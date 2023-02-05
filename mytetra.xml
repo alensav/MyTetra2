@@ -1609,6 +1609,9 @@
     <record id="1675453726ggwr5chr27" name="GSM и GPRS модули для Arduino" author="alensav" url="https://arduinomaster.ru/datchiki-arduino/gsm-gprs-modul-arduino/" tags="GSM и GPRS модули для Arduino" ctime="20230203224846" dir="16754537260vjxt5ug2t" file="text.html"/>
     <record id="1675454545w2s2koylxf" name="Как отправлять/принимать SMS и&#10;&#10; звонить с платой расширения&#10;&#10; SIM900 GSM Shield и Arduino" author="alensav" url="https://radioprog.ru/post/723" tags="Как отправлять/принимать SMS и&#10;&#10; звонить с платой расширения&#10;&#10; SIM900 GSM Shield и Arduino" ctime="20230203230225" dir="1675454545lckfa111d6" file="text.html"/>
     <record id="1675455888p0s0x4nxw0" name="GSM/GPRS модуль SIM900 Shield" author="alensav" url="https://radioprog.ru/shop/merch/80" tags="GSM/GPRS модуль SIM900 Shield" ctime="20230203232448" dir="1675455888si97lnux5h" file="text.html"/>
+    <record id="16754999488qtupk1bjq" name="Начало работы с ESP8266 NodeMcu v3 Lua с WiFi" author="alensav" url="https://arduinomaster.ru/platy-arduino/esp8266-nodemcu-v3-lua/" tags="Начало работы с ESP8266 NodeMcu v3 Lua с WiFi" ctime="20230204113908" dir="16754999487rcfridmoa" file="text.html"/>
+    <record id="1675523793tka1ttl8js" name="Arduino_ru" author="alensav" url="https://arduino.ru/Hardware/ArduinoBoardMega2560" tags="Arduino ru" ctime="20230204181633" dir="16755237933i03zcm5yo" file="text.html"/>
+    <record id="1675538499lp3ivc15dg" name="Bluetooth AT-09 (прошивка)" author="alensav" url="https://colorandcode.su/content/bluetooth-09-proshivka" tags="Bluetooth AT-09 (прошивка)" ctime="20230204222139" dir="1675538499bqesqkxpxw" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1674502662njx6i4m9j3" name="MQTT">
