@@ -1590,5 +1590,36 @@
     <record id="1669716483qaqn09bzsd" name="Как установить и настроить DLNA miniDLNA Server в Linux&#10;" author="alensav" url="https://itigic.com/ru/install-and-configure-dlna-minidlna-server-on-linux/" tags="Как установить и настроить DLNA miniDLNA Server в Linux&#10;" ctime="20221129130803" dir="16697164831s7mechvsk" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1674034523se2jgsv4c9" name="ARDUINO">
+   <recordtable>
+    <record id="16740347401ycbgpqm0m" name="Arduini _ESP" author="alensav" url="http://studenthelp.ucoz.ru/publ/arduino_dlja_chajnikov/esp8266_opisanie_podkljuchenie_rabota_i_t_d/esp8266-esp-12e-uart-wireless-wifi-shield-pervoe-znakomstvo-i-ustranenie-bagov/5-1-0-9" tags="arduino esp" ctime="20230118123900" dir="1674034740f5k7goj6vt" file="text.html"/>
+    <record id="1674035441df2wciuf96" name="Как у меня заработал WIFI для Arduino ESP8266 ESP-12E" author="alensav" url="https://fil-tec.ru/page/arduino-uno-esp8266-esp-12e" tags="  Arduino ESP8266 ESP-12E" ctime="20230118125041" dir="16740354415lqz5j31fb" file="text.html"/>
+    <record id="1674036143b1a2ta3ndt" name="ESP8266" author="alensav" url="https://fineshang.gitbooks.io/esp8266-based-serial-wifi-shield-for-arduino-user/content/" tags="esp8266" ctime="20230118130223" dir="16740361435yt7u6651f" file="text.html"/>
+    <record id="1674055119bcihcrvy51" name="HMI - Human-machine interface" author="alensav" url="https://3d-diy.ru/wiki/arduino-displei/sensornye-hmi-displei-dwin/" tags="HMI - Human-machine interface" ctime="20230118181839" dir="1674055119h7bdw61nwt" file="text.html"/>
+    <record id="1674057842kccthn0n6a" name="Arduino Mega 2560: расиновка,&#10; схема подключения и&#10; программирование" author="alensav" url="http://wiki.amperka.ru/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B:arduino-mega-2560" tags="Arduino Mega 2560: расиновка,&#10; схема подключения и&#10; программирование" ctime="20230118190402" dir="16740578422g9wzrjgq6" file="text.html"/>
+    <record id="1674196469c7rzkzq3c8" name="Подключаем дисплей DWIN к ARDUINO по&#10; rs232." author="alensav" url="https://arduino-tex.ru/news/154/podklyuchaem-displei-dwin-k-arduino-po-rs232.html" tags="Подключаем дисплей DWIN к ARDUINO по&#10; rs232." ctime="20230120093429" dir="1674196469n6vaita9m1" file="text.html"/>
+    <record id="16748072978iv2aovf2u" name="Выложена программа для схемотехников Crocodile Technology 3D v6.09" author="alensav" url="http://jaxik1.narod.ru/index.files/soft.htm" tags="Выложена программа для схемотехников Crocodile Technology 3D" ctime="20230127111457" dir="1674807297yfj3u9ipr6" file="text.html"/>
+    <record id="1675005343zx8qi8t14p" name="Arduino Shields – платы расширения для ардуино" author="alensav" url="https://arduinomaster.ru/platy-arduino/shildy-i-platy-rasshireniya-arduino/" tags="Arduino Shields  платы расширения для ардуино" ctime="20230129181543" dir="167500534320sbhrn3ny" file="text.html"/>
+    <record id="16750078082yofjs6t7w" name="GSM GPRS SIM900 Shield" author="alensav" url="https://3d-diy.ru/wiki/arduino-moduli/gsm-gprs-sim900-shield/" tags="GSM GPRS SIM900 Shield" ctime="20230129185648" dir="1675007808uml3casbay" file="text.html"/>
+    <record id="1675070424s3l93bsx9q" name="Прошивка esp8266 через Arduino IDE" author="alensav" url="https://arduinomaster.ru/platy-arduino/proshivka-esp8266-cherez-arduino-ide/" tags="Прошивка esp8266 Arduino IDE" ctime="20230130122024" dir="167507042423cg1ujlz4" file="text.html"/>
+    <record id="1675070865faki63vkn8" name="Arduino USB UART чипы и драйвера CH340, CH340G, FTDI" author="alensav" url="https://arduinomaster.ru/platy-arduino/arduino-usb-uart-chipy-i-drajvera-ch340-ch340g-ftdi/" tags="Arduino USB UART чипы и драйвера CH340, CH340G, FTDI" ctime="20230130122745" dir="16750708656nyjgukorj" file="text.html"/>
+    <record id="1675442926qmkli3i64r" name="Платы Аурдинио" author="alensav" url="https://arduino-kit.ru/product/ethernet-shild-w5100-dlya-mega-2560-1280-328-unr-r3" tags="Плата Ethernet W5100, R3, UNO Mega, 2560" ctime="20230203194846" dir="1675442926zzer1v3s0a" file="text.html"/>
+    <record id="1675443153qq11k6nkxs" name="Ethernet Shield на основе W5100!" author="alensav" url="https://voltiq.ru/ethernet-shield-w5100-connecting-to-arduino/" tags="Ethernet Shield на основе W5100!" ctime="20230203195233" dir="1675443153pg3jioiypc" file="text.html"/>
+    <record id="1675443743bhc8mc3zbx" name="Переадресация портов Kenetic" author="alensav" url="https://help.keenetic.com/hc/ru/articles/360000360760-%D0%9F%D0%B5%D1%80%D0%B5%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE%D1%80%D1%82%D0%BE%D0%B2" tags="Переадресация портов Kenetic" ctime="20230203200223" dir="1675443743xfhu0f1bvc" file="text.html"/>
+    <record id="1675453726ggwr5chr27" name="GSM и GPRS модули для Arduino" author="alensav" url="https://arduinomaster.ru/datchiki-arduino/gsm-gprs-modul-arduino/" tags="GSM и GPRS модули для Arduino" ctime="20230203224846" dir="16754537260vjxt5ug2t" file="text.html"/>
+    <record id="1675454545w2s2koylxf" name="Как отправлять/принимать SMS и&#10;&#10; звонить с платой расширения&#10;&#10; SIM900 GSM Shield и Arduino" author="alensav" url="https://radioprog.ru/post/723" tags="Как отправлять/принимать SMS и&#10;&#10; звонить с платой расширения&#10;&#10; SIM900 GSM Shield и Arduino" ctime="20230203230225" dir="1675454545lckfa111d6" file="text.html"/>
+    <record id="1675455888p0s0x4nxw0" name="GSM/GPRS модуль SIM900 Shield" author="alensav" url="https://radioprog.ru/shop/merch/80" tags="GSM/GPRS модуль SIM900 Shield" ctime="20230203232448" dir="1675455888si97lnux5h" file="text.html"/>
+    <record id="16754999488qtupk1bjq" name="Начало работы с ESP8266 NodeMcu v3 Lua с WiFi" author="alensav" url="https://arduinomaster.ru/platy-arduino/esp8266-nodemcu-v3-lua/" tags="Начало работы с ESP8266 NodeMcu v3 Lua с WiFi" ctime="20230204113908" dir="16754999487rcfridmoa" file="text.html"/>
+    <record id="1675523793tka1ttl8js" name="Arduino_ru" author="alensav" url="https://arduino.ru/Hardware/ArduinoBoardMega2560" tags="Arduino ru" ctime="20230204181633" dir="16755237933i03zcm5yo" file="text.html"/>
+    <record id="1675538499lp3ivc15dg" name="Bluetooth AT-09 (прошивка)" author="alensav" url="https://colorandcode.su/content/bluetooth-09-proshivka" tags="Bluetooth AT-09 (прошивка)" ctime="20230204222139" dir="1675538499bqesqkxpxw" file="text.html"/>
+    <record id="16756172453e7t22n0la" name="ТРАНЗИСТОР-ТЕСТЕР Т7" author="alensav" url="https://radioskot.ru/publ/izmeriteli/tranzistor_tester_t7/15-1-0-1285" tags="ТРАНЗИСТОР-ТЕСТЕР Т7" ctime="20230205201405" dir="16756172452a05eleuky" file="text.html"/>
+    <record id="1675958270zzbdh66wqi" name="Arduino_KIT" author="alensav" url="https://arduino-kit.ru/product/ethernet-shild-w5100-dlya-mega-2560-1280-328-unr-r3" tags="aurdino kit" ctime="20230209185750" dir="1675958270qk8l5g2090" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1674502662njx6i4m9j3" name="MQTT">
+   <recordtable>
+    <record id="16745027482aqg0g1y76" name="Настройка брокера MQTT" author="alensav" url="https://connect.smartliving.ru/profile/1502/blog36.html" tags="Настройка брокера MQTT" ctime="20230123223908" dir="1674502748nr70d5kzej" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
