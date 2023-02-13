@@ -1614,6 +1614,8 @@
     <record id="1675538499lp3ivc15dg" name="Bluetooth AT-09 (прошивка)" author="alensav" url="https://colorandcode.su/content/bluetooth-09-proshivka" tags="Bluetooth AT-09 (прошивка)" ctime="20230204222139" dir="1675538499bqesqkxpxw" file="text.html"/>
     <record id="16756172453e7t22n0la" name="ТРАНЗИСТОР-ТЕСТЕР Т7" author="alensav" url="https://radioskot.ru/publ/izmeriteli/tranzistor_tester_t7/15-1-0-1285" tags="ТРАНЗИСТОР-ТЕСТЕР Т7" ctime="20230205201405" dir="16756172452a05eleuky" file="text.html"/>
     <record id="1675958270zzbdh66wqi" name="Arduino_KIT" author="alensav" url="https://arduino-kit.ru/product/ethernet-shild-w5100-dlya-mega-2560-1280-328-unr-r3" tags="aurdino kit" ctime="20230209185750" dir="1675958270qk8l5g2090" file="text.html"/>
+    <record id="1676189078vlvib354oz" name="Инфракрасный датчик движения HC-SR501" author="alensav" url="https://3d-diy.ru/wiki/arduino-datchiki/infrakrasnyj-datchik-dvizheniya-hc-sr501/" tags="Инфракрасный датчик движения HC-SR501" ctime="20230212110438" dir="1676189078s81wf8snk9" file="text.html"/>
+    <record id="1676190538ub4h8vkye9" name="Схема подключения датчика движения (присутствия) HC-SR501" author="alensav" url="https://micro-pi.ru/%D1%81%D1%85%D0%B5%D0%BC%D0%B0-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B0-%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-hc-sr501/" tags="Схема подключения датчика движения (присутствия) HC-SR501" ctime="20230212112858" dir="16761905383ef1tn4awq" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1674502662njx6i4m9j3" name="MQTT">
