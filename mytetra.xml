@@ -1321,7 +1321,7 @@
   </node>
   <node crypt="1" icon="UkM1U0lNUAOJUCgW+zXsIiycdpVtbBvqiUBi7AokUEujZkG+0otYE7KS2GvteRnzWgacHsF6Vk1jdmGJIinUYoQaNdH9yrUU4IhMjJKflMk=" id="16136654772yl49sahzq" name="UkM1U0lNUAPVJy3YeyECibCkdPmcST1xsXzUkXM5XcxPuWpgaGquG9LlUABRB0c2TXQSWXHM2LI=">
    <recordtable>
-    <record id="1613665538qondaf7gpn" name="UkM1U0lNUANiM4uTpoKh+8FMd2sWBJAASpPwfDMMNTwYNq1d19ml/t0M7dXrEbNbj17eHr99DKenRESP0VDEDQ==" author="UkM1U0lNUAOB7wHjIox2yFQpIQm84A90YDh1f7GDimSQjKoh7/AXLeksy8TZhQDG" url="" tags="UkM1U0lNUAPx0zFUkUfWgEotgpbNe1Yu9XZJ2hSsG9qb9pNM3WPQ4s+0Lzk2V1R0ZjOn6+oai+2LPy9gQTKQJA==" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html" crypt="1">
+    <record id="1613665538qondaf7gpn" name="UkM1U0lNUANLoJg1fjSQc+5NDhmxQWhdUq1L+qAXnyIA7VJs2mPtV3gd7v+0vDeo/Zk7rsqRAUvO7Lychr9CsA==" author="UkM1U0lNUAMUfKYx53DELtEQQqR2xMKoIFcUsCwPjmSH2v8YxqTa1etymbT3kcWH" url="" tags="UkM1U0lNUAOx22MocMJ7tBlbT/H4Dg1i+a7CxmlcnFEh+yx2F0extVpqs751M+bqHXzQk44gIBtOjMZYiXQfpw==" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html" crypt="1">
      <files>
       <file id="1613897870at5mnmf63b" fileName="UkM1U0lNUAODie1xWN3iCC2ucgkvZnyFlx2Q+w4PGkCjwkefLBU7w1NSfUl0c29cckkAGBaOX4Q=" link="UkM1U0lNUANDAp8xc/cOVR4pXhp8C9OS2RcADjtJ9CvWNw70744/bN3+hJ3emdl6M8jwf/JLsLfFR2jh8JaD4PuqwMHw2DQ9/qA5rhKlTxj4Vn4ZLwDKp53aWikNRTwYEX9eKGqCOJ0=" type="link" crypt="1"/>
      </files>
@@ -1614,8 +1614,12 @@
     <record id="1675538499lp3ivc15dg" name="Bluetooth AT-09 (прошивка)" author="alensav" url="https://colorandcode.su/content/bluetooth-09-proshivka" tags="Bluetooth AT-09 (прошивка)" ctime="20230204222139" dir="1675538499bqesqkxpxw" file="text.html"/>
     <record id="16756172453e7t22n0la" name="ТРАНЗИСТОР-ТЕСТЕР Т7" author="alensav" url="https://radioskot.ru/publ/izmeriteli/tranzistor_tester_t7/15-1-0-1285" tags="ТРАНЗИСТОР-ТЕСТЕР Т7" ctime="20230205201405" dir="16756172452a05eleuky" file="text.html"/>
     <record id="1675958270zzbdh66wqi" name="Arduino_KIT" author="alensav" url="https://arduino-kit.ru/product/ethernet-shild-w5100-dlya-mega-2560-1280-328-unr-r3" tags="aurdino kit" ctime="20230209185750" dir="1675958270qk8l5g2090" file="text.html"/>
+<<<<<<< HEAD
     <record id="1676189078vlvib354oz" name="Инфракрасный датчик движения HC-SR501" author="alensav" url="https://3d-diy.ru/wiki/arduino-datchiki/infrakrasnyj-datchik-dvizheniya-hc-sr501/" tags="Инфракрасный датчик движения HC-SR501" ctime="20230212110438" dir="1676189078s81wf8snk9" file="text.html"/>
     <record id="1676190538ub4h8vkye9" name="Схема подключения датчика движения (присутствия) HC-SR501" author="alensav" url="https://micro-pi.ru/%D1%81%D1%85%D0%B5%D0%BC%D0%B0-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B0-%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-hc-sr501/" tags="Схема подключения датчика движения (присутствия) HC-SR501" ctime="20230212112858" dir="16761905383ef1tn4awq" file="text.html"/>
+=======
+    <record id="1676216883ncyc7exn3l" name="Универсальный web - сервер на Arduino" author="alensav" url="https://nnov.3dn.ru/publ/39-1-0-1960" tags="Универсальный web - сервер на Arduino" ctime="20230212184803" dir="1676216883cmfo6tll1o" file="text.html"/>
+>>>>>>> e3a82888264ec934d180c5a048a63fcadfc57c4a
    </recordtable>
   </node>
   <node crypt="" id="1674502662njx6i4m9j3" name="MQTT">
