@@ -1623,6 +1623,7 @@
     <record id="1677254311msqvzff11l" name="Плата Arduino Uno и SIM800c GPRS/GSM Shield" author="alensav" url="http://www.mirossa.ru/arduino_gprs_http.php" tags="Плата Arduino Uno и SIM800c GPRS/GSM Shield" ctime="20230224185831" dir="1677254311jrf1gxgbkk" file="text.html"/>
     <record id="16772548881vv8zxsdyy" name="Беспроводная связь. Модуль GSM/GPRS SIM900&#10;● Проект 32: Беспров" author="alensav" url="https://arduino-kit.ru/blogs/blog/project_32" tags="Беспроводная связь. Модуль GSM/GPRS SIM900&#10;● Проект 32: Беспров" ctime="20230224190808" dir="1677254888nr8i6ne85z" file="text.html"/>
     <record id="1677256607dvclrb7ye8" name="Как отправлять/принимать SMS и звонить с&#10;&#10; платой расширения SIM900 GSM Shield и Arduino" author="alensav" url="https://radioprog.ru/post/723" tags="Как отправлять/принимать SMS и звонить с&#10;&#10; платой расширения SIM900 GSM Shield и Arduino" ctime="20230224193647" dir="1677256607p84lq5r3ed" file="text.html"/>
+    <record id="1677358419vjp3o949ub" name="Настройка &#10;&#10;Arduino IDE для программирования модуля ESP8266" author="alensav" url="https://alexthebear.ru/esp8266-arduino-ide-setup/" tags="Настройка &#10;&#10;Arduino IDE для программирования модуля ESP8266" ctime="20230225235339" dir="1677358419r0wvub1iv4" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1674502662njx6i4m9j3" name="MQTT">
