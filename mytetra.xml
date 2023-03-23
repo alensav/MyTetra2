@@ -1621,6 +1621,8 @@
     <record id="1678787298ya2wbag9xu" name="Примеры прошивок на Arduino для&#10; ESP8266" author="alensav" url="https://www.wqtt.ru/doc/firmwares-examples/" tags="Примеры прошивок на Arduino для&#10; ESP8266" ctime="20230314124818" dir="1678787298p3qmr01olz" file="text.html"/>
     <record id="1678789005jxgkqz6jcd" name="Брокер" author="alensav" url="https://dash.wqtt.ru/" tags="брокер" ctime="20230314131645" dir="16787890055f71qxxfbs" file="text.html"/>
     <record id="1678792692y84brasqn7" name="ESP8266 NodeMCU V3 (LoLin)" author="alensav" url="https://myrobot.ru/wiki/index.php?n=Experiences.NodemcuV3Pinout" tags="ESP8266 NodeMCU V3 (LoLin)" ctime="20230314141812" dir="1678792692ccv8qkr9bd" file="text.html"/>
+    <record id="16793313737sdfi9uu3i" name="ESP8266 и работа с ним под Linux" author="alensav" url="https://habr.com/ru/post/494630/" tags="ESP8266 и работа с ним под Linux" ctime="20230320195613" dir="1679331373p5sc2ilwmn" file="text.html"/>
+    <record id="1679331591kzxnet14l3" name="MicroPython downloads" author="alensav" url="https://micropython.org/download/#esp8266" tags="MicroPython downloads" ctime="20230320195951" dir="167933159101usx4izzr" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1674502662njx6i4m9j3" name="MQTT">
