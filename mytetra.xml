@@ -1623,6 +1623,10 @@
     <record id="1678792692y84brasqn7" name="ESP8266 NodeMCU V3 (LoLin)" author="alensav" url="https://myrobot.ru/wiki/index.php?n=Experiences.NodemcuV3Pinout" tags="ESP8266 NodeMCU V3 (LoLin)" ctime="20230314141812" dir="1678792692ccv8qkr9bd" file="text.html"/>
     <record id="16793313737sdfi9uu3i" name="ESP8266 и работа с ним под Linux" author="alensav" url="https://habr.com/ru/post/494630/" tags="ESP8266 и работа с ним под Linux" ctime="20230320195613" dir="1679331373p5sc2ilwmn" file="text.html"/>
     <record id="1679331591kzxnet14l3" name="MicroPython downloads" author="alensav" url="https://micropython.org/download/#esp8266" tags="MicroPython downloads" ctime="20230320195951" dir="167933159101usx4izzr" file="text.html"/>
+    <record id="1679565687ndwvlqtikk" name="Проброс портов VirtualBox&#10;" author="alensav" url="https://losst.pro/probros-portov-virtualbox" tags="Проброс портов VirtualBox&#10;" ctime="20230323130127" dir="1679565687geg6a3m5yz" file="text.html"/>
+    <record id="1679583724zoes16iq0u" name="VirtualBox пробрасывать порты в гостевую операционную систему" author="alensav" url="https://info-comp.ru/sisadminst/597-port-forwarding-in-virtualbox.html" tags="VirtualBox пробрасывать порты в гостевую операционную систему" ctime="20230323180204" dir="167958372401ji8thkey" file="text.html"/>
+    <record id="1679584368738qfhtlze" name="&#10;Настройка проброса портов в VirtualBox" author="alensav" url="Содержание&#10;Настройка проброса портов в VirtualBox" tags="&#10;Настройка проброса портов в VirtualBox" ctime="20230323181248" dir="16795843689jvxvtjmpd" file="text.html"/>
+    <record id="1679584865z0p4m0dshi" name="Создание и настройка виртуальной сети VirtualBox OS Windows 7," author="alensav" url="https://geek-nose.com/sozdanie-i-nastrojka-virtualnoj-seti-virtualbox-os-windows-78/" tags="Создание и настройка виртуальной сети VirtualBox OS Windows 7," ctime="20230323182105" dir="1679584865klmsr1qlmp" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1674502662njx6i4m9j3" name="MQTT">
