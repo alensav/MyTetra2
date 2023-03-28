@@ -1634,5 +1634,11 @@
     <record id="16745027482aqg0g1y76" name="Настройка брокера MQTT" author="alensav" url="https://connect.smartliving.ru/profile/1502/blog36.html" tags="Настройка брокера MQTT" ctime="20230123223908" dir="1674502748nr70d5kzej" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1679931382y3ibtkuw8n" name="Orangepi">
+   <recordtable>
+    <record id="1679931859x6fd9kh0fo" name="Как установить и настроить VNC-сервер в  Ubuntu" author="alensav" url="https://g-soft.info/articles/5690/kak-ustanovit-i-nastroit-vnc-server-v-ubuntu/" tags="Как установить и настроить VNC-сервер в  Ubuntu" ctime="20230327184419" dir="1679931859a0g798gygd" file="text.html"/>
+    <record id="1679945968hs5xllql0c" name=" как обмениваться данными между Raspberry Pi и платой Arduin" author="alensav" url="https://voltiq.ru/raspberry-pi-arduino-serial-communication/" tags=" как обмениваться данными между Raspberry Pi и платой Arduin" ctime="20230327223928" dir="1679945968kkf9c7skvj" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
