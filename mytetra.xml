@@ -1651,5 +1651,10 @@
     <record id="16799993308te1dxv9ki" name="Как подключить второй MQTT брокер к Home Assistant" author="alensav" url="https://pikabu.ru/story/kak_podklyuchit_vtoroy_mqtt_broker_k_home_assistant_ili_mostovoebridgesoedineniya_mqtt_brokerovmosquitto_8015021" tags="Как подключить второй MQTT брокер к Home Assistant" ctime="20230328132850" dir="1679999330k6j7ajt0yt" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1680087646ryg0iyjity" name="OpenWeathe">
+   <recordtable>
+    <record id="1680090148mtn3xeq8jq" name="Free OpenWeatherMap-Your API key" author="alensav" url="https://mail.yandex.ru/?uid=72863559#message/182114309931856950" tags="Free OpenWeatherMap" ctime="20230329144228" dir="1680090148moxi4ggoya" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
