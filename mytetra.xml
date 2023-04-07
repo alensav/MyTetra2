@@ -1635,6 +1635,7 @@
     <record id="168062350793tluwk9fv" name="Установка Mosquitto брокера MQTT на Orange Pi Zero с UBUNTU&#10; 16.04.2" author="alensav" url="http://am-diary.tw1.ru/ustanovka-mosquitto-brokera-mqtt-na-orange-pi-zero-s-ubuntu-xenial-16-04-2/" tags="Установка Mosquitto брокера MQTT на Orange Pi Zero с UBUNTU&#10; 16.04.2" ctime="20230404185147" dir="1680623507p0d12chmas" file="text.html"/>
     <record id="1680624449rsg99w37z7" name="curl- 10 команд curl, которые вам следует знать" author="alensav" url="https://vc.ru/dev/155069-10-komand-curl-kotorye-vam-sleduet-znat" tags="curl - 10 команд curl, которые вам следует знать" ctime="20230404190729" dir="16806244494y87sel39i" file="text.html"/>
     <record id="1680629363qqok6rkpsc" name="Установка MQTT брокера Mosquitto на Raspberry Pi и Orange Pi" author="alensav" url="https://robot-on.ru/articles/ystanovka-mqtt-brokera-mosquitto-raspberry-orange-pi" tags="Установка MQTT брокера Mosquitto на Raspberry Pi и Orange Pi" ctime="20230404202923" dir="1680629363dnwl2jypev" file="text.html"/>
+    <record id="1680792885zky5cjkzhw" name="ESP8266 управление через интернет по протоколу MQTT" author="alensav" url="управление через интернет по протоколу MQTT" tags="управление через интернет по протоколу MQTT" ctime="20230406175445" dir="16807928856bs8k0skic" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="1" icon="" id="1679931382y3ibtkuw8n" name="UkM1U0lNUANmKY7efP1GNiRIhT4IB/VB/vxGuJmWBz+v+fKiiB3IwAzhxRZNE3AP">
