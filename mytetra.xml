@@ -1660,5 +1660,13 @@
     <record id="1680090148mtn3xeq8jq" name="Free OpenWeatherMap-Your API key" author="alensav" url="https://mail.yandex.ru/?uid=72863559#message/182114309931856950" tags="Free OpenWeatherMap" ctime="20230329144228" dir="1680090148moxi4ggoya" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1681139485nf80nb0z6l" name="PROEKT_HOUS_ESP">
+   <recordtable>
+    <record id="1681139562o528fq1exd" name="Sketch" author="alensav" url="" tags="Sketch" ctime="20230410181242" dir="1681139562x60663xn33" file="text.html"/>
+    <record id="16811399047n54pu376e" name="Оборудование" author="alensav" url="" tags="" ctime="20230410181824" dir="1681139904vk5esl4uf1" file="text.html"/>
+    <record id="1681234963qly2e0428d" name="ПОДКЛЮЧЕНИЕ ДАТЧИКА ТЕМПЕРАТУРЫ DS18B20 К ESP8266" author="alensav" url="https://espsmart.ru/blog/19-podkljuchenie-datchika-temperatury-ds18b20-k-esp8266.html" tags="ПОДКЛЮЧЕНИЕ ДАТЧИКА ТЕМПЕРАТУРЫ DS18B20 К ESP8266" ctime="20230411204243" dir="16812349636mmpmfw97d" file="text.html"/>
+    <record id="1681236132pb7nr4olcy" name="Скетч DS 18B20" author="alensav" url="https://espsmart.ru/blog/19-podkljuchenie-datchika-temperatury-ds18b20-k-esp8266.html" tags="Скетч  DS 18B20" ctime="20230411210212" dir="1681236132fkl7gjztik" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
