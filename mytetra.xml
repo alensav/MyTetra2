@@ -268,6 +268,7 @@
      <record id="1645120780ts5pjgieux" name="Готовая виртуальная " author="alensav" url="https://whoer.net/blog/ru/polnaya-setevaya-anonimnost-vpn-virtualnaya-mashina/" tags="Готовая виртуальная " ctime="20220217205940" dir="16451207807nbipkq8kt" file="text.html"/>
      <record id="16462913038v4jcmqyj3" name="Обзор программ для мониторинга" author="alensav" url="https://housecomputer.ru/os/unix/linux/monitoring_system_program.html" tags="Обзор программ для мониторинга" ctime="20220303100823" dir="1646291303yirjwlfx68" file="text.html"/>
      <record id="1646674547zexvt8ngd4" name="Распаковка tar tar.bz2, tar.bzip2, tbz2, tb2, tbz" author="alensav" url="https://pingvinus.ru/note/tar-extract" tags="Распаковка ta,r tar.bz2, tar.bzip2, tbz2, tb2, tbz" ctime="20220307203547" dir="16466745479t34p18qzu" file="text.html"/>
+     <record id="1681748331r2wt1gnm1x" name="Ядро_UBUNTU" author="alensav" url="" tags="Ядро UBUNTU" ctime="20230417191851" dir="1681748331gsoz4rjrcz" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -1668,6 +1669,10 @@
     <record id="1681236132pb7nr4olcy" name="Скетч DS 18B20" author="alensav" url="https://espsmart.ru/blog/19-podkljuchenie-datchika-temperatury-ds18b20-k-esp8266.html" tags="Скетч  DS 18B20" ctime="20230411210212" dir="1681236132fkl7gjztik" file="text.html"/>
     <record id="1681461380aeacxh3q8s" name="Как подружить OpenHAB и Arduino. Способ #3: MQTT&#10;" author="alensav" url="https://habr.com/ru/articles/250833/" tags="&#10;&#10;Как подружить OpenHAB и Arduino. Способ #3: MQTT&#10;" ctime="20230414113620" dir="1681461380uxj16anidu" file="text.html"/>
     <record id="1681482551qts3ucvc07" name="OpenHab" author="alensav" url="" tags="OpenHab" ctime="20230414172911" dir="16814825517gj7dbj766" file="text.html"/>
+    <record id="1681629473knszr9q2al" name="Работа с MQTT в openHAB" author="alensav" url="https://robot-on.ru/articles/prostaya-rabota-s-mqtt-v-openhab-2" tags="Работа с MQTT в openHAB" ctime="20230416101753" dir="1681629473oscots67bh" file="text.html"/>
+    <record id="1681642765l42os1upm6" name="Простая работа с MQTT в openHAB 2.x" author="alensav" url="" tags="Простая работа с MQTT в openHAB 2.x" ctime="20230416135925" dir="1681642765ygdlhlvaqp" file="text.html"/>
+    <record id="16816513937fgzob1tk3" name="npm" author="alensav" url="https://askubuntu-com.translate.goog/questions/899756/cant-install-npm-unable-to-correct-problems-you-have-held-broken-packages?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="npm" ctime="20230416162313" dir="1681651393l2t3rl41rq" file="text.html"/>
+    <record id="1681761312sww0300f6x" name="Arduino с сетевым модулем и mqtt в openHAB" author="alensav" url="http://mediaunix.com/arduino-c-setevym-modulem-i-mqtt-v-openhab/#more-1646" tags="Arduino с сетевым модулем и mqtt в openHAB" ctime="20230417225512" dir="1681761312hyypfqc2io" file="text.html"/>
    </recordtable>
   </node>
  </content>
