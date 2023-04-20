@@ -1673,6 +1673,8 @@
     <record id="1681642765l42os1upm6" name="Простая работа с MQTT в openHAB 2.x" author="alensav" url="" tags="Простая работа с MQTT в openHAB 2.x" ctime="20230416135925" dir="1681642765ygdlhlvaqp" file="text.html"/>
     <record id="16816513937fgzob1tk3" name="npm" author="alensav" url="https://askubuntu-com.translate.goog/questions/899756/cant-install-npm-unable-to-correct-problems-you-have-held-broken-packages?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="npm" ctime="20230416162313" dir="1681651393l2t3rl41rq" file="text.html"/>
     <record id="1681761312sww0300f6x" name="Arduino с сетевым модулем и mqtt в openHAB" author="alensav" url="http://mediaunix.com/arduino-c-setevym-modulem-i-mqtt-v-openhab/#more-1646" tags="Arduino с сетевым модулем и mqtt в openHAB" ctime="20230417225512" dir="1681761312hyypfqc2io" file="text.html"/>
+    <record id="1681919320f69bvwwz74" name="Техническое задание MQTT" author="alensav" url="https://kotyara12.ru/iot/telemeter/" tags="Техническое задание MQtt" ctime="20230419184840" dir="1681919320eao4cuw1cv" file="text.html"/>
+    <record id="1681922482ee97qxce0o" name="THINGSPEAK" author="alensav" url="https://exponenta.ru/thingspeak" tags="THINGSPEAK" ctime="20230419194122" dir="1681922482x93yl8tad0" file="text.html"/>
    </recordtable>
   </node>
  </content>
