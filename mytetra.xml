@@ -1706,5 +1706,10 @@
     <record id="1684662067d827gqx5i3" name="www_docsproekt_shop" author="alensav" url="www.docsproekt.shop" tags="www docsproekt shop" ctime="20230521124107" dir="1684662067wfr6n4h2tn" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1685303045p8ljr79bwb" name="GPT">
+   <recordtable>
+    <record id="1685303117ymlisz60dw" name="chatgptbot_ru" author="" url="https://chatgptbot.ru" tags="chatgptbot" ctime="20230528224517" dir="1685303117gyg1xno7zl" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
