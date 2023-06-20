@@ -1730,6 +1730,11 @@
     <record id="16857159124apiyw131b" name="как подключить электромагнитное реле" author="alensav" url="https://www.youtube.com/watch?v=O6yVBtBuEKA" tags="как подключить электромагнитное реле" ctime="20230602172512" dir="1685715912zx6i2fzefs" file="text.html"/>
     <record id="1685721868ibw6x0mng1" name="Доступ к веб-серверу." author="alensav" url="https://arduino-tex.ru/news/18/urok-2-podklyuchaem-dht11-dht22-k-esp32-esp8266-pokazanie-na.html" tags="Доступ к веб-серверу." ctime="20230602190428" dir="168572186837ysqc4rf5" file="text.html"/>
    </recordtable>
+   <node crypt="1" icon="" id="1686497987p01q58h7uc" name="UkM1U0lNUAPLEUGZeTEkYg4rXIse/coRti607hiU/AdgtDAH3vO7atvqUCLjw9Lm">
+    <recordtable>
+     <record id="1686498017xl8nni8uo6" name="UkM1U0lNUAMa3jtgFhR7r8+NF1Lgv4sLZJliEbBH7YXafYvMx4uywsoCD4e/36Q3qrVw6qWXilvlVTNaTI5kiQ==" author="UkM1U0lNUAM8rBwgx/tbJ/ms2vXGcKcMGNBWLoTPcBFM9lQ3QT8/tB9EiQC4wy+n" url="" tags="UkM1U0lNUAOqfZKhb4veHLV67haUquMAwinQ8HqYO9kACRAOquLzdVS12eiXFOnPEGojCNHMPyBrb0ka7GaWGw==" ctime="20230611184017" dir="16864980172xa4nvck3n" file="text.html" crypt="1"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1685560570wjop4h3r0e" name="ESP32">
    <recordtable>
