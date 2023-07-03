@@ -1740,6 +1740,7 @@
    <recordtable>
     <record id="1685560671k92tkap1d6" name="ESP32_пины" author="alensav" url="https://habr.com/ru/articles/404685/" tags="ESP32" ctime="20230531221751" dir="1685560671ajagorzf7d" file="text.html"/>
     <record id="1685561330efox5n3l2m" name="Микроконтроллер ESP32 и проекты Arduino" author="alensav" url="https://arduinomaster.ru/platy-arduino/esp32-arduino-raspinovka-arduino-ide/" tags="Микроконтроллер ESP32 и проекты Arduino" ctime="20230531222850" dir="1685561330rayutrfi1x" file="text.html"/>
+    <record id="16877146668bei8x14sx" name="Беспроводная загрузка кода на ESP32. Использование библиотеки AsyncElegantOTA в среде Arduino." author="alensav" url="https://voltiq.ru/esp32-ota-over-the-air-arduino/" tags="Беспроводная загрузка кода на ESP32. Использование библиотеки AsyncElegantOTA в среде Arduino." ctime="20230625203746" dir="1687714666raz2611995" file="text.html"/>
    </recordtable>
   </node>
  </content>
