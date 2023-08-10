@@ -1749,5 +1749,10 @@
     <record id="1688739684gidcxu28u4" name="ESP-WROOM-32   ESP-32S" author="alensav" url="" tags="ESP-WROOM-32   ESP-32S" ctime="20230707172124" dir="1688739684fdr3l13eqt" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1691226148hnfr2458k0" name="QEMU_KVM">
+   <recordtable>
+    <record id="1691226194zyii7ufuh1" name="&#10;Начало работы с QEMU и KVM" author="alensav" url="http://onreader.mdl.ru/KVMVirtualizationCookbook/content/Ch01.html" tags="&#10;Начало работы с QEMU и KVM" ctime="20230805120314" dir="1691226194nmz2d16zq6" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
