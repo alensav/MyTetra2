@@ -1712,9 +1712,9 @@
     <record id="1684662067d827gqx5i3" name="www_docsproekt_shop" author="alensav" url="www.docsproekt.shop" tags="www docsproekt shop" ctime="20230521124107" dir="1684662067wfr6n4h2tn" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1685303045p8ljr79bwb" name="GPT">
+  <node crypt="1" icon="" id="1685303045p8ljr79bwb" name="UkM1U0lNUAOppZKFUK2oyp4EA45HTrZz3rOIfitq9vtFmDOHsRWxOD8Q+3UPb2fU">
    <recordtable>
-    <record id="1685303117ymlisz60dw" name="chatgptbot_ru" author="" url="https://chatgptbot.ru" tags="chatgptbot" ctime="20230528224517" dir="1685303117gyg1xno7zl" file="text.html"/>
+    <record id="1685303117ymlisz60dw" name="UkM1U0lNUANlbRCkkW9Ird1Em5aYmUoHXTI12qMsBqmmWYvThFkUxIkRTlROdCV56PBmWIUf9Yg=" author="" url="UkM1U0lNUAOwVoTuu/H+X/QCDMQj38FJASCGjDjQc2/+ccCjWp0+DvtkhGaLcgMnNJh+O8LDzjlmxxdGx4BuUg==" tags="UkM1U0lNUANgN1T256p61Vppap9OE8bSAHuvHs8aE88yZZ8isdWIF5WVQkr/LvYrT28gLYA/eYU=" ctime="20230528224517" dir="1685303117gyg1xno7zl" file="text.html" crypt="1"/>
    </recordtable>
   </node>
   <node crypt="" id="1685520292i7ys25rftd" name="ЭЛЕКТРОННИКА">
@@ -1747,6 +1747,7 @@
     <record id="1685561330efox5n3l2m" name="Микроконтроллер ESP32 и проекты Arduino" author="alensav" url="https://arduinomaster.ru/platy-arduino/esp32-arduino-raspinovka-arduino-ide/" tags="Микроконтроллер ESP32 и проекты Arduino" ctime="20230531222850" dir="1685561330rayutrfi1x" file="text.html"/>
     <record id="16877146668bei8x14sx" name="Беспроводная загрузка кода на ESP32. Использование библиотеки AsyncElegantOTA в среде Arduino." author="alensav" url="https://voltiq.ru/esp32-ota-over-the-air-arduino/" tags="Беспроводная загрузка кода на ESP32. Использование библиотеки AsyncElegantOTA в среде Arduino." ctime="20230625203746" dir="1687714666raz2611995" file="text.html"/>
     <record id="1688739684gidcxu28u4" name="ESP-WROOM-32   ESP-32S" author="alensav" url="" tags="ESP-WROOM-32   ESP-32S" ctime="20230707172124" dir="1688739684fdr3l13eqt" file="text.html"/>
+    <record id="1693895378biioimtpa4" name="openocd-esp32" author="alensav" url="" tags="openocd-esp32" ctime="20230905092938" dir="1693895378ovxmr4qqlo" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1691226148hnfr2458k0" name="QEMU_KVM">
