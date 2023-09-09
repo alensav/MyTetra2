@@ -1756,5 +1756,10 @@
     <record id="1691226194zyii7ufuh1" name="&#10;Начало работы с QEMU и KVM" author="alensav" url="http://onreader.mdl.ru/KVMVirtualizationCookbook/content/Ch01.html" tags="&#10;Начало работы с QEMU и KVM" ctime="20230805120314" dir="1691226194nmz2d16zq6" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="16942506115due4jw9rp" name="Modul MAX 7219">
+   <recordtable>
+    <record id="1694250733wmyoppaw0c" name="как подключить к Arduino светодиодную матрицу на MAX7219" author="alensav" url="https://portal-pk.ru/news/237-podklyuchaem-matricu-max72xx-max7219-k-arduino-prostaya-animaciya.html" tags="max7219" ctime="20230909121213" dir="1694250733ooxda64pwi" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
