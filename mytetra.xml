@@ -1759,6 +1759,9 @@
   <node crypt="" id="16942506115due4jw9rp" name="Modul MAX 7219">
    <recordtable>
     <record id="1694250733wmyoppaw0c" name="как подключить к Arduino светодиодную матрицу на MAX7219" author="alensav" url="https://portal-pk.ru/news/237-podklyuchaem-matricu-max72xx-max7219-k-arduino-prostaya-animaciya.html" tags="max7219" ctime="20230909121213" dir="1694250733ooxda64pwi" file="text.html"/>
+    <record id="16943409693u74f2rcf5" name="Arduino и матрица MAX7219" author="alensav" url="&#10;&#10;&#10;&#10;&#10;https://kit.alexgyver.ru/tutorials/max7219/" tags="Arduino, матрица, MAX7219" ctime="20230910131609" dir="1694340969w9abyzvjeu" file="text.html"/>
+    <record id="169434135404pbotfnz1" name="LED-матрица 8×8" author="alensav" url="https://developer.alexanderklimov.ru/arduino/ledmatrix.php" tags="LED-матрица 8×8" ctime="20230910132234" dir="169434135482qzfnwvyz" file="text.html"/>
+    <record id="1694341846l68q6x5ygh" name="Ардуино: светодиодная матрица с драйвером max7219" author="alensav" url="https://robotclass.ru/tutorials/arduino-matrix-8x8-max7219/" tags="max7219" ctime="20230910133046" dir="16943418463kpjv97rwn" file="text.html"/>
    </recordtable>
   </node>
  </content>
