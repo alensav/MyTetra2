@@ -1764,5 +1764,11 @@
     <record id="1694341846l68q6x5ygh" name="Ардуино: светодиодная матрица с драйвером max7219" author="alensav" url="https://robotclass.ru/tutorials/arduino-matrix-8x8-max7219/" tags="max7219" ctime="20230910133046" dir="16943418463kpjv97rwn" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="16977290990ti00ugdi9" name="DWIN7">
+   <recordtable>
+    <record id="1697729233ofv0huvgon" name="DWIN Box." author="alensav" url="https://arduino-tex.ru/news/160/konstruktor-proektov-na-esp32-arduino-i-displee-dwin---dwin-box.html" tags="DWIN Box" ctime="20231019182713" dir="16977292337jsk8kdqa6" file="text.html"/>
+    <record id="1697729288kr2frj9ngy" name="Подключаем дисплей DWIN к ARDUINO по&#10; rs232." author="alensav" url="https://arduino-tex.ru/news/154/podklyuchaem-displei-dwin-k-arduino-po-rs232.html" tags="Подключаем дисплей DWIN к ARDUINO по&#10; rs232." ctime="20231019182808" dir="1697729288o18w1wwen7" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
