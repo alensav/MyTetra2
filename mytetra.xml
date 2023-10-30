@@ -1750,6 +1750,8 @@
     <record id="1693895378biioimtpa4" name="openocd-esp32" author="alensav" url="" tags="openocd-esp32" ctime="20230905092938" dir="1693895378ovxmr4qqlo" file="text.html"/>
     <record id="1693899366xhy94wgyxf" name="Установка ESP-IDF на Ubuntu" author="alensav" url="http://microsin.net/programming/arm/esp-idf-ubuntu-install.html" tags="Установка ESP-IDF на Ubuntu" ctime="20230905103606" dir="1693899366nj3gpfbgu8" file="text.html"/>
     <record id="1697823179jg2q7b1347" name="ESP32 и Ардуино&#10;8 мин182K&#10;Компьютерное железоУмный домИнтер" author="alensav" url="https://habr.com/ru/articles/404685/" tags="ESP32" ctime="20231020203259" dir="16978231790ri0p6an6n" file="text.html"/>
+    <record id="16980574975rshza9nmq" name="&#10;Бюджетный отладчик к ESP-32 и его&#10;&#10;настройка" author="alensav" url="https://habr.com/ru/articles/421291/" tags="ESP-32" ctime="20231023133817" dir="1698057497oyvhu9gdmc" file="text.html"/>
+    <record id="1698078443bdn3hh40gv" name="Распиновка ESP32" author="alensav" url="https://arduino-tex.ru/news/31/raspinovka-esp32-kakie-kontakty-gpio-mozhno-ispolzovat-a.html" tags="Распиновка ESP32" ctime="20231023192723" dir="1698078443b0xuwz9uau" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1691226148hnfr2458k0" name="QEMU_KVM">
@@ -1769,6 +1771,8 @@
    <recordtable>
     <record id="1697729233ofv0huvgon" name="DWIN Box." author="alensav" url="https://arduino-tex.ru/news/160/konstruktor-proektov-na-esp32-arduino-i-displee-dwin---dwin-box.html" tags="DWIN Box" ctime="20231019182713" dir="16977292337jsk8kdqa6" file="text.html"/>
     <record id="1697729288kr2frj9ngy" name="Подключаем дисплей DWIN к ARDUINO по&#10; rs232." author="alensav" url="https://arduino-tex.ru/news/154/podklyuchaem-displei-dwin-k-arduino-po-rs232.html" tags="Подключаем дисплей DWIN к ARDUINO по&#10; rs232." ctime="20231019182808" dir="1697729288o18w1wwen7" file="text.html"/>
+    <record id="1698071173hzohb53owd" name="DWIN 7-дюймовый ЖК-модуль" author="alensav" url="https://aliexpress.ru/item/1005003379434413.html?spm=a2g2w.orderdetail.0.0.6d224aa6UlEcl6&amp;sku_id=12000025507268455" tags="DWIN 7-дюймовый ЖК-модуль" ctime="20231023172613" dir="169807117374bf2a5rxs" file="text.html"/>
+    <record id="1698072057mxpmx7jgmz" name="Сенсорные HMI дисплеи DWIN" author="alensav" url="https://3d-diy.ru/wiki/arduino-displei/sensornye-hmi-displei-dwin/" tags="Сенсорные HMI дисплеи DWIN" ctime="20231023174057" dir="16980720574agry30x8d" file="text.html"/>
    </recordtable>
   </node>
  </content>
