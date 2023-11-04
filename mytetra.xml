@@ -1664,6 +1664,8 @@
   <node crypt="" id="1680087646ryg0iyjity" name="OpenWeathe">
    <recordtable>
     <record id="1680090148mtn3xeq8jq" name="Free OpenWeatherMap-Your API key" author="alensav" url="https://mail.yandex.ru/?uid=72863559#message/182114309931856950" tags="Free OpenWeatherMap" ctime="20230329144228" dir="1680090148moxi4ggoya" file="text.html"/>
+    <record id="1698748096cb3blfzkc2" name="weatherapi" author="alensav" url="https://www.weatherapi.com/my/" tags="weatherapi" ctime="20231031132816" dir="16987480968c7kievy3g" file="text.html"/>
+    <record id="1698748570ii4ygkaukz" name=" 6 лучших бесплатных API погоды на 2023 год:&#10;1. WeatherAPI.com" author="alensav" url="https://rapidapi.com/blog/access-global-weather-data-with-these-weather-apis/" tags="6 лучших бесплатных API погоды " ctime="20231031133610" dir="1698748570uj3jo0m5v9" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="1" icon="" id="1681139485nf80nb0z6l" name="UkM1U0lNUAOMWYigTzU24n7X34sBDiEi0+dt2eA59lk/VLSnM6jC+oL6dteK09nmfnLbXr3oBAE=">
@@ -1773,6 +1775,7 @@
     <record id="1697729288kr2frj9ngy" name="Подключаем дисплей DWIN к ARDUINO по&#10; rs232." author="alensav" url="https://arduino-tex.ru/news/154/podklyuchaem-displei-dwin-k-arduino-po-rs232.html" tags="Подключаем дисплей DWIN к ARDUINO по&#10; rs232." ctime="20231019182808" dir="1697729288o18w1wwen7" file="text.html"/>
     <record id="1698071173hzohb53owd" name="DWIN 7-дюймовый ЖК-модуль" author="alensav" url="https://aliexpress.ru/item/1005003379434413.html?spm=a2g2w.orderdetail.0.0.6d224aa6UlEcl6&amp;sku_id=12000025507268455" tags="DWIN 7-дюймовый ЖК-модуль" ctime="20231023172613" dir="169807117374bf2a5rxs" file="text.html"/>
     <record id="1698072057mxpmx7jgmz" name="Сенсорные HMI дисплеи DWIN" author="alensav" url="https://3d-diy.ru/wiki/arduino-displei/sensornye-hmi-displei-dwin/" tags="Сенсорные HMI дисплеи DWIN" ctime="20231023174057" dir="16980720574agry30x8d" file="text.html"/>
+    <record id="16987667826ly6v26rah" name="Видео уроки ESP Block" author="alensav" url="http://ardublock.ru/youtube/" tags="Видео уроки" ctime="20231031183942" dir="1698766782ehqxwezpvz" file="text.html"/>
    </recordtable>
   </node>
  </content>
