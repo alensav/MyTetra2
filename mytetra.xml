@@ -1779,5 +1779,10 @@
     <record id="16987667826ly6v26rah" name="Видео уроки ESP Block" author="alensav" url="http://ardublock.ru/youtube/" tags="Видео уроки" ctime="20231031183942" dir="1698766782ehqxwezpvz" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1701090806bwi2vsswq2" name="ESPTOOL">
+   <recordtable>
+    <record id="1701090899m25txhpb1u" name="Системный интегратор-Esptool" author="alensav" url="https://adior.ru/index.php/robototekhnika/139-esptool" tags="Esptool" ctime="20231127161459" dir="1701090899vztxu15rrn" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
