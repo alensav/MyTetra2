@@ -1785,6 +1785,7 @@
   <node crypt="" id="1701090806bwi2vsswq2" name="ESPTOOL">
    <recordtable>
     <record id="1701090899m25txhpb1u" name="Системный интегратор-Esptool" author="alensav" url="https://adior.ru/index.php/robototekhnika/139-esptool" tags="Esptool" ctime="20231127161459" dir="1701090899vztxu15rrn" file="text.html"/>
+    <record id="1702314998tkmur3o46h" name="esptool_прошивка" author="alensav" url="￼￼￼http://wiki.amperka.ru/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B:esp8266:esptool" tags="esptool" ctime="20231211201638" dir="1702314998076w8y7d1i" file="text.html"/>
    </recordtable>
   </node>
  </content>
