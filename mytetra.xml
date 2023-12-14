@@ -1759,6 +1759,7 @@
     <record id="16980574975rshza9nmq" name="&#10;Бюджетный отладчик к ESP-32 и его&#10;&#10;настройка" author="alensav" url="https://habr.com/ru/articles/421291/" tags="ESP-32" ctime="20231023133817" dir="1698057497oyvhu9gdmc" file="text.html"/>
     <record id="1698078443bdn3hh40gv" name="Распиновка ESP32" author="alensav" url="https://arduino-tex.ru/news/31/raspinovka-esp32-kakie-kontakty-gpio-mozhno-ispolzovat-a.html" tags="Распиновка ESP32" ctime="20231023192723" dir="1698078443b0xuwz9uau" file="text.html"/>
     <record id="16995525662h5vdhip9q" name="ESP ESP8266-NONOS-SDK" author="alensav" url="https://count-zero.ru/2019/esp_open_sdk_wifi/" tags="esp" ctime="20231109205606" dir="16995525661i5tx1y866" file="text.html"/>
+    <record id="1702581964ura68aicug" name="Обзор модуля ESP32" author="alensav" url="https://habr.com/ru/companies/epam_systems/articles/522730/" tags="Обзор модуля ESP32" ctime="20231214222604" dir="1702581964sqipttgqk4" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1691226148hnfr2458k0" name="QEMU_KVM">
