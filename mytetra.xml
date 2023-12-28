@@ -1764,6 +1764,8 @@
     <record id="1702581964ura68aicug" name="Обзор модуля ESP32" author="alensav" url="https://habr.com/ru/companies/epam_systems/articles/522730/" tags="Обзор модуля ESP32" ctime="20231214222604" dir="1702581964sqipttgqk4" file="text.html"/>
     <record id="170265703318l8ngwkmc" name="Download Sources of OpenOCD" author="alensav" url="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/jtag-debugging/building-openocd-linux.html" tags="Download Sources of OpenOCD" ctime="20231215191713" dir="1702657033l65a26789q" file="text.html"/>
     <record id="1702662808bf2tzoyqyt" name="&#10;Руководство разработчика OpenOCD" author="alensav" url="https://openocd.org/doc/doxygen/html/bugs.html" tags="&#10;Руководство разработчика OpenOCD" ctime="20231215205328" dir="1702662808qps1scmylj" file="text.html"/>
+    <record id="1703692503mgzs3w6wv6" name="&#10;Справочник языка MicroPython" author="alensav" url="https://wikihandbk.com/wiki/MicroPython:%D0%9F%D0%BB%D0%B0%D1%82%D1%8B/ESP32/%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BA_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5_%D1%81_MicroPython_%D0%B4%D0%BB%D1%8F_ESP32" tags="&#10;Справочник языка MicroPython" ctime="20231227185503" dir="1703692503q6319hyvsv" file="text.html"/>
+    <record id="1703693006jeqz03vy3q" name="Урок 2. ESP32 MicroPython. Первая программа" author="alensav" url="https://arduino-tex.ru/news/102/urok-2-esp32-micropython-pervaya-programma.html" tags="Урок 2. ESP32 MicroPython. Первая программа" ctime="20231227190326" dir="17036930063zs5nsjn3i" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1691226148hnfr2458k0" name="QEMU_KVM">
@@ -1793,6 +1795,8 @@
     <record id="1701090899m25txhpb1u" name="Системный интегратор-Esptool" author="alensav" url="https://adior.ru/index.php/robototekhnika/139-esptool" tags="Esptool" ctime="20231127161459" dir="1701090899vztxu15rrn" file="text.html"/>
     <record id="1702314998tkmur3o46h" name="esptool_прошивка" author="alensav" url="￼￼￼http://wiki.amperka.ru/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B:esp8266:esptool" tags="esptool" ctime="20231211201638" dir="1702314998076w8y7d1i" file="text.html"/>
     <record id="1703605371q9mwrlzg8l" name="Загрузки MicroPython&#10;" author="alensav" url="https://micropython-org.translate.goog/download/?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc&amp;_x_tr_sch=http#esp32" tags="Загрузки MicroPython&#10;" ctime="20231226184251" dir="1703605371opm59mnody" file="text.html"/>
+    <record id="1703693483ju02umoczk" name="esptool.py" author="alensav" url="https://docs-espressif-com.translate.goog/projects/esptool/en/latest/esp32/esptool/index.html?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="esptool.py" ctime="20231227191123" dir="17036934830md02xvg0l" file="text.html"/>
+    <record id="1703696142877x4u7apx" name="Установка micropython на ESP8266 и работа с ним под Linux (для&#10;&#10;&#10;&#10; начинающих)" author="alensav" url="https://habr.com/ru/articles/494630/" tags="Установка micropython на ESP8266" ctime="20231227195542" dir="1703696142n85qxxpxe5" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1702900523idympui8y6" name="Ubuntu_Pro">
