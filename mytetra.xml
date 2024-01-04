@@ -1808,5 +1808,10 @@
     <record id="1702900617esvr2izvx1" name="Бесплатный персональный токен" author="alensav" url="https://ubuntu.com/pro/dashboard" tags="Бесплатный персональный токен" ctime="20231218145657" dir="1702900617ze91bvjdk8" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1704279249p0begbnb0a" name="PYTHON_ALTERNATIVE">
+   <recordtable>
+    <record id="1704279343czux3wnvms" name="Управление несколькими версиями Python под управлением Ubuntu 20.04" author="alensav" url="https://habr.com/ru/articles/686186/" tags="Управление несколькими версиями Python под управлением Ubuntu 20.04" ctime="20240103135543" dir="1704279343qxrmrpk4vf" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
