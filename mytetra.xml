@@ -1815,5 +1815,15 @@
     <record id="1704279343czux3wnvms" name="Управление несколькими версиями Python под управлением Ubuntu 20.04" author="alensav" url="https://habr.com/ru/articles/686186/" tags="Управление несколькими версиями Python под управлением Ubuntu 20.04" ctime="20240103135543" dir="1704279343qxrmrpk4vf" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1705136869v5xq7vnbiu" name="WiFi_IOT">
+   <recordtable>
+    <record id="17051371364fi2wprqlq" name="WiFi-Iot" author="alensav" url="https://wifi-iot.com/p/esp32/" tags="WiFi-Iot esp32" ctime="20240113121216" dir="1705137136uibv82v8ia" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="17051383290q5lsbwsyk" name="Gismeteo">
+   <recordtable>
+    <record id="170513837150ziujhh4d" name="Gismeteo informer START" author="alensav" url="https://www.gismeteo.ru/informers/get-code/4NRcpV5M33R6te/" tags="Gismeteo informer START" ctime="20240113123251" dir="1705138371pftsegep58" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
