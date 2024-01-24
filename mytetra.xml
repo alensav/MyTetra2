@@ -1769,6 +1769,7 @@
     <record id="1703693006jeqz03vy3q" name="Урок 2. ESP32 MicroPython. Первая программа" author="alensav" url="https://arduino-tex.ru/news/102/urok-2-esp32-micropython-pervaya-programma.html" tags="Урок 2. ESP32 MicroPython. Первая программа" ctime="20231227190326" dir="17036930063zs5nsjn3i" file="text.html"/>
     <record id="1704394321szhcu3xmxa" name="Плата ESP32 DEVKIT V1 имеет 30 выводов " author="alensav" url="https://myrobot.ru/wiki/index.php?n=Experiences.Esp32Pinout" tags="Плата ESP32 DEVKIT V1 имеет 30 выводов " ctime="20240104215201" dir="1704394321vztgp1xzu0" file="text.html"/>
     <record id="1706026255w9am0pwgpm" name="ESP32 и Ардуино" author="alensav" url="https://habr.com/ru/articles/404685/" tags="ESP32 и Ардуино" ctime="20240123191055" dir="1706026255l73pluuwng" file="text.html"/>
+    <record id="1706120132gq3z8m5cpn" name="Программирование устройств на основе модуля ESP32" author="alensav" url="https://habr.com/ru/companies/epam_systems/articles/522730/" tags="Программирование устройств на основе модуля ESP32" ctime="20240124211532" dir="17061201320eg1tuvqdw" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1691226148hnfr2458k0" name="QEMU_KVM">
