@@ -1832,5 +1832,10 @@
     <record id="1706986712u3eyzk3mdc" name="UkM1U0lNUAOQkncrquK8aoejeDb7pCN/+QTS1UZS004cWs3ZqwMK+5CJiLyGh1TvTU//wHurWwb2dj10O35bjgMUESk1xy6NLTLEPfxtGX4H8SK8r2ZHIi12Tj6RkZhra+1FOtE/JyeOaluvWoMebRXddNRUyvnHLzcOLGA/zcKmtN3O10EIqg==" author="UkM1U0lNUANQkIE0xmFeVhd46/UXD4x9lnBYbG5AJ2kus3biaJN6IQig0Aj2HcZo" url="UkM1U0lNUAMFrZ92RHnG1BWR5WDbhHMSNYFaSkLfUcGTevsLRqsYdVxr8/KoXZyHe+HK5mGmfLdsJ+ZRziBvCDnpoQ9UKOqj" tags="UkM1U0lNUAOLkHmko6TfqBcroG0IYrIBBsOn7zg2ZWcaGFDLxR/vhSyO+13Q+pMZaMdUSGVJ1sGN+3TAiZtEqalK8beQwFDLydLJtypHTqfPW4WrgvPW3aksZNSTKVCUShoJtrDCBylu0cGb4DW1VWFVhNQI0ZpkDb1/KxaYJF1dA7i3hMNePg==" ctime="20240203215832" dir="1706986712v6gd3dwdld" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1707125023xxh9es0uy3" name="ALIEXPRESS">
+   <recordtable>
+    <record id="1707125212fw1o6g1zp0" name="AHT20+BMP280" author="alensav" url="https://rxtx.su/mikrokontrollery/arduino/moduli-i-datchiki-k-arduino/podklyuchenie-datchika-atmosfernogo-davleniya-bmp280-k-arduino/" tags="AHT20 BMP280" ctime="20240205122652" dir="1707125212bd1k791174" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
