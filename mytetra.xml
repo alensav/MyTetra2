@@ -1835,6 +1835,7 @@
   <node crypt="" id="1707125023xxh9es0uy3" name="ALIEXPRESS">
    <recordtable>
     <record id="1707125212fw1o6g1zp0" name="AHT20+BMP280" author="alensav" url="https://rxtx.su/mikrokontrollery/arduino/moduli-i-datchiki-k-arduino/podklyuchenie-datchika-atmosfernogo-davleniya-bmp280-k-arduino/" tags="AHT20 BMP280" ctime="20240205122652" dir="1707125212bd1k791174" file="text.html"/>
+    <record id="17071279918q6kkc2xv3" name="SHT30 Описание:" author="alensav" url="https://aliexpress.ru/item/32700729302.html?spm=a2g2w.orderdetail.0.0.4bfa4aa6wv8R8L&amp;sku_id=12000027209732365" tags="SHT30 " ctime="20240205131311" dir="17071279910jf6hn09y8" file="text.html"/>
    </recordtable>
   </node>
  </content>
