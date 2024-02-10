@@ -1837,6 +1837,10 @@
     <record id="1707125212fw1o6g1zp0" name="AHT20+BMP280" author="alensav" url="https://rxtx.su/mikrokontrollery/arduino/moduli-i-datchiki-k-arduino/podklyuchenie-datchika-atmosfernogo-davleniya-bmp280-k-arduino/" tags="AHT20 BMP280" ctime="20240205122652" dir="1707125212bd1k791174" file="text.html"/>
     <record id="17071279918q6kkc2xv3" name="SHT30 Описание:" author="alensav" url="https://aliexpress.ru/item/32700729302.html?spm=a2g2w.orderdetail.0.0.4bfa4aa6wv8R8L&amp;sku_id=12000027209732365" tags="SHT30 " ctime="20240205131311" dir="17071279910jf6hn09y8" file="text.html"/>
     <record id="1707207694jp7yf2jzjt" name="Интерфейс I2S PCM5102A Декодер ЦАП GY-PCM5102 Модуль Плеера I2S" author="alensav" url="Интерфейс I2S PCM5102A Декодер ЦАП GY-PCM5102 Модуль Плеера I2S" tags="Интерфейс I2S PCM5102A Декодер ЦАП GY-PCM5102 Модуль Плеера I2S" ctime="20240206112134" dir="170720769466xxujh32r" file="text.html"/>
+    <record id="17072083214mksbg9gwo" name="esp32+pcm5102" author="alensav" url="https://arduino.ru/forum/proekty/wi-fi-internet-radio?page=103" tags="esp32 pcm5102" ctime="20240206113201" dir="17072083211ig2hd9k0i" file="text.html"/>
+    <record id="1707209176evt2a66q6v" name="Интернет радио ESP32 на декодере I2S PCM5102" author="alensav" url="https://www.youtube.com/watch?v=Y-Z3V-7zY3g" tags="Интернет радио ESP32 на декодере I2S PCM5102" ctime="20240206114616" dir="1707209176uai4llde36" file="text.html"/>
+    <record id="17072280975a55toczl0" name="Собираю wi-fi radio - Esp radio Edzelf" author="alensav" url="https://www.youtube.com/watch?v=jM1GThc1LqE&amp;t=487s" tags="Собираю wi-fi radio - Esp radio Edzelf" ctime="20240206170137" dir="1707228097xizl2cbbgd" file="text.html"/>
+    <record id="1707228499e2r97b7aju" name="Собираю KaRadio32 - интернет радио на основе модулей ESP32" author="alensav" url="https://www.youtube.com/watch?v=LVJA0tr3Png" tags="Собираю KaRadio32 - интернет радио на основе модулей ESP32" ctime="20240206170819" dir="1707228499h185nsgag6" file="text.html"/>
    </recordtable>
   </node>
  </content>
