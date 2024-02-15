@@ -1770,6 +1770,8 @@
     <record id="1704394321szhcu3xmxa" name="Плата ESP32 DEVKIT V1 имеет 30 выводов " author="alensav" url="https://myrobot.ru/wiki/index.php?n=Experiences.Esp32Pinout" tags="Плата ESP32 DEVKIT V1 имеет 30 выводов " ctime="20240104215201" dir="1704394321vztgp1xzu0" file="text.html"/>
     <record id="1706026255w9am0pwgpm" name="ESP32 и Ардуино" author="alensav" url="https://habr.com/ru/articles/404685/" tags="ESP32 и Ардуино" ctime="20240123191055" dir="1706026255l73pluuwng" file="text.html"/>
     <record id="1706120132gq3z8m5cpn" name="Программирование устройств на основе модуля ESP32" author="alensav" url="https://habr.com/ru/companies/epam_systems/articles/522730/" tags="Программирование устройств на основе модуля ESP32" ctime="20240124211532" dir="17061201320eg1tuvqdw" file="text.html"/>
+    <record id="1707895212lak6ogauh0" name="Интернет-радио ESP32" author="alensav" url="https://dzen.ru/a/X4DDphCcZWJ-u2yg" tags="Интернет-радио ESP32" ctime="20240214102012" dir="17078952125mfv4b2t7k" file="text.html"/>
+    <record id="1707919106rmeq9pr2gk" name="esp32_RADIO3" author="alensav" url="http://rcl-radio.ru/?p=111051" tags="esp32_RAD" ctime="20240214165826" dir="1707919106y7to2x1g0t" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1691226148hnfr2458k0" name="QEMU_KVM">
