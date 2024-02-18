@@ -1773,6 +1773,7 @@
     <record id="1707895212lak6ogauh0" name="Интернет-радио ESP32" author="alensav" url="https://dzen.ru/a/X4DDphCcZWJ-u2yg" tags="Интернет-радио ESP32" ctime="20240214102012" dir="17078952125mfv4b2t7k" file="text.html"/>
     <record id="1707919106rmeq9pr2gk" name="esp32_RADIO3" author="alensav" url="http://rcl-radio.ru/?p=111051" tags="esp32_RAD" ctime="20240214165826" dir="1707919106y7to2x1g0t" file="text.html"/>
     <record id="17079913340l6qkh7ymw" name="Список потоков вещающих радиостанций" author="alensav" url="https://espradio.ru/stream_list/" tags="Список потоков вещающих радиостанций" ctime="20240215130214" dir="1707991334njoeviqsuw" file="text.html"/>
+    <record id="1708018585zso4kchqsg" name="Мобильный портал Интернет-Радио" author="alensav" url="https://pda.e-radio.ru/" tags="Мобильный портал Интернет-Радио" ctime="20240215203625" dir="1708018585gjq3wjl2l7" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1691226148hnfr2458k0" name="QEMU_KVM">
