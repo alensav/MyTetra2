@@ -1853,5 +1853,10 @@
     <record id="1708682265dcczzqtkf2" name="Ошибка загрузки wxPython" author="alensav" url="https://discuss-wxpython-org.translate.goog/t/downloading-wxpython-error-with-windows/35939?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc&amp;_x_tr_hist=true" tags="Ошибка загрузки wxPython" ctime="20240223125745" dir="1708682265ifankzmwoo" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1708856509l6zb8i04f3" name="Linux_RUSSIAN">
+   <recordtable>
+    <record id="170885657696pksan3th" name="Linux_INSTRUCTION" author="alensav" url="https://rus-linux.net/MyLDP/vm/docker/docker05.html" tags="linux" ctime="20240225132256" dir="17088565764q91lyklz2" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
