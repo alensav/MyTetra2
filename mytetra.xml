@@ -1330,7 +1330,7 @@
   </node>
   <node crypt="1" icon="UkM1U0lNUAOJUCgW+zXsIiycdpVtbBvqiUBi7AokUEujZkG+0otYE7KS2GvteRnzWgacHsF6Vk1jdmGJIinUYoQaNdH9yrUU4IhMjJKflMk=" id="16136654772yl49sahzq" name="UkM1U0lNUAPVJy3YeyECibCkdPmcST1xsXzUkXM5XcxPuWpgaGquG9LlUABRB0c2TXQSWXHM2LI=">
    <recordtable>
-    <record id="1613665538qondaf7gpn" name="UkM1U0lNUAMvVI7rIq27a/ZqzcpNXRZkB21T/4Kbp2THDi0W6AsYjzTK8pxRsQhOHV8mDeqU8UU6Lg+Mii4cnA==" author="UkM1U0lNUAPQSGPgA5TtXKS6voPZnbPU7/5aGSO54tPkQpTrr937x/HeaFoBNl+x" url="" tags="UkM1U0lNUAPAarXvv0Pb4VbD4Agy7P8UgsnH77qZx+GMCRwIdtzb9ICmS4ULIB4ecQig632nZBaQ9G4/lxh9Ug==" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html" crypt="1">
+    <record id="1613665538qondaf7gpn" name="UkM1U0lNUANXVN+gBz9A0rMDQgnWe18Hxn+HZofUxap+YT7IGV+CYWbHD3He0gc+4AnSo3bvm9PfaF3EZwiRPA==" author="UkM1U0lNUAOgy3A/B2t+M5IyGDCKfE5HN73Zpja3Nadcv/FOHAk1LHQTFeDFYuOe" url="" tags="UkM1U0lNUAPdO+Y0j8XVlgGlIsFAovVMoB+h+0uoH2OsxXrgmK+zSIau0idRdpPyjk5kyuv4hBC6tnFi9MNEXA==" ctime="20210218192538" dir="1613665538h56i9vakdq" file="text.html" crypt="1">
      <files>
       <file id="1613897870at5mnmf63b" fileName="UkM1U0lNUAODie1xWN3iCC2ucgkvZnyFlx2Q+w4PGkCjwkefLBU7w1NSfUl0c29cckkAGBaOX4Q=" link="UkM1U0lNUANDAp8xc/cOVR4pXhp8C9OS2RcADjtJ9CvWNw70744/bN3+hJ3emdl6M8jwf/JLsLfFR2jh8JaD4PuqwMHw2DQ9/qA5rhKlTxj4Vn4ZLwDKp53aWikNRTwYEX9eKGqCOJ0=" type="link" crypt="1"/>
      </files>
@@ -1862,6 +1862,7 @@
   <node crypt="" id="1708870046fnf4f85jj1" name="DOCKER">
    <recordtable>
     <record id="17088702150ip80q2x7o" name="docker_sav" author="alensav" url="https://fornex.com/ru/help/docker-ubuntu-18-04/" tags="docker" ctime="20240225171015" dir="1708870215bds9yms9i7" file="text.html"/>
+    <record id="1709054322vgkydgk63a" name="alensav@u2 контейнер" author="alensav" url="" tags="u2 контейнер" ctime="20240227201842" dir="17090543224pi8o93a2b" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1708872006gfp9xsdnz3" name="CLOUD_PANEL">
