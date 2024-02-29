@@ -1863,6 +1863,7 @@
    <recordtable>
     <record id="17088702150ip80q2x7o" name="docker_sav" author="alensav" url="https://fornex.com/ru/help/docker-ubuntu-18-04/" tags="docker" ctime="20240225171015" dir="1708870215bds9yms9i7" file="text.html"/>
     <record id="1709054322vgkydgk63a" name="alensav@u2 контейнер" author="alensav" url="" tags="u2 контейнер" ctime="20240227201842" dir="17090543224pi8o93a2b" file="text.html"/>
+    <record id="1709148750z1te76ailu" name="LXC" author="alensav" url="https://help.ubuntu.ru/wiki/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_ubuntu_server/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/lxc" tags="LXC" ctime="20240228223230" dir="1709148750ncjhmdx17o" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1708872006gfp9xsdnz3" name="CLOUD_PANEL">
