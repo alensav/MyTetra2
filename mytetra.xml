@@ -1866,6 +1866,7 @@
     <record id="1709148750z1te76ailu" name="LXC" author="alensav" url="https://help.ubuntu.ru/wiki/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_ubuntu_server/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/lxc" tags="LXC" ctime="20240228223230" dir="1709148750ncjhmdx17o" file="text.html"/>
     <record id="1709189599bf0pnmplmr" name="Туториал по контейнеризации при помощи LXC" author="alensav" url="https://eax.me/lxc/" tags="lxc" ctime="20240229095319" dir="1709189599oy0bq829rd" file="text.html"/>
     <record id="1709227338o4u28u112x" name="LXC contanier" author="alensav" url="https://habr.com/ru/articles/496492/" tags="LXC" ctime="20240229202218" dir="1709227338wlfynijyyi" file="text.html"/>
+    <record id="170922794613ffprtbck" name="LXC и Docker" author="alensav" url="https://habr.com/ru/companies/selectel/articles/308208/" tags="LXC и Docker" ctime="20240229203226" dir="1709227946828f58803d" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1708872006gfp9xsdnz3" name="CLOUD_PANEL">
