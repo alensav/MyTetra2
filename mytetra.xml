@@ -273,6 +273,8 @@
      <record id="1690744447e4xrlnzwwd" name="Atom 32bit" author="alensav" url="https://askubuntu-com.translate.goog/questions/641239/how-i-can-create-a-32-bit-version-of-atom?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="Atom 32bit" ctime="20230730221407" dir="1690744447ga9vyhyoou" file="text.html"/>
      <record id="1690885424epg0gwxy5p" name="sav-webmin" author="alensav" url="" tags="webmin" ctime="20230801132344" dir="1690885424x1v8stxji0" file="text.html"/>
      <record id="1690886655g3nat2nlyu" name="Установка Webmin в Ubuntu 18.04" author="alensav" url="https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu-18-04-ru" tags="Установка Webmin в Ubuntu 18.04" ctime="20230801134415" dir="1690886655yydu9xru2l" file="text.html"/>
+     <record id="1709577972gzj5x9bfi6" name="Команды с помощью Anacron" author="alensav" url="https://habr.com/ru/companies/first/articles/682544/" tags="Anacron" ctime="20240304214612" dir="17095779727is0z77e1b" file="text.html"/>
+     <record id="17095791328vq890f9ae" name="Crontab и отправка почты" author="alensav" url="https://grishaev.me/cron-mail/" tags="Crontab и отправка почты" ctime="20240304220532" dir="1709579132oha7n1wmxt" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
