@@ -275,6 +275,7 @@
      <record id="1690886655g3nat2nlyu" name="Установка Webmin в Ubuntu 18.04" author="alensav" url="https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu-18-04-ru" tags="Установка Webmin в Ubuntu 18.04" ctime="20230801134415" dir="1690886655yydu9xru2l" file="text.html"/>
      <record id="1709577972gzj5x9bfi6" name="Команды с помощью Anacron" author="alensav" url="https://habr.com/ru/companies/first/articles/682544/" tags="Anacron" ctime="20240304214612" dir="17095779727is0z77e1b" file="text.html"/>
      <record id="17095791328vq890f9ae" name="Crontab и отправка почты" author="alensav" url="https://grishaev.me/cron-mail/" tags="Crontab и отправка почты" ctime="20240304220532" dir="1709579132oha7n1wmxt" file="text.html"/>
+     <record id="17097523181gg5rvn6z3" name="CRON cloud" author="alensav" url="https://healthchecks.io/" tags="cron cloud" ctime="20240306221158" dir="17097523187dym6n6417" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -1874,6 +1875,11 @@
   <node crypt="" id="1708872006gfp9xsdnz3" name="CLOUD_PANEL">
    <recordtable>
     <record id="17088720734619crnpij" name="Cloud_Panel_SAV" author="alensav" url="https://fornex.com/ru/help/cloud-panel/" tags="cloud panel" ctime="20240225174113" dir="17088720734qpiml8061" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="17097499295papp6oldg" name="SAV">
+   <recordtable>
+    <record id="1709750030plwf46mbje" name="Гайд Для Новичков Arduino" author="alensav" url="https://alexgyver.ru/arduino-first/#%E2%96%B6%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_AlexGyver%E2%97%80" tags="Гайд Для Новичков Arduino" ctime="20240306213350" dir="1709750030znjffcbp6f" file="text.html"/>
    </recordtable>
   </node>
  </content>
