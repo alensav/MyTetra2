@@ -1881,6 +1881,11 @@
    <recordtable>
     <record id="1709750030plwf46mbje" name="Гайд Для Новичков Arduino" author="alensav" url="https://alexgyver.ru/arduino-first/#%E2%96%B6%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_AlexGyver%E2%97%80" tags="Гайд Для Новичков Arduino" ctime="20240306213350" dir="1709750030znjffcbp6f" file="text.html"/>
    </recordtable>
+   <node crypt="" id="1712995809dct78ljpal" name="SAV_PLAN">
+    <recordtable>
+     <record id="1712995903z10k4lbfqq" name="SUMMER_DUSH" author="alensaves" url="" tags="esp8266" ctime="20240413111143" dir="1712995903zsh8fp9euj" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
  </content>
 </root>
