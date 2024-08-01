@@ -1781,6 +1781,8 @@
     <record id="1707919106rmeq9pr2gk" name="esp32_RADIO3" author="alensav" url="http://rcl-radio.ru/?p=111051" tags="esp32_RAD" ctime="20240214165826" dir="1707919106y7to2x1g0t" file="text.html"/>
     <record id="17079913340l6qkh7ymw" name="Список потоков вещающих радиостанций" author="alensav" url="https://espradio.ru/stream_list/" tags="Список потоков вещающих радиостанций" ctime="20240215130214" dir="1707991334njoeviqsuw" file="text.html"/>
     <record id="1708018585zso4kchqsg" name="Мобильный портал Интернет-Радио" author="alensav" url="https://pda.e-radio.ru/" tags="Мобильный портал Интернет-Радио" ctime="20240215203625" dir="1708018585gjq3wjl2l7" file="text.html"/>
+    <record id="1722269183b0bsv7yye2" name="Бюджетный отладчик к ESP-32 и его настройка" author="alensav" url="https://habr.com/ru/articles/421291/" tags="Бюджетный отладчик к ESP-32 и его настройка" ctime="20240729190623" dir="1722269183dxj67wm299" file="text.html"/>
+    <record id="1722273003rek8wd3mv7" name="о настройке среды разработки esp-idf " author="alensav" url="https://habr.com/ru/articles/575098/" tags="о настройке среды разработки esp-idf " ctime="20240729201003" dir="1722273003bcw4jm7hbh" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1691226148hnfr2458k0" name="QEMU_KVM">
