@@ -276,6 +276,7 @@
      <record id="1709577972gzj5x9bfi6" name="Команды с помощью Anacron" author="alensav" url="https://habr.com/ru/companies/first/articles/682544/" tags="Anacron" ctime="20240304214612" dir="17095779727is0z77e1b" file="text.html"/>
      <record id="17095791328vq890f9ae" name="Crontab и отправка почты" author="alensav" url="https://grishaev.me/cron-mail/" tags="Crontab и отправка почты" ctime="20240304220532" dir="1709579132oha7n1wmxt" file="text.html"/>
      <record id="17097523181gg5rvn6z3" name="CRON cloud" author="alensav" url="https://healthchecks.io/" tags="cron cloud" ctime="20240306221158" dir="17097523187dym6n6417" file="text.html"/>
+     <record id="1722697880mf841m92ds" name="Установка и настройка Samba " author="alensav" url="https://selectel.ru/blog/tutorials/how-to-install-and-configure-samba-on-ubuntu-20-04/" tags="Установка и настройка Samba " ctime="20240803181120" dir="1722697880mxbytwsoqm" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
