@@ -1938,5 +1938,10 @@
     <record id="1721989028x1q792yovj" name="DWIN Forum" author="alensav" url="https://dwin-russia.ru/forum/" tags="DWIN Forum" ctime="20240726131708" dir="1721989028w75znwxwjw" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="17229705345vtgddo1xc" name="RUTUBE">
+   <recordtable>
+    <record id="1722970670w4mor0kn4o" name="RUTUBE" author="alensav" url="https://sandalov.org/blog/1128/" tags="rutube" ctime="20240806215750" dir="1722970670qgjwh5iei2" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
