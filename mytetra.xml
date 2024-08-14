@@ -1942,6 +1942,11 @@
    <recordtable>
     <record id="1722970670w4mor0kn4o" name="RUTUBE" author="alensav" url="https://sandalov.org/blog/1128/" tags="rutube" ctime="20240806215750" dir="1722970670qgjwh5iei2" file="text.html"/>
    </recordtable>
+   <node crypt="1" icon="" id="1723568948mdckf3f1t0" name="UkM1U0lNUAMRvSQ285FVx4z0g354E7X/1qWTBw8Cj5RP00BxPHd5SuKnR0XQ3e0WOURhdieQnjM=">
+    <recordtable>
+     <record id="1723568999a24gr23z50" name="UkM1U0lNUAMloLTpZMtJOULuRrOaX8IjAFgQDTS+WkChMn0YtN9VF5TmRytEmGLo9Vh9cMtWpCE=" author="UkM1U0lNUAPya+EYC5UBb1BlNOr+qpqR0N9QaASvSaO1bt+KLqI+sHGZeA92RPv3" url="" tags="UkM1U0lNUAOSP4PTgVLG7Bi6Okyftoq2iI6pGdy7yehathHSKq0fxVpqzGC8rCCHwVlIMlltLMo=" ctime="20240813200959" dir="1723568999wgqijn9utk" file="text.html" crypt="1"/>
+    </recordtable>
+   </node>
   </node>
  </content>
 </root>
