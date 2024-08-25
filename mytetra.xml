@@ -278,6 +278,7 @@
      <record id="17095791328vq890f9ae" name="Crontab и отправка почты" author="alensav" url="https://grishaev.me/cron-mail/" tags="Crontab и отправка почты" ctime="20240304220532" dir="1709579132oha7n1wmxt" file="text.html"/>
      <record id="17097523181gg5rvn6z3" name="CRON cloud" author="alensav" url="https://healthchecks.io/" tags="cron cloud" ctime="20240306221158" dir="17097523187dym6n6417" file="text.html"/>
      <record id="1722697880mf841m92ds" name="Установка и настройка Samba " author="alensav" url="https://selectel.ru/blog/tutorials/how-to-install-and-configure-samba-on-ubuntu-20-04/" tags="Установка и настройка Samba " ctime="20240803181120" dir="1722697880mxbytwsoqm" file="text.html"/>
+     <record id="1724494953gfwnyb3yhl" name="Установка и настройка Samba на Ubuntu 20.04" author="alensav" url="https://selectel.ru/blog/tutorials/how-to-install-and-configure-samba-on-ubuntu-20-04/" tags="Установка и настройка Samba на Ubuntu " ctime="20240824132233" dir="1724494953ixnr3lftg5" file="text.html"/>
     </recordtable>
     <node crypt="" id="154382674372he9wscu4" name="GitLab">
      <recordtable>
@@ -1963,6 +1964,11 @@
      </record>
     </recordtable>
    </node>
+  </node>
+  <node crypt="" id="1724511943fj5lk9e0yp" name="REMOTE">
+   <recordtable>
+    <record id="1724512041w3zk5lwqap" name="Remote connector" author="alensav" url="https://www.cloud4y.ru/blog/linux-utilities-remote-server/" tags="Remote connector" ctime="20240824180721" dir="1724512041ae4wqguhu9" file="text.html"/>
+   </recordtable>
   </node>
  </content>
 </root>
