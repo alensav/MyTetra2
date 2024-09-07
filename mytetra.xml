@@ -1852,7 +1852,7 @@
     <record id="1716715809ya6leuxjub" name="UkM1U0lNUAN5tSnqTNtJxHyBNDwyD33v76aCH5P0o3woxRJgQmxTy8GQzRRLWuwpVmieuTiK6j4r/uLxj6kj2H9P1q25uRt0" author="UkM1U0lNUANA+b8qRZt0CruyNQcZha6fIqPvx5lyTjfmVlDqTpI86gS+/lPr+Xde" url="UkM1U0lNUAPN78SVM1rVLOL39hVm10wq4cY4SDT2+iJtodQIDy2PgNxig2112BgzMr0FJ4QHhik1YdMHYIBYtuC54+yOR56kxReacwJnd1g=" tags="UkM1U0lNUANP6x4+r7NxCU+Fx4oLUoRkOzk/G/Cxsx50zI/xomUcQ3/0NPTSN7oGNSyl19i6k0cSWofLjTrbu0P4K4bHyYO4" ctime="20240526123009" dir="1716715809att9px869r" file="text.html" crypt="1"/>
    </recordtable>
   </node>
-  <node crypt="" id="1707125023xxh9es0uy3" name="ALIEXPRESS">
+  <node crypt="" icon="/SmashingTourism/nocolor_smashing_tourism_Tourism-Icons_beach-house.svg" id="1707125023xxh9es0uy3" name="ALIEXPRESS">
    <recordtable>
     <record id="1707125212fw1o6g1zp0" name="AHT20+BMP280" author="alensav" url="https://rxtx.su/mikrokontrollery/arduino/moduli-i-datchiki-k-arduino/podklyuchenie-datchika-atmosfernogo-davleniya-bmp280-k-arduino/" tags="AHT20 BMP280" ctime="20240205122652" dir="1707125212bd1k791174" file="text.html"/>
     <record id="17071279918q6kkc2xv3" name="SHT30 Описание:" author="alensav" url="https://aliexpress.ru/item/32700729302.html?spm=a2g2w.orderdetail.0.0.4bfa4aa6wv8R8L&amp;sku_id=12000027209732365" tags="SHT30 " ctime="20240205131311" dir="17071279910jf6hn09y8" file="text.html"/>
@@ -1861,6 +1861,10 @@
     <record id="1707209176evt2a66q6v" name="Интернет радио ESP32 на декодере I2S PCM5102" author="alensav" url="https://www.youtube.com/watch?v=Y-Z3V-7zY3g" tags="Интернет радио ESP32 на декодере I2S PCM5102" ctime="20240206114616" dir="1707209176uai4llde36" file="text.html"/>
     <record id="17072280975a55toczl0" name="Собираю wi-fi radio - Esp radio Edzelf" author="alensav" url="https://www.youtube.com/watch?v=jM1GThc1LqE&amp;t=487s" tags="Собираю wi-fi radio - Esp radio Edzelf" ctime="20240206170137" dir="1707228097xizl2cbbgd" file="text.html"/>
     <record id="1707228499e2r97b7aju" name="Собираю KaRadio32 - интернет радио на основе модулей ESP32" author="alensav" url="https://www.youtube.com/watch?v=LVJA0tr3Png" tags="Собираю KaRadio32 - интернет радио на основе модулей ESP32" ctime="20240206170819" dir="1707228499h185nsgag6" file="text.html"/>
+    <record id="17256407926q98jmy42i" name="Aliexpress-06-09-2024" author="alensav" url="https://aliexpress.ru/item/1005006605191297.html?spm=a2g2w.orderdetail.0.0.6dbf4aa62J27GB&amp;sku_id=12000037796881262" tags="Макетная плата ESP32-C3" ctime="20240906193952" dir="1725640792mcwu50uvxb" file="text.html"/>
+    <record id="17256413192g4f3joppc" name="ЗАКАЗ Aliexpress-06-09-2024_2" author="alensav" url="https://aliexpress.ru/item/1005005459091845.html?spm=a2g2w.orderdetail.0.0.120d4aa6NEGU7k&amp;sku_id=12000033164434847" tags="Модуль питания AMS1117-3,3 В / 5 В" ctime="20240906194839" dir="17256413197nk2kqgcau" file="text.html"/>
+    <record id="1725641777np4i2avogu" name="ЗАКАЗ Aliexpress-06-09-2024_3" author=" alensav" url="https://aliexpress.ru/item/1005001578811338.html?spm=a2g2w.orderdetail.0.0.12a94aa6KDBkZ4&amp;sku_id=12000016666727962" tags="ESP-01 ESP8266 серийный WIFI беспроводной модуль беспроводной приемопередатчик" ctime="20240906195617" dir="17256417770ovwwpapw7" file="text.html"/>
+    <record id="172564210839s9x2nsuo" name="ЗАКАЗ Aliexpress-06-09-2024_4" author="alensav" url="https://aliexpress.ru/item/1005004828622501.html?sku_id=12000037068112789" tags="светодиодная лампа F8 8 мм 0,5 Вт 3,0-3,2 в" ctime="20240906200148" dir="1725642108azpif0rgmj" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="17085900347u88l73x7h" name="LUA">
