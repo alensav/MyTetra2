@@ -1988,5 +1988,15 @@
     <record id="1731082518ojne9vdcvo" name="СОВЕТЫ (Краткие заметки, Tips) (все на одной странице" author="alensav" url="https://www.opennet.ru/tips/big/index.htm" tags="СОВЕТЫ" ctime="20241108191518" dir="17310825189yeiyxe2fq" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1731677599k5ejm794xr" name="FORUM">
+   <recordtable>
+    <record id="1731677683jqjhyc19kk" name="forum_sav" author="alensav" url="" tags="forum" ctime="20241115163443" dir="1731677683obqoihzzur" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1731680260d8log24t5b" name="УДО">
+   <recordtable>
+    <record id="1731680319hmo447anu5" name="УДО_САА" author="alensav" url="http://www.kiruchenko.ru/udo/dok.php" tags="удо" ctime="20241115171839" dir="1731680319sqry3156ck" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
