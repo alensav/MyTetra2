@@ -1998,5 +1998,10 @@
     <record id="1731680319hmo447anu5" name="УДО_САА" author="alensav" url="http://www.kiruchenko.ru/udo/dok.php" tags="удо" ctime="20241115171839" dir="1731680319sqry3156ck" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1731864125pq5zta6hhi" name="ESP8266">
+   <recordtable>
+    <record id="1731864212yosipv7c2d" name="ESP8266-1" author="alensav" url="https://tproger.ru/articles/about-esp8266" tags="ESP8266" ctime="20241117202332" dir="1731864212f58nke1qr4" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
