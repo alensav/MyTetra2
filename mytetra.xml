@@ -2001,6 +2001,13 @@
   <node crypt="" id="1731864125pq5zta6hhi" name="ESP8266">
    <recordtable>
     <record id="1731864212yosipv7c2d" name="ESP8266-1" author="alensav" url="https://tproger.ru/articles/about-esp8266" tags="ESP8266" ctime="20241117202332" dir="1731864212f58nke1qr4" file="text.html"/>
+    <record id="1732208491gqllwi9ewe" name="AT-command" author="alensaqv" url="https://radioprog.ru/post/397" tags="AT" ctime="20241121200131" dir="17322084914ab0zzt60v" file="text.html"/>
+    <record id="1732209236gf7x7miy5j" name="Прошивка по воздуху ESP8266" author="alensav" url="https://www.drive2.ru/b/595429253101658419/" tags="Прошивка по воздуху ESP8266" ctime="20241121201356" dir="1732209236aa3i0ff587" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1732209842csg1ou6o8x" name="GITVERSE">
+   <recordtable>
+    <record id="1732209938938bfh3ivw" name="￼￼￼GITVERSE" author="alensav" url="https://gitverse.ru/dashboard" tags="￼GITVERSE" ctime="20241121202538" dir="1732209938wykgulbudt" file="text.html"/>
    </recordtable>
   </node>
  </content>
