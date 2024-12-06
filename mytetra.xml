@@ -2016,5 +2016,10 @@
     <record id="1732209938938bfh3ivw" name="￼￼￼GITVERSE" author="alensav" url="https://gitverse.ru/dashboard" tags="￼GITVERSE" ctime="20241121202538" dir="1732209938wykgulbudt" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="17332476365zdna7bsj7" name="MOSQUITT_SETTING">
+   <recordtable>
+    <record id="1733248147o66z539sjb" name="mosquitto_setting" author="alensav" url="" tags="mosquitto_setting" ctime="20241203204907" dir="1733248147ceox7xnyya" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
