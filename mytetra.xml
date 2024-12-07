@@ -2019,6 +2019,7 @@
   <node crypt="" id="17332476365zdna7bsj7" name="MOSQUITT_SETTING">
    <recordtable>
     <record id="1733248147o66z539sjb" name="mosquitto_setting" author="alensav" url="" tags="mosquitto_setting" ctime="20241203204907" dir="1733248147ceox7xnyya" file="text.html"/>
+    <record id="1733582976y1qbtluv8h" name="SETTING_MOSQUITTO" author="alensav" url="https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-the-mosquitto-mqtt-messaging-broker-on-ubuntu-18-04-quickstart?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="SETTING_MOSQUITTO" ctime="20241207174936" dir="173358297650m0vbj3g2" file="text.html"/>
    </recordtable>
   </node>
  </content>
