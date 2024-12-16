@@ -2022,6 +2022,7 @@
     <record id="1733582976y1qbtluv8h" name="SETTING_MOSQUITTO" author="alensav" url="https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-the-mosquitto-mqtt-messaging-broker-on-ubuntu-18-04-quickstart?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="SETTING_MOSQUITTO" ctime="20241207174936" dir="173358297650m0vbj3g2" file="text.html"/>
     <record id="1733818335nayedvdfnv" name="Как настроить конфигурационный файл moquitto 2" author="alensav" url="" tags="mosquitto" ctime="20241210111215" dir="1733818335dubqlrl7p2" file="text.html"/>
     <record id="1733822866jkzxwul3ig" name="Mosquitto 2.0" author="alensav" url="https://mosquitto-org.translate.goog/documentation/migrating-to-2-0/?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="Mosquitto 2.0" ctime="20241210122746" dir="1733822866yenj4r8iqv" file="text.html"/>
+    <record id="1734289170lv8s16s1bq" name="Наладка mosquitto" author="alensav" url="" tags="Наладка mosquitto" ctime="20241215215930" dir="1734289170ikuk8jv3wq" file="text.html"/>
    </recordtable>
   </node>
  </content>
