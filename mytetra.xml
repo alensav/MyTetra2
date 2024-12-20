@@ -2023,6 +2023,8 @@
     <record id="1733818335nayedvdfnv" name="Как настроить конфигурационный файл moquitto 2" author="alensav" url="" tags="mosquitto" ctime="20241210111215" dir="1733818335dubqlrl7p2" file="text.html"/>
     <record id="1733822866jkzxwul3ig" name="Mosquitto 2.0" author="alensav" url="https://mosquitto-org.translate.goog/documentation/migrating-to-2-0/?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="Mosquitto 2.0" ctime="20241210122746" dir="1733822866yenj4r8iqv" file="text.html"/>
     <record id="1734289170lv8s16s1bq" name="Наладка mosquitto" author="alensav" url="" tags="Наладка mosquitto" ctime="20241215215930" dir="1734289170ikuk8jv3wq" file="text.html"/>
+    <record id="1734621858myxf056rbs" name="Клиенты MQTT" author="alensav" url="https://aiu.susu.ru/iot/fake-lamp" tags="Клиенты MQTT" ctime="20241219182418" dir="17346218587yei7vvooz" file="text.html"/>
+    <record id="17346232675xvqqxekjz" name="Руководство по MQTT.fx: функции, демонстрации и советы по использованию" author="alensav" url="https://www-emqx-com.translate.goog/en/blog/connecting-to-emqx-cloud-with-mqttfx?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="Руководство по MQTT.fx: функции, демонстрации и советы по использованию" ctime="20241219184747" dir="1734623267cl7qzx8vcp" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="17344476354hgjr1sscq" name="USER_GROUP">
