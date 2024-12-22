@@ -2026,6 +2026,7 @@
     <record id="1734621858myxf056rbs" name="Клиенты MQTT" author="alensav" url="https://aiu.susu.ru/iot/fake-lamp" tags="Клиенты MQTT" ctime="20241219182418" dir="17346218587yei7vvooz" file="text.html"/>
     <record id="17346232675xvqqxekjz" name="Руководство по MQTT.fx: функции, демонстрации и советы по использованию" author="alensav" url="https://www-emqx-com.translate.goog/en/blog/connecting-to-emqx-cloud-with-mqttfx?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="Руководство по MQTT.fx: функции, демонстрации и советы по использованию" ctime="20241219184747" dir="1734623267cl7qzx8vcp" file="text.html"/>
     <record id="17347073092002zujqqm" name="Краткое руководство по файлу Mosquitto.conf с примерами" author="alensav" url="https://www-steves--internet--guide-com.translate.goog/mossquitto-conf-file/?_x_tr_sch=http&amp;_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="Краткое руководство по файлу Mosquitto.conf с примерами" ctime="20241220180829" dir="1734707309zv0cjd0u62" file="text.html"/>
+    <record id="1734892598n944svhoc3" name="Устновка брокера и клиента “mosquitto”" author="alensav" url="https://robot-on.ru/articles/ystanovka-mqtt-brokera-mosquitto-raspberry-orange-pi" tags="Устновка брокера и клиента “mosquitto”" ctime="20241222213638" dir="173489259883ryez9chj" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="17344476354hgjr1sscq" name="USER_GROUP">
