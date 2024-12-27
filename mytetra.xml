@@ -2035,5 +2035,12 @@
     <record id="17344476751ouh9p20vk" name="Пользователи и группы" author="alensav" url="https://help.ubuntu.ru/wiki/%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%B8_%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B" tags="Пользователи и группы" ctime="20241217180115" dir="1734447675l4n8jy71pk" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="17351528622nrozh78d4" name="TASMOTA">
+   <recordtable>
+    <record id="17351529333jmmoncbcl" name="Tasmota_setting" author="alensav" url="https://tasmota-github-io.translate.goog/docs/Getting-Started/?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc#after-configuration" tags="tasmota" ctime="20241225215533" dir="1735152933qh0a2ubgjm" file="text.html"/>
+    <record id="1735153342qnxin9dxc9" name="Установка Tasmota на ESP8266" author="alensav" url="https://io-home.ru/microcontrollers/esp8266/ustanovka-tasmota-na-esp8266/" tags="Установка Tasmota на ESP8266" ctime="20241225220222" dir="1735153342oj2b32co0z" file="text.html"/>
+    <record id="1735153722pnh9omy91u" name="Добавляем Tasmota в Home" author="alensav" url="https://io-home.ru/home-assistant/integrations/dobavlyaem-tasmota-v-home-assistant/" tags="Добавляем Tasmota в Home" ctime="20241225220842" dir="1735153722og9aax2y9w" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
