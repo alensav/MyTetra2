@@ -2042,5 +2042,10 @@
     <record id="1735153722pnh9omy91u" name="Добавляем Tasmota в Home" author="alensav" url="https://io-home.ru/home-assistant/integrations/dobavlyaem-tasmota-v-home-assistant/" tags="Добавляем Tasmota в Home" ctime="20241225220842" dir="1735153722og9aax2y9w" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1735812209cd4jqrtgfs" name="Orangpi_win_sav">
+   <recordtable>
+    <record id="1735812376comxvzdwjn" name="sudo scp " author="alensav" url="" tags="sudo scp " ctime="20250102130616" dir="17358123760q49s5r53o" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
