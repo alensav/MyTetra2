@@ -2048,6 +2048,10 @@
     <record id="1735812376comxvzdwjn" name="sudo scp " author="alensav" url="" tags="sudo scp " ctime="20250102130616" dir="17358123760q49s5r53o" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1735999848cgsetap414" name="Asisten_HOME"/>
+  <node crypt="" id="1735999848cgsetap414" name="Asisten_HOME">
+   <recordtable>
+    <record id="173609617846ja3dzz2i" name="прошивка &quot;ESP Easy&quot; первое знакомство" author="alensav" url="https://dzen.ru/a/X3s0epUsOzcO_jUQ" tags="прошивка &quot;ESP Easy&quot; первое знакомство" ctime="20250105195618" dir="17360961782fln8sbyz4" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
