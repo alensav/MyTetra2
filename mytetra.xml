@@ -2058,5 +2058,10 @@
     </recordtable>
    </node>
   </node>
+  <node crypt="" id="1736664617m03wx94k4e" name="UNISENDER">
+   <recordtable>
+    <record id="1736664693zkue975e3i" name="Рассылка_ UNISENDER" author="alensav" url="https://www.unisender.com/ru/prices/" tags="UNISENDER" ctime="20250112095133" dir="1736664693e15qs8ucpt" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
