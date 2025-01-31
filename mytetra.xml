@@ -2063,5 +2063,10 @@
     <record id="1736664693zkue975e3i" name="Рассылка_ UNISENDER" author="alensav" url="https://www.unisender.com/ru/prices/" tags="UNISENDER" ctime="20250112095133" dir="1736664693e15qs8ucpt" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1738328607ck2txyc5c6" name="GEEKSEEK">
+   <recordtable>
+    <record id="17383286451mmb3cdrrn" name="Совмещение работы Arduino Mega 2560 и контроллера ESP-01" author="alensav" url="" tags="Совмещение работы Arduino Mega 2560 и контроллера ESP-01" ctime="20250131160405" dir="1738328645odvqms4edx" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
