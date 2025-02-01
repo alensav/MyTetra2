@@ -2066,7 +2066,17 @@
   <node crypt="" id="1738328607ck2txyc5c6" name="GEEKSEEK">
    <recordtable>
     <record id="17383286451mmb3cdrrn" name="Совмещение работы Arduino Mega 2560 и контроллера ESP-01" author="alensav" url="" tags="Совмещение работы Arduino Mega 2560 и контроллера ESP-01" ctime="20250131160405" dir="1738328645odvqms4edx" file="text.html"/>
+    <record id="1738331614959zph05fy" name="Несколько полезных советов по работе с esptool" author="alensav" url="" tags="esptool" ctime="20250131165334" dir="1738331614ef0qmmwe7e" file="text.html"/>
+    <record id="1738331974x5avmgvnnb" name="Ошибки ESPTOOL" author="alensav" url="" tags="esptool" ctime="20250131165934" dir="17383319741e0u68f48y" file="text.html"/>
+    <record id="1738339231gv8tuvv886" name="Активируйте виртуальное окружение:" author="" url="" tags="esptool" ctime="20250131190031" dir="1738339231el8qi3way1" file="text.html"/>
    </recordtable>
+   <node crypt="" id="1738339510txyim1gwio" name="ESP_12">
+    <recordtable>
+     <record id="1738339559ju39zp1c0i" name="ESP 12 описание распиновка datasheet" author="alensav" url="" tags="esp12" ctime="20250131190559" dir="17383395592wysnwdvm1" file="text.html"/>
+     <record id="17383492349kmopkccuh" name="ESP-12F" author="alensav" url="" tags="esp12f" ctime="20250131214714" dir="1738349234dxr7pslclq" file="text.html"/>
+     <record id="1738350693nqftyh2erj" name="ESP8266-расширенное" author="alensav" url="￼￼￼https://esp8266.ru/esp8266-podkluchenie-obnovlenie-proshivki/" tags="esp8266" ctime="20250131221133" dir="17383506931zg0xpoch2" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
  </content>
 </root>
