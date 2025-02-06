@@ -2018,6 +2018,13 @@
    <recordtable>
     <record id="1732209938938bfh3ivw" name="￼￼￼GITVERSE" author="alensav" url="https://gitverse.ru/dashboard" tags="￼GITVERSE" ctime="20241121202538" dir="1732209938wykgulbudt" file="text.html"/>
    </recordtable>
+   <node crypt="" id="1738829966plzulqcvld" name="RADIO">
+    <recordtable>
+     <record id="173883001984hy2v742g" name="RADIO_1" author="alensav" url="https://community.alexgyver.ru/threads/arduino-wifi-internet-radio-priemnik-s-upravleniem-ehnkoderom-i-oled-displeem.3209/" tags="esp8266 radio" ctime="20250206112019" dir="1738830019uhes80falo" file="text.html"/>
+     <record id="1738830263gw7ffeiel9" name="RADIO_2" author="alensav" url="https://www-instructables-com.translate.goog/Wifi-Webradio-With-ESP8266-and-VS1053/?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="esp8266 radio" ctime="20250206112423" dir="17388302637p5hwotszb" file="text.html"/>
+     <record id="1738830528hbbieg1cnv" name="RADIO_2" author="alensav" url="https://arduino.ru/forum/proekty/wi-fi-internet-radio" tags="esp8266 radio" ctime="20250206112848" dir="17388305289vs40mgp44" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="17332476365zdna7bsj7" name="MOSQUITT_SETTING">
    <recordtable>
