@@ -2097,5 +2097,10 @@
     </recordtable>
    </node>
   </node>
+  <node crypt="" id="17393714588kvtr8djau" name="DRAW_IO">
+   <recordtable>
+    <record id="1739371503gtdbgifxct" name="DRAW_IO" author="alensav" url="https://startpack.ru/application/draw-io" tags="draw" ctime="20250212174503" dir="17393715034o6plg1y06" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
