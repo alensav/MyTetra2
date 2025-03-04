@@ -1816,6 +1816,7 @@
     <record id="16987667826ly6v26rah" name="Видео уроки ESP Block" author="alensav" url="http://ardublock.ru/youtube/" tags="Видео уроки" ctime="20231031183942" dir="1698766782ehqxwezpvz" file="text.html"/>
     <record id="173852373602ojvqdnhn" name="Загрузка_DWIN" author="alensav" url="https://dwin.pro/ru/info/start1_progtest/" tags="DWIN" ctime="20250202221536" dir="1738523736da2ve8bd7j" file="text.html"/>
     <record id="1738524719x1j8o34r58" name="Настройка DWIN2" author="alensav" url="https://dwin.pro/ru/dgus" tags="dwin" ctime="20250202223159" dir="173852471901vsv1ntb3" file="text.html"/>
+    <record id="17410203177mz08iofw0" name="Сенсорные HMI дисплеи DWIN" author="alensav" url="https://3d-diy.ru/blog/sensornye-hmi-displei-dwin/?srsltid=AfmBOor7HKEOKN8PaEyQceFbEtzV6ZespIicarOAGTR534AZRE8FICaE" tags="Сенсорные HMI дисплеи DWIN" ctime="20250303194517" dir="1741020317c1wyh4fidv" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1701090806bwi2vsswq2" name="ESPTOOL">
