@@ -2055,6 +2055,8 @@
      <record id="17412815508b546a1sqq" name="WIFI_Magazin" author="alensav" url="https://radio-wifi.ru/product/pir-10/" tags="wifi radio" ctime="20250306201910" dir="1741281550mksdssbs1g" file="text.html"/>
      <record id="1741282161k7gw9l0q61" name="Wi-Fi веб-радио с ESP8266 и VS1053 (KaraDio)" author="alensav" url="https://www.instructables.com/Wifi-Webradio-With-ESP8266-and-VS1053/" tags="wifiradio" ctime="20250306202921" dir="1741282161y8lt2e64cv" file="text.html"/>
      <record id="17414589747ez6geywae" name="Интернет радио на основе проекта KaRadio" author="alensav" url="https://mysku.club/blog/diy/72910.html" tags="wifiradio" ctime="20250308213614" dir="1741458974olsr7dkdtx" file="text.html"/>
+     <record id="1741622481fikdi49umg" name="VS1053" author="alensav" url="" tags="VS1053" ctime="20250310190121" dir="1741622481puxqavin74" file="text.html"/>
+     <record id="17416225515gkswdxkch" name="VS1053 — чип аудиокодека Ogg Vorbis/MP3/AAC/WMA/FLAC/MIDI" author="alensav" url="https://www.vlsi.fi/en/products/vs1053.html" tags="vs1053" ctime="20250310190231" dir="1741622551h6f901ij9y" file="text.html"/>
     </recordtable>
    </node>
   </node>
