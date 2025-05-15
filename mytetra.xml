@@ -2149,6 +2149,7 @@
   <node crypt="" id="17471656654pszgfuald" name="Pico">
    <recordtable>
     <record id="1747165922oy69wpdwjx" name="Raspberry Pi Pico на МК RP2040:" author="alensav" url="https://habr.com/ru/articles/538994/" tags="Raspberry Pi Pico на МК RP2040:" ctime="20250513225202" dir="1747165922r7chs623s9" file="text.html"/>
+    <record id="1747241216pjac6mrwio" name="Raspberry Pi Pico: инструкция, программирование на MicroPython / C++ и документация" author="alensav" url="https://wiki.amperka.ru/products:raspberry-pi-pico#%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D1%87%D0%B8%D0%BA%D0%B0" tags="Raspberry Pi Pico" ctime="20250514194656" dir="1747241216kt8wqk33y3" file="text.html"/>
    </recordtable>
   </node>
  </content>
