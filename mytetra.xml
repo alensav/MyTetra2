@@ -2152,5 +2152,15 @@
     <record id="1747241216pjac6mrwio" name="Raspberry Pi Pico: инструкция, программирование на MicroPython / C++ и документация" author="alensav" url="https://wiki.amperka.ru/products:raspberry-pi-pico#%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D1%87%D0%B8%D0%BA%D0%B0" tags="Raspberry Pi Pico" ctime="20250514194656" dir="1747241216kt8wqk33y3" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1748081156xqwbqxfjd2" name="FRAM">
+   <recordtable>
+    <record id="1748081369xqsd4zexcr" name="FRAM - FM24CL64B" author="alensav" url="https://aliexpress.ru/item/1005008363559990.html?sku_id=12000044726272071&amp;spm=a2g2w.productlist.search_results.0.ceb277c0CLNTqH" tags="FRAM  FM24CL64B" ctime="20250524130929" dir="1748081369bkcg3gwnte" file="text.html"/>
+    <record id="1748081582mb5tfy5zmo" name="Когда использовать FM24CL64B?&#10;" author="alensav" url="" tags="FM24CL64B" ctime="20250524131302" dir="17480815826a71so7wc4" file="text.html"/>
+    <record id="1748083123rejqbxhpqu" name="пример проекта интернет-радио на ESP8266 " author="alensav" url="" tags="интернет-радио" ctime="20250524133843" dir="1748083123085tphtkjs" file="text.html"/>
+    <record id="17480837024cs1e2zuxi" name="интернет-радио на базе ESP8266 (NodeMCU) с расширенными возможностями" author="alensav" url="" tags="интернет-радио на базе ESP8266 (NodeMCU) " ctime="20250524134822" dir="1748083702kz4a8ex6or" file="text.html"/>
+    <record id="1748083982q4loie6l33" name="Вывод обложки на TFT ST7735 с microSD" author="alensav" url="" tags="Вывод обложки на TFT ST7735 с microSD" ctime="20250524135302" dir="17480839824uoarfscjm" file="text.html"/>
+    <record id="1748084871v7hzjfxm3v" name=" полный проект интернет-радио на базе ESP8266 (NodeMCU) с поддержкой" author="фдутыфм" url="" tags=" полный проект интернет-радио на базе ESP8266 (NodeMCU) с поддержкой" ctime="20250524140751" dir="174808487164jf5hzdne" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
