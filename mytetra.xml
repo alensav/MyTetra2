@@ -2173,5 +2173,10 @@
     <record id="1749221478bbd1453faa" name="UkM1U0lNUANLimsxkdtt3poci21RqyFnbGxgGJ9+TDVSmNOZ1UHdQSNBRyQJVjaVdntnT56uGw0pPkLJ0IQFZdSR3dVGRnD+Kj0Z7pNLKWWwXCDnFRqik3ypdvNr7K4Oby/AChSEdLV4ybcEakfT4iEOomBBtwXdbIQkEBW6XvI7Q0fHrI/w8MnwC0VnFX9ouVPi4/bQJa3w5BCIcYPdY9+O026Y4TwqK4Yf3CJThPQ5DEul5um9pNkYmEH4mFwjDqL+kSodXmxPjDZtzDioraFiO0TgUubiYO5E/Tq7rtJS/3p4/8rOvGVNZsFwzvENyRGCD7UVIsLseDqpV8YTt7TJlTEXHK5ii3Y/erDvoKC0jwEqbEDr3zJkWe1cUDPw" author="UkM1U0lNUANUkUnAw9qbMJy3F6XOavHVNCUHElLGT6ac7Ya2SjKBjusSQPkYRMBI" url="UkM1U0lNUAPTlHkX2jhra9VrPOQ6TcwXQ28/ooQc29DafLoXNCWlvkn8OrRL4mKmPQMChdrBO28PYJ5hbeANEcGnbq1u70UJ+toOGpoUii0iOJLf4yYF1PoB4XnFM+oU" tags="UkM1U0lNUAOTZBNgh0uiWjR96I3wJ5JVKimTPfAOO9IS4AHSBF2+htrlV70euNwf" ctime="20250606175118" dir="1749221478fwf7hkdg2k" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1749633692k1gmkteppv" name="ESP-8266-Zagruzka">
+   <recordtable>
+    <record id="1749633843x4b84chqdc" name="￼￼ESP_8266" author="alensav" url="https://www.espressif.com/en/products/socs/esp8266ex/resources" tags="ESP8266" ctime="20250611122403" dir="17496338439p1j368ee5" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
