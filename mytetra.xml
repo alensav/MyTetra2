@@ -1766,6 +1766,11 @@
     <record id="1685721868ibw6x0mng1" name="Доступ к веб-серверу." author="alensav" url="https://arduino-tex.ru/news/18/urok-2-podklyuchaem-dht11-dht22-k-esp32-esp8266-pokazanie-na.html" tags="Доступ к веб-серверу." ctime="20230602190428" dir="168572186837ysqc4rf5" file="text.html"/>
     <record id="1701362506eynsma1l85" name="Arduino_IDE" author="alensav" url="https://blog.kvv213.com/2019/05/arduino-ide-razbiraemsya-s-menju-tools-i-nekotorymi-drugimi-funkciyami/" tags="Arduino IDE" ctime="20231130194146" dir="1701362506mtnoi65z7o" file="text.html"/>
     <record id="1741190944mi5jxbnk4n" name="Диод Шоттки KE" author="alensav" url="https://aliexpress.ru/item/1005008456347308.html?sku_id=12000045214807838&amp;spm=a2g2w.productlist.search_results.0.f253e372l1tIfL" tags="диод" ctime="20250305190904" dir="1741190944w7jof8ph7s" file="text.html"/>
+    <record id="1749582570fi3j3lybrt" name="Начало работы с ESP8266 " author="alensav" url="" tags=" ESP8266 " ctime="20250610220930" dir="17495825709r7wdhqge6" file="text.html">
+     <files>
+      <file id="1749582643ydd6yajzz4" fileName="2a-esp8266-sdk_getting_started_guide_ru.pdf" type="file"/>
+     </files>
+    </record>
    </recordtable>
    <node crypt="1" icon="" id="1686497987p01q58h7uc" name="UkM1U0lNUAPLEUGZeTEkYg4rXIse/coRti607hiU/AdgtDAH3vO7atvqUCLjw9Lm">
     <recordtable>
