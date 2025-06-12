@@ -2176,6 +2176,8 @@
   <node crypt="" id="1749633692k1gmkteppv" name="ESP-8266-Zagruzka">
    <recordtable>
     <record id="1749633843x4b84chqdc" name="￼￼ESP_8266" author="alensav" url="https://www.espressif.com/en/products/socs/esp8266ex/resources" tags="ESP8266" ctime="20250611122403" dir="17496338439p1j368ee5" file="text.html"/>
+    <record id="1749653233og63z3g1kc" name="ESPlorer — Интегрированная среда разработки" author="alensav" url="https://esp8266.ru/esplorer/" tags="ESPlorer" ctime="20250611174713" dir="1749653233z6wn42go8w" file="text.html"/>
+    <record id="174965604899lrpmyw56" name="Документация для ESP-AT Development Framework" author="alensafv" url="https://docs.espressif.com/projects/esp-at/en/latest/esp32/" tags="ESP-AT" ctime="20250611183408" dir="17496560482udilyepoq" file="text.html"/>
    </recordtable>
   </node>
  </content>
