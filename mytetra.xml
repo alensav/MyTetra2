@@ -33,7 +33,6 @@
     <record id="1613026155waitjet0dj" name="Git Управление" author="alensav" url="" tags="Git Управление" ctime="20210211094915" dir="161302615525hh0xbebs" file="text.html"/>
     <record id="16378664297naob8uwpq" name="git_sav" author="alensav" url="https://github.com/settings/tokens" tags="git_sav" ctime="20211125215349" dir="163786642932jxnx83jk" file="text.html"/>
     <record id="1643656904ny098u1mmj" name="ssh-keygen " author="alensav" url="https://qna.habr.com/q/964989#answer_1913237" tags="ssh keygen  ключ" ctime="20220131222144" dir="16436569045ah82sfxx6" file="text.html"/>
-    <record id="1701796976goh4yw2qpi" name="sav_token" author="alensav" url="https://github.com/settings/tokens" tags="git token" ctime="20231205202256" dir="17017969768gtt4e74vl" file="text.html"/>
     <record id="1724062943mssiry65yi" name="ключ хоста RSA SSH_GITHUB" author="alensav" url="https://github-blog.translate.goog/news-insights/company-news/we-updated-our-rsa-ssh-host-key/?_x_tr_sl=en&amp;_x_tr_tl=ru&amp;_x_tr_hl=ru&amp;_x_tr_pto=sc" tags="github" ctime="20240819132223" dir="1724062943y8r14014bs" file="text.html"/>
     <record id="1749832925m9dh16xv7a" name="netatalk&#10;" author="alensav" url="" tags="netatalk&#10;" ctime="20250613194205" dir="1749832925ejcc25yjvm" file="text.html"/>
    </recordtable>
@@ -2179,6 +2178,12 @@
     <record id="1749633843x4b84chqdc" name="￼￼ESP_8266" author="alensav" url="https://www.espressif.com/en/products/socs/esp8266ex/resources" tags="ESP8266" ctime="20250611122403" dir="17496338439p1j368ee5" file="text.html"/>
     <record id="1749653233og63z3g1kc" name="ESPlorer — Интегрированная среда разработки" author="alensav" url="https://esp8266.ru/esplorer/" tags="ESPlorer" ctime="20250611174713" dir="1749653233z6wn42go8w" file="text.html"/>
     <record id="174965604899lrpmyw56" name="Документация для ESP-AT Development Framework" author="alensafv" url="https://docs.espressif.com/projects/esp-at/en/latest/esp32/" tags="ESP-AT" ctime="20250611183408" dir="17496560482udilyepoq" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="1" icon="" id="1749896047zuimkh0152" name="UkM1U0lNUAOZHotw+xViyk5xIPXzBVc0NK0h0UFi47kXpbhlwK5QtElIWrsVf88I">
+   <recordtable>
+    <record id="1701796976goh4yw2qpi" name="UkM1U0lNUAMpGpOFCPR6FWhAsYmq2LmhiRkoqdBoUSpskmoosZRxp7rOmiFeNoXLcrnntrPVN+g=" author="UkM1U0lNUAMV0Kma2Z0V7rHr6X4XvKReYSPBSUP4rQ8/ks/MnGwYOfFF6USzQtAn" url="UkM1U0lNUAN0b+RgJfp19aufiFlMY9oKRa2RX+CF6pkufvyWbOO7zj0Sul4rBtYMLY/EfxjqVwmVAuQTDM3LFflekaXpYE6VO8GTpINDhIg=" tags="UkM1U0lNUAOl/XqJXZ+D0ijWOYUX/aZrPEkmT2ILXFYOfC8FAdwz0Cs0m8ubxLziEiOv/9zEP5U=" ctime="20250614131412" dir="17017969768gtt4e74vl" file="text.html" crypt="1"/>
+    <record id="17498961872ikuhlgtiu" name="UkM1U0lNUAPlJ6O03i9lhRljb4xhpYWHGJysbtxUtbz7LRYLScOoxRFyX0DSGldfvEleyueYv+s=" author="UkM1U0lNUAN629sej7lN9GkJpEfnOZ2STO6P0lLn6I8+qF2APml7i3Jkro4ko0Gf" url="" tags="" ctime="20250614131627" dir="1749896187euj5wm90ps" file="text.html" crypt="1"/>
    </recordtable>
   </node>
  </content>
