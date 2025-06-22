@@ -1087,6 +1087,11 @@
   <node crypt="" id="1584030802uu8bw336or" name="!!Capsule">
    <recordtable>
     <record id="1584031434403fgi0app" name="Capsule_TIME" author="alensav" url="" tags="Capsule_TIME" ctime="20200312194354" dir="1584031434kj6su2vdo0" file="text.html"/>
+    <record id="1750349808hmzvusmfk7" name="Инструкция Time Capsule" author="alensav" url="" tags="Time Capsule" ctime="20250619191648" dir="1750349808jl599nyrq0" file="text.html">
+     <files>
+      <file id="1750349853vqivyx8st6" fileName="2a-esp8266-sdk_getting_started_guide_ru.pdf" type="file"/>
+     </files>
+    </record>
    </recordtable>
   </node>
   <node crypt="" id="1584698785paru2luqfx" name="!!OnLineSERVICE">
