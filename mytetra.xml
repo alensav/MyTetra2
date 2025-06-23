@@ -2198,5 +2198,10 @@
     <record id="1750610681y4da7qdvix" name="Python_Arduino_command&#10;" author="alensav" url="" tags="python.sh" ctime="20250622194441" dir="17506106816hnrzk9sow" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="175069719754wsc7sidb" name="DOCKER">
+   <recordtable>
+    <record id="175069726274og82hlhf" name="Программное обеспечение для контейнеризации DOCKER" author="alensav" url="https://www.docker.com/products/docker-desktop/" tags="DOCKER" ctime="20250623194742" dir="175069726228ffrbopbx" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
