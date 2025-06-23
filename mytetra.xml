@@ -2195,6 +2195,7 @@
   <node crypt="" id="1750089282upvk6kv197" name="UDUNTU_RESTSRT">
    <recordtable>
     <record id="17500900810zrzlp3o1b" name="Ubbntu_Restart" author="alensav" url="" tags="Ubbntu_Restart" ctime="20250616190801" dir="1750090081dkgptiksiy" file="text.html"/>
+    <record id="1750610681y4da7qdvix" name="Python_Arduino_command&#10;" author="alensav" url="" tags="python.sh" ctime="20250622194441" dir="17506106816hnrzk9sow" file="text.html"/>
    </recordtable>
   </node>
  </content>
