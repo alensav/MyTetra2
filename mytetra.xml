@@ -2203,6 +2203,10 @@
     <record id="175069726274og82hlhf" name="Программное обеспечение для контейнеризации DOCKER" author="alensav" url="https://www.docker.com/products/docker-desktop/" tags="DOCKER" ctime="20250623194742" dir="175069726228ffrbopbx" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1752682288y2d5yj7gl9" name="LCSC"/>
+  <node crypt="" id="1752682288y2d5yj7gl9" name="LCSC">
+   <recordtable>
+    <record id="1752682540er3o8687pu" name="LCSC_electronika" author="alensav" url="https://lcsc.com/products" tags="LCSC" ctime="20250716191540" dir="1752682540hii8el0hnl" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
