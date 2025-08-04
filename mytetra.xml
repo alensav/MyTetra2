@@ -2208,5 +2208,15 @@
     <record id="1752682540er3o8687pu" name="LCSC_electronika" author="alensav" url="https://lcsc.com/products" tags="LCSC" ctime="20250716191540" dir="1752682540hii8el0hnl" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1754216920gmv1ajwha7" name="RADIO_SHOP">
+   <recordtable>
+    <record id="1754217012usdmpr2q7z" name="Radio_SHOP" author="alensav" url="https://habr.com/ru/companies/vk/articles/412055/" tags="Radio_SHOP" ctime="20250803133012" dir="1754217012k4wxmn40qt" file="text.html"/>
+    <record id="1754217140zxzr8mm698" name="AMPERO" author="alensav" url="https://ampero.ru/" tags="radio shop" ctime="20250803133220" dir="1754217140009v13x40e" file="text.html"/>
+    <record id="17542173391czdn3aeiw" name="COMPONENTS_RU" author="alensav" url="https://components.ru/&amp;srsltid=AfmBOorQzjkbpgCmv6vnwFh2aJwm1XNZIryKVqooWNsG5FBBtVMEPnT0/" tags="rsdio shop" ctime="20250803133539" dir="1754217339ygto1awref" file="text.html"/>
+    <record id="1754217850bpeoly37q1" name="￼Радиоэлемент" author="alensav" url="https://www.radioelementy.ru/" tags="rsdio shop" ctime="20250803134410" dir="1754217850u6nqoxeoky" file="text.html"/>
+    <record id="17542181456s1srbhzz6" name="￼1000 радиодеталей" author="фlensav" url="https://1000-rd.com/" tags="radio shop" ctime="20250803134905" dir="1754218145hmn7ghj8ej" file="text.html"/>
+    <record id="1754218789jqilrym48b" name="РАДИОГОРОДОК" author="alensav" url="https://www.radiogorodok.com/cart" tags="radio shop " ctime="20250803135949" dir="17542187896sdkqt0jeb" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
