@@ -2218,5 +2218,16 @@
     <record id="1754218789jqilrym48b" name="РАДИОГОРОДОК" author="alensav" url="https://www.radiogorodok.com/cart" tags="radio shop " ctime="20250803135949" dir="17542187896sdkqt0jeb" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="17545561705g4x7v0ih3" name="GIT_Community">
+   <recordtable>
+    <record id="1754556240dvhc353ewp" name="Git_Comm" author="alensav" url="" tags="git" ctime="20250807114400" dir="1754556240rwevu26ako" file="text.html"/>
+    <record id="1754561460zit0o3cwjd" name="ENV" author="alensav" url="https://chat.qwen.ai/c/8ba896ae-f0e7-452c-9c34-46ce513e3d0d" tags="env" ctime="20250807131100" dir="1754561460znltgunu7u" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1754563203xyemmlftlp" name="Geany">
+   <recordtable>
+    <record id="17545632623nynxxxz07" name="Geany_readme" author="alensav" url="" tags="geany" ctime="20250807134102" dir="1754563262kw8eyufd30" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
