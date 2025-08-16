@@ -2231,5 +2231,10 @@
     <record id="17545632623nynxxxz07" name="Geany_readme" author="alensav" url="" tags="geany" ctime="20250807134102" dir="1754563262kw8eyufd30" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="175533901634qdrw8zvq" name="GOKAPI">
+   <recordtable>
+    <record id="1755339105hxh6wwrfca" name="Gokapi_1" author="alensav" url="https://gokapi.readthedocs.io/en/latest/setup.html" tags="gokapi GOKAPI" ctime="20250816131145" dir="1755339105bpj1iqxqq8" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
