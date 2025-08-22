@@ -2241,5 +2241,11 @@
     <record id="1755339105hxh6wwrfca" name="Gokapi_1" author="alensav" url="https://gokapi.readthedocs.io/en/latest/setup.html" tags="gokapi GOKAPI" ctime="20250816131145" dir="1755339105bpj1iqxqq8" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1755793512t7g2sajbrb" name="KaRadio32">
+   <recordtable>
+    <record id="1755793548ujcy0vu22n" name="Файл конфигурации для KaRadio32Файл конфигурации для KaRadio32" author="" url="https://www.drive2.ru/b/527421435266728306/" tags="KaRadio32" ctime="20250821192548" dir="1755793548fx2wzv6ime" file="text.html"/>
+    <record id="1755807962iwxncoj199" name="Редакторы" author="фlensav" url="https://chat.qwen.ai/c/44fcfc39-853a-4f60-8238-2ea47d87ff94" tags="csv" ctime="20250821232602" dir="1755807962xrivd2m9yq" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
