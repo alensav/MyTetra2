@@ -2251,5 +2251,11 @@
     <record id="175615275381anr2w9nd" name="Оборудование КаРадио" author="alensav" url="https://www.chipdip.ru/product/1381-audio-ic-development-tools-vs1053-codec-adafruit-8004802315https://www.chipdip.ru/product/1381-audio-ic-development-tools-vs1053-codec-adafruit-8004802315" tags="karadio" ctime="20250825231233" dir="17561527531hhkut8k4k" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1756325001r6e0z0i07c" name="PLATFORMIO">
+   <recordtable>
+    <record id="1756325092l0nfcwsrlp" name="Platformio" author="alensav" url="https://chat.deepseek.com/a/chat/s/63d47b4b-cba6-4e06-9522-81a9a9ed77b5" tags="platformio" ctime="20250827230452" dir="1756325092i9hcahd8h0" file="text.html"/>
+    <record id="1756325484kd6ph4xujc" name="Создание проекта PlatformIO" author="alensav" url="https://chat.deepseek.com/a/chat/s/63d47b4b-cba6-4e06-9522-81a9a9ed77b5" tags="platformio" ctime="20250827231124" dir="1756325484lzbe55wqa5" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
