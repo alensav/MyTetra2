@@ -2255,6 +2255,8 @@
    <recordtable>
     <record id="1756325092l0nfcwsrlp" name="Platformio" author="alensav" url="https://chat.deepseek.com/a/chat/s/63d47b4b-cba6-4e06-9522-81a9a9ed77b5" tags="platformio" ctime="20250827230452" dir="1756325092i9hcahd8h0" file="text.html"/>
     <record id="1756325484kd6ph4xujc" name="Создание проекта PlatformIO" author="alensav" url="https://chat.deepseek.com/a/chat/s/63d47b4b-cba6-4e06-9522-81a9a9ed77b5" tags="platformio" ctime="20250827231124" dir="1756325484lzbe55wqa5" file="text.html"/>
+    <record id="1756478195txhhzdbjuw" name="Code_server" author="alensav" url="https://chat.qwen.ai/c/7085bf41-6ec4-4acc-8ea0-438ea335676a" tags="vscode code" ctime="20250829173635" dir="17564781953o4g2gi3ca" file="text.html"/>
+    <record id="1756481911194jx243wn" name="Electron" author="alensav" url="https://chat.qwen.ai/c/7085bf41-6ec4-4acc-8ea0-438ea335676a" tags="electron" ctime="20250829183831" dir="1756481911b8i6b6jqvu" file="text.html"/>
    </recordtable>
   </node>
  </content>
