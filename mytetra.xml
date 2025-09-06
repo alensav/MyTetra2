@@ -1904,6 +1904,7 @@
       <file id="1757100791gyqslujmxd" fileName="VS1053_instruction.docx" type="file"/>
      </files>
     </record>
+    <record id="175715121464sicsdsz1" name="RADIO_KaRadio32_06_09_2025" author="alensav" url="" tags="KaRadio32 radio" ctime="20250906123334" dir="1757151214ewiimg2yxh" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="17085900347u88l73x7h" name="LUA">
@@ -2255,6 +2256,8 @@
     <record id="1755793548ujcy0vu22n" name="Файл конфигурации для KaRadio32Файл конфигурации для KaRadio32" author="" url="https://www.drive2.ru/b/527421435266728306/" tags="KaRadio32" ctime="20250821192548" dir="1755793548fx2wzv6ime" file="text.html"/>
     <record id="1755807962iwxncoj199" name="Редакторы" author="фlensav" url="https://chat.qwen.ai/c/44fcfc39-853a-4f60-8238-2ea47d87ff94" tags="csv" ctime="20250821232602" dir="1755807962xrivd2m9yq" file="text.html"/>
     <record id="175615275381anr2w9nd" name="Оборудование КаРадио" author="alensav" url="https://www.chipdip.ru/product/1381-audio-ic-development-tools-vs1053-codec-adafruit-8004802315https://www.chipdip.ru/product/1381-audio-ic-development-tools-vs1053-codec-adafruit-8004802315" tags="karadio" ctime="20250825231233" dir="17561527531hhkut8k4k" file="text.html"/>
+    <record id="1757145785oytkf0ka6r" name="Сравнительная характеристика ESP32-MAX-V3.0 и ESP8266 (NodeMCU)" author="alensav" url="https://chat.qwen.ai/c/62c0484e-c52c-497c-b8c2-0e9714b8ca12" tags="ESP32-MAX-V3.0" ctime="20250906110305" dir="1757145785qjh1k5faks" file="text.html"/>
+    <record id="1757149908g4lpnsbtpg" name="Плата контроллера QA018/QA019 ESP32 Max V3.0" author="alensav" url="https://acebottteam.github.io/acebott-docs-master/board/ESP32/QA018%20ESP32%20Max%20V3.0%20Controller%20Board.html#features" tags="Плата контроллера QA018/QA019 ESP32 Max V3.0" ctime="20250906121148" dir="1757149908fhyif62vgq" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1756325001r6e0z0i07c" name="PLATFORMIO">
