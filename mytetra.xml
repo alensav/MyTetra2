@@ -2285,6 +2285,10 @@
     <record id="1757493553xfoy20v9ke" name="ESP-IDF v4.4.8" author="alensav" url="https://chat.qwen.ai/c/3fba4f4b-380f-4f51-be36-d0aa4e5451c9" tags="ESP-IDF v4.4.8" ctime="20250910113913" dir="1757493553bxh7wib3xz" file="text.html"/>
     <record id="1757499949kh2us92j4o" name="Программирование ES&#10;P32 с ESP-IDF в среде platformio" author="alensav" url="https://habr.com/ru/articles/918434/" tags="Программирование ES&#10;P32 с ESP-IDF в среде platformio" ctime="20250910132549" dir="1757499949ikf0hitciu" file="text.html"/>
     <record id="17575003122lux2ajobq" name="Стандартная настройка набора инструментов для Linux и macOS" author="alensav" url="https://docs.espressif.com/projects/esp-idf/en/release-v5.1/esp32/get-started/linux-macos-setup.html#get-started-linux-macos-first-steps" tags="Стандартная настройка набора инструментов для Linux и macOS" ctime="20250910133152" dir="17575003120attzbs3fk" file="text.html"/>
+    <record id="1757512120l76sqqkbzv" name="&#10;Команда&#10;Описание&#10; ESP_IDF" author="alensav" url="" tags="&#10;Команда&#10;Описание&#10;" ctime="20250910164840" dir="1757512120ggxaaog5cv" file="text.html"/>
+    <record id="1757512709he0jcavekt" name="Создать проект с нуля через шаблон ESP_IDF" author="alensav" url="" tags="Создать проект с нуля через шаблон ESP_IDF" ctime="20250910165829" dir="17575127097htgu1wvd0" file="text.html"/>
+    <record id="17575144754w3pk3h009" name="Выбор между Arduino IDE, ESP-IDF и esptool.py" author="alensav" url="https://chat.qwen.ai/c/3fba4f4b-380f-4f51-be36-d0aa4e5451c9" tags="Выбор между Arduino IDE, ESP-IDF и esptool.py" ctime="20250910172755" dir="1757514475slrflr3f3f" file="text.html"/>
+    <record id="1757515266rwf0u1haza" name="ESP-IDF сам скачивает библиотеки или их создает под код" author="alensav" url="https://chat.qwen.ai/c/3fba4f4b-380f-4f51-be36-d0aa4e5451c9" tags="ESP-IDF сам скачивает библиотеки или их создает под код" ctime="20250910174106" dir="1757515266yzonjrlz7u" file="text.html"/>
    </recordtable>
   </node>
  </content>
