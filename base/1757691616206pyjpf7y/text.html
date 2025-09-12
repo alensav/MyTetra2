@@ -1,0 +1,241 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Atiny_85</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="messages-container"></a><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">О</span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">бновлённое и расширенное объяснение с учётом вашего описания:</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;"> Что это на самом деле?</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">HW-260 — это миниатюрная отладочная плата на базе микроконтроллера ATtiny85 (или совместимого: ATtiny13A/25/45/85), интегрирующая USB-интерфейс и разъём для подключения самого чипа.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Она </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">не содержит встроенного чипа</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> — вы </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">вставляете свой ATtiny85</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> (или другой из семейства) в разъём сверху. Плата служит </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">USB-программатором + стабилизатором питания + загрузчиком</span><span style=" font-family:'Sans Serif'; font-size:9pt;">, позволяя программировать ATtiny85 </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">прямо через Micro-USB</span><span style=" font-family:'Sans Serif'; font-size:9pt;">, как DigiSpark, без внешнего программатора!</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;"> </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Ключевое отличие от драйверов:</span><span style=" font-family:'Sans Serif'; font-size:9pt;"><br />На этой плате </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">нет мощных полевых транзисторов или драйверов шаговых двигателей</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> — только минимальная логика: USB-контроллер (CH340G или аналогичный), регулятор напряжения, разъём для ATtiny и светодиод. </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Архитектура платы HW-260</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">КОМПОНЕНТ</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">ФУНКЦИЯ</span></p></td></tr></thead>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Разъём DIP8</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Для установки ATtiny13A/25/45/85</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Микросхема CH340G (или CP2102)</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">USB-to-TTL преобразователь — позволяет общаться с компьютером по USB</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Стабилизатор 5V (например, AMS1117)</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Преобразует 5В USB в рабочее напряжение для ATtiny</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Светодиод (обычно на PB0 / вывод 1)</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Индикатор работы — часто используется как</span><span style=" font-family:'Courier New,courier'; font-size:9pt;">LED_BUILTIN</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Печатные дорожки</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Подключают ноги ATtiny к USB-чипу и питанию</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">⚠️ </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Важно:</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> Сам ATtiny85 </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">не встроен</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> — его нужно купить отдельно (стоит ~$0.30) и вставить в разъём.<br />Плата </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">не работает без чипа</span><span style=" font-family:'Sans Serif'; font-size:9pt;">! </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;"> Как с ней работать? (Пошаговая инструкция)</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">✅ Шаг 1: Подготовьте оборудование</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Плата HW-260</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Микросхема <span style=" font-weight:600;">ATtiny85</span> (DIP8)</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">USB-кабель Micro-USB</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Компьютер с Arduino IDE</li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">✅ Шаг 2: Установите ATTinyCore в Arduino IDE</span></p>
+<ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Откройте <span style=" font-weight:600;">Arduino IDE → Файл → Предпочтения</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В поле <span style=" font-weight:600;">Дополнительные URL-адреса менеджера плат</span> добавьте:</li>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><a name="code-textarea-b8b72e15-a045-4e38-9dc4-6566b6cc304f-25-1-1"></a><span style=" font-family:'Sans Serif'; font-size:9pt;">1</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json</span></p>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="plt-canvas-b8b72e15-a045-4e38-9dc4-6566b6cc304f-25-1-1"></a>Перейдите в <span style=" font-weight:600;">Инструменты → Платы → Менеджер плат</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Найдите <span style=" font-weight:600;">ATTinyCore</span> и установите его (выберите версию <span style=" font-weight:600;">1.5.2 или выше</span>)</li></ol>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">✅ </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Не используйте старую библиотеку &quot;ATTiny&quot; от damellis — используйте именно ATTinyCore!</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">✅ Шаг 3: Настройка платы в IDE</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Выберите:</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Плата</span>: <span style=" font-family:'Courier New,courier';">ATtiny85</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Частота</span>: <span style=" font-family:'Courier New,courier';">8 MHz (internal)</span> → <span style=" font-weight:600;">начинаем с этого!</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Программатор</span>: <span style=" font-family:'Courier New,courier';">USBasp</span> или <span style=" font-family:'Courier New,courier';">USBtinyISP</span> → пока <span style=" font-weight:600;">НЕ выбирайте &quot;Arduino as ISP&quot;</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Выход</span>: <span style=" font-family:'Courier New,courier';">DigiSpark (no USB bootloader)</span> → <span style=" font-weight:600;">только для первоначальной прошивки загрузчика</span></li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">❗ </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">ВАЖНО:</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> Сначала нужно </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">записать загрузчик Micronucleus</span><span style=" font-family:'Sans Serif'; font-size:9pt;">, чтобы плата стала похожа на DigiSpark! </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">✅ Шаг 4: Загрузка загрузчика Micronucleus (раз в жизни!)</span></p>
+<ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Вставьте ATtiny85 в внешний программатор</span> (например, USBasp, Sparkfun Tiny Programmer или даже Arduino как ISP).</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В Arduino IDE:</li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Плата</span>: <span style=" font-family:'Courier New,courier';">ATtiny85</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Частота</span>: <span style=" font-family:'Courier New,courier';">8 MHz (internal)</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Программатор</span>: <span style=" font-family:'Courier New,courier';">USBasp</span> (или ваш программатор)</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Выход</span>: <span style=" font-family:'Courier New,courier';">DigiSpark (no USB bootloader)</span></li></ul>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Нажмите: <span style=" font-weight:600;">Инструменты → Записать загрузчик</span></li>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Это запишет пустой загрузчик, но <span style=" font-weight:600;">настроит фьюзы на 8 МГц</span>.</li></ul>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Теперь переключите на 16.5 МГц</span>:</li></ol>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Частота</span>: <span style=" font-family:'Courier New,courier';">16.5 MHz (internal)</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Выход</span>: <span style=" font-family:'Courier New,courier';">DigiSpark (no USB bootloader)</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Записать загрузчик</span> снова — теперь записывается <span style=" font-weight:600;">Micronucleus</span> (загрузчик с USB-поддержкой).</li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">✅ После этого ATtiny85 </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">уже умеет работать через USB</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> — как DigiSpark! </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">✅ Шаг 5: Переставьте ATtiny85 на HW-260</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Аккуратно <span style=" font-weight:600;">извлеките чип</span> из программатора.</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Вставьте его в разъём HW-260</span>, соблюдая направление (выемка = ушка на чипе).</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Подключите плату к USB-порту компьютера.</li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">✅ Шаг 6: Программируйте как обычную плату!</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">В Arduino IDE:</li>
+<ul type="circle" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Плата</span>: <span style=" font-family:'Courier New,courier';">ATtiny85</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Частота</span>: <span style=" font-family:'Courier New,courier';">16.5 MHz (internal)</span></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Программатор</span>: <span style=" font-family:'Courier New,courier';">USBasp</span> → <span style=" font-weight:600;">Но теперь выбирайте </span><span style=" font-family:'Courier New,courier'; font-weight:600;">Micronucleus</span><span style=" font-weight:600;">!</span></li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:2; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Если не видите &quot;Micronucleus&quot; — обновите ATTinyCore до последней версии. </span></p>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Загрузите простой скетч</span>:</li></ul>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">cpp</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">void setup() {</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">pinMode(0, OUTPUT); // LED на PB0 (вывод 1)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">}</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;"><br /></span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">void loop() {</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">digitalWrite(0, HIGH);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">delay(500);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">digitalWrite(0, LOW);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">delay(500);</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">}</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="plt-canvas-b8b72e15-a045-4e38-9dc4-6566b6cc304f-45"></a>Нажмите <span style=" font-weight:600;">Загрузить</span> — <span style=" font-weight:600;">светодиод начнёт мигать!</span></li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;"> </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Время загрузки:</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> При использовании Micronucleus Arduino IDE ждёт 5–7 секунд, пока плату не определит. </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">После нажатия &quot;Загрузить&quot; — немедленно подключайте плату!</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> Или перезагружайте её вручную — загрузчик активируется при включении. </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;"> Почему это круто?</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">ПРЕИМУЩЕСТВО</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">ОПИСАНИЕ</span></p></td></tr></thead>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Цена</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Плата стоит $0.45, ATtiny85 — $0.30 →</span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">$0.75 за полноценную USB-плату!</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Размер</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Меньше, чем монета — идеально для мини-проектов</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">USB-интерфейс</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Не нужен внешний программатор после первой прошивки</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">8 КБ Flash</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Достаточно для большинства задач: сенсоры, управление светодиодами, Bluetooth Low Energy (HC-05), IR-пульты и т.д.</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Низкое энергопотребление</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Можно использовать в батарейных устройствах (до 1 мА в режиме сна)</span></p></td></tr></table>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">⚠️ Частые ошибки и советы</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">ПРОБЛЕМА</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">РЕШЕНИЕ</span></p></td></tr></thead>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Плата не определяется при загрузке</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Убедитесь, что вы используете</span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Micronucleus</span><span style=" font-family:'Sans Serif'; font-size:9pt;">, а не USBasp. Попробуйте перезагрузить плату (отключить/подключить USB).</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Ошибка &quot;device not found&quot;</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Установите драйверы CH340G (если используется):</span><a href="https://sparks.gogo.co.nz/ch340"><span style=" font-family:'Sans Serif'; font-size:9pt; text-decoration: underline; color:#0000ff;">https://sparks.gogo.co.nz/ch340</span></a></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Светодиод не горит</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Проверьте, что он подключен к</span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">PB0 (вывод 1)</span><span style=" font-family:'Sans Serif'; font-size:9pt;">— в коде используйте</span><span style=" font-family:'Courier New,courier'; font-size:9pt;">pinMode(0, OUTPUT)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Не могу записать загрузчик</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Используйте</span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">внешний программатор (USBasp)</span><span style=" font-family:'Sans Serif'; font-size:9pt;">для первой записи загрузчика. Без него — невозможно!</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Плата греется</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Возможно, вы вставили чип</span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">неправильно</span><span style=" font-family:'Sans Serif'; font-size:9pt;">— проверьте ориентацию!</span></p></td></tr></table>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;"> Примеры проектов с HW-260</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">ПРОЕКТ</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">ОПИСАНИЕ</span></p></td></tr></thead>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Мини-USB-клавиатура</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Используйте библиотеку</span><span style=" font-family:'Courier New,courier'; font-size:9pt;">DigiKeyboard</span><span style=" font-family:'Sans Serif'; font-size:9pt;">(из ATTinyCore) для эмуляции клавиатуры</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Умный будильник</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">С датчиком DS3231 и зуммером — всё помещается в коробке от спичек</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Bluetooth-переключатель</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Через HC-05 — управляйте розеткой по Bluetooth</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Фитнес-браслет</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">С акселерометром MPU6050 и OLED — считает шаги</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Мини-датчик температуры</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">С DS18B20 и WiFi (ESP-01) — отправляет данные в MQTT</span></p></td></tr></table>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;"> Альтернативы</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">Если вам не хочется вставлять чип в разъём — есть готовые аналоги:</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">DigiSpark (ATtiny85)</span> — уже собрано, но дороже (~$3)</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">Digispark Kickstarter</span> — с USB-C и большим количеством GPIO</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-weight:600;">TinyCore + PCB</span> — можно самому напечатать плату с ATtiny85 и CH340</li></ul>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">✅ Итог: Что делать с HW-260?</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Вы получили самый дешёвый в мире USB-микроконтроллер!</span><span style=" font-family:'Sans Serif'; font-size:9pt;"><br />Это не драйвер, не модуль двигателя — это </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">мини-компьютер размером с кнопку</span><span style=" font-family:'Sans Serif'; font-size:9pt;">, который можно программировать как Arduino, но в 10 раз дешевле. </span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;"> Что делать прямо сейчас:</span></p>
+<ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Купите <span style=" font-weight:600;">ATtiny85 DIP8</span> (если ещё не купили).</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Установите <span style=" font-weight:600;">ATTinyCore</span> в Arduino IDE.</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Подключите ATtiny85 к <span style=" font-weight:600;">внешнему программатору</span> (USBasp, Arduino as ISP).</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Запишите загрузчик Micronucleus (16.5 МГц).</li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Вставьте чип в HW-260 → подключите к USB → программируйте как DigiSpark!</li></ol>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:40px; margin-right:40px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;"> </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Это — ваш первый шаг в мир ultra-low-cost IoT и embedded-устройств.</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> </span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;"> Бонус: Где найти документацию?</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">GitHub ATTinyCore: <a href="https://github.com/SpenceKonde/ATTinyCore"><span style=" text-decoration: underline; color:#0000ff;">https://github.com/SpenceKonde/ATTinyCore</span></a></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Micronucleus: <a href="https://github.com/micronucleus/micronucleus"><span style=" text-decoration: underline; color:#0000ff;">https://github.com/micronucleus/micronucleus</span></a></li>
+<li style=" font-family:'Sans Serif'; font-size:9pt;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Примеры кода: <a href="https://github.com/SpenceKonde/ATTinyCore/tree/master/examples"><span style=" text-decoration: underline; color:#0000ff;">https://github.com/SpenceKonde/ATTinyCore/tree/master/examples</span></a></li></ul>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"><br /></p>
+<hr />
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Sans Serif'; font-size:9pt;">✅ </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">Теперь вы знаете — HW-260 — это не драйвер, а самый доступный способ сделать свою DigiSpark-плату.</span><span style=" font-family:'Sans Serif'; font-size:9pt;"><br />Используйте её для проектов, где важны </span><span style=" font-family:'Sans Serif'; font-size:9pt; font-weight:600;">размер, цена и USB-совместимость</span><span style=" font-family:'Sans Serif'; font-size:9pt;"> — и вы удивитесь, насколько много можно сделать с $0.75.</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="image83235139.png" /><a name="message-b8b72e15-a045-4e38-9dc4-6566b6cc304f-edit"></a><span style=" font-family:'Sans Serif'; font-size:9pt;"><br /></span></p></body></html>
