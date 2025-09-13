@@ -2277,6 +2277,14 @@
    <node crypt="" id="17576915818z6yx0h797" name="Atiny">
     <recordtable>
      <record id="17576916163qohocmbm1" name="Atiny_85" author="alensav" url="" tags="Atiny 85" ctime="20250912184016" dir="1757691616206pyjpf7y" file="text.html"/>
+     <record id="1757751050mcjya6k76p" name="Arduino Mega 2560 → ATtiny85" author="alensav" url="https://chat.qwen.ai/c/ea1419ab-6b8f-471a-84f4-940f7a23e803" tags="Arduino Mega 2560 → ATtiny85" ctime="20250913111050" dir="1757751050keg45nu42n" file="text.html"/>
+     <record id="17577519283pz3nz6u2b" name=" Как загрузить ATtiny85" author="alensav" url="https://chat.qwen.ai/c/ea1419ab-6b8f-471a-84f4-940f7a23e803" tags="ATtiny85" ctime="20250913112528" dir="1757751928kindpj0jc1" file="text.html"/>
+     <record id="1757772728jeu4wrnjip" name="набор вариантов использования ATtiny85" author="alensav" url="https://chat.qwen.ai/c/ea1419ab-6b8f-471a-84f4-940f7a23e803" tags="набор вариантов использования ATtiny85" ctime="20250913171208" dir="175777272877sja4veg0" file="text.html"/>
+     <record id="1757773780r2kjq21uab" name="Объединение ATtiny85 (маленький, низкопотребляющий USB-HID-контроллер) и ESP-01" author="alensav" url="https://chat.qwen.ai/c/ea1419ab-6b8f-471a-84f4-940f7a23e803" tags="Объединение ATtiny85 (маленький, низкопотребляющий USB-HID-контроллер) и ESP-01" ctime="20250913172940" dir="1757773780hibwnrne6p" file="text.html"/>
+     <record id="17577751378bqksr9i7t" name="USB-кнопка, которая управляет умным домом по Wi-Fi" author="alensav" url="https://chat.qwen.ai/c/ea1419ab-6b8f-471a-84f4-940f7a23e803" tags="USB-кнопка, которая управляет умным домом по Wi-Fi" ctime="20250913175217" dir="1757775137awhb77fg98" file="text.html"/>
+     <record id="1757792206be3uc30xj3" name="Кнопка_MQTT-реле" author=" alensav" url="https://chat.qwen.ai/c/ea1419ab-6b8f-471a-84f4-940f7a23e803" tags="Кнопка  MQTT реле" ctime="20250913223646" dir="1757792206t3d9negoxf" file="text.html"/>
+     <record id="1757793871poqlezv0ci" name="test.mosquitto.org " author="alensav" url="https://chat.qwen.ai/c/ea1419ab-6b8f-471a-84f4-940f7a23e803" tags="test.mosquitto.org " ctime="20250913230431" dir="1757793871iuvv7zlm74" file="text.html"/>
+     <record id="1757794093qrjaehoqus" name="Полный, готовый к использованию архив проекта " author="alensav" url="https://chat.qwen.ai/c/ea1419ab-6b8f-471a-84f4-940f7a23e803" tags="Attiny85 ESP-01" ctime="20250913230813" dir="1757794093mcfsx9rs9j" file="text.html"/>
     </recordtable>
    </node>
   </node>
