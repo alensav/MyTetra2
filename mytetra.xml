@@ -2304,5 +2304,10 @@
     <record id="1757515266rwf0u1haza" name="ESP-IDF сам скачивает библиотеки или их создает под код" author="alensav" url="https://chat.qwen.ai/c/3fba4f4b-380f-4f51-be36-d0aa4e5451c9" tags="ESP-IDF сам скачивает библиотеки или их создает под код" ctime="20250910174106" dir="1757515266yzonjrlz7u" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1758211819prua0e4t1m" name="QWEN">
+   <recordtable>
+    <record id="1758211881ig9xmpjhiq" name="QWEN" author="alensav" url="https://chat.qwen.ai/c/c24a8e67-c8e5-48c1-90d5-21ec5c492614" tags="qwen" ctime="20250918191121" dir="1758211881bgqlw45pms" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
