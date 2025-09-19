@@ -2309,5 +2309,11 @@
     <record id="1758211881ig9xmpjhiq" name="QWEN" author="alensav" url="https://chat.qwen.ai/c/c24a8e67-c8e5-48c1-90d5-21ec5c492614" tags="qwen" ctime="20250918191121" dir="1758211881bgqlw45pms" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1758268852v8w81hwag9" name="GIT_BUG">
+   <recordtable>
+    <record id="17582689436ac8rjj2fo" name="&#10;git-bug версии v0.10.1 " author="alensav" url="https://chat.qwen.ai/c/878bdae1-918d-46c9-8a1c-3fe2af0eaeec" tags="&#10;git-bug " ctime="20250919110223" dir="1758268943a8gipxfgd4" file="text.html"/>
+    <record id="17582692578h9zomtxu8" name="что такое git-bug" author="alensav" url="https://chat.qwen.ai/c/878bdae1-918d-46c9-8a1c-3fe2af0eaeec" tags="что такое git-bug" ctime="20250919110737" dir="1758269257aq8ih7hkn5" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
