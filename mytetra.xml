@@ -2316,5 +2316,11 @@
     <record id="1758295745np9fh45okk" name="ПЕРВЫЙ БАГ В git-bug!" author="alensav" url="https://chat.qwen.ai/c/878bdae1-918d-46c9-8a1c-3fe2af0eaeec" tags="ПЕРВЫЙ БАГ В git-bug" ctime="20250919182905" dir="1758295745hbkhlme8jn" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1758537205wqlstkz4ce" name=" GigaChat"/>
+  <node crypt="" id="1758541164ii57agd38k" name="Deepseek_git-bug">
+   <recordtable>
+    <record id="1758541231n0wyqpj0h7" name=" Установка git-bug v0.10.1 на Orange PI 64-bit" author="alensav" url="https://chat.deepseek.com/a/chat/s/2c5d9a38-02ab-4cdb-8879-6d14a4fd6fab" tags=" Установка git-bug v0.10.1 на Orange PI 64-bit" ctime="20250922144031" dir="175854123122j7at3ncb" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
