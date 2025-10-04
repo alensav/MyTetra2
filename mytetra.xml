@@ -2361,6 +2361,11 @@
      <record id="1759520169o51qpi7ubi" name="Резюмируйте любую статью с помощью ИИ " author="alensav" url="https://ibrief.co/" tags="hезюме" ctime="20251003223609" dir="1759520169tcijcjvicy" file="text.html"/>
     </recordtable>
    </node>
+   <node crypt="" id="17595696277h5zb4ni9o" name="Linux commands">
+    <recordtable>
+     <record id="175956981327h2it1khs" name="LINUX_COMMANDS" author="alensav" url="https://github.com/Lifailon/PS-Commands/blob/rsa/linux.md#cron" tags="linux commands" ctime="20251004122333" dir="1759569813qtj1d6jmue" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
   <node crypt="" id="1759521325du6beyupwm" name="geekcomputers">
    <recordtable>
