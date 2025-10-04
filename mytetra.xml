@@ -2352,5 +2352,20 @@
     <record id="17594006673mjofqex5b" name="UkM1U0lNUAPQHRrfU3T+ac1bdZzlBxq4D05LOORJlGoLp8ve/hbQ+SzeTKt4gBUH" author="UkM1U0lNUAMpH3+0taNphtEiWdi/nOPhpDSqEoltMQuD1YPI3hU1Q9Y2SzN6Ks7H" url="" tags="UkM1U0lNUAPd8hjWDyv/L+ylMNQRaRw14fkXDf9T+3AWcolujp8zhOFqSRidBLDn" ctime="20251002132427" dir="175940066745w1j27azt" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="17595186831nn7jnzqbt" name="FIREFOX">
+   <recordtable>
+    <record id="1759518752ae880r18o8" name="RECOVERY_FIREFOX" author="alensav" url="https://accounts.firefox.com/inline_recovery_key_setup?context=oauth_webchannel_v1&amp;entrypoint=activity-stream-firstrun&amp;action=email&amp;service=sync&amp;client_id=5882386c6d801776&amp;response_type=code&amp;access_type=offline&amp;scope=https%3A%2F%2Fidentity.mozilla.com%2Fapps%2Foldsync%2Bprofile&amp;state=oRYB62vInVqse4rG4dtQcA&amp;code_challenge=P4pNFWlQlAg99RGYVZ2ytw7MvQfB5YNueQy6WmlxNtQ&amp;code_challenge_method=S256&amp;keys_jwk=eyJjcnYiOiJQLTI1NiIsImV4dCI6dHJ1ZSwia2V5X29wcyI6W10sImt0eSI6IkVDIiwieCI6ImZ1ckM3aDN1V3Y0SldBVDBHSlBzYUwxRUJaUzN5VTBjaVFMcHdtVEFmNGMiLCJ5IjoiMzNEdm9iNWFjN1BjQVZpeFAzSHZOQWxJaXFBd1FqaE80WFRDVkpRNnNGYyJ9&amp;utm_source=activity-stream&amp;utm_campaign=firstrun&amp;utm_medium=referral&amp;utm_term=aboutwelcome-default-screen&amp;deviceId=f6da181e2034453385426331c53647f5&amp;flowId=87aa46cbd86f2107a55bb684c7e06373304e2588592361c73e8c4e7a725383ea&amp;flowBeginTime=1759518551587" tags="firefox" ctime="20251003221232" dir="1759518752revu1uh0kt" file="text.html"/>
+   </recordtable>
+   <node crypt="" id="1759520106mj4q0lv6d3" name="IBRIEF">
+    <recordtable>
+     <record id="1759520169o51qpi7ubi" name="Резюмируйте любую статью с помощью ИИ " author="alensav" url="https://ibrief.co/" tags="hезюме" ctime="20251003223609" dir="1759520169tcijcjvicy" file="text.html"/>
+    </recordtable>
+   </node>
+  </node>
+  <node crypt="" id="1759521325du6beyupwm" name="geekcomputers">
+   <recordtable>
+    <record id="1759521442pvmemy2kk0" name="GEEKCOMPUTERS" author="alensav" url="https://chat.qwen.ai/c/be08cffc-197e-4535-8d3e-9fc317c1c988" tags="scripts" ctime="20251003225722" dir="1759521442s3gjxetmbf" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
