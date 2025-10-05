@@ -2359,6 +2359,7 @@
    <node crypt="" id="1759520106mj4q0lv6d3" name="IBRIEF">
     <recordtable>
      <record id="1759520169o51qpi7ubi" name="Резюмируйте любую статью с помощью ИИ " author="alensav" url="https://ibrief.co/" tags="hезюме" ctime="20251003223609" dir="1759520169tcijcjvicy" file="text.html"/>
+     <record id="1759593249kum1o3yx8v" name="Визуализатор" author="alensav" url="https://www.devildev.com/" tags="DevilDev" ctime="20251004185409" dir="1759593249m4edtnqob2" file="text.html"/>
     </recordtable>
    </node>
    <node crypt="" id="17595696277h5zb4ni9o" name="Linux commands">
