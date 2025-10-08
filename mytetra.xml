@@ -2373,5 +2373,13 @@
     <record id="1759521442pvmemy2kk0" name="GEEKCOMPUTERS" author="alensav" url="https://chat.qwen.ai/c/be08cffc-197e-4535-8d3e-9fc317c1c988" tags="scripts" ctime="20251003225722" dir="1759521442s3gjxetmbf" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1759761288m9u86v8cfz" name="ESP_IDF_INSTRUCTION">
+   <recordtable>
+    <record id="1759761427lpc38mtpyx" name="ESP_IDF_SAV_Instruction" author="alensav" url="https://chat.deepseek.com/a/chat/s/740d9884-50ad-445b-899b-981c95923fd1" tags="ESP_IDF" ctime="20251006173707" dir="1759761427kp9exv9m74" file="text.html"/>
+    <record id="1759762083gch31240da" name="структуру работы с ESP-IDF" author="alensav" url="https://chat.deepseek.com/a/chat/s/740d9884-50ad-445b-899b-981c95923fd1" tags="ESP-IDF" ctime="20251006174803" dir="1759762083hgfrnxzixq" file="text.html"/>
+    <record id="1759768710ohgi2otl1l" name="Новый проект создан" author="alensav" url="" tags="ESP-IDF" ctime="20251006193830" dir="17597687106z5s622reb" file="text.html"/>
+    <record id="1759769034i5oiqpxuwr" name="преимущества прошивки с помощью ESP-IDF в сравнении с Arduino IDE" author="alensav" url="" tags="ESP-IDF" ctime="20251006194354" dir="17597690342plin3nxo4" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
