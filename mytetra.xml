@@ -2326,6 +2326,8 @@
     <record id="1758731088zecthtqzz6" name="СИНХРОНИЗАЦИЯ УСПЕШНА" author=" alensav" url="https://chat.deepseek.com/a/chat/s/2c5d9a38-02ab-4cdb-8879-6d14a4fd6fab" tags="СИНХРОНИЗАЦИЯ " ctime="20250924192448" dir="1758731088yo9dczeyrx" file="text.html"/>
     <record id="1758732179gv5537qg1z" name="ИСПРАВЛЯЕМ РАСПОЛОЖЕНИЕ" author="alensa" url="https://chat.deepseek.com/a/chat/s/2c5d9a38-02ab-4cdb-8879-6d14a4fd6fab" tags="bugs" ctime="20250924194259" dir="1758732179bao34lwa0b" file="text.html"/>
     <record id="1758747277vvlh9g31t3" name="ПОЛНАЯ ИНСТРУКТУРА: Система отслеживания багов" author="alensav" url="https://chat.deepseek.com/a/chat/s/5bbf4b66-4ef2-4762-bccf-eaf9257d4965" tags="ПОЛНАЯ ИНСТРУКТУРА: Система отслеживания багов" ctime="20250924235437" dir="1758747277h4nmp69g2a" file="text.html"/>
+    <record id="1760541797isaid2u0z9" name="git-bug commands" author="alensav" url="" tags="git-bug commands" ctime="20251015182317" dir="1760541797lbj49bwjq7" file="text.html"/>
+    <record id="1760546938j90mla6qd4" name="Scripts_auto_start" author="alensav" url="https://chat.qwen.ai/c/47428787-4054-4c4f-9c44-0897b7a542f4" tags="auto start" ctime="20251015194858" dir="1760546938718hj1ku2z" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1758537205wqlstkz4ce" name=" GigaChat"/>
@@ -2392,5 +2394,11 @@
     <record id="1760438478ca30gizork" name="UkM1U0lNUAPh997iTTn2unmOTMn3IXRmbaTDHEokWme6dfH5Q4MstWqCgdEf7OkB1oe92jnaZtq7kAh4p+9DvA==" author="UkM1U0lNUAMeo5wH337+va3gdUNz2R65lqqI+F8jLi5tk4CG0xTxTcQZDLiFz7oQ" url="UkM1U0lNUANabpW4LHjXz69GElpBU3etys2vij4yjO81nF/HXJaXRIIygIk6BeU7Ooc4NjZFnA+6bpPFYT+f31gNlJZ5qWdNmZxBbviWrxPczgeu63egW47vV7vGRpmYzzZApEdjfgE=" tags="UkM1U0lNUAOEgxHLCGs5nZFvWW6V7JnlgQD5s6vOQ9ZJEUU9QvTFMG4K5U8PtaIH1YLsQrnWugWI6bP/bHOZyg==" ctime="20251014134118" dir="1760438478a09ekd4ixz" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1760521725xo4ygwklaa" name="TEMP_pROCESSOR">
+   <recordtable>
+    <record id="17605220699xjjss8k8m" name="Температура процессора" author="alensav" url="" tags="Температура процессора" ctime="20251015125429" dir="1760522069d0lxfh9z3z" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="1760522822y8jirrazbi" name="Chat+GPT+Claude"/>
  </content>
 </root>
