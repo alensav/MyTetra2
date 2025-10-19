@@ -2405,5 +2405,11 @@
     <record id="1760784988i25yu0csxj" name="UkM1U0lNUAPKTaU6T7wnRa8kY5JL0hQ6jHJqbCAEm4INyZoprg2GvhKqK3icXAcDjp+rVpfwFJQ=" author="UkM1U0lNUAODrfLRUi0gDphPtrJscsY2vIhSxbt66ftK14ze+4WFVjtdN17GrI+Q" url="UkM1U0lNUAOIsWse9ZOhojeZiNYoXhxDkaoUXPDy+A/9UbFjLDjR5Yht4CNvYoDudEeoZfNr3oLISrZxe2z6y+cKK5QLeBWC6xKCOh64+nB0846rBPyeerPaoIybwoU82YJuaAdDzE7U9W8SJThIig==" tags="UkM1U0lNUAMwL+9OJIPwx60OKW/I95Duo/khKVGLSzNTL/+2otmwJjqshnZPFaYY0TH9nHICwEc=" ctime="20251018135628" dir="1760784988ydz7wzkl8i" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1760887146pxw6yedf06" name="Project_ideas">
+   <recordtable>
+    <record id="1760887206db0f8swyp9" name="Project-Ideas-And-Resources " author="alensav" url="https://github.com/The-Cool-Coders/Project-Ideas-And-Resources" tags="Project-Ideas-And-Resources " ctime="20251019182006" dir="17608872068wpocbd12b" file="text.html"/>
+    <record id="1760890138tmj8gof4zo" name="PDNob" author="alensav" url="https://www.tenorshare.ai/online-pdf/home" tags="PDNob" ctime="20251019190858" dir="1760890138to6rrnoyu4" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
