@@ -2435,5 +2435,10 @@
     <record id="17632358514vp8s1xt2c" name="архив usb-sync.zip " author="alensav" url="https://chat.qwen.ai/c/136a6785-2943-4f41-8332-bcccbb305432" tags="архив usb-sync.zip " ctime="20251115224411" dir="1763235851wj023dywqf" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1763997824ew01pj9g6h" name="SCRIPTS_NATILUS">
+   <recordtable>
+    <record id="17639978823cors16l7u" name="Script_Nautilus" author="alensav" url="" tags="Script_Nautilus" ctime="20251124182442" dir="17639978825v66cwpmsb" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
