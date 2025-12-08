@@ -2446,6 +2446,11 @@
     <record id="1764512974oaax1m8o30" name="tmpfs (Русский) " author="alensav" url="https://wiki.archlinux.org/title/Tmpfs_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" tags="tmpfs (Русский) " ctime="20251130172934" dir="1764512974gq9a494yw9" file="text.html"/>
     <record id="1764513658teabx78cz8" name="об tmpfs и рекомендации, включая пример, о практическом использовании.&#10;" author="alensav" url="https://chat.qwen.ai/c/d4724f08-da5d-4f6a-8b78-4e7362f9f8c3" tags="tmpfs" ctime="20251130174058" dir="1764513658xxmafpi3sy" file="text.html"/>
    </recordtable>
+   <node crypt="" id="1765125575k2a4z8axqs" name="NEW_GIT_BUG">
+    <recordtable>
+     <record id="1765125633dku1odtsqu" name="инструкция по организации автономного баг-трекинга с использованием системы git-bug" author="alensav" url="https://giga.chat/agents/7101c625-42ab-45fe-b168-323970c12eba/sessions/01998695-bd29-707d-ab7f-126e1af592df" tags="git-bug" ctime="20251207194033" dir="1765125633sqhibxqlaw" file="text.html"/>
+    </recordtable>
+   </node>
   </node>
  </content>
 </root>
