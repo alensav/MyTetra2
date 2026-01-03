@@ -2463,6 +2463,10 @@
     <record id="1765209996obxvb846za" name="UkM1U0lNUAMex9pa95pRK4/IzI6DdRBotKiNFj5wztz7x6uvDMeapFq9ghOxxWGq" author="UkM1U0lNUAMbMiUtOZ6DVzOYSQvIMBguOVAa8cg5OHV+cKJv7kMfIeF6wLBPwtfU" url="" tags="UkM1U0lNUAPIXXA8eAtXqvGxq8s6CtHdmxxtGZ3l9DzxFbHzS1HWiC+GqRa1K7Tw" ctime="20251208190636" dir="17652099967w8vgaas6c" file="text.html" crypt="1"/>
    </recordtable>
   </node>
-  <node crypt="" id="1767452693zmmelw751u" name="COOLIFY"/>
+  <node crypt="1" icon="" id="1767452693zmmelw751u" name="UkM1U0lNUAOeeHAnrCnt9jD7/EByodX1UzP9qziMG8Z7Kf1oFN8lfmROwBRcaUvp">
+   <recordtable>
+    <record id="1767452879iglazbz87p" name="UkM1U0lNUANn4gMJSAfDj2GAJOZDWQzMKU7ORXyjqSjeMJejl3FGh968HYMJ6vgWiesI3vNP0E4=" author="UkM1U0lNUAPh+dbD/d8MBCZQtMcBkp4eNeVVl9R6WU7HF3iUzxGgRaLeJWY1G54V" url="UkM1U0lNUAMuMk9vXb5QV4W3/z+Cd7m0l4gCGigl4SbCWXQsDChLoADH10jY0QWmBQMWOFF34xpqdp9Oq9VJoadskTONhhrX3w6sW5r8USqogeP2jJctLZGxh8KIRfExDjWNwdk/ZJgymy4tdk5Qhg==" tags="UkM1U0lNUAMjmiVPjF1+vmcvZhsgYj2XTG9XP1cgCvWjpfMJLz6iOy3AizH+6SPT" ctime="20260103180759" dir="1767452879jytjhh207z" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
  </content>
 </root>
