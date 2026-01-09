@@ -2468,5 +2468,10 @@
     <record id="1767452879iglazbz87p" name="UkM1U0lNUANn4gMJSAfDj2GAJOZDWQzMKU7ORXyjqSjeMJejl3FGh968HYMJ6vgWiesI3vNP0E4=" author="UkM1U0lNUAPh+dbD/d8MBCZQtMcBkp4eNeVVl9R6WU7HF3iUzxGgRaLeJWY1G54V" url="UkM1U0lNUAMuMk9vXb5QV4W3/z+Cd7m0l4gCGigl4SbCWXQsDChLoADH10jY0QWmBQMWOFF34xpqdp9Oq9VJoadskTONhhrX3w6sW5r8USqogeP2jJctLZGxh8KIRfExDjWNwdk/ZJgymy4tdk5Qhg==" tags="UkM1U0lNUAMjmiVPjF1+vmcvZhsgYj2XTG9XP1cgCvWjpfMJLz6iOy3AizH+6SPT" ctime="20260103180759" dir="1767452879jytjhh207z" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1767967964ces9kybuxg" name="GLANCES">
+   <recordtable>
+    <record id="1767968083fe9zuz4z96" name="Glances_instruction" author="alensav" url="   https://chat.deepseek.com/a/chat/s/f597f595-f101-4934-9f41-8927d32e277b" tags="glances" ctime="20260109171443" dir="1767968083vjzo8j2jez" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
