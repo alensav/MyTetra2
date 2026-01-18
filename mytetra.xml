@@ -2479,5 +2479,10 @@
     <record id="17683140000ep4erdtp9" name="Syncthing" author="alensav" url="https://chat.qwen.ai/c/9aaaeee5-12d9-48cb-8519-905e72629f8f" tags="Syncthing" ctime="20260113172000" dir="1768314000k5vy9ulpn5" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1768760766gh2kfssxrx" name="LXC_Contanier">
+   <recordtable>
+    <record id="17687608701nu4o8b0x3" name="Контейнер ubuntu_lxc" author="alensav" url="https://chat.qwen.ai/c/d7316266-7941-4ea6-a287-4672038c20a8" tags="Контейнер ubuntu_lxc" ctime="20260118212750" dir="1768760870ovs6v7fo46" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
