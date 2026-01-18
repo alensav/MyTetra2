@@ -2482,6 +2482,7 @@
   <node crypt="" id="1768760766gh2kfssxrx" name="LXC_Contanier">
    <recordtable>
     <record id="17687608701nu4o8b0x3" name="Контейнер ubuntu_lxc" author="alensav" url="https://chat.qwen.ai/c/d7316266-7941-4ea6-a287-4672038c20a8" tags="Контейнер ubuntu_lxc" ctime="20260118212750" dir="1768760870ovs6v7fo46" file="text.html"/>
+    <record id="1768766006x7wik2g6ya" name="LXD mycontainer " author="alensav" url="https://chat.deepseek.com/a/chat/s/c31d12d2-8dd7-4204-ae57-6709425525d3" tags="mycontainer" ctime="20260118225326" dir="1768766006vqmwpsy204" file="text.html"/>
    </recordtable>
   </node>
  </content>
