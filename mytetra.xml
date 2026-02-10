@@ -1929,6 +1929,7 @@
     <record id="1709189599bf0pnmplmr" name="Туториал по контейнеризации при помощи LXC" author="alensav" url="https://eax.me/lxc/" tags="lxc" ctime="20240229095319" dir="1709189599oy0bq829rd" file="text.html"/>
     <record id="1709227338o4u28u112x" name="LXC contanier" author="alensav" url="https://habr.com/ru/articles/496492/" tags="LXC" ctime="20240229202218" dir="1709227338wlfynijyyi" file="text.html"/>
     <record id="170922794613ffprtbck" name="LXC и Docker" author="alensav" url="https://habr.com/ru/companies/selectel/articles/308208/" tags="LXC и Docker" ctime="20240229203226" dir="1709227946828f58803d" file="text.html"/>
+    <record id="17707144095wivmohsn3" name="LXD 2.0." author="alensav" url="https://vasilisc.com/lxd-2-0-series" tags="LXD 2.0." ctime="20260210120649" dir="1770714409umlepte8gg" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="" id="1708872006gfp9xsdnz3" name="CLOUD_PANEL">
