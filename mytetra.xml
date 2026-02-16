@@ -457,6 +457,7 @@
      <record id="1724184386i2wup0xd8i" name="Установка OpenVPN на Ubuntu 18.04 LTS. Часть 1 из 12" author="alensav" url="https://tokmakov.msk.ru/blog/item/520" tags=" OpenVPN на Ubuntu 18.04 LTS" ctime="20240820230626" dir="1724184386yizr417596" file="text.html"/>
      <record id="1724252354hveo2trfu6" name="VPN_setting" author="alensav" url="" tags="vpn crt" ctime="20240821175914" dir="17242523542vbckgw2fq" file="text.html"/>
      <record id="1736016718zrk9j40mi8" name="Установить Docker Engine на Debian" author="alensav" url="https://docs.docker.com/engine/install/debian/" tags="Установить Docker Engine на Debian" ctime="20250104215158" dir="1736016718k1r0woz77k" file="text.html"/>
+     <record id="1771258424ch457r2ihm" name="Анализ положения Docker и рекомендации по полезному использованию&#10;" author="alensav" url="" tags="docker" ctime="20260216191344" dir="17712584241o1njbkfup" file="text.html"/>
     </recordtable>
     <node crypt="" id="1546165782lmte4z3m8z" name="ZVUK">
      <recordtable>
