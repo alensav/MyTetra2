@@ -2514,6 +2514,7 @@
   <node crypt="" id="17738604005bh9j1lfo7" name="UBUNTU_24-04">
    <recordtable>
     <record id="1773860461m5p2ldaqua" name="Настройка Ubuntu 24.04 LTS" author="alensav" url="https://chat.qwen.ai/c/29fe4c5e-fc87-4159-846c-a4152c1e0d2d" tags="Настройка Ubuntu 24.04 LTS" ctime="20260318220101" dir="1773860461mi1s1df2o3" file="text.html"/>
+    <record id="1773917016nqknw38slp" name="Настройка ZFS на Ubuntu 24.04: Полное руководство" author="alensav" url="https://chat.qwen.ai/c/29fe4c5e-fc87-4159-846c-a4152c1e0d2d" tags="Настройка ZFS на Ubuntu 24.04: Полное руководство" ctime="20260319134336" dir="1773917016heq65ez6o9" file="text.html"/>
    </recordtable>
   </node>
  </content>
