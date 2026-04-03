@@ -1,0 +1,396 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><a name="root"></a><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:x-large; font-weight:696; color:#800080;">Т</span><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:x-large; font-weight:696; color:#800080;">ипы объектов / Object Types</span></p>
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:large; font-weight:696; color:#800080;">Контейнеры / Containers</span></p>
+<p style=" margin-top:16px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;">Контейнеры Docker сообщают о следующих событиях: / Docker containers report the following events:</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">English</span></p></td>
+<td style=" padding-left:16; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">Русский</span></p></td></tr></thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">attach</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">присоединиться</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">commit</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">зафиксировать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">copy</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">копировать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">create</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">создать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">destroy</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">уничтожить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">detach</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">отсоединиться</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">die</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">завершиться</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">exec_create</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">exec_создать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">exec_detach</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">exec_отсоединить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">exec_die</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">exec_завершиться</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">exec_start</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">exec_запустить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">export</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">экспортировать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">health_status</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">статус_здоровья</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">kill</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">убить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">oom</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">out_of_memory (нехватка памяти)</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">pause</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">приостановить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">rename</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">переименовать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">resize</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">изменить_размер</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">restart</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">перезапустить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">start</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">запустить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">stop</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">остановить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">top</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">процессы (top)</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">unpause</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">возобновить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">update</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">обновить</span></p></td></tr></table>
+<hr />
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:large; font-weight:696; color:#800080;">Изображения / Images</span></p>
+<p style=" margin-top:16px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;">Образы Docker сообщают о следующих событиях: / Docker images report the following events:</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">English</span></p></td>
+<td style=" padding-left:16; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">Русский</span></p></td></tr></thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">delete</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">удалить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">import</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">импортировать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">load</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">загрузить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">pull</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">скачать (pull)</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">push</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">загрузить (push)</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">save</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">сохранить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">tag</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">отметить (tag)</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">untag</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">снять отметку (untag)</span></p></td></tr></table>
+<hr />
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:large; font-weight:696; color:#800080;">Плагины / Plugins</span></p>
+<p style=" margin-top:16px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;">Плагины Docker сообщают о следующих событиях: / Docker plugins report the following events:</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">English</span></p></td>
+<td style=" padding-left:16; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">Русский</span></p></td></tr></thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">enable</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">включить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">disable</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">отключить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">install</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">установить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">remove</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">удалить</span></p></td></tr></table>
+<hr />
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:large; font-weight:696; color:#800080;">Тома / Volumes</span></p>
+<p style=" margin-top:16px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;">Тома Docker сообщают о следующих событиях: / Docker volumes report the following events:</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">English</span></p></td>
+<td style=" padding-left:16; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">Русский</span></p></td></tr></thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">create</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">создать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">destroy</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">уничтожить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">mount</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">монтировать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">unmount</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">размонтировать</span></p></td></tr></table>
+<hr />
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:large; font-weight:696; color:#800080;">Сети / Networks</span></p>
+<p style=" margin-top:16px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;">В сетях Docker сообщается о следующих событиях: / Docker networks report the following events:</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">English</span></p></td>
+<td style=" padding-left:16; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">Русский</span></p></td></tr></thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">create</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">создать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">connect</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">подключить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">destroy</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">уничтожить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">disconnect</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">отключить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">remove</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">удалить</span></p></td></tr></table>
+<hr />
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:large; font-weight:696; color:#800080;">Демоны / Daemons</span></p>
+<p style=" margin-top:16px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;">Демоны Docker сообщают о следующих событиях: / Docker daemons report the following events:</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">English</span></p></td>
+<td style=" padding-left:16; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">Русский</span></p></td></tr></thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">reload</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">перезагрузить</span></p></td></tr></table>
+<hr />
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:large; font-weight:696; color:#800080;">Сервисы / Services</span></p>
+<p style=" margin-top:16px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;">Сервисы Docker сообщают о следующих событиях: / Docker services report the following events:</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">English</span></p></td>
+<td style=" padding-left:16; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">Русский</span></p></td></tr></thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">create</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">создать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">remove</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">удалить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">update</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">обновить</span></p></td></tr></table>
+<hr />
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:large; font-weight:696; color:#800080;">Узлы / Nodes</span></p>
+<p style=" margin-top:16px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;">Узлы Docker сообщают о следующих событиях: / Docker nodes report the following events:</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">English</span></p></td>
+<td style=" padding-left:16; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">Русский</span></p></td></tr></thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">create</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">создать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">remove</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">удалить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">update</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">обновить</span></p></td></tr></table>
+<hr />
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:large; font-weight:696; color:#800080;">Секреты / Secrets</span></p>
+<p style=" margin-top:16px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;">Секреты Docker сообщают о следующих событиях: / Docker secrets report the following events:</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">English</span></p></td>
+<td style=" padding-left:16; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">Русский</span></p></td></tr></thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">create</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">создать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">remove</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">удалить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">update</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">обновить</span></p></td></tr></table>
+<hr />
+<p style=" margin-top:32px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:large; font-weight:696; color:#800080;">Конфигурации / Configs</span></p>
+<p style=" margin-top:16px; margin-bottom:16px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;">Конфигурации Docker сообщают о следующих событиях: / Docker configs report the following events:</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<table border="0" style=" margin-top:0px; margin-bottom:0px; margin-left:44px; margin-right:44px;" cellspacing="2" cellpadding="0"><thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">English</span></p></td>
+<td style=" padding-left:16; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; font-weight:496; color:#800080;">Русский</span></p></td></tr></thead>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">create</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">создать</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">remove</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">удалить</span></p></td></tr>
+<tr>
+<td style=" padding-left:0; padding-right:16; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">update</span></p></td>
+<td style=" padding-left:16; padding-right:0; padding-top:10; padding-bottom:10;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:15px; color:#800080;">обновить</span></p></td></tr></table>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'quote-cjk-patch,Inter,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif'; font-size:14px; color:#800080;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
