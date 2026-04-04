@@ -2531,5 +2531,10 @@
     <record id="1775214391epgs6jrfnx" name="Контейнеры Docker сообщают о следующих событиях" author="alensav" url="https://chat.deepseek.com/a/chat/s/0638f5ff-4990-43d8-828c-c11c4272dad0" tags="docker" ctime="20260403140631" dir="1775214391oj0zj4btcl" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="17752902379vbqdnml52" name="Beget">
+   <recordtable>
+    <record id="1775290288ky206vpeuq" name="Begget-cloud" author="alensav" url="https://beget.com/ru/cloud" tags="Begget-cloud" ctime="20260404111128" dir="17752902885u4x0yk2j5" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
