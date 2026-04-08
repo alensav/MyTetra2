@@ -2539,7 +2539,7 @@
     <record id="1775290288ky206vpeuq" name="UkM1U0lNUAOyRbZlIe8P45B5/uqwTqj5ObWhuP4peoZ+2R+s64uceewOS4eFV9oQ3yA7x6zadoM=" author="UkM1U0lNUAOQrDhC8e6oEupMYp+t7mMHw+sQ0puiyDCnudCYzmB5fP/CYO3vwMxP" url="UkM1U0lNUAN/paBS05Lif7D4PkxvWNQTUK2VpxJoXLxTeV5Z9HdyQumvFSObgcokqrhFGh7K7SqwzaDTe03H35nNSLH0yTvX" tags="UkM1U0lNUAO8L5BcgWPuZA3z4aDL9vW7JpeAUTHvdokgtb6pJh2PXT6CdHtMD49XgzEZnQhjNXg=" ctime="20260404111128" dir="17752902885u4x0yk2j5" file="text.html" crypt="1"/>
    </recordtable>
   </node>
-  <node crypt="" id="1775660917j8hjpjcjtz" name="LXV_ANALIZ">
+  <node crypt="" id="1775660917j8hjpjcjtz" name="LXС_ANALIZ">
    <recordtable>
     <record id="1775660975e9ym80d7ro" name="Наш опыт тестирования LXC (Linux Containers)" author="alensav" url="https://habr.com/ru/companies/slurm/articles/202482/" tags="lxc" ctime="20260408180935" dir="1775660975eps6815efr" file="text.html"/>
    </recordtable>
