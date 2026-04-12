@@ -2545,5 +2545,10 @@
     <record id="17756616235uwuucarri" name="Чем отличаются команды lxc-start -n ubu1 -d  и   lxc start -n ubu1 -d?" author="alensav" url="https://chat.deepseek.com/a/chat/s/0638f5ff-4990-43d8-828c-c11c4272dad0" tags="lxc" ctime="20260408182023" dir="1775661623f56ysy5qfa" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1775982426t8pibn3hfj" name="SPRAVKA_DIAGNOZ">
+   <recordtable>
+    <record id="1775982472sied2sjno5" name="DIAGNOSTIKA" author="alensav" url="" tags="DIAGNOSTIKA" ctime="20260412112752" dir="177598247237r8piv80q" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
