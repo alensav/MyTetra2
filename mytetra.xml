@@ -2552,5 +2552,10 @@
     <record id="1775982472sied2sjno5" name="DIAGNOSTIKA" author="alensav" url="" tags="DIAGNOSTIKA" ctime="20260412112752" dir="177598247237r8piv80q" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1778166660ru6b2cqv02" name="Mqtt_Dush">
+   <recordtable>
+    <record id="1778166710yy25ik6it0" name="MQTT_DUSH" author="alensav" url="" tags="mqtt dush" ctime="20260507181150" dir="17781667109ncm23r27q" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
