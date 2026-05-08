@@ -2557,5 +2557,10 @@
     <record id="1778166710yy25ik6it0" name="MQTT_DUSH" author="alensav" url="" tags="mqtt dush" ctime="20260507181150" dir="17781667109ncm23r27q" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1778257830yo05j230tj" name="MyTetra_GIT">
+   <recordtable>
+    <record id="17782578934ad5zlkiwe" name="MyTetra_GIT_setting" author="alensav" url="" tags="mytetra git" ctime="20260508193133" dir="1778257893sw2dmcp1au" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
