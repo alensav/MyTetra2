@@ -2562,5 +2562,10 @@
     <record id="17782578934ad5zlkiwe" name="MyTetra_GIT_setting" author="alensav" url="" tags="mytetra git" ctime="20260508193133" dir="1778257893sw2dmcp1au" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1779209163xo3hlwzlft" name="Mail_DEV">
+   <recordtable>
+    <record id="17792201596jozwi39ri" name="/mnt/mailru" author="alensav" url="https://chat.qwen.ai/c/fa02af11-05a8-4ead-9a98-3364b492b423" tags="mailru" ctime="20260519224919" dir="1779220159rv7jx1pnvi" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
