@@ -2567,5 +2567,10 @@
     <record id="17792201596jozwi39ri" name="/mnt/mailru" author="alensav" url="https://chat.qwen.ai/c/fa02af11-05a8-4ead-9a98-3364b492b423" tags="mailru" ctime="20260519224919" dir="1779220159rv7jx1pnvi" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1780127048e4lclq7dzc" name="FTP_vsftpd">
+   <recordtable>
+    <record id="1780127112v817mu4heh" name="FTP_setting" author="alensav" url="https://chat.qwen.ai/c/53f9b158-fd01-43e4-b151-0c5a7d19bdb5" tags="ftp" ctime="20260530104512" dir="1780127112o0se44zuqi" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
