@@ -2572,5 +2572,10 @@
     <record id="1780127112v817mu4heh" name="FTP_setting" author="alensav" url="https://chat.qwen.ai/c/53f9b158-fd01-43e4-b151-0c5a7d19bdb5" tags="ftp" ctime="20260530104512" dir="1780127112o0se44zuqi" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="178056776376zmvr4j8d" name="Astra_Linux_LXC_container">
+   <recordtable>
+    <record id="1780567865rhimbk1r3f" name="Astra_Linux_container_LXC" author="alensav" url="https://chat.qwen.ai/c/768ed013-73fc-4421-aeca-3ed07b0036d3" tags="LXC" ctime="20260604131105" dir="1780567865936acjz94e" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
