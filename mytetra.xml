@@ -2575,6 +2575,7 @@
   <node crypt="" id="178056776376zmvr4j8d" name="Astra_Linux_LXC_container">
    <recordtable>
     <record id="1780567865rhimbk1r3f" name="Astra_Linux_container_LXC" author="alensav" url="https://chat.qwen.ai/c/768ed013-73fc-4421-aeca-3ed07b0036d3" tags="LXC" ctime="20260604131105" dir="1780567865936acjz94e" file="text.html"/>
+    <record id="1780740252kv2e8sd9td" name="Шпаргалка для повседневной работы" author="alensav" url="https://chat.qwen.ai/c/768ed013-73fc-4421-aeca-3ed07b0036d3" tags="LXC" ctime="20260606130412" dir="1780740252oviqtik22g" file="text.html"/>
    </recordtable>
   </node>
  </content>
