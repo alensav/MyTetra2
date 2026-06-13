@@ -2579,5 +2579,10 @@
     <record id="1780947318g0toh9d49j" name="Практическая работа" author="alensav" url="https://chat.qwen.ai/c/7295098e-73f8-4fce-965f-c44d59e0f2af" tags="docker" ctime="20260608223518" dir="17809473181r5mhcr4t2" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="17812792084633nd7hxs" name="Облако MAILRU">
+   <recordtable>
+    <record id="1781279269n7xyp1zlx2" name="Полезные команды" author="alensav" url="Полезные команды" tags="cloud j,kfrj" ctime="20260612184749" dir="1781279269cyj0vq19c3" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
