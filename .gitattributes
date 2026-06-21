@@ -1,0 +1,16 @@
+# Текстовые файлы
+*.html text
+*.ini text
+*.xml text
+*.md text
+*.txt text
+*.json text
+
+# Бинарные файлы
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.db binary
+*.sqlite binary
