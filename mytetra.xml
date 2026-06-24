@@ -2614,5 +2614,10 @@
     <record id="17823322464s4roruhml" name="test_24-06_23-16-2" author="" url="" tags="" ctime="20260624231726" dir="1782332246n652nhmcpa" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1782333257jh7ieib5fx" name="ИНСТРУКЦИЯ_СИНХРОНИЗАЦИИ">
+   <recordtable>
+    <record id="1782333312u5joal8ikw" name="ИНСТРУКЦИЯ_СИНХРОНИЗАЦИИ" author="alensav" url="" tags="" ctime="20260624233512" dir="1782333312hkkbq9x2nn" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
