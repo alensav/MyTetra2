@@ -2599,5 +2599,14 @@
     <record id="1782333312u5joal8ikw" name="ИНСТРУКЦИЯ_СИНХРОНИЗАЦИИ" author="alensav" url="" tags="" ctime="20260624233512" dir="1782333312hkkbq9x2nn" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1782676469hj2srd2vm7" name="КОТЕЛ_PROTHERM40">
+   <recordtable>
+    <record id="1782676535k2e17p1ibj" name="Инструкция по монтажу и обслуживанию&#10;чугунного котла&#10;PROTHERM 40 (30, 20) KLZ" author="aktnsav" url="https://belmingaz.by/InstrFiles/Protherm/4.pdf" tags="котел" ctime="20260628225535" dir="1782676535q9liup8nf0" file="text.html">
+     <files>
+      <file id="1782677124ad6f71ek2b" fileName="4.pdf" type="file"/>
+     </files>
+    </record>
+   </recordtable>
+  </node>
  </content>
 </root>
