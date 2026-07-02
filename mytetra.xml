@@ -2608,6 +2608,10 @@
     </record>
    </recordtable>
   </node>
-  <node crypt="" id="1782987951f46dttr8er" name="DESSY"/>
+  <node crypt="" id="1782987951f46dttr8er" name="DESSY">
+   <recordtable>
+    <record id="17829879981pgp82lwep" name="Dessy" author="alensav" url="https://www.dessy.ru/orders.html?MNT_ID=90690034&amp;r=success&amp;MNT_TRANSACTION_ID=1033976&amp;MNT_OPERATION_ID=1555844322" tags="dessy" ctime="20260702132638" dir="1782987998rmwv000nh6" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
