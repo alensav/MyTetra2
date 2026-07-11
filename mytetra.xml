@@ -2633,5 +2633,10 @@
     <record id="17834378833ouur54mk0" name="UkM1U0lNUAMXe/FHgy2q89Gt3QAGs9Lmv8c+TbA3Np+/CqYhw04AErj0h4VJ8JezdyzkVLMkMkU=" author="UkM1U0lNUANg2FF4U0K/1+us1G2Mj0hk8O906j/r3dI7wzRecZgbNczdLIbxmq/8" url="" tags="UkM1U0lNUAOAX1LFR5QlH7JfutL/slTlAdJHaUUG4dLu0VN2AdWyXR8CkEgzkXHz" ctime="20260707182443" dir="1783437883hjerj226j6" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1783763323jcvwxthg2j" name="VM_UBUNTU_26-04">
+   <recordtable>
+    <record id="1783763390f5hoz73gz2" name="VM_26-04-Setting" author="alensav" url="" tags="Ubuntu 26.04" ctime="20260711124950" dir="1783763390a39lzmuwix" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
