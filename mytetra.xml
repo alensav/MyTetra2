@@ -2638,5 +2638,10 @@
     <record id="1783763390f5hoz73gz2" name="VM_26-04-Setting" author="alensav" url="https://chat.qwen.ai/c/5a0cac42-95db-40c4-baf1-efbdd5158739" tags="Ubuntu 26.04" ctime="20260711124950" dir="1783763390a39lzmuwix" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1783939134afaffluv3m" name="GRUB_diagnostik">
+   <recordtable>
+    <record id="1783939193j9qq4qsuai" name="Расположение OS" author="alensav" url="https://chat.deepseek.com/a/chat/s/b4037059-46fd-4055-999b-43b2d8a2152f" tags="grub" ctime="20260713133953" dir="1783939193o84znk0hv3" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
