@@ -2641,6 +2641,7 @@
   <node crypt="" id="1783939134afaffluv3m" name="GRUB_diagnostik">
    <recordtable>
     <record id="1783939193j9qq4qsuai" name="Расположение OS" author="alensav" url="https://chat.deepseek.com/a/chat/s/b4037059-46fd-4055-999b-43b2d8a2152f" tags="grub" ctime="20260713133953" dir="1783939193o84znk0hv3" file="text.html"/>
+    <record id="1784305994shqvh1ezj6" name="sudo grub-mkdevicemap " author="alensav" url="" tags="sudo grub-mkdevicemap" ctime="20260717193314" dir="178430599478kwl2zu3d" file="text.html"/>
    </recordtable>
   </node>
   <node crypt="1" icon="" id="1784040417r08mu2qaah" name="UkM1U0lNUAMA2NEs75RncG82ExWf3HI8ezCa6Eg2dDtPpjFm0Iv/mtjBLmsdC0I0oicJUn1ZRbM=">
