@@ -2659,5 +2659,10 @@
     <record id="17849732998maucj0qz7" name="Подключение С Ubuntu НА Android (Termux)" author="alensav" url="https://chat.qwen.ai/c/9be2a409-be5d-4ee8-a2d3-a96fec3a940e" tags="termux android" ctime="20260725125459" dir="17849732993h5mqzmoqv" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1785180318mzl6b6jkgr" name="MOsquitto">
+   <recordtable>
+    <record id="17851803944m09hys02d" name="конфиг bridge_wqtt.conf " author="alensav" url="https://chat.qwen.ai/c/0a7998f7-d0cd-4da5-ac75-de947e43ed59" tags="конфиг bridge_wqtt.conf" ctime="20260727222634" dir="1785180394z8y0upnd93" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
