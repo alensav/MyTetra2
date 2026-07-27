@@ -2659,9 +2659,10 @@
     <record id="17849732998maucj0qz7" name="Подключение С Ubuntu НА Android (Termux)" author="alensav" url="https://chat.qwen.ai/c/9be2a409-be5d-4ee8-a2d3-a96fec3a940e" tags="termux android" ctime="20260725125459" dir="17849732993h5mqzmoqv" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" id="1785180318mzl6b6jkgr" name="MOsquitto">
+  <node crypt="1" icon="" id="1785180318mzl6b6jkgr" name="UkM1U0lNUAPKvUhk6MpIcVvzL7cQlVlz0NlWGP2ZXL0OIq84nLknyg+J4CBTrr34kamxFzbadUM=">
    <recordtable>
-    <record id="17851803944m09hys02d" name="конфиг bridge_wqtt.conf " author="alensav" url="https://chat.qwen.ai/c/0a7998f7-d0cd-4da5-ac75-de947e43ed59" tags="конфиг bridge_wqtt.conf" ctime="20260727222634" dir="1785180394z8y0upnd93" file="text.html"/>
+    <record id="17851803944m09hys02d" name="UkM1U0lNUAMu/xEpE7XhcLSUA0JJhnNtIZMG6VQKhu4xgBXOuG+7V1DIb6UhfSCq4XOueYov8+/mIk+E+tvN2czNA77PLviI" author="UkM1U0lNUAP6e/JusyBtxAvAy+dAg9zmZW/Z3kwcvRMHf26I32FZpLxQL8fclAxw" url="UkM1U0lNUAPzUcXIF8zCknGGKXEoYXNBSReUQ7T3l9WvfzZugSwCm5Jk+itYyYDusp5k2c8gyEOqjnPCA6PEXjhBFdvpK6utLwoGNm9xZztjIHiuVkoVSiTw66NeU6ZQP8O3lPsUIJE=" tags="UkM1U0lNUAMJBJtayWNxlaibBjd2E03/c+hYf/v6akmp7qvH1n1eDHUlYUkMm7qq2gNWhW9Q4UmsAowd33fpZvwSRT0kb+0s" ctime="20260727222634" dir="1785180394z8y0upnd93" file="text.html" crypt="1"/>
+    <record id="1785182307dn71cxxg1e" name="UkM1U0lNUAMIWVQySNswPIqnnjrZVPPNdQNOLpJCVc/pz0nYyjG0avIzBpGLNc7DubZ4vZXAzOJRhsSWrVb+2bVp2Ys6OF/3Z6gHB2cG7es=" author="UkM1U0lNUAP42qlMDPEnPOlf3TQremM9ohjeoFUN3EGeAizL88NjIi8ov7VeX8Uk" url="UkM1U0lNUAPDMCcFAnf93DM7iLmUF5h7zRZNqGAylAUrSE9gMzqynITD9hj3RBGx0VQghTiTHbT35Zej9vPAOIxILNWonCX0tzV/WDa20BMqgddhCkoYda7UD426vc6KhrXeyP1+x6A=" tags="UkM1U0lNUAORcDzBl0HEDimjuBcZ6Q9Guf2WoVIhHc+gluF7Jcb8eRVFFdTWF4DwqB8yF6upe9Js0wcLtiWk5287v3JHP1E2WrWof8eCyY4=" ctime="20260727225827" dir="1785182307u6kbwumeiy" file="text.html" crypt="1"/>
    </recordtable>
   </node>
  </content>
