@@ -2669,5 +2669,10 @@
     <record id="1785595886wzbyxweb9a" name="UkM1U0lNUAMfguiJ/4aU2Srs3f2DIvK7tTvfg7/3IOkGl5kVtq+wpLdkWWoRaogybSxTPQigWBYXff9Y91emZg==" author="UkM1U0lNUAMmR0t7s6OaNTaQgQ1jrd02OAlmaO3jMUZil3FUs/gt/ye74gm+Zi87" url="UkM1U0lNUAMhdNs9fUFjxXnR0JWptTXnNSlZ8vUNoxUbZH/OwoVjbpmlxt6UEH7tH+EOenAsyOyStSe6Tui4K677rRZEanUb/ZOT7UtadZpJNAf0xmkHfoIYjsbl1P+gqT0BaYxRWyPE5dHpOJlRtw==" tags="UkM1U0lNUANE+kKOK2awoKtxsTH/hWe7PWZbP/nXaPcDUCF0H2Q1oKJFm1Wv/iEX" ctime="20260801175126" dir="1785595886tm0hchfcuu" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="17856103000r9ta16vm2" name="PCLINK">
+   <recordtable>
+    <record id="1785610367cwoufccvlw" name="Запустите PCLink" author="alensav" url="https://github.com/BYTEDz/PCLink/wiki/Getting-Started" tags="pclink" ctime="20260801215247" dir="1785610367ueo37yktt6" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
