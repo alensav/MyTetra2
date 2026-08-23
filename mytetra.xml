@@ -2729,5 +2729,20 @@
     <record id="17872410678o3b7omj84" name="UkM1U0lNUANXbGwA3rBuaBV2vP4JeG7tGUqiAtrUGl+ZEkOLZgeLpMQN8zT7aRqzNlaLQkP1a74=" author="UkM1U0lNUAOubjGuTOEctROTFc+nj2/dzvoUrHaa5f+ury3SWIaFuDsEkLwpqMpw" url="UkM1U0lNUAOC/DrY/v+GbGM4EKx7NfEfSnZczocqChNmZmwk4BSSyCOhH1/mhuY6JlHl0y5b61H5GXHKFJDbxm7ZHsXWXiNRBbqnTMt22NM=" tags="UkM1U0lNUAM6xkdpA8llPb33tX7DohWReBHNCtTlAM3nw7f60nQQeG2G/01XoXtfiEMPNVJqVM4=" ctime="20260820185107" dir="1787241067843rewzdyu" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="1" icon="" id="1787308992jyco1zoeb1" name="UkM1U0lNUAMWGawZAaPcisQi2tVHNi+vQjb3koKmsi0SakV199FOJpxy4QWgYAOo">
+   <recordtable>
+    <record id="1787309103cjc6po9vqd" name="UkM1U0lNUAOsS5BOPcZwqYXZ3kk9IY0P40401Z6kG8pxBHonw2SoS6LdnHvr3jB1mo4zOgpSmRk=" author="UkM1U0lNUAM1IQ3FcEqL4DeeWv1deQjwsqqZE12UwExMXNDjGldrWdTB22bHdSz9" url="" tags="UkM1U0lNUANqFm1Iiy9+rJozrlieXca4QUVximsfcZjKewz9P0T0V2eEhrCJsiVv" ctime="20260821134503" dir="17873091038ezgie5hy8" file="text.html" crypt="1"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="17873907827erwtujkrb" name="BitPlay">
+   <recordtable>
+    <record id="1787390847qy2aiqw9at" name="BitPlay успешно запущен через Docker" author="alensav" url="https://chat.deepseek.com/a/chat/s/71ed7ac8-6de1-4757-87c4-ac56a54d35de" tags="BitPlay успешно запущен через Docker" ctime="20260822122727" dir="1787390847tj20fvaev1" file="text.html"/>
+   </recordtable>
+  </node>
+  <node crypt="" id="17873926237ei27yo8rr" name="Rezolus ">
+   <recordtable>
+    <record id="1787392657s63zskcdeu" name="Rezolus_NOTES" author="alensav" url="" tags="" ctime="20260822125737" dir="1787392657hfc0xzel86" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
