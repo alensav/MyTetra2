@@ -2751,5 +2751,10 @@
     <record id="17881733206i9e02m6l0" name="Commands_Ubuntu" author="alensav" url="" tags="Commands_Ubuntu" ctime="20260831134840" dir="1788173320howvkfmq3h" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="17882842762uadb72uuv" name="Termux_Туннель">
+   <recordtable>
+    <record id="1788284323156eu4v4d3" name="Команды обратного туннеля (Reverse SSH Tunnel) — полный справочник" author="alensav" url="https://chat.deepseek.com/a/chat/s/67812a08-1662-4823-bddc-aa186709fbe9" tags="Команды обратного туннеля (Reverse SSH Tunnel) — полный справочник" ctime="20260901203843" dir="1788284323tup3n0apvk" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
