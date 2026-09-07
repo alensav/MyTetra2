@@ -2762,5 +2762,10 @@
     <record id="17884555055be79zlvaa" name="UkM1U0lNUAPPg4GKVmTxpEeDsmh2ae77/KahYzACTEIKoLtB3B/cI/vp2oFhTEHx" author="UkM1U0lNUAOwvUBkcTAz9UhDK3HVNZ8bL+OC+Ene9If3odu+HKPNs+vOwe/BJEXw" url="" tags="UkM1U0lNUAO1a7AnuFHXdRCQwNfGpP03O0TGVeWLqdxF3guRujihwNxCjZO7mCCH" ctime="20260903201145" dir="1788455505qyeep5m4u8" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1788774419g4n6r06338" name="ESP32_MAX_V-3.0">
+   <recordtable>
+    <record id="1788774510jr65z5qq6r" name="ESP32 Max V3.0" author="alensav" url="ESP32-MAX-V3 (QA018/QA019) - инструкция" tags="ESP32 Max V3.0" ctime="20260907124830" dir="1788774510921wo8xbbg" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
