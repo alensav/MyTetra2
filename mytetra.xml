@@ -2765,6 +2765,7 @@
   <node crypt="" id="1788774419g4n6r06338" name="ESP32_MAX_V-3.0">
    <recordtable>
     <record id="1788774510jr65z5qq6r" name="ESP32 Max V3.0" author="alensav" url="ESP32-MAX-V3 (QA018/QA019) - инструкция" tags="ESP32 Max V3.0" ctime="20260907124830" dir="1788774510921wo8xbbg" file="text.html"/>
+    <record id="17887782544kchg6wc6s" name="Полная схема подключения WiFi Radio" author="alensav" url="https://chat.deepseek.com/a/chat/s/18254163-c50c-441d-bf45-3b6a0f904bfc" tags="Полная схема подключения WiFi Radio" ctime="20260907135054" dir="17887782547lmbat7gei" file="text.html"/>
    </recordtable>
   </node>
  </content>
