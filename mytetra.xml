@@ -2769,5 +2769,10 @@
     <record id="1789032848viz3rvii0l" name="Qwen_Coder" author="alensav" url="https://coder.qwen.ai/c/1910586f-0c0a-494c-b0c4-1bcd61140b02" tags="WiFi Radio" ctime="20260910123408" dir="1789032848czsun8098r" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1789154543zuhez4xlqs" name="Copyparty">
+   <recordtable>
+    <record id="1789154574wftw8aa1x6" name=" copyparty /dev/sda1" author="alensav" url="" tags="" ctime="20260911222254" dir="17891545741woyq33n49" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
