@@ -1,0 +1,650 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Руководство — Часть 1 из 2 (Базовое + Дополнения 1–2)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Проект:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> proekts — продажа цифровых товаров через ЮKassa + чеки в «Мой налог» + выдача файлов.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Части IV и V</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — в отдельной заметке «📘 Руководство — Часть 2 из 2».</span></p>
+<hr />
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:x-large; font-weight:600; color:#000000;">📑 Содержание</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Часть I. Базовое руководство</span></p>
+<ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-1"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Архитектура — как всё связано</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-2"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Ключевые пути и команды</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-3"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Ежедневный контроль (чек-лист)</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-4"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Наладка — типовые операции</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-5"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Диагностика проблем — таблица</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-6"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Использование магазина — сценарий покупателя</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-7"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Использование архива</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-8"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Быстрые SQL-запросы</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-9"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Мониторинг — что стоит настроить</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-10"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Регламент действий при инциденте</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-11"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Контакты и внешние ресурсы</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#base-12"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Известные проблемы и их статус</span></a></li></ol>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Часть II. Дополнение 1 — изменения 5 октября 2026</span></p>
+<ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#add1-16"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Дополнение: последние изменения и текущее состояние</span></a></li></ol>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Часть III. Дополнение 2 — изменения 6 октября 2026</span></p>
+<ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#add2-17"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Дополнение: последние изменения</span></a></li></ol>
+<hr />
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-1"></a><span style=" font-family:'Times New Roman'; font-size:x-large; font-weight:600; color:#000000;">Ч</span><span style=" font-family:'Times New Roman'; font-size:x-large; font-weight:600; color:#000000;">асть I. Базовое руководство</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">1. Архитектура — как всё связано</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">Покупатель → Сайт proekts → orders (pending) → ЮKassa → оплата</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">ЮKassa → webhook → yookassa-webhook.php → orders.status=paid</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">Docker yookassa-to-mynalog (каждые 5 мин) → ФНС «Мой налог» → чек → SQLite</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">downloads → токены → download.php → файл покупателю</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Важно:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> Docker не слушает webhook — опрашивает ЮKassa каждые 5 минут. Webhook нужен, чтобы сайт быстрее узнал об оплате.</span></p>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-2"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Ключевые пути</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-2"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">2</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Ключевые пути и команды</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Что</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Где</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Каталог проекта</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace';">/opt/yookassa-to-mynalog/</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">docker-compose.yml</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace';">/opt/yookassa-to-mynalog/docker-compose.yml</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">.env контейнера</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace';">/opt/yookassa-to-mynalog/.env</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Лог синхронизации</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace';">/app/logs/sync.log</span><span style=" font-family:'Times New Roman';"> (внутри контейнера)</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">SQLite контейнера</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace';">/app/data/*.db</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">БД сайта</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">MySQL, база </span><span style=" font-family:'Monospace';">proekts</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Webhook сайта</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace';">yookassa-webhook.php</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Выдача файлов</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace';">download.php</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Базовые команды Docker:</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">cd /opt/yookassa-to-mynalog</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose ps</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose logs --tail 50</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose exec yookassa-to-mynalog tail -50 /app/logs/sync.log</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose restart</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose pull &amp;&amp; sudo docker compose up -d</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose exec yookassa-to-mynalog python -m app.main</span></pre>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Архитектура</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-3"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Ежедневный контроль</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-3"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">3</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Ежедневный контроль (чек-лист)</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">3.1. Утром — 2 минуты</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose -f /opt/yookassa-to-mynalog/docker-compose.yml ps</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose -f /opt/yookassa-to-mynalog/docker-compose.yml exec yookassa-to-mynalog tail -30 /app/logs/sync.log</span></pre>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Строка в логе</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Значение</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Действие</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✓ Новых платежей не найдено</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Норма</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Ничего</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✓ Найдено новых платежей: N</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Есть новые</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Проверить, что чек создался</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Создан чек в «Мой налог»</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Всё работает</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Ничего</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Неудачная попытка авторизации</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Проблема с ФНС</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">См. раздел 5</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Таймаут API ЮKassa</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Сеть / ЮKassa</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">См. раздел 5</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">degraded в healthcheck</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Есть pending</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">См. раздел 5</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">3.2. Раз в неделю — 5 минут</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo mysql proekts -e &quot;SELECT status, COUNT(*) FROM orders WHERE created_at &gt;= NOW() - INTERVAL 7 DAY GROUP BY status;&quot;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo mysql proekts -e &quot;SELECT o.id, o.order_number, o.paid_at FROM orders o LEFT JOIN downloads d ON d.order_id = o.id WHERE o.status='paid' AND d.id IS NULL;&quot;</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">3.3. Раз в месяц — 10 минут</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo mysqldump proekts &gt; /root/backup/proekts_$(date +%F).sql</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose -f /opt/yookassa-to-mynalog/docker-compose.yml exec yookassa-to-mynalog tar czf /tmp/data.tgz /app/data</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker cp yookassa-to-mynalog:/tmp/data.tgz /root/backup/container_data_$(date +%F).tgz</span></pre>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-2"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Ключевые пути</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-4"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Наладка</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-4"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">4</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Наладка — типовые операции</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">4.1. Заказ оплачен, но статус не paid</span></p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo mysql proekts -e &quot;UPDATE orders SET status='paid', paid_at=NOW(), payment_id='&lt;UUID&gt;' WHERE order_number='ORD-XXXX';&quot;</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">4.2. Заказ paid, но нет токенов на скачивание</span></p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo mysql proekts -e &quot;INSERT INTO downloads (order_id, token, downloads_left, created_at) VALUES (&lt;ID&gt;, SHA2(CONCAT(&lt;ID&gt;, NOW(), RAND()), 256), 3, NOW());&quot;</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">4.3. Покупатель не может скачать файл</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo mysql proekts -e &quot;SELECT * FROM downloads WHERE token='&lt;TOKEN&gt;';&quot;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">ls -la /path/to/files/&lt;filename&gt;</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">4.4. Чек не создался в «Мой налог»</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose -f /opt/yookassa-to-mynalog/docker-compose.yml exec yookassa-to-mynalog tail -30 /app/logs/sync.log</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">curl -sS -o /dev/null -w &quot;HTTP %{http_code}\n&quot; --max-time 10 https://lknpd.nalog.ru/api/v1/auth/lkfl</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">4.5. Платёж завис в pending / rejected</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose restart</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose exec yookassa-to-mynalog python -m app.main</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">4.6. Обновление контейнера</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">cd /opt/yookassa-to-mynalog</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose pull &amp;&amp; sudo docker compose up -d</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">4.7. Email-уведомления не уходят</span></p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">grep -E 'SMTP|EMAIL' /opt/yookassa-to-mynalog/.env</span></pre>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-3"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Ежедневный контроль</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-5"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Диагностика проблем</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-5"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">5</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Диагностика проблем — таблица быстрого поиска</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Симптом</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Где смотреть</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Раздел</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Покупатель: «оплатил, а статус не paid»</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">orders.status</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">4.1</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Покупатель: «не могу скачать»</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">downloads, файл на диске</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">4.3</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Чек не пришёл в «Мой налог»</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">sync.log, env MOY_NALOG</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">4.4</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Контейнер unhealthy</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">docker inspect Health</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">4.4</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">pending payments&gt;0</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">sync.log, SQLite payments</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">4.5</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">ЮKassa timeout</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">sync.log</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">4.4</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">SMTP ошибка email</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">sync.log</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">4.7</span></p></td></tr></table>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-4"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Наладка</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-6"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Сценарий покупателя</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-6"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">6</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Использование магазина — сценарий покупателя</span></p>
+<ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Покупатель заходит на сайт → выбирает товар → оформляет заказ.</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Сайт создаёт orders (status=pending) и отправляет в ЮKassa.</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Покупатель платит на стороне ЮKassa.</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">ЮKassa шлёт webhook → yookassa-webhook.php → orders.status=paid.</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Покупатель видит «🎉 Платёж прошёл!» и кнопку [Получить].</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Docker (в течение 5 минут) создаёт чек в «Мой налог».</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Покупатель скачивает файл по ссылке download.php?token=....</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">downloads_left уменьшается на 1.</span></li></ol>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-5"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Диагностика</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-7"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Использование архива</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-7"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">7</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Использование архива — что это и где</span></p>
+<ul style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium; font-weight:600;">MySQL proekts</span><span style=" font-size:medium;"> — заказы, платежи, токены, пользователи.</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium; font-weight:600;">SQLite внутри контейнера</span><span style=" font-size:medium;"> — платежи, чеки, sync_state, refunds.</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium; font-weight:600;">Файлы товаров</span><span style=" font-size:medium;"> — на диске VPS (путь уточнить в download.php).</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium; font-weight:600;">Логи</span><span style=" font-size:medium;"> — sync.log, webhook-лог, nginx/apache access.log.</span></li></ul>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Резервное копирование:</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">#!/bin/bash</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;"># /root/backup/backup_proekts.sh</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">set -e</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">DATE=$(date +%F_%H-%M)</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">BACKUP_DIR=/root/backup</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">mkdir -p &quot;$BACKUP_DIR&quot;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">mysqldump proekts | gzip &gt; &quot;$BACKUP_DIR/proekts_$DATE.sql.gz&quot;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo docker compose -f /opt/yookassa-to-mynalog/docker-compose.yml exec -T yookassa-to-mynalog tar czf - /app/data &gt; &quot;$BACKUP_DIR/container_data_$DATE.tgz&quot;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">cp /opt/yookassa-to-mynalog/.env &quot;$BACKUP_DIR/env_$DATE.txt&quot;</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">find &quot;$BACKUP_DIR&quot; -type f -mtime +30 -delete</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">echo &quot;Backup done: $DATE&quot;</span></pre>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-6"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Сценарий покупателя</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-8"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: SQL-запросы</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-8"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">8</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Быстрые SQL-запросы (шпаргалка)</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">-- Последние 10 заказов</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">SELECT id, order_number, status, paid_at, payment_id FROM orders ORDER BY id DESC LIMIT 10;</span></pre>
+<pre style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Monospace'; color:#000000;"><br /></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">-- Конкретный заказ</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">SELECT * FROM orders WHERE order_number='ORD-XXXX';</span></pre>
+<pre style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Monospace'; color:#000000;"><br /></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">-- Paid без скачиваний</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">SELECT o.* FROM orders o LEFT JOIN downloads d ON d.order_id=o.id WHERE o.status='paid' AND d.id IS NULL;</span></pre>
+<pre style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Monospace'; color:#000000;"><br /></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">-- Скачивания по заказу</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">SELECT * FROM downloads WHERE order_id=&lt;ID&gt;;</span></pre>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-7"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Использование архива</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-9"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Мониторинг</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-9"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">9</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Мониторинг — что стоит настроить</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">#!/bin/bash</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;"># /root/scripts/check_health.sh</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">STATUS=$(sudo docker inspect --format='{{.State.Health.Status}}' yookassa-to-mynalog)</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">PENDING=$(sudo docker compose -f /opt/yookassa-to-mynalog/docker-compose.yml exec -T yookassa-to-mynalog tail -100 /app/logs/sync.log | grep -c &quot;осталось=1&quot;)</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">if [ &quot;$STATUS&quot; != &quot;healthy&quot; ] || [ &quot;$PENDING&quot; -gt 0 ]; then</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">  echo &quot;⚠ yookassa-to-mynalog: status=$STATUS, pending=$PENDING&quot; | mail -s &quot;ALERT proekts&quot; admin@example.com</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">fi</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;">Cron: </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">0 * * * * root /root/scripts/check_health.sh</span></p>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-8"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: SQL-запросы</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-10"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Регламент инцидентов</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-10"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">1</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">0. Регламент действий при инциденте</span></p>
+<ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Зафиксировать: время, симптом, что видит покупатель.</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; font-size:medium;">docker compose ps</span><span style=" font-size:medium;"> — контейнер жив?</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; font-size:medium;">tail -50 /app/logs/sync.log</span><span style=" font-size:medium;"> — что в логе?</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; font-size:medium;">docker inspect Health</span><span style=" font-size:medium;"> — degraded/pending?</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">По таблице раздела 5 — определить причину.</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Применить решение из раздела 4.</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Если чек не создался за 2 часа — проверить curl до API ФНС.</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Если ФНС недоступен &gt;24 ч — создать чек вручную в приложении «Мой налог».</span></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:medium;">Записать инцидент в журнал (дата, причина, решение).</span></li></ol>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-9"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Мониторинг</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-11"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Контакты</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-11"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">1</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">1. Контакты и внешние ресурсы</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Ресурс</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Ссылка/путь</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">ЮKassa ЛК</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">https://yookassa.ru/my</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">«Мой налог» (приложение)</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">iOS / Android</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">API ЛК ФЛ ФНС</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">https://lknpd.nalog.ru/api/v1/...</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Docker-образ</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">grandvan/yookassa-to-mynalog:latest</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">БД сайта</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace';">sudo mysql proekts</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Лог контейнера</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace';">/app/logs/sync.log</span></p></td></tr></table>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-10"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Регламент инцидентов</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-12"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Известные проблемы</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="base-12"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">1</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">2. Известные проблемы и их статус</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Проблема</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Статус</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Решение</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Не найдено при авторизации в «Мой налог»</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">⚠ Активна (03.10.2026)</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Техработы ФНС, ждать</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">SMTP 535</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">⚠ Активна</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Обновить SMTP-пароль или EMAIL_ENABLED=false</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Таймаут ЮKassa (&gt;120s)</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Редко</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Сетевой сбой, само проходит</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">unhealthy при pending&gt;0</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Норма при техработах</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Не путать с падением</span></p></td></tr></table>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-11"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Контакты</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#add1-16"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Дополнение 1</span></a></p>
+<hr />
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="add1-16"></a><span style=" font-family:'Times New Roman'; font-size:x-large; font-weight:600; color:#000000;">Ч</span><span style=" font-family:'Times New Roman'; font-size:x-large; font-weight:600; color:#000000;">асть II. Дополнение 1 — изменения 5 октября 2026</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">16.1. Что изменилось в инфраструктуре</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Платёжная цепочка (ЮKassa → ФНС)</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Было</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Стало</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Ключ ЮKassa — старый</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Отозван, работает новый</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Пароль ФНС — старый</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Сменён, работает</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Чек создавался вручную</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Автоматически через контейнер</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Ссылка на чек — не проверялась</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Открывается без авторизации</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Доставка файлов покупателю</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Было</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Стало</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">download.php отдавал локальные файлы</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Работает через SSHFS с OrangePi</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Файлы хранились на сервере</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Хранятся на OrangePi</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Не было автомонтирования</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ systemd-сервис поднимает SSHFS</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Тоннель до OrangePi — непонятно как</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ FRP (frps + frpc)</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Email-рассылка чеков</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Было</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Стало</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Письма покупателям не отправлялись</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Автоматическая рассылка через cron</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">send_receipts.php не было</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Создан и работает</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Postfix → haskimail.ru не использовался</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Postfix отправляет через smtp.haskimail.ru</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Админка</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Было</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Стало</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">orders.php — 404</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Создан, работает</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">order_view.php — старая версия</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Обновлён: блок чека + 2 кнопки</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Кнопки ретрая — не было</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ «Отправить чек повторно» и «Полная синхронизация»</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Безопасность</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Было</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Стало</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">.bak файлы отдавались по HTTP</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Убраны из webroot</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">PHP в /admin/ не выполнялся</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Исправлено — вложенный location</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">ЮKassa API key в открытом виде</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">✅ Отозван, ключ сменён</span></p></td></tr></table>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">16.2. Актуальная архитектура</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">Покупатель → Сайт (nginx + PHP-FPM 8.3) → MySQL proekts</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">                  │</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">                  ├── payment.php → ЮKassa</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">                  ├── yookassa-webhook.php → orders.status=paid</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">                  ├── download.php → SSHFS → OrangePi</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">                  └── admin/ → админка</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">Docker yookassa-to-mynalog (5 мин) → ФНС → чек → SQLite</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">Cron send_receipts.php (5 мин) → Postfix → email покупателю</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">OrangePi (дом) ─── frpc ───► frps (сервер:2222) ─── SSHFS ─── /mnt/orangepi/Proekts</span></pre>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">16.3. Новые компоненты и их назначение</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Сервис</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Файл</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Назначение</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">frps.service</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/etc/systemd/system/frps.service</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">FRP-сервер</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">mnt-orangepi-proekts.service</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/etc/systemd/system/mnt-orangepi-proekts.service</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">SSHFS-монтирование</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">nginx.service</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">стандартный</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Web-сервер</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">php8.3-fpm.service</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">стандартный</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">PHP-FPM</span></p></td></tr></table>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">16.4. Новые скрипты и файлы</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">send_receipts.php</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">/var/www/proekts.alensav.ru/cron/send_receipts.php</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — рассылка чеков.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">yookassa-state.sh</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">/usr/local/bin/yookassa-state.sh</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — обёртка для чтения SQLite.</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">16.5. Изменения в nginx</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">location ~* \.(bak|bak-.*|backup|old|orig|save|swp|~)$ { deny all; return 404; }</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">location ~* \.(sql|log|ini|env)$ { deny all; return 404; }</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">location ~ /\.(?!well-known) { deny all; return 404; }</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">location ^~ /vendor/ { deny all; return 404; }</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">location ^~ /cron/   { deny all; return 404; }</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">location ^~ /logs/   { deny all; return 404; }</span></pre>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#base-12"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Известные проблемы</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#add2-17"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Дополнение 2</span></a></p>
+<hr />
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="add2-17"></a><span style=" font-family:'Times New Roman'; font-size:x-large; font-weight:600; color:#000000;">Ч</span><span style=" font-family:'Times New Roman'; font-size:x-large; font-weight:600; color:#000000;">асть III. Дополнение 2 — изменения 6 октября 2026</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">17.1. Что появилось нового</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 Технические работы через админку</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Компонент</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Путь</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Страница-заглушка</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/var/www/proekts.alensav.ru/maintenance.php</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Управление</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/var/www/proekts.alensav.ru/admin/maintenance.php</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Флаг-файл</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/var/www/proekts.alensav.ru/.maintenance</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Настройки</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/var/www/proekts.alensav.ru/.maintenance.settings.json</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 Nginx-защита от утечек</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — см. раздел 16.5.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 CLI-защита cron-скриптов</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">if (php_sapi_name() !== 'cli') {</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">    http_response_code(403);</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">    exit('Forbidden: CLI only');</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">}</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 Кнопка «Сбросить лимит скачиваний»</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — в order_view.php.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 Восстановление пароля покупателей</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — forgot.php + reset.php.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 Ротация логов</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — /etc/logrotate.d/proekts-receipts, proekts-newsletter.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 Яндекс.Метрика</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — ID 113426674.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 Экспорт CSV в заказах</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — в orders.php.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 SDK ЮKassa — таймауты</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — 5s connection / 15s request (было 130s).</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 Восстановление SSHFS после reboot</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — пересоздание ключа /root/.ssh/id_orange.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">🆕 Проблема IPv6 и замедление в браузере</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> — отключить IPv6 в браузере/ОС.</span></p>
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">17.2. Обновлённая карта путей</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Путь</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Назначение</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/var/www/proekts.alensav.ru/maintenance.php</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Страница техработ</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/var/www/proekts.alensav.ru/admin/maintenance.php</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Управление техработами</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/var/www/proekts.alensav.ru/.maintenance</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Флаг техработ</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/var/www/proekts.alensav.ru/forgot.php</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Запрос сброса пароля</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/var/www/proekts.alensav.ru/reset.php</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Установка нового пароля</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/var/www/proekts.alensav.ru/inc/yookassa.php</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">SDK ЮKassa с таймаутами</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/etc/logrotate.d/proekts-receipts</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Ротация логов чеков</span></p></td></tr></table>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#add1-16"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Дополнение 1</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#top1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">🏠 К содержанию</span></a></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-style:italic; color:#000000;">Конец Части 1 из 2. Части IV и V — в отдельной заметке «📘 Руководство — Часть 2 из 2».</span></p></body></html>
