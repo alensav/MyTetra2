@@ -2822,5 +2822,10 @@
     <record id="1793530035avmetjmgm6" name="UkM1U0lNUAMerbz+T28lIDuOJ+jndTRjWDFHiBxIKWAbSIx70KTsUlBryR499xISag/17+BHDFcxc9KPDI8SQ/N0fLWRTk5pRvpH3u6trHKJXUFD0uErgRKQztBUWns/" author="UkM1U0lNUAMWMc7Yh+DkpUnMJapp945nVtpHXz6I7C40hg5RddNpvlGtSd8gLQRf" url="" tags="UkM1U0lNUAO9WCuIS0iffAnkMis5L+FnGIthqNwjSAwN4SvwbhGfUZ+tDF79jxEY" ctime="20261101134715" dir="1793530035yal7fahz0j" file="text.html" crypt="1"/>
    </recordtable>
   </node>
+  <node crypt="" id="1793550600hzr2zej9tw" name="DIAGNOSTIKA_FLASH">
+   <recordtable>
+    <record id="1793550657v0q1e49w5d" name="установка f3 6.0 из репозитория Stretch" author="alensav" url="" tags="f3" ctime="20261101193057" dir="17935506572xpaz4ozty" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
