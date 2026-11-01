@@ -2814,6 +2814,9 @@
   <node crypt="" id="1793529190gswiu0sb0o" name="PROEKTS">
    <recordtable>
     <record id="17935292559juku8bthi" name="Руководство — Часть 1 из 2 (Базовое + Дополнения 1–2)&#10;" author="alensav" url="" tags="proekts" ctime="20261101133415" dir="1793529255qe2mdwml7m" file="text.html"/>
+    <record id="1793529637slo1rk2gu2" name="Руководство — Часть 2A из 4 (Дополнение 3: 18.1–18.3)" author="alensav" url="" tags="proekts" ctime="20261101134037" dir="1793529637trhxdjk89k" file="text.html"/>
+    <record id="1793529696nrdjetm1ey" name="Руководство — Часть 2B из 4 (Дополнение 3: 18.4–18.6)" author="alensav" url="" tags="proekts" ctime="20261101134136" dir="1793529696nm5r3cb585" file="text.html"/>
+    <record id="1793529760q6n91nvhij" name="Руководство — Часть 2C из 4 (Мониторинг, watchdog и защита VPS)" author="alensav" url="" tags="proekts" ctime="20261101134240" dir="1793529760f79s631s4f" file="text.html"/>
    </recordtable>
   </node>
  </content>

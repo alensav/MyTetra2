@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'DejaVu Sans'; font-size:11pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:xx-large; font-weight:600; color:#000000;">Руководство — Часть 2C из 4 (Мониторинг, watchdog и защита VPS)</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Проект:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> proekts. Заметки: 1 (Части I–III), 2A (18.1–18.3), 2B (18.4–18.6), </span><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">2C</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> (эта).</span></p>
+<hr />
+<p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:x-large; font-weight:600; color:#000000;">📑 Содержание</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Часть V. Мониторинг, watchdog и защита VPS PROEKTS</span></p>
+<ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"><li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-1"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Общая схема контроля</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-2"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Мониторинг monitor_proekts.sh</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-3"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Watchdog SSHFS</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-4"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Схема SSHFS</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-5"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Защита SSH (fail2ban)</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-6"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">IPv6 отключён</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-7"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Типовые инциденты и что делать</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-8"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Быстрая диагностика — одна команда</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-9"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Регламент обслуживания</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-10"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Полезные команды — шпаргалка</span></a></li>
+<li style=" font-family:'Times New Roman'; font-size:medium; color:#000000;" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#mon-11"><span style=" font-size:medium; text-decoration: underline; color:#2980b9;">Контакты и доступы</span></a></li></ol>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="mon-1"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">1</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Общая схема контроля</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;">На VPS </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">proekts.alensav.ru</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> (78.17.187.53) работает </span><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">трёхуровневая система контроля</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;">:</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Уровень</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Инструмент</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Что делает</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Интервал</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">1. Мониторинг</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/root/scripts/monitor_proekts.sh</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">6 проверок + алерты в Telegram</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">5 мин</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">2. Watchdog SSHFS</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">cron-watchdog</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Перезапуск SSHFS при отвале</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">5 мин</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">3. Защита SSH</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">fail2ban</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Бан IP за 3 попытки на 24 часа</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">постоянно</span></p></td></tr></table>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top2c"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#mon-2"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Мониторинг</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="mon-2"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">2</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Мониторинг monitor_proekts.sh</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Расположение:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">/root/scripts/monitor_proekts.sh</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"><br /></span><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Запуск:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">/etc/cron.d/monitor-proekts</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> → </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">*/5 * * * * root /root/scripts/monitor_proekts.sh</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"><br /></span><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Лог:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">/var/log/monitor_proekts.log</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"><br /></span><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Алерты:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> Telegram-бот PROEKTS Alert, chat_id 115815272</span></p>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">#</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Проверка</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Условие алерта</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">1</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">check_site</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">HTTP ≠ 200</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">2</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">check_container</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">yookassa-to-mynalog не Up</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">3</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">check_sshfs</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">SSHFS не смонтирован или TEST.txt не читается</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">4</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">check_fns_queue</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Есть платежи в очереди ФНС</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">5</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">check_disk</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Занято &gt; 85%</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">6</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">check_load</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Load average &gt; 5</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Как читать лог:</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo tail -30 /var/log/monitor_proekts.log</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo grep &quot;ALERT&quot; /var/log/monitor_proekts.log | tail -20</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Норма:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> между </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">=== START ===</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> и </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">=== DONE ===</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> нет строк </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">ALERT</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;">.</span></p>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top2c"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#mon-1"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Общая схема</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#mon-3"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Watchdog SSHFS</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="mon-3"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">3</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Watchdog SSHFS</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Проблема:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> SSHFS-монтирование к orangepi может отваливаться при обрыве FRP-туннеля.</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Решение:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> cron-watchdog в root crontab:</span></p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">*/5 * * * * mountpoint -q /mnt/orangepi/Proekts || /bin/systemctl restart mnt-orangepi-proekts.service</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Проверить:</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo crontab -l | grep mountpoint</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">systemctl status mnt-orangepi-proekts.service --no-pager</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">mount | grep orangepi</span></pre>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top2c"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#mon-2"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Мониторинг</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#mon-4"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Схема SSHFS</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="mon-4"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">4</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Схема SSHFS</span></p>
+<pre style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">/mnt/external/Proekts  →  symlink  →  /mnt/orangepi/Proekts  →  SSHFS  →  orangepi:/mnt/external/Proekts</span></pre>
+<table border="1" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="0" cellpadding="4">
+<tr>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Путь</span></p></td>
+<td>
+<p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-weight:600;">Что это</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/mnt/external/Proekts</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Симлинк</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/mnt/orangepi/Proekts</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">Реальная точка SSHFS-монтирования</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">orangepi@127.0.0.1:2222</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">FRP-туннель к orangepi</span></p></td></tr>
+<tr>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">/root/.ssh/id_orange</span></p></td>
+<td>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman';">SSH-ключ для монтирования</span></p></td></tr></table>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Проверка:</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">ls -la /mnt/external/Proekts/TEST.txt</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo -u www-data test -r /mnt/external/Proekts/TEST.txt &amp;&amp; echo &quot;OK&quot; || echo &quot;FAIL&quot;</span></pre>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top2c"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#mon-3"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Watchdog</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#mon-5"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: Защита SSH</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="mon-5"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">5</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. Защита SSH (fail2ban)</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Файл:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">/etc/fail2ban/jail.d/sshd.local</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">[sshd]</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">enabled  = true</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">port     = ssh</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">filter   = sshd</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">backend  = systemd</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">maxretry = 3</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">findtime = 1h</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">bantime  = 24h</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">ignoreip = 127.0.0.1/8 ::1</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;">Плюс — SSH настроен только по ключам (</span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">PasswordAuthentication no</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;">).</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Проверка:</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo fail2ban-client status sshd</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo fail2ban-client banned</span></pre>
+<p align="right" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a href="#top2c"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬆️ В начало</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#mon-4"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">⬅️ Назад: Схема SSHFS</span></a><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> | </span><a href="#mon-6"><span style=" font-family:'Times New Roman'; font-size:medium; text-decoration: underline; color:#2980b9;">➡️ Вперёд: IPv6</span></a></p>
+<hr />
+<p style=" margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><a name="mon-6"></a><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">6</span><span style=" font-family:'Times New Roman'; font-size:large; font-weight:600; color:#000000;">. IPv6 отключён</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Файл:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">/etc/sysctl.d/99-disable-ipv6.conf</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">net.ipv6.conf.all.disable_ipv6 = 1</span></pre>
+<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">net.ipv6.conf.default.disable_ipv6 = 1</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">net.ipv6.conf.lo.disable_ipv6 = 1</span></pre>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Зачем:</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;"> nginx раньше ходил на </span><span style=" font-family:'Monospace'; font-size:medium; color:#000000;">[::1]:8040</span><span style=" font-family:'Times New Roman'; font-size:medium; color:#000000;">, IPv6 не работал → таймауты 1–3 сек. После отключения — сайт летает (138 ms локально, 802 ms снаружи).</span></p>
+<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman'; font-size:medium; font-weight:600; color:#000000;">Проверка:</span></p>
+<pre style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sysctl net.ipv6.conf.all.disable_ipv6   # = 1</span></pre>
+<pre style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Monospace'; color:#000000;">sudo grep -rn &quot;\[::1\]&quot; /etc/nginx/     # пусто</span></pre>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>
