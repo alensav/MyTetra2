@@ -2829,5 +2829,10 @@
     <record id="1793637546ool80jl7tz" name="Citilink" author="alensav" url="https://www.citilink.ru/order/" tags="Citilink" ctime="20261102193906" dir="1793637546cudwnemutu" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1794685454abua0pfaah" name="TexLive">
+   <recordtable>
+    <record id="1794685529b4xhk6kecu" name="Руководство пользователя TeX Live — 2021 " author="alensav" url="https://tug.org/texlive/doc/texlive-ru/texlive-ru.html#x1-30001.1" tags="Руководство пользователя TeX Live" ctime="20261114224529" dir="17946855290hjl62uceh" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
