@@ -2841,5 +2841,10 @@
     <record id="1795187500cum71ookg3" name="Aroz_OS_alensav" author="alensav" url="https://chat.qwen.ai/c/f012cab6-6698-4e75-8744-a43d1da31caa" tags="aroz" ctime="20261120181140" dir="1795187500gyeo4qqmoh" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1795358010k2fpdccnty" name="QuickPiperAudiobook">
+   <recordtable>
+    <record id="1795358076zw5ggio6fo" name="QuickPiperAudiobook — это отличный инструмент" author="alensav" url="https://chat.qwen.ai/c/9511a543-7ffe-4265-88d5-6da4f46d106d" tags="audio book" ctime="20261122173436" dir="1795358076p4f498h1wa" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
