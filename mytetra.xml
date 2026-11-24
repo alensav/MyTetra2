@@ -2850,6 +2850,7 @@
   <node crypt="" id="1795514127hksh0w0v81" name="GitHub_Copilot">
    <recordtable>
     <record id="1795514280bpe7ggdz2g" name="Cтруктурированная инструкция по максимально эффективному использованию этого инструмента." author="alensav" url="https://chat.qwen.ai/c/a3d48032-9c7a-41ee-bba1-8e727087ade1" tags="github copilot" ctime="20261124125800" dir="1795514280uwimeiiutr" file="text.html"/>
+    <record id="17955296555q2lj24dwf" name="Краткая памятка на будущее" author="alensav" url="https://chat.qwen.ai/c/a3d48032-9c7a-41ee-bba1-8e727087ade1" tags="copilot" ctime="20261124171415" dir="17955296555gjuixt967" file="text.html"/>
    </recordtable>
   </node>
  </content>
