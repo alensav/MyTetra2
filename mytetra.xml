@@ -2847,5 +2847,10 @@
     <record id="1795365260nfu9my10wm" name="Рабочая инструкция: Генерация аудиокниг " author="alensav" url="https://chat.qwen.ai/c/9511a543-7ffe-4265-88d5-6da4f46d106d" tags="Рабочая инструкция: Генерация аудиокниг" ctime="20261122193420" dir="1795365260tv1nr9t6dw" file="text.html"/>
    </recordtable>
   </node>
+  <node crypt="" id="1795514127hksh0w0v81" name="GitHub_Copilot">
+   <recordtable>
+    <record id="1795514280bpe7ggdz2g" name="Cтруктурированная инструкция по максимально эффективному использованию этого инструмента." author="alensav" url="https://chat.qwen.ai/c/a3d48032-9c7a-41ee-bba1-8e727087ade1" tags="github copilot" ctime="20261124125800" dir="1795514280uwimeiiutr" file="text.html"/>
+   </recordtable>
+  </node>
  </content>
 </root>
