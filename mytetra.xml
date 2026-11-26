@@ -2829,35 +2829,6 @@
     <record id="1793637546ool80jl7tz" name="Citilink" author="alensav" url="https://www.citilink.ru/order/" tags="Citilink" ctime="20261102193906" dir="1793637546cudwnemutu" file="text.html"/>
    </recordtable>
   </node>
-<<<<<<< HEAD
-  <node crypt="1" icon="" id="179459910275gz9kdtgo" name="UkM1U0lNUAPHNV17jYDeE+IMyPNh7hteb0MxxojB9zdPpImxAhM1zkRgPZnyCjb/">
-   <recordtable>
-    <record id="1794599175j9u7hax98l" name="UkM1U0lNUAMj+cCFHgrO3sAF7VQ7OXk7sxZS9e9nj06wqi86DnEbHwZkaqO5Q7cl" author="UkM1U0lNUAPYedofh1qwcvSih/KbTliDB3ReqK2eHwrM7TdHimFJF0a29voeZTr9" url="" tags="UkM1U0lNUAPbFcAkeO5qzEtZUczuzzWa5G1rUuL/fQ/vFhe4W2A9d+C98q2oL/nQ" ctime="20261113224615" dir="1794599175q0hykwzxbz" file="text.html" crypt="1"/>
-=======
-  <node crypt="" id="1794685454abua0pfaah" name="TexLive">
-   <recordtable>
-    <record id="1794685529b4xhk6kecu" name="Руководство пользователя TeX Live — 2021 " author="alensav" url="https://tug.org/texlive/doc/texlive-ru/texlive-ru.html#x1-30001.1" tags="Руководство пользователя TeX Live" ctime="20261114224529" dir="17946855290hjl62uceh" file="text.html"/>
-    <record id="17946856700ddji2ltyx" name="TeX Live" author="alensav" url="https://tug.org/texlive/" tags="TeX Live" ctime="20261114224750" dir="17946856701d5ykjfqpd" file="text.html"/>
-    <record id="1794737994u55obkw0pg" name="Официальное руководство TeX Live (уже установлено)" author="alensav" url="https://chat.deepseek.com/a/chat/s/8aed8b5a-56fb-459b-a82e-43fba4379e04" tags="Официальное руководство TeX Live" ctime="20261115131954" dir="1794737994qlzw46e2ji" file="text.html"/>
-   </recordtable>
-  </node>
-  <node crypt="" id="17951874028maevoijw1" name="ArozOS">
-   <recordtable>
-    <record id="1795187500cum71ookg3" name="Aroz_OS_alensav" author="alensav" url="https://chat.qwen.ai/c/f012cab6-6698-4e75-8744-a43d1da31caa" tags="aroz" ctime="20261120181140" dir="1795187500gyeo4qqmoh" file="text.html"/>
-   </recordtable>
-  </node>
-  <node crypt="" id="1795358010k2fpdccnty" name="QuickPiperAudiobook">
-   <recordtable>
-    <record id="1795358076zw5ggio6fo" name="QuickPiperAudiobook — это отличный инструмент" author="alensav" url="https://chat.qwen.ai/c/9511a543-7ffe-4265-88d5-6da4f46d106d" tags="audio book" ctime="20261122173436" dir="1795358076p4f498h1wa" file="text.html"/>
-    <record id="1795365260nfu9my10wm" name="Рабочая инструкция: Генерация аудиокниг " author="alensav" url="https://chat.qwen.ai/c/9511a543-7ffe-4265-88d5-6da4f46d106d" tags="Рабочая инструкция: Генерация аудиокниг" ctime="20261122193420" dir="1795365260tv1nr9t6dw" file="text.html"/>
-   </recordtable>
-  </node>
-  <node crypt="" id="1795514127hksh0w0v81" name="GitHub_Copilot">
-   <recordtable>
-    <record id="1795514280bpe7ggdz2g" name="Cтруктурированная инструкция по максимально эффективному использованию этого инструмента." author="alensav" url="https://chat.qwen.ai/c/a3d48032-9c7a-41ee-bba1-8e727087ade1" tags="github copilot" ctime="20261124125800" dir="1795514280uwimeiiutr" file="text.html"/>
-    <record id="17955296555q2lj24dwf" name="Краткая памятка на будущее" author="alensav" url="https://chat.qwen.ai/c/a3d48032-9c7a-41ee-bba1-8e727087ade1" tags="copilot" ctime="20261124171415" dir="17955296555gjuixt967" file="text.html"/>
->>>>>>> 81615b41b3e9ae2a9e61eacb52e4af4a51fcf276
-   </recordtable>
-  </node>
+  <node crypt="1" icon="" id="179459910275gz9kdtgo" name="UkM1U0lNUAPHNV17jYDeE+IMyPNh7hteb0MxxojB9zdPpImxAhM1zkRgPZnyCjb/"/>
  </content>
 </root>
