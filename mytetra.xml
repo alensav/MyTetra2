@@ -1935,11 +1935,7 @@
     <record id="17707144095wivmohsn3" name="LXD 2.0." author="alensav" url="https://vasilisc.com/lxd-2-0-series" tags="LXD 2.0." ctime="20260210120649" dir="1770714409umlepte8gg" file="text.html"/>
    </recordtable>
   </node>
-  <node crypt="" icon="" id="1708872006gfp9xsdnz3" name="CLOUD_PANEL">
-   <recordtable>
-    <record id="17088720734619crnpij" name="Cloud_Panel_SAV" author="alensav" url="https://fornex.com/ru/help/cloud-panel/" tags="cloud panel" ctime="20240225174113" dir="17088720734qpiml8061" file="text.html"/>
-   </recordtable>
-  </node>
+  <node crypt="" icon="" id="1708872006gfp9xsdnz3" name="CLOUD_PANEL"/>
   <node crypt="" icon="" id="17097499295papp6oldg" name="SAV">
    <recordtable>
     <record id="1709750030plwf46mbje" name="Гайд Для Новичков Arduino" author="alensav" url="https://alexgyver.ru/arduino-first/#%E2%96%B6%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B_AlexGyver%E2%97%80" tags="Гайд Для Новичков Arduino" ctime="20240306213350" dir="1709750030znjffcbp6f" file="text.html"/>
@@ -2818,7 +2814,7 @@
     <record id="1793529696nrdjetm1ey" name="UkM1U0lNUAMgPbEqwQfyjJHC1Y8kT6DKfAyd3NijrdjrAfy031Hl+cvsh0my/ppZLrx6UgMfrZiSdcpnzgOPaVj68FJWTj1BZlOMs7+2uUGJBsOt3dRjuRpVS0aYQDCdZeP03mpi5PmeMJrykZJMHO9+kFsbKeULK4Z4hreo4N0=" author="UkM1U0lNUAOr4A41AEvnKwYWwUIPV6VqVmAKo9Rrjm5jFWMmZTK1dL40vn/b8bnE" url="" tags="UkM1U0lNUAN3+KI+8xjp02ftIc4B0sdxF6FecUPR/FQbxMYn1PET31oikiwHAjE+" ctime="20261101134136" dir="1793529696nm5r3cb585" file="text.html" crypt="1"/>
     <record id="1793529760q6n91nvhij" name="UkM1U0lNUAPwWipLtT4mb7rVk/zXBIGMthgTYRK4jqnVrdNxV5noi2UnnhQNiLXpg4BcBG/5JLHm8dCqRzAFjSR+2bYeS6D7ReUcAG3F2T5SjxUazTWv9faeY8OvF7CmygHC/D8RcWguptg/UGPzFNRhP1A+siZ0AVN96dV4Rg7+QmsSsgiHib9h8AyroMvJ" author="UkM1U0lNUAM+I+0ufRd5MvO2Xq8G8Bo07snZcm/fcfjMBt97JS27f46Wwu0ba5wR" url="" tags="UkM1U0lNUAMusrDgbyoekuMEeGi7KE9QIqeZE5ECAxeTg2sNQ8OqY8pChqfXX6/P" ctime="20261101134240" dir="1793529760f79s631s4f" file="text.html" crypt="1"/>
     <record id="1793529844tqvaq2ujsm" name="UkM1U0lNUAOsC5UGAKesC0Iwu5GPxDJShmczBBUeybw1IXJxtlw+AlCvSwIH/M+z6P9ipWUfVEX1Mr5ltZD7+hcRpD1NlfkHWAwLsFYtp4/nvSsnu61cSkhYjpEjgfEfb5iugg9iow6vFvwgog6d7JeOIINlrW++9InyNnykQPH4qpv3cDNN38XI1+hg1b2i" author="UkM1U0lNUAMpY/vVbpDcbibv3CzjHWz4cFDFWDScWrgp1K4Hdt5kFsBfumzBlXIW" url="" tags="UkM1U0lNUAMI5r4lMzFOlvgjx8E1mdsRUFgf/NNpGqIjA8DOWqEC9VLc/jXY7+ZQ" ctime="20261101134404" dir="1793529844zy2oazqvyf" file="text.html" crypt="1"/>
-    <record id="1793529926jr7grhpgm1" name="UkM1U0lNUAP489lRIwUpB0dv083HXvS5dfM1R2fyHmynCfcywRj1Rw3EixF5nVggupDUgMUr78RmpFtpR93kWJdauqhgM/Ji0UsXliTg3Fh10yyqjXi/KUHt1+soTLhz2vTqGs357bE=" author="UkM1U0lNUAPsBQrFVy7KgA5ryVC3v7zZpb83BDRR2a4RI6LWSuZT5SmERzG9G5s9" url="" tags="UkM1U0lNUAMcvXt9ypJpzzUHcMw1FSuj385hLxalUtqSEkQvMcvgMepgWeDQDF4X" ctime="20261101134526" dir="17935299263uw7xuty7w" file="text.html" crypt="1"/>
+    <record id="1793529926jr7grhpgm1" name="UkM1U0lNUAP489lRIwUpB0dv083HXvS5dfM1R2fyHmynCfcywRj1Rw3EixF5nVggupDUgMUr78RmpFtpR93kWJdauqhgM/Ji0UsXliTg3Fh10yyqjXi/KUHt1+soTLhz2vTqGs357bE=" author="UkM1U0lNUAPsBQrFVy7KgA5ryVC3v7zZpb83BDRR2a4RI6LWSuZT5SmERzG9G5s9" url="" tags="UkM1U0lNUAMcvXt9ypJpzzUHcMw1FSuj385hLxalUtqSEkQvMcvgMepgWeDQDF4X" ctime="20261101134526" dir="17935299263uw7xuty7w" file="text.html" crypt="1" block="1"/>
     <record id="1793530035avmetjmgm6" name="UkM1U0lNUAMerbz+T28lIDuOJ+jndTRjWDFHiBxIKWAbSIx70KTsUlBryR499xISag/17+BHDFcxc9KPDI8SQ/N0fLWRTk5pRvpH3u6trHKJXUFD0uErgRKQztBUWns/" author="UkM1U0lNUAMWMc7Yh+DkpUnMJapp945nVtpHXz6I7C40hg5RddNpvlGtSd8gLQRf" url="" tags="UkM1U0lNUAO9WCuIS0iffAnkMis5L+FnGIthqNwjSAwN4SvwbhGfUZ+tDF79jxEY" ctime="20261101134715" dir="1793530035yal7fahz0j" file="text.html" crypt="1"/>
    </recordtable>
   </node>
